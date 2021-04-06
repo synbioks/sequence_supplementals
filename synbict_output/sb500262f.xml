@@ -1,0 +1,64 @@
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:sbol="http://sbols.org/v2#" xmlns:ns0="http://www.w3.org/ns/prov#" xmlns:ns1="http://purl.org/dc/terms/" xmlns:ns2="http://purl.obolibrary.org/obo/" xmlns:ns3="http://wiki.synbiohub.org/wiki/Terms/synbiohub#" xmlns:ns4="http://purl.org/dc/elements/1.1/">
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb500262f_2_sequence/1">
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb500262f_2_sequence"/>
+    <sbol:version>1</sbol:version>
+    <sbol:displayId>sb500262f_2_sequence</sbol:displayId>
+    <sbol:elements>aattgtgagcggataacaattgacattgtgagcggataacaagatactgagcacatcagcaggacgcactgacc</sbol:elements>
+  </sbol:Sequence>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb500262f_1_comp/1">
+    <sbol:displayId>sb500262f_1_comp</sbol:displayId>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb500262f_1_comp"/>
+    <sbol:version>1</sbol:version>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb500262f_1_sequence/1"/>
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/sb500262f"/>
+  </sbol:ComponentDefinition>
+  <sbol:Collection rdf:about="http://examples.org/Collection/sb500262f/1">
+    <sbol:displayId>sb500262f</sbol:displayId>
+    <ns1:isPartOf rdf:resource="http://pubs.acs.org/journal/asbcd6"/>
+    <ns1:type rdf:resource="http://purl.org/dc/dcmitype/Text"/>
+    <ns2:OBI_0001617>25035932</ns2:OBI_0001617>
+    <ns1:dateSubmitted>2014-06-12</ns1:dateSubmitted>
+    <ns3:ownedBy rdf:resource="https://synbioks.org/user/myers"/>
+    <ns4:rights>Copyright &#169; 2014 American Chemical
+Society</ns4:rights>
+    <ns4:type>rapid-communication</ns4:type>
+    <ns4:publisher>American Chemical
+Society</ns4:publisher>
+    <ns2:OBI_0002110>10.1021/sb500262f</ns2:OBI_0002110>
+    <sbol:member rdf:resource="http://examples.org/Sequence/sb500262f_2_sequence/1"/>
+    <ns1:references>Xie, Z., Wroblewska, L., Prochazka, L., Weiss, R., Benenson, Y. Multi-input RNAi-based logic circuit for identification of specific cancer cells Science 2011. 333:1307-1311.</ns1:references>
+    <sbol:version>1</sbol:version>
+    <ns1:rightsHolder>American Chemical
+Society</ns1:rightsHolder>
+    <ns1:abstract>In prokaryotes, the construction of synthetic, multi-input promoters is constrained by the number of transcription factors that can simultaneously regulate a single promoter. This fundamental engineering constraint is an obstacle to synthetic biologists because it limits the computational capacity of engineered gene circuits. Here, we demonstrate that complex multi-input transcriptional logic gating can be achieved through the use of ligand-inducible chimeric transcription factors assembled from the LacI/GalR family. These modular chimeras each contain a ligand-binding domain and a DNA-binding domain, both of which are chosen from a library of possibilities. When two or more chimeras have the same DNA-binding domain, they independently and simultaneously regulate any promoter containing the appropriate operator site. In this manner, simple transcriptional AND gating is possible through the combination of two chimeras, and multiple-input AND gating is possible with the simultaneous use of three or even four chimeras. Furthermore, we demonstrate that orthogonal DNA-binding domains and their cognate operators allow the coexpression of multiple, orthogonal AND gates. Altogether, this work provides synthetic biologists with novel, ligand-inducible logic gates and greatly expands the possibilities for engineering complex synthetic gene circuits.</ns1:abstract>
+    <ns3:topLevel rdf:resource="https://synbioks.org/public/ACS/sb500262f/1"/>
+    <ns1:description>In prokaryotes, the construction of synthetic, multi-input promoters is constrained by the number of transcription factors that can simultaneously regulate a single promoter. This fundamental engineering constraint is an obstacle to synthetic biologists because it limits the computational capacity of engineered gene circuits. Here, we demonstrate that complex multi-input transcriptional logic gating can be achieved through the use of ligand-inducible chimeric transcription factors assembled from the LacI/GalR family. These modular chimeras each contain a ligand-binding domain and a DNA-binding domain, both of which are chosen from a library of possibilities. When two or more chimeras have the same DNA-binding domain, they independently and simultaneously regulate any promoter containing the appropriate operator site. In this manner, simple transcriptional AND gating is possible through the combination of two chimeras, and multiple-input AND gating is possible with the simultaneous use of three or even four chimeras. Furthermore, we demonstrate that orthogonal DNA-binding domains and their cognate operators allow the coexpression of multiple, orthogonal AND gates. Altogether, this work provides synthetic biologists with novel, ligand-inducible logic gates and greatly expands the possibilities for engineering complex synthetic gene circuits.</ns1:description>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Collection/sb500262f"/>
+    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb500262f_2_comp/1"/>
+    <ns4:creator>Sarah Meinhardt</ns4:creator>
+    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb500262f_1_comp/1"/>
+    <ns1:created>2014-07-18</ns1:created>
+    <sbol:member rdf:resource="http://examples.org/Sequence/sb500262f_1_sequence/1"/>
+    <ns1:dateAccepted>2014-07-18</ns1:dateAccepted>
+    <ns1:dateCopyrighted>2014</ns1:dateCopyrighted>
+  </sbol:Collection>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb500262f_2_comp/1">
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/sb500262f"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb500262f_2_comp"/>
+    <sbol:displayId>sb500262f_2_comp</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb500262f_2_sequence/1"/>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+  </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb500262f_1_sequence/1">
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb500262f_1_sequence"/>
+    <sbol:displayId>sb500262f_1_sequence</sbol:displayId>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:elements>aattttaagcggcttaaaattgacattttaagcggccttaaaatgatactgagcacatcagcaggacgcactgacc</sbol:elements>
+    <sbol:version>1</sbol:version>
+  </sbol:Sequence>
+</rdf:RDF>

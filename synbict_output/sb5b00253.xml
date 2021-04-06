@@ -1,0 +1,65 @@
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:sbol="http://sbols.org/v2#" xmlns:ns0="http://www.w3.org/ns/prov#" xmlns:ns1="http://purl.org/dc/terms/" xmlns:ns2="http://purl.obolibrary.org/obo/" xmlns:ns3="http://purl.org/dc/elements/1.1/" xmlns:ns4="http://wiki.synbiohub.org/wiki/Terms/synbiohub#">
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb5b00253_2_sequence/1">
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb5b00253_2_sequence"/>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:version>1</sbol:version>
+    <sbol:displayId>sb5b00253_2_sequence</sbol:displayId>
+    <sbol:elements>gggccgtcatagctgtttcctgtgtgaaa</sbol:elements>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb5b00253_1_sequence/1">
+    <sbol:displayId>sb5b00253_1_sequence</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <sbol:elements>gataatacgactcactatagggcaa</sbol:elements>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb5b00253_1_sequence"/>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+  </sbol:Sequence>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb5b00253_1_comp/1">
+    <sbol:displayId>sb5b00253_1_comp</sbol:displayId>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb5b00253_1_sequence/1"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb5b00253_1_comp"/>
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.5b00253"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:version>1</sbol:version>
+  </sbol:ComponentDefinition>
+  <sbol:Collection rdf:about="http://examples.org/Collection/sb5b00253/1">
+    <ns1:dateCopyrighted>2016</ns1:dateCopyrighted>
+    <ns1:description>Genetic alphabet expansion of DNA using an artificial extra base pair (unnatural base pair) could augment nucleic acid and protein functionalities by increasing their components. We previously developed an unnatural base pair between 7-(2-thienyl)-imidazo&#173;[4,5-b]&#173;pyridine (Ds) and 2-nitro-4-propynylpyrrole (Px), which exhibits high fidelity as a third base pair in PCR amplification. Here, the fidelity and efficiency of Ds&#8211;Px pairing using modified Px bases with functional groups, such as diol, azide, ethynyl and biotin, were evaluated by an improved method with optimized PCR conditions. The results revealed that all of the base pairs between Ds and either one of the modified Px bases functioned with high amplification efficiency (0.76&#8211;0.81), high selectivity (&#8805;99.96% per doubling), and less sequence dependency, in PCR using 3&#8242;-exonuclease-proficient Deep Vent DNA polymerase. We also demonstrated that the azide-Px in PCR-amplified DNA was efficiently modified with any functional groups by copper-free click reaction. This genetic alphabet expansion system could endow nucleic acids with a wide variety of increased functionalities by the site-specific incorporation of modified Px bases at desired positions in DNA.</ns1:description>
+    <ns1:isPartOf rdf:resource="http://pubs.acs.org/journal/asbcd6"/>
+    <ns2:OBI_0001617>26814421</ns2:OBI_0001617>
+    <ns1:abstract>Genetic alphabet expansion of DNA using an artificial extra base pair (unnatural base pair) could augment nucleic acid and protein functionalities by increasing their components. We previously developed an unnatural base pair between 7-(2-thienyl)-imidazo&#173;[4,5-b]&#173;pyridine (Ds) and 2-nitro-4-propynylpyrrole (Px), which exhibits high fidelity as a third base pair in PCR amplification. Here, the fidelity and efficiency of Ds&#8211;Px pairing using modified Px bases with functional groups, such as diol, azide, ethynyl and biotin, were evaluated by an improved method with optimized PCR conditions. The results revealed that all of the base pairs between Ds and either one of the modified Px bases functioned with high amplification efficiency (0.76&#8211;0.81), high selectivity (&#8805;99.96% per doubling), and less sequence dependency, in PCR using 3&#8242;-exonuclease-proficient Deep Vent DNA polymerase. We also demonstrated that the azide-Px in PCR-amplified DNA was efficiently modified with any functional groups by copper-free click reaction. This genetic alphabet expansion system could endow nucleic acids with a wide variety of increased functionalities by the site-specific incorporation of modified Px bases at desired positions in DNA.</ns1:abstract>
+    <ns3:publisher>American Chemical
+Society</ns3:publisher>
+    <ns4:topLevel rdf:resource="https://synbioks.org/public/ACS/sb5b00253/1"/>
+    <sbol:member rdf:resource="http://examples.org/Sequence/sb5b00253_1_sequence/1"/>
+    <ns3:rights>Copyright &#169; 2016 American
+Chemical Society</ns3:rights>
+    <ns1:created>2016-01-26</ns1:created>
+    <sbol:displayId>sb5b00253</sbol:displayId>
+    <ns1:references>Zhang, L., Yang, Z., Sefah, K., Bradley, K. M., Hoshika, S., Kim, M. J., Kim, H. J., Zhu, G., Jimenez, E., Cansiz, S., Teng, I. T., Champanhac, C., McLendon, C., Liu, C., Zhang, W., Gerloff, D. L., Huang, Z., Tan, W., Benner, S. A. Evolution of functional six-nucleotide DNA J. Am. Chem. Soc. 2015. 137:6734-6737.</ns1:references>
+    <ns1:type rdf:resource="http://purl.org/dc/dcmitype/Text"/>
+    <ns1:dateAccepted>2016-01-26</ns1:dateAccepted>
+    <ns1:rightsHolder>American
+Chemical Society</ns1:rightsHolder>
+    <ns3:subject>xenobiology</ns3:subject>
+    <ns2:OBI_0002110>10.1021/acssynbio.5b00253</ns2:OBI_0002110>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Collection/sb5b00253"/>
+    <sbol:member rdf:resource="http://examples.org/Sequence/sb5b00253_2_sequence/1"/>
+    <sbol:version>1</sbol:version>
+    <ns4:ownedBy rdf:resource="https://synbioks.org/user/myers"/>
+    <ns3:type>research-article</ns3:type>
+    <ns3:creator>Yuya Miyatake</ns3:creator>
+    <ns1:dateSubmitted>2015-11-27</ns1:dateSubmitted>
+    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb5b00253_2_comp/1"/>
+    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb5b00253_1_comp/1"/>
+  </sbol:Collection>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb5b00253_2_comp/1">
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.5b00253"/>
+    <sbol:displayId>sb5b00253_2_comp</sbol:displayId>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb5b00253_2_comp"/>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb5b00253_2_sequence/1"/>
+    <sbol:version>1</sbol:version>
+  </sbol:ComponentDefinition>
+</rdf:RDF>

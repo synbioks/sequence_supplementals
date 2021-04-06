@@ -1,0 +1,100 @@
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:sbol="http://sbols.org/v2#" xmlns:ns0="http://purl.obolibrary.org/obo/" xmlns:ns1="http://purl.org/dc/elements/1.1/" xmlns:ns2="http://www.w3.org/ns/prov#" xmlns:ns3="http://wiki.synbiohub.org/wiki/Terms/synbiohub#" xmlns:ns4="http://purl.org/dc/terms/">
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb300042w_1_sequence/1">
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb300042w_1_sequence"/>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:displayId>sb300042w_1_sequence</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <sbol:elements>gggccccagagcgttgccatctgtt</sbol:elements>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb300042w_4_sequence/1">
+    <sbol:version>1</sbol:version>
+    <sbol:displayId>sb300042w_4_sequence</sbol:displayId>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb300042w_4_sequence"/>
+    <sbol:elements>cagagagagtttaccgaagccaacatcctcgagctgcagaccggcaccaggaccagaaatatc</sbol:elements>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+  </sbol:Sequence>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb300042w_4_comp/1">
+    <ns2:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb300042w_4_sequence/1"/>
+    <sbol:version>1</sbol:version>
+    <ns2:wasDerivedFrom rdf:resource="https://doi.org/10.1021/sb300042w"/>
+    <sbol:displayId>sb300042w_4_comp</sbol:displayId>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb300042w_4_comp"/>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb300042w_2_comp/1">
+    <ns2:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb300042w_2_sequence/1"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb300042w_2_comp"/>
+    <sbol:version>1</sbol:version>
+    <ns2:wasDerivedFrom rdf:resource="https://doi.org/10.1021/sb300042w"/>
+    <sbol:displayId>sb300042w_2_comp</sbol:displayId>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+  </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb300042w_2_sequence/1">
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb300042w_2_sequence"/>
+    <sbol:version>1</sbol:version>
+    <sbol:elements>cgagctcatccggcctacatttgacag</sbol:elements>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:displayId>sb300042w_2_sequence</sbol:displayId>
+  </sbol:Sequence>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb300042w_3_comp/1">
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb300042w_3_comp"/>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb300042w_3_sequence/1"/>
+    <sbol:version>1</sbol:version>
+    <sbol:displayId>sb300042w_3_comp</sbol:displayId>
+    <ns2:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <ns2:wasDerivedFrom rdf:resource="https://doi.org/10.1021/sb300042w"/>
+  </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb300042w_3_sequence/1">
+    <sbol:version>1</sbol:version>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb300042w_3_sequence"/>
+    <sbol:elements>gatatttctggtcctggtgccggtctgcagctcgaggatgttggcttcggtaaactctctctg</sbol:elements>
+    <sbol:displayId>sb300042w_3_sequence</sbol:displayId>
+  </sbol:Sequence>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb300042w_1_comp/1">
+    <ns2:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <ns2:wasDerivedFrom rdf:resource="https://doi.org/10.1021/sb300042w"/>
+    <sbol:displayId>sb300042w_1_comp</sbol:displayId>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb300042w_1_sequence/1"/>
+    <sbol:version>1</sbol:version>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb300042w_1_comp"/>
+  </sbol:ComponentDefinition>
+  <sbol:Collection rdf:about="http://examples.org/Collection/sb300042w/1">
+    <ns0:OBI_0001617>23656372</ns0:OBI_0001617>
+    <ns1:creator>Jeffrey A. Gralnick</ns1:creator>
+    <ns3:topLevel rdf:resource="https://synbioks.org/public/ACS/sb300042w/1"/>
+    <sbol:member rdf:resource="http://examples.org/Sequence/sb300042w_4_sequence/1"/>
+    <ns4:created>2012-08-09</ns4:created>
+    <ns4:dateSubmitted>2012-04-29</ns4:dateSubmitted>
+    <sbol:member rdf:resource="http://examples.org/Sequence/sb300042w_3_sequence/1"/>
+    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb300042w_2_comp/1"/>
+    <ns4:dateCopyrighted>2012</ns4:dateCopyrighted>
+    <ns1:subject>metal reduction</ns1:subject>
+    <ns4:description>Growth in three-electrode electrochemical cells allows quantitative analysis of mechanisms involved in electron flow from dissimilatory metal reducing bacteria to insoluble electron acceptors. In these systems, gold electrodes are a desirable surface to study the electrophysiology of extracellular respiration, yet previous research has shown that certain Shewanella species are unable to form productive biofilms on gold electrodes. To engineer attachment of Shewanella oneidensis to gold, five repeating units of a synthetic gold-binding peptide (5rGBP) were integrated within an Escherichia coli outer membrane protein, LamB, and displayed on the outer surface of S. oneidensis. Expression of LamB-5rGBP increased cellular attachment of S. oneidensis to unpoised gold surfaces but was also associated with the loss of certain outer membrane proteins required for extracellular respiration. Loss of these outer membrane proteins during expression of LamB-5rGBP decreased the rate at which S. oneidensis was able to reduce insoluble iron, riboflavin, and electrodes. Moreover, poising the gold electrode resulted in repulsion of the engineered cells. This study provides a strategy to specifically immobilize bacteria to electrodes while also outlining challenges involved in merging synthetic biology approaches with native cellular pathways and cell surface charge.</ns4:description>
+    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb300042w_1_comp/1"/>
+    <ns3:ownedBy rdf:resource="https://synbioks.org/user/myers"/>
+    <ns1:rights>Copyright &#169; 2012 American Chemical Society</ns1:rights>
+    <ns4:references>von
+Canstein, H., Ogawa, J., Shimizu, S., Lloyd, J. R. Secretion of flavins by Shewanella species and their role in extracellular electron transfer Appl. Environ. Microbiol. 2008. 74:615-623.</ns4:references>
+    <ns0:OBI_0002110>10.1021/sb300042w</ns0:OBI_0002110>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Collection/sb300042w"/>
+    <ns1:type>research-article</ns1:type>
+    <sbol:version>1</sbol:version>
+    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb300042w_4_comp/1"/>
+    <ns4:type rdf:resource="http://purl.org/dc/dcmitype/Text"/>
+    <ns4:rightsHolder>American Chemical Society</ns4:rightsHolder>
+    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb300042w_3_comp/1"/>
+    <ns4:dateAccepted>2012-08-09</ns4:dateAccepted>
+    <ns4:abstract>Growth in three-electrode electrochemical cells allows quantitative analysis of mechanisms involved in electron flow from dissimilatory metal reducing bacteria to insoluble electron acceptors. In these systems, gold electrodes are a desirable surface to study the electrophysiology of extracellular respiration, yet previous research has shown that certain Shewanella species are unable to form productive biofilms on gold electrodes. To engineer attachment of Shewanella oneidensis to gold, five repeating units of a synthetic gold-binding peptide (5rGBP) were integrated within an Escherichia coli outer membrane protein, LamB, and displayed on the outer surface of S. oneidensis. Expression of LamB-5rGBP increased cellular attachment of S. oneidensis to unpoised gold surfaces but was also associated with the loss of certain outer membrane proteins required for extracellular respiration. Loss of these outer membrane proteins during expression of LamB-5rGBP decreased the rate at which S. oneidensis was able to reduce insoluble iron, riboflavin, and electrodes. Moreover, poising the gold electrode resulted in repulsion of the engineered cells. This study provides a strategy to specifically immobilize bacteria to electrodes while also outlining challenges involved in merging synthetic biology approaches with native cellular pathways and cell surface charge.</ns4:abstract>
+    <ns1:publisher>American Chemical
+Society</ns1:publisher>
+    <ns4:isPartOf rdf:resource="http://pubs.acs.org/journal/asbcd6"/>
+    <sbol:displayId>sb300042w</sbol:displayId>
+    <sbol:member rdf:resource="http://examples.org/Sequence/sb300042w_2_sequence/1"/>
+    <sbol:member rdf:resource="http://examples.org/Sequence/sb300042w_1_sequence/1"/>
+  </sbol:Collection>
+</rdf:RDF>

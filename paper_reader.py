@@ -77,7 +77,7 @@ for ind, paper in enumerate(papers_json['attachments']):
                 setattr(paper_collect,f'an{ind1}',sbol2.TextProperty(paper_collect, an['name'], 0, 1,[]))
                 setattr(paper_collect,f'an{ind1}',an['value'])
         annotated_doc.addCollection(paper_collect)
-        try:
+        if os.path.isfile(file_path):
             with open(file_path) as file:
                 # print(file.read())
                 
@@ -90,10 +90,10 @@ for ind, paper in enumerate(papers_json['attachments']):
             #paper displayid
             #paper annotations
             
-        except:
+        # except:
             # print(f'{file_name} does not exist')
-            dont_exist+=1
-            dont_exist_list.append(file_name)
+            # dont_exist+=1
+            # dont_exist_list.append(file_name)
 
 print(dont_exist, exist)#weird there seem to be papers missing as have 826 sequences but only 799 are matching to papers
 # print(exist_list)

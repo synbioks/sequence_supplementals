@@ -1,0 +1,45 @@
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:sbol="http://sbols.org/v2#" xmlns:ns0="http://purl.org/dc/terms/" xmlns:ns1="http://wiki.synbiohub.org/wiki/Terms/synbiohub#" xmlns:ns2="http://www.w3.org/ns/prov#" xmlns:ns3="http://purl.org/dc/elements/1.1/" xmlns:ns4="http://purl.obolibrary.org/obo/">
+  <sbol:Collection rdf:about="http://examples.org/Collection/sb8b00146/1">
+    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb8b00146_1_comp/1"/>
+    <ns0:references>von
+Roon, A. C., Karamountzos, L., Purkayastha, S., Reese, G. E., Darzi, A. W., Teare, J. P., Paraskeva, P., Tekkis, P. P. Diagnostic Precision of Fecal Calprotectin for Inflammatory Bowel Disease and Colorectal Malignancy Am. J. Gastroenterol. 2007. 102:803-813.</ns0:references>
+    <ns1:topLevel rdf:resource="https://synbioks.org/public/ACS/sb8b00146/1"/>
+    <sbol:member rdf:resource="http://examples.org/Sequence/sb8b00146_1_sequence/1"/>
+    <ns3:subject>synthetic biology</ns3:subject>
+    <ns0:dateSubmitted>2018-04-03</ns0:dateSubmitted>
+    <ns0:rightsHolder>American Chemical Society</ns0:rightsHolder>
+    <ns4:OBI_0002110>10.1021/acssynbio.8b00146</ns4:OBI_0002110>
+    <ns0:description>We generated &#8220;sentinel&#8221; bacteria that respond to the biomarker nitric oxide (NO) and produce a homogeneous and strong fluorescent response. Our dual-plasmid system consists of a signal &#8220;relay&#8221; vector that employs an NO-responsive promoter that amplifies the native signal (via expression of T7 Polymerase (T7Pol)) to a second vector responsible for GFP expression. Importantly, to achieve an optimal &#8220;sentinel&#8221; response, we developed strategies that balance the transcriptional load within cells by altering (i) translation and (ii) activity of the T7Pol. Our optimized genetic circuitry was then used to transform commensal E.&#160;coli Nissle, as a proof-of-concept toward an ingestible cell-based sensor for Crohn&#8217;s disease (CD) that, in turn, is marked by elevated levels of intestinal NO. Thus, the &#8220;biosensors&#8221; demonstrated here may serve as a simple diagnostic tool, contrasting the standard of care including colonoscopies or biopsies.</ns0:description>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Collection/sb8b00146"/>
+    <ns3:publisher>American Chemical
+Society</ns3:publisher>
+    <sbol:version>1</sbol:version>
+    <ns1:ownedBy rdf:resource="https://synbioks.org/user/myers"/>
+    <ns3:creator>William E. Bentley</ns3:creator>
+    <ns3:type>rapid-communication</ns3:type>
+    <ns0:type rdf:resource="http://purl.org/dc/dcmitype/Text"/>
+    <sbol:displayId>sb8b00146</sbol:displayId>
+    <ns0:dateCopyrighted>2018</ns0:dateCopyrighted>
+    <ns0:dateAccepted>2018-07-05</ns0:dateAccepted>
+    <ns0:isPartOf rdf:resource="http://pubs.acs.org/journal/asbcd6"/>
+    <ns0:abstract>We generated &#8220;sentinel&#8221; bacteria that respond to the biomarker nitric oxide (NO) and produce a homogeneous and strong fluorescent response. Our dual-plasmid system consists of a signal &#8220;relay&#8221; vector that employs an NO-responsive promoter that amplifies the native signal (via expression of T7 Polymerase (T7Pol)) to a second vector responsible for GFP expression. Importantly, to achieve an optimal &#8220;sentinel&#8221; response, we developed strategies that balance the transcriptional load within cells by altering (i) translation and (ii) activity of the T7Pol. Our optimized genetic circuitry was then used to transform commensal E.&#160;coli Nissle, as a proof-of-concept toward an ingestible cell-based sensor for Crohn&#8217;s disease (CD) that, in turn, is marked by elevated levels of intestinal NO. Thus, the &#8220;biosensors&#8221; demonstrated here may serve as a simple diagnostic tool, contrasting the standard of care including colonoscopies or biopsies.</ns0:abstract>
+    <ns4:OBI_0001617>29975512</ns4:OBI_0001617>
+    <ns0:created>2018-07-05</ns0:created>
+  </sbol:Collection>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb8b00146_1_sequence/1">
+    <sbol:displayId>sb8b00146_1_sequence</sbol:displayId>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb8b00146_1_sequence"/>
+    <sbol:version>1</sbol:version>
+    <sbol:elements>aatcactagtgatctg</sbol:elements>
+  </sbol:Sequence>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb8b00146_1_comp/1">
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00146_1_comp"/>
+    <sbol:version>1</sbol:version>
+    <ns2:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.8b00146"/>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb8b00146_1_sequence/1"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:displayId>sb8b00146_1_comp</sbol:displayId>
+    <ns2:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+  </sbol:ComponentDefinition>
+</rdf:RDF>
