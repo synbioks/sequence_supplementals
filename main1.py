@@ -7,6 +7,7 @@ from sequences_to_features import FeatureAnnotater
 cwd = os.getcwd()
 
 
+lib_list = 
 # Load Cello genetic circuit feature library
 library_list = [os.path.join(cwd, 'test', 'cello_library.xml'), os.path.join(cwd, 'test', 'pichia_toolkit_KWK_v002.xml')] #list of file paths to sbol documents of libraries
 feature_doc = []
