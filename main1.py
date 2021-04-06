@@ -1,0 +1,168 @@
+#import the needed libraries
+import os, sbol2, json, requests
+from sbol2 import BIOPAX_DNA, ComponentDefinition, Sequence, SBOL_ENCODING_IUPAC
+from sequences_to_features import FeatureLibrary
+from sequences_to_features import FeatureAnnotater
+
+cwd = os.getcwd()
+
+
+# Load Cello genetic circuit feature library
+library_list = [os.path.join(cwd, 'test', 'cello_library.xml'), os.path.join(cwd, 'test', 'pichia_toolkit_KWK_v002.xml')] #list of file paths to sbol documents of libraries
+feature_doc = []
+for ind, library in enumerate(library_list):
+    feature_doc.append(sbol2.Document())
+    feature_doc[ind].read(library)
+
+feature_library = FeatureLibrary(feature_doc)
+
+# Annotate raw target sequence
+min_feature_length = 40
+
+annotater = FeatureAnnotater(feature_library, min_feature_length)
+
+#%%%
+
+#define collection creator
+def collection_creator(attachement):
+    sbol_doc = sbol2.Document()
+
+    #get title
+    uri = attachement["uri"]
+    response = requests.get(uri)
+    title = response.text[response.text.find('div class="col-sm-8 entry-title')+37:]
+    title = title[:title.find('</h1><h3>')]
+
+    #create collection object
+    paper_collect = sbol2.Collection(paper['displayId'])
+
+    #add top level properties
+    paper_collect.displayId = paper['displayId']
+    paper_collect.description = paper['description']
+    paper_collect.title = title
+    p_source = paper['source']
+
+    #add all of the annotation fields
+    annot = paper['annotations']
+    for ind1, an in enumerate(annot):
+        if an['type']=='uri':
+            setattr(paper_collect,f'an{ind1}',sbol2.URIProperty(paper_collect, an['name'], 0, 1,[]))
+            setattr(paper_collect,f'an{ind1}',an['value'])
+        if an['type']=='string':
+            setattr(paper_collect,f'an{ind1}',sbol2.TextProperty(paper_collect, an['name'], 0, 1,[]))
+            setattr(paper_collect,f'an{ind1}',an['value'])
+    sbol_doc.addCollection(paper_collect)
+
+    return (sbol_doc, paper_collect)
+
+#define sequence info puller
+def seq_file_reader(seq_file, sbol_doc, collect_obj):
+    problem_rows = []
+    molecule_type = BIOPAX_DNA
+
+        
+    with open(seq_file, 'rt') as names:
+        member_obj = []
+        print(seq_file)
+        #split file based on > at the start of each information row
+        rows = names.read().split('>')
+        for i, row in enumerate(rows):
+            if len(row)>0:
+                # print(row)
+                #information row is separated by |
+                if len([field.strip() for field in row.split('|')])==5:
+                    sequence_name, doi, pathname_of_file, seq_count, seq = [field.strip() for field in row.split('|')]
+                else:
+                    problem_rows.append(row)
+                    continue
+                
+
+                sequence = "".join([field.strip() for field in seq.split('\n')])
+
+                #create sbol files with dictionary entry
+                articleID = pathname_of_file.split('/')[0]
+                # name_use = check_name(articleID)
+                component = synbict_use(sequence, f'{articleID}_{i}')
+                # component = ComponentDefinition(f'{articleID}_{i}', molecule_type)
+                component.wasGeneratedBy =  "https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"
+                component.wasDerivedFrom = f'https://doi.org/{doi}'
+                collect_obj.members += [component.identity]
+                # member_obj.append(component.identity)
+                
+                if sequence_name != "unknown" and sequence_name != "_unknown_seq":
+                    component.name= sequence_name
+
+                #adding sequence
+                sequence = sequence.lower() #removes spaces, enters, and makes all lower case
+                sequence_obj = Sequence(f"{articleID}_{i}_sequence", sequence, SBOL_ENCODING_IUPAC)
+                if sequence_name.strip() != "unknown":
+                    sequence_obj.name = f"{component.name} Sequence"
+                sbol_doc.addSequence(sequence_obj)
+                component.sequences = sequence_obj
+                # member_obj.append(sequence_obj.identity)
+                collect_obj.members +=[sequence_obj.identity]
+
+                sbol_doc.addComponentDefinition(component)
+        
+    return(sbol_doc)
+
+#define synbict functionality
+def synbict_use(target_seq, seq_name, min_target_length=0):
+    annotated_list = annotater.annotate_raw_sequences(target_seq, seq_name, min_target_length)
+    # print(annotated_list)
+
+    if len(annotated_list.componentDefinitions-1)>0:
+        print(len(annotated_list.componentDefinitions)-1)
+    for comp in annotated_list.componentDefinitions:
+        if comp.displayId == f'{seq_name}_comp':
+            comp_out = comp
+            # comp.wasDerivedFrom = f'https://doi.org/{doi}'
+            # add other bits of info
+            # add source
+            # add generated by
+            # name if given
+            # comp.wasGeneratedBy =  "https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"
+            # if sequence_name != "unknown" and sequence_name != "_unknown_seq":
+            #     comp.name= sequence_name
+        #     paper_collect.members += [comp.identity]
+        # annotated_doc.addComponentDefinition(comp)
+    # for seq in annotated_list.sequences:
+        # annotated_doc.addSequence(seq)
+    # annotated_doc.write(os.path.join(cwd, 'synbict_output', f'{seq_name}.xml'))
+    return(comp_out)
+#%%%
+
+#define variables
+cwd = os.getcwd()
+exist_list = []
+
+
+#make set of all sequence files
+seq_files = os.listdir(os.path.join(cwd, 'sequences-files'))[1:]
+seq_files = set([x.replace('.seq.txt', '') for x in seq_files])
+
+#make list of all papers
+with open(os.path.join(cwd,'test', 'ACS_collection.json'), 'r', encoding='utf-8') as file:
+    papers_json = file.read()
+    papers_json = json.loads(papers_json)
+
+#loop through papers, if seq file exists make collection and run other two functions and add name to used_seq_files list
+for ind, paper in enumerate(papers_json['attachments']):
+    if ind<20:
+        file_name = os.path.split(os.path.split(paper['uri'])[0])[1] #this is used to go from uri of the form: https://synbioks.org/public/ACS/sb5b00179/1 to just the sb5b00179 bit
+        file_path = os.path.join(cwd,'sequences-files', f'{file_name}.seq.txt')
+        try:
+            with open(file_path) as file:
+                displayId = paper['displayId']
+                sbol_doc, collect_obj = collection_creator(paper)
+                sbol_doc = seq_file_reader(file_path, sbol_doc, collect_obj)
+                # print(file.read())
+                pass
+            exist_list.append(file_name)
+            sbol_doc.write(os.path.join(cwd, f'{displayId}.xml'))
+        except:
+            pass
+
+#make used_seqfiles list to set and check difference with all seq file set
+exist_list=set(exist_list)
+# print(seq_files.difference(exist_list))
