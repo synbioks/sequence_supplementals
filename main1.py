@@ -140,7 +140,7 @@ with open(os.path.join(cwd,'test', 'ACS_collection.json'), 'r', encoding='utf-8'
     papers_json = file.read()
     papers_json = json.loads(papers_json)
 
-#2190 annotated of ind<1554
+#2190 annotated of 88,509 plus sb700461 (jiawei says 58055)
 #loop through papers, if seq file exists make collection and run other two functions and add name to used_seq_files list
 for ind, paper in enumerate(papers_json['attachments']):
     if ind>=1554:
