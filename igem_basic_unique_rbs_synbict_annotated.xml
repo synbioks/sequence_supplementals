@@ -1,0 +1,60 @@
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:sbol="http://sbols.org/v2#" xmlns:ns0="http://purl.org/dc/terms/">
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/101_BBa_K1676010_comp/1">
+    <sbol:version>1</sbol:version>
+    <sbol:displayId>101_BBa_K1676010_comp</sbol:displayId>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/101_BBa_K1676010_seq/1"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/101_BBa_K1676010_comp"/>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/100_BBa_M13504_comp/1">
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/100_BBa_M13504_comp"/>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="http://examples.org/ComponentDefinition/100_BBa_M13504_comp/J23113_anno_1/1">
+        <sbol:version>1</sbol:version>
+        <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/100_BBa_M13504_comp/J23113_anno_1"/>
+        <sbol:component rdf:resource="http://examples.org/ComponentDefinition/100_BBa_M13504_comp/J23113_comp_1/1"/>
+        <sbol:displayId>J23113_anno_1</sbol:displayId>
+        <ns0:title>J23113</ns0:title>
+        <ns0:description>Constitutive promoter, part of Anderson series</ns0:description>
+        <sbol:location>
+          <sbol:Range rdf:about="http://examples.org/ComponentDefinition/100_BBa_M13504_comp/J23113_anno_1/J23113_anno_1_loc/1">
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:end>6</sbol:end>
+            <sbol:version>1</sbol:version>
+            <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/100_BBa_M13504_comp/J23113_anno_1/J23113_anno_1_loc"/>
+            <sbol:displayId>J23113_anno_1_loc</sbol:displayId>
+            <sbol:start>1</sbol:start>
+          </sbol:Range>
+        </sbol:location>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/100_BBa_M13504_seq/1"/>
+    <sbol:displayId>100_BBa_M13504_comp</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <sbol:component>
+      <sbol:Component rdf:about="http://examples.org/ComponentDefinition/100_BBa_M13504_comp/J23113_comp_1/1">
+        <sbol:version>1</sbol:version>
+        <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/100_BBa_M13504_comp/J23113_comp_1"/>
+        <sbol:displayId>J23113_comp_1</sbol:displayId>
+        <ns0:title>J23113</ns0:title>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:definition rdf:resource="https://synbioks.org/public/OriginalAndersonPromotersKWK/J23113/1"/>
+      </sbol:Component>
+    </sbol:component>
+  </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/100_BBa_M13504_seq/1">
+    <sbol:elements>aaaaaaggtaattcaa</sbol:elements>
+    <sbol:version>1</sbol:version>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/100_BBa_M13504_seq"/>
+    <sbol:displayId>100_BBa_M13504_seq</sbol:displayId>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/101_BBa_K1676010_seq/1">
+    <sbol:elements>aaaaaggagaaa</sbol:elements>
+    <sbol:version>1</sbol:version>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/101_BBa_K1676010_seq"/>
+    <sbol:displayId>101_BBa_K1676010_seq</sbol:displayId>
+  </sbol:Sequence>
+</rdf:RDF>
