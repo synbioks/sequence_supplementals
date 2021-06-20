@@ -1,0 +1,82 @@
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:sbol="http://sbols.org/v2#" xmlns:ns0="http://wiki.synbiohub.org/wiki/Terms/synbiohub#" xmlns:ns1="http://purl.org/dc/elements/1.1/" xmlns:ns2="http://purl.org/dc/terms/" xmlns:ns3="http://purl.obolibrary.org/obo/" xmlns:ns4="http://www.w3.org/ns/prov#">
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb7b00131_1_comp/1">
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:version>1</sbol:version>
+    <sbol:displayId>sb7b00131_1_comp</sbol:displayId>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb7b00131_1_comp"/>
+    <ns4:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <ns4:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.7b00131"/>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb7b00131_1_sequence/1"/>
+  </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb7b00131_3_sequence/1">
+    <sbol:version>1</sbol:version>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb7b00131_3_sequence"/>
+    <sbol:displayId>sb7b00131_3_sequence</sbol:displayId>
+    <sbol:elements>ctagtaaaaattaagaggtatatatta</sbol:elements>
+  </sbol:Sequence>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb7b00131_3_comp/1">
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb7b00131_3_comp"/>
+    <sbol:version>1</sbol:version>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb7b00131_3_sequence/1"/>
+    <sbol:displayId>sb7b00131_3_comp</sbol:displayId>
+    <ns4:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.7b00131"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <ns4:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb7b00131_2_comp/1">
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb7b00131_2_sequence/1"/>
+    <sbol:version>1</sbol:version>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <ns4:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <ns4:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.7b00131"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb7b00131_2_comp"/>
+    <sbol:displayId>sb7b00131_2_comp</sbol:displayId>
+  </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb7b00131_1_sequence/1">
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:elements>accggtgcagcaaacgacgaaaactacgctgctgctaaa</sbol:elements>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb7b00131_1_sequence"/>
+    <sbol:displayId>sb7b00131_1_sequence</sbol:displayId>
+    <sbol:version>1</sbol:version>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb7b00131_2_sequence/1">
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:elements>accgtttttttgggctagctactagaccttaacaaactacggaggtcaac</sbol:elements>
+    <sbol:displayId>sb7b00131_2_sequence</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb7b00131_2_sequence"/>
+  </sbol:Sequence>
+  <sbol:Collection rdf:about="http://examples.org/Collection/sb7b00131/1">
+    <ns0:topLevel rdf:resource="https://synbioks.org/public/ACS/sb7b00131/1"/>
+    <sbol:displayId>sb7b00131</sbol:displayId>
+    <ns1:rights>Copyright &#169; 2017 American Chemical
+Society</ns1:rights>
+    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb7b00131_1_comp/1"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Collection/sb7b00131"/>
+    <ns2:description>Accurate control of a biological process is essential for many critical functions in biology, from the cell cycle to proteome regulation. To achieve this, negative feedback is frequently employed to provide a highly robust and reliable output. Feedback is found throughout biology and technology, but due to challenges posed by its implementation, it is yet to be widely adopted in synthetic biology. In this paper we design a synthetic feedback network using a class of recombinase proteins called integrases, which can be re-engineered to flip the orientation of DNA segments in a digital manner. This system is highly orthogonal, and demonstrates a strong capability for regulating and reducing the expression variability of genes being transcribed under its control. An excisionase protein provides the negative feedback signal to close the loop in this system, by flipping DNA segments in the reverse direction. Our integrase/excisionase negative feedback system thus provides a modular architecture that can be tuned to suit applications throughout synthetic biology and biomanufacturing that require a highly robust and orthogonally controlled output.</ns2:description>
+    <ns3:OBI_0001617>28602075</ns3:OBI_0001617>
+    <ns3:OBI_0002110>10.1021/acssynbio.7b00131</ns3:OBI_0002110>
+    <ns0:ownedBy rdf:resource="https://synbioks.org/user/myers"/>
+    <ns2:dateAccepted>2017-06-12</ns2:dateAccepted>
+    <ns2:created>2017-06-12</ns2:created>
+    <sbol:member rdf:resource="http://examples.org/Sequence/sb7b00131_3_sequence/1"/>
+    <ns1:type>rapid-communication</ns1:type>
+    <ns2:dateSubmitted>2017-04-23</ns2:dateSubmitted>
+    <ns2:references>Yang, L. Permanent genetic memory with &gt; 1-byte capacity Nat. Methods 2014. 11:1261-1266.</ns2:references>
+    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb7b00131_3_comp/1"/>
+    <ns2:abstract>Accurate control of a biological process is essential for many critical functions in biology, from the cell cycle to proteome regulation. To achieve this, negative feedback is frequently employed to provide a highly robust and reliable output. Feedback is found throughout biology and technology, but due to challenges posed by its implementation, it is yet to be widely adopted in synthetic biology. In this paper we design a synthetic feedback network using a class of recombinase proteins called integrases, which can be re-engineered to flip the orientation of DNA segments in a digital manner. This system is highly orthogonal, and demonstrates a strong capability for regulating and reducing the expression variability of genes being transcribed under its control. An excisionase protein provides the negative feedback signal to close the loop in this system, by flipping DNA segments in the reverse direction. Our integrase/excisionase negative feedback system thus provides a modular architecture that can be tuned to suit applications throughout synthetic biology and biomanufacturing that require a highly robust and orthogonally controlled output.</ns2:abstract>
+    <sbol:member rdf:resource="http://examples.org/Sequence/sb7b00131_2_sequence/1"/>
+    <ns2:dateCopyrighted>2017</ns2:dateCopyrighted>
+    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb7b00131_2_comp/1"/>
+    <ns1:publisher>American Chemical
+Society</ns1:publisher>
+    <ns2:type rdf:resource="http://purl.org/dc/dcmitype/Text"/>
+    <sbol:version>1</sbol:version>
+    <sbol:member rdf:resource="http://examples.org/Sequence/sb7b00131_1_sequence/1"/>
+    <ns2:rightsHolder>American Chemical
+Society</ns2:rightsHolder>
+    <ns2:isPartOf rdf:resource="http://pubs.acs.org/journal/asbcd6"/>
+    <ns1:creator>Thomas P. Prescott</ns1:creator>
+  </sbol:Collection>
+</rdf:RDF>

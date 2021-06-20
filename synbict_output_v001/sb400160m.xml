@@ -1,0 +1,63 @@
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:sbol="http://sbols.org/v2#" xmlns:ns0="http://purl.org/dc/elements/1.1/" xmlns:ns1="http://purl.org/dc/terms/" xmlns:ns2="http://purl.obolibrary.org/obo/" xmlns:ns3="http://wiki.synbiohub.org/wiki/Terms/synbiohub#" xmlns:ns4="http://www.w3.org/ns/prov#">
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb400160m_2_comp/1">
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb400160m_2_comp"/>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb400160m_2_sequence/1"/>
+    <sbol:displayId>sb400160m_2_comp</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <ns4:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <ns4:wasDerivedFrom rdf:resource="https://doi.org/10.1021/sb400160m"/>
+  </sbol:ComponentDefinition>
+  <sbol:Collection rdf:about="http://examples.org/Collection/sb400160m/1">
+    <ns0:publisher>American Chemical
+Society</ns0:publisher>
+    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb400160m_2_comp/1"/>
+    <ns1:dateCopyrighted>2014</ns1:dateCopyrighted>
+    <ns1:dateAccepted>2014-03-13</ns1:dateAccepted>
+    <ns1:isPartOf rdf:resource="http://pubs.acs.org/journal/asbcd6"/>
+    <ns2:OBI_0002110>10.1021/sb400160m</ns2:OBI_0002110>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Collection/sb400160m"/>
+    <sbol:member rdf:resource="http://examples.org/Sequence/sb400160m_2_sequence/1"/>
+    <ns0:rights>Copyright &#169; 2014 American Chemical Society</ns0:rights>
+    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb400160m_1_comp/1"/>
+    <ns1:description>Cell-free systems are showing increasing promise for biosynthesis of both proteins and small molecules. However, in vitro transcription and translation reactions have so far primarily been used for the production of single proteins. In order to demonstrate the possibilities for coupled reactions, we designed synthetic operons that included different combinations of wild-type or evolved biotin ligases and streptavidins and demonstrated a mechanism for self-selection of operons following expression in vitro. Peptide substrates for biotin ligase were conjugated to the DNA operons and could be modified by a biotin ligase specific for either biotin or desthiobiotin and subsequently captured via a streptavidin specific for either biotin or desthiobiotin.</ns1:description>
+    <ns0:creator>Wei-Cheng Lu</ns0:creator>
+    <ns0:subject>synthetic operon</ns0:subject>
+    <ns3:ownedBy rdf:resource="https://synbioks.org/user/myers"/>
+    <ns3:topLevel rdf:resource="https://synbioks.org/public/ACS/sb400160m/1"/>
+    <ns1:created>2014-03-13</ns1:created>
+    <ns1:references>Zhang, Y. H., Evans, B. R., Mielenz, J. R., Hopkins, R. C., Adams, M. W. High-yield hydrogen production from starch and water by a synthetic enzymatic pathway PLoS One 2007. 2.</ns1:references>
+    <ns1:abstract>Cell-free systems are showing increasing promise for biosynthesis of both proteins and small molecules. However, in vitro transcription and translation reactions have so far primarily been used for the production of single proteins. In order to demonstrate the possibilities for coupled reactions, we designed synthetic operons that included different combinations of wild-type or evolved biotin ligases and streptavidins and demonstrated a mechanism for self-selection of operons following expression in vitro. Peptide substrates for biotin ligase were conjugated to the DNA operons and could be modified by a biotin ligase specific for either biotin or desthiobiotin and subsequently captured via a streptavidin specific for either biotin or desthiobiotin.</ns1:abstract>
+    <ns1:type rdf:resource="http://purl.org/dc/dcmitype/Text"/>
+    <sbol:version>1</sbol:version>
+    <ns2:OBI_0001617>24625092</ns2:OBI_0001617>
+    <sbol:member rdf:resource="http://examples.org/Sequence/sb400160m_1_sequence/1"/>
+    <ns1:dateSubmitted>2013-10-07</ns1:dateSubmitted>
+    <ns1:rightsHolder>American Chemical Society</ns1:rightsHolder>
+    <sbol:displayId>sb400160m</sbol:displayId>
+    <ns0:type>research-article</ns0:type>
+  </sbol:Collection>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb400160m_1_sequence/1">
+    <sbol:version>1</sbol:version>
+    <sbol:displayId>sb400160m_1_sequence</sbol:displayId>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb400160m_1_sequence"/>
+    <sbol:elements>tgctcgactacggtggtagctacgatgccggccacgatgcgtccggcgtagaggatcgagatctcgatcccgcgaaattaatacgactcactatagggagaccacaacggtttccctctagaaataattttgtttaactttaagaaggagatataccatgtctggttctcatcatcatcatcatcatagcagcggcatcgaaggccgcggccgcttaattaaacatatgaccgcggaagcgggcattacaggcacctggtataatcagctgggcagcacctttatagtgaccgcgggagcggatggggcattgacgggaacctatgaaagcgcggtggggaatgcggagagccgttatgtgctgaccggccgttacgatagcgcccctgcgaccgatggctctggcactgcgctgggctggaccgtggcgtggaaaaacaattaccgtaatgcgcacagcgcgaccacctggagcggccaatatgtgggcggagcagaggcgcgtattaacacccaatggctgttaaccagcggcaccaccgaagcaaatgcgtggaagagcaccctggtgggccatgatacctttaccaaggtgaaaccgtcagcggcgagcatttaataagggatccggtaactaactaagatccggtaagatccggctgctaacaaagcccgaaaggaagctgagttggctgctgccaccgctgagcaataactagcatatcgatactgatcgagctgactgggagaccacaacggtttccctctagaaataattttgtttaactttaagaaggagatataccatgaaggataacaccgtgccactgaaattgattgccctgttagcgaacggtgaatttcactctggcgagcagttgggtgaaacgctgggaatgagccgggcggctattaataaacacattcagacactgcgtgactggggcgttgatgtctttaccgttccgggtaaaggatacagcctgcctgagcctatccagttacttaatgctaaacagatattgggtcagctggatggcggtagtgtagccgtgctgccagtgattgactccacgaatcagtaccttcttgatcgtatcggagagcttaaatcgggcgatgcttgcattgcagaataccagcaggctggccgtggtcgccggggtcggaaatggttttcgccttttggcgcaaacttatatttgtcgatgttctggcgtctggaacaaggcccggcggcggcgattggtttaagtctggttatcggtatcgtgatggcggaagtattacgcaagctgggtgcagataaagttcgtgttaaatggcctaatgacctctatctgcaggatcgcaagctggcaggcattctggtggagctgactggcaaaactggcgatgcggcgcaaatagtcattggagccgggatcaacatggcaatgcgccgtgttgaagagagtgtcgttaatcaggggtggatcacgctgcaggaagcggggatcaatctcgatcgtaatacgttggcggccatgctaatacgtgaattacgtgctgcgttggaactcttcga</sbol:elements>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb400160m_2_sequence/1">
+    <sbol:elements>acaagaaggattggcaccttatctgtcgcgctgggaaaagctggataattttattaatcgcccagtgaaacttatcattggtgataaagaaatatttggcatttcacgcggaatagacaaacagggggctttattacttgagcaggatggaataataaaaccctggatgggcggtgaaatatccctgcgtagtgcagaaaaaggggggggttctcatcatcatcatcatcattaataaaagggcgaattccagcacactggcggccgttactagtggatccggctgctaacaaagcccgaaaggaagctgagttggctgctgccaccgctgagcaataactagcataaccccttggggcctctaaacgggtcttgaggggttttttgctgaaaggaggaactatatccggatatccacaggacgggtgtggtcgcctcgaatccttgcacgtcaaggctt</sbol:elements>
+    <sbol:displayId>sb400160m_2_sequence</sbol:displayId>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb400160m_2_sequence"/>
+    <sbol:version>1</sbol:version>
+  </sbol:Sequence>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb400160m_1_comp/1">
+    <sbol:displayId>sb400160m_1_comp</sbol:displayId>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb400160m_1_sequence/1"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb400160m_1_comp"/>
+    <sbol:version>1</sbol:version>
+    <ns4:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <ns4:wasDerivedFrom rdf:resource="https://doi.org/10.1021/sb400160m"/>
+  </sbol:ComponentDefinition>
+</rdf:RDF>

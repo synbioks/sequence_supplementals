@@ -1,99 +1,70 @@
-<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:sbol="http://sbols.org/v2#" xmlns:ns0="http://purl.org/dc/elements/1.1/" xmlns:ns1="http://purl.org/dc/terms/" xmlns:ns2="http://www.w3.org/ns/prov#" xmlns:ns3="http://purl.obolibrary.org/obo/" xmlns:ns4="http://wiki.synbiohub.org/wiki/Terms/synbiohub#">
-  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb8b00222_4_comp/1">
-    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00222_4_comp"/>
-    <ns2:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.8b00222"/>
-    <sbol:displayId>sb8b00222_4_comp</sbol:displayId>
-    <sbol:version>1</sbol:version>
-    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb8b00222_4_sequence/1"/>
-    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
-    <ns2:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
-  </sbol:ComponentDefinition>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:sbh="https://wiki.synbiohub.org/wiki/Terms/synbiohub#" xmlns:sbol="http://sbols.org/v2#" xmlns:ns0="http://www.w3.org/ns/prov#">
   <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb8b00222_2_comp/1">
-    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00222_2_comp"/>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
     <sbol:displayId>sb8b00222_2_comp</sbol:displayId>
-    <ns2:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
     <sbol:sequence rdf:resource="http://examples.org/Sequence/sb8b00222_2_sequence/1"/>
-    <ns2:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.8b00222"/>
+    <sbh:supplementalFile rdf:resource="sb8b00222/suppl/sb-2018-00222d_si_001.pdf"/>
+    <sbol:version>1</sbol:version>
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.8b00222"/>
     <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
-    <sbol:version>1</sbol:version>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00222_2_comp"/>
   </sbol:ComponentDefinition>
-  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb8b00222_4_sequence/1">
-    <sbol:elements>gccagcaacgcgatcc</sbol:elements>
-    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb8b00222_4_sequence"/>
-    <sbol:version>1</sbol:version>
-    <sbol:displayId>sb8b00222_4_sequence</sbol:displayId>
-    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
-  </sbol:Sequence>
-  <sbol:Collection rdf:about="http://examples.org/Collection/sb8b00222/1">
-    <ns0:type>brief-report</ns0:type>
-    <ns1:isPartOf rdf:resource="http://pubs.acs.org/journal/asbcd6"/>
-    <sbol:displayId>sb8b00222</sbol:displayId>
-    <ns3:OBI_0002110>10.1021/acssynbio.8b00222</ns3:OBI_0002110>
-    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb8b00222_4_comp/1"/>
-    <sbol:member rdf:resource="http://examples.org/Sequence/sb8b00222_3_sequence/1"/>
-    <sbol:member rdf:resource="http://examples.org/Sequence/sb8b00222_1_sequence/1"/>
-    <ns1:created>2018-08-30</ns1:created>
-    <ns1:rightsHolder>American Chemical Society</ns1:rightsHolder>
-    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb8b00222_1_comp/1"/>
-    <ns1:abstract>The fast growing bacterium Vibrio natriegens is an emerging microbial host for biotechnology. Harnessing its productive cellular components may offer a compelling platform for rapid protein production and prototyping of metabolic pathways or genetic circuits. Here, we report the development of a V. natriegens cell-free expression system. We devised a simplified crude extract preparation protocol and achieved &gt;260 &#956;g/mL of superfolder GFP in a small-scale batch reaction after 3 h. Culturing conditions, including growth media and cell density, significantly affect translation kinetics and protein yield of extracts. We observed maximal protein yield at incubation temperatures of 26 or 30 &#176;C, and show improved yield by tuning ions crucial for ribosomal stability. This work establishes an initial V. natriegens cell-free expression system, enables probing of V. natriegens biology, and will serve as a platform to accelerate metabolic engineering and synthetic biology applications.</ns1:abstract>
-    <ns1:dateCopyrighted>2018</ns1:dateCopyrighted>
-    <ns1:dateAccepted>2018-08-30</ns1:dateAccepted>
-    <ns0:subject>crude
-cell extract</ns0:subject>
-    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb8b00222_3_comp/1"/>
-    <ns1:type rdf:resource="http://purl.org/dc/dcmitype/Text"/>
-    <sbol:persistentIdentity rdf:resource="http://examples.org/Collection/sb8b00222"/>
-    <sbol:version>1</sbol:version>
-    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb8b00222_2_comp/1"/>
-    <ns0:publisher>American Chemical
-Society</ns0:publisher>
-    <sbol:member rdf:resource="http://examples.org/Sequence/sb8b00222_4_sequence/1"/>
-    <ns1:dateSubmitted>2018-05-25</ns1:dateSubmitted>
-    <ns4:topLevel rdf:resource="https://synbioks.org/public/ACS/sb8b00222/1"/>
-    <ns3:OBI_0001617>30160938</ns3:OBI_0001617>
-    <ns1:description>The fast growing bacterium Vibrio natriegens is an emerging microbial host for biotechnology. Harnessing its productive cellular components may offer a compelling platform for rapid protein production and prototyping of metabolic pathways or genetic circuits. Here, we report the development of a V. natriegens cell-free expression system. We devised a simplified crude extract preparation protocol and achieved &gt;260 &#956;g/mL of superfolder GFP in a small-scale batch reaction after 3 h. Culturing conditions, including growth media and cell density, significantly affect translation kinetics and protein yield of extracts. We observed maximal protein yield at incubation temperatures of 26 or 30 &#176;C, and show improved yield by tuning ions crucial for ribosomal stability. This work establishes an initial V. natriegens cell-free expression system, enables probing of V. natriegens biology, and will serve as a platform to accelerate metabolic engineering and synthetic biology applications.</ns1:description>
-    <sbol:member rdf:resource="http://examples.org/Sequence/sb8b00222_2_sequence/1"/>
-    <ns0:creator>Nili Ostrov</ns0:creator>
-    <ns1:references>Zawada, J., Swartz, J. Effects of growth rate on cell extract performance in cell-free protein synthesis Biotechnol. Bioeng. 2006. 94:618-624.</ns1:references>
-    <ns4:ownedBy rdf:resource="https://synbioks.org/user/myers"/>
-  </sbol:Collection>
-  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb8b00222_1_comp/1">
-    <ns2:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
-    <ns2:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.8b00222"/>
-    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
-    <sbol:version>1</sbol:version>
-    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb8b00222_1_sequence/1"/>
-    <sbol:displayId>sb8b00222_1_comp</sbol:displayId>
-    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00222_1_comp"/>
-  </sbol:ComponentDefinition>
-  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb8b00222_3_comp/1">
-    <ns2:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.8b00222"/>
-    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
-    <sbol:version>1</sbol:version>
-    <sbol:displayId>sb8b00222_3_comp</sbol:displayId>
-    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb8b00222_3_sequence/1"/>
-    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00222_3_comp"/>
-    <ns2:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
-  </sbol:ComponentDefinition>
-  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb8b00222_1_sequence/1">
-    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb8b00222_1_sequence"/>
-    <sbol:displayId>sb8b00222_1_sequence</sbol:displayId>
-    <sbol:version>1</sbol:version>
-    <sbol:elements>gccagcaacgcgatcc</sbol:elements>
-    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
-  </sbol:Sequence>
-  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb8b00222_2_sequence/1">
-    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb8b00222_2_sequence"/>
-    <sbol:version>1</sbol:version>
-    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
-    <sbol:displayId>sb8b00222_2_sequence</sbol:displayId>
-    <sbol:elements>gacccgtttagaggcccc</sbol:elements>
-  </sbol:Sequence>
   <sbol:Sequence rdf:about="http://examples.org/Sequence/sb8b00222_3_sequence/1">
-    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:version>1</sbol:version>
     <sbol:displayId>sb8b00222_3_sequence</sbol:displayId>
     <sbol:elements>ctcagcttcctttcgggc</sbol:elements>
-    <sbol:version>1</sbol:version>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
     <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb8b00222_3_sequence"/>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb8b00222_2_sequence/1">
+    <sbol:displayId>sb8b00222_2_sequence</sbol:displayId>
+    <sbol:elements>gacccgtttagaggcccc</sbol:elements>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:version>1</sbol:version>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb8b00222_2_sequence"/>
+  </sbol:Sequence>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb8b00222_4_comp/1">
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.8b00222"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:version>1</sbol:version>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00222_4_comp"/>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb8b00222_4_sequence/1"/>
+    <sbol:displayId>sb8b00222_4_comp</sbol:displayId>
+    <sbh:supplementalFile rdf:resource="sb8b00222/suppl/sb-2018-00222d_si_001.pdf"/>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb8b00222_3_comp/1">
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb8b00222_3_sequence/1"/>
+    <sbol:version>1</sbol:version>
+    <sbh:supplementalFile rdf:resource="sb8b00222/suppl/sb-2018-00222d_si_001.pdf"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00222_3_comp"/>
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.8b00222"/>
+    <sbol:displayId>sb8b00222_3_comp</sbol:displayId>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+  </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb8b00222_4_sequence/1">
+    <sbol:version>1</sbol:version>
+    <sbol:displayId>sb8b00222_4_sequence</sbol:displayId>
+    <sbol:elements>gccagcaacgcgatcc</sbol:elements>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb8b00222_4_sequence"/>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+  </sbol:Sequence>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb8b00222_1_comp/1">
+    <sbh:supplementalFile rdf:resource="sb8b00222/suppl/sb-2018-00222d_si_001.pdf"/>
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.8b00222"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00222_1_comp"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:displayId>sb8b00222_1_comp</sbol:displayId>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb8b00222_1_sequence/1"/>
+    <sbol:version>1</sbol:version>
+  </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb8b00222_1_sequence/1">
+    <sbol:version>1</sbol:version>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb8b00222_1_sequence"/>
+    <sbol:elements>gccagcaacgcgatcc</sbol:elements>
+    <sbol:displayId>sb8b00222_1_sequence</sbol:displayId>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
   </sbol:Sequence>
 </rdf:RDF>

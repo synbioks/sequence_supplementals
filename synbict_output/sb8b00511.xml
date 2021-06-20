@@ -1,44 +1,19 @@
-<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:sbol="http://sbols.org/v2#" xmlns:ns0="http://wiki.synbiohub.org/wiki/Terms/synbiohub#" xmlns:ns1="http://purl.org/dc/terms/" xmlns:ns2="http://purl.obolibrary.org/obo/" xmlns:ns3="http://purl.org/dc/elements/1.1/" xmlns:ns4="http://www.w3.org/ns/prov#">
-  <sbol:Collection rdf:about="http://examples.org/Collection/sb8b00511/1">
-    <ns0:topLevel rdf:resource="https://synbioks.org/public/ACS/sb8b00511/1"/>
-    <ns1:created>2019-01-10</ns1:created>
-    <sbol:member rdf:resource="http://examples.org/Sequence/sb8b00511_1_sequence/1"/>
-    <sbol:persistentIdentity rdf:resource="http://examples.org/Collection/sb8b00511"/>
-    <ns2:OBI_0002110>10.1021/acssynbio.8b00511</ns2:OBI_0002110>
-    <ns1:description>Ligases are a class of enzymes that catalyze the formation of phosphodiester bonds between an oligonucleotide donor with a 5&#8242; terminal phosphate and an oligonucleotide acceptor with a 3&#8242; terminal hydroxyl group. Here, we wished to explore the substrate specificity of naturally occurring DNA and RNA ligases to determine whether the molecular recognition of these enzymes is sufficiently general to synthesize alternative genetic polymers with backbone structures that are distinct from those found in nature. We chose threose nucleic acid (TNA) as a model system, as TNA is known to be biologically stable and capable of undergoing Darwinian evolution. Enzyme screening and reaction optimization identified several ligases that can recognize TNA as either the donor or acceptor strand with DNA. Less discrimination occurs on the acceptor strand indicating that the determinants of substrate specificity depend primarily on the composition of the donor strand. Remarkably, T3 and T7 ligases were able to join TNA homopolymers together, which is surprising given that the TNA backbone is one atom shorter than that of DNA. In this reaction, the base composition of the ligation junction strongly favors the formation of A-T and A-G linkages. We suggest that these results will enable the assembly of TNA oligonucleotides of lengths beyond what is currently possible by solid-phase synthesis and provide a starting point for further optimization by directed evolution.</ns1:description>
-    <ns1:dateSubmitted>2018-12-05</ns1:dateSubmitted>
-    <ns2:OBI_0001617>30629885</ns2:OBI_0001617>
-    <ns3:type>rapid-communication</ns3:type>
-    <ns1:dateCopyrighted>2019</ns1:dateCopyrighted>
-    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb8b00511_1_comp/1"/>
-    <ns1:dateAccepted>2019-01-10</ns1:dateAccepted>
-    <ns0:ownedBy rdf:resource="https://synbioks.org/user/myers"/>
-    <sbol:displayId>sb8b00511</sbol:displayId>
-    <ns3:subject>xeno nucleic acid</ns3:subject>
-    <ns3:creator>Saikat Bala</ns3:creator>
-    <ns1:type rdf:resource="http://purl.org/dc/dcmitype/Text"/>
-    <ns3:publisher>American Chemical
-Society</ns3:publisher>
-    <ns1:references>Yang, Y.-W., Zhang, S., McCullum, E. O., Chaput, J. C. Experimental Evidence that GNA and TNA Were Not Sequential Polymers in the Prebiotic Evolution of RNA J. Mol. Evol. 2007. 65:289-295.</ns1:references>
-    <ns1:isPartOf rdf:resource="http://pubs.acs.org/journal/asbcd6"/>
-    <sbol:version>1</sbol:version>
-    <ns1:rightsHolder>American Chemical Society</ns1:rightsHolder>
-    <ns1:abstract>Ligases are a class of enzymes that catalyze the formation of phosphodiester bonds between an oligonucleotide donor with a 5&#8242; terminal phosphate and an oligonucleotide acceptor with a 3&#8242; terminal hydroxyl group. Here, we wished to explore the substrate specificity of naturally occurring DNA and RNA ligases to determine whether the molecular recognition of these enzymes is sufficiently general to synthesize alternative genetic polymers with backbone structures that are distinct from those found in nature. We chose threose nucleic acid (TNA) as a model system, as TNA is known to be biologically stable and capable of undergoing Darwinian evolution. Enzyme screening and reaction optimization identified several ligases that can recognize TNA as either the donor or acceptor strand with DNA. Less discrimination occurs on the acceptor strand indicating that the determinants of substrate specificity depend primarily on the composition of the donor strand. Remarkably, T3 and T7 ligases were able to join TNA homopolymers together, which is surprising given that the TNA backbone is one atom shorter than that of DNA. In this reaction, the base composition of the ligation junction strongly favors the formation of A-T and A-G linkages. We suggest that these results will enable the assembly of TNA oligonucleotides of lengths beyond what is currently possible by solid-phase synthesis and provide a starting point for further optimization by directed evolution.</ns1:abstract>
-  </sbol:Collection>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:sbh="https://wiki.synbiohub.org/wiki/Terms/synbiohub#" xmlns:sbol="http://sbols.org/v2#" xmlns:ns0="http://www.w3.org/ns/prov#">
   <sbol:Sequence rdf:about="http://examples.org/Sequence/sb8b00511_1_sequence/1">
-    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
-    <sbol:displayId>sb8b00511_1_sequence</sbol:displayId>
-    <sbol:elements>ctcagg</sbol:elements>
-    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb8b00511_1_sequence"/>
     <sbol:version>1</sbol:version>
+    <sbol:elements>ctcagg</sbol:elements>
+    <sbol:displayId>sb8b00511_1_sequence</sbol:displayId>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb8b00511_1_sequence"/>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
   </sbol:Sequence>
   <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb8b00511_1_comp/1">
-    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
-    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb8b00511_1_sequence/1"/>
     <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00511_1_comp"/>
     <sbol:version>1</sbol:version>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb8b00511_1_sequence/1"/>
     <sbol:displayId>sb8b00511_1_comp</sbol:displayId>
-    <ns4:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.8b00511"/>
-    <ns4:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.8b00511"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbh:supplementalFile rdf:resource="sb8b00511/suppl/sb-2018-00511u_si_001.pdf"/>
   </sbol:ComponentDefinition>
 </rdf:RDF>

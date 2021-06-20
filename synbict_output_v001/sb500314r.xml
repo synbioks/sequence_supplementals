@@ -1,0 +1,81 @@
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:sbol="http://sbols.org/v2#" xmlns:ns0="http://purl.obolibrary.org/obo/" xmlns:ns1="http://purl.org/dc/elements/1.1/" xmlns:ns2="http://www.w3.org/ns/prov#" xmlns:ns3="http://purl.org/dc/terms/" xmlns:ns4="http://wiki.synbiohub.org/wiki/Terms/synbiohub#">
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb500314r_2_comp/1">
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <ns2:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbol:version>1</sbol:version>
+    <ns2:wasDerivedFrom rdf:resource="https://doi.org/10.1021/sb500314r"/>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb500314r_2_sequence/1"/>
+    <sbol:displayId>sb500314r_2_comp</sbol:displayId>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb500314r_2_comp"/>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb500314r_3_comp/1">
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb500314r_3_comp"/>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb500314r_3_sequence/1"/>
+    <ns2:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbol:displayId>sb500314r_3_comp</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <ns2:wasDerivedFrom rdf:resource="https://doi.org/10.1021/sb500314r"/>
+  </sbol:ComponentDefinition>
+  <sbol:Collection rdf:about="http://examples.org/Collection/sb500314r/1">
+    <ns0:OBI_0001617>25354355</ns0:OBI_0001617>
+    <ns1:publisher>American Chemical
+Society</ns1:publisher>
+    <sbol:member rdf:resource="http://examples.org/Sequence/sb500314r_2_sequence/1"/>
+    <ns3:isPartOf rdf:resource="http://pubs.acs.org/journal/asbcd6"/>
+    <ns4:ownedBy rdf:resource="https://synbioks.org/user/myers"/>
+    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb500314r_2_comp/1"/>
+    <ns1:type>research-article</ns1:type>
+    <ns3:dateCopyrighted>2014</ns3:dateCopyrighted>
+    <ns3:rightsHolder>American Chemical Society</ns3:rightsHolder>
+    <sbol:member rdf:resource="http://examples.org/Sequence/sb500314r_3_sequence/1"/>
+    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb500314r_1_comp/1"/>
+    <ns3:abstract>We designed an in vitro signal amplification circuit that takes a short RNA input that catalytically activates the Spinach RNA aptamer to produce a fluorescent output. The circuit consists of three RNA strands: an internally blocked Spinach aptamer, a fuel strand, and an input strand (catalyst), as well as the Spinach aptamer ligand 3,5-difluoro-4-hydroxylbenzylidene imidazolinone (DFHBI). The input strand initially displaces the internal inhibitory strand to activate the fluorescent aptamer while exposing a toehold to which the fuel strand can bind to further displace and recycle the input strand. Under a favorable condition, one input strand was able to activate up to five molecules of the internally blocked Spinach aptamer in 185 min at 30 &#176;C. The simple RNA circuit reported here serves as a model for catalytic activation of arbitrary RNA effectors by chemical triggers.</ns3:abstract>
+    <ns0:OBI_0002110>10.1021/sb500314r</ns0:OBI_0002110>
+    <ns3:description>We designed an in vitro signal amplification circuit that takes a short RNA input that catalytically activates the Spinach RNA aptamer to produce a fluorescent output. The circuit consists of three RNA strands: an internally blocked Spinach aptamer, a fuel strand, and an input strand (catalyst), as well as the Spinach aptamer ligand 3,5-difluoro-4-hydroxylbenzylidene imidazolinone (DFHBI). The input strand initially displaces the internal inhibitory strand to activate the fluorescent aptamer while exposing a toehold to which the fuel strand can bind to further displace and recycle the input strand. Under a favorable condition, one input strand was able to activate up to five molecules of the internally blocked Spinach aptamer in 185 min at 30 &#176;C. The simple RNA circuit reported here serves as a model for catalytic activation of arbitrary RNA effectors by chemical triggers.</ns3:description>
+    <ns3:type rdf:resource="http://purl.org/dc/dcmitype/Text"/>
+    <ns4:topLevel rdf:resource="https://synbioks.org/public/ACS/sb500314r/1"/>
+    <ns3:references>Warner, K. D., Chen, M. C., Song, W., Strack, R. L., Thorn, A., Jaffrey, S. R., Ferre-D&#8217;Amare, A. R. Structural basis for activity of highly efficient RNA mimics of green fluorescent protein Nat. Struct. Mol. Biol. 2014. 21:658-663.</ns3:references>
+    <ns3:created>2014-10-29</ns3:created>
+    <ns1:subject>signal amplification</ns1:subject>
+    <ns1:creator>Yohei Yokobayashi</ns1:creator>
+    <ns3:dateSubmitted>2014-09-04</ns3:dateSubmitted>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Collection/sb500314r"/>
+    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb500314r_3_comp/1"/>
+    <sbol:member rdf:resource="http://examples.org/Sequence/sb500314r_1_sequence/1"/>
+    <sbol:displayId>sb500314r</sbol:displayId>
+    <ns3:dateAccepted>2014-10-29</ns3:dateAccepted>
+    <sbol:version>1</sbol:version>
+    <ns1:rights>Copyright &#169; 2014 American Chemical Society</ns1:rights>
+  </sbol:Collection>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb500314r_2_sequence/1">
+    <sbol:version>1</sbol:version>
+    <sbol:elements>caacgcaggagaacaaacag</sbol:elements>
+    <sbol:displayId>sb500314r_2_sequence</sbol:displayId>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb500314r_2_sequence"/>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb500314r_1_sequence/1">
+    <sbol:version>1</sbol:version>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb500314r_1_sequence"/>
+    <sbol:displayId>sb500314r_1_sequence</sbol:displayId>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:elements>gcccagagc</sbol:elements>
+  </sbol:Sequence>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb500314r_1_comp/1">
+    <ns2:wasDerivedFrom rdf:resource="https://doi.org/10.1021/sb500314r"/>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb500314r_1_sequence/1"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb500314r_1_comp"/>
+    <sbol:displayId>sb500314r_1_comp</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <ns2:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+  </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb500314r_3_sequence/1">
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:displayId>sb500314r_3_sequence</sbol:displayId>
+    <sbol:elements>gaaggacggg</sbol:elements>
+    <sbol:version>1</sbol:version>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb500314r_3_sequence"/>
+  </sbol:Sequence>
+</rdf:RDF>

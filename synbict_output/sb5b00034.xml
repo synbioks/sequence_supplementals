@@ -1,83 +1,53 @@
-<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:sbol="http://sbols.org/v2#" xmlns:ns0="http://purl.org/dc/terms/" xmlns:ns1="http://www.w3.org/ns/prov#" xmlns:ns2="http://wiki.synbiohub.org/wiki/Terms/synbiohub#" xmlns:ns3="http://purl.org/dc/elements/1.1/" xmlns:ns4="http://purl.obolibrary.org/obo/">
-  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb5b00034_3_comp/1">
-    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb5b00034_3_comp"/>
-    <ns1:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
-    <sbol:version>1</sbol:version>
-    <ns1:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.5b00034"/>
-    <sbol:displayId>sb5b00034_3_comp</sbol:displayId>
-    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
-    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb5b00034_3_sequence/1"/>
-  </sbol:ComponentDefinition>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:sbh="https://wiki.synbiohub.org/wiki/Terms/synbiohub#" xmlns:sbol="http://sbols.org/v2#" xmlns:ns0="http://www.w3.org/ns/prov#">
   <sbol:Sequence rdf:about="http://examples.org/Sequence/sb5b00034_2_sequence/1">
-    <sbol:displayId>sb5b00034_2_sequence</sbol:displayId>
+    <sbol:version>1</sbol:version>
     <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb5b00034_2_sequence"/>
-    <sbol:elements>gaaatgttgaatactcat</sbol:elements>
-    <sbol:version>1</sbol:version>
+    <sbol:displayId>sb5b00034_2_sequence</sbol:displayId>
     <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:elements>gaaatgttgaatactcat</sbol:elements>
   </sbol:Sequence>
-  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb5b00034_2_comp/1">
-    <ns1:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb5b00034_1_comp/1">
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb5b00034_1_comp"/>
     <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
-    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb5b00034_2_comp"/>
-    <ns1:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.5b00034"/>
-    <sbol:displayId>sb5b00034_2_comp</sbol:displayId>
     <sbol:version>1</sbol:version>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb5b00034_1_sequence/1"/>
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.5b00034"/>
+    <sbol:displayId>sb5b00034_1_comp</sbol:displayId>
+    <sbh:supplementalFile rdf:resource="sb5b00034/suppl/sb-2015-00034e_si_001.pdf"/>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb5b00034_2_comp/1">
+    <sbol:version>1</sbol:version>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb5b00034_2_comp"/>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
     <sbol:sequence rdf:resource="http://examples.org/Sequence/sb5b00034_2_sequence/1"/>
+    <sbol:displayId>sb5b00034_2_comp</sbol:displayId>
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.5b00034"/>
+    <sbh:supplementalFile rdf:resource="sb5b00034/suppl/sb-2015-00034e_si_001.pdf"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
   </sbol:ComponentDefinition>
   <sbol:Sequence rdf:about="http://examples.org/Sequence/sb5b00034_1_sequence/1">
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb5b00034_1_sequence"/>
+    <sbol:displayId>sb5b00034_1_sequence</sbol:displayId>
     <sbol:version>1</sbol:version>
     <sbol:elements>atgagtattcaacatttc</sbol:elements>
-    <sbol:displayId>sb5b00034_1_sequence</sbol:displayId>
-    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb5b00034_1_sequence"/>
-    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
   </sbol:Sequence>
-  <sbol:Collection rdf:about="http://examples.org/Collection/sb5b00034/1">
-    <ns0:references>Wood, C. W., Bruning, M., Ibarra, A. A&#769;., Bartlett, G. J., Thomson, A. R., Sessions, R. B., Brady, R. L., Woolfson, D. N. CCBuilder: An interactive web-based tool for building, designing and assessing coiled-coil protein assemblies Bioinformatics 2014. 30:3029-3035.</ns0:references>
-    <ns0:type rdf:resource="http://purl.org/dc/dcmitype/Text"/>
-    <ns2:ownedBy rdf:resource="https://synbioks.org/user/myers"/>
-    <ns0:rightsHolder>American Chemical
-Society</ns0:rightsHolder>
-    <sbol:displayId>sb5b00034</sbol:displayId>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb5b00034_3_comp/1">
     <sbol:version>1</sbol:version>
-    <ns0:dateSubmitted>2015-02-16</ns0:dateSubmitted>
-    <ns3:rights>Copyright &#169; 2015 American Chemical
-Society</ns3:rights>
-    <ns4:OBI_0001617>26046486</ns4:OBI_0001617>
-    <ns3:type>research-article</ns3:type>
-    <sbol:persistentIdentity rdf:resource="http://examples.org/Collection/sb5b00034"/>
-    <ns3:creator>Timothy R. Dafforn</ns3:creator>
-    <ns0:description>The field of synthetic biology includes studies that aim to develop new materials and devices from biomolecules. In recent years, much work has been carried out using a range of biomolecular chassis including &#945;-helical coiled coils, &#946;-sheet amyloids and even viral particles. In this work, we show how hybrid bionanoparticles can be produced from a viral M13 bacteriophage scaffold through conjugation with DNA primers that can template a polymerase chain reaction (PCR). This unprecedented example of a PCR on a virus particle has been studied by flow aligned linear dichroism spectroscopy, which gives information on the structure of the product as well as a new protototype methodology for DNA detection. We propose that this demonstration of PCR on the surface of a bionanoparticle is a useful addition to ways in which hybrid assemblies may be constructed using synthetic biology.</ns0:description>
-    <ns2:topLevel rdf:resource="https://synbioks.org/public/ACS/sb5b00034/1"/>
-    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb5b00034_2_comp/1"/>
-    <ns0:dateAccepted>2015-06-05</ns0:dateAccepted>
-    <sbol:member rdf:resource="http://examples.org/Sequence/sb5b00034_1_sequence/1"/>
-    <sbol:member rdf:resource="http://examples.org/Sequence/sb5b00034_2_sequence/1"/>
-    <ns3:subject>shear flow</ns3:subject>
-    <ns0:dateCopyrighted>2015</ns0:dateCopyrighted>
-    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb5b00034_1_comp/1"/>
-    <ns0:created>2015-06-05</ns0:created>
-    <ns0:isPartOf rdf:resource="http://pubs.acs.org/journal/asbcd6"/>
-    <sbol:member rdf:resource="http://examples.org/Sequence/sb5b00034_3_sequence/1"/>
-    <ns4:OBI_0002110>10.1021/acssynbio.5b00034</ns4:OBI_0002110>
-    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb5b00034_3_comp/1"/>
-    <ns3:publisher>American Chemical
-Society</ns3:publisher>
-    <ns0:abstract>The field of synthetic biology includes studies that aim to develop new materials and devices from biomolecules. In recent years, much work has been carried out using a range of biomolecular chassis including &#945;-helical coiled coils, &#946;-sheet amyloids and even viral particles. In this work, we show how hybrid bionanoparticles can be produced from a viral M13 bacteriophage scaffold through conjugation with DNA primers that can template a polymerase chain reaction (PCR). This unprecedented example of a PCR on a virus particle has been studied by flow aligned linear dichroism spectroscopy, which gives information on the structure of the product as well as a new protototype methodology for DNA detection. We propose that this demonstration of PCR on the surface of a bionanoparticle is a useful addition to ways in which hybrid assemblies may be constructed using synthetic biology.</ns0:abstract>
-  </sbol:Collection>
-  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb5b00034_1_comp/1">
-    <ns1:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
-    <sbol:displayId>sb5b00034_1_comp</sbol:displayId>
-    <ns1:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.5b00034"/>
-    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb5b00034_1_sequence/1"/>
-    <sbol:version>1</sbol:version>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb5b00034_3_comp"/>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.5b00034"/>
+    <sbh:supplementalFile rdf:resource="sb5b00034/suppl/sb-2015-00034e_si_001.pdf"/>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb5b00034_3_sequence/1"/>
+    <sbol:displayId>sb5b00034_3_comp</sbol:displayId>
     <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
-    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb5b00034_1_comp"/>
   </sbol:ComponentDefinition>
   <sbol:Sequence rdf:about="http://examples.org/Sequence/sb5b00034_3_sequence/1">
+    <sbol:elements>tcatcagtcagtcagtca</sbol:elements>
     <sbol:displayId>sb5b00034_3_sequence</sbol:displayId>
+    <sbol:version>1</sbol:version>
     <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
     <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb5b00034_3_sequence"/>
-    <sbol:version>1</sbol:version>
-    <sbol:elements>tcatcagtcagtcagtca</sbol:elements>
   </sbol:Sequence>
 </rdf:RDF>

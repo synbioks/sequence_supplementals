@@ -1,57 +1,36 @@
-<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:sbol="http://sbols.org/v2#" xmlns:ns0="http://wiki.synbiohub.org/wiki/Terms/synbiohub#" xmlns:ns1="http://purl.obolibrary.org/obo/" xmlns:ns2="http://purl.org/dc/elements/1.1/" xmlns:ns3="http://www.w3.org/ns/prov#" xmlns:ns4="http://purl.org/dc/terms/">
-  <sbol:Collection rdf:about="http://examples.org/Collection/sb9b00224/1">
-    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb9b00224_2_comp/1"/>
-    <ns0:topLevel rdf:resource="https://synbioks.org/public/ACS/sb9b00224/1"/>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:sbh="https://wiki.synbiohub.org/wiki/Terms/synbiohub#" xmlns:sbol="http://sbols.org/v2#" xmlns:ns0="http://www.w3.org/ns/prov#">
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb9b00224_1_sequence/1">
     <sbol:version>1</sbol:version>
-    <ns1:OBI_0001617>31663334</ns1:OBI_0001617>
-    <ns2:creator>Yonathan Arfi</ns2:creator>
-    <sbol:member rdf:resource="http://examples.org/Sequence/sb9b00224_2_sequence/1"/>
-    <sbol:persistentIdentity rdf:resource="http://examples.org/Collection/sb9b00224"/>
-    <ns2:publisher>American Chemical
-Society</ns2:publisher>
-    <ns4:rightsHolder>American Chemical Society</ns4:rightsHolder>
-    <ns0:ownedBy rdf:resource="https://synbioks.org/user/myers"/>
-    <ns4:abstract>Over the past decade, a new strategy was developed to bypass the difficulties to genetically engineer some microbial species by transferring (or &#8220;cloning&#8221;) their genome into another organism that is amenable to efficient genetic modifications and therefore acts as a living workbench. As such, the yeast Saccharomyces cerevisiae has been used to clone and engineer genomes from viruses, bacteria, and algae. The cloning step requires the insertion of yeast genetic elements in the genome of interest, in order to drive its replication and maintenance as an artificial chromosome in the host cell. Current methods used to introduce these genetic elements are still unsatisfactory, due either to their random nature (transposon) or the requirement for unique restriction sites at specific positions (TAR cloning). Here we describe the CReasPy-cloning, a new method that combines both the ability of Cas9 to cleave DNA at a user-specified locus and the yeast&#8217;s highly efficient homologous recombination to simultaneously clone and engineer a bacterial chromosome in yeast. Using the 0.816 Mbp genome of Mycoplasma pneumoniae as a proof of concept, we demonstrate that our method can be used to introduce the yeast genetic element at any location in the bacterial chromosome while simultaneously deleting various genes or group of genes. We also show that CReasPy-cloning can be used to edit up to three independent genomic loci at the same time with an efficiency high enough to warrant the screening of a small (</ns4:abstract>
-    <ns4:type rdf:resource="http://purl.org/dc/dcmitype/Text"/>
-    <ns4:dateSubmitted>2019-05-22</ns4:dateSubmitted>
-    <ns1:OBI_0002110>10.1021/acssynbio.9b00224</ns1:OBI_0002110>
-    <ns4:isPartOf rdf:resource="http://pubs.acs.org/journal/asbcd6"/>
-    <sbol:member rdf:resource="http://examples.org/Sequence/sb9b00224_1_sequence/1"/>
-    <ns2:type>research-article</ns2:type>
-    <ns4:dateCopyrighted>2019</ns4:dateCopyrighted>
-    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb9b00224_1_comp/1"/>
-    <sbol:displayId>sb9b00224</sbol:displayId>
-  </sbol:Collection>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb9b00224_1_sequence"/>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:displayId>sb9b00224_1_sequence</sbol:displayId>
+    <sbol:elements>catgatgcatgtgaacaagaaaacagtgaagc</sbol:elements>
+  </sbol:Sequence>
   <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb9b00224_2_comp/1">
-    <ns3:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.9b00224"/>
-    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
-    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb9b00224_2_sequence/1"/>
-    <ns3:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
-    <sbol:version>1</sbol:version>
     <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb9b00224_2_comp"/>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb9b00224_2_sequence/1"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:version>1</sbol:version>
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.9b00224"/>
+    <sbh:supplementalFile rdf:resource="sb9b00224/suppl/sb-2019-00224x_si_002.pdf"/>
     <sbol:displayId>sb9b00224_2_comp</sbol:displayId>
   </sbol:ComponentDefinition>
-  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb9b00224_2_sequence/1">
-    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb9b00224_2_sequence"/>
-    <sbol:displayId>sb9b00224_2_sequence</sbol:displayId>
-    <sbol:elements>catgaccggtcatgcctgcagttcagatcc</sbol:elements>
-    <sbol:version>1</sbol:version>
-    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
-  </sbol:Sequence>
   <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb9b00224_1_comp/1">
     <sbol:version>1</sbol:version>
-    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb9b00224_1_comp"/>
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.9b00224"/>
     <sbol:sequence rdf:resource="http://examples.org/Sequence/sb9b00224_1_sequence/1"/>
-    <ns3:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.9b00224"/>
     <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbh:supplementalFile rdf:resource="sb9b00224/suppl/sb-2019-00224x_si_002.pdf"/>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb9b00224_1_comp"/>
     <sbol:displayId>sb9b00224_1_comp</sbol:displayId>
-    <ns3:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
   </sbol:ComponentDefinition>
-  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb9b00224_1_sequence/1">
-    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
-    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb9b00224_1_sequence"/>
-    <sbol:elements>catgatgcatgtgaacaagaaaacagtgaagc</sbol:elements>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb9b00224_2_sequence/1">
+    <sbol:elements>catgaccggtcatgcctgcagttcagatcc</sbol:elements>
+    <sbol:displayId>sb9b00224_2_sequence</sbol:displayId>
     <sbol:version>1</sbol:version>
-    <sbol:displayId>sb9b00224_1_sequence</sbol:displayId>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb9b00224_2_sequence"/>
   </sbol:Sequence>
 </rdf:RDF>

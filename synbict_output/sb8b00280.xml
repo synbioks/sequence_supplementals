@@ -1,1187 +1,847 @@
-<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:sbol="http://sbols.org/v2#" xmlns:ns0="http://purl.org/dc/terms/" xmlns:ns1="http://www.w3.org/ns/prov#" xmlns:ns2="http://wiki.synbiohub.org/wiki/Terms/synbiohub#" xmlns:ns3="http://purl.org/dc/elements/1.1/" xmlns:ns4="http://purl.obolibrary.org/obo/">
-  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb8b00280_9_sequence/1">
-    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
-    <sbol:elements>ccaaatcactaagcatgtggcacaaattttggatagtcgcatgaatactaaatacgatgaaaatgataaacttattcgagaggttaaagtgattaccttaaaatctaaattagtttctgacttccgaaaagatttccaattctataaagtacgtgagattaacaattaccatcatgcccatgatgcgtatctaaatgccgtcgttggaactgctttgattaagaaatatccaaaacttgaatcggagtttgtctatggtgattataaagtttatgatgttcgtaaaatgattgctaagtctgagcaagaaataggcaaagcaaccgcaaaatatttcttttactctaatatcatgaacttcttcaaaacagaaattacacttgcaaatggagagattcgcaaacgccctctaatcgaaactaatggggaaactggagaaattgtctgggataaagggcgagattttgccacagtgcgcaaagtattgtccatgccccaagtcaatattgtcaagaaaacagaagtacagacaggcggattctccaaggagtcaattttaccaaaaagaaattcggacaagcttattgctcgtaaaaaagactgggatccaaaaaaatatggtggttttgatagtccaacggtagcttattcagtcctagtggttgctaaggtggaaaaagggaaatcgaagaagttaaaatccgttaaagagttactagggatcacaattatggaaagaagttcctttgaaaaaaatccgattgactttttagaagctaaaggatataaggaagttaaaaaagacttaatcattaaactacctaaatatagtctttttgagttagaaaacggtcgtaaacggatgctggctagtgccggagaattacaaaaaggaaatgagctggctctgccaagcaaatatgtgaattttttatatttagctagtcattatgaaaagttgaagggtagtccagaagataacgaacaaaaacaattgtttgtggagcagcataagcattatttagatgagattattgagcaaatcagtgaattttctaagcgtgttattttagcagatgccaatttagataaagttcttagtgcatataacaaacatagagacaaaccaatacgtgaacaagcagaaaatattattcatttatttacgttgacgaatcttggagctcccgctgcttttaaatattttgatacaacaattgatcgtaaacgatatacgtctacaaaagaagttttagatgccactcttatccatcaatccatcactggtctttatgaaacacgcattgatttgagtcagctaggaggtgactaactcgagtaaggatctccaggcatcaaataaaacgaaaggctcagtcgaaagactgggcctttcgttttatctgttgtttgtcggtgaacgctctctactagagtcacactggctcaccttcgggtgggcctttctgcgtttata</sbol:elements>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:sbh="https://wiki.synbiohub.org/wiki/Terms/synbiohub#" xmlns:sbol="http://sbols.org/v2#" xmlns:ns0="http://purl.org/dc/terms/" xmlns:ns1="http://www.w3.org/ns/prov#">
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb8b00280_15_comp/1">
+    <ns1:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.8b00280"/>
+    <sbol:displayId>sb8b00280_15_comp</sbol:displayId>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbh:supplementalFile rdf:resource="sb8b00280/suppl/sb-2018-002802_si_001.pdf"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00280_15_comp"/>
     <sbol:version>1</sbol:version>
-    <sbol:displayId>sb8b00280_9_sequence</sbol:displayId>
-    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb8b00280_9_sequence"/>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb8b00280_15_sequence/1"/>
+    <ns1:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb8b00280_8_comp/1">
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb8b00280_8_sequence/1"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbh:supplementalFile rdf:resource="sb8b00280/suppl/sb-2018-002802_si_001.pdf"/>
+    <sbol:displayId>sb8b00280_8_comp</sbol:displayId>
+    <ns1:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbol:version>1</sbol:version>
+    <ns1:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.8b00280"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00280_8_comp"/>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb8b00280_4_comp/1">
+    <sbol:version>1</sbol:version>
+    <sbol:component>
+      <sbol:Component rdf:about="http://examples.org/ComponentDefinition/sb8b00280_4_comp/B0015_comp_1/1">
+        <sbol:definition rdf:resource="https://synbioks.org/public/CIDAR_MoClo_Toolkit_Densmore_Lab/B0015/1"/>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <ns0:title>B0015</ns0:title>
+        <sbol:displayId>B0015_comp_1</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00280_4_comp/B0015_comp_1"/>
+      </sbol:Component>
+    </sbol:component>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="http://examples.org/ComponentDefinition/sb8b00280_4_comp/Bba_B0015_anno_1/1">
+        <ns0:title>Bba_B0015</ns0:title>
+        <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00280_4_comp/Bba_B0015_anno_1"/>
+        <sbol:location>
+          <sbol:Range rdf:about="http://examples.org/ComponentDefinition/sb8b00280_4_comp/Bba_B0015_anno_1/Bba_B0015_anno_1_loc/1">
+            <sbol:end>916</sbol:end>
+            <sbol:version>1</sbol:version>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:displayId>Bba_B0015_anno_1_loc</sbol:displayId>
+            <sbol:start>788</sbol:start>
+            <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00280_4_comp/Bba_B0015_anno_1/Bba_B0015_anno_1_loc"/>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:displayId>Bba_B0015_anno_1</sbol:displayId>
+        <sbol:component rdf:resource="http://examples.org/ComponentDefinition/sb8b00280_4_comp/Bba_B0015_comp_1/1"/>
+        <sbol:version>1</sbol:version>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="http://examples.org/ComponentDefinition/sb8b00280_4_comp/B0015_anno_1/1">
+        <sbol:location>
+          <sbol:Range rdf:about="http://examples.org/ComponentDefinition/sb8b00280_4_comp/B0015_anno_1/B0015_anno_1_loc/1">
+            <sbol:end>916</sbol:end>
+            <sbol:version>1</sbol:version>
+            <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00280_4_comp/B0015_anno_1/B0015_anno_1_loc"/>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:start>788</sbol:start>
+            <sbol:displayId>B0015_anno_1_loc</sbol:displayId>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:version>1</sbol:version>
+        <sbol:component rdf:resource="http://examples.org/ComponentDefinition/sb8b00280_4_comp/B0015_comp_1/1"/>
+        <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00280_4_comp/B0015_anno_1"/>
+        <sbol:displayId>B0015_anno_1</sbol:displayId>
+        <ns0:description>Double terminator, rrnBT1-T7TE</ns0:description>
+        <ns0:title>B0015</ns0:title>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <ns1:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbol:displayId>sb8b00280_4_comp</sbol:displayId>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb8b00280_4_sequence/1"/>
+    <ns1:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.8b00280"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00280_4_comp"/>
+    <sbh:supplementalFile rdf:resource="sb8b00280/suppl/sb-2018-002802_si_001.pdf"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:component>
+      <sbol:Component rdf:about="http://examples.org/ComponentDefinition/sb8b00280_4_comp/Bba_B0015_comp_1/1">
+        <sbol:version>1</sbol:version>
+        <sbol:definition rdf:resource="https://synbioks.org/public/MoClo_Yeast_Toolkit_Dueber_Lab/Bba_B0015/1"/>
+        <ns0:title>Bba_B0015</ns0:title>
+        <sbol:displayId>Bba_B0015_comp_1</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00280_4_comp/Bba_B0015_comp_1"/>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+      </sbol:Component>
+    </sbol:component>
+  </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb8b00280_2_sequence/1">
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb8b00280_2_sequence"/>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:elements>ctgacgggtagcctttagtccatgtactgtttctccatacccgtttttttgggaattcaaaagatcttttaagaaggagatatacatatggcgagtagcgaagacgttatcaaagagttcatgcgtttcaaagttcgtatggaaggttccgttaacggtcacgagttcgaaatcgaaggtgaaggtgaaggtcgtccgtacgaaggtacccagaccgctaaactgaaagttaccaaaggtggtccgctgccgttcgcttgggacatcctgtccccgcagttccagtacggttccaaagcttacgttaaacacccggctgacatcccggactacctgaaactgtccttcccggaaggtttcaaatgggaacgtgttatgaacttcgaagacggtggtgttgttaccgttacccaggactcctccctgcaagacggtgagttcatctacaaagttaaactgcgtggtaccaacttcccgtccgacggtccggttatgcagaaaaaaaccatgggttgggaagcttccaccgaacgtatgtacccggaagacggtgctctgaaaggtgaaatcaaaatgcgtctgaaactgaaagacggtggtcactacgacgctgaagttaaaaccacctacatggctaaaaaaccggttcagctgccgggtgcttacaaaaccgacatcaaactggacatcacctcccacaacgaagactacaccatcgttgaacagtacgaacgtgctgaaggtcgtcactccaccggtgcttaaggatccaaactcgagtaaggatctccaggcatcaaataaaacgaaaggctcagtcgaaagactgggcctttcgttttatctgttgtttgtcggtgaacgctctctactagagtcacactggctcaccttcgggtgggcctttctgcgtttata</sbol:elements>
+    <sbol:displayId>sb8b00280_2_sequence</sbol:displayId>
+    <sbol:version>1</sbol:version>
+  </sbol:Sequence>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb8b00280_3_comp/1">
+    <sbol:version>1</sbol:version>
+    <sbol:displayId>sb8b00280_3_comp</sbol:displayId>
+    <sbh:supplementalFile rdf:resource="sb8b00280/suppl/sb-2018-002802_si_001.pdf"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00280_3_comp"/>
+    <ns1:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb8b00280_3_sequence/1"/>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="http://examples.org/ComponentDefinition/sb8b00280_3_comp/Bba_B0015_anno_1/1">
+        <sbol:component rdf:resource="http://examples.org/ComponentDefinition/sb8b00280_3_comp/Bba_B0015_comp_1/1"/>
+        <sbol:location>
+          <sbol:Range rdf:about="http://examples.org/ComponentDefinition/sb8b00280_3_comp/Bba_B0015_anno_1/Bba_B0015_anno_1_loc/1">
+            <sbol:orientation rdf:resource="http://sbols.org/v2#reverseComplement"/>
+            <sbol:start>1</sbol:start>
+            <sbol:displayId>Bba_B0015_anno_1_loc</sbol:displayId>
+            <sbol:version>1</sbol:version>
+            <sbol:end>129</sbol:end>
+            <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00280_3_comp/Bba_B0015_anno_1/Bba_B0015_anno_1_loc"/>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:version>1</sbol:version>
+        <ns0:title>Bba_B0015</ns0:title>
+        <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00280_3_comp/Bba_B0015_anno_1"/>
+        <sbol:displayId>Bba_B0015_anno_1</sbol:displayId>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:component>
+      <sbol:Component rdf:about="http://examples.org/ComponentDefinition/sb8b00280_3_comp/B0015_comp_1/1">
+        <ns0:title>B0015</ns0:title>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:displayId>B0015_comp_1</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00280_3_comp/B0015_comp_1"/>
+        <sbol:definition rdf:resource="https://synbioks.org/public/CIDAR_MoClo_Toolkit_Densmore_Lab/B0015/1"/>
+      </sbol:Component>
+    </sbol:component>
+    <ns1:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.8b00280"/>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="http://examples.org/ComponentDefinition/sb8b00280_3_comp/B0015_anno_1/1">
+        <sbol:displayId>B0015_anno_1</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00280_3_comp/B0015_anno_1"/>
+        <ns0:description>Double terminator, rrnBT1-T7TE</ns0:description>
+        <ns0:title>B0015</ns0:title>
+        <sbol:location>
+          <sbol:Range rdf:about="http://examples.org/ComponentDefinition/sb8b00280_3_comp/B0015_anno_1/B0015_anno_1_loc/1">
+            <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00280_3_comp/B0015_anno_1/B0015_anno_1_loc"/>
+            <sbol:version>1</sbol:version>
+            <sbol:start>1</sbol:start>
+            <sbol:end>129</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#reverseComplement"/>
+            <sbol:displayId>B0015_anno_1_loc</sbol:displayId>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:component rdf:resource="http://examples.org/ComponentDefinition/sb8b00280_3_comp/B0015_comp_1/1"/>
+        <sbol:version>1</sbol:version>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:component>
+      <sbol:Component rdf:about="http://examples.org/ComponentDefinition/sb8b00280_3_comp/Bba_B0015_comp_1/1">
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:definition rdf:resource="https://synbioks.org/public/MoClo_Yeast_Toolkit_Dueber_Lab/Bba_B0015/1"/>
+        <ns0:title>Bba_B0015</ns0:title>
+        <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00280_3_comp/Bba_B0015_comp_1"/>
+        <sbol:version>1</sbol:version>
+        <sbol:displayId>Bba_B0015_comp_1</sbol:displayId>
+      </sbol:Component>
+    </sbol:component>
+  </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb8b00280_10_sequence/1">
+    <sbol:displayId>sb8b00280_10_sequence</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <sbol:elements>ttatagctagctcagcccttggtacaatgctagctgtctagagaaagaggagaaatactagatgcgtaaaggagaagaacttttcactggagttgtcccaattcttgttgaattagatggtgatgttaatgggcacaaattttctgtcagtggagagggtgaaggtgatgcaacatacggaaaacttacccttaaatttatttgcactactggaaaactacctgttccatggccaacacttgtcactactttcggttatggtgttcaatgctttgcgagatacccagatcatatgaaacagcatgactttttcaagagtgccatgcccgaaggttatgtacaggaaagaactatatttttcaaagatgacgggaactacaagacacgtgctgaagtcaagtttgaaggtgatacccttgttaatagaatcgagttaaaaggtattgattttaaagaagatggaaacattcttggacacaaattggaatacaactataactcacacaatgtatacatcatggcagacaaacaaaagaatggaatcaaagttaacttcaaaattagacacaacattgaagatggaagcgttcaactagcagaccattatcaacaaaatactccaattggcgatggccctgtccttttaccagacaaccattacctgtccacacaatctgccctttcgaaagatcccaacgaaaagagagaccacatggtccttcttgagtttgtaacagctgctgggattacacatggcatggatgaactatacaaataataaaggatccaaactcgagtaaggatctccaggcatcaaataaaacgaaaggctcagtcgaaagactgggcctttcgttttatctgttgtttgtcggtgaacgctctctactagagtcacactggctcaccttcgggtgggcctttctgcgtttata</sbol:elements>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb8b00280_10_sequence"/>
   </sbol:Sequence>
   <sbol:Sequence rdf:about="http://examples.org/Sequence/sb8b00280_8_sequence/1">
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb8b00280_8_sequence"/>
+    <sbol:displayId>sb8b00280_8_sequence</sbol:displayId>
+    <sbol:version>1</sbol:version>
     <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
     <sbol:elements>ttttcaaatgagatggcgaaagtagatgatagtttctttcatcgacttgaagagtcttttttggtggaagaagacaagaagcatgaacgtcatcctatttttggaaatatagtagatgaagttgcttatcatgagaaatatccaactatctatcatctgcgaaaaaaattggtagattctactgataaagcggatttgcgcttaatctatttggccttagcgcatatgattaagtttcgtggtcattttttgattgagggagatttaaatcctgataatagtgatgtggacaaactatttatccagttggtacaaacctacaatcaattatttgaagaaaaccctattaacgcaagtggagtagatgctaaagcgattctttctgcacgattgagtaaatcaagacgattagaaaatctcattgctcagctccccggtgagaagaaaaatggcttatttgggaatctcattgctttgtcattgggtttgacccctaattttaaatcaaattttgatttggcagaagatgctaaattacagctttcaaaagatacttacgatgatgatttagataatttattggcgcaaattggagatcaatatgctgatttgtttttggcagctaagaatttatcagatgctattttactttcagatatcctaagagtaaatactgaaataactaaggctcccctatcagcttcaatgattaaacgctacgatgaacatcatcaagacttgactcttttaaaagctttagttcgacaacaacttccagaaaagtataaagaaatcttttttgatcaatcaaaaaacggatatgcaggttatattgatgggggagctagccaagaagaattttataaatttatcaaaccaattttagaaaaaatggatggtactgaggaattattggtgaaactaaatcgtgaagatttgctgcgcaagcaacggacctttgacaacggctctattccccatcaaattcacttgggtgagctgcatgctattttgagaagacaagaagacttttatccatttttaaaagacaatcgtgagaagattgaaaaaatcttgacttttcgaattccttattatgttggtccattggcgcgtggcaatagtcgttttgcatggatgactcggaagtctgaagaaacaattaccccatggaattttgaagaagttgtcgataaaggtgcttcagctcaatcatttattgaacgcatgacaaactttgataaaaatcttccaaatgaaaaagtactaccaaaacatagtttgctttatgagtattttacggtttataacgaattgacaaaggtcaaatatgttactgaaggaatgcgaaaaccagcatttctttcaggtgaacagaagaaagccattgttgatttactcttcaaaacaaatcgaaaagtaaccgttaagcaattaaaagaagattatttcaaaaaaatagaatgttttgatagtgttgaaatttcaggagttgaagatagatttaatgcttcattaggtacctaccatgatttgctaaaaattattaaagataaagattttttggataatgaagaaaatgaagatatcttagaggatattgttttaacattgaccttatttgaagatagggagatgattgaggaaagacttaaaacatatgctcacctctttgatgataaggtgatgaaacagcttaaacgtcgccgttatactggttggggacgtttgtctcgaaaattgattaatggtattagggataagcaatctggcaaaacaatattagattttttgaaatcagatggttttgccaatcgcaattttatgcagctgatccatgatgatagtttgacatttaaagaagacattcaaaaagcacaagtgtctggacaaggcgatagtttacatgaacatattgcaaatttagctggtagccctgctattaaaaaaggtattttacagactgtaaaagttgttgatgaattggtcaaagtaatggggcggcataagccagaaaatatcgttattgaaatggcacgtgaaaatcagacaactcaaaagggccagaaaaattcgcgagagcgtatgaaacgaatcgaagaaggtatcaaagaattaggaagtcagattcttaaagagcatcctgttgaaaatactcaattgcaaaatgaaaagctctatctctattatctccaaaatggaagagacatgtatgtggaccaagaattagatattaatcgtttaagtgattatgatgtcgatgccattgttccacaaagtttccttaaagacgattcaatagacaataaggtcttaacgcgttctgataaaaatcgtggtaaatcggataacgttccaagtgaagaagtagtcaaaaagatgaaaaactattggagacaacttctaaacgccaagttaatcactcaacgtaagtttgataatttaacgaaagctgaacgtggaggtttgagtgaacttgataaagctggttttatcaaacgccaattggttgaaactcg</sbol:elements>
-    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb8b00280_8_sequence"/>
+  </sbol:Sequence>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb8b00280_5_comp/1">
+    <sbh:supplementalFile rdf:resource="sb8b00280/suppl/sb-2018-002802_si_001.pdf"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:component>
+      <sbol:Component rdf:about="http://examples.org/ComponentDefinition/sb8b00280_5_comp/B0015_comp_1/1">
+        <ns0:title>B0015</ns0:title>
+        <sbol:displayId>B0015_comp_1</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00280_5_comp/B0015_comp_1"/>
+        <sbol:definition rdf:resource="https://synbioks.org/public/CIDAR_MoClo_Toolkit_Densmore_Lab/B0015/1"/>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+      </sbol:Component>
+    </sbol:component>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="http://examples.org/ComponentDefinition/sb8b00280_5_comp/B0015_anno_1/1">
+        <sbol:displayId>B0015_anno_1</sbol:displayId>
+        <ns0:description>Double terminator, rrnBT1-T7TE</ns0:description>
+        <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00280_5_comp/B0015_anno_1"/>
+        <ns0:title>B0015</ns0:title>
+        <sbol:location>
+          <sbol:Range rdf:about="http://examples.org/ComponentDefinition/sb8b00280_5_comp/B0015_anno_1/B0015_anno_1_loc/1">
+            <sbol:version>1</sbol:version>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:displayId>B0015_anno_1_loc</sbol:displayId>
+            <sbol:start>790</sbol:start>
+            <sbol:end>918</sbol:end>
+            <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00280_5_comp/B0015_anno_1/B0015_anno_1_loc"/>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:component rdf:resource="http://examples.org/ComponentDefinition/sb8b00280_5_comp/B0015_comp_1/1"/>
+        <sbol:version>1</sbol:version>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
     <sbol:version>1</sbol:version>
-    <sbol:displayId>sb8b00280_8_sequence</sbol:displayId>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00280_5_comp"/>
+    <ns1:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbol:component>
+      <sbol:Component rdf:about="http://examples.org/ComponentDefinition/sb8b00280_5_comp/Bba_B0015_comp_1/1">
+        <ns0:title>Bba_B0015</ns0:title>
+        <sbol:displayId>Bba_B0015_comp_1</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00280_5_comp/Bba_B0015_comp_1"/>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:definition rdf:resource="https://synbioks.org/public/MoClo_Yeast_Toolkit_Dueber_Lab/Bba_B0015/1"/>
+        <sbol:version>1</sbol:version>
+      </sbol:Component>
+    </sbol:component>
+    <sbol:displayId>sb8b00280_5_comp</sbol:displayId>
+    <ns1:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.8b00280"/>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="http://examples.org/ComponentDefinition/sb8b00280_5_comp/Bba_B0015_anno_1/1">
+        <sbol:version>1</sbol:version>
+        <sbol:component rdf:resource="http://examples.org/ComponentDefinition/sb8b00280_5_comp/Bba_B0015_comp_1/1"/>
+        <sbol:location>
+          <sbol:Range rdf:about="http://examples.org/ComponentDefinition/sb8b00280_5_comp/Bba_B0015_anno_1/Bba_B0015_anno_1_loc/1">
+            <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00280_5_comp/Bba_B0015_anno_1/Bba_B0015_anno_1_loc"/>
+            <sbol:start>790</sbol:start>
+            <sbol:end>918</sbol:end>
+            <sbol:version>1</sbol:version>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:displayId>Bba_B0015_anno_1_loc</sbol:displayId>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00280_5_comp/Bba_B0015_anno_1"/>
+        <ns0:title>Bba_B0015</ns0:title>
+        <sbol:displayId>Bba_B0015_anno_1</sbol:displayId>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb8b00280_5_sequence/1"/>
+  </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb8b00280_13_sequence/1">
+    <sbol:version>1</sbol:version>
+    <sbol:elements>aatttgcctggcggcagtagcgcggtggtcccacctgaccccatgccgaactcagaagtgaaacgccgtagcgccgatggtagtgtggggtctccccatgcgagagtagggaactgccaggcatcaaataaaacgaaaggctcagtcgaaagactgggccttcaagctaattaccctgttatccctatgatgactgaagcttgcatgactgaatttcctcttgtcaggccggaataactccctataatgcgcctagagaaagaggagaaatactagatgttggatatgggacaagatcggccgatcgatggaagtggggcacccggggcagacgacacacgcgttgaggtgcaaccgccggcgcagtgggtcctcgacctgatcgaggccagcccgatcgcatcggtcgtgtccgatccgcgtctcgccgacaatccgctgatcgccatcaaccaggccttcaccgacctgaccggctattccgaagaagaatgcgtcggccgcaattgccgattcctggcaggttccggcaccgagccgtggctgaccgacaagatccgccaaggcgtgcgcgagcacaagccggtgctggtcgagatcctgaactacaagaaggacggcacgccgttccgcaatgccgtgctcgttgcaccgatctacgatgacgacgacgagcttctctatttcctcggcagccaggtcgaagtcgacgacgaccagcccaacatgggcatggcgcgccgcgaacgcgccgcggaaatgctcaagacgctgtcgccgcgccagctcgaggttacgacgctggtggcatcgggcttgcgcaacaaggaagtggcggcccggctcggcctgtcggagaaaaccgtcaagatgcaccgcgggctggtgatggaaaagctcaacctgaagaccagcgccgatctggtgcgcattgccgtcgaagccggaatctaaggatccaaactcgagtaaggatctccaggcatcaaataaaacgaaaggctcagtcgaaagactgggcctttcgttttatctgttgtttgtcggtgaacgctctctactagagtcacactggctcaccttcgggtgggcctttctgcgtttata</sbol:elements>
+    <sbol:displayId>sb8b00280_13_sequence</sbol:displayId>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb8b00280_13_sequence"/>
+  </sbol:Sequence>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb8b00280_13_comp/1">
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00280_13_comp"/>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="http://examples.org/ComponentDefinition/sb8b00280_13_comp/Bba_B0015_anno_1/1">
+        <sbol:version>1</sbol:version>
+        <sbol:component rdf:resource="http://examples.org/ComponentDefinition/sb8b00280_13_comp/Bba_B0015_comp_1/1"/>
+        <ns0:title>Bba_B0015</ns0:title>
+        <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00280_13_comp/Bba_B0015_anno_1"/>
+        <sbol:location>
+          <sbol:Range rdf:about="http://examples.org/ComponentDefinition/sb8b00280_13_comp/Bba_B0015_anno_1/Bba_B0015_anno_1_loc/1">
+            <sbol:start>979</sbol:start>
+            <sbol:end>1107</sbol:end>
+            <sbol:version>1</sbol:version>
+            <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00280_13_comp/Bba_B0015_anno_1/Bba_B0015_anno_1_loc"/>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:displayId>Bba_B0015_anno_1_loc</sbol:displayId>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:displayId>Bba_B0015_anno_1</sbol:displayId>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:version>1</sbol:version>
+    <sbol:displayId>sb8b00280_13_comp</sbol:displayId>
+    <sbol:component>
+      <sbol:Component rdf:about="http://examples.org/ComponentDefinition/sb8b00280_13_comp/B0015_comp_1/1">
+        <sbol:version>1</sbol:version>
+        <ns0:title>B0015</ns0:title>
+        <sbol:definition rdf:resource="https://synbioks.org/public/CIDAR_MoClo_Toolkit_Densmore_Lab/B0015/1"/>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:displayId>B0015_comp_1</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00280_13_comp/B0015_comp_1"/>
+      </sbol:Component>
+    </sbol:component>
+    <sbh:supplementalFile rdf:resource="sb8b00280/suppl/sb-2018-002802_si_001.pdf"/>
+    <sbol:component>
+      <sbol:Component rdf:about="http://examples.org/ComponentDefinition/sb8b00280_13_comp/Bba_B0015_comp_1/1">
+        <sbol:version>1</sbol:version>
+        <sbol:definition rdf:resource="https://synbioks.org/public/MoClo_Yeast_Toolkit_Dueber_Lab/Bba_B0015/1"/>
+        <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00280_13_comp/Bba_B0015_comp_1"/>
+        <ns0:title>Bba_B0015</ns0:title>
+        <sbol:displayId>Bba_B0015_comp_1</sbol:displayId>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+      </sbol:Component>
+    </sbol:component>
+    <ns1:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.8b00280"/>
+    <ns1:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb8b00280_13_sequence/1"/>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="http://examples.org/ComponentDefinition/sb8b00280_13_comp/B0015_anno_1/1">
+        <ns0:title>B0015</ns0:title>
+        <sbol:location>
+          <sbol:Range rdf:about="http://examples.org/ComponentDefinition/sb8b00280_13_comp/B0015_anno_1/B0015_anno_1_loc/1">
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00280_13_comp/B0015_anno_1/B0015_anno_1_loc"/>
+            <sbol:displayId>B0015_anno_1_loc</sbol:displayId>
+            <sbol:end>1107</sbol:end>
+            <sbol:version>1</sbol:version>
+            <sbol:start>979</sbol:start>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:component rdf:resource="http://examples.org/ComponentDefinition/sb8b00280_13_comp/B0015_comp_1/1"/>
+        <sbol:version>1</sbol:version>
+        <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00280_13_comp/B0015_anno_1"/>
+        <sbol:displayId>B0015_anno_1</sbol:displayId>
+        <ns0:description>Double terminator, rrnBT1-T7TE</ns0:description>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb8b00280_7_comp/1">
+    <ns1:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <ns1:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.8b00280"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00280_7_comp"/>
+    <sbh:supplementalFile rdf:resource="sb8b00280/suppl/sb-2018-002802_si_001.pdf"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:version>1</sbol:version>
+    <sbol:displayId>sb8b00280_7_comp</sbol:displayId>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb8b00280_7_sequence/1"/>
+  </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb8b00280_3_sequence/1">
+    <sbol:elements>tataaacgcagaaaggcccacccgaaggtgagccagtgtgactctagtagagagcgttcaccgacaaacaacagataaaacgaaaggcccagtctttcgactgagcctttcgttttatttgatgcctggagatccttactcgagtttggatccttaagcaccggtggagtgacgaccttcagcacgttcgtactgttcaacgatggtgtagtcttcgttgtgggaggtgatgtccagtttgatgtcggttttgtaagcacccggcagctgaaccggttttttagccatgtaggtggttttaacttcagcgtcgtagtgaccaccgtctttcagtttcagacgcattttgatttcacctttcagagcaccgtcttccgggtacatacgttcggtggaagcttcccaacccatggtttttttctgcataaccggaccgtcggacgggaagttggtaccacgcagtttaactttgtagatgaactcaccgtcttgcagggaggagtcctgggtaacggtaacaacaccaccgtcttcgaagttcataacacgttcccatttgaaaccttccgggaaggacagtttcaggtagtccgggatgtcagccgggtgtttaacgtaagctttggaaccgtactggaactgcggggacaggatgtcccaagcgaacggcagcggaccacctttggtaactttcagtttagcggtctgggtaccttcgtacggacgaccttcaccttcaccttcgatttcgaactcgtgaccgttaacggaaccttccatacgaactttgaaacgcatgaactctttgataacgtcttcgctactcgccatatgtatatctccttcttaaacatggactaaaggctacctgaagaatttatgcaaatttcataattttataactagcaaatgagatagatttcggtgaaccagatccctgacagctagctcagtcctaggtataatgctagcaaagaggagaaatactagagatggccttggttgacggttttcttgagctggaacgctcaagtggaaaattggagtggagcgccatcctccagaagatggcgagcgaccttggattctcgaagatcctgttcggcctgttgcctaaggacagccaggactacgagaacgccttcatcgtcggcaactacccggccgcctggcgcgagcattacgaccgggctggctacgcgcgggtcgacccgacggtcagtcactgtacccagagcgtactgccgattttctgggaaccgtccatctaccagacgcgaaagcagcacgagttcttcgaggaagcctcggccgccggcctggtgtatgggctgaccatgccgctgcatggtgctcgcggcgaactcggcgcgctgagcctcagcgtggaagcggaaaaccgggccgaggccaaccgtttcatagagtcggtcctgccgaccctgtggatgctcaaggactacgcactgcaaagcggtgccggactggccttcgaacatccggtcagcaaaccggtggttctgaccagccgggagaaggaagtgttgcagtggtgcgccatcggcaagaccagttgggagatatcggttatctgcaactgctcggaagccaatgtgaacttccatatgggaaatattcggcggaagttcggtgtgacctcccgccgcgtagcggccattatggccgttaatttgggtcttattactctctaataatactagagccaggcatcaaattaaaacgaaaggctcagtcgaaagactgggcctttcgttttatctgttgtttgtcggtgaacgctctctactagagtcacactgggtcaccttcgggtgggcctttctgcgtttata</sbol:elements>
+    <sbol:displayId>sb8b00280_3_sequence</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb8b00280_3_sequence"/>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb8b00280_1_sequence/1">
+    <sbol:version>1</sbol:version>
+    <sbol:elements>atttcctcttgtcaggccggaataactccctataatgcgcctagagaaagaggagaaatactagatgttggatatgggacaagatcggccgatcgatggaagtggggcacccggggcagacgacacacgcgttgaggtgcaaccgccggcgcagtgggtcctcgacctgatcgaggccagcccgatcgcatcggtcgtgtccgatccgcgtctcgccgacaatccgctgatcgccatcaaccaggccttcaccgacctgaccggctattccgaagaagaatgcgtcggccgcaattgccgattcctggcaggttccggcaccgagccgtggctgaccgacaagatccgccaaggcgtgcgcgagcacaagccggtgctggtcgagatcctgaactacaagaaggacggcacgccgttccgcaatgccgtgctcgttgcaccgatctacgatgacgacgacgagcttctctatttcctcggcagccaggtcgaagtcgacgacgaccagcccaacatgggcatggcgcgccgcgaacgcgccgcggaaatgctcaagacgctgtcgccgcgccagctcgaggttacgacgctggtggcatcgggcttgcgcaacaaggaagtggcggcccggctcggcctgtcggagaaaaccgtcaagatgcaccgcgggctggtgatggaaaagctcaacctgaagaccagcgccgatctggtgcgcattgccgtcgaagccggaatctaaggatccaaactcgagtaaggatctccaggcatcaaataaaacgaaaggctcagtcgaaagactgggcctttcgttttatctgttgtttgtcggtgaacgctctctactagagtcacactggctcaccttcgggtgggcctttctgcgtttata</sbol:elements>
+    <sbol:displayId>sb8b00280_1_sequence</sbol:displayId>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb8b00280_1_sequence"/>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb8b00280_6_sequence/1">
+    <sbol:version>1</sbol:version>
+    <sbol:elements>taaacgcagaaaggcccacccgaaggtgacccagtgtgactctagtagagagcgttcaccgacaaacaacagataaaacgaaaggcccagtctttcgactgagcctttcgttttaatttgatgcctggctctagtattattagagagtaataagacccaaattaacggccataatggccgctacgcggcgggaggtcacaccgaacttccgccgaatatttcccatatggaagttcacattggcttccgagcagttgcagataaccgatatctcccaactggtcttgccgatggcgcaccactgcaacacttccttctcccggctggtcagaaccaccggtttgctgaccggatgttcgaaggccagtccggcaccgctttgcagtgcgtagtccttgagcatccacagggtcggcaggaccgactctatgaaacggttggcctcggcccggttttccgcttccacgctgaggctcagcgcgccgagttcgccgcgagcaccatgcagcggcatggtcagcccatacaccaggccggcggccgaggcttcctcgaagaactcgtgctgctttcgcgtctggtagatggacggttcccagaaaatcggcagtacgctctgggtacagtgactgaccgtcgggtcgacccgcgcgtagccagcccggtcgtaatgctcgcgccaggcggccgggtagttgccgacgatgaaggcgttctcgtagtcctggctgtccttaggcaacaggccgaacaggatcttcgagaatccaaggtcgctcgccatcttctggaggatggcgctccactccaattttccacttgagcgttccagctcaagaaaaccgtcaaccaaggccatctctagtatttctcctctttgctagcattatacctaggactgagctagctgtcagggatctggttcaccgaaatctatctcatttgctagttataaaattatgaaatttgcataaattcttcaggtagcctttagtccatgtttaagaaggagatatacatatggcgagtagcgaagacgttatcaaagagttcatgcgtttcaaagttcgtatggaaggttccgttaacggtcacgagttcgaaatcgaaggtgaaggtgaaggtcgtccgtacgaaggtacccagaccgctaaactgaaagttaccaaaggtggtccgctgccgttcgcttgggacatcctgtccccgcagttccagtacggttccaaagcttacgttaaacacccggctgacatcccggactacctgaaactgtccttcccggaaggtttcaaatgggaacgtgttatgaacttcgaagacggtggtgttgttaccgttacccaggactcctccctgcaagacggtgagttcatctacaaagttaaactgcgtggtaccaacttcccgtccgacggtccggttatgcagaaaaaaaccatgggttgggaagcttccaccgaacgtatgtacccggaagacggtgctctgaaaggtgaaatcaaaatgcgtctgaaactgaaagacggtggtcactacgacgctgaagttaaaaccacctacatggctaaaaaaccggttcagctgccgggtgcttacaaaaccgacatcaaactggacatcacctcccacaacgaagactacaccatcgttgaacagtacgaacgtgctgaaggtcgtcactccaccggtgcttaaggatccaaactcgagtaaggatctccaggcatcaaataaaacgaaaggctcagtcgaaagactgggcctttcgttttatctgttgtttgtcggtgaacgctctctactagagtcacactggctcaccttcgggtgggcctttctgcgtttata</sbol:elements>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:displayId>sb8b00280_6_sequence</sbol:displayId>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb8b00280_6_sequence"/>
   </sbol:Sequence>
   <sbol:Sequence rdf:about="http://examples.org/Sequence/sb8b00280_12_sequence/1">
-    <sbol:version>1</sbol:version>
-    <sbol:elements>ctgacgggtagcctttagtccatgtactgtttctccatacccgtttttttgggaattcaaaagatctgcgtcattggtaagttccatgttttagagctagaaatagcaagttaaaataaggctagtccgttatcaacttgaaaaagtggcaccgagtcggtgctttttttgaagcttgggcccgaacaaaaactcatctcagaagaggatctgaatagcgccgtcgactgagtttaaacggtctccagcttggctgttttggcggatgagagaagattttcagcctgatacagattaaatcagaacgcagaagcggtctgataaaacag</sbol:elements>
-    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb8b00280_12_sequence"/>
-    <sbol:displayId>sb8b00280_12_sequence</sbol:displayId>
     <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:elements>ctgacgggtagcctttagtccatgtactgtttctccatacccgtttttttgggaattcaaaagatctgcgtcattggtaagttccatgttttagagctagaaatagcaagttaaaataaggctagtccgttatcaacttgaaaaagtggcaccgagtcggtgctttttttgaagcttgggcccgaacaaaaactcatctcagaagaggatctgaatagcgccgtcgactgagtttaaacggtctccagcttggctgttttggcggatgagagaagattttcagcctgatacagattaaatcagaacgcagaagcggtctgataaaacag</sbol:elements>
+    <sbol:displayId>sb8b00280_12_sequence</sbol:displayId>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb8b00280_12_sequence"/>
+    <sbol:version>1</sbol:version>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb8b00280_14_sequence/1">
+    <sbol:version>1</sbol:version>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb8b00280_14_sequence"/>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:elements>aaatctatctcatttgctagttataaaattatgaaatttgcataaaggtagcctttagtccatg</sbol:elements>
+    <sbol:displayId>sb8b00280_14_sequence</sbol:displayId>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb8b00280_5_sequence/1">
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:displayId>sb8b00280_5_sequence</sbol:displayId>
+    <sbol:elements>ctgacgggtagcctttagtccatgtactgtttctccatacccgtttttttgggaattcaaaagatcttttaagaaggagatatacatatggcgagtagcgaagacgttatcaaagagttcatgcgtttcaaagttcgtatggaaggttccgttaacggtcacgagttcgaaatcgaaggtgaaggtgaaggtcgtccgtacgaaggtacccagaccgctaaactgaaagttaccaaaggtggtccgctgccgttcgcttgggacatcctgtccccgcagttccagtacggttccaaagcttacgttaaacacccggctgacatcccggactacctgaaactgtccttcccggaaggtttcaaatgggaacgtgttatgaacttcgaagacggtggtgttgttaccgttacccaggactcctccctgcaagacggtgagttcatctacaaagttaaactgcgtggtaccaacttcccgtccgacggtccggttatgcagaaaaaaaccatgggttgggaagcttccaccgaacgtatgtacccggaagacggtgctctgaaaggtgaaatcaaaatgcgtctgaaactgaaagacggtggtcactacgacgctgaagttaaaaccacctacatggctaaaaaaccggttcagctgccgggtgcttacaaaaccgacatcaaactggacatcacctcccacaacgaagactacaccatcgttgaacagtacgaacgtgctgaaggtcgtcactccaccggtgcttaaggatccaaactcgagtaaggatctccaggcatcaaataaaacgaaaggctcagtcgaaagactgggcctttcgttttatctgttgtttgtcggtgaacgctctctactagagtcacactggctcaccttcgggtgggcctttctgcgtttatacctagggcgttcggctgcggcgagcggtatcagctcactcaattttttgggaattcaagagatctta</sbol:elements>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb8b00280_5_sequence"/>
+    <sbol:version>1</sbol:version>
+  </sbol:Sequence>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb8b00280_2_comp/1">
+    <sbol:component>
+      <sbol:Component rdf:about="http://examples.org/ComponentDefinition/sb8b00280_2_comp/Bba_B0015_comp_1/1">
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:definition rdf:resource="https://synbioks.org/public/MoClo_Yeast_Toolkit_Dueber_Lab/Bba_B0015/1"/>
+        <ns0:title>Bba_B0015</ns0:title>
+        <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00280_2_comp/Bba_B0015_comp_1"/>
+        <sbol:version>1</sbol:version>
+        <sbol:displayId>Bba_B0015_comp_1</sbol:displayId>
+      </sbol:Component>
+    </sbol:component>
+    <sbh:supplementalFile rdf:resource="sb8b00280/suppl/sb-2018-002802_si_001.pdf"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00280_2_comp"/>
+    <sbol:version>1</sbol:version>
+    <sbol:displayId>sb8b00280_2_comp</sbol:displayId>
+    <sbol:component>
+      <sbol:Component rdf:about="http://examples.org/ComponentDefinition/sb8b00280_2_comp/B0015_comp_1/1">
+        <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00280_2_comp/B0015_comp_1"/>
+        <sbol:displayId>B0015_comp_1</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:definition rdf:resource="https://synbioks.org/public/CIDAR_MoClo_Toolkit_Densmore_Lab/B0015/1"/>
+        <ns0:title>B0015</ns0:title>
+      </sbol:Component>
+    </sbol:component>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="http://examples.org/ComponentDefinition/sb8b00280_2_comp/B0015_anno_1/1">
+        <sbol:component rdf:resource="http://examples.org/ComponentDefinition/sb8b00280_2_comp/B0015_comp_1/1"/>
+        <sbol:displayId>B0015_anno_1</sbol:displayId>
+        <ns0:description>Double terminator, rrnBT1-T7TE</ns0:description>
+        <ns0:title>B0015</ns0:title>
+        <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00280_2_comp/B0015_anno_1"/>
+        <sbol:location>
+          <sbol:Range rdf:about="http://examples.org/ComponentDefinition/sb8b00280_2_comp/B0015_anno_1/B0015_anno_1_loc/1">
+            <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00280_2_comp/B0015_anno_1/B0015_anno_1_loc"/>
+            <sbol:end>918</sbol:end>
+            <sbol:start>790</sbol:start>
+            <sbol:displayId>B0015_anno_1_loc</sbol:displayId>
+            <sbol:version>1</sbol:version>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:version>1</sbol:version>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb8b00280_2_sequence/1"/>
+    <ns1:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.8b00280"/>
+    <ns1:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="http://examples.org/ComponentDefinition/sb8b00280_2_comp/Bba_B0015_anno_1/1">
+        <sbol:component rdf:resource="http://examples.org/ComponentDefinition/sb8b00280_2_comp/Bba_B0015_comp_1/1"/>
+        <sbol:version>1</sbol:version>
+        <sbol:location>
+          <sbol:Range rdf:about="http://examples.org/ComponentDefinition/sb8b00280_2_comp/Bba_B0015_anno_1/Bba_B0015_anno_1_loc/1">
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:end>918</sbol:end>
+            <sbol:start>790</sbol:start>
+            <sbol:displayId>Bba_B0015_anno_1_loc</sbol:displayId>
+            <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00280_2_comp/Bba_B0015_anno_1/Bba_B0015_anno_1_loc"/>
+            <sbol:version>1</sbol:version>
+          </sbol:Range>
+        </sbol:location>
+        <ns0:title>Bba_B0015</ns0:title>
+        <sbol:displayId>Bba_B0015_anno_1</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00280_2_comp/Bba_B0015_anno_1"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb8b00280_11_comp/1">
+    <ns1:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbol:version>1</sbol:version>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="http://examples.org/ComponentDefinition/sb8b00280_11_comp/Bba_B0015_anno_1/1">
+        <sbol:version>1</sbol:version>
+        <ns0:title>Bba_B0015</ns0:title>
+        <sbol:displayId>Bba_B0015_anno_1</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00280_11_comp/Bba_B0015_anno_1"/>
+        <sbol:location>
+          <sbol:Range rdf:about="http://examples.org/ComponentDefinition/sb8b00280_11_comp/Bba_B0015_anno_1/Bba_B0015_anno_1_loc/1">
+            <sbol:end>1436</sbol:end>
+            <sbol:version>1</sbol:version>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:start>1308</sbol:start>
+            <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00280_11_comp/Bba_B0015_anno_1/Bba_B0015_anno_1_loc"/>
+            <sbol:displayId>Bba_B0015_anno_1_loc</sbol:displayId>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:component rdf:resource="http://examples.org/ComponentDefinition/sb8b00280_11_comp/Bba_B0015_comp_1/1"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:displayId>sb8b00280_11_comp</sbol:displayId>
+    <sbol:component>
+      <sbol:Component rdf:about="http://examples.org/ComponentDefinition/sb8b00280_11_comp/B0015_comp_1/1">
+        <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00280_11_comp/B0015_comp_1"/>
+        <ns0:title>B0015</ns0:title>
+        <sbol:displayId>B0015_comp_1</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <sbol:definition rdf:resource="https://synbioks.org/public/CIDAR_MoClo_Toolkit_Densmore_Lab/B0015/1"/>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+      </sbol:Component>
+    </sbol:component>
+    <ns1:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.8b00280"/>
+    <sbol:component>
+      <sbol:Component rdf:about="http://examples.org/ComponentDefinition/sb8b00280_11_comp/Bba_B0015_comp_1/1">
+        <sbol:displayId>Bba_B0015_comp_1</sbol:displayId>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:version>1</sbol:version>
+        <sbol:definition rdf:resource="https://synbioks.org/public/MoClo_Yeast_Toolkit_Dueber_Lab/Bba_B0015/1"/>
+        <ns0:title>Bba_B0015</ns0:title>
+        <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00280_11_comp/Bba_B0015_comp_1"/>
+      </sbol:Component>
+    </sbol:component>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00280_11_comp"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb8b00280_11_sequence/1"/>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="http://examples.org/ComponentDefinition/sb8b00280_11_comp/B0015_anno_1/1">
+        <sbol:version>1</sbol:version>
+        <sbol:displayId>B0015_anno_1</sbol:displayId>
+        <ns0:description>Double terminator, rrnBT1-T7TE</ns0:description>
+        <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00280_11_comp/B0015_anno_1"/>
+        <ns0:title>B0015</ns0:title>
+        <sbol:component rdf:resource="http://examples.org/ComponentDefinition/sb8b00280_11_comp/B0015_comp_1/1"/>
+        <sbol:location>
+          <sbol:Range rdf:about="http://examples.org/ComponentDefinition/sb8b00280_11_comp/B0015_anno_1/B0015_anno_1_loc/1">
+            <sbol:version>1</sbol:version>
+            <sbol:start>1308</sbol:start>
+            <sbol:end>1436</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:displayId>B0015_anno_1_loc</sbol:displayId>
+            <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00280_11_comp/B0015_anno_1/B0015_anno_1_loc"/>
+          </sbol:Range>
+        </sbol:location>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbh:supplementalFile rdf:resource="sb8b00280/suppl/sb-2018-002802_si_001.pdf"/>
+  </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb8b00280_7_sequence/1">
+    <sbol:displayId>sb8b00280_7_sequence</sbol:displayId>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb8b00280_7_sequence"/>
+    <sbol:elements>tttacgggtagcctttagtccatgtactatgctagcaagaattcaaaagatctaaagaggagaaaggatctatggataagaaatactcaataggcttagctatcggcacaaatagcgtcggatgggcggtgatcactgatgaatataaggttccgtctaaaaagttcaaggttctgggaaatacagaccgccacagtatcaaaaaaaatcttataggggctcttttatttgacagtggagagacagcggaagcgactcgtctcaaacggacagctcgtagaaggtatacacgtcggaagaatcgtatttgttatctacaggagatt</sbol:elements>
+    <sbol:version>1</sbol:version>
+  </sbol:Sequence>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb8b00280_10_comp/1">
+    <sbol:component>
+      <sbol:Component rdf:about="http://examples.org/ComponentDefinition/sb8b00280_10_comp/Bba_B0015_comp_1/1">
+        <sbol:version>1</sbol:version>
+        <sbol:displayId>Bba_B0015_comp_1</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00280_10_comp/Bba_B0015_comp_1"/>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:definition rdf:resource="https://synbioks.org/public/MoClo_Yeast_Toolkit_Dueber_Lab/Bba_B0015/1"/>
+        <ns0:title>Bba_B0015</ns0:title>
+      </sbol:Component>
+    </sbol:component>
+    <ns1:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="http://examples.org/ComponentDefinition/sb8b00280_10_comp/Bba_B0015_anno_1/1">
+        <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00280_10_comp/Bba_B0015_anno_1"/>
+        <sbol:component rdf:resource="http://examples.org/ComponentDefinition/sb8b00280_10_comp/Bba_B0015_comp_1/1"/>
+        <ns0:title>Bba_B0015</ns0:title>
+        <sbol:location>
+          <sbol:Range rdf:about="http://examples.org/ComponentDefinition/sb8b00280_10_comp/Bba_B0015_anno_1/Bba_B0015_anno_1_loc/1">
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:displayId>Bba_B0015_anno_1_loc</sbol:displayId>
+            <sbol:end>935</sbol:end>
+            <sbol:start>807</sbol:start>
+            <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00280_10_comp/Bba_B0015_anno_1/Bba_B0015_anno_1_loc"/>
+            <sbol:version>1</sbol:version>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:displayId>Bba_B0015_anno_1</sbol:displayId>
+        <sbol:version>1</sbol:version>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <ns1:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.8b00280"/>
+    <sbol:component>
+      <sbol:Component rdf:about="http://examples.org/ComponentDefinition/sb8b00280_10_comp/B0015_comp_1/1">
+        <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00280_10_comp/B0015_comp_1"/>
+        <sbol:definition rdf:resource="https://synbioks.org/public/CIDAR_MoClo_Toolkit_Densmore_Lab/B0015/1"/>
+        <sbol:version>1</sbol:version>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <ns0:title>B0015</ns0:title>
+        <sbol:displayId>B0015_comp_1</sbol:displayId>
+      </sbol:Component>
+    </sbol:component>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="http://examples.org/ComponentDefinition/sb8b00280_10_comp/B0015_anno_1/1">
+        <ns0:description>Double terminator, rrnBT1-T7TE</ns0:description>
+        <sbol:version>1</sbol:version>
+        <sbol:location>
+          <sbol:Range rdf:about="http://examples.org/ComponentDefinition/sb8b00280_10_comp/B0015_anno_1/B0015_anno_1_loc/1">
+            <sbol:displayId>B0015_anno_1_loc</sbol:displayId>
+            <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00280_10_comp/B0015_anno_1/B0015_anno_1_loc"/>
+            <sbol:start>807</sbol:start>
+            <sbol:version>1</sbol:version>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:end>935</sbol:end>
+          </sbol:Range>
+        </sbol:location>
+        <ns0:title>B0015</ns0:title>
+        <sbol:displayId>B0015_anno_1</sbol:displayId>
+        <sbol:component rdf:resource="http://examples.org/ComponentDefinition/sb8b00280_10_comp/B0015_comp_1/1"/>
+        <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00280_10_comp/B0015_anno_1"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb8b00280_10_sequence/1"/>
+    <sbh:supplementalFile rdf:resource="sb8b00280/suppl/sb-2018-002802_si_001.pdf"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00280_10_comp"/>
+    <sbol:version>1</sbol:version>
+    <sbol:displayId>sb8b00280_10_comp</sbol:displayId>
+  </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb8b00280_9_sequence/1">
+    <sbol:displayId>sb8b00280_9_sequence</sbol:displayId>
+    <sbol:elements>ccaaatcactaagcatgtggcacaaattttggatagtcgcatgaatactaaatacgatgaaaatgataaacttattcgagaggttaaagtgattaccttaaaatctaaattagtttctgacttccgaaaagatttccaattctataaagtacgtgagattaacaattaccatcatgcccatgatgcgtatctaaatgccgtcgttggaactgctttgattaagaaatatccaaaacttgaatcggagtttgtctatggtgattataaagtttatgatgttcgtaaaatgattgctaagtctgagcaagaaataggcaaagcaaccgcaaaatatttcttttactctaatatcatgaacttcttcaaaacagaaattacacttgcaaatggagagattcgcaaacgccctctaatcgaaactaatggggaaactggagaaattgtctgggataaagggcgagattttgccacagtgcgcaaagtattgtccatgccccaagtcaatattgtcaagaaaacagaagtacagacaggcggattctccaaggagtcaattttaccaaaaagaaattcggacaagcttattgctcgtaaaaaagactgggatccaaaaaaatatggtggttttgatagtccaacggtagcttattcagtcctagtggttgctaaggtggaaaaagggaaatcgaagaagttaaaatccgttaaagagttactagggatcacaattatggaaagaagttcctttgaaaaaaatccgattgactttttagaagctaaaggatataaggaagttaaaaaagacttaatcattaaactacctaaatatagtctttttgagttagaaaacggtcgtaaacggatgctggctagtgccggagaattacaaaaaggaaatgagctggctctgccaagcaaatatgtgaattttttatatttagctagtcattatgaaaagttgaagggtagtccagaagataacgaacaaaaacaattgtttgtggagcagcataagcattatttagatgagattattgagcaaatcagtgaattttctaagcgtgttattttagcagatgccaatttagataaagttcttagtgcatataacaaacatagagacaaaccaatacgtgaacaagcagaaaatattattcatttatttacgttgacgaatcttggagctcccgctgcttttaaatattttgatacaacaattgatcgtaaacgatatacgtctacaaaagaagttttagatgccactcttatccatcaatccatcactggtctttatgaaacacgcattgatttgagtcagctaggaggtgactaactcgagtaaggatctccaggcatcaaataaaacgaaaggctcagtcgaaagactgggcctttcgttttatctgttgtttgtcggtgaacgctctctactagagtcacactggctcaccttcgggtgggcctttctgcgtttata</sbol:elements>
+    <sbol:version>1</sbol:version>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb8b00280_9_sequence"/>
   </sbol:Sequence>
   <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb8b00280_9_comp/1">
     <sbol:sequenceAnnotation>
       <sbol:SequenceAnnotation rdf:about="http://examples.org/ComponentDefinition/sb8b00280_9_comp/Bba_B0015_anno_1/1">
+        <sbol:component rdf:resource="http://examples.org/ComponentDefinition/sb8b00280_9_comp/Bba_B0015_comp_1/1"/>
+        <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00280_9_comp/Bba_B0015_anno_1"/>
+        <ns0:title>Bba_B0015</ns0:title>
+        <sbol:displayId>Bba_B0015_anno_1</sbol:displayId>
         <sbol:location>
           <sbol:Range rdf:about="http://examples.org/ComponentDefinition/sb8b00280_9_comp/Bba_B0015_anno_1/Bba_B0015_anno_1_loc/1">
-            <sbol:end>1477</sbol:end>
-            <sbol:version>1</sbol:version>
-            <sbol:displayId>Bba_B0015_anno_1_loc</sbol:displayId>
-            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
-            <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00280_9_comp/Bba_B0015_anno_1/Bba_B0015_anno_1_loc"/>
             <sbol:start>1349</sbol:start>
+            <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00280_9_comp/Bba_B0015_anno_1/Bba_B0015_anno_1_loc"/>
+            <sbol:version>1</sbol:version>
+            <sbol:end>1477</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:displayId>Bba_B0015_anno_1_loc</sbol:displayId>
           </sbol:Range>
         </sbol:location>
-        <sbol:displayId>Bba_B0015_anno_1</sbol:displayId>
-        <sbol:component rdf:resource="http://examples.org/ComponentDefinition/sb8b00280_9_comp/Bba_B0015_comp_1/1"/>
-        <ns0:title>Bba_B0015</ns0:title>
-        <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00280_9_comp/Bba_B0015_anno_1"/>
         <sbol:version>1</sbol:version>
       </sbol:SequenceAnnotation>
     </sbol:sequenceAnnotation>
     <sbol:component>
       <sbol:Component rdf:about="http://examples.org/ComponentDefinition/sb8b00280_9_comp/B0015_comp_1/1">
         <sbol:access rdf:resource="http://sbols.org/v2#public"/>
-        <sbol:version>1</sbol:version>
-        <sbol:displayId>B0015_comp_1</sbol:displayId>
-        <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00280_9_comp/B0015_comp_1"/>
+        <sbol:definition rdf:resource="https://synbioks.org/public/CIDAR_MoClo_Toolkit_Densmore_Lab/B0015/1"/>
         <ns0:title>B0015</ns0:title>
-        <sbol:definition rdf:resource="https://synbioks.org/public/CIDARToolkitKWK/B0015/1"/>
-      </sbol:Component>
-    </sbol:component>
-    <sbol:component>
-      <sbol:Component rdf:about="http://examples.org/ComponentDefinition/sb8b00280_9_comp/Bba_B0015_comp_1/1">
-        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
-        <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00280_9_comp/Bba_B0015_comp_1"/>
-        <ns0:title>Bba_B0015</ns0:title>
+        <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00280_9_comp/B0015_comp_1"/>
+        <sbol:displayId>B0015_comp_1</sbol:displayId>
         <sbol:version>1</sbol:version>
-        <sbol:displayId>Bba_B0015_comp_1</sbol:displayId>
-        <sbol:definition rdf:resource="https://synbioks.org/public/YTK/Bba_B0015/1"/>
       </sbol:Component>
     </sbol:component>
-    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb8b00280_9_sequence/1"/>
+    <ns1:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.8b00280"/>
     <sbol:sequenceAnnotation>
       <sbol:SequenceAnnotation rdf:about="http://examples.org/ComponentDefinition/sb8b00280_9_comp/B0015_anno_1/1">
-        <sbol:component rdf:resource="http://examples.org/ComponentDefinition/sb8b00280_9_comp/B0015_comp_1/1"/>
-        <sbol:version>1</sbol:version>
         <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00280_9_comp/B0015_anno_1"/>
+        <sbol:version>1</sbol:version>
         <sbol:location>
           <sbol:Range rdf:about="http://examples.org/ComponentDefinition/sb8b00280_9_comp/B0015_anno_1/B0015_anno_1_loc/1">
-            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
             <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00280_9_comp/B0015_anno_1/B0015_anno_1_loc"/>
-            <sbol:displayId>B0015_anno_1_loc</sbol:displayId>
             <sbol:version>1</sbol:version>
-            <sbol:start>1349</sbol:start>
             <sbol:end>1477</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:start>1349</sbol:start>
+            <sbol:displayId>B0015_anno_1_loc</sbol:displayId>
           </sbol:Range>
         </sbol:location>
-        <ns0:title>B0015</ns0:title>
         <sbol:displayId>B0015_anno_1</sbol:displayId>
         <ns0:description>Double terminator, rrnBT1-T7TE</ns0:description>
+        <sbol:component rdf:resource="http://examples.org/ComponentDefinition/sb8b00280_9_comp/B0015_comp_1/1"/>
+        <ns0:title>B0015</ns0:title>
       </sbol:SequenceAnnotation>
     </sbol:sequenceAnnotation>
-    <ns1:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
-    <sbol:sequenceAnnotation>
-      <sbol:SequenceAnnotation rdf:about="http://examples.org/ComponentDefinition/sb8b00280_9_comp/BBa_B0015_anno_1/1">
-        <sbol:version>1</sbol:version>
-        <ns0:title>BBa_B0015</ns0:title>
-        <sbol:location>
-          <sbol:Range rdf:about="http://examples.org/ComponentDefinition/sb8b00280_9_comp/BBa_B0015_anno_1/BBa_B0015_anno_1_loc/1">
-            <sbol:displayId>BBa_B0015_anno_1_loc</sbol:displayId>
-            <sbol:start>1349</sbol:start>
-            <sbol:end>1477</sbol:end>
-            <sbol:version>1</sbol:version>
-            <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00280_9_comp/BBa_B0015_anno_1/BBa_B0015_anno_1_loc"/>
-            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
-          </sbol:Range>
-        </sbol:location>
-        <ns0:description>Very commonly used terminator</ns0:description>
-        <sbol:component rdf:resource="http://examples.org/ComponentDefinition/sb8b00280_9_comp/BBa_B0015_comp_1/1"/>
-        <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00280_9_comp/BBa_B0015_anno_1"/>
-        <sbol:displayId>BBa_B0015_anno_1</sbol:displayId>
-      </sbol:SequenceAnnotation>
-    </sbol:sequenceAnnotation>
-    <sbol:version>1</sbol:version>
-    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
-    <sbol:displayId>sb8b00280_9_comp</sbol:displayId>
-    <ns1:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.8b00280"/>
     <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00280_9_comp"/>
-    <sbol:component>
-      <sbol:Component rdf:about="http://examples.org/ComponentDefinition/sb8b00280_9_comp/BBa_B0015_comp_1/1">
-        <ns0:title>BBa_B0015</ns0:title>
-        <sbol:displayId>BBa_B0015_comp_1</sbol:displayId>
-        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
-        <sbol:definition rdf:resource="https://synbioks.org/public/Ecoflex/BBa_B0015/1"/>
-        <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00280_9_comp/BBa_B0015_comp_1"/>
-        <sbol:version>1</sbol:version>
-      </sbol:Component>
-    </sbol:component>
-  </sbol:ComponentDefinition>
-  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb8b00280_4_comp/1">
     <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
     <sbol:version>1</sbol:version>
-    <sbol:sequenceAnnotation>
-      <sbol:SequenceAnnotation rdf:about="http://examples.org/ComponentDefinition/sb8b00280_4_comp/Bba_B0015_anno_1/1">
-        <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00280_4_comp/Bba_B0015_anno_1"/>
-        <sbol:component rdf:resource="http://examples.org/ComponentDefinition/sb8b00280_4_comp/Bba_B0015_comp_1/1"/>
-        <sbol:version>1</sbol:version>
-        <sbol:location>
-          <sbol:Range rdf:about="http://examples.org/ComponentDefinition/sb8b00280_4_comp/Bba_B0015_anno_1/Bba_B0015_anno_1_loc/1">
-            <sbol:displayId>Bba_B0015_anno_1_loc</sbol:displayId>
-            <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00280_4_comp/Bba_B0015_anno_1/Bba_B0015_anno_1_loc"/>
-            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
-            <sbol:end>916</sbol:end>
-            <sbol:version>1</sbol:version>
-            <sbol:start>788</sbol:start>
-          </sbol:Range>
-        </sbol:location>
-        <sbol:displayId>Bba_B0015_anno_1</sbol:displayId>
-        <ns0:title>Bba_B0015</ns0:title>
-      </sbol:SequenceAnnotation>
-    </sbol:sequenceAnnotation>
-    <ns1:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.8b00280"/>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb8b00280_9_sequence/1"/>
+    <sbh:supplementalFile rdf:resource="sb8b00280/suppl/sb-2018-002802_si_001.pdf"/>
     <sbol:component>
-      <sbol:Component rdf:about="http://examples.org/ComponentDefinition/sb8b00280_4_comp/BBa_B0015_comp_1/1">
-        <sbol:definition rdf:resource="https://synbioks.org/public/Ecoflex/BBa_B0015/1"/>
-        <sbol:displayId>BBa_B0015_comp_1</sbol:displayId>
-        <sbol:version>1</sbol:version>
-        <ns0:title>BBa_B0015</ns0:title>
-        <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00280_4_comp/BBa_B0015_comp_1"/>
-        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
-      </sbol:Component>
-    </sbol:component>
-    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb8b00280_4_sequence/1"/>
-    <sbol:component>
-      <sbol:Component rdf:about="http://examples.org/ComponentDefinition/sb8b00280_4_comp/Bba_B0015_comp_1/1">
+      <sbol:Component rdf:about="http://examples.org/ComponentDefinition/sb8b00280_9_comp/Bba_B0015_comp_1/1">
+        <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00280_9_comp/Bba_B0015_comp_1"/>
         <sbol:displayId>Bba_B0015_comp_1</sbol:displayId>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:definition rdf:resource="https://synbioks.org/public/MoClo_Yeast_Toolkit_Dueber_Lab/Bba_B0015/1"/>
         <ns0:title>Bba_B0015</ns0:title>
         <sbol:version>1</sbol:version>
-        <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00280_4_comp/Bba_B0015_comp_1"/>
-        <sbol:definition rdf:resource="https://synbioks.org/public/YTK/Bba_B0015/1"/>
-        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
       </sbol:Component>
     </sbol:component>
-    <sbol:component>
-      <sbol:Component rdf:about="http://examples.org/ComponentDefinition/sb8b00280_4_comp/B0015_comp_1/1">
-        <sbol:definition rdf:resource="https://synbioks.org/public/CIDARToolkitKWK/B0015/1"/>
-        <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00280_4_comp/B0015_comp_1"/>
-        <ns0:title>B0015</ns0:title>
-        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
-        <sbol:version>1</sbol:version>
-        <sbol:displayId>B0015_comp_1</sbol:displayId>
-      </sbol:Component>
-    </sbol:component>
-    <sbol:sequenceAnnotation>
-      <sbol:SequenceAnnotation rdf:about="http://examples.org/ComponentDefinition/sb8b00280_4_comp/B0015_anno_1/1">
-        <sbol:location>
-          <sbol:Range rdf:about="http://examples.org/ComponentDefinition/sb8b00280_4_comp/B0015_anno_1/B0015_anno_1_loc/1">
-            <sbol:displayId>B0015_anno_1_loc</sbol:displayId>
-            <sbol:version>1</sbol:version>
-            <sbol:start>788</sbol:start>
-            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
-            <sbol:end>916</sbol:end>
-            <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00280_4_comp/B0015_anno_1/B0015_anno_1_loc"/>
-          </sbol:Range>
-        </sbol:location>
-        <ns0:title>B0015</ns0:title>
-        <sbol:component rdf:resource="http://examples.org/ComponentDefinition/sb8b00280_4_comp/B0015_comp_1/1"/>
-        <sbol:displayId>B0015_anno_1</sbol:displayId>
-        <ns0:description>Double terminator, rrnBT1-T7TE</ns0:description>
-        <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00280_4_comp/B0015_anno_1"/>
-        <sbol:version>1</sbol:version>
-      </sbol:SequenceAnnotation>
-    </sbol:sequenceAnnotation>
-    <sbol:sequenceAnnotation>
-      <sbol:SequenceAnnotation rdf:about="http://examples.org/ComponentDefinition/sb8b00280_4_comp/BBa_B0015_anno_1/1">
-        <sbol:version>1</sbol:version>
-        <sbol:displayId>BBa_B0015_anno_1</sbol:displayId>
-        <ns0:title>BBa_B0015</ns0:title>
-        <sbol:component rdf:resource="http://examples.org/ComponentDefinition/sb8b00280_4_comp/BBa_B0015_comp_1/1"/>
-        <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00280_4_comp/BBa_B0015_anno_1"/>
-        <sbol:location>
-          <sbol:Range rdf:about="http://examples.org/ComponentDefinition/sb8b00280_4_comp/BBa_B0015_anno_1/BBa_B0015_anno_1_loc/1">
-            <sbol:version>1</sbol:version>
-            <sbol:start>788</sbol:start>
-            <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00280_4_comp/BBa_B0015_anno_1/BBa_B0015_anno_1_loc"/>
-            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
-            <sbol:displayId>BBa_B0015_anno_1_loc</sbol:displayId>
-            <sbol:end>916</sbol:end>
-          </sbol:Range>
-        </sbol:location>
-        <ns0:description>Very commonly used terminator</ns0:description>
-      </sbol:SequenceAnnotation>
-    </sbol:sequenceAnnotation>
+    <sbol:displayId>sb8b00280_9_comp</sbol:displayId>
     <ns1:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
-    <sbol:displayId>sb8b00280_4_comp</sbol:displayId>
-    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00280_4_comp"/>
   </sbol:ComponentDefinition>
-  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb8b00280_11_sequence/1">
-    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
-    <sbol:displayId>sb8b00280_11_sequence</sbol:displayId>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb8b00280_14_comp/1">
     <sbol:version>1</sbol:version>
-    <sbol:elements>ctgacgggtagcctttagtccatgtactgtttctccatacccgtttttttgggaattcaaaagatctgacagctagcattgtaccaagttttagagctagaaatagcaagttaaaataaggctagtccgttatcaacttgaaaaagtggcaccgagtcggtgctttttttgaagcttgggcccgaacaaaaactcatctcagaagaggatctgaatagcgccgtcgactgagtttaaacggtctccagcttggctgttttggcggatgagagaagattttcagcctgatacagattaaatcagaacgcagaagcggtctgataaaacagaatttgcctggcggcagtagcgcggtggtcccacctgaccccatgccgaactcagaagtgaaacgccgtagcgccgatggtagtgtggggtctccccatgcgagagtagggaactgccaggcatcaaataaaacgaaaggctcagtcgaaagactgggccttcaagctaattaccctgttatccctatgatgactgaagcttgcatgactgaatttcctcttgtcaggccggaataactccctataatgcgcctagagaaagaggagaaatactagatgttggatatgggacaagatcggccgatcgatggaagtggggcacccggggcagacgacacacgcgttgaggtgcaaccgccggcgcagtgggtcctcgacctgatcgaggccagcccgatcgcatcggtcgtgtccgatccgcgtctcgccgacaatccgctgatcgccatcaaccaggccttcaccgacctgaccggctattccgaagaagaatgcgtcggccgcaattgccgattcctggcaggttccggcaccgagccgtggctgaccgacaagatccgccaaggcgtgcgcgagcacaagccggtgctggtcgagatcctgaactacaagaaggacggcacgccgttccgcaatgccgtgctcgttgcaccgatctacgatgacgacgacgagcttctctatttcctcggcagccaggtcgaagtcgacgacgaccagcccaacatgggcatggcgcgccgcgaacgcgccgcggaaatgctcaagacgctgtcgccgcgccagctcgaggttacgacgctggtggcatcgggcttgcgcaacaaggaagtggcggcccggctcggcctgtcggagaaaaccgtcaagatgcaccgcgggctggtgatggaaaagctcaacctgaagaccagcgccgatctggtgcgcattgccgtcgaagccggaatctaaggatccaaactcgagtaaggatctccaggcatcaaataaaacgaaaggctcagtcgaaagactgggcctttcgttttatctgttgtttgtcggtgaacgctctctactagagtcacactggctcaccttcgggtgggcctttctgcgtttata</sbol:elements>
-    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb8b00280_11_sequence"/>
-  </sbol:Sequence>
+    <ns1:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbol:displayId>sb8b00280_14_comp</sbol:displayId>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00280_14_comp"/>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb8b00280_14_sequence/1"/>
+    <ns1:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.8b00280"/>
+    <sbh:supplementalFile rdf:resource="sb8b00280/suppl/sb-2018-002802_si_001.pdf"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+  </sbol:ComponentDefinition>
   <sbol:Sequence rdf:about="http://examples.org/Sequence/sb8b00280_15_sequence/1">
-    <sbol:displayId>sb8b00280_15_sequence</sbol:displayId>
-    <sbol:version>1</sbol:version>
-    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb8b00280_15_sequence"/>
     <sbol:elements>aaatctatctcatttgctaggtagcctttagtccatgttgcataaattcttca</sbol:elements>
-    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
-  </sbol:Sequence>
-  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb8b00280_4_sequence/1">
-    <sbol:displayId>sb8b00280_4_sequence</sbol:displayId>
-    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
-    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb8b00280_4_sequence"/>
     <sbol:version>1</sbol:version>
-    <sbol:elements>ctgacgctttttatcgcaactctctactgtttctccatacccgtttttttgggaattcaaaagatctaaagaggagaaatactagatgttggatatgggacaagatcggccgatcgatggaagtggggcacccggggcagacgacacacgcgttgaggtgcaaccgccggcgcagtgggtcctcgacctgatcgaggccagcccgatcgcatcggtcgtgtccgatccgcgtctcgccgacaatccgctgatcgccatcaaccaggccttcaccgacctgaccggctattccgaagaagaatgcgtcggccgcaattgccgattcctggcaggttccggcaccgagccgtggctgaccgacaagatccgccaaggcgtgcgcgagcacaagccggtgctggtcgagatcctgaactacaagaaggacggcacgccgttccgcaatgccgtgctcgttgcaccgatctacgatgacgacgacgagcttctctatttcctcggcagccaggtcgaagtcgacgacgaccagcccaacatgggcatggcgcgccgcgaacgcgccgcggaaatgctcaagacgctgtcgccgcgccagctcgaggttacgacgctggtggcatcgggcttgcgcaacaaggaagtggcggcccggctcggcctgtcggagaaaaccgtcaagatgcaccgcgggctggtgatggaaaagctcaacctgaagaccagcgccgatctggtgcgcattgccgtcgaagccggaatctaaggatccaaactcgagtaaggatctccaggcatcaaataaaacgaaaggctcagtcgaaagactgggcctttcgttttatctgttgtttgtcggtgaacgctctctactagagtcacactggctcaccttcgggtgggcctttctgcgtttata</sbol:elements>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb8b00280_15_sequence"/>
+    <sbol:displayId>sb8b00280_15_sequence</sbol:displayId>
   </sbol:Sequence>
   <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb8b00280_12_comp/1">
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:version>1</sbol:version>
+    <ns1:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
     <sbol:sequence rdf:resource="http://examples.org/Sequence/sb8b00280_12_sequence/1"/>
-    <ns1:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
-    <sbol:version>1</sbol:version>
-    <sbol:displayId>sb8b00280_12_comp</sbol:displayId>
     <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00280_12_comp"/>
-    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
     <ns1:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.8b00280"/>
+    <sbh:supplementalFile rdf:resource="sb8b00280/suppl/sb-2018-002802_si_001.pdf"/>
+    <sbol:displayId>sb8b00280_12_comp</sbol:displayId>
   </sbol:ComponentDefinition>
-  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb8b00280_15_comp/1">
-    <sbol:displayId>sb8b00280_15_comp</sbol:displayId>
-    <ns1:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
-    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
-    <sbol:version>1</sbol:version>
-    <ns1:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.8b00280"/>
-    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00280_15_comp"/>
-    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb8b00280_15_sequence/1"/>
-  </sbol:ComponentDefinition>
-  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb8b00280_7_sequence/1">
-    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb8b00280_7_sequence"/>
-    <sbol:version>1</sbol:version>
-    <sbol:elements>tttacgggtagcctttagtccatgtactatgctagcaagaattcaaaagatctaaagaggagaaaggatctatggataagaaatactcaataggcttagctatcggcacaaatagcgtcggatgggcggtgatcactgatgaatataaggttccgtctaaaaagttcaaggttctgggaaatacagaccgccacagtatcaaaaaaaatcttataggggctcttttatttgacagtggagagacagcggaagcgactcgtctcaaacggacagctcgtagaaggtatacacgtcggaagaatcgtatttgttatctacaggagatt</sbol:elements>
-    <sbol:displayId>sb8b00280_7_sequence</sbol:displayId>
-    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
-  </sbol:Sequence>
-  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb8b00280_13_comp/1">
-    <sbol:sequenceAnnotation>
-      <sbol:SequenceAnnotation rdf:about="http://examples.org/ComponentDefinition/sb8b00280_13_comp/B0015_anno_1/1">
-        <sbol:displayId>B0015_anno_1</sbol:displayId>
-        <ns0:description>Double terminator, rrnBT1-T7TE</ns0:description>
-        <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00280_13_comp/B0015_anno_1"/>
-        <ns0:title>B0015</ns0:title>
-        <sbol:component rdf:resource="http://examples.org/ComponentDefinition/sb8b00280_13_comp/B0015_comp_1/1"/>
-        <sbol:location>
-          <sbol:Range rdf:about="http://examples.org/ComponentDefinition/sb8b00280_13_comp/B0015_anno_1/B0015_anno_1_loc/1">
-            <sbol:start>979</sbol:start>
-            <sbol:displayId>B0015_anno_1_loc</sbol:displayId>
-            <sbol:version>1</sbol:version>
-            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
-            <sbol:end>1107</sbol:end>
-            <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00280_13_comp/B0015_anno_1/B0015_anno_1_loc"/>
-          </sbol:Range>
-        </sbol:location>
-        <sbol:version>1</sbol:version>
-      </sbol:SequenceAnnotation>
-    </sbol:sequenceAnnotation>
-    <sbol:sequenceAnnotation>
-      <sbol:SequenceAnnotation rdf:about="http://examples.org/ComponentDefinition/sb8b00280_13_comp/BBa_B0015_anno_1/1">
-        <sbol:location>
-          <sbol:Range rdf:about="http://examples.org/ComponentDefinition/sb8b00280_13_comp/BBa_B0015_anno_1/BBa_B0015_anno_1_loc/1">
-            <sbol:version>1</sbol:version>
-            <sbol:start>979</sbol:start>
-            <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00280_13_comp/BBa_B0015_anno_1/BBa_B0015_anno_1_loc"/>
-            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
-            <sbol:end>1107</sbol:end>
-            <sbol:displayId>BBa_B0015_anno_1_loc</sbol:displayId>
-          </sbol:Range>
-        </sbol:location>
-        <ns0:description>Very commonly used terminator</ns0:description>
-        <sbol:component rdf:resource="http://examples.org/ComponentDefinition/sb8b00280_13_comp/BBa_B0015_comp_1/1"/>
-        <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00280_13_comp/BBa_B0015_anno_1"/>
-        <sbol:displayId>BBa_B0015_anno_1</sbol:displayId>
-        <sbol:version>1</sbol:version>
-        <ns0:title>BBa_B0015</ns0:title>
-      </sbol:SequenceAnnotation>
-    </sbol:sequenceAnnotation>
-    <ns1:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
-    <sbol:sequenceAnnotation>
-      <sbol:SequenceAnnotation rdf:about="http://examples.org/ComponentDefinition/sb8b00280_13_comp/Bba_B0015_anno_1/1">
-        <sbol:component rdf:resource="http://examples.org/ComponentDefinition/sb8b00280_13_comp/Bba_B0015_comp_1/1"/>
-        <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00280_13_comp/Bba_B0015_anno_1"/>
-        <sbol:displayId>Bba_B0015_anno_1</sbol:displayId>
-        <sbol:location>
-          <sbol:Range rdf:about="http://examples.org/ComponentDefinition/sb8b00280_13_comp/Bba_B0015_anno_1/Bba_B0015_anno_1_loc/1">
-            <sbol:version>1</sbol:version>
-            <sbol:start>979</sbol:start>
-            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
-            <sbol:end>1107</sbol:end>
-            <sbol:displayId>Bba_B0015_anno_1_loc</sbol:displayId>
-            <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00280_13_comp/Bba_B0015_anno_1/Bba_B0015_anno_1_loc"/>
-          </sbol:Range>
-        </sbol:location>
-        <sbol:version>1</sbol:version>
-        <ns0:title>Bba_B0015</ns0:title>
-      </sbol:SequenceAnnotation>
-    </sbol:sequenceAnnotation>
-    <sbol:version>1</sbol:version>
-    <sbol:displayId>sb8b00280_13_comp</sbol:displayId>
-    <sbol:component>
-      <sbol:Component rdf:about="http://examples.org/ComponentDefinition/sb8b00280_13_comp/Bba_B0015_comp_1/1">
-        <sbol:version>1</sbol:version>
-        <sbol:displayId>Bba_B0015_comp_1</sbol:displayId>
-        <sbol:definition rdf:resource="https://synbioks.org/public/YTK/Bba_B0015/1"/>
-        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
-        <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00280_13_comp/Bba_B0015_comp_1"/>
-        <ns0:title>Bba_B0015</ns0:title>
-      </sbol:Component>
-    </sbol:component>
-    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
-    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb8b00280_13_sequence/1"/>
-    <ns1:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.8b00280"/>
-    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00280_13_comp"/>
-    <sbol:component>
-      <sbol:Component rdf:about="http://examples.org/ComponentDefinition/sb8b00280_13_comp/B0015_comp_1/1">
-        <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00280_13_comp/B0015_comp_1"/>
-        <sbol:version>1</sbol:version>
-        <sbol:displayId>B0015_comp_1</sbol:displayId>
-        <ns0:title>B0015</ns0:title>
-        <sbol:definition rdf:resource="https://synbioks.org/public/CIDARToolkitKWK/B0015/1"/>
-        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
-      </sbol:Component>
-    </sbol:component>
-    <sbol:component>
-      <sbol:Component rdf:about="http://examples.org/ComponentDefinition/sb8b00280_13_comp/BBa_B0015_comp_1/1">
-        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
-        <sbol:definition rdf:resource="https://synbioks.org/public/Ecoflex/BBa_B0015/1"/>
-        <sbol:displayId>BBa_B0015_comp_1</sbol:displayId>
-        <sbol:version>1</sbol:version>
-        <ns0:title>BBa_B0015</ns0:title>
-        <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00280_13_comp/BBa_B0015_comp_1"/>
-      </sbol:Component>
-    </sbol:component>
-  </sbol:ComponentDefinition>
-  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb8b00280_10_comp/1">
-    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00280_10_comp"/>
-    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
-    <sbol:component>
-      <sbol:Component rdf:about="http://examples.org/ComponentDefinition/sb8b00280_10_comp/B0015_comp_1/1">
-        <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00280_10_comp/B0015_comp_1"/>
-        <sbol:version>1</sbol:version>
-        <sbol:displayId>B0015_comp_1</sbol:displayId>
-        <sbol:definition rdf:resource="https://synbioks.org/public/CIDARToolkitKWK/B0015/1"/>
-        <ns0:title>B0015</ns0:title>
-        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
-      </sbol:Component>
-    </sbol:component>
-    <sbol:displayId>sb8b00280_10_comp</sbol:displayId>
-    <ns1:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.8b00280"/>
-    <sbol:sequenceAnnotation>
-      <sbol:SequenceAnnotation rdf:about="http://examples.org/ComponentDefinition/sb8b00280_10_comp/B0015_anno_1/1">
-        <sbol:location>
-          <sbol:Range rdf:about="http://examples.org/ComponentDefinition/sb8b00280_10_comp/B0015_anno_1/B0015_anno_1_loc/1">
-            <sbol:displayId>B0015_anno_1_loc</sbol:displayId>
-            <sbol:end>935</sbol:end>
-            <sbol:version>1</sbol:version>
-            <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00280_10_comp/B0015_anno_1/B0015_anno_1_loc"/>
-            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
-            <sbol:start>807</sbol:start>
-          </sbol:Range>
-        </sbol:location>
-        <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00280_10_comp/B0015_anno_1"/>
-        <ns0:title>B0015</ns0:title>
-        <sbol:component rdf:resource="http://examples.org/ComponentDefinition/sb8b00280_10_comp/B0015_comp_1/1"/>
-        <sbol:displayId>B0015_anno_1</sbol:displayId>
-        <ns0:description>Double terminator, rrnBT1-T7TE</ns0:description>
-        <sbol:version>1</sbol:version>
-      </sbol:SequenceAnnotation>
-    </sbol:sequenceAnnotation>
-    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb8b00280_10_sequence/1"/>
-    <sbol:sequenceAnnotation>
-      <sbol:SequenceAnnotation rdf:about="http://examples.org/ComponentDefinition/sb8b00280_10_comp/BBa_B0015_anno_1/1">
-        <ns0:title>BBa_B0015</ns0:title>
-        <ns0:description>Very commonly used terminator</ns0:description>
-        <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00280_10_comp/BBa_B0015_anno_1"/>
-        <sbol:component rdf:resource="http://examples.org/ComponentDefinition/sb8b00280_10_comp/BBa_B0015_comp_1/1"/>
-        <sbol:location>
-          <sbol:Range rdf:about="http://examples.org/ComponentDefinition/sb8b00280_10_comp/BBa_B0015_anno_1/BBa_B0015_anno_1_loc/1">
-            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
-            <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00280_10_comp/BBa_B0015_anno_1/BBa_B0015_anno_1_loc"/>
-            <sbol:displayId>BBa_B0015_anno_1_loc</sbol:displayId>
-            <sbol:start>807</sbol:start>
-            <sbol:version>1</sbol:version>
-            <sbol:end>935</sbol:end>
-          </sbol:Range>
-        </sbol:location>
-        <sbol:version>1</sbol:version>
-        <sbol:displayId>BBa_B0015_anno_1</sbol:displayId>
-      </sbol:SequenceAnnotation>
-    </sbol:sequenceAnnotation>
-    <sbol:component>
-      <sbol:Component rdf:about="http://examples.org/ComponentDefinition/sb8b00280_10_comp/Bba_B0015_comp_1/1">
-        <sbol:displayId>Bba_B0015_comp_1</sbol:displayId>
-        <sbol:definition rdf:resource="https://synbioks.org/public/YTK/Bba_B0015/1"/>
-        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
-        <ns0:title>Bba_B0015</ns0:title>
-        <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00280_10_comp/Bba_B0015_comp_1"/>
-        <sbol:version>1</sbol:version>
-      </sbol:Component>
-    </sbol:component>
-    <sbol:component>
-      <sbol:Component rdf:about="http://examples.org/ComponentDefinition/sb8b00280_10_comp/BBa_B0015_comp_1/1">
-        <sbol:definition rdf:resource="https://synbioks.org/public/Ecoflex/BBa_B0015/1"/>
-        <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00280_10_comp/BBa_B0015_comp_1"/>
-        <sbol:displayId>BBa_B0015_comp_1</sbol:displayId>
-        <sbol:version>1</sbol:version>
-        <ns0:title>BBa_B0015</ns0:title>
-        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
-      </sbol:Component>
-    </sbol:component>
-    <ns1:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
-    <sbol:sequenceAnnotation>
-      <sbol:SequenceAnnotation rdf:about="http://examples.org/ComponentDefinition/sb8b00280_10_comp/Bba_B0015_anno_1/1">
-        <sbol:location>
-          <sbol:Range rdf:about="http://examples.org/ComponentDefinition/sb8b00280_10_comp/Bba_B0015_anno_1/Bba_B0015_anno_1_loc/1">
-            <sbol:start>807</sbol:start>
-            <sbol:end>935</sbol:end>
-            <sbol:version>1</sbol:version>
-            <sbol:displayId>Bba_B0015_anno_1_loc</sbol:displayId>
-            <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00280_10_comp/Bba_B0015_anno_1/Bba_B0015_anno_1_loc"/>
-            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
-          </sbol:Range>
-        </sbol:location>
-        <sbol:version>1</sbol:version>
-        <sbol:component rdf:resource="http://examples.org/ComponentDefinition/sb8b00280_10_comp/Bba_B0015_comp_1/1"/>
-        <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00280_10_comp/Bba_B0015_anno_1"/>
-        <ns0:title>Bba_B0015</ns0:title>
-        <sbol:displayId>Bba_B0015_anno_1</sbol:displayId>
-      </sbol:SequenceAnnotation>
-    </sbol:sequenceAnnotation>
-    <sbol:version>1</sbol:version>
-  </sbol:ComponentDefinition>
-  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb8b00280_7_comp/1">
-    <ns1:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.8b00280"/>
-    <sbol:displayId>sb8b00280_7_comp</sbol:displayId>
-    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb8b00280_7_sequence/1"/>
-    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00280_7_comp"/>
-    <ns1:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
-    <sbol:version>1</sbol:version>
-    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
-  </sbol:ComponentDefinition>
-  <sbol:Collection rdf:about="http://examples.org/Collection/sb8b00280/1">
-    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb8b00280_6_comp/1"/>
-    <sbol:member rdf:resource="http://examples.org/Sequence/sb8b00280_10_sequence/1"/>
-    <ns0:created>2018-10-25</ns0:created>
-    <ns0:rightsHolder>American Chemical Society</ns0:rightsHolder>
-    <sbol:member rdf:resource="http://examples.org/Sequence/sb8b00280_3_sequence/1"/>
-    <ns2:ownedBy rdf:resource="https://synbioks.org/user/myers"/>
-    <sbol:member rdf:resource="http://examples.org/Sequence/sb8b00280_12_sequence/1"/>
-    <sbol:displayId>sb8b00280</sbol:displayId>
-    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb8b00280_14_comp/1"/>
-    <sbol:member rdf:resource="http://examples.org/Sequence/sb8b00280_7_sequence/1"/>
-    <ns3:subject>spatiotemporal control</ns3:subject>
-    <ns0:dateCopyrighted>2018</ns0:dateCopyrighted>
-    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb8b00280_7_comp/1"/>
-    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb8b00280_8_comp/1"/>
-    <sbol:member rdf:resource="http://examples.org/Sequence/sb8b00280_9_sequence/1"/>
-    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb8b00280_4_comp/1"/>
-    <sbol:member rdf:resource="http://examples.org/Sequence/sb8b00280_6_sequence/1"/>
-    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb8b00280_1_comp/1"/>
-    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb8b00280_3_comp/1"/>
-    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb8b00280_5_comp/1"/>
-    <sbol:member rdf:resource="http://examples.org/Sequence/sb8b00280_5_sequence/1"/>
-    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb8b00280_12_comp/1"/>
-    <ns0:dateSubmitted>2018-06-30</ns0:dateSubmitted>
-    <ns0:abstract>To program cells in a dynamic manner, synthetic biologists require precise control over the threshold levels and timing of gene expression. However, in practice, modulating gene expression is widely carried out using prototypical ligand-inducible promoters, which have limited tunability and spatiotemporal resolution. Here, we built two dual-input hybrid promoters, each retaining the function of the ligand-inducible promoter while being enhanced with a blue-light-switchable tuning knob. Using the new promoters, we show that both ligand and light inputs can be synchronously modulated to achieve desired amplitude or independently regulated to generate desired frequency at a specific amplitude. We exploit the versatile programmability and orthogonality of the two promoters to build the first reprogrammable logic gene circuit capable of reconfiguring into logic OR and N-IMPLY logic on the fly in both space and time without the need to modify the circuit. Overall, we demonstrate concentration- and time-based combinatorial regulation in live bacterial cells with potential applications in biotechnology and synthetic biology.</ns0:abstract>
-    <sbol:member rdf:resource="http://examples.org/Sequence/sb8b00280_14_sequence/1"/>
-    <ns4:OBI_0001617>30359530</ns4:OBI_0001617>
-    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb8b00280_11_comp/1"/>
-    <ns3:publisher>American Chemical
-Society</ns3:publisher>
-    <sbol:member rdf:resource="http://examples.org/Sequence/sb8b00280_2_sequence/1"/>
-    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb8b00280_10_comp/1"/>
-    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb8b00280_9_comp/1"/>
-    <ns4:OBI_0002110>10.1021/acssynbio.8b00280</ns4:OBI_0002110>
-    <ns0:references>van
-Vliet, S., Ackermann, M. Stochastic gene expression: bacterial elites in chemotaxis Mol. Syst. Biol. 2017. 13.</ns0:references>
-    <sbol:member rdf:resource="http://examples.org/Sequence/sb8b00280_4_sequence/1"/>
-    <sbol:persistentIdentity rdf:resource="http://examples.org/Collection/sb8b00280"/>
-    <sbol:version>1</sbol:version>
-    <ns0:description>To program cells in a dynamic manner, synthetic biologists require precise control over the threshold levels and timing of gene expression. However, in practice, modulating gene expression is widely carried out using prototypical ligand-inducible promoters, which have limited tunability and spatiotemporal resolution. Here, we built two dual-input hybrid promoters, each retaining the function of the ligand-inducible promoter while being enhanced with a blue-light-switchable tuning knob. Using the new promoters, we show that both ligand and light inputs can be synchronously modulated to achieve desired amplitude or independently regulated to generate desired frequency at a specific amplitude. We exploit the versatile programmability and orthogonality of the two promoters to build the first reprogrammable logic gene circuit capable of reconfiguring into logic OR and N-IMPLY logic on the fly in both space and time without the need to modify the circuit. Overall, we demonstrate concentration- and time-based combinatorial regulation in live bacterial cells with potential applications in biotechnology and synthetic biology.</ns0:description>
-    <sbol:member rdf:resource="http://examples.org/Sequence/sb8b00280_13_sequence/1"/>
-    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb8b00280_15_comp/1"/>
-    <sbol:member rdf:resource="http://examples.org/Sequence/sb8b00280_8_sequence/1"/>
-    <ns0:isPartOf rdf:resource="http://pubs.acs.org/journal/asbcd6"/>
-    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb8b00280_13_comp/1"/>
-    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb8b00280_2_comp/1"/>
-    <ns0:type rdf:resource="http://purl.org/dc/dcmitype/Text"/>
-    <sbol:member rdf:resource="http://examples.org/Sequence/sb8b00280_11_sequence/1"/>
-    <ns2:topLevel rdf:resource="https://synbioks.org/public/ACS/sb8b00280/1"/>
-    <sbol:member rdf:resource="http://examples.org/Sequence/sb8b00280_1_sequence/1"/>
-    <ns3:type>research-article</ns3:type>
-    <ns0:dateAccepted>2018-10-25</ns0:dateAccepted>
-    <ns3:creator>Premkumar Jayaraman</ns3:creator>
-    <sbol:member rdf:resource="http://examples.org/Sequence/sb8b00280_15_sequence/1"/>
-  </sbol:Collection>
   <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb8b00280_1_comp/1">
+    <sbol:displayId>sb8b00280_1_comp</sbol:displayId>
     <sbol:sequenceAnnotation>
-      <sbol:SequenceAnnotation rdf:about="http://examples.org/ComponentDefinition/sb8b00280_1_comp/BBa_B0015_anno_1/1">
-        <sbol:component rdf:resource="http://examples.org/ComponentDefinition/sb8b00280_1_comp/BBa_B0015_comp_1/1"/>
-        <ns0:title>BBa_B0015</ns0:title>
+      <sbol:SequenceAnnotation rdf:about="http://examples.org/ComponentDefinition/sb8b00280_1_comp/B0015_anno_1/1">
         <sbol:location>
-          <sbol:Range rdf:about="http://examples.org/ComponentDefinition/sb8b00280_1_comp/BBa_B0015_anno_1/BBa_B0015_anno_1_loc/1">
+          <sbol:Range rdf:about="http://examples.org/ComponentDefinition/sb8b00280_1_comp/B0015_anno_1/B0015_anno_1_loc/1">
+            <sbol:displayId>B0015_anno_1_loc</sbol:displayId>
+            <sbol:start>767</sbol:start>
+            <sbol:end>895</sbol:end>
             <sbol:version>1</sbol:version>
             <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
-            <sbol:displayId>BBa_B0015_anno_1_loc</sbol:displayId>
-            <sbol:end>895</sbol:end>
-            <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00280_1_comp/BBa_B0015_anno_1/BBa_B0015_anno_1_loc"/>
-            <sbol:start>767</sbol:start>
+            <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00280_1_comp/B0015_anno_1/B0015_anno_1_loc"/>
           </sbol:Range>
         </sbol:location>
-        <ns0:description>Very commonly used terminator</ns0:description>
-        <sbol:displayId>BBa_B0015_anno_1</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00280_1_comp/B0015_anno_1"/>
         <sbol:version>1</sbol:version>
-        <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00280_1_comp/BBa_B0015_anno_1"/>
+        <sbol:displayId>B0015_anno_1</sbol:displayId>
+        <ns0:description>Double terminator, rrnBT1-T7TE</ns0:description>
+        <sbol:component rdf:resource="http://examples.org/ComponentDefinition/sb8b00280_1_comp/B0015_comp_1/1"/>
+        <ns0:title>B0015</ns0:title>
       </sbol:SequenceAnnotation>
     </sbol:sequenceAnnotation>
     <ns1:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
-    <sbol:version>1</sbol:version>
-    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00280_1_comp"/>
-    <sbol:component>
-      <sbol:Component rdf:about="http://examples.org/ComponentDefinition/sb8b00280_1_comp/BBa_B0015_comp_1/1">
-        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
-        <sbol:definition rdf:resource="https://synbioks.org/public/Ecoflex/BBa_B0015/1"/>
-        <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00280_1_comp/BBa_B0015_comp_1"/>
-        <sbol:displayId>BBa_B0015_comp_1</sbol:displayId>
-        <sbol:version>1</sbol:version>
-        <ns0:title>BBa_B0015</ns0:title>
-      </sbol:Component>
-    </sbol:component>
-    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
     <sbol:component>
       <sbol:Component rdf:about="http://examples.org/ComponentDefinition/sb8b00280_1_comp/B0015_comp_1/1">
         <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:definition rdf:resource="https://synbioks.org/public/CIDAR_MoClo_Toolkit_Densmore_Lab/B0015/1"/>
         <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00280_1_comp/B0015_comp_1"/>
+        <ns0:title>B0015</ns0:title>
         <sbol:displayId>B0015_comp_1</sbol:displayId>
         <sbol:version>1</sbol:version>
-        <sbol:definition rdf:resource="https://synbioks.org/public/CIDARToolkitKWK/B0015/1"/>
-        <ns0:title>B0015</ns0:title>
       </sbol:Component>
     </sbol:component>
     <sbol:component>
       <sbol:Component rdf:about="http://examples.org/ComponentDefinition/sb8b00280_1_comp/Bba_B0015_comp_1/1">
+        <sbol:displayId>Bba_B0015_comp_1</sbol:displayId>
         <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:definition rdf:resource="https://synbioks.org/public/MoClo_Yeast_Toolkit_Dueber_Lab/Bba_B0015/1"/>
         <ns0:title>Bba_B0015</ns0:title>
         <sbol:version>1</sbol:version>
-        <sbol:displayId>Bba_B0015_comp_1</sbol:displayId>
         <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00280_1_comp/Bba_B0015_comp_1"/>
-        <sbol:definition rdf:resource="https://synbioks.org/public/YTK/Bba_B0015/1"/>
       </sbol:Component>
     </sbol:component>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00280_1_comp"/>
     <ns1:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.8b00280"/>
     <sbol:sequenceAnnotation>
-      <sbol:SequenceAnnotation rdf:about="http://examples.org/ComponentDefinition/sb8b00280_1_comp/B0015_anno_1/1">
-        <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00280_1_comp/B0015_anno_1"/>
-        <sbol:version>1</sbol:version>
-        <ns0:title>B0015</ns0:title>
-        <sbol:component rdf:resource="http://examples.org/ComponentDefinition/sb8b00280_1_comp/B0015_comp_1/1"/>
-        <sbol:displayId>B0015_anno_1</sbol:displayId>
-        <ns0:description>Double terminator, rrnBT1-T7TE</ns0:description>
-        <sbol:location>
-          <sbol:Range rdf:about="http://examples.org/ComponentDefinition/sb8b00280_1_comp/B0015_anno_1/B0015_anno_1_loc/1">
-            <sbol:end>895</sbol:end>
-            <sbol:displayId>B0015_anno_1_loc</sbol:displayId>
-            <sbol:start>767</sbol:start>
-            <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00280_1_comp/B0015_anno_1/B0015_anno_1_loc"/>
-            <sbol:version>1</sbol:version>
-            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
-          </sbol:Range>
-        </sbol:location>
-      </sbol:SequenceAnnotation>
-    </sbol:sequenceAnnotation>
-    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb8b00280_1_sequence/1"/>
-    <sbol:sequenceAnnotation>
       <sbol:SequenceAnnotation rdf:about="http://examples.org/ComponentDefinition/sb8b00280_1_comp/Bba_B0015_anno_1/1">
-        <sbol:component rdf:resource="http://examples.org/ComponentDefinition/sb8b00280_1_comp/Bba_B0015_comp_1/1"/>
-        <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00280_1_comp/Bba_B0015_anno_1"/>
         <sbol:displayId>Bba_B0015_anno_1</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00280_1_comp/Bba_B0015_anno_1"/>
         <sbol:location>
           <sbol:Range rdf:about="http://examples.org/ComponentDefinition/sb8b00280_1_comp/Bba_B0015_anno_1/Bba_B0015_anno_1_loc/1">
             <sbol:version>1</sbol:version>
             <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
             <sbol:displayId>Bba_B0015_anno_1_loc</sbol:displayId>
-            <sbol:end>895</sbol:end>
             <sbol:start>767</sbol:start>
+            <sbol:end>895</sbol:end>
             <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00280_1_comp/Bba_B0015_anno_1/Bba_B0015_anno_1_loc"/>
           </sbol:Range>
         </sbol:location>
-        <sbol:version>1</sbol:version>
+        <sbol:component rdf:resource="http://examples.org/ComponentDefinition/sb8b00280_1_comp/Bba_B0015_comp_1/1"/>
         <ns0:title>Bba_B0015</ns0:title>
-      </sbol:SequenceAnnotation>
-    </sbol:sequenceAnnotation>
-    <sbol:displayId>sb8b00280_1_comp</sbol:displayId>
-  </sbol:ComponentDefinition>
-  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb8b00280_1_sequence/1">
-    <sbol:version>1</sbol:version>
-    <sbol:elements>atttcctcttgtcaggccggaataactccctataatgcgcctagagaaagaggagaaatactagatgttggatatgggacaagatcggccgatcgatggaagtggggcacccggggcagacgacacacgcgttgaggtgcaaccgccggcgcagtgggtcctcgacctgatcgaggccagcccgatcgcatcggtcgtgtccgatccgcgtctcgccgacaatccgctgatcgccatcaaccaggccttcaccgacctgaccggctattccgaagaagaatgcgtcggccgcaattgccgattcctggcaggttccggcaccgagccgtggctgaccgacaagatccgccaaggcgtgcgcgagcacaagccggtgctggtcgagatcctgaactacaagaaggacggcacgccgttccgcaatgccgtgctcgttgcaccgatctacgatgacgacgacgagcttctctatttcctcggcagccaggtcgaagtcgacgacgaccagcccaacatgggcatggcgcgccgcgaacgcgccgcggaaatgctcaagacgctgtcgccgcgccagctcgaggttacgacgctggtggcatcgggcttgcgcaacaaggaagtggcggcccggctcggcctgtcggagaaaaccgtcaagatgcaccgcgggctggtgatggaaaagctcaacctgaagaccagcgccgatctggtgcgcattgccgtcgaagccggaatctaaggatccaaactcgagtaaggatctccaggcatcaaataaaacgaaaggctcagtcgaaagactgggcctttcgttttatctgttgtttgtcggtgaacgctctctactagagtcacactggctcaccttcgggtgggcctttctgcgtttata</sbol:elements>
-    <sbol:displayId>sb8b00280_1_sequence</sbol:displayId>
-    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb8b00280_1_sequence"/>
-    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
-  </sbol:Sequence>
-  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb8b00280_6_sequence/1">
-    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
-    <sbol:displayId>sb8b00280_6_sequence</sbol:displayId>
-    <sbol:version>1</sbol:version>
-    <sbol:elements>taaacgcagaaaggcccacccgaaggtgacccagtgtgactctagtagagagcgttcaccgacaaacaacagataaaacgaaaggcccagtctttcgactgagcctttcgttttaatttgatgcctggctctagtattattagagagtaataagacccaaattaacggccataatggccgctacgcggcgggaggtcacaccgaacttccgccgaatatttcccatatggaagttcacattggcttccgagcagttgcagataaccgatatctcccaactggtcttgccgatggcgcaccactgcaacacttccttctcccggctggtcagaaccaccggtttgctgaccggatgttcgaaggccagtccggcaccgctttgcagtgcgtagtccttgagcatccacagggtcggcaggaccgactctatgaaacggttggcctcggcccggttttccgcttccacgctgaggctcagcgcgccgagttcgccgcgagcaccatgcagcggcatggtcagcccatacaccaggccggcggccgaggcttcctcgaagaactcgtgctgctttcgcgtctggtagatggacggttcccagaaaatcggcagtacgctctgggtacagtgactgaccgtcgggtcgacccgcgcgtagccagcccggtcgtaatgctcgcgccaggcggccgggtagttgccgacgatgaaggcgttctcgtagtcctggctgtccttaggcaacaggccgaacaggatcttcgagaatccaaggtcgctcgccatcttctggaggatggcgctccactccaattttccacttgagcgttccagctcaagaaaaccgtcaaccaaggccatctctagtatttctcctctttgctagcattatacctaggactgagctagctgtcagggatctggttcaccgaaatctatctcatttgctagttataaaattatgaaatttgcataaattcttcaggtagcctttagtccatgtttaagaaggagatatacatatggcgagtagcgaagacgttatcaaagagttcatgcgtttcaaagttcgtatggaaggttccgttaacggtcacgagttcgaaatcgaaggtgaaggtgaaggtcgtccgtacgaaggtacccagaccgctaaactgaaagttaccaaaggtggtccgctgccgttcgcttgggacatcctgtccccgcagttccagtacggttccaaagcttacgttaaacacccggctgacatcccggactacctgaaactgtccttcccggaaggtttcaaatgggaacgtgttatgaacttcgaagacggtggtgttgttaccgttacccaggactcctccctgcaagacggtgagttcatctacaaagttaaactgcgtggtaccaacttcccgtccgacggtccggttatgcagaaaaaaaccatgggttgggaagcttccaccgaacgtatgtacccggaagacggtgctctgaaaggtgaaatcaaaatgcgtctgaaactgaaagacggtggtcactacgacgctgaagttaaaaccacctacatggctaaaaaaccggttcagctgccgggtgcttacaaaaccgacatcaaactggacatcacctcccacaacgaagactacaccatcgttgaacagtacgaacgtgctgaaggtcgtcactccaccggtgcttaaggatccaaactcgagtaaggatctccaggcatcaaataaaacgaaaggctcagtcgaaagactgggcctttcgttttatctgttgtttgtcggtgaacgctctctactagagtcacactggctcaccttcgggtgggcctttctgcgtttata</sbol:elements>
-    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb8b00280_6_sequence"/>
-  </sbol:Sequence>
-  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb8b00280_5_sequence/1">
-    <sbol:displayId>sb8b00280_5_sequence</sbol:displayId>
-    <sbol:elements>ctgacgggtagcctttagtccatgtactgtttctccatacccgtttttttgggaattcaaaagatcttttaagaaggagatatacatatggcgagtagcgaagacgttatcaaagagttcatgcgtttcaaagttcgtatggaaggttccgttaacggtcacgagttcgaaatcgaaggtgaaggtgaaggtcgtccgtacgaaggtacccagaccgctaaactgaaagttaccaaaggtggtccgctgccgttcgcttgggacatcctgtccccgcagttccagtacggttccaaagcttacgttaaacacccggctgacatcccggactacctgaaactgtccttcccggaaggtttcaaatgggaacgtgttatgaacttcgaagacggtggtgttgttaccgttacccaggactcctccctgcaagacggtgagttcatctacaaagttaaactgcgtggtaccaacttcccgtccgacggtccggttatgcagaaaaaaaccatgggttgggaagcttccaccgaacgtatgtacccggaagacggtgctctgaaaggtgaaatcaaaatgcgtctgaaactgaaagacggtggtcactacgacgctgaagttaaaaccacctacatggctaaaaaaccggttcagctgccgggtgcttacaaaaccgacatcaaactggacatcacctcccacaacgaagactacaccatcgttgaacagtacgaacgtgctgaaggtcgtcactccaccggtgcttaaggatccaaactcgagtaaggatctccaggcatcaaataaaacgaaaggctcagtcgaaagactgggcctttcgttttatctgttgtttgtcggtgaacgctctctactagagtcacactggctcaccttcgggtgggcctttctgcgtttatacctagggcgttcggctgcggcgagcggtatcagctcactcaattttttgggaattcaagagatctta</sbol:elements>
-    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
-    <sbol:version>1</sbol:version>
-    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb8b00280_5_sequence"/>
-  </sbol:Sequence>
-  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb8b00280_5_comp/1">
-    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00280_5_comp"/>
-    <sbol:component>
-      <sbol:Component rdf:about="http://examples.org/ComponentDefinition/sb8b00280_5_comp/B0015_comp_1/1">
-        <sbol:displayId>B0015_comp_1</sbol:displayId>
-        <sbol:version>1</sbol:version>
-        <sbol:definition rdf:resource="https://synbioks.org/public/CIDARToolkitKWK/B0015/1"/>
-        <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00280_5_comp/B0015_comp_1"/>
-        <ns0:title>B0015</ns0:title>
-        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
-      </sbol:Component>
-    </sbol:component>
-    <sbol:displayId>sb8b00280_5_comp</sbol:displayId>
-    <sbol:sequenceAnnotation>
-      <sbol:SequenceAnnotation rdf:about="http://examples.org/ComponentDefinition/sb8b00280_5_comp/BBa_B0015_anno_1/1">
-        <ns0:description>Very commonly used terminator</ns0:description>
-        <sbol:displayId>BBa_B0015_anno_1</sbol:displayId>
-        <sbol:component rdf:resource="http://examples.org/ComponentDefinition/sb8b00280_5_comp/BBa_B0015_comp_1/1"/>
-        <sbol:location>
-          <sbol:Range rdf:about="http://examples.org/ComponentDefinition/sb8b00280_5_comp/BBa_B0015_anno_1/BBa_B0015_anno_1_loc/1">
-            <sbol:version>1</sbol:version>
-            <sbol:start>790</sbol:start>
-            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
-            <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00280_5_comp/BBa_B0015_anno_1/BBa_B0015_anno_1_loc"/>
-            <sbol:displayId>BBa_B0015_anno_1_loc</sbol:displayId>
-            <sbol:end>918</sbol:end>
-          </sbol:Range>
-        </sbol:location>
-        <sbol:version>1</sbol:version>
-        <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00280_5_comp/BBa_B0015_anno_1"/>
-        <ns0:title>BBa_B0015</ns0:title>
-      </sbol:SequenceAnnotation>
-    </sbol:sequenceAnnotation>
-    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb8b00280_5_sequence/1"/>
-    <sbol:component>
-      <sbol:Component rdf:about="http://examples.org/ComponentDefinition/sb8b00280_5_comp/Bba_B0015_comp_1/1">
-        <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00280_5_comp/Bba_B0015_comp_1"/>
-        <sbol:version>1</sbol:version>
-        <sbol:displayId>Bba_B0015_comp_1</sbol:displayId>
-        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
-        <ns0:title>Bba_B0015</ns0:title>
-        <sbol:definition rdf:resource="https://synbioks.org/public/YTK/Bba_B0015/1"/>
-      </sbol:Component>
-    </sbol:component>
-    <ns1:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
-    <sbol:version>1</sbol:version>
-    <sbol:sequenceAnnotation>
-      <sbol:SequenceAnnotation rdf:about="http://examples.org/ComponentDefinition/sb8b00280_5_comp/B0015_anno_1/1">
-        <sbol:location>
-          <sbol:Range rdf:about="http://examples.org/ComponentDefinition/sb8b00280_5_comp/B0015_anno_1/B0015_anno_1_loc/1">
-            <sbol:start>790</sbol:start>
-            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
-            <sbol:end>918</sbol:end>
-            <sbol:displayId>B0015_anno_1_loc</sbol:displayId>
-            <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00280_5_comp/B0015_anno_1/B0015_anno_1_loc"/>
-            <sbol:version>1</sbol:version>
-          </sbol:Range>
-        </sbol:location>
-        <ns0:description>Double terminator, rrnBT1-T7TE</ns0:description>
-        <sbol:version>1</sbol:version>
-        <ns0:title>B0015</ns0:title>
-        <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00280_5_comp/B0015_anno_1"/>
-        <sbol:displayId>B0015_anno_1</sbol:displayId>
-        <sbol:component rdf:resource="http://examples.org/ComponentDefinition/sb8b00280_5_comp/B0015_comp_1/1"/>
-      </sbol:SequenceAnnotation>
-    </sbol:sequenceAnnotation>
-    <sbol:component>
-      <sbol:Component rdf:about="http://examples.org/ComponentDefinition/sb8b00280_5_comp/BBa_B0015_comp_1/1">
-        <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00280_5_comp/BBa_B0015_comp_1"/>
-        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
-        <sbol:definition rdf:resource="https://synbioks.org/public/Ecoflex/BBa_B0015/1"/>
-        <sbol:displayId>BBa_B0015_comp_1</sbol:displayId>
-        <sbol:version>1</sbol:version>
-        <ns0:title>BBa_B0015</ns0:title>
-      </sbol:Component>
-    </sbol:component>
-    <sbol:sequenceAnnotation>
-      <sbol:SequenceAnnotation rdf:about="http://examples.org/ComponentDefinition/sb8b00280_5_comp/Bba_B0015_anno_1/1">
-        <sbol:location>
-          <sbol:Range rdf:about="http://examples.org/ComponentDefinition/sb8b00280_5_comp/Bba_B0015_anno_1/Bba_B0015_anno_1_loc/1">
-            <sbol:version>1</sbol:version>
-            <sbol:start>790</sbol:start>
-            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
-            <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00280_5_comp/Bba_B0015_anno_1/Bba_B0015_anno_1_loc"/>
-            <sbol:end>918</sbol:end>
-            <sbol:displayId>Bba_B0015_anno_1_loc</sbol:displayId>
-          </sbol:Range>
-        </sbol:location>
-        <sbol:component rdf:resource="http://examples.org/ComponentDefinition/sb8b00280_5_comp/Bba_B0015_comp_1/1"/>
-        <sbol:displayId>Bba_B0015_anno_1</sbol:displayId>
-        <ns0:title>Bba_B0015</ns0:title>
-        <sbol:version>1</sbol:version>
-        <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00280_5_comp/Bba_B0015_anno_1"/>
       </sbol:SequenceAnnotation>
     </sbol:sequenceAnnotation>
     <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
-    <ns1:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.8b00280"/>
-  </sbol:ComponentDefinition>
-  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb8b00280_2_comp/1">
-    <sbol:sequenceAnnotation>
-      <sbol:SequenceAnnotation rdf:about="http://examples.org/ComponentDefinition/sb8b00280_2_comp/B0015_anno_1/1">
-        <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00280_2_comp/B0015_anno_1"/>
-        <sbol:version>1</sbol:version>
-        <sbol:location>
-          <sbol:Range rdf:about="http://examples.org/ComponentDefinition/sb8b00280_2_comp/B0015_anno_1/B0015_anno_1_loc/1">
-            <sbol:version>1</sbol:version>
-            <sbol:start>790</sbol:start>
-            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
-            <sbol:end>918</sbol:end>
-            <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00280_2_comp/B0015_anno_1/B0015_anno_1_loc"/>
-            <sbol:displayId>B0015_anno_1_loc</sbol:displayId>
-          </sbol:Range>
-        </sbol:location>
-        <ns0:title>B0015</ns0:title>
-        <sbol:displayId>B0015_anno_1</sbol:displayId>
-        <ns0:description>Double terminator, rrnBT1-T7TE</ns0:description>
-        <sbol:component rdf:resource="http://examples.org/ComponentDefinition/sb8b00280_2_comp/B0015_comp_1/1"/>
-      </sbol:SequenceAnnotation>
-    </sbol:sequenceAnnotation>
-    <sbol:sequenceAnnotation>
-      <sbol:SequenceAnnotation rdf:about="http://examples.org/ComponentDefinition/sb8b00280_2_comp/BBa_B0015_anno_1/1">
-        <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00280_2_comp/BBa_B0015_anno_1"/>
-        <ns0:description>Very commonly used terminator</ns0:description>
-        <sbol:location>
-          <sbol:Range rdf:about="http://examples.org/ComponentDefinition/sb8b00280_2_comp/BBa_B0015_anno_1/BBa_B0015_anno_1_loc/1">
-            <sbol:version>1</sbol:version>
-            <sbol:start>790</sbol:start>
-            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
-            <sbol:displayId>BBa_B0015_anno_1_loc</sbol:displayId>
-            <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00280_2_comp/BBa_B0015_anno_1/BBa_B0015_anno_1_loc"/>
-            <sbol:end>918</sbol:end>
-          </sbol:Range>
-        </sbol:location>
-        <sbol:version>1</sbol:version>
-        <sbol:displayId>BBa_B0015_anno_1</sbol:displayId>
-        <ns0:title>BBa_B0015</ns0:title>
-        <sbol:component rdf:resource="http://examples.org/ComponentDefinition/sb8b00280_2_comp/BBa_B0015_comp_1/1"/>
-      </sbol:SequenceAnnotation>
-    </sbol:sequenceAnnotation>
-    <sbol:component>
-      <sbol:Component rdf:about="http://examples.org/ComponentDefinition/sb8b00280_2_comp/B0015_comp_1/1">
-        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
-        <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00280_2_comp/B0015_comp_1"/>
-        <sbol:displayId>B0015_comp_1</sbol:displayId>
-        <ns0:title>B0015</ns0:title>
-        <sbol:version>1</sbol:version>
-        <sbol:definition rdf:resource="https://synbioks.org/public/CIDARToolkitKWK/B0015/1"/>
-      </sbol:Component>
-    </sbol:component>
-    <ns1:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbh:supplementalFile rdf:resource="sb8b00280/suppl/sb-2018-002802_si_001.pdf"/>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb8b00280_1_sequence/1"/>
     <sbol:version>1</sbol:version>
-    <sbol:component>
-      <sbol:Component rdf:about="http://examples.org/ComponentDefinition/sb8b00280_2_comp/BBa_B0015_comp_1/1">
-        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
-        <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00280_2_comp/BBa_B0015_comp_1"/>
-        <sbol:definition rdf:resource="https://synbioks.org/public/Ecoflex/BBa_B0015/1"/>
-        <sbol:displayId>BBa_B0015_comp_1</sbol:displayId>
-        <sbol:version>1</sbol:version>
-        <ns0:title>BBa_B0015</ns0:title>
-      </sbol:Component>
-    </sbol:component>
-    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00280_2_comp"/>
-    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb8b00280_2_sequence/1"/>
-    <sbol:component>
-      <sbol:Component rdf:about="http://examples.org/ComponentDefinition/sb8b00280_2_comp/Bba_B0015_comp_1/1">
-        <sbol:definition rdf:resource="https://synbioks.org/public/YTK/Bba_B0015/1"/>
-        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
-        <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00280_2_comp/Bba_B0015_comp_1"/>
-        <ns0:title>Bba_B0015</ns0:title>
-        <sbol:version>1</sbol:version>
-        <sbol:displayId>Bba_B0015_comp_1</sbol:displayId>
-      </sbol:Component>
-    </sbol:component>
-    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
-    <sbol:displayId>sb8b00280_2_comp</sbol:displayId>
-    <sbol:sequenceAnnotation>
-      <sbol:SequenceAnnotation rdf:about="http://examples.org/ComponentDefinition/sb8b00280_2_comp/Bba_B0015_anno_1/1">
-        <sbol:version>1</sbol:version>
-        <sbol:component rdf:resource="http://examples.org/ComponentDefinition/sb8b00280_2_comp/Bba_B0015_comp_1/1"/>
-        <sbol:location>
-          <sbol:Range rdf:about="http://examples.org/ComponentDefinition/sb8b00280_2_comp/Bba_B0015_anno_1/Bba_B0015_anno_1_loc/1">
-            <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00280_2_comp/Bba_B0015_anno_1/Bba_B0015_anno_1_loc"/>
-            <sbol:version>1</sbol:version>
-            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
-            <sbol:displayId>Bba_B0015_anno_1_loc</sbol:displayId>
-            <sbol:start>790</sbol:start>
-            <sbol:end>918</sbol:end>
-          </sbol:Range>
-        </sbol:location>
-        <sbol:displayId>Bba_B0015_anno_1</sbol:displayId>
-        <ns0:title>Bba_B0015</ns0:title>
-        <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00280_2_comp/Bba_B0015_anno_1"/>
-      </sbol:SequenceAnnotation>
-    </sbol:sequenceAnnotation>
-    <ns1:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.8b00280"/>
   </sbol:ComponentDefinition>
-  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb8b00280_3_sequence/1">
-    <sbol:elements>tataaacgcagaaaggcccacccgaaggtgagccagtgtgactctagtagagagcgttcaccgacaaacaacagataaaacgaaaggcccagtctttcgactgagcctttcgttttatttgatgcctggagatccttactcgagtttggatccttaagcaccggtggagtgacgaccttcagcacgttcgtactgttcaacgatggtgtagtcttcgttgtgggaggtgatgtccagtttgatgtcggttttgtaagcacccggcagctgaaccggttttttagccatgtaggtggttttaacttcagcgtcgtagtgaccaccgtctttcagtttcagacgcattttgatttcacctttcagagcaccgtcttccgggtacatacgttcggtggaagcttcccaacccatggtttttttctgcataaccggaccgtcggacgggaagttggtaccacgcagtttaactttgtagatgaactcaccgtcttgcagggaggagtcctgggtaacggtaacaacaccaccgtcttcgaagttcataacacgttcccatttgaaaccttccgggaaggacagtttcaggtagtccgggatgtcagccgggtgtttaacgtaagctttggaaccgtactggaactgcggggacaggatgtcccaagcgaacggcagcggaccacctttggtaactttcagtttagcggtctgggtaccttcgtacggacgaccttcaccttcaccttcgatttcgaactcgtgaccgttaacggaaccttccatacgaactttgaaacgcatgaactctttgataacgtcttcgctactcgccatatgtatatctccttcttaaacatggactaaaggctacctgaagaatttatgcaaatttcataattttataactagcaaatgagatagatttcggtgaaccagatccctgacagctagctcagtcctaggtataatgctagcaaagaggagaaatactagagatggccttggttgacggttttcttgagctggaacgctcaagtggaaaattggagtggagcgccatcctccagaagatggcgagcgaccttggattctcgaagatcctgttcggcctgttgcctaaggacagccaggactacgagaacgccttcatcgtcggcaactacccggccgcctggcgcgagcattacgaccgggctggctacgcgcgggtcgacccgacggtcagtcactgtacccagagcgtactgccgattttctgggaaccgtccatctaccagacgcgaaagcagcacgagttcttcgaggaagcctcggccgccggcctggtgtatgggctgaccatgccgctgcatggtgctcgcggcgaactcggcgcgctgagcctcagcgtggaagcggaaaaccgggccgaggccaaccgtttcatagagtcggtcctgccgaccctgtggatgctcaaggactacgcactgcaaagcggtgccggactggccttcgaacatccggtcagcaaaccggtggttctgaccagccgggagaaggaagtgttgcagtggtgcgccatcggcaagaccagttgggagatatcggttatctgcaactgctcggaagccaatgtgaacttccatatgggaaatattcggcggaagttcggtgtgacctcccgccgcgtagcggccattatggccgttaatttgggtcttattactctctaataatactagagccaggcatcaaattaaaacgaaaggctcagtcgaaagactgggcctttcgttttatctgttgtttgtcggtgaacgctctctactagagtcacactgggtcaccttcgggtgggcctttctgcgtttata</sbol:elements>
-    <sbol:displayId>sb8b00280_3_sequence</sbol:displayId>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb8b00280_4_sequence/1">
+    <sbol:elements>ctgacgctttttatcgcaactctctactgtttctccatacccgtttttttgggaattcaaaagatctaaagaggagaaatactagatgttggatatgggacaagatcggccgatcgatggaagtggggcacccggggcagacgacacacgcgttgaggtgcaaccgccggcgcagtgggtcctcgacctgatcgaggccagcccgatcgcatcggtcgtgtccgatccgcgtctcgccgacaatccgctgatcgccatcaaccaggccttcaccgacctgaccggctattccgaagaagaatgcgtcggccgcaattgccgattcctggcaggttccggcaccgagccgtggctgaccgacaagatccgccaaggcgtgcgcgagcacaagccggtgctggtcgagatcctgaactacaagaaggacggcacgccgttccgcaatgccgtgctcgttgcaccgatctacgatgacgacgacgagcttctctatttcctcggcagccaggtcgaagtcgacgacgaccagcccaacatgggcatggcgcgccgcgaacgcgccgcggaaatgctcaagacgctgtcgccgcgccagctcgaggttacgacgctggtggcatcgggcttgcgcaacaaggaagtggcggcccggctcggcctgtcggagaaaaccgtcaagatgcaccgcgggctggtgatggaaaagctcaacctgaagaccagcgccgatctggtgcgcattgccgtcgaagccggaatctaaggatccaaactcgagtaaggatctccaggcatcaaataaaacgaaaggctcagtcgaaagactgggcctttcgttttatctgttgtttgtcggtgaacgctctctactagagtcacactggctcaccttcgggtgggcctttctgcgtttata</sbol:elements>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb8b00280_4_sequence"/>
     <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
-    <sbol:version>1</sbol:version>
-    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb8b00280_3_sequence"/>
-  </sbol:Sequence>
-  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb8b00280_13_sequence/1">
-    <sbol:elements>aatttgcctggcggcagtagcgcggtggtcccacctgaccccatgccgaactcagaagtgaaacgccgtagcgccgatggtagtgtggggtctccccatgcgagagtagggaactgccaggcatcaaataaaacgaaaggctcagtcgaaagactgggccttcaagctaattaccctgttatccctatgatgactgaagcttgcatgactgaatttcctcttgtcaggccggaataactccctataatgcgcctagagaaagaggagaaatactagatgttggatatgggacaagatcggccgatcgatggaagtggggcacccggggcagacgacacacgcgttgaggtgcaaccgccggcgcagtgggtcctcgacctgatcgaggccagcccgatcgcatcggtcgtgtccgatccgcgtctcgccgacaatccgctgatcgccatcaaccaggccttcaccgacctgaccggctattccgaagaagaatgcgtcggccgcaattgccgattcctggcaggttccggcaccgagccgtggctgaccgacaagatccgccaaggcgtgcgcgagcacaagccggtgctggtcgagatcctgaactacaagaaggacggcacgccgttccgcaatgccgtgctcgttgcaccgatctacgatgacgacgacgagcttctctatttcctcggcagccaggtcgaagtcgacgacgaccagcccaacatgggcatggcgcgccgcgaacgcgccgcggaaatgctcaagacgctgtcgccgcgccagctcgaggttacgacgctggtggcatcgggcttgcgcaacaaggaagtggcggcccggctcggcctgtcggagaaaaccgtcaagatgcaccgcgggctggtgatggaaaagctcaacctgaagaccagcgccgatctggtgcgcattgccgtcgaagccggaatctaaggatccaaactcgagtaaggatctccaggcatcaaataaaacgaaaggctcagtcgaaagactgggcctttcgttttatctgttgtttgtcggtgaacgctctctactagagtcacactggctcaccttcgggtgggcctttctgcgtttata</sbol:elements>
-    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb8b00280_13_sequence"/>
-    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
-    <sbol:displayId>sb8b00280_13_sequence</sbol:displayId>
+    <sbol:displayId>sb8b00280_4_sequence</sbol:displayId>
     <sbol:version>1</sbol:version>
   </sbol:Sequence>
   <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb8b00280_6_comp/1">
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00280_6_comp"/>
     <sbol:component>
       <sbol:Component rdf:about="http://examples.org/ComponentDefinition/sb8b00280_6_comp/B0015_comp_1/1">
         <ns0:title>B0015</ns0:title>
-        <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00280_6_comp/B0015_comp_1"/>
         <sbol:displayId>B0015_comp_1</sbol:displayId>
         <sbol:version>1</sbol:version>
-        <sbol:definition rdf:resource="https://synbioks.org/public/CIDARToolkitKWK/B0015/1"/>
+        <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00280_6_comp/B0015_comp_1"/>
         <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:definition rdf:resource="https://synbioks.org/public/CIDAR_MoClo_Toolkit_Densmore_Lab/B0015/1"/>
       </sbol:Component>
     </sbol:component>
-    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb8b00280_6_sequence/1"/>
-    <sbol:sequenceAnnotation>
-      <sbol:SequenceAnnotation rdf:about="http://examples.org/ComponentDefinition/sb8b00280_6_comp/BBa_B0015_anno_1/1">
-        <ns0:title>BBa_B0015</ns0:title>
-        <ns0:description>Very commonly used terminator</ns0:description>
-        <sbol:component rdf:resource="http://examples.org/ComponentDefinition/sb8b00280_6_comp/BBa_B0015_comp_1/1"/>
-        <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00280_6_comp/BBa_B0015_anno_1"/>
-        <sbol:location>
-          <sbol:Range rdf:about="http://examples.org/ComponentDefinition/sb8b00280_6_comp/BBa_B0015_anno_1/BBa_B0015_anno_1_loc/1">
-            <sbol:start>1723</sbol:start>
-            <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00280_6_comp/BBa_B0015_anno_1/BBa_B0015_anno_1_loc"/>
-            <sbol:version>1</sbol:version>
-            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
-            <sbol:displayId>BBa_B0015_anno_1_loc</sbol:displayId>
-            <sbol:end>1851</sbol:end>
-          </sbol:Range>
-        </sbol:location>
-        <sbol:displayId>BBa_B0015_anno_1</sbol:displayId>
-        <sbol:version>1</sbol:version>
-      </sbol:SequenceAnnotation>
-    </sbol:sequenceAnnotation>
+    <sbh:supplementalFile rdf:resource="sb8b00280/suppl/sb-2018-002802_si_001.pdf"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
     <ns1:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbol:version>1</sbol:version>
+    <sbol:displayId>sb8b00280_6_comp</sbol:displayId>
+    <sbol:component>
+      <sbol:Component rdf:about="http://examples.org/ComponentDefinition/sb8b00280_6_comp/Bba_B0015_comp_1/1">
+        <sbol:version>1</sbol:version>
+        <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00280_6_comp/Bba_B0015_comp_1"/>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:definition rdf:resource="https://synbioks.org/public/MoClo_Yeast_Toolkit_Dueber_Lab/Bba_B0015/1"/>
+        <ns0:title>Bba_B0015</ns0:title>
+        <sbol:displayId>Bba_B0015_comp_1</sbol:displayId>
+      </sbol:Component>
+    </sbol:component>
     <sbol:sequenceAnnotation>
       <sbol:SequenceAnnotation rdf:about="http://examples.org/ComponentDefinition/sb8b00280_6_comp/Bba_B0015_anno_1/1">
-        <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00280_6_comp/Bba_B0015_anno_1"/>
+        <ns0:title>Bba_B0015</ns0:title>
+        <sbol:displayId>Bba_B0015_anno_1</sbol:displayId>
+        <sbol:version>1</sbol:version>
         <sbol:location>
           <sbol:Range rdf:about="http://examples.org/ComponentDefinition/sb8b00280_6_comp/Bba_B0015_anno_1/Bba_B0015_anno_1_loc/1">
-            <sbol:start>1723</sbol:start>
             <sbol:end>1851</sbol:end>
-            <sbol:version>1</sbol:version>
-            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
             <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00280_6_comp/Bba_B0015_anno_1/Bba_B0015_anno_1_loc"/>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:start>1723</sbol:start>
+            <sbol:version>1</sbol:version>
             <sbol:displayId>Bba_B0015_anno_1_loc</sbol:displayId>
           </sbol:Range>
         </sbol:location>
-        <sbol:displayId>Bba_B0015_anno_1</sbol:displayId>
-        <ns0:title>Bba_B0015</ns0:title>
-        <sbol:version>1</sbol:version>
+        <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00280_6_comp/Bba_B0015_anno_1"/>
         <sbol:component rdf:resource="http://examples.org/ComponentDefinition/sb8b00280_6_comp/Bba_B0015_comp_1/1"/>
       </sbol:SequenceAnnotation>
     </sbol:sequenceAnnotation>
-    <sbol:version>1</sbol:version>
-    <sbol:displayId>sb8b00280_6_comp</sbol:displayId>
-    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
-    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00280_6_comp"/>
-    <sbol:component>
-      <sbol:Component rdf:about="http://examples.org/ComponentDefinition/sb8b00280_6_comp/Bba_B0015_comp_1/1">
-        <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00280_6_comp/Bba_B0015_comp_1"/>
-        <sbol:version>1</sbol:version>
-        <sbol:displayId>Bba_B0015_comp_1</sbol:displayId>
-        <sbol:definition rdf:resource="https://synbioks.org/public/YTK/Bba_B0015/1"/>
-        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
-        <ns0:title>Bba_B0015</ns0:title>
-      </sbol:Component>
-    </sbol:component>
+    <ns1:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.8b00280"/>
     <sbol:sequenceAnnotation>
       <sbol:SequenceAnnotation rdf:about="http://examples.org/ComponentDefinition/sb8b00280_6_comp/B0015_anno_1/1">
         <sbol:version>1</sbol:version>
+        <sbol:component rdf:resource="http://examples.org/ComponentDefinition/sb8b00280_6_comp/B0015_comp_1/1"/>
+        <sbol:displayId>B0015_anno_1</sbol:displayId>
+        <ns0:description>Double terminator, rrnBT1-T7TE</ns0:description>
         <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00280_6_comp/B0015_anno_1"/>
+        <ns0:title>B0015</ns0:title>
         <sbol:location>
           <sbol:Range rdf:about="http://examples.org/ComponentDefinition/sb8b00280_6_comp/B0015_anno_1/B0015_anno_1_loc/1">
-            <sbol:displayId>B0015_anno_1_loc</sbol:displayId>
             <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
-            <sbol:end>1851</sbol:end>
-            <sbol:start>1723</sbol:start>
             <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00280_6_comp/B0015_anno_1/B0015_anno_1_loc"/>
-            <sbol:version>1</sbol:version>
-          </sbol:Range>
-        </sbol:location>
-        <ns0:title>B0015</ns0:title>
-        <sbol:displayId>B0015_anno_1</sbol:displayId>
-        <ns0:description>Double terminator, rrnBT1-T7TE</ns0:description>
-        <sbol:component rdf:resource="http://examples.org/ComponentDefinition/sb8b00280_6_comp/B0015_comp_1/1"/>
-      </sbol:SequenceAnnotation>
-    </sbol:sequenceAnnotation>
-    <ns1:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.8b00280"/>
-    <sbol:component>
-      <sbol:Component rdf:about="http://examples.org/ComponentDefinition/sb8b00280_6_comp/BBa_B0015_comp_1/1">
-        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
-        <sbol:definition rdf:resource="https://synbioks.org/public/Ecoflex/BBa_B0015/1"/>
-        <sbol:displayId>BBa_B0015_comp_1</sbol:displayId>
-        <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00280_6_comp/BBa_B0015_comp_1"/>
-        <sbol:version>1</sbol:version>
-        <ns0:title>BBa_B0015</ns0:title>
-      </sbol:Component>
-    </sbol:component>
-  </sbol:ComponentDefinition>
-  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb8b00280_8_comp/1">
-    <ns1:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
-    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
-    <sbol:version>1</sbol:version>
-    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb8b00280_8_sequence/1"/>
-    <ns1:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.8b00280"/>
-    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00280_8_comp"/>
-    <sbol:displayId>sb8b00280_8_comp</sbol:displayId>
-  </sbol:ComponentDefinition>
-  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb8b00280_14_sequence/1">
-    <sbol:displayId>sb8b00280_14_sequence</sbol:displayId>
-    <sbol:elements>aaatctatctcatttgctagttataaaattatgaaatttgcataaaggtagcctttagtccatg</sbol:elements>
-    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb8b00280_14_sequence"/>
-    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
-    <sbol:version>1</sbol:version>
-  </sbol:Sequence>
-  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb8b00280_14_comp/1">
-    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
-    <ns1:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.8b00280"/>
-    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00280_14_comp"/>
-    <sbol:displayId>sb8b00280_14_comp</sbol:displayId>
-    <ns1:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
-    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb8b00280_14_sequence/1"/>
-    <sbol:version>1</sbol:version>
-  </sbol:ComponentDefinition>
-  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb8b00280_3_comp/1">
-    <sbol:sequenceAnnotation>
-      <sbol:SequenceAnnotation rdf:about="http://examples.org/ComponentDefinition/sb8b00280_3_comp/B0015_anno_1/1">
-        <sbol:version>1</sbol:version>
-        <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00280_3_comp/B0015_anno_1"/>
-        <ns0:title>B0015</ns0:title>
-        <sbol:displayId>B0015_anno_1</sbol:displayId>
-        <sbol:component rdf:resource="http://examples.org/ComponentDefinition/sb8b00280_3_comp/B0015_comp_1/1"/>
-        <sbol:location>
-          <sbol:Range rdf:about="http://examples.org/ComponentDefinition/sb8b00280_3_comp/B0015_anno_1/B0015_anno_1_loc/1">
-            <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00280_3_comp/B0015_anno_1/B0015_anno_1_loc"/>
-            <sbol:start>1</sbol:start>
-            <sbol:version>1</sbol:version>
+            <sbol:end>1851</sbol:end>
             <sbol:displayId>B0015_anno_1_loc</sbol:displayId>
-            <sbol:end>129</sbol:end>
-            <sbol:orientation rdf:resource="http://sbols.org/v2#reverseComplement"/>
-          </sbol:Range>
-        </sbol:location>
-        <ns0:description>Double terminator, rrnBT1-T7TE</ns0:description>
-      </sbol:SequenceAnnotation>
-    </sbol:sequenceAnnotation>
-    <sbol:component>
-      <sbol:Component rdf:about="http://examples.org/ComponentDefinition/sb8b00280_3_comp/Bba_B0015_comp_1/1">
-        <sbol:definition rdf:resource="https://synbioks.org/public/YTK/Bba_B0015/1"/>
-        <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00280_3_comp/Bba_B0015_comp_1"/>
-        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
-        <ns0:title>Bba_B0015</ns0:title>
-        <sbol:version>1</sbol:version>
-        <sbol:displayId>Bba_B0015_comp_1</sbol:displayId>
-      </sbol:Component>
-    </sbol:component>
-    <sbol:displayId>sb8b00280_3_comp</sbol:displayId>
-    <sbol:sequenceAnnotation>
-      <sbol:SequenceAnnotation rdf:about="http://examples.org/ComponentDefinition/sb8b00280_3_comp/Bba_B0015_anno_1/1">
-        <ns0:title>Bba_B0015</ns0:title>
-        <sbol:version>1</sbol:version>
-        <sbol:component rdf:resource="http://examples.org/ComponentDefinition/sb8b00280_3_comp/Bba_B0015_comp_1/1"/>
-        <sbol:location>
-          <sbol:Range rdf:about="http://examples.org/ComponentDefinition/sb8b00280_3_comp/Bba_B0015_anno_1/Bba_B0015_anno_1_loc/1">
-            <sbol:orientation rdf:resource="http://sbols.org/v2#reverseComplement"/>
-            <sbol:version>1</sbol:version>
-            <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00280_3_comp/Bba_B0015_anno_1/Bba_B0015_anno_1_loc"/>
-            <sbol:displayId>Bba_B0015_anno_1_loc</sbol:displayId>
-            <sbol:end>129</sbol:end>
-            <sbol:start>1</sbol:start>
-          </sbol:Range>
-        </sbol:location>
-        <sbol:displayId>Bba_B0015_anno_1</sbol:displayId>
-        <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00280_3_comp/Bba_B0015_anno_1"/>
-      </sbol:SequenceAnnotation>
-    </sbol:sequenceAnnotation>
-    <ns1:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.8b00280"/>
-    <sbol:component>
-      <sbol:Component rdf:about="http://examples.org/ComponentDefinition/sb8b00280_3_comp/B0015_comp_1/1">
-        <sbol:version>1</sbol:version>
-        <sbol:definition rdf:resource="https://synbioks.org/public/CIDARToolkitKWK/B0015/1"/>
-        <sbol:displayId>B0015_comp_1</sbol:displayId>
-        <ns0:title>B0015</ns0:title>
-        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
-        <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00280_3_comp/B0015_comp_1"/>
-      </sbol:Component>
-    </sbol:component>
-    <sbol:sequenceAnnotation>
-      <sbol:SequenceAnnotation rdf:about="http://examples.org/ComponentDefinition/sb8b00280_3_comp/BBa_B0015_anno_1/1">
-        <ns0:title>BBa_B0015</ns0:title>
-        <sbol:displayId>BBa_B0015_anno_1</sbol:displayId>
-        <sbol:version>1</sbol:version>
-        <ns0:description>Very commonly used terminator</ns0:description>
-        <sbol:location>
-          <sbol:Range rdf:about="http://examples.org/ComponentDefinition/sb8b00280_3_comp/BBa_B0015_anno_1/BBa_B0015_anno_1_loc/1">
-            <sbol:end>129</sbol:end>
-            <sbol:start>1</sbol:start>
-            <sbol:displayId>BBa_B0015_anno_1_loc</sbol:displayId>
-            <sbol:orientation rdf:resource="http://sbols.org/v2#reverseComplement"/>
-            <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00280_3_comp/BBa_B0015_anno_1/BBa_B0015_anno_1_loc"/>
+            <sbol:start>1723</sbol:start>
             <sbol:version>1</sbol:version>
           </sbol:Range>
         </sbol:location>
-        <sbol:component rdf:resource="http://examples.org/ComponentDefinition/sb8b00280_3_comp/BBa_B0015_comp_1/1"/>
-        <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00280_3_comp/BBa_B0015_anno_1"/>
       </sbol:SequenceAnnotation>
     </sbol:sequenceAnnotation>
-    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00280_3_comp"/>
-    <ns1:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
-    <sbol:component>
-      <sbol:Component rdf:about="http://examples.org/ComponentDefinition/sb8b00280_3_comp/BBa_B0015_comp_1/1">
-        <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00280_3_comp/BBa_B0015_comp_1"/>
-        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
-        <sbol:definition rdf:resource="https://synbioks.org/public/Ecoflex/BBa_B0015/1"/>
-        <sbol:displayId>BBa_B0015_comp_1</sbol:displayId>
-        <sbol:version>1</sbol:version>
-        <ns0:title>BBa_B0015</ns0:title>
-      </sbol:Component>
-    </sbol:component>
-    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb8b00280_3_sequence/1"/>
-    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
-    <sbol:version>1</sbol:version>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb8b00280_6_sequence/1"/>
   </sbol:ComponentDefinition>
-  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb8b00280_2_sequence/1">
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb8b00280_11_sequence/1">
     <sbol:version>1</sbol:version>
-    <sbol:displayId>sb8b00280_2_sequence</sbol:displayId>
-    <sbol:elements>ctgacgggtagcctttagtccatgtactgtttctccatacccgtttttttgggaattcaaaagatcttttaagaaggagatatacatatggcgagtagcgaagacgttatcaaagagttcatgcgtttcaaagttcgtatggaaggttccgttaacggtcacgagttcgaaatcgaaggtgaaggtgaaggtcgtccgtacgaaggtacccagaccgctaaactgaaagttaccaaaggtggtccgctgccgttcgcttgggacatcctgtccccgcagttccagtacggttccaaagcttacgttaaacacccggctgacatcccggactacctgaaactgtccttcccggaaggtttcaaatgggaacgtgttatgaacttcgaagacggtggtgttgttaccgttacccaggactcctccctgcaagacggtgagttcatctacaaagttaaactgcgtggtaccaacttcccgtccgacggtccggttatgcagaaaaaaaccatgggttgggaagcttccaccgaacgtatgtacccggaagacggtgctctgaaaggtgaaatcaaaatgcgtctgaaactgaaagacggtggtcactacgacgctgaagttaaaaccacctacatggctaaaaaaccggttcagctgccgggtgcttacaaaaccgacatcaaactggacatcacctcccacaacgaagactacaccatcgttgaacagtacgaacgtgctgaaggtcgtcactccaccggtgcttaaggatccaaactcgagtaaggatctccaggcatcaaataaaacgaaaggctcagtcgaaagactgggcctttcgttttatctgttgtttgtcggtgaacgctctctactagagtcacactggctcaccttcgggtgggcctttctgcgtttata</sbol:elements>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb8b00280_11_sequence"/>
+    <sbol:displayId>sb8b00280_11_sequence</sbol:displayId>
     <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
-    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb8b00280_2_sequence"/>
+    <sbol:elements>ctgacgggtagcctttagtccatgtactgtttctccatacccgtttttttgggaattcaaaagatctgacagctagcattgtaccaagttttagagctagaaatagcaagttaaaataaggctagtccgttatcaacttgaaaaagtggcaccgagtcggtgctttttttgaagcttgggcccgaacaaaaactcatctcagaagaggatctgaatagcgccgtcgactgagtttaaacggtctccagcttggctgttttggcggatgagagaagattttcagcctgatacagattaaatcagaacgcagaagcggtctgataaaacagaatttgcctggcggcagtagcgcggtggtcccacctgaccccatgccgaactcagaagtgaaacgccgtagcgccgatggtagtgtggggtctccccatgcgagagtagggaactgccaggcatcaaataaaacgaaaggctcagtcgaaagactgggccttcaagctaattaccctgttatccctatgatgactgaagcttgcatgactgaatttcctcttgtcaggccggaataactccctataatgcgcctagagaaagaggagaaatactagatgttggatatgggacaagatcggccgatcgatggaagtggggcacccggggcagacgacacacgcgttgaggtgcaaccgccggcgcagtgggtcctcgacctgatcgaggccagcccgatcgcatcggtcgtgtccgatccgcgtctcgccgacaatccgctgatcgccatcaaccaggccttcaccgacctgaccggctattccgaagaagaatgcgtcggccgcaattgccgattcctggcaggttccggcaccgagccgtggctgaccgacaagatccgccaaggcgtgcgcgagcacaagccggtgctggtcgagatcctgaactacaagaaggacggcacgccgttccgcaatgccgtgctcgttgcaccgatctacgatgacgacgacgagcttctctatttcctcggcagccaggtcgaagtcgacgacgaccagcccaacatgggcatggcgcgccgcgaacgcgccgcggaaatgctcaagacgctgtcgccgcgccagctcgaggttacgacgctggtggcatcgggcttgcgcaacaaggaagtggcggcccggctcggcctgtcggagaaaaccgtcaagatgcaccgcgggctggtgatggaaaagctcaacctgaagaccagcgccgatctggtgcgcattgccgtcgaagccggaatctaaggatccaaactcgagtaaggatctccaggcatcaaataaaacgaaaggctcagtcgaaagactgggcctttcgttttatctgttgtttgtcggtgaacgctctctactagagtcacactggctcaccttcgggtgggcctttctgcgtttata</sbol:elements>
   </sbol:Sequence>
-  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb8b00280_10_sequence/1">
-    <sbol:displayId>sb8b00280_10_sequence</sbol:displayId>
-    <sbol:elements>ttatagctagctcagcccttggtacaatgctagctgtctagagaaagaggagaaatactagatgcgtaaaggagaagaacttttcactggagttgtcccaattcttgttgaattagatggtgatgttaatgggcacaaattttctgtcagtggagagggtgaaggtgatgcaacatacggaaaacttacccttaaatttatttgcactactggaaaactacctgttccatggccaacacttgtcactactttcggttatggtgttcaatgctttgcgagatacccagatcatatgaaacagcatgactttttcaagagtgccatgcccgaaggttatgtacaggaaagaactatatttttcaaagatgacgggaactacaagacacgtgctgaagtcaagtttgaaggtgatacccttgttaatagaatcgagttaaaaggtattgattttaaagaagatggaaacattcttggacacaaattggaatacaactataactcacacaatgtatacatcatggcagacaaacaaaagaatggaatcaaagttaacttcaaaattagacacaacattgaagatggaagcgttcaactagcagaccattatcaacaaaatactccaattggcgatggccctgtccttttaccagacaaccattacctgtccacacaatctgccctttcgaaagatcccaacgaaaagagagaccacatggtccttcttgagtttgtaacagctgctgggattacacatggcatggatgaactatacaaataataaaggatccaaactcgagtaaggatctccaggcatcaaataaaacgaaaggctcagtcgaaagactgggcctttcgttttatctgttgtttgtcggtgaacgctctctactagagtcacactggctcaccttcgggtgggcctttctgcgtttata</sbol:elements>
-    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
-    <sbol:version>1</sbol:version>
-    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb8b00280_10_sequence"/>
-  </sbol:Sequence>
-  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb8b00280_11_comp/1">
-    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb8b00280_11_sequence/1"/>
-    <sbol:sequenceAnnotation>
-      <sbol:SequenceAnnotation rdf:about="http://examples.org/ComponentDefinition/sb8b00280_11_comp/B0015_anno_1/1">
-        <ns0:title>B0015</ns0:title>
-        <sbol:displayId>B0015_anno_1</sbol:displayId>
-        <sbol:location>
-          <sbol:Range rdf:about="http://examples.org/ComponentDefinition/sb8b00280_11_comp/B0015_anno_1/B0015_anno_1_loc/1">
-            <sbol:start>1308</sbol:start>
-            <sbol:displayId>B0015_anno_1_loc</sbol:displayId>
-            <sbol:end>1436</sbol:end>
-            <sbol:version>1</sbol:version>
-            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
-            <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00280_11_comp/B0015_anno_1/B0015_anno_1_loc"/>
-          </sbol:Range>
-        </sbol:location>
-        <ns0:description>Double terminator, rrnBT1-T7TE</ns0:description>
-        <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00280_11_comp/B0015_anno_1"/>
-        <sbol:component rdf:resource="http://examples.org/ComponentDefinition/sb8b00280_11_comp/B0015_comp_1/1"/>
-        <sbol:version>1</sbol:version>
-      </sbol:SequenceAnnotation>
-    </sbol:sequenceAnnotation>
-    <ns1:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.8b00280"/>
-    <sbol:component>
-      <sbol:Component rdf:about="http://examples.org/ComponentDefinition/sb8b00280_11_comp/Bba_B0015_comp_1/1">
-        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
-        <ns0:title>Bba_B0015</ns0:title>
-        <sbol:version>1</sbol:version>
-        <sbol:displayId>Bba_B0015_comp_1</sbol:displayId>
-        <sbol:definition rdf:resource="https://synbioks.org/public/YTK/Bba_B0015/1"/>
-        <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00280_11_comp/Bba_B0015_comp_1"/>
-      </sbol:Component>
-    </sbol:component>
-    <sbol:sequenceAnnotation>
-      <sbol:SequenceAnnotation rdf:about="http://examples.org/ComponentDefinition/sb8b00280_11_comp/BBa_B0015_anno_1/1">
-        <sbol:displayId>BBa_B0015_anno_1</sbol:displayId>
-        <ns0:title>BBa_B0015</ns0:title>
-        <sbol:version>1</sbol:version>
-        <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00280_11_comp/BBa_B0015_anno_1"/>
-        <sbol:component rdf:resource="http://examples.org/ComponentDefinition/sb8b00280_11_comp/BBa_B0015_comp_1/1"/>
-        <ns0:description>Very commonly used terminator</ns0:description>
-        <sbol:location>
-          <sbol:Range rdf:about="http://examples.org/ComponentDefinition/sb8b00280_11_comp/BBa_B0015_anno_1/BBa_B0015_anno_1_loc/1">
-            <sbol:end>1436</sbol:end>
-            <sbol:version>1</sbol:version>
-            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
-            <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00280_11_comp/BBa_B0015_anno_1/BBa_B0015_anno_1_loc"/>
-            <sbol:displayId>BBa_B0015_anno_1_loc</sbol:displayId>
-            <sbol:start>1308</sbol:start>
-          </sbol:Range>
-        </sbol:location>
-      </sbol:SequenceAnnotation>
-    </sbol:sequenceAnnotation>
-    <ns1:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
-    <sbol:displayId>sb8b00280_11_comp</sbol:displayId>
-    <sbol:component>
-      <sbol:Component rdf:about="http://examples.org/ComponentDefinition/sb8b00280_11_comp/B0015_comp_1/1">
-        <sbol:version>1</sbol:version>
-        <sbol:definition rdf:resource="https://synbioks.org/public/CIDARToolkitKWK/B0015/1"/>
-        <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00280_11_comp/B0015_comp_1"/>
-        <ns0:title>B0015</ns0:title>
-        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
-        <sbol:displayId>B0015_comp_1</sbol:displayId>
-      </sbol:Component>
-    </sbol:component>
-    <sbol:version>1</sbol:version>
-    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00280_11_comp"/>
-    <sbol:sequenceAnnotation>
-      <sbol:SequenceAnnotation rdf:about="http://examples.org/ComponentDefinition/sb8b00280_11_comp/Bba_B0015_anno_1/1">
-        <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00280_11_comp/Bba_B0015_anno_1"/>
-        <sbol:component rdf:resource="http://examples.org/ComponentDefinition/sb8b00280_11_comp/Bba_B0015_comp_1/1"/>
-        <sbol:location>
-          <sbol:Range rdf:about="http://examples.org/ComponentDefinition/sb8b00280_11_comp/Bba_B0015_anno_1/Bba_B0015_anno_1_loc/1">
-            <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00280_11_comp/Bba_B0015_anno_1/Bba_B0015_anno_1_loc"/>
-            <sbol:end>1436</sbol:end>
-            <sbol:displayId>Bba_B0015_anno_1_loc</sbol:displayId>
-            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
-            <sbol:start>1308</sbol:start>
-            <sbol:version>1</sbol:version>
-          </sbol:Range>
-        </sbol:location>
-        <sbol:displayId>Bba_B0015_anno_1</sbol:displayId>
-        <ns0:title>Bba_B0015</ns0:title>
-        <sbol:version>1</sbol:version>
-      </sbol:SequenceAnnotation>
-    </sbol:sequenceAnnotation>
-    <sbol:component>
-      <sbol:Component rdf:about="http://examples.org/ComponentDefinition/sb8b00280_11_comp/BBa_B0015_comp_1/1">
-        <sbol:definition rdf:resource="https://synbioks.org/public/Ecoflex/BBa_B0015/1"/>
-        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
-        <sbol:displayId>BBa_B0015_comp_1</sbol:displayId>
-        <sbol:version>1</sbol:version>
-        <ns0:title>BBa_B0015</ns0:title>
-        <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00280_11_comp/BBa_B0015_comp_1"/>
-      </sbol:Component>
-    </sbol:component>
-    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
-  </sbol:ComponentDefinition>
 </rdf:RDF>

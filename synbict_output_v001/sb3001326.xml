@@ -1,0 +1,153 @@
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:sbol="http://sbols.org/v2#" xmlns:ns0="http://www.w3.org/ns/prov#" xmlns:ns1="http://purl.obolibrary.org/obo/" xmlns:ns2="http://purl.org/dc/terms/" xmlns:ns3="http://purl.org/dc/elements/1.1/" xmlns:ns4="http://wiki.synbiohub.org/wiki/Terms/synbiohub#">
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb3001326_6_comp/1">
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/sb3001326"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb3001326_6_comp"/>
+    <sbol:version>1</sbol:version>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb3001326_6_sequence/1"/>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbol:displayId>sb3001326_6_comp</sbol:displayId>
+  </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb3001326_5_sequence/1">
+    <sbol:version>1</sbol:version>
+    <sbol:elements>ccgattcccatatgagcgagctgattacggagaatatgcacatgaaactgtacatggaaggcaccgtcaataaccatcacttcaagtgcacatccgaaggtgaaggcaagccgtatgagggtacgcaaaccatgcgcattaaggt</sbol:elements>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb3001326_5_sequence"/>
+    <sbol:displayId>sb3001326_5_sequence</sbol:displayId>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb3001326_4_sequence/1">
+    <sbol:displayId>sb3001326_4_sequence</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb3001326_4_sequence"/>
+    <sbol:elements>gggcgtctactatgtggatcgccgtctggaacgcatcaaagaggcggacaaagagacctatgtcgagcagcatgaggttgctgtggcgcgttactgtgatctccctagcaaactggggcacaaacttaattaaggtggcacccgcagatgatacacctagcggcagaccttgcgtagtttctccgcctgtttctctggatacagctcgtcgtactccaacgacaccgcgcaatgacactagagggatcgtttgaccccgtgtttgaattatcgccaccgtcggta</sbol:elements>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+  </sbol:Sequence>
+  <sbol:Collection rdf:about="http://examples.org/Collection/sb3001326/1">
+    <sbol:member rdf:resource="http://examples.org/Sequence/sb3001326_1_sequence/1"/>
+    <sbol:displayId>sb3001326</sbol:displayId>
+    <ns1:OBI_0002110>10.1021/sb3001326</ns1:OBI_0002110>
+    <ns2:created>2013-02-06</ns2:created>
+    <ns2:isPartOf rdf:resource="http://pubs.acs.org/journal/asbcd6"/>
+    <sbol:member rdf:resource="http://examples.org/Sequence/sb3001326_7_sequence/1"/>
+    <sbol:member rdf:resource="http://examples.org/Sequence/sb3001326_3_sequence/1"/>
+    <ns2:rightsHolder>American Chemical Society</ns2:rightsHolder>
+    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb3001326_2_comp/1"/>
+    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb3001326_1_comp/1"/>
+    <sbol:member rdf:resource="http://examples.org/Sequence/sb3001326_5_sequence/1"/>
+    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb3001326_3_comp/1"/>
+    <sbol:version>1</sbol:version>
+    <ns3:type>research-article</ns3:type>
+    <ns3:publisher>American Chemical
+Society</ns3:publisher>
+    <ns2:dateCopyrighted>2013</ns2:dateCopyrighted>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Collection/sb3001326"/>
+    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb3001326_5_comp/1"/>
+    <ns4:topLevel rdf:resource="https://synbioks.org/public/ACS/sb3001326/1"/>
+    <ns2:description>Although some strategies have been reported for the elimination of stop and redundant codons during the chemical synthesis of degenerate oligonucleotides, incorporating an expensive cocktail of 20 trimer-phosphoramidites is currently a commonly employed and straightforward approach. As an alternative option, we describe here a cheaper strategy based on standard monomer-phosphoramidites and a simplified resin-splitting procedure. The accurate division of the resin, containing the growing oligonucleotide, into four columns represents the key step in this approach. The synthesis of the degenerate codon NDT in column 1, loaded with 60% of the resin, produces 12 codons, while a degenerate codon VMA in column 2, loaded with 30% of the resin, produces 6 codons. Codons ATG and TGG, independently synthesized in columns 3 and 4, respectively, and loaded with 5% each, completes the 20 different codons. The experimental frequency of each mutant codon in the library was assessed by randomizing 12 contiguous codons that encode for amino acids located in the chromophore region of the enhanced red fluorescent protein mKate-S158A. Furthermore, randomization of three contiguous codons that encode for the amino acids Phe62, Met63, and Tyr64, which are equivalent to Phe64, Ser65, and Tyr66 in GFP, gave rise to some red and golden yellow fluorescent mutants displaying interesting phenotypes and spectroscopic properties. The absorption and emission spectra of two of these mutants also suggested that the complete maturation of the red and golden yellow chromophores in mKate proceeds via the formation of a green-type chromophore and a cyan-type chromophore, respectively.</ns2:description>
+    <ns3:creator>Paul Gayta&#769;n</ns3:creator>
+    <ns3:subject>random mutagenesis</ns3:subject>
+    <sbol:member rdf:resource="http://examples.org/Sequence/sb3001326_4_sequence/1"/>
+    <ns3:rights>Copyright &#169; 2013 American Chemical Society</ns3:rights>
+    <ns1:OBI_0001617>23654278</ns1:OBI_0001617>
+    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb3001326_6_comp/1"/>
+    <ns2:references>Zon, G., Gallo, K.-A., Samson, C.-J., Shao, K.-L., Summers, M.-F., Byrd, R.-A. Analytical studies of &#8216;mixed sequence&#8217; oligodeoxyribonucleotides synthesized by competitive coupling of either methyl- or beta-cyanoethyl-N,N-diisopropylamino phosphoramidite reagents, including 2&#8242;-deoxyinosine Nucleic Acids Res. 1985. 13:8181-8196.</ns2:references>
+    <sbol:member rdf:resource="http://examples.org/Sequence/sb3001326_2_sequence/1"/>
+    <ns4:ownedBy rdf:resource="https://synbioks.org/user/myers"/>
+    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb3001326_4_comp/1"/>
+    <sbol:member rdf:resource="http://examples.org/Sequence/sb3001326_6_sequence/1"/>
+    <ns2:dateSubmitted>2012-12-11</ns2:dateSubmitted>
+    <ns2:type rdf:resource="http://purl.org/dc/dcmitype/Text"/>
+    <ns2:abstract>Although some strategies have been reported for the elimination of stop and redundant codons during the chemical synthesis of degenerate oligonucleotides, incorporating an expensive cocktail of 20 trimer-phosphoramidites is currently a commonly employed and straightforward approach. As an alternative option, we describe here a cheaper strategy based on standard monomer-phosphoramidites and a simplified resin-splitting procedure. The accurate division of the resin, containing the growing oligonucleotide, into four columns represents the key step in this approach. The synthesis of the degenerate codon NDT in column 1, loaded with 60% of the resin, produces 12 codons, while a degenerate codon VMA in column 2, loaded with 30% of the resin, produces 6 codons. Codons ATG and TGG, independently synthesized in columns 3 and 4, respectively, and loaded with 5% each, completes the 20 different codons. The experimental frequency of each mutant codon in the library was assessed by randomizing 12 contiguous codons that encode for amino acids located in the chromophore region of the enhanced red fluorescent protein mKate-S158A. Furthermore, randomization of three contiguous codons that encode for the amino acids Phe62, Met63, and Tyr64, which are equivalent to Phe64, Ser65, and Tyr66 in GFP, gave rise to some red and golden yellow fluorescent mutants displaying interesting phenotypes and spectroscopic properties. The absorption and emission spectra of two of these mutants also suggested that the complete maturation of the red and golden yellow chromophores in mKate proceeds via the formation of a green-type chromophore and a cyan-type chromophore, respectively.</ns2:abstract>
+    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb3001326_7_comp/1"/>
+    <ns2:dateAccepted>2013-02-06</ns2:dateAccepted>
+  </sbol:Collection>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb3001326_1_sequence/1">
+    <sbol:elements>cgtcgaaggtggccctttgccctttgccttcgacatcctggctaccagttttatgtatggcagcaaaacgttcattaatcatacccagggcatccccgacttctttaagcaaagctttcctgaaggcttcacatgggagcgggttgcagcttccaccgggaaacgggaaacggaagctgtaggaccgatggtcaaaatacataccgtcgttttgcaagtaattagtatgggtcccgtaggggctgaagaaattcgtttcgaaaggacttccgaagtgtaccctcgcccaa</sbol:elements>
+    <sbol:displayId>sb3001326_1_sequence</sbol:displayId>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:version>1</sbol:version>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb3001326_1_sequence"/>
+  </sbol:Sequence>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb3001326_1_comp/1">
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/sb3001326"/>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbol:version>1</sbol:version>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb3001326_1_sequence/1"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb3001326_1_comp"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:displayId>sb3001326_1_comp</sbol:displayId>
+  </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb3001326_3_sequence/1">
+    <sbol:elements>cctccacggagatgctgtacccggctgatggtggcctggaaggtcgtgcggacatggccctgaaactcgtgggtgggggtcacctgatctgcaacttgaagacgacatatcgttccaagaaaccggcgaagaacctcaagatgccggaggtgcctctacgacatgggccgactaccaccggaccttccagcacgcctgtaccgggactttgagcacccacccccagtggactagacgttgaacttctgctgtatagcaaggttctttggccgcttcttggagttctacgg</sbol:elements>
+    <sbol:displayId>sb3001326_3_sequence</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb3001326_3_sequence"/>
+  </sbol:Sequence>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb3001326_2_comp/1">
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbol:version>1</sbol:version>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb3001326_2_comp"/>
+    <sbol:displayId>sb3001326_2_comp</sbol:displayId>
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/sb3001326"/>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb3001326_2_sequence/1"/>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb3001326_3_comp/1">
+    <sbol:version>1</sbol:version>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:displayId>sb3001326_3_comp</sbol:displayId>
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/sb3001326"/>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb3001326_3_sequence/1"/>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb3001326_3_comp"/>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb3001326_5_comp/1">
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb3001326_5_sequence/1"/>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb3001326_5_comp"/>
+    <sbol:displayId>sb3001326_5_comp</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/sb3001326"/>
+  </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb3001326_6_sequence/1">
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb3001326_6_sequence"/>
+    <sbol:version>1</sbol:version>
+    <sbol:elements>tcttatacgtgtactttgacatgtaccttccgtggcagttattggtagtgaagttcacgtgtaggcttccacttccgttcggcatactcccatgcgtttggtacgcgtaattcca</sbol:elements>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:displayId>sb3001326_6_sequence</sbol:displayId>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb3001326_7_sequence/1">
+    <sbol:version>1</sbol:version>
+    <sbol:elements>gtggtagtggtagtgattgagctcttgttcg</sbol:elements>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb3001326_7_sequence"/>
+    <sbol:displayId>sb3001326_7_sequence</sbol:displayId>
+  </sbol:Sequence>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb3001326_7_comp/1">
+    <sbol:displayId>sb3001326_7_comp</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb3001326_7_sequence/1"/>
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/sb3001326"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb3001326_7_comp"/>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+  </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb3001326_2_sequence/1">
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb3001326_2_sequence"/>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:displayId>sb3001326_2_sequence</sbol:displayId>
+    <sbol:elements>acgacatacgaagatgggggcgtgctgaccgcgacccaagacaccagtctccaggatggttgtctgatttataatgtcaagattcgcggggtcaactttccaagcaatggtccagtgatgcagaagaaaacactcggctgggaagtgctgtatgcttctacccccgcacgactggcgctgggttctgtggtcagaggtcctaccaacagactaaatattacagttctaagcgccccagttgaaaggttcgttaccaggtcactacgtcttcttttgtgagccgacccttc</sbol:elements>
+    <sbol:version>1</sbol:version>
+  </sbol:Sequence>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb3001326_4_comp/1">
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb3001326_4_comp"/>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb3001326_4_sequence/1"/>
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/sb3001326"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:displayId>sb3001326_4_comp</sbol:displayId>
+    <sbol:version>1</sbol:version>
+  </sbol:ComponentDefinition>
+</rdf:RDF>

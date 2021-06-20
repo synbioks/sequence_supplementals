@@ -1,96 +1,70 @@
-<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:sbol="http://sbols.org/v2#" xmlns:ns0="http://www.w3.org/ns/prov#" xmlns:ns1="http://purl.org/dc/terms/" xmlns:ns2="http://wiki.synbiohub.org/wiki/Terms/synbiohub#" xmlns:ns3="http://purl.org/dc/elements/1.1/" xmlns:ns4="http://purl.obolibrary.org/obo/">
-  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb500045w_4_sequence/1">
-    <sbol:displayId>sb500045w_4_sequence</sbol:displayId>
-    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb500045w_4_sequence"/>
-    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
-    <sbol:version>1</sbol:version>
-    <sbol:elements>ggtaccacgcagtttaacttaagatgtggaaacggaggatctagaagtgatcgagaattc</sbol:elements>
-  </sbol:Sequence>
-  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb500045w_2_sequence/1">
-    <sbol:version>1</sbol:version>
-    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
-    <sbol:displayId>sb500045w_2_sequence</sbol:displayId>
-    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb500045w_2_sequence"/>
-    <sbol:elements>ggtaccacgcagtttaacttaagcgggagcagcagtaaatctagaagtgatcgagaattc</sbol:elements>
-  </sbol:Sequence>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:sbh="https://wiki.synbiohub.org/wiki/Terms/synbiohub#" xmlns:sbol="http://sbols.org/v2#" xmlns:ns0="http://www.w3.org/ns/prov#">
   <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb500045w_1_comp/1">
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb500045w_1_sequence/1"/>
     <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb500045w_1_comp"/>
     <sbol:displayId>sb500045w_1_comp</sbol:displayId>
-    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbh:supplementalFile rdf:resource="sb500045w/suppl/sb-2014-00045w_si_001.pdf"/>
     <sbol:version>1</sbol:version>
     <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/sb500045w"/>
     <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
-    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb500045w_1_sequence/1"/>
-  </sbol:ComponentDefinition>
-  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb500045w_4_comp/1">
-    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb500045w_4_comp"/>
-    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb500045w_4_sequence/1"/>
     <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
-    <sbol:version>1</sbol:version>
-    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/sb500045w"/>
-    <sbol:displayId>sb500045w_4_comp</sbol:displayId>
-    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
   </sbol:ComponentDefinition>
   <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb500045w_2_comp/1">
-    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
-    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb500045w_2_sequence/1"/>
     <sbol:displayId>sb500045w_2_comp</sbol:displayId>
+    <sbh:supplementalFile rdf:resource="sb500045w/suppl/sb-2014-00045w_si_001.pdf"/>
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/sb500045w"/>
+    <sbol:version>1</sbol:version>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
     <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb500045w_2_sequence/1"/>
     <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb500045w_2_comp"/>
+  </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb500045w_2_sequence/1">
+    <sbol:version>1</sbol:version>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb500045w_2_sequence"/>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:displayId>sb500045w_2_sequence</sbol:displayId>
+    <sbol:elements>ggtaccacgcagtttaacttaagcgggagcagcagtaaatctagaagtgatcgagaattc</sbol:elements>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb500045w_4_sequence/1">
+    <sbol:version>1</sbol:version>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb500045w_4_sequence"/>
+    <sbol:elements>ggtaccacgcagtttaacttaagatgtggaaacggaggatctagaagtgatcgagaattc</sbol:elements>
+    <sbol:displayId>sb500045w_4_sequence</sbol:displayId>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+  </sbol:Sequence>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb500045w_3_comp/1">
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb500045w_3_sequence/1"/>
+    <sbh:supplementalFile rdf:resource="sb500045w/suppl/sb-2014-00045w_si_001.pdf"/>
     <sbol:version>1</sbol:version>
     <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/sb500045w"/>
-  </sbol:ComponentDefinition>
-  <sbol:Collection rdf:about="http://examples.org/Collection/sb500045w/1">
-    <sbol:member rdf:resource="http://examples.org/Sequence/sb500045w_3_sequence/1"/>
-    <ns1:type rdf:resource="http://purl.org/dc/dcmitype/Text"/>
-    <sbol:persistentIdentity rdf:resource="http://examples.org/Collection/sb500045w"/>
-    <sbol:member rdf:resource="http://examples.org/Sequence/sb500045w_2_sequence/1"/>
-    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb500045w_4_comp/1"/>
-    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb500045w_2_comp/1"/>
-    <sbol:version>1</sbol:version>
-    <ns2:topLevel rdf:resource="https://synbioks.org/public/ACS/sb500045w/1"/>
-    <ns3:rights>Copyright &#169; 2014 American Chemical Society</ns3:rights>
-    <ns1:references>Ruggiero, P., McMillen, T., Tang, Y. W., Babady, N. E. Evaluation of the BioFire FilmArray respiratory panel and the GenMark eSensor respiratory viral panel on lower respiratory tract specimens J. Clin. Microbiol. 2014. 52:1288-1290.</ns1:references>
-    <ns1:dateCopyrighted>2014</ns1:dateCopyrighted>
-    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb500045w_3_comp/1"/>
-    <ns1:description>Transcription activator-like effectors (TALEs), originating from the Xanthomonas genus of bacteria, bind to specific DNA sequences based on amino acid sequence in the repeat-variable diresidue (RVD) positions of the protein. By altering these RVDs, it has been shown that a TALE protein can be engineered to bind virtually any DNA sequence of interest. The possibility of multiplexing TALEs for the purposes of identifying specific DNA sequences has yet to be explored. Here, we demonstrate a system in which a TALE protein bound to a nitrocellulose strip has been utilized to capture purified DNA, which is then detected using the binding of a second distinct TALE protein conjugated to a protein tag that is then detected by a dot blot. This system provides a signal only when both TALEs bind to their respective sequences, further demonstrating the specificity of the TALE binding.</ns1:description>
-    <ns3:creator>Wm. Keith van der Meulen</ns3:creator>
-    <ns1:rightsHolder>American Chemical Society</ns1:rightsHolder>
-    <ns2:ownedBy rdf:resource="https://synbioks.org/user/myers"/>
-    <ns3:publisher>American Chemical
-Society</ns3:publisher>
-    <ns1:dateSubmitted>2014-01-17</ns1:dateSubmitted>
-    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb500045w_1_comp/1"/>
-    <sbol:member rdf:resource="http://examples.org/Sequence/sb500045w_4_sequence/1"/>
-    <ns3:type>review-article</ns3:type>
-    <ns4:OBI_0001617>25524096</ns4:OBI_0001617>
-    <sbol:displayId>sb500045w</sbol:displayId>
-    <ns4:OBI_0002110>10.1021/sb500045w</ns4:OBI_0002110>
-    <ns1:isPartOf rdf:resource="http://pubs.acs.org/journal/asbcd6"/>
-    <sbol:member rdf:resource="http://examples.org/Sequence/sb500045w_1_sequence/1"/>
-    <ns1:abstract>Transcription activator-like effectors (TALEs), originating from the Xanthomonas genus of bacteria, bind to specific DNA sequences based on amino acid sequence in the repeat-variable diresidue (RVD) positions of the protein. By altering these RVDs, it has been shown that a TALE protein can be engineered to bind virtually any DNA sequence of interest. The possibility of multiplexing TALEs for the purposes of identifying specific DNA sequences has yet to be explored. Here, we demonstrate a system in which a TALE protein bound to a nitrocellulose strip has been utilized to capture purified DNA, which is then detected using the binding of a second distinct TALE protein conjugated to a protein tag that is then detected by a dot blot. This system provides a signal only when both TALEs bind to their respective sequences, further demonstrating the specificity of the TALE binding.</ns1:abstract>
-  </sbol:Collection>
-  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb500045w_3_comp/1">
-    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
     <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
     <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb500045w_3_comp"/>
-    <sbol:version>1</sbol:version>
-    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb500045w_3_sequence/1"/>
-    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/sb500045w"/>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
     <sbol:displayId>sb500045w_3_comp</sbol:displayId>
   </sbol:ComponentDefinition>
-  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb500045w_1_sequence/1">
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb500045w_4_comp/1">
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
     <sbol:version>1</sbol:version>
-    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
-    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb500045w_1_sequence"/>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb500045w_4_sequence/1"/>
+    <sbol:displayId>sb500045w_4_comp</sbol:displayId>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb500045w_4_comp"/>
+    <sbh:supplementalFile rdf:resource="sb500045w/suppl/sb-2014-00045w_si_001.pdf"/>
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/sb500045w"/>
+  </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb500045w_1_sequence/1">
     <sbol:elements>gaattctcgatcacttctagatttactgctgctcccgcttaagttaaactgcgtggtacc</sbol:elements>
     <sbol:displayId>sb500045w_1_sequence</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb500045w_1_sequence"/>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
   </sbol:Sequence>
   <sbol:Sequence rdf:about="http://examples.org/Sequence/sb500045w_3_sequence/1">
     <sbol:version>1</sbol:version>
     <sbol:displayId>sb500045w_3_sequence</sbol:displayId>
-    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb500045w_3_sequence"/>
     <sbol:elements>gaattctcgatcacttctagatcctccgtttccacatcttaagttaaactgcgtggtacc</sbol:elements>
     <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb500045w_3_sequence"/>
   </sbol:Sequence>
 </rdf:RDF>

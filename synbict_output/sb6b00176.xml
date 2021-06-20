@@ -1,99 +1,70 @@
-<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:sbol="http://sbols.org/v2#" xmlns:ns0="http://purl.org/dc/elements/1.1/" xmlns:ns1="http://purl.org/dc/terms/" xmlns:ns2="http://wiki.synbiohub.org/wiki/Terms/synbiohub#" xmlns:ns3="http://www.w3.org/ns/prov#" xmlns:ns4="http://purl.obolibrary.org/obo/">
-  <sbol:Collection rdf:about="http://examples.org/Collection/sb6b00176/1">
-    <sbol:version>1</sbol:version>
-    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb6b00176_2_comp/1"/>
-    <ns0:rights>Copyright &#169; 2016 American Chemical Society</ns0:rights>
-    <ns1:isPartOf rdf:resource="http://pubs.acs.org/journal/asbcd6"/>
-    <sbol:persistentIdentity rdf:resource="http://examples.org/Collection/sb6b00176"/>
-    <ns1:type rdf:resource="http://purl.org/dc/dcmitype/Text"/>
-    <ns1:description>Type I modular polyketide synthases (PKSs) are polymerases that utilize acyl-CoAs as substrates. Each polyketide elongation reaction is catalyzed by a set of protein domains called a module. Each module usually contains an acyltransferase (AT) domain, which determines the specific acyl-CoA incorporated into each condensation reaction. Although a successful exchange of individual AT domains can lead to the biosynthesis of a large variety of novel compounds, hybrid PKS modules often show significantly decreased activities. Using monomodular PKSs as models, we have systematically analyzed the segments of AT domains and associated linkers in AT exchanges in vitro and have identified the boundaries within a module that can be used to exchange AT domains while maintaining protein stability and enzyme activity. Importantly, the optimized domain boundary is highly conserved, which facilitates AT domain replacements in most type I PKS modules. To further demonstrate the utility of the optimized AT domain boundary, we have constructed hybrid PKSs to produce industrially important short-chain ketones. Our in vitro and in vivo analysis demonstrated production of predicted ketones without significant loss of activities of the hybrid enzymes. These results greatly enhance the mechanistic understanding of PKS modules and prove the benefit of using engineered PKSs as a synthetic biology tool for chemical production.</ns1:description>
-    <sbol:displayId>sb6b00176</sbol:displayId>
-    <ns2:ownedBy rdf:resource="https://synbioks.org/user/myers"/>
-    <sbol:member rdf:resource="http://examples.org/Sequence/sb6b00176_2_sequence/1"/>
-    <sbol:member rdf:resource="http://examples.org/Sequence/sb6b00176_4_sequence/1"/>
-    <ns1:rightsHolder>American Chemical Society</ns1:rightsHolder>
-    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb6b00176_3_comp/1"/>
-    <ns1:references>Yuzawa, S., Kim, W., Katz, L., Keasling, J. D. Heterologous production of polyketides by modular type I polyketide synthases in Escherichia coli Curr. Opin. Biotechnol. 2012. 23:727-735.</ns1:references>
-    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb6b00176_4_comp/1"/>
-    <ns4:OBI_0001617>27548700</ns4:OBI_0001617>
-    <ns2:topLevel rdf:resource="https://synbioks.org/public/ACS/sb6b00176/1"/>
-    <ns1:abstract>Type I modular polyketide synthases (PKSs) are polymerases that utilize acyl-CoAs as substrates. Each polyketide elongation reaction is catalyzed by a set of protein domains called a module. Each module usually contains an acyltransferase (AT) domain, which determines the specific acyl-CoA incorporated into each condensation reaction. Although a successful exchange of individual AT domains can lead to the biosynthesis of a large variety of novel compounds, hybrid PKS modules often show significantly decreased activities. Using monomodular PKSs as models, we have systematically analyzed the segments of AT domains and associated linkers in AT exchanges in vitro and have identified the boundaries within a module that can be used to exchange AT domains while maintaining protein stability and enzyme activity. Importantly, the optimized domain boundary is highly conserved, which facilitates AT domain replacements in most type I PKS modules. To further demonstrate the utility of the optimized AT domain boundary, we have constructed hybrid PKSs to produce industrially important short-chain ketones. Our in vitro and in vivo analysis demonstrated production of predicted ketones without significant loss of activities of the hybrid enzymes. These results greatly enhance the mechanistic understanding of PKS modules and prove the benefit of using engineered PKSs as a synthetic biology tool for chemical production.</ns1:abstract>
-    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb6b00176_1_comp/1"/>
-    <ns1:dateCopyrighted>2016</ns1:dateCopyrighted>
-    <ns0:subject>synthetic biology tool</ns0:subject>
-    <ns4:OBI_0002110>10.1021/acssynbio.6b00176</ns4:OBI_0002110>
-    <sbol:member rdf:resource="http://examples.org/Sequence/sb6b00176_3_sequence/1"/>
-    <ns0:type>research-article</ns0:type>
-    <sbol:member rdf:resource="http://examples.org/Sequence/sb6b00176_1_sequence/1"/>
-    <ns1:created>2016-08-22</ns1:created>
-    <ns1:dateSubmitted>2016-06-23</ns1:dateSubmitted>
-    <ns1:dateAccepted>2016-08-22</ns1:dateAccepted>
-    <ns0:creator>Trent R. Northen</ns0:creator>
-    <ns0:publisher>American Chemical
-Society</ns0:publisher>
-  </sbol:Collection>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:sbh="https://wiki.synbiohub.org/wiki/Terms/synbiohub#" xmlns:sbol="http://sbols.org/v2#" xmlns:ns0="http://www.w3.org/ns/prov#">
   <sbol:Sequence rdf:about="http://examples.org/Sequence/sb6b00176_1_sequence/1">
-    <sbol:displayId>sb6b00176_1_sequence</sbol:displayId>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
     <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb6b00176_1_sequence"/>
+    <sbol:displayId>sb6b00176_1_sequence</sbol:displayId>
     <sbol:version>1</sbol:version>
     <sbol:elements>gattgta</sbol:elements>
-    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
   </sbol:Sequence>
-  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb6b00176_3_comp/1">
-    <sbol:displayId>sb6b00176_3_comp</sbol:displayId>
-    <ns3:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.6b00176"/>
-    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb6b00176_3_sequence/1"/>
-    <sbol:version>1</sbol:version>
-    <ns3:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
-    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb6b00176_3_comp"/>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb6b00176_4_comp/1">
+    <sbol:displayId>sb6b00176_4_comp</sbol:displayId>
     <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
-  </sbol:ComponentDefinition>
-  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb6b00176_1_comp/1">
-    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb6b00176_1_comp"/>
-    <ns3:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.6b00176"/>
-    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
-    <ns3:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
-    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb6b00176_1_sequence/1"/>
-    <sbol:displayId>sb6b00176_1_comp</sbol:displayId>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb6b00176_4_sequence/1"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb6b00176_4_comp"/>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbh:supplementalFile rdf:resource="sb6b00176/suppl/sb-2016-00176f_si_001.pdf"/>
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.6b00176"/>
     <sbol:version>1</sbol:version>
-  </sbol:ComponentDefinition>
-  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb6b00176_2_comp/1">
-    <ns3:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.6b00176"/>
-    <sbol:version>1</sbol:version>
-    <ns3:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
-    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb6b00176_2_comp"/>
-    <sbol:displayId>sb6b00176_2_comp</sbol:displayId>
-    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
-    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb6b00176_2_sequence/1"/>
   </sbol:ComponentDefinition>
   <sbol:Sequence rdf:about="http://examples.org/Sequence/sb6b00176_3_sequence/1">
     <sbol:displayId>sb6b00176_3_sequence</sbol:displayId>
-    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
-    <sbol:elements>gattgta</sbol:elements>
     <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb6b00176_3_sequence"/>
     <sbol:version>1</sbol:version>
+    <sbol:elements>gattgta</sbol:elements>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
   </sbol:Sequence>
   <sbol:Sequence rdf:about="http://examples.org/Sequence/sb6b00176_2_sequence/1">
-    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
-    <sbol:elements>gattgta</sbol:elements>
-    <sbol:displayId>sb6b00176_2_sequence</sbol:displayId>
     <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb6b00176_2_sequence"/>
+    <sbol:displayId>sb6b00176_2_sequence</sbol:displayId>
     <sbol:version>1</sbol:version>
+    <sbol:elements>gattgta</sbol:elements>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
   </sbol:Sequence>
-  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb6b00176_4_comp/1">
-    <ns3:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.6b00176"/>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb6b00176_2_comp/1">
+    <sbol:displayId>sb6b00176_2_comp</sbol:displayId>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb6b00176_2_sequence/1"/>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbh:supplementalFile rdf:resource="sb6b00176/suppl/sb-2016-00176f_si_001.pdf"/>
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.6b00176"/>
     <sbol:version>1</sbol:version>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb6b00176_2_comp"/>
     <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
-    <ns3:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
-    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb6b00176_4_sequence/1"/>
-    <sbol:displayId>sb6b00176_4_comp</sbol:displayId>
-    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb6b00176_4_comp"/>
   </sbol:ComponentDefinition>
   <sbol:Sequence rdf:about="http://examples.org/Sequence/sb6b00176_4_sequence/1">
     <sbol:displayId>sb6b00176_4_sequence</sbol:displayId>
-    <sbol:elements>gattgta</sbol:elements>
     <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
-    <sbol:version>1</sbol:version>
     <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb6b00176_4_sequence"/>
+    <sbol:version>1</sbol:version>
+    <sbol:elements>gattgta</sbol:elements>
   </sbol:Sequence>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb6b00176_3_comp/1">
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:displayId>sb6b00176_3_comp</sbol:displayId>
+    <sbh:supplementalFile rdf:resource="sb6b00176/suppl/sb-2016-00176f_si_001.pdf"/>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbol:version>1</sbol:version>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb6b00176_3_sequence/1"/>
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.6b00176"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb6b00176_3_comp"/>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb6b00176_1_comp/1">
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:displayId>sb6b00176_1_comp</sbol:displayId>
+    <sbh:supplementalFile rdf:resource="sb6b00176/suppl/sb-2016-00176f_si_001.pdf"/>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.6b00176"/>
+    <sbol:version>1</sbol:version>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb6b00176_1_comp"/>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb6b00176_1_sequence/1"/>
+  </sbol:ComponentDefinition>
 </rdf:RDF>

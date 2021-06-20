@@ -1,134 +1,104 @@
-<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:sbol="http://sbols.org/v2#" xmlns:ns0="http://purl.org/dc/terms/" xmlns:ns1="http://purl.org/dc/elements/1.1/" xmlns:ns2="http://www.w3.org/ns/prov#" xmlns:ns3="http://purl.obolibrary.org/obo/" xmlns:ns4="http://wiki.synbiohub.org/wiki/Terms/synbiohub#">
-  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb8b00279_6_comp/1">
-    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
-    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb8b00279_6_sequence/1"/>
-    <sbol:version>1</sbol:version>
-    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00279_6_comp"/>
-    <ns2:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
-    <ns2:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.8b00279"/>
-    <sbol:displayId>sb8b00279_6_comp</sbol:displayId>
-  </sbol:ComponentDefinition>
-  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb8b00279_1_sequence/1">
-    <sbol:elements>aattgaacttcaaggaatggcaaaaggctttcactgacgttatgggttaacgtacgctgcaggtcgac</sbol:elements>
-    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb8b00279_1_sequence"/>
-    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
-    <sbol:version>1</sbol:version>
-    <sbol:displayId>sb8b00279_1_sequence</sbol:displayId>
-  </sbol:Sequence>
-  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb8b00279_5_sequence/1">
-    <sbol:elements>cagacgtatacaaagatgctagcgctttaatagaaatccaagaaaagtgccgtacgctgcaggtcgac</sbol:elements>
-    <sbol:displayId>sb8b00279_5_sequence</sbol:displayId>
-    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
-    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb8b00279_5_sequence"/>
-    <sbol:version>1</sbol:version>
-  </sbol:Sequence>
-  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb8b00279_4_comp/1">
-    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
-    <sbol:version>1</sbol:version>
-    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb8b00279_4_sequence/1"/>
-    <ns2:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
-    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00279_4_comp"/>
-    <ns2:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.8b00279"/>
-    <sbol:displayId>sb8b00279_4_comp</sbol:displayId>
-  </sbol:ComponentDefinition>
-  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb8b00279_5_comp/1">
-    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00279_5_comp"/>
-    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
-    <sbol:displayId>sb8b00279_5_comp</sbol:displayId>
-    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb8b00279_5_sequence/1"/>
-    <sbol:version>1</sbol:version>
-    <ns2:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
-    <ns2:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.8b00279"/>
-  </sbol:ComponentDefinition>
-  <sbol:Collection rdf:about="http://examples.org/Collection/sb8b00279/1">
-    <ns0:type rdf:resource="http://purl.org/dc/dcmitype/Text"/>
-    <sbol:displayId>sb8b00279</sbol:displayId>
-    <ns0:rightsHolder>American Chemical Society</ns0:rightsHolder>
-    <ns0:dateAccepted>2018-10-12</ns0:dateAccepted>
-    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb8b00279_1_comp/1"/>
-    <ns1:publisher>American Chemical
-Society</ns1:publisher>
-    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb8b00279_5_comp/1"/>
-    <sbol:version>1</sbol:version>
-    <ns1:type>research-article</ns1:type>
-    <sbol:member rdf:resource="http://examples.org/Sequence/sb8b00279_4_sequence/1"/>
-    <ns0:dateCopyrighted>2018</ns0:dateCopyrighted>
-    <ns0:dateSubmitted>2018-06-29</ns0:dateSubmitted>
-    <ns0:description>Gene expression noise arises from stochastic variation in the synthesis and degradation of mRNA and protein molecules and creates differences in protein numbers across populations of genetically identical cells. Such variability can lead to imprecision and reduced performance of both native and synthetic networks. In principle, gene expression noise can be controlled through the rates of transcription, translation and degradation, such that different combinations of those rates lead to the same protein concentrations but at different noise levels. Here, we present a &#8220;noise tuner&#8221; which allows orthogonal control over the transcription and the mRNA degradation rates by two different inducer molecules. Combining experiments with theoretical analysis, we show that in this system the noise is largely determined by the transcription rate, whereas the mean expression is determined by both the transcription rate and mRNA stability and can thus be decoupled from the noise. This noise tuner enables 2-fold changes in gene expression noise over a 5-fold range of mean protein levels. We demonstrated the efficacy of the noise tuner in a complex regulatory network by varying gene expression noise in the mating pathway of Saccharomyces cerevisiae, which allowed us to control the output noise and the mutual information transduced through the pathway. The noise tuner thus represents an effective tool of gene expression noise control, both to interrogate noise sensitivity of natural networks and enhance performance of synthetic circuits.</ns0:description>
-    <ns0:isPartOf rdf:resource="http://pubs.acs.org/journal/asbcd6"/>
-    <ns3:OBI_0001617>30354070</ns3:OBI_0001617>
-    <sbol:member rdf:resource="http://examples.org/Sequence/sb8b00279_6_sequence/1"/>
-    <sbol:member rdf:resource="http://examples.org/Sequence/sb8b00279_2_sequence/1"/>
-    <ns0:references>Youk, H., Lim, W. A. Secreting and Sensing the Same Molecule Allows Cells to Achieve Versatile Social Behaviors Science 2014. 343.</ns0:references>
-    <sbol:member rdf:resource="http://examples.org/Sequence/sb8b00279_1_sequence/1"/>
-    <ns1:subject>yeast</ns1:subject>
-    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb8b00279_4_comp/1"/>
-    <sbol:member rdf:resource="http://examples.org/Sequence/sb8b00279_3_sequence/1"/>
-    <ns4:topLevel rdf:resource="https://synbioks.org/public/ACS/sb8b00279/1"/>
-    <ns0:abstract>Gene expression noise arises from stochastic variation in the synthesis and degradation of mRNA and protein molecules and creates differences in protein numbers across populations of genetically identical cells. Such variability can lead to imprecision and reduced performance of both native and synthetic networks. In principle, gene expression noise can be controlled through the rates of transcription, translation and degradation, such that different combinations of those rates lead to the same protein concentrations but at different noise levels. Here, we present a &#8220;noise tuner&#8221; which allows orthogonal control over the transcription and the mRNA degradation rates by two different inducer molecules. Combining experiments with theoretical analysis, we show that in this system the noise is largely determined by the transcription rate, whereas the mean expression is determined by both the transcription rate and mRNA stability and can thus be decoupled from the noise. This noise tuner enables 2-fold changes in gene expression noise over a 5-fold range of mean protein levels. We demonstrated the efficacy of the noise tuner in a complex regulatory network by varying gene expression noise in the mating pathway of Saccharomyces cerevisiae, which allowed us to control the output noise and the mutual information transduced through the pathway. The noise tuner thus represents an effective tool of gene expression noise control, both to interrogate noise sensitivity of natural networks and enhance performance of synthetic circuits.</ns0:abstract>
-    <ns1:creator>Victor Sourjik</ns1:creator>
-    <ns4:ownedBy rdf:resource="https://synbioks.org/user/myers"/>
-    <sbol:persistentIdentity rdf:resource="http://examples.org/Collection/sb8b00279"/>
-    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb8b00279_2_comp/1"/>
-    <ns0:created>2018-10-12</ns0:created>
-    <sbol:member rdf:resource="http://examples.org/Sequence/sb8b00279_5_sequence/1"/>
-    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb8b00279_3_comp/1"/>
-    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb8b00279_6_comp/1"/>
-    <ns3:OBI_0002110>10.1021/acssynbio.8b00279</ns3:OBI_0002110>
-  </sbol:Collection>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:sbh="https://wiki.synbiohub.org/wiki/Terms/synbiohub#" xmlns:sbol="http://sbols.org/v2#" xmlns:ns0="http://www.w3.org/ns/prov#">
   <sbol:Sequence rdf:about="http://examples.org/Sequence/sb8b00279_2_sequence/1">
-    <sbol:displayId>sb8b00279_2_sequence</sbol:displayId>
-    <sbol:elements>atatacacatgtatatatatcgtatgctgcagctttaaataatcggtgtcatcgatgaattcgagctcg</sbol:elements>
-    <sbol:version>1</sbol:version>
     <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb8b00279_2_sequence"/>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:version>1</sbol:version>
+    <sbol:elements>atatacacatgtatatatatcgtatgctgcagctttaaataatcggtgtcatcgatgaattcgagctcg</sbol:elements>
+    <sbol:displayId>sb8b00279_2_sequence</sbol:displayId>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb8b00279_3_sequence/1">
+    <sbol:elements>ctgaggcgttataggttcaatttggtaattaaagatagagttgtaagatgcgtacgctgcaggtcgac</sbol:elements>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb8b00279_3_sequence"/>
+    <sbol:displayId>sb8b00279_3_sequence</sbol:displayId>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:version>1</sbol:version>
+  </sbol:Sequence>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb8b00279_5_comp/1">
+    <sbol:displayId>sb8b00279_5_comp</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.8b00279"/>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb8b00279_5_sequence/1"/>
+    <sbh:supplementalFile rdf:resource="sb8b00279/suppl/sb-2018-00279n_si_001.pdf"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00279_5_comp"/>
+  </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb8b00279_6_sequence/1">
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:version>1</sbol:version>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb8b00279_6_sequence"/>
+    <sbol:elements>actgtttgtgcaattgtacctgaagatgagtaagactctcaatgaaattaatcgatgaattcgagctcg</sbol:elements>
+    <sbol:displayId>sb8b00279_6_sequence</sbol:displayId>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb8b00279_4_sequence/1">
+    <sbol:displayId>sb8b00279_4_sequence</sbol:displayId>
+    <sbol:elements>ctgctgaaatttttggaagataattcatgcaacgtcctatttttatccaccatcgatgaattctctgtcg</sbol:elements>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb8b00279_4_sequence"/>
+    <sbol:version>1</sbol:version>
     <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
   </sbol:Sequence>
   <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb8b00279_1_comp/1">
+    <sbol:version>1</sbol:version>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
     <sbol:sequence rdf:resource="http://examples.org/Sequence/sb8b00279_1_sequence/1"/>
-    <ns2:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
-    <sbol:version>1</sbol:version>
-    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
-    <sbol:displayId>sb8b00279_1_comp</sbol:displayId>
+    <sbh:supplementalFile rdf:resource="sb8b00279/suppl/sb-2018-00279n_si_001.pdf"/>
     <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00279_1_comp"/>
-    <ns2:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.8b00279"/>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbol:displayId>sb8b00279_1_comp</sbol:displayId>
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.8b00279"/>
   </sbol:ComponentDefinition>
-  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb8b00279_2_comp/1">
-    <sbol:displayId>sb8b00279_2_comp</sbol:displayId>
-    <ns2:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.8b00279"/>
-    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00279_2_comp"/>
-    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb8b00279_2_sequence/1"/>
-    <ns2:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb8b00279_4_comp/1">
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.8b00279"/>
     <sbol:version>1</sbol:version>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00279_4_comp"/>
+    <sbh:supplementalFile rdf:resource="sb8b00279/suppl/sb-2018-00279n_si_001.pdf"/>
     <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbol:displayId>sb8b00279_4_comp</sbol:displayId>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb8b00279_4_sequence/1"/>
   </sbol:ComponentDefinition>
-  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb8b00279_6_sequence/1">
-    <sbol:displayId>sb8b00279_6_sequence</sbol:displayId>
-    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb8b00279_6_comp/1">
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00279_6_comp"/>
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.8b00279"/>
+    <sbh:supplementalFile rdf:resource="sb8b00279/suppl/sb-2018-00279n_si_001.pdf"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:displayId>sb8b00279_6_comp</sbol:displayId>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb8b00279_6_sequence/1"/>
     <sbol:version>1</sbol:version>
-    <sbol:elements>actgtttgtgcaattgtacctgaagatgagtaagactctcaatgaaattaatcgatgaattcgagctcg</sbol:elements>
-    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb8b00279_6_sequence"/>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+  </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb8b00279_5_sequence/1">
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb8b00279_5_sequence"/>
+    <sbol:version>1</sbol:version>
+    <sbol:elements>cagacgtatacaaagatgctagcgctttaatagaaatccaagaaaagtgccgtacgctgcaggtcgac</sbol:elements>
+    <sbol:displayId>sb8b00279_5_sequence</sbol:displayId>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
   </sbol:Sequence>
-  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb8b00279_4_sequence/1">
-    <sbol:elements>ctgctgaaatttttggaagataattcatgcaacgtcctatttttatccaccatcgatgaattctctgtcg</sbol:elements>
-    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb8b00279_4_sequence"/>
-    <sbol:displayId>sb8b00279_4_sequence</sbol:displayId>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb8b00279_1_sequence/1">
     <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
     <sbol:version>1</sbol:version>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb8b00279_1_sequence"/>
+    <sbol:displayId>sb8b00279_1_sequence</sbol:displayId>
+    <sbol:elements>aattgaacttcaaggaatggcaaaaggctttcactgacgttatgggttaacgtacgctgcaggtcgac</sbol:elements>
   </sbol:Sequence>
   <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb8b00279_3_comp/1">
-    <sbol:displayId>sb8b00279_3_comp</sbol:displayId>
-    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00279_3_comp"/>
-    <ns2:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
-    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
-    <ns2:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.8b00279"/>
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.8b00279"/>
     <sbol:sequence rdf:resource="http://examples.org/Sequence/sb8b00279_3_sequence/1"/>
     <sbol:version>1</sbol:version>
+    <sbh:supplementalFile rdf:resource="sb8b00279/suppl/sb-2018-00279n_si_001.pdf"/>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbol:displayId>sb8b00279_3_comp</sbol:displayId>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00279_3_comp"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
   </sbol:ComponentDefinition>
-  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb8b00279_3_sequence/1">
-    <sbol:elements>ctgaggcgttataggttcaatttggtaattaaagatagagttgtaagatgcgtacgctgcaggtcgac</sbol:elements>
-    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb8b00279_2_comp/1">
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:displayId>sb8b00279_2_comp</sbol:displayId>
     <sbol:version>1</sbol:version>
-    <sbol:displayId>sb8b00279_3_sequence</sbol:displayId>
-    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb8b00279_3_sequence"/>
-  </sbol:Sequence>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00279_2_comp"/>
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.8b00279"/>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb8b00279_2_sequence/1"/>
+    <sbh:supplementalFile rdf:resource="sb8b00279/suppl/sb-2018-00279n_si_001.pdf"/>
+  </sbol:ComponentDefinition>
 </rdf:RDF>

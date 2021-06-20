@@ -1,64 +1,36 @@
-<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:sbol="http://sbols.org/v2#" xmlns:ns0="http://purl.org/dc/terms/" xmlns:ns1="http://www.w3.org/ns/prov#" xmlns:ns2="http://purl.org/dc/elements/1.1/" xmlns:ns3="http://purl.obolibrary.org/obo/" xmlns:ns4="http://wiki.synbiohub.org/wiki/Terms/synbiohub#">
-  <sbol:Collection rdf:about="http://examples.org/Collection/sb9b00258/1">
-    <sbol:persistentIdentity rdf:resource="http://examples.org/Collection/sb9b00258"/>
-    <sbol:displayId>sb9b00258</sbol:displayId>
-    <ns0:references>van
-Dijken, J. P., Bauer, J., Brambilla, L., Duboc, P., Francois, J. M., Gancedo, C., Giuseppin, M. L. F., Heijnen, J. J., Hoare, M., Lange, H. C. An Interlaboratory Comparison of Physiological and Genetic Properties of Four Saccharomyces Cerevisiae Strains Enzyme Microb. Technol. 2000. 26:706-714.</ns0:references>
-    <ns0:description>Engineering Saccharomyces cerevisiae for industrial-scale production of valuable chemicals involves extensive modulation of its metabolism. Here, we identified novel gene expression fine-tuning set-ups to enhance endogenous metabolic fluxes toward increasing levels of acetyl-CoA and malonyl-CoA. dCas9-based transcriptional regulation was combined together with a malonyl-CoA responsive intracellular biosensor to select for beneficial set-ups. The candidate genes for screening were predicted using a genome-scale metabolic model, and a gRNA library targeting a total of 168 selected genes was designed. After multiple rounds of fluorescence-activated cell sorting and library sequencing, the gRNAs that were functional and increased flux toward malonyl-CoA were assessed for their efficiency to enhance 3-hydroxypropionic acid (3-HP) production. 3-HP production was significantly improved upon fine-tuning genes involved in providing malonyl-CoA precursors, cofactor supply, as well as chromatin remodeling.</ns0:description>
-    <ns0:isPartOf rdf:resource="http://pubs.acs.org/journal/asbcd6"/>
-    <sbol:version>1</sbol:version>
-    <ns0:type rdf:resource="http://purl.org/dc/dcmitype/Text"/>
-    <ns2:subject>synthetic biology</ns2:subject>
-    <ns0:rightsHolder>American Chemical
-Society</ns0:rightsHolder>
-    <ns0:abstract>Engineering Saccharomyces cerevisiae for industrial-scale production of valuable chemicals involves extensive modulation of its metabolism. Here, we identified novel gene expression fine-tuning set-ups to enhance endogenous metabolic fluxes toward increasing levels of acetyl-CoA and malonyl-CoA. dCas9-based transcriptional regulation was combined together with a malonyl-CoA responsive intracellular biosensor to select for beneficial set-ups. The candidate genes for screening were predicted using a genome-scale metabolic model, and a gRNA library targeting a total of 168 selected genes was designed. After multiple rounds of fluorescence-activated cell sorting and library sequencing, the gRNAs that were functional and increased flux toward malonyl-CoA were assessed for their efficiency to enhance 3-hydroxypropionic acid (3-HP) production. 3-HP production was significantly improved upon fine-tuning genes involved in providing malonyl-CoA precursors, cofactor supply, as well as chromatin remodeling.</ns0:abstract>
-    <ns0:dateAccepted>2019-10-02</ns0:dateAccepted>
-    <ns2:publisher>American Chemical
-Society</ns2:publisher>
-    <ns0:created>2019-10-02</ns0:created>
-    <sbol:member rdf:resource="http://examples.org/Sequence/sb9b00258_2_sequence/1"/>
-    <ns3:OBI_0002110>10.1021/acssynbio.9b00258</ns3:OBI_0002110>
-    <ns2:creator>Verena Siewers</ns2:creator>
-    <ns2:type>rapid-communication</ns2:type>
-    <ns4:topLevel rdf:resource="https://synbioks.org/public/ACS/sb9b00258/1"/>
-    <ns0:dateSubmitted>2019-06-20</ns0:dateSubmitted>
-    <ns0:dateCopyrighted>2019</ns0:dateCopyrighted>
-    <ns3:OBI_0001617>31577419</ns3:OBI_0001617>
-    <ns4:ownedBy rdf:resource="https://synbioks.org/user/myers"/>
-    <sbol:member rdf:resource="http://examples.org/Sequence/sb9b00258_1_sequence/1"/>
-    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb9b00258_1_comp/1"/>
-    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb9b00258_2_comp/1"/>
-  </sbol:Collection>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:sbh="https://wiki.synbiohub.org/wiki/Terms/synbiohub#" xmlns:sbol="http://sbols.org/v2#" xmlns:ns0="http://www.w3.org/ns/prov#">
   <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb9b00258_2_comp/1">
     <sbol:sequence rdf:resource="http://examples.org/Sequence/sb9b00258_2_sequence/1"/>
-    <ns1:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.9b00258"/>
-    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
-    <sbol:version>1</sbol:version>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbh:supplementalFile rdf:resource="sb9b00258/suppl/sb-2019-00258m_si_002.pdf"/>
     <sbol:displayId>sb9b00258_2_comp</sbol:displayId>
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.9b00258"/>
+    <sbol:version>1</sbol:version>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
     <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb9b00258_2_comp"/>
-    <ns1:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
   </sbol:ComponentDefinition>
   <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb9b00258_1_comp/1">
-    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb9b00258_1_comp"/>
-    <ns1:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
-    <sbol:displayId>sb9b00258_1_comp</sbol:displayId>
-    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb9b00258_1_sequence/1"/>
-    <ns1:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.9b00258"/>
-    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
     <sbol:version>1</sbol:version>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb9b00258_1_comp"/>
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.9b00258"/>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb9b00258_1_sequence/1"/>
+    <sbh:supplementalFile rdf:resource="sb9b00258/suppl/sb-2019-00258m_si_002.pdf"/>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbol:displayId>sb9b00258_1_comp</sbol:displayId>
   </sbol:ComponentDefinition>
   <sbol:Sequence rdf:about="http://examples.org/Sequence/sb9b00258_2_sequence/1">
-    <sbol:version>1</sbol:version>
-    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
     <sbol:elements>gttttagagc</sbol:elements>
-    <sbol:displayId>sb9b00258_2_sequence</sbol:displayId>
+    <sbol:version>1</sbol:version>
     <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb9b00258_2_sequence"/>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:displayId>sb9b00258_2_sequence</sbol:displayId>
   </sbol:Sequence>
   <sbol:Sequence rdf:about="http://examples.org/Sequence/sb9b00258_1_sequence/1">
     <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:version>1</sbol:version>
     <sbol:displayId>sb9b00258_1_sequence</sbol:displayId>
     <sbol:elements>cgattggcag</sbol:elements>
     <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb9b00258_1_sequence"/>
-    <sbol:version>1</sbol:version>
   </sbol:Sequence>
 </rdf:RDF>

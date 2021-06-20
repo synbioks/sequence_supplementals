@@ -1,47 +1,19 @@
-<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:sbol="http://sbols.org/v2#" xmlns:ns0="http://purl.org/dc/terms/" xmlns:ns1="http://purl.org/dc/elements/1.1/" xmlns:ns2="http://wiki.synbiohub.org/wiki/Terms/synbiohub#" xmlns:ns3="http://purl.obolibrary.org/obo/" xmlns:ns4="http://www.w3.org/ns/prov#">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:sbh="https://wiki.synbiohub.org/wiki/Terms/synbiohub#" xmlns:sbol="http://sbols.org/v2#" xmlns:ns0="http://www.w3.org/ns/prov#">
   <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb5b00074_1_comp/1">
     <sbol:version>1</sbol:version>
-    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
-    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb5b00074_1_sequence/1"/>
     <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb5b00074_1_comp"/>
-    <ns4:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb5b00074_1_sequence/1"/>
+    <sbh:supplementalFile rdf:resource="sb5b00074/suppl/sb-2015-00074m_si_001.pdf"/>
     <sbol:displayId>sb5b00074_1_comp</sbol:displayId>
-    <ns4:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.5b00074"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.5b00074"/>
   </sbol:ComponentDefinition>
   <sbol:Sequence rdf:about="http://examples.org/Sequence/sb5b00074_1_sequence/1">
-    <sbol:displayId>sb5b00074_1_sequence</sbol:displayId>
     <sbol:elements>acggattagaagccgccgagcagcttgcaaattaaagccttcgagcaaatatcggccgacggattagaagccgccgagctccccccgggagcttgcaaattaaagccttcgagctgtcgaaagctacatataaggaacgttagttttgctggccgcatcttc</sbol:elements>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:displayId>sb5b00074_1_sequence</sbol:displayId>
     <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb5b00074_1_sequence"/>
     <sbol:version>1</sbol:version>
-    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
   </sbol:Sequence>
-  <sbol:Collection rdf:about="http://examples.org/Collection/sb5b00074/1">
-    <ns0:abstract>Genome editing is an important tool for building novel genotypes with a desired phenotype. However, the fundamental challenge is to rapidly generate desired alterations on a genome-wide scale. Here, we report TALENs (transcription activator-like effector nucleases)-assisted multiplex editing (TAME), based on the interaction of designed TALENs with the DNA sequences between the critical TATA and GC boxes, for generating multiple targeted genomic modifications. Through iterative cycles of TAME to induce abundant semirational indels coupled with efficient screening using a reporter, the targeted fluorescent trait can be continuously and rapidly improved by accumulating multiplex beneficial genetic modifications in the evolving yeast genome. To further evaluate its efficiency, we also demonstrate the application of TAME for significantly improving ethanol tolerance of yeast in a short amount of time. Therefore, TAME is a broadly generalizable platform for accelerated genome evolution to rapidly improve yeast phenotypes.</ns0:abstract>
-    <sbol:version>1</sbol:version>
-    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb5b00074_1_comp/1"/>
-    <ns0:created>2015-05-26</ns0:created>
-    <ns0:dateSubmitted>2014-12-31</ns0:dateSubmitted>
-    <ns1:publisher>American Chemical
-Society</ns1:publisher>
-    <sbol:persistentIdentity rdf:resource="http://examples.org/Collection/sb5b00074"/>
-    <ns2:ownedBy rdf:resource="https://synbioks.org/user/myers"/>
-    <ns3:OBI_0001617>26011297</ns3:OBI_0001617>
-    <ns0:description>Genome editing is an important tool for building novel genotypes with a desired phenotype. However, the fundamental challenge is to rapidly generate desired alterations on a genome-wide scale. Here, we report TALENs (transcription activator-like effector nucleases)-assisted multiplex editing (TAME), based on the interaction of designed TALENs with the DNA sequences between the critical TATA and GC boxes, for generating multiple targeted genomic modifications. Through iterative cycles of TAME to induce abundant semirational indels coupled with efficient screening using a reporter, the targeted fluorescent trait can be continuously and rapidly improved by accumulating multiplex beneficial genetic modifications in the evolving yeast genome. To further evaluate its efficiency, we also demonstrate the application of TAME for significantly improving ethanol tolerance of yeast in a short amount of time. Therefore, TAME is a broadly generalizable platform for accelerated genome evolution to rapidly improve yeast phenotypes.</ns0:description>
-    <ns0:isPartOf rdf:resource="http://pubs.acs.org/journal/asbcd6"/>
-    <ns1:rights>Copyright &#169; 2015 American Chemical Society</ns1:rights>
-    <ns2:topLevel rdf:resource="https://synbioks.org/public/ACS/sb5b00074/1"/>
-    <sbol:member rdf:resource="http://examples.org/Sequence/sb5b00074_1_sequence/1"/>
-    <ns0:type rdf:resource="http://purl.org/dc/dcmitype/Text"/>
-    <ns3:OBI_0002110>10.1021/acssynbio.5b00074</ns3:OBI_0002110>
-    <ns0:dateCopyrighted>2015</ns0:dateCopyrighted>
-    <ns1:subject>transcription activator-like
-effector nucleases</ns1:subject>
-    <ns0:dateAccepted>2015-05-26</ns0:dateAccepted>
-    <ns1:type>research-article</ns1:type>
-    <ns1:creator>Yuping Lin</ns1:creator>
-    <ns0:references>van
-Voorst, F., Houghton-Larsen, J., J&#248;nson, L., Kielland-Brandt, M. C., Brandt, A. Genome-wide identification of genes required for growth of Saccharomyces cerevisiae under ethanol stress Yeast 2006. 23:351-359.</ns0:references>
-    <sbol:displayId>sb5b00074</sbol:displayId>
-    <ns0:rightsHolder>American Chemical Society</ns0:rightsHolder>
-  </sbol:Collection>
 </rdf:RDF>

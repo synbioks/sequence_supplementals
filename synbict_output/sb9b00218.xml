@@ -1,62 +1,36 @@
-<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:sbol="http://sbols.org/v2#" xmlns:ns0="http://purl.org/dc/elements/1.1/" xmlns:ns1="http://www.w3.org/ns/prov#" xmlns:ns2="http://purl.obolibrary.org/obo/" xmlns:ns3="http://purl.org/dc/terms/" xmlns:ns4="http://wiki.synbiohub.org/wiki/Terms/synbiohub#">
-  <sbol:Collection rdf:about="http://examples.org/Collection/sb9b00218/1">
-    <ns0:subject>transposable elements</ns0:subject>
-    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb9b00218_2_comp/1"/>
-    <sbol:member rdf:resource="http://examples.org/Sequence/sb9b00218_2_sequence/1"/>
-    <sbol:member rdf:resource="http://examples.org/Sequence/sb9b00218_1_sequence/1"/>
-    <ns2:OBI_0001617>31375026</ns2:OBI_0001617>
-    <ns3:isPartOf rdf:resource="http://pubs.acs.org/journal/asbcd6"/>
-    <ns3:dateAccepted>2019-08-02</ns3:dateAccepted>
-    <ns3:rightsHolder>American Chemical Society</ns3:rightsHolder>
-    <ns3:description>It has been widely debated whether transposable elements have a positive or a negative effect on their host cells. This study demonstrated that transposable elements, specifically insertion sequences (ISs), can adopt a defensive role in Escherichia coli. In three different E. coli strains (S17, DH5&#945;, and Nissle 1917), IS1 and IS10 rapidly disrupted the I-CeuI gene (encoding I-CeuI endonuclease) on the plasmid pLO11-ICeuI as early as the first generation, despite the gene-circuit being under control of an arabinose promoter. Proteomics analysis showed that the protein abundance profile of E.&#160;coli DH5&#945; with pLO11-ICeuI in the fifth generation was nearly opposite to that of control strain (E.&#160;coli with pLO11, no I-CeuI). The DNA damage caused by the leaky expression of I-CeuI was enough to trigger a SOS response and alter lipid synthesis, ribosomal activity, RNA/DNA metabolism, central dogma and cell cycle processes in E.&#160;coli DH5&#945;. After the ISs disrupted the expression of I-CeuI, cells fully recovered by the 31st generation had a protein abundance profile similar to that of the control strain. This study showed that ISs readily mutated a harmful gene which subsequently restored host fitness. These observations have implications for the stability of designed gene circuits in synthetic biology.</ns3:description>
-    <ns0:type>research-article</ns0:type>
-    <sbol:persistentIdentity rdf:resource="http://examples.org/Collection/sb9b00218"/>
-    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb9b00218_1_comp/1"/>
-    <ns0:publisher>American Chemical
-Society</ns0:publisher>
-    <ns3:dateCopyrighted>2019</ns3:dateCopyrighted>
-    <sbol:version>1</sbol:version>
-    <ns0:creator>Zhanfeng Cui</ns0:creator>
-    <ns3:dateSubmitted>2019-05-16</ns3:dateSubmitted>
-    <sbol:displayId>sb9b00218</sbol:displayId>
-    <ns2:OBI_0002110>10.1021/acssynbio.9b00218</ns2:OBI_0002110>
-    <ns3:created>2019-08-02</ns3:created>
-    <ns3:type rdf:resource="http://purl.org/dc/dcmitype/Text"/>
-    <ns3:references>Wu, Y., Aandahl, R. Z., Tanaka, M. M. Dynamics of bacterial insertion sequences: can transposition bursts help the elements persist? BMC Evol. Biol. 2015. 15.</ns3:references>
-    <ns4:topLevel rdf:resource="https://synbioks.org/public/ACS/sb9b00218/1"/>
-    <ns3:abstract>It has been widely debated whether transposable elements have a positive or a negative effect on their host cells. This study demonstrated that transposable elements, specifically insertion sequences (ISs), can adopt a defensive role in Escherichia coli. In three different E. coli strains (S17, DH5&#945;, and Nissle 1917), IS1 and IS10 rapidly disrupted the I-CeuI gene (encoding I-CeuI endonuclease) on the plasmid pLO11-ICeuI as early as the first generation, despite the gene-circuit being under control of an arabinose promoter. Proteomics analysis showed that the protein abundance profile of E.&#160;coli DH5&#945; with pLO11-ICeuI in the fifth generation was nearly opposite to that of control strain (E.&#160;coli with pLO11, no I-CeuI). The DNA damage caused by the leaky expression of I-CeuI was enough to trigger a SOS response and alter lipid synthesis, ribosomal activity, RNA/DNA metabolism, central dogma and cell cycle processes in E.&#160;coli DH5&#945;. After the ISs disrupted the expression of I-CeuI, cells fully recovered by the 31st generation had a protein abundance profile similar to that of the control strain. This study showed that ISs readily mutated a harmful gene which subsequently restored host fitness. These observations have implications for the stability of designed gene circuits in synthetic biology.</ns3:abstract>
-    <ns4:ownedBy rdf:resource="https://synbioks.org/user/myers"/>
-  </sbol:Collection>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:sbh="https://wiki.synbiohub.org/wiki/Terms/synbiohub#" xmlns:sbol="http://sbols.org/v2#" xmlns:ns0="http://www.w3.org/ns/prov#">
   <sbol:Sequence rdf:about="http://examples.org/Sequence/sb9b00218_1_sequence/1">
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
     <sbol:elements>ggtaatgactccaacttattgatagtgttttatgttcagataatgcccgatgactttgtcatgcagctccaccgattttgagaacgacagcgacttccgtcccagccgtgccaggtgctgcctcagattcaggttatgccgctcaattcgctgcgtatatcgcttgctgattacgtgcagctttcccttcaggcgggattcatacagcggccagccatccgtcatccatatcaccacgtcaaagggtgacagcaggctcataagacgccccagcgtcgccatagtgcgttcaccgaatacgtgcgcaacaaccgtcttccggagactgtcatacgcgtaaaacagccagcgctggcgcgatttagccccgacatagccccactgttcgtccatttccgcgcagacgatgacgtcactgcccggctgtatgcgcgaggttaccgactgcggcctgagttttttaagtgacgtaaaatcgtgttgaggccaacgcccataatgcgggctgttgcccggcatccaacgccattcatggccatatcaatgattttctggtgcgtaccgggttgagaagcggtgtaagtgaactgcagttgccatgttttacggcagtgagagcagagatagcgctgatgtccggcggtgcttttgccgttacgcaccaccccgtcagtagctgaacaggagggacagctgatagaaacagaagccactggagcacctcaaaaacaccatcatacactaaatcagtaagttggcagcatcacc</sbol:elements>
     <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb9b00218_1_sequence"/>
     <sbol:version>1</sbol:version>
-    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
     <sbol:displayId>sb9b00218_1_sequence</sbol:displayId>
   </sbol:Sequence>
-  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb9b00218_2_sequence/1">
-    <sbol:version>1</sbol:version>
-    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb9b00218_2_sequence"/>
-    <sbol:displayId>sb9b00218_2_sequence</sbol:displayId>
-    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
-    <sbol:elements>tgatgaatcccctaatgatttttatcaaaatcattaagttaaggtagatacacatcttgtcatatgatcaaatggtttcgccaaaaatcaataatcagacaacaaaatgtgcgaactcgatattttacacgactctctttaccaattctgccccgaattacacttaaaacgactcaacagcttaacgttggcttgccacgccttacttgactgtaaaactctcactcttaccgaacttggccgtaacctgccaaccaaagcgagaacaaaacataacatcaaacgaatcgaccgattgttaggtaatcgtcacctccacaaagagcgactcgctgtataccgttggcatgctagctttatctgttcgggcaatacgatgcccattgtacttgttgactggtctgatatccgtgagcaaaaacggcttatggtattgcgagcttcagtcgcactacacggtcgttctgttactctttatgagaaagcgttcccgctttcagagcaatgttcaaagaaagctcatgaccaatttctagccgaccttgcgagcattctaccgagtaacaccacaccgctcattgtcagtgatgctggctttaaagtgccatggtataaatccgttgagaagctgggttggtactggttaagtcgagtaagaggaaaagtacaatatgcagacctaggagcggaaaactggaaacctatcagcaacttacatgatatgtcatctagtcactcaaagactttaggctataagaggctgactaaaagcaatccaatctcatgccaaattctattgtataaatctcgctctaaaggccgaaaaaatcagcgctcgacacggactcattgtcaccacccgtcacctaaaatctactcagcgtcggcaaaggagccatggattctagcaactaacttacctgttgaaattcgaacacccaaacaacttgttaatatctattcgaagcgaatgcagattgaagaaaccttccgagacttgaaaagtcctgcctacggactaggcctacgccatagccgaacgagcagctcagagcgttttgatatcatgctgctaatcgccctgatgcttcaactaacatgttggcttgcgggcgttcatgctcagaaacaaggttgggacaagcacttccaggctaacacagtcagaaatcgaaacgtactctcaacagttcgcttaggcatggaagttttgcggcattctggctacacaataacaagggaagacttactcgtggctgcaaccctactagctcaaaatttattcacacatggttacgctttggggaaattatgaggggatct</sbol:elements>
-  </sbol:Sequence>
   <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb9b00218_2_comp/1">
-    <ns1:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.9b00218"/>
-    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
-    <ns1:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.9b00218"/>
     <sbol:version>1</sbol:version>
     <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb9b00218_2_comp"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbh:supplementalFile rdf:resource="sb9b00218/suppl/sb-2019-00218e_si_001.pdf"/>
     <sbol:displayId>sb9b00218_2_comp</sbol:displayId>
     <sbol:sequence rdf:resource="http://examples.org/Sequence/sb9b00218_2_sequence/1"/>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
   </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb9b00218_2_sequence/1">
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb9b00218_2_sequence"/>
+    <sbol:elements>tgatgaatcccctaatgatttttatcaaaatcattaagttaaggtagatacacatcttgtcatatgatcaaatggtttcgccaaaaatcaataatcagacaacaaaatgtgcgaactcgatattttacacgactctctttaccaattctgccccgaattacacttaaaacgactcaacagcttaacgttggcttgccacgccttacttgactgtaaaactctcactcttaccgaacttggccgtaacctgccaaccaaagcgagaacaaaacataacatcaaacgaatcgaccgattgttaggtaatcgtcacctccacaaagagcgactcgctgtataccgttggcatgctagctttatctgttcgggcaatacgatgcccattgtacttgttgactggtctgatatccgtgagcaaaaacggcttatggtattgcgagcttcagtcgcactacacggtcgttctgttactctttatgagaaagcgttcccgctttcagagcaatgttcaaagaaagctcatgaccaatttctagccgaccttgcgagcattctaccgagtaacaccacaccgctcattgtcagtgatgctggctttaaagtgccatggtataaatccgttgagaagctgggttggtactggttaagtcgagtaagaggaaaagtacaatatgcagacctaggagcggaaaactggaaacctatcagcaacttacatgatatgtcatctagtcactcaaagactttaggctataagaggctgactaaaagcaatccaatctcatgccaaattctattgtataaatctcgctctaaaggccgaaaaaatcagcgctcgacacggactcattgtcaccacccgtcacctaaaatctactcagcgtcggcaaaggagccatggattctagcaactaacttacctgttgaaattcgaacacccaaacaacttgttaatatctattcgaagcgaatgcagattgaagaaaccttccgagacttgaaaagtcctgcctacggactaggcctacgccatagccgaacgagcagctcagagcgttttgatatcatgctgctaatcgccctgatgcttcaactaacatgttggcttgcgggcgttcatgctcagaaacaaggttgggacaagcacttccaggctaacacagtcagaaatcgaaacgtactctcaacagttcgcttaggcatggaagttttgcggcattctggctacacaataacaagggaagacttactcgtggctgcaaccctactagctcaaaatttattcacacatggttacgctttggggaaattatgaggggatct</sbol:elements>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:displayId>sb9b00218_2_sequence</sbol:displayId>
+    <sbol:version>1</sbol:version>
+  </sbol:Sequence>
   <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb9b00218_1_comp/1">
-    <ns1:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb9b00218_1_sequence/1"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb9b00218_1_comp"/>
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.9b00218"/>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
     <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
     <sbol:version>1</sbol:version>
-    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb9b00218_1_comp"/>
     <sbol:displayId>sb9b00218_1_comp</sbol:displayId>
-    <ns1:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.9b00218"/>
-    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb9b00218_1_sequence/1"/>
+    <sbh:supplementalFile rdf:resource="sb9b00218/suppl/sb-2019-00218e_si_001.pdf"/>
   </sbol:ComponentDefinition>
 </rdf:RDF>

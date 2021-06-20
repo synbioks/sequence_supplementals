@@ -1,0 +1,152 @@
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:sbol="http://sbols.org/v2#" xmlns:ns0="http://purl.obolibrary.org/obo/" xmlns:ns1="http://wiki.synbiohub.org/wiki/Terms/synbiohub#" xmlns:ns2="http://purl.org/dc/terms/" xmlns:ns3="http://www.w3.org/ns/prov#" xmlns:ns4="http://purl.org/dc/elements/1.1/">
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb7b00134_6_sequence/1">
+    <sbol:elements>ccggttgagaactgttacttaaatgaatctgaccttgactcctctgccctggacaacccttatctaactctaggaggagatacagcaaggacagacaattcaggagacatactcacaccaggctcctggagaggtccagagtagaacttcttggagtaca</sbol:elements>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb7b00134_6_sequence"/>
+    <sbol:displayId>sb7b00134_6_sequence</sbol:displayId>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:version>1</sbol:version>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb7b00134_2_sequence/1">
+    <sbol:displayId>sb7b00134_2_sequence</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb7b00134_2_sequence"/>
+    <sbol:elements>cggagtactgtcctccgagcggagtactgtcctccgagcggagtactgtcctccgagcggagtactgtcctccgagcggagttctgtcctccgagcggagactctagactaggcgtgtacggtgggaggcctatataagcagagctcgtttagtgaaccgtcagatcgc</sbol:elements>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+  </sbol:Sequence>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb7b00134_4_comp/1">
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb7b00134_4_comp"/>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb7b00134_4_sequence/1"/>
+    <ns3:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbol:version>1</sbol:version>
+    <ns3:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.7b00134"/>
+    <sbol:displayId>sb7b00134_4_comp</sbol:displayId>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb7b00134_5_comp/1">
+    <sbol:displayId>sb7b00134_5_comp</sbol:displayId>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb7b00134_5_sequence/1"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb7b00134_5_comp"/>
+    <ns3:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbol:version>1</sbol:version>
+    <ns3:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.7b00134"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+  </sbol:ComponentDefinition>
+  <sbol:Collection rdf:about="http://examples.org/Collection/sb7b00134/1">
+    <sbol:member rdf:resource="http://examples.org/Sequence/sb7b00134_5_sequence/1"/>
+    <ns0:OBI_0002110>10.1021/acssynbio.7b00134</ns0:OBI_0002110>
+    <ns1:topLevel rdf:resource="https://synbioks.org/public/ACS/sb7b00134/1"/>
+    <sbol:displayId>sb7b00134</sbol:displayId>
+    <ns2:dateAccepted>2017-12-01</ns2:dateAccepted>
+    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb7b00134_1_comp/1"/>
+    <ns2:abstract>Insulators are noncoding gene regulatory elements in eukaryotic genome, which function as chromatin partitioning boundaries, and block interference across different chromatin domains. To facilitate modular construction of synthetic gene circuit that is usually composed of multiple transcription cassettes, unwanted cross-regulations between different cassettes should be avoided. Here, we developed a quantitative method to characterize the functional effect of three insulators on the cross-regulations of six promoters in mammalian cells. We showed that the unwanted cross-regulations displayed a threshold-like effect, and the threshold position varied along with the context of promoters and insulators. We tested the function of insulators in both cascade and sensory switch circuits assembled in episomal plasmid vectors, and showed that the insulation effect was mainly revealed on the first regulatory layer of the cascade circuit. A deviation on the response curve of the sensory switch circuit with or without insulators was observed, but response intensity of some sensory switch circuits were not affected. Therefore, our results provided a general guide on the selection of insulators with varying promoters in episomal synthetic gene circuits in mammalian cells, which may be useful to reduce the effect of the unwanted cross-regulations.</ns2:abstract>
+    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb7b00134_6_comp/1"/>
+    <ns2:created>2017-12-01</ns2:created>
+    <sbol:member rdf:resource="http://examples.org/Sequence/sb7b00134_7_sequence/1"/>
+    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb7b00134_3_comp/1"/>
+    <ns4:creator>Zhen Xie</ns4:creator>
+    <sbol:member rdf:resource="http://examples.org/Sequence/sb7b00134_6_sequence/1"/>
+    <ns2:type rdf:resource="http://purl.org/dc/dcmitype/Text"/>
+    <ns4:rights>Copyright &#169; 2017 American Chemical Society</ns4:rights>
+    <ns0:OBI_0001617>29193957</ns0:OBI_0001617>
+    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb7b00134_5_comp/1"/>
+    <ns4:type>research-article</ns4:type>
+    <ns4:publisher>American
+Chemical Society</ns4:publisher>
+    <sbol:member rdf:resource="http://examples.org/Sequence/sb7b00134_2_sequence/1"/>
+    <ns2:isPartOf rdf:resource="http://pubs.acs.org/journal/asbcd6"/>
+    <ns2:dateCopyrighted>2017</ns2:dateCopyrighted>
+    <sbol:member rdf:resource="http://examples.org/Sequence/sb7b00134_1_sequence/1"/>
+    <ns2:references>Yusufzai, T. M., Felsenfeld, G. The 5&#8242;-HS4 chicken beta-globin insulator is a CTCF-dependent nuclear matrix-associated element Proc. Natl. Acad. Sci. U. S. A. 2004. 101:8620-4.</ns2:references>
+    <ns2:description>Insulators are noncoding gene regulatory elements in eukaryotic genome, which function as chromatin partitioning boundaries, and block interference across different chromatin domains. To facilitate modular construction of synthetic gene circuit that is usually composed of multiple transcription cassettes, unwanted cross-regulations between different cassettes should be avoided. Here, we developed a quantitative method to characterize the functional effect of three insulators on the cross-regulations of six promoters in mammalian cells. We showed that the unwanted cross-regulations displayed a threshold-like effect, and the threshold position varied along with the context of promoters and insulators. We tested the function of insulators in both cascade and sensory switch circuits assembled in episomal plasmid vectors, and showed that the insulation effect was mainly revealed on the first regulatory layer of the cascade circuit. A deviation on the response curve of the sensory switch circuit with or without insulators was observed, but response intensity of some sensory switch circuits were not affected. Therefore, our results provided a general guide on the selection of insulators with varying promoters in episomal synthetic gene circuits in mammalian cells, which may be useful to reduce the effect of the unwanted cross-regulations.</ns2:description>
+    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb7b00134_7_comp/1"/>
+    <sbol:member rdf:resource="http://examples.org/Sequence/sb7b00134_3_sequence/1"/>
+    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb7b00134_4_comp/1"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Collection/sb7b00134"/>
+    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb7b00134_2_comp/1"/>
+    <ns1:ownedBy rdf:resource="https://synbioks.org/user/myers"/>
+    <sbol:version>1</sbol:version>
+    <sbol:member rdf:resource="http://examples.org/Sequence/sb7b00134_4_sequence/1"/>
+    <ns2:dateSubmitted>2017-04-28</ns2:dateSubmitted>
+    <ns2:rightsHolder>American Chemical Society</ns2:rightsHolder>
+  </sbol:Collection>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb7b00134_4_sequence/1">
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb7b00134_4_sequence"/>
+    <sbol:version>1</sbol:version>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:elements>gcttctcgctgctctttgagcctgcagacacctggggggatacggggaaaaagctt</sbol:elements>
+    <sbol:displayId>sb7b00134_4_sequence</sbol:displayId>
+  </sbol:Sequence>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb7b00134_3_comp/1">
+    <ns3:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.7b00134"/>
+    <sbol:version>1</sbol:version>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb7b00134_3_comp"/>
+    <ns3:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbol:displayId>sb7b00134_3_comp</sbol:displayId>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb7b00134_3_sequence/1"/>
+  </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb7b00134_7_sequence/1">
+    <sbol:displayId>sb7b00134_7_sequence</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb7b00134_7_sequence"/>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:elements>ggaagccatgtcaaaagttggctctgtgggaagggagccatagaggttcttgtgcaaaagtatgccaacaaatagaagaaaatacagcccagagtcgggtggtggtgagtcatgcctttaatcctagcactcgggaggcagaggcaggtggatttctatgagtttgaggccagtctggtctatagagtgagtttcaggataggcagggctacacagggaaatcctgtcttggaaaaagaaggaggaggaagaggaagaggaaggggggaggaggaggaagaggaggaggaagaagaggaagaagagaaagaggaggaggaggaagaggaggaagaaaatgaagtctaggccctcaacacagccctcttcttcttgtataagagtttgctgtggggctggtgagatggttcagtgggtaagagcacccgacttcttttccaaaggtccggagttcaaatcccagcaaccacatggtggttcacaaccatccatgacgagatctgacgccctcttctggtgtgtctgaagacagccacagtgtacttacatataataaataaataaatcttaaaaaaaaaaaaaaagagtttgctgtgggctcccaaaggggctggacttaagtagaaaccacttagggaaaacccaccacttaaccatcatggttgaagggccttttccagagaattctgtgggatgttgagataattgaagtgctgtgtataggagtcctgagcttgaagggggatgtgggctgagatgggcgagccctctgcttctgcaatgaaggctctttggccctaccttgacagctggcaagaccttaggagagaccagagcgttcagggattcatctgagcattcaggggttcatccgagcttagctttgtgtccttgcccagggtctttgcaactcttaaaaccttgggtgatatccttgtccaaggtgaaatcgacacagctacctgtggcagtcatgtagatcctaacctgtagcctaaccccctctgagccacctcttactagcttctttctctttcttgtcttccagtccccaggaaagacagatcagatattgagtcttcagtagcctctgttgacacccactgtc</sbol:elements>
+  </sbol:Sequence>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb7b00134_1_comp/1">
+    <ns3:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbol:displayId>sb7b00134_1_comp</sbol:displayId>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb7b00134_1_comp"/>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb7b00134_1_sequence/1"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:version>1</sbol:version>
+    <ns3:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.7b00134"/>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb7b00134_6_comp/1">
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb7b00134_6_comp"/>
+    <sbol:version>1</sbol:version>
+    <ns3:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.7b00134"/>
+    <sbol:displayId>sb7b00134_6_comp</sbol:displayId>
+    <ns3:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb7b00134_6_sequence/1"/>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb7b00134_7_comp/1">
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb7b00134_7_sequence/1"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:version>1</sbol:version>
+    <ns3:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.7b00134"/>
+    <sbol:displayId>sb7b00134_7_comp</sbol:displayId>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb7b00134_7_comp"/>
+    <ns3:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb7b00134_2_comp/1">
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb7b00134_2_sequence/1"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:displayId>sb7b00134_2_comp</sbol:displayId>
+    <ns3:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbol:version>1</sbol:version>
+    <ns3:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.7b00134"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb7b00134_2_comp"/>
+  </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb7b00134_5_sequence/1">
+    <sbol:elements>cacaggtgctaatatttcaattatagctctaaatcagtggccaaaagcgtggccccgacaaaaggcttctatgggcttgattggagtaggcacagcatctgaagtctatcaaagtgctacaattttacatcgtttaagaccagatgggcaggaagtcaccatccaacctatgattactttcattcccattaatttgtaggggagagatttgttacagcaatggggtacagaaatcaccattccctctgcaatttacagtcctgagagccaaagaatgatgaccaaaatgggatatattcctgggaaaggattaggaaaaaaatgaggacggaataacccagccgattgaggtctcagttaaatttgaccgaagaggaattggatatccttcttaggtgcggccactgttgagcctccaaagcccattgcattaaaacggaaaactccaaaacctgtttgggttgatcagtggccgcttcctcaacaaaaactggaggcattacattcattggcaaaagaacaattagacaaaggacatattgaaccatctttttcaccatggaacgccccagtttttgtaattcagaaaaaattcgctagatggcgcatattgaccgacttatgagcggttaacgcagccattcaaccgatgggagctctccaaccagggttgccatctccggccatgatcccaaaagaatggccgatggtaataattgatctaaaagattgtgttttttactattcctttggctcctcaggattttgagaaatttgcatttacaatacctgccatgaataacaaggaaccagctactatatatcgatggaaagttgtaccccaaggaatgttaaatagtcaaacttttgttggaaaggttattcagcttgtcagggatcagtttcctgattgctatattattcattatgttgatgacattttatgtgctgctgcaagcagggacagacggattgagtgttttgctaggctacaagaagtggtgggacttacaggtctcgctatagcaccagataaaatccatactacaccctatcattacctgggaatgag</sbol:elements>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:version>1</sbol:version>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb7b00134_5_sequence"/>
+    <sbol:displayId>sb7b00134_5_sequence</sbol:displayId>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb7b00134_1_sequence/1">
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb7b00134_1_sequence"/>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:displayId>sb7b00134_1_sequence</sbol:displayId>
+    <sbol:elements>taggcgtgtacggtgggaggcctatataagcagagctcgtttagtgaaccgtcagatcgccag</sbol:elements>
+    <sbol:version>1</sbol:version>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb7b00134_3_sequence/1">
+    <sbol:elements>gagctcacggggacagcccccccccaaagcccccagggatgtaattacgtccctcccccgctagggggcagcagcgagccgcccggggctccgctccggtccggcgctccccccgcatccccgagccggcagcgtgcggggacagcccgggcacggggaaggtggcacgggatcgctttcctctgaacgcttctcgctgctctttgagcctgcagacacctggggggatacggggaaaaagctttaggctgaaagagagatttagaatgacaggcgcgcctggccatacatcgatacggtaccgagttggcgcgcctgggagctcacggggacagcccccccccaaagcccccagggatgtaattacgtccctcccccgctagggggcagcagcgagccgcccggggctccgctccggtccggcgctccccccgcatccccgagccggcagcgtgcggggacagcccgggcacggggaaggtggcacgggatcgctttcctctgaac</sbol:elements>
+    <sbol:displayId>sb7b00134_3_sequence</sbol:displayId>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb7b00134_3_sequence"/>
+    <sbol:version>1</sbol:version>
+  </sbol:Sequence>
+</rdf:RDF>

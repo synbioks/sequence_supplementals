@@ -1,81 +1,53 @@
-<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:sbol="http://sbols.org/v2#" xmlns:ns0="http://purl.org/dc/terms/" xmlns:ns1="http://www.w3.org/ns/prov#" xmlns:ns2="http://purl.org/dc/elements/1.1/" xmlns:ns3="http://purl.obolibrary.org/obo/" xmlns:ns4="http://wiki.synbiohub.org/wiki/Terms/synbiohub#">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:sbh="https://wiki.synbiohub.org/wiki/Terms/synbiohub#" xmlns:sbol="http://sbols.org/v2#" xmlns:ns0="http://www.w3.org/ns/prov#">
   <sbol:Sequence rdf:about="http://examples.org/Sequence/sb9b00131_1_sequence/1">
     <sbol:displayId>sb9b00131_1_sequence</sbol:displayId>
-    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
-    <sbol:version>1</sbol:version>
     <sbol:elements>atgcttcagaaactcagaaacaggaaaggtttcacccttatcgagctgctgatcgtcgttgcgatcatcggtattctcgctgcaattgcgattccgcagttctcggcgtatcgtgtcaaggcgtacaacagcgcggcgtcaagcgacttgagaaacctgaagactgctcttgagtccgcatttgctgatgatcaaacctatccgcccgaaagttaa</sbol:elements>
+    <sbol:version>1</sbol:version>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
     <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb9b00131_1_sequence"/>
   </sbol:Sequence>
-  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb9b00131_3_comp/1">
-    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb9b00131_3_sequence/1"/>
-    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
-    <ns1:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.9b00131"/>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb9b00131_3_sequence/1">
     <sbol:version>1</sbol:version>
-    <sbol:displayId>sb9b00131_3_comp</sbol:displayId>
+    <sbol:elements>atgcttcagaaactcagaaacaggaaaggtttcacccttatcgagctgctgatcgtcgttgcgatcatcggtattctcgctgcaattgcgattccgcagttctcggcgtatcgtgtcaaggcgtacaacagcgcggcgtcaagcgacttgagaaacctgaagactgctcttgagtccgcatttgctgatgatcaaacctatccgcccgaaagttacccgtacgacgtgccggactacgcgtaa</sbol:elements>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb9b00131_3_sequence"/>
+    <sbol:displayId>sb9b00131_3_sequence</sbol:displayId>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+  </sbol:Sequence>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb9b00131_2_comp/1">
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbh:supplementalFile rdf:resource="sb9b00131/suppl/sb-2019-00131u_si_001.pdf"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb9b00131_2_comp"/>
+    <sbol:version>1</sbol:version>
+    <sbol:displayId>sb9b00131_2_comp</sbol:displayId>
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.9b00131"/>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb9b00131_2_sequence/1"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb9b00131_3_comp/1">
     <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb9b00131_3_comp"/>
-    <ns1:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbol:displayId>sb9b00131_3_comp</sbol:displayId>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbh:supplementalFile rdf:resource="sb9b00131/suppl/sb-2019-00131u_si_001.pdf"/>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb9b00131_3_sequence/1"/>
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.9b00131"/>
+    <sbol:version>1</sbol:version>
   </sbol:ComponentDefinition>
   <sbol:Sequence rdf:about="http://examples.org/Sequence/sb9b00131_2_sequence/1">
-    <sbol:version>1</sbol:version>
-    <sbol:elements>atgcttcagaaactcagaaacaggaaaggtttcacccttatcgagctgctgatcgtcgttgcgatcatcggtattctcgctgcaattgcgattccgcagttctcggcgtatcgtgtcaaggcgtacaacagcgcggcgtcaagcgacttgagaaacctgaagactgctcttgagtccgcatttgctgatgatcaaacctatccgcccgaaagtcaccaccaccaccaccactaa</sbol:elements>
     <sbol:displayId>sb9b00131_2_sequence</sbol:displayId>
-    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb9b00131_2_sequence"/>
+    <sbol:version>1</sbol:version>
     <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:elements>atgcttcagaaactcagaaacaggaaaggtttcacccttatcgagctgctgatcgtcgttgcgatcatcggtattctcgctgcaattgcgattccgcagttctcggcgtatcgtgtcaaggcgtacaacagcgcggcgtcaagcgacttgagaaacctgaagactgctcttgagtccgcatttgctgatgatcaaacctatccgcccgaaagtcaccaccaccaccaccactaa</sbol:elements>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb9b00131_2_sequence"/>
   </sbol:Sequence>
   <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb9b00131_1_comp/1">
     <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb9b00131_1_comp"/>
-    <ns1:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.9b00131"/>
     <sbol:sequence rdf:resource="http://examples.org/Sequence/sb9b00131_1_sequence/1"/>
-    <ns1:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
-    <sbol:version>1</sbol:version>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbh:supplementalFile rdf:resource="sb9b00131/suppl/sb-2019-00131u_si_001.pdf"/>
     <sbol:displayId>sb9b00131_1_comp</sbol:displayId>
-    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:version>1</sbol:version>
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.9b00131"/>
   </sbol:ComponentDefinition>
-  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb9b00131_2_comp/1">
-    <ns1:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
-    <ns1:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.9b00131"/>
-    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb9b00131_2_sequence/1"/>
-    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb9b00131_2_comp"/>
-    <sbol:displayId>sb9b00131_2_comp</sbol:displayId>
-    <sbol:version>1</sbol:version>
-    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
-  </sbol:ComponentDefinition>
-  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb9b00131_3_sequence/1">
-    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
-    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb9b00131_3_sequence"/>
-    <sbol:displayId>sb9b00131_3_sequence</sbol:displayId>
-    <sbol:version>1</sbol:version>
-    <sbol:elements>atgcttcagaaactcagaaacaggaaaggtttcacccttatcgagctgctgatcgtcgttgcgatcatcggtattctcgctgcaattgcgattccgcagttctcggcgtatcgtgtcaaggcgtacaacagcgcggcgtcaagcgacttgagaaacctgaagactgctcttgagtccgcatttgctgatgatcaaacctatccgcccgaaagttacccgtacgacgtgccggactacgcgtaa</sbol:elements>
-  </sbol:Sequence>
-  <sbol:Collection rdf:about="http://examples.org/Collection/sb9b00131/1">
-    <ns0:dateSubmitted>2019-03-26</ns0:dateSubmitted>
-    <ns0:isPartOf rdf:resource="http://pubs.acs.org/journal/asbcd6"/>
-    <ns0:references>Zhu, C., Yang, G., Li, H., Du, D., Lin, Y. Electrochemical sensors and biosensors based on nanomaterials and nanostructures Anal. Chem. 2015. 87:230-49.</ns0:references>
-    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb9b00131_1_comp/1"/>
-    <sbol:persistentIdentity rdf:resource="http://examples.org/Collection/sb9b00131"/>
-    <ns2:subject>sustainable electronics</ns2:subject>
-    <ns0:dateCopyrighted>2019</ns0:dateCopyrighted>
-    <ns0:rightsHolder>American Chemical
-Society</ns0:rightsHolder>
-    <ns3:OBI_0002110>10.1021/acssynbio.9b00131</ns3:OBI_0002110>
-    <ns2:type>research-article</ns2:type>
-    <sbol:member rdf:resource="http://examples.org/Sequence/sb9b00131_3_sequence/1"/>
-    <sbol:member rdf:resource="http://examples.org/Sequence/sb9b00131_2_sequence/1"/>
-    <ns2:publisher>American Chemical
-Society</ns2:publisher>
-    <ns4:ownedBy rdf:resource="https://synbioks.org/user/myers"/>
-    <ns0:abstract>The potential applications of electrically conductive protein nanowires (e-PNs) harvested from Geobacter sulfurreducens might be greatly expanded if the outer surface of the wires could be modified to confer novel sensing capabilities or to enhance binding to other materials. We developed a simple strategy for functionalizing e-PNs with surface-exposed peptides. The G. sulfurreducens gene for the monomer that assembles into e-PNs was modified to add peptide tags at the carboxyl terminus of the monomer. Strains of G. sulfurreducens were constructed that fabricated synthetic e-PNs with a six-histidine &#8220;His-tag&#8221; or both the His-tag and a nine-peptide &#8220;HA-tag&#8221; exposed on the outer surface. Addition of the peptide tags did not diminish e-PN conductivity. The abundance of HA-tag in e-PNs was controlled by placing expression of the gene for the synthetic monomer with the HA-tag under transcriptional regulation. These studies suggest broad possibilities for tailoring e-PN properties for diverse applications.</ns0:abstract>
-    <sbol:displayId>sb9b00131</sbol:displayId>
-    <ns0:created>2019-07-12</ns0:created>
-    <ns0:type rdf:resource="http://purl.org/dc/dcmitype/Text"/>
-    <ns2:creator>Trevor L. Woodard</ns2:creator>
-    <ns0:description>The potential applications of electrically conductive protein nanowires (e-PNs) harvested from Geobacter sulfurreducens might be greatly expanded if the outer surface of the wires could be modified to confer novel sensing capabilities or to enhance binding to other materials. We developed a simple strategy for functionalizing e-PNs with surface-exposed peptides. The G. sulfurreducens gene for the monomer that assembles into e-PNs was modified to add peptide tags at the carboxyl terminus of the monomer. Strains of G. sulfurreducens were constructed that fabricated synthetic e-PNs with a six-histidine &#8220;His-tag&#8221; or both the His-tag and a nine-peptide &#8220;HA-tag&#8221; exposed on the outer surface. Addition of the peptide tags did not diminish e-PN conductivity. The abundance of HA-tag in e-PNs was controlled by placing expression of the gene for the synthetic monomer with the HA-tag under transcriptional regulation. These studies suggest broad possibilities for tailoring e-PN properties for diverse applications.</ns0:description>
-    <ns4:topLevel rdf:resource="https://synbioks.org/public/ACS/sb9b00131/1"/>
-    <ns0:dateAccepted>2019-07-12</ns0:dateAccepted>
-    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb9b00131_3_comp/1"/>
-    <sbol:version>1</sbol:version>
-    <ns3:OBI_0001617>31298834</ns3:OBI_0001617>
-    <sbol:member rdf:resource="http://examples.org/Sequence/sb9b00131_1_sequence/1"/>
-    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb9b00131_2_comp/1"/>
-  </sbol:Collection>
 </rdf:RDF>

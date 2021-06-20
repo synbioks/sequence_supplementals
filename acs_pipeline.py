@@ -27,7 +27,8 @@ def synbict_init(cwd):
     return(annotater)
 
 
-#define collection creator
+# define collection creator
+# not in use
 def collection_creator(attachement):
     sbol_doc = sbol2.Document()
 
@@ -63,10 +64,10 @@ def collection_creator(attachement):
     return (sbol_doc, paper_collect)
 
 #define sequence info puller
-def seq_file_reader(seq_file, sbol_doc, collect_obj, annotator, annotated_num=0):
+def seq_file_reader(seq_file, sbol_doc, annotator, annotated_num=0):
     problem_rows = []
     molecule_type = BIOPAX_DNA
-
+    sbol_doc.addNamespace('https://wiki.synbiohub.org/wiki/Terms/synbiohub#', 'sbh')
         
     with open(seq_file, 'rt') as names:
         member_obj = []
@@ -92,7 +93,9 @@ def seq_file_reader(seq_file, sbol_doc, collect_obj, annotator, annotated_num=0)
                 component, annotated_num = synbict_use(sequence, f'{articleID}_{i}', annotator, annotated_num=annotated_num)
                 component.wasGeneratedBy =  "https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"
                 component.wasDerivedFrom = f'https://doi.org/{doi}'
-                collect_obj.members += [component.identity]
+                component.supplementalFile = sbol2.URIProperty(component, 'https://wiki.synbiohub.org/wiki/Terms/synbiohub#supplementalFile', 0, 1, [])
+                component.supplementalFile = pathname_of_file.replace(' ','_')
+                # collect_obj.members += [component.identity]
                 
                 if sequence_name != "unknown" and sequence_name != "_unknown_seq":
                     component.name= sequence_name
@@ -104,7 +107,7 @@ def seq_file_reader(seq_file, sbol_doc, collect_obj, annotator, annotated_num=0)
                     sequence_obj.name = f"{component.name} Sequence"
                 sbol_doc.addSequence(sequence_obj)
                 component.sequences = sequence_obj
-                collect_obj.members +=[sequence_obj.identity]
+                # collect_obj.members +=[sequence_obj.identity]
 
                 sbol_doc.addComponentDefinition(component)
         
@@ -135,26 +138,35 @@ annotator = synbict_init(cwd)
 seq_files = os.listdir(os.path.join(cwd, 'sequences-files'))[1:]
 seq_files = set([x.replace('.seq.txt', '') for x in seq_files])
 
-#make list of all papers
-with open(os.path.join(cwd,'test', 'ACS_collection.json'), 'r', encoding='utf-8') as file:
-    papers_json = file.read()
-    papers_json = json.loads(papers_json)
+# make list of all papers
+ACS_doc = sbol2.Document()
+ACS_doc.read(os.path.join(cwd, 'ACS_collection.xml'))
+for col in ACS_doc.collections:
+    papers_list = list(col.members)
+    num_papers = len(papers_list)
 
-#2190 annotated of 88,509 plus sb700461 (jiawei says 58055)
-#loop through papers, if seq file exists make collection and run other two functions and add name to used_seq_files list
-for ind, paper in enumerate(papers_json['attachments']):
-    if ind>=1554:
-        print(f'ind: {ind}')
-        file_name = os.path.split(os.path.split(paper['uri'])[0])[1] #this is used to go from uri of the form: https://synbioks.org/public/ACS/sb5b00179/1 to just the sb5b00179 bit
+# # make list of all papers
+# with open(os.path.join(cwd,'test', 'ACS_collection.json'), 'r', encoding='utf-8') as file:
+#     papers_json = file.read()
+#     papers_json = json.loads(papers_json)
+
+## 2190 annotated of 88,509 plus sb700461 (jiawei says 58055)
+## loop through papers, if seq file exists make collection and run other two functions and add name to used_seq_files list
+for ind, paper in enumerate(papers_list):
+    if ind>= 0:
+        print(f'ind: {ind}/{num_papers}')
+        file_name = os.path.split(os.path.split(paper)[0])[1] #this is used to go from uri of the form: https://synbioks.org/public/ACS/sb5b00179/1 to just the sb5b00179 bit
         file_path = os.path.join(cwd,'sequences-files', f'{file_name}.seq.txt')
+        print(file_name)
         if os.path.isfile(file_path):
             with open(file_path) as file:
-                displayId = paper['displayId']
-                sbol_doc, collect_obj = collection_creator(paper)
-                sbol_doc, annotated_num = seq_file_reader(file_path, sbol_doc, collect_obj, annotator, annotated_num=annotated_num)
+                # displayId = paper['displayId']
+                #sbol_doc, collect_obj = collection_creator(paper)
+                sbol_doc = sbol2.Document()
+                sbol_doc, annotated_num = seq_file_reader(file_path, sbol_doc, annotator, annotated_num=annotated_num)
                 # print(file.read())
             exist_list.append(file_name)
-            sbol_doc.write(os.path.join(cwd, 'synbict_output', f'{displayId}.xml'))
+            sbol_doc.write(os.path.join(cwd, 'synbict_output', f'{file_name}.xml'))
 #make used_seqfiles list to set and check difference with all seq file set
 exist_list=set(exist_list)
 print(f'annotated_num: {annotated_num}')

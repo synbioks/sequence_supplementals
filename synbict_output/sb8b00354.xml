@@ -1,63 +1,36 @@
-<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:sbol="http://sbols.org/v2#" xmlns:ns0="http://purl.org/dc/terms/" xmlns:ns1="http://www.w3.org/ns/prov#" xmlns:ns2="http://purl.org/dc/elements/1.1/" xmlns:ns3="http://wiki.synbiohub.org/wiki/Terms/synbiohub#" xmlns:ns4="http://purl.obolibrary.org/obo/">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:sbh="https://wiki.synbiohub.org/wiki/Terms/synbiohub#" xmlns:sbol="http://sbols.org/v2#" xmlns:ns0="http://www.w3.org/ns/prov#">
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb8b00354_1_comp/1">
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbol:version>1</sbol:version>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb8b00354_1_sequence/1"/>
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.8b00354"/>
+    <sbol:displayId>sb8b00354_1_comp</sbol:displayId>
+    <sbh:supplementalFile rdf:resource="sb8b00354/suppl/sb-2018-00354g_si_001.pdf"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00354_1_comp"/>
+  </sbol:ComponentDefinition>
   <sbol:Sequence rdf:about="http://examples.org/Sequence/sb8b00354_1_sequence/1">
+    <sbol:elements>atggactacaaccaggctctggacaccgctctgaaccgtctgcacaccgaaggtcgttaccgtaccttcatcgacatcgaacgtcgtaaaggtgctttcccgaaagctatgtggcgtaaaccggacggttctgaaaaagaaatcaccgtttggtgcggtaacgactacctgggtatgggtcagcacccggttgttctgggtgctatgcacgaagctctggaaaacaccggtgctggttctggtggtacccgtaacatctctggtaccaccctgtaccacaaacgtctggaagctgaactggctgacctgcacggtaaagaagctgctctggttttctcttctgcttacatcgctaacgacgctaccctgtctaccctgccgcagctgatcccgggtctggttatcgtttctgacaaactgaaccacgcttctatgatcgaaggtatccgtcgttctggtaccgaaaaacacatcttcaaacacaacgacctggacgacctgcgtcgtatcctgtcttctatcggtaaaggtcgtccgatcctggttgctttcgaatctgtttactctatggacggtgacttcggtcagatcaaagaaatctgcgacatcgctgacgaattcggtgctctgaaatacatcgacgaagttcacgctgttggtatgtacggtccgcgtggtggtggtgttgctgaacgtgacggtctgatggaccgtatcgacatcatcaacggtaccctgggtaaagcttacggtgttttcggtggttacatcgctgcttctgctaaaatgtgcgacgctgttcgttcttacgctccgggtttcatcttctctacctctctgccgccggttgttgctgctggtgctgctgcttctgttcgtcacctgaaaggtgacgttgaactgcgtgaaaaacaccagaccgctgctaaaatcctgaaaatgcgtctgaaaggtctgggtctgccgatcatcgaccacggttctcacatcgttccggttcacgttggtgacccggttcactgcaaaatgatctctgacatgctgctggaacacttcggtatctacgttcagccgatcaacttcccgaccgttccgcgtggtaccgaacgtctgcgtttcaccccgtctccggttcacgactctggtatgatcgaccacctggttaaagctatggacgttctgtggcagcactgcgctctgaaccgtgctgaagttgttgcttaa</sbol:elements>
     <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb8b00354_1_sequence"/>
     <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
-    <sbol:version>1</sbol:version>
-    <sbol:elements>atggactacaaccaggctctggacaccgctctgaaccgtctgcacaccgaaggtcgttaccgtaccttcatcgacatcgaacgtcgtaaaggtgctttcccgaaagctatgtggcgtaaaccggacggttctgaaaaagaaatcaccgtttggtgcggtaacgactacctgggtatgggtcagcacccggttgttctgggtgctatgcacgaagctctggaaaacaccggtgctggttctggtggtacccgtaacatctctggtaccaccctgtaccacaaacgtctggaagctgaactggctgacctgcacggtaaagaagctgctctggttttctcttctgcttacatcgctaacgacgctaccctgtctaccctgccgcagctgatcccgggtctggttatcgtttctgacaaactgaaccacgcttctatgatcgaaggtatccgtcgttctggtaccgaaaaacacatcttcaaacacaacgacctggacgacctgcgtcgtatcctgtcttctatcggtaaaggtcgtccgatcctggttgctttcgaatctgtttactctatggacggtgacttcggtcagatcaaagaaatctgcgacatcgctgacgaattcggtgctctgaaatacatcgacgaagttcacgctgttggtatgtacggtccgcgtggtggtggtgttgctgaacgtgacggtctgatggaccgtatcgacatcatcaacggtaccctgggtaaagcttacggtgttttcggtggttacatcgctgcttctgctaaaatgtgcgacgctgttcgttcttacgctccgggtttcatcttctctacctctctgccgccggttgttgctgctggtgctgctgcttctgttcgtcacctgaaaggtgacgttgaactgcgtgaaaaacaccagaccgctgctaaaatcctgaaaatgcgtctgaaaggtctgggtctgccgatcatcgaccacggttctcacatcgttccggttcacgttggtgacccggttcactgcaaaatgatctctgacatgctgctggaacacttcggtatctacgttcagccgatcaacttcccgaccgttccgcgtggtaccgaacgtctgcgtttcaccccgtctccggttcacgactctggtatgatcgaccacctggttaaagctatggacgttctgtggcagcactgcgctctgaaccgtgctgaagttgttgcttaa</sbol:elements>
     <sbol:displayId>sb8b00354_1_sequence</sbol:displayId>
+    <sbol:version>1</sbol:version>
   </sbol:Sequence>
-  <sbol:Collection rdf:about="http://examples.org/Collection/sb8b00354/1">
-    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb8b00354_2_comp/1"/>
-    <ns0:isPartOf rdf:resource="http://pubs.acs.org/journal/asbcd6"/>
-    <ns2:type>rapid-communication</ns2:type>
-    <ns3:topLevel rdf:resource="https://synbioks.org/public/ACS/sb8b00354/1"/>
-    <sbol:displayId>sb8b00354</sbol:displayId>
-    <ns0:dateCopyrighted>2018</ns0:dateCopyrighted>
-    <ns2:publisher>American Chemical
-Society</ns2:publisher>
-    <ns2:subject>unnatural pathway</ns2:subject>
-    <ns0:dateAccepted>2018-11-26</ns0:dateAccepted>
-    <ns3:ownedBy rdf:resource="https://synbioks.org/user/myers"/>
-    <ns4:OBI_0001617>30476433</ns4:OBI_0001617>
-    <ns4:OBI_0002110>10.1021/acssynbio.8b00354</ns4:OBI_0002110>
-    <ns0:rightsHolder>American Chemical
-Society</ns0:rightsHolder>
-    <ns0:description>The design of novel metabolic pathways for efficient biosynthesis of natural products has received much interest, but often lacks systematic approach and chemistry-based guideline. Here we propose carbon skeleton reconstruction based on retrobiosynthetic design as a new approach and chemistry-guideline to solve the problem of properly matching precursors, one of the key issues for efficient biosynthesis. It is demonstrated for the development of an unnatural pathway for efficient biosynthesis of 5-aminolevulinic acid. The new pathway has several advantages compared to the existing natural ones such as high carbon utilization efficiency and orthogonality. It is particularly useful for overcoming the problem of glycine supply. The unnatural pathway is verified in vitro in an enzymatic cascade and in vivo in recombinant E. coli with an exogenous glyoxylate transaminase as a key enzyme.</ns0:description>
-    <ns0:references>Zou, Y., Chen, T., Feng, L., Zhang, S., Xing, D., Wang, Z. Enhancement of 5-aminolevulinic acid production by metabolic engineering of the glycine biosynthesis pathway in Corynebacterium glutamicum Biotechnol. Lett. 2017. 39:1369-1374.</ns0:references>
-    <sbol:member rdf:resource="http://examples.org/Sequence/sb8b00354_1_sequence/1"/>
-    <ns0:abstract>The design of novel metabolic pathways for efficient biosynthesis of natural products has received much interest, but often lacks systematic approach and chemistry-based guideline. Here we propose carbon skeleton reconstruction based on retrobiosynthetic design as a new approach and chemistry-guideline to solve the problem of properly matching precursors, one of the key issues for efficient biosynthesis. It is demonstrated for the development of an unnatural pathway for efficient biosynthesis of 5-aminolevulinic acid. The new pathway has several advantages compared to the existing natural ones such as high carbon utilization efficiency and orthogonality. It is particularly useful for overcoming the problem of glycine supply. The unnatural pathway is verified in vitro in an enzymatic cascade and in vivo in recombinant E. coli with an exogenous glyoxylate transaminase as a key enzyme.</ns0:abstract>
-    <ns0:created>2018-11-26</ns0:created>
-    <ns2:creator>Zhidong Li</ns2:creator>
-    <sbol:version>1</sbol:version>
-    <sbol:persistentIdentity rdf:resource="http://examples.org/Collection/sb8b00354"/>
-    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb8b00354_1_comp/1"/>
-    <ns0:dateSubmitted>2018-08-20</ns0:dateSubmitted>
-    <sbol:member rdf:resource="http://examples.org/Sequence/sb8b00354_2_sequence/1"/>
-    <ns0:type rdf:resource="http://purl.org/dc/dcmitype/Text"/>
-  </sbol:Collection>
-  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb8b00354_2_comp/1">
-    <ns1:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
-    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb8b00354_2_sequence/1"/>
-    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00354_2_comp"/>
-    <ns1:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.8b00354"/>
-    <sbol:displayId>sb8b00354_2_comp</sbol:displayId>
-    <sbol:version>1</sbol:version>
-    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
-  </sbol:ComponentDefinition>
-  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb8b00354_1_comp/1">
-    <sbol:version>1</sbol:version>
-    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
-    <ns1:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
-    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00354_1_comp"/>
-    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb8b00354_1_sequence/1"/>
-    <ns1:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.8b00354"/>
-    <sbol:displayId>sb8b00354_1_comp</sbol:displayId>
-  </sbol:ComponentDefinition>
   <sbol:Sequence rdf:about="http://examples.org/Sequence/sb8b00354_2_sequence/1">
+    <sbol:displayId>sb8b00354_2_sequence</sbol:displayId>
     <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:version>1</sbol:version>
     <sbol:elements>atggcttctcacaaactgctggttaccccgccgaaagctctgctgaaaccgctgtctatcccgaaccagctgctgctgggtccgggtccgtctaacctgccgccgcgtatcatggctgctggtggtctgcaaatgatcggttctatgtctaaagacatgtaccagatcatggacgaaatcaaagaaggtatccagtacgttttccagacccgtaacccgctgaccctggttatctctggttctggtcactgcgctctggaagctgctctggttaacgttctggaaccgggtgactctttcctggttggtgctaacggtatctggggtcagcgtgctgttgacatcggtgaacgtatcggtgctcgtgttcacccgatgaccaaagacccgggtggtcactacaccctgcaagaagttgaagaaggtctggctcagcacaaaccggttctgctgttcctgacccacggtgaatcttctaccggtgttctgcaaccactggacggcttcggtgaactgtgccaccgttacaaatgcctgctgctggttgactctgttgcttctctgggtggtaccccgctgtacatggaccgtcagggtatcgacatcctgtactctggttctcagaaagctctgaacgctccgccgggtacctctctgatctctttctctgacaaagctaaaaaaaaaatgtactctcgtaaaaccaaaccgttctctttctacctggacatcaaatggctggctaacttctggggttgcgacgaccagccgcgtatgtaccaccacaccatcccggttatctctctgtactctctgcgtgaatctctggctctgatcgctgaacagggtctggaaaactcttggcgtcagcaccgtgaagctgctgcttacctgcacggtcgtctgcaagctctgggtctgcaactgttcgttaaagacccggctctgcgtctgccgaccgttaccaccgttgctgttccggctggttatgactggcgtgacatcgtgagctacgttatcgaccacttcgacatcgaaatcatgggtggtctgggtccgtctaccggtaaagttctgcgtatcggtctgctgggttgcaacgctacccgtgaaaacgttgaccgtgttaccgaagctctgcgtgctgctctgcaacactgcccgaaaaaaaaactgtaa</sbol:elements>
     <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb8b00354_2_sequence"/>
-    <sbol:displayId>sb8b00354_2_sequence</sbol:displayId>
-    <sbol:version>1</sbol:version>
   </sbol:Sequence>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb8b00354_2_comp/1">
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.8b00354"/>
+    <sbh:supplementalFile rdf:resource="sb8b00354/suppl/sb-2018-00354g_si_001.pdf"/>
+    <sbol:version>1</sbol:version>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbol:displayId>sb8b00354_2_comp</sbol:displayId>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb8b00354_2_sequence/1"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00354_2_comp"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+  </sbol:ComponentDefinition>
 </rdf:RDF>

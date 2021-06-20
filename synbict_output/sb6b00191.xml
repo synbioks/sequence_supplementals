@@ -1,485 +1,426 @@
-<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:sbol="http://sbols.org/v2#" xmlns:ns0="http://purl.org/dc/terms/" xmlns:ns1="http://purl.org/dc/elements/1.1/" xmlns:ns2="http://www.w3.org/ns/prov#" xmlns:ns3="http://wiki.synbiohub.org/wiki/Terms/synbiohub#" xmlns:ns4="http://purl.obolibrary.org/obo/">
-  <sbol:Collection rdf:about="http://examples.org/Collection/sb6b00191/1">
-    <ns0:type rdf:resource="http://purl.org/dc/dcmitype/Text"/>
-    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb6b00191_3_comp/1"/>
-    <ns1:subject>synthetic biology</ns1:subject>
-    <sbol:member rdf:resource="http://examples.org/Sequence/sb6b00191_2_sequence/1"/>
-    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb6b00191_1_comp/1"/>
-    <ns0:dateAccepted>2017-04-21</ns0:dateAccepted>
-    <ns0:isPartOf rdf:resource="http://pubs.acs.org/journal/asbcd6"/>
-    <sbol:displayId>sb6b00191</sbol:displayId>
-    <ns1:creator>Svetlana V. Harbaugh</ns1:creator>
-    <ns0:references>Wang, B., Kitney, R. I., Joly, N., Buck, M. Engineering modular and orthogonal genetic logic gates for robust digital-like synthetic biology Nat. Commun. 2011. 2.</ns0:references>
-    <ns0:dateCopyrighted>2017</ns0:dateCopyrighted>
-    <ns1:type>rapid-communication</ns1:type>
-    <ns0:created>2017-04-21</ns0:created>
-    <ns3:topLevel rdf:resource="https://synbioks.org/public/ACS/sb6b00191/1"/>
-    <sbol:persistentIdentity rdf:resource="http://examples.org/Collection/sb6b00191"/>
-    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb6b00191_2_comp/1"/>
-    <ns1:rights>Copyright &#169; 2017 American Chemical Society</ns1:rights>
-    <ns0:abstract>If fieldable riboswitch-based biological sensors are to fulfill their potential, it is necessary to increase their signal output. Here we report a novel modular amplification system using a riboswitch to initiate signaling between a sensing strain and a reporter strain of E.&#160;coli. A quorum sensing signaling molecule biologically wires the sensing and reporter strains together. The amplification circuit increased the amount of fluorescence generated on ligand binding compared to when the riboswitch controlled fluorescence expression directly. This had the corollary effect of increasing the sensitivity of the system, and allowed riboswitch-based reporting in E.&#160;coli strains that did not produce a detectable output when the riboswitch directly controlled reporter expression. The amplification circuit also reduced the time required to detect a signal output. The modularity of this amplification system coupled with the achievable increases in output can advance the development of riboswitches and biological sensors.</ns0:abstract>
-    <ns0:dateSubmitted>2016-07-11</ns0:dateSubmitted>
-    <ns3:ownedBy rdf:resource="https://synbioks.org/user/myers"/>
-    <ns0:description>If fieldable riboswitch-based biological sensors are to fulfill their potential, it is necessary to increase their signal output. Here we report a novel modular amplification system using a riboswitch to initiate signaling between a sensing strain and a reporter strain of E.&#160;coli. A quorum sensing signaling molecule biologically wires the sensing and reporter strains together. The amplification circuit increased the amount of fluorescence generated on ligand binding compared to when the riboswitch controlled fluorescence expression directly. This had the corollary effect of increasing the sensitivity of the system, and allowed riboswitch-based reporting in E.&#160;coli strains that did not produce a detectable output when the riboswitch directly controlled reporter expression. The amplification circuit also reduced the time required to detect a signal output. The modularity of this amplification system coupled with the achievable increases in output can advance the development of riboswitches and biological sensors.</ns0:description>
-    <ns0:rightsHolder>American Chemical Society</ns0:rightsHolder>
-    <sbol:version>1</sbol:version>
-    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb6b00191_4_comp/1"/>
-    <sbol:member rdf:resource="http://examples.org/Sequence/sb6b00191_1_sequence/1"/>
-    <sbol:member rdf:resource="http://examples.org/Sequence/sb6b00191_4_sequence/1"/>
-    <ns1:publisher>American Chemical
-Society</ns1:publisher>
-    <ns4:OBI_0001617>28430408</ns4:OBI_0001617>
-    <ns4:OBI_0002110>10.1021/acssynbio.6b00191</ns4:OBI_0002110>
-    <sbol:member rdf:resource="http://examples.org/Sequence/sb6b00191_3_sequence/1"/>
-  </sbol:Collection>
-  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb6b00191_2_comp/1">
-    <ns2:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.6b00191"/>
-    <sbol:component>
-      <sbol:Component rdf:about="http://examples.org/ComponentDefinition/sb6b00191_2_comp/CamR_Terminator_comp_1/1">
-        <sbol:version>1</sbol:version>
-        <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb6b00191_2_comp/CamR_Terminator_comp_1"/>
-        <sbol:definition rdf:resource="https://synbioks.org/public/YTK/CamR_Terminator/1"/>
-        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
-        <sbol:displayId>CamR_Terminator_comp_1</sbol:displayId>
-        <ns0:title>CamR Terminator</ns0:title>
-      </sbol:Component>
-    </sbol:component>
-    <sbol:displayId>sb6b00191_2_comp</sbol:displayId>
-    <sbol:version>1</sbol:version>
-    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
-    <sbol:component>
-      <sbol:Component rdf:about="http://examples.org/ComponentDefinition/sb6b00191_2_comp/BBa_B0062_u45_R_comp_1/1">
-        <sbol:version>1</sbol:version>
-        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
-        <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb6b00191_2_comp/BBa_B0062_u45_R_comp_1"/>
-        <sbol:definition rdf:resource="https://synbioks.org/public/Synbict_Annotation_Libraries/BBa_B0062_u45_R/1"/>
-        <ns0:title>BBa_B0062-R</ns0:title>
-        <sbol:displayId>BBa_B0062_u45_R_comp_1</sbol:displayId>
-      </sbol:Component>
-    </sbol:component>
-    <sbol:sequenceAnnotation>
-      <sbol:SequenceAnnotation rdf:about="http://examples.org/ComponentDefinition/sb6b00191_2_comp/BBa_B0053_anno_1/1">
-        <sbol:version>1</sbol:version>
-        <ns0:title>BBa_B0053</ns0:title>
-        <sbol:displayId>BBa_B0053_anno_1</sbol:displayId>
-        <ns0:description>Natural terminator</ns0:description>
-        <sbol:location>
-          <sbol:Range rdf:about="http://examples.org/ComponentDefinition/sb6b00191_2_comp/BBa_B0053_anno_1/BBa_B0053_anno_1_loc/1">
-            <sbol:end>998</sbol:end>
-            <sbol:start>927</sbol:start>
-            <sbol:version>1</sbol:version>
-            <sbol:displayId>BBa_B0053_anno_1_loc</sbol:displayId>
-            <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb6b00191_2_comp/BBa_B0053_anno_1/BBa_B0053_anno_1_loc"/>
-            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
-          </sbol:Range>
-        </sbol:location>
-        <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb6b00191_2_comp/BBa_B0053_anno_1"/>
-        <sbol:component rdf:resource="http://examples.org/ComponentDefinition/sb6b00191_2_comp/BBa_B0053_comp_1/1"/>
-      </sbol:SequenceAnnotation>
-    </sbol:sequenceAnnotation>
-    <ns2:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
-    <sbol:sequenceAnnotation>
-      <sbol:SequenceAnnotation rdf:about="http://examples.org/ComponentDefinition/sb6b00191_2_comp/CamR_Terminator_anno_1/1">
-        <sbol:component rdf:resource="http://examples.org/ComponentDefinition/sb6b00191_2_comp/CamR_Terminator_comp_1/1"/>
-        <ns0:title>CamR Terminator</ns0:title>
-        <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb6b00191_2_comp/CamR_Terminator_anno_1"/>
-        <sbol:displayId>CamR_Terminator_anno_1</sbol:displayId>
-        <sbol:version>1</sbol:version>
-        <sbol:location>
-          <sbol:Range rdf:about="http://examples.org/ComponentDefinition/sb6b00191_2_comp/CamR_Terminator_anno_1/CamR_Terminator_anno_1_loc/1">
-            <sbol:end>2023</sbol:end>
-            <sbol:start>1915</sbol:start>
-            <sbol:orientation rdf:resource="http://sbols.org/v2#reverseComplement"/>
-            <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb6b00191_2_comp/CamR_Terminator_anno_1/CamR_Terminator_anno_1_loc"/>
-            <sbol:version>1</sbol:version>
-            <sbol:displayId>CamR_Terminator_anno_1_loc</sbol:displayId>
-          </sbol:Range>
-        </sbol:location>
-      </sbol:SequenceAnnotation>
-    </sbol:sequenceAnnotation>
-    <sbol:sequenceAnnotation>
-      <sbol:SequenceAnnotation rdf:about="http://examples.org/ComponentDefinition/sb6b00191_2_comp/BBa_B0057_anno_1/1">
-        <ns0:description>Natural terminator</ns0:description>
-        <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb6b00191_2_comp/BBa_B0057_anno_1"/>
-        <ns0:title>BBa_B0057</ns0:title>
-        <sbol:location>
-          <sbol:Range rdf:about="http://examples.org/ComponentDefinition/sb6b00191_2_comp/BBa_B0057_anno_1/BBa_B0057_anno_1_loc/1">
-            <sbol:end>3008</sbol:end>
-            <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb6b00191_2_comp/BBa_B0057_anno_1/BBa_B0057_anno_1_loc"/>
-            <sbol:version>1</sbol:version>
-            <sbol:displayId>BBa_B0057_anno_1_loc</sbol:displayId>
-            <sbol:start>2967</sbol:start>
-            <sbol:orientation rdf:resource="http://sbols.org/v2#reverseComplement"/>
-          </sbol:Range>
-        </sbol:location>
-        <sbol:displayId>BBa_B0057_anno_1</sbol:displayId>
-        <sbol:version>1</sbol:version>
-        <sbol:component rdf:resource="http://examples.org/ComponentDefinition/sb6b00191_2_comp/BBa_B0057_comp_1/1"/>
-      </sbol:SequenceAnnotation>
-    </sbol:sequenceAnnotation>
-    <sbol:component>
-      <sbol:Component rdf:about="http://examples.org/ComponentDefinition/sb6b00191_2_comp/BBa_B0057_comp_1/1">
-        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
-        <sbol:displayId>BBa_B0057_comp_1</sbol:displayId>
-        <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb6b00191_2_comp/BBa_B0057_comp_1"/>
-        <sbol:version>1</sbol:version>
-        <sbol:definition rdf:resource="https://synbioks.org/public/Synbict_Annotation_Libraries/BBa_B0057/1"/>
-        <ns0:title>BBa_B0057</ns0:title>
-      </sbol:Component>
-    </sbol:component>
-    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb6b00191_2_comp"/>
-    <sbol:component>
-      <sbol:Component rdf:about="http://examples.org/ComponentDefinition/sb6b00191_2_comp/BBa_B0053_comp_1/1">
-        <sbol:definition rdf:resource="https://synbioks.org/public/Synbict_Annotation_Libraries/BBa_B0053/1"/>
-        <ns0:title>BBa_B0053</ns0:title>
-        <sbol:version>1</sbol:version>
-        <sbol:displayId>BBa_B0053_comp_1</sbol:displayId>
-        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
-        <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb6b00191_2_comp/BBa_B0053_comp_1"/>
-      </sbol:Component>
-    </sbol:component>
-    <sbol:sequenceAnnotation>
-      <sbol:SequenceAnnotation rdf:about="http://examples.org/ComponentDefinition/sb6b00191_2_comp/BBa_B0062_u45_R_anno_1/1">
-        <ns0:description>Natural terminator</ns0:description>
-        <sbol:displayId>BBa_B0062_u45_R_anno_1</sbol:displayId>
-        <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb6b00191_2_comp/BBa_B0062_u45_R_anno_1"/>
-        <sbol:location>
-          <sbol:Range rdf:about="http://examples.org/ComponentDefinition/sb6b00191_2_comp/BBa_B0062_u45_R_anno_1/BBa_B0062_u45_R_anno_1_loc/1">
-            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
-            <sbol:displayId>BBa_B0062_u45_R_anno_1_loc</sbol:displayId>
-            <sbol:end>3007</sbol:end>
-            <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb6b00191_2_comp/BBa_B0062_u45_R_anno_1/BBa_B0062_u45_R_anno_1_loc"/>
-            <sbol:start>2967</sbol:start>
-            <sbol:version>1</sbol:version>
-          </sbol:Range>
-        </sbol:location>
-        <sbol:version>1</sbol:version>
-        <ns0:title>BBa_B0062-R</ns0:title>
-        <sbol:component rdf:resource="http://examples.org/ComponentDefinition/sb6b00191_2_comp/BBa_B0062_u45_R_comp_1/1"/>
-      </sbol:SequenceAnnotation>
-    </sbol:sequenceAnnotation>
-    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb6b00191_2_sequence/1"/>
-  </sbol:ComponentDefinition>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:sbh="https://wiki.synbiohub.org/wiki/Terms/synbiohub#" xmlns:sbol="http://sbols.org/v2#" xmlns:ns0="http://www.w3.org/ns/prov#" xmlns:ns1="http://purl.org/dc/terms/">
   <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb6b00191_4_comp/1">
-    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
-    <ns2:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb6b00191_4_comp"/>
+    <sbh:supplementalFile rdf:resource="sb6b00191/suppl/sb-2016-00191d_si_001.pdf"/>
     <sbol:sequence rdf:resource="http://examples.org/Sequence/sb6b00191_4_sequence/1"/>
     <sbol:displayId>sb6b00191_4_comp</sbol:displayId>
-    <ns2:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.6b00191"/>
-    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb6b00191_4_comp"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
     <sbol:version>1</sbol:version>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.6b00191"/>
   </sbol:ComponentDefinition>
-  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb6b00191_3_comp/1">
-    <sbol:version>1</sbol:version>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb6b00191_1_comp/1">
+    <sbh:supplementalFile rdf:resource="sb6b00191/suppl/sb-2016-00191d_si_001.pdf"/>
     <sbol:sequenceAnnotation>
-      <sbol:SequenceAnnotation rdf:about="http://examples.org/ComponentDefinition/sb6b00191_3_comp/BBa_B0053_anno_1/1">
-        <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb6b00191_3_comp/BBa_B0053_anno_1"/>
-        <ns0:title>BBa_B0053</ns0:title>
+      <sbol:SequenceAnnotation rdf:about="http://examples.org/ComponentDefinition/sb6b00191_1_comp/CamR_u32_Terminator_anno_1/1">
         <sbol:version>1</sbol:version>
+        <sbol:component rdf:resource="http://examples.org/ComponentDefinition/sb6b00191_1_comp/CamR_u32_Terminator_comp_1/1"/>
+        <ns1:title>CamR Terminator</ns1:title>
+        <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb6b00191_1_comp/CamR_u32_Terminator_anno_1"/>
+        <sbol:displayId>CamR_u32_Terminator_anno_1</sbol:displayId>
         <sbol:location>
-          <sbol:Range rdf:about="http://examples.org/ComponentDefinition/sb6b00191_3_comp/BBa_B0053_anno_1/BBa_B0053_anno_1_loc/1">
-            <sbol:version>1</sbol:version>
-            <sbol:start>1766</sbol:start>
-            <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb6b00191_3_comp/BBa_B0053_anno_1/BBa_B0053_anno_1_loc"/>
-            <sbol:displayId>BBa_B0053_anno_1_loc</sbol:displayId>
-            <sbol:end>1837</sbol:end>
-            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
-          </sbol:Range>
-        </sbol:location>
-        <sbol:displayId>BBa_B0053_anno_1</sbol:displayId>
-        <ns0:description>Natural terminator</ns0:description>
-        <sbol:component rdf:resource="http://examples.org/ComponentDefinition/sb6b00191_3_comp/BBa_B0053_comp_1/1"/>
-      </sbol:SequenceAnnotation>
-    </sbol:sequenceAnnotation>
-    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb6b00191_3_comp"/>
-    <sbol:sequenceAnnotation>
-      <sbol:SequenceAnnotation rdf:about="http://examples.org/ComponentDefinition/sb6b00191_3_comp/B0015_anno_1/1">
-        <sbol:location>
-          <sbol:Range rdf:about="http://examples.org/ComponentDefinition/sb6b00191_3_comp/B0015_anno_1/B0015_anno_1_loc/1">
-            <sbol:displayId>B0015_anno_1_loc</sbol:displayId>
-            <sbol:start>820</sbol:start>
-            <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb6b00191_3_comp/B0015_anno_1/B0015_anno_1_loc"/>
-            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
-            <sbol:end>948</sbol:end>
-            <sbol:version>1</sbol:version>
-          </sbol:Range>
-        </sbol:location>
-        <ns0:title>B0015</ns0:title>
-        <sbol:version>1</sbol:version>
-        <ns0:description>Double terminator, rrnBT1-T7TE</ns0:description>
-        <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb6b00191_3_comp/B0015_anno_1"/>
-        <sbol:component rdf:resource="http://examples.org/ComponentDefinition/sb6b00191_3_comp/B0015_comp_1/1"/>
-        <sbol:displayId>B0015_anno_1</sbol:displayId>
-      </sbol:SequenceAnnotation>
-    </sbol:sequenceAnnotation>
-    <ns2:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.6b00191"/>
-    <sbol:displayId>sb6b00191_3_comp</sbol:displayId>
-    <sbol:sequenceAnnotation>
-      <sbol:SequenceAnnotation rdf:about="http://examples.org/ComponentDefinition/sb6b00191_3_comp/CamR_Terminator_anno_1/1">
-        <sbol:displayId>CamR_Terminator_anno_1</sbol:displayId>
-        <sbol:version>1</sbol:version>
-        <sbol:location>
-          <sbol:Range rdf:about="http://examples.org/ComponentDefinition/sb6b00191_3_comp/CamR_Terminator_anno_1/CamR_Terminator_anno_1_loc/1">
+          <sbol:Range rdf:about="http://examples.org/ComponentDefinition/sb6b00191_1_comp/CamR_u32_Terminator_anno_1/CamR_u32_Terminator_anno_1_loc/1">
             <sbol:orientation rdf:resource="http://sbols.org/v2#reverseComplement"/>
-            <sbol:start>2754</sbol:start>
+            <sbol:displayId>CamR_u32_Terminator_anno_1_loc</sbol:displayId>
+            <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb6b00191_1_comp/CamR_u32_Terminator_anno_1/CamR_u32_Terminator_anno_1_loc"/>
             <sbol:version>1</sbol:version>
-            <sbol:end>2862</sbol:end>
-            <sbol:displayId>CamR_Terminator_anno_1_loc</sbol:displayId>
-            <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb6b00191_3_comp/CamR_Terminator_anno_1/CamR_Terminator_anno_1_loc"/>
+            <sbol:start>1936</sbol:start>
+            <sbol:end>2044</sbol:end>
           </sbol:Range>
         </sbol:location>
-        <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb6b00191_3_comp/CamR_Terminator_anno_1"/>
-        <sbol:component rdf:resource="http://examples.org/ComponentDefinition/sb6b00191_3_comp/CamR_Terminator_comp_1/1"/>
-        <ns0:title>CamR Terminator</ns0:title>
       </sbol:SequenceAnnotation>
     </sbol:sequenceAnnotation>
-    <sbol:sequenceAnnotation>
-      <sbol:SequenceAnnotation rdf:about="http://examples.org/ComponentDefinition/sb6b00191_3_comp/BBa_B0015_anno_1/1">
-        <sbol:component rdf:resource="http://examples.org/ComponentDefinition/sb6b00191_3_comp/BBa_B0015_comp_1/1"/>
-        <sbol:location>
-          <sbol:Range rdf:about="http://examples.org/ComponentDefinition/sb6b00191_3_comp/BBa_B0015_anno_1/BBa_B0015_anno_1_loc/1">
-            <sbol:version>1</sbol:version>
-            <sbol:start>820</sbol:start>
-            <sbol:end>948</sbol:end>
-            <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb6b00191_3_comp/BBa_B0015_anno_1/BBa_B0015_anno_1_loc"/>
-            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
-            <sbol:displayId>BBa_B0015_anno_1_loc</sbol:displayId>
-          </sbol:Range>
-        </sbol:location>
-        <sbol:version>1</sbol:version>
-        <ns0:description>Very commonly used terminator</ns0:description>
-        <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb6b00191_3_comp/BBa_B0015_anno_1"/>
-        <sbol:displayId>BBa_B0015_anno_1</sbol:displayId>
-        <ns0:title>BBa_B0015</ns0:title>
-      </sbol:SequenceAnnotation>
-    </sbol:sequenceAnnotation>
-    <ns2:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
-    <sbol:component>
-      <sbol:Component rdf:about="http://examples.org/ComponentDefinition/sb6b00191_3_comp/BBa_B0053_comp_1/1">
-        <sbol:displayId>BBa_B0053_comp_1</sbol:displayId>
-        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
-        <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb6b00191_3_comp/BBa_B0053_comp_1"/>
-        <sbol:definition rdf:resource="https://synbioks.org/public/Synbict_Annotation_Libraries/BBa_B0053/1"/>
-        <sbol:version>1</sbol:version>
-        <ns0:title>BBa_B0053</ns0:title>
-      </sbol:Component>
-    </sbol:component>
     <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
     <sbol:component>
-      <sbol:Component rdf:about="http://examples.org/ComponentDefinition/sb6b00191_3_comp/B0015_comp_1/1">
+      <sbol:Component rdf:about="http://examples.org/ComponentDefinition/sb6b00191_1_comp/CamR_u32_Terminator_comp_1/1">
+        <ns1:title>CamR Terminator</ns1:title>
+        <sbol:definition rdf:resource="https://synbioks.org/public/MoClo_Yeast_Toolkit_Dueber_Lab/CamR_u32_Terminator/1"/>
+        <sbol:displayId>CamR_u32_Terminator_comp_1</sbol:displayId>
         <sbol:access rdf:resource="http://sbols.org/v2#public"/>
-        <sbol:definition rdf:resource="https://synbioks.org/public/CIDARToolkitKWK/B0015/1"/>
-        <ns0:title>B0015</ns0:title>
-        <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb6b00191_3_comp/B0015_comp_1"/>
+        <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb6b00191_1_comp/CamR_u32_Terminator_comp_1"/>
         <sbol:version>1</sbol:version>
-        <sbol:displayId>B0015_comp_1</sbol:displayId>
       </sbol:Component>
     </sbol:component>
-    <sbol:component>
-      <sbol:Component rdf:about="http://examples.org/ComponentDefinition/sb6b00191_3_comp/Bba_B0015_comp_1/1">
-        <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb6b00191_3_comp/Bba_B0015_comp_1"/>
-        <sbol:version>1</sbol:version>
-        <sbol:definition rdf:resource="https://synbioks.org/public/YTK/Bba_B0015/1"/>
-        <ns0:title>Bba_B0015</ns0:title>
-        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
-        <sbol:displayId>Bba_B0015_comp_1</sbol:displayId>
-      </sbol:Component>
-    </sbol:component>
-    <sbol:sequenceAnnotation>
-      <sbol:SequenceAnnotation rdf:about="http://examples.org/ComponentDefinition/sb6b00191_3_comp/Bba_B0015_anno_1/1">
-        <ns0:title>Bba_B0015</ns0:title>
-        <sbol:location>
-          <sbol:Range rdf:about="http://examples.org/ComponentDefinition/sb6b00191_3_comp/Bba_B0015_anno_1/Bba_B0015_anno_1_loc/1">
-            <sbol:version>1</sbol:version>
-            <sbol:start>820</sbol:start>
-            <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb6b00191_3_comp/Bba_B0015_anno_1/Bba_B0015_anno_1_loc"/>
-            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
-            <sbol:displayId>Bba_B0015_anno_1_loc</sbol:displayId>
-            <sbol:end>948</sbol:end>
-          </sbol:Range>
-        </sbol:location>
-        <sbol:version>1</sbol:version>
-        <sbol:displayId>Bba_B0015_anno_1</sbol:displayId>
-        <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb6b00191_3_comp/Bba_B0015_anno_1"/>
-        <sbol:component rdf:resource="http://examples.org/ComponentDefinition/sb6b00191_3_comp/Bba_B0015_comp_1/1"/>
-      </sbol:SequenceAnnotation>
-    </sbol:sequenceAnnotation>
-    <sbol:component>
-      <sbol:Component rdf:about="http://examples.org/ComponentDefinition/sb6b00191_3_comp/CamR_Terminator_comp_1/1">
-        <ns0:title>CamR Terminator</ns0:title>
-        <sbol:version>1</sbol:version>
-        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
-        <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb6b00191_3_comp/CamR_Terminator_comp_1"/>
-        <sbol:displayId>CamR_Terminator_comp_1</sbol:displayId>
-        <sbol:definition rdf:resource="https://synbioks.org/public/YTK/CamR_Terminator/1"/>
-      </sbol:Component>
-    </sbol:component>
-    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb6b00191_3_sequence/1"/>
-    <sbol:component>
-      <sbol:Component rdf:about="http://examples.org/ComponentDefinition/sb6b00191_3_comp/BBa_B0015_comp_1/1">
-        <sbol:version>1</sbol:version>
-        <sbol:displayId>BBa_B0015_comp_1</sbol:displayId>
-        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
-        <ns0:title>BBa_B0015</ns0:title>
-        <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb6b00191_3_comp/BBa_B0015_comp_1"/>
-        <sbol:definition rdf:resource="https://synbioks.org/public/Ecoflex/BBa_B0015/1"/>
-      </sbol:Component>
-    </sbol:component>
-  </sbol:ComponentDefinition>
-  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb6b00191_1_sequence/1">
-    <sbol:elements>gaattcttgacagctagctcagtcctaggtattgtgctagcggatcctcaacgcttcatataatcctaatgatatggtttgggagtttctaccaagagccttaaactcttgattatgaagtctgtcgctttatccgaaattttataaagagaagactatgaatgccatgatcatgagtaaaggagaagaacttttcactggagttgtcccaattcttgttgaattagatggtgatgttaatgggcaaaaattctctgtcacctgtacaatgcctctgcccgcaacccacgacatccaccttcacggctccatcaacggccacgagttcgacatggtggggggaggaaaaggcgacccgaacgccggctcgctggtgaccacagcgaaatccaccaagggtgccctgaagttctctccctacttgatgatcccccacctcgggtacgggtactaccagtacctcccctacccggacggaccctcgcctttccaggtctccatgttggaaggatcggggtatgcagtctaccgcgtgttcgactttgaagacggaggcaagctgtctaccgagtttaagtactcctacgagggttcccatatcaaggccgacatgaagctgatgggaagcggtttccctgacgacggcccagtcatgaccagccagattgtcgaccaggacggctgcgtgtccaagaagacgtatcttaacaacaacaccatcgtggacagcttcgactggagttacaacctgcagaatgggaagcgctacagggcccgagtgtcgagccactacatcttcgacaagcccttttcagccgatctcatgaagaagcagccggtcttcgtttaccgcaagtgccacgtgaaggctaccaagaccgaagtcaccctggacgagagggagaaggcgttctacgagctggcttaggaattcgcggccgctgcagtccggcaaaaaaacgggcaaggtgtcaccaccctgccctttttctttaaaaccgaaaagattacttcgcgttatgcaggcttcctcgctcactgactcgctgcgctcggtcgttcggctgcggcgagcggtatcagctcactcaaaggcggtaatcctagggcgttcggctgcggcgagcggtatcagctcactcaaaggcggtaatacggttatccacagaatcaggggataacgcaggaaagaacatgtgagcaaaaggccagcaaaaggccaggaaccgtaaaaaggccgcgttgctggcgtttttccataggctccgcccccctgacgagcatcacaaaaatcgacgctcaagtcagaggtggcgaaacccgacaggactataaagataccaggcgtttccccctggaagctccctcgtgcgctctcctgttccgaccctgccgcttaccggatacctgtccgcctttctcccttcgggaagcgtggcgctttctcaatgctcacgctgtaggtatctcagttcggtgtaggtcgttcgctccaagctgggctgtgtgcacgaaccccccgttcagcccgaccgctgcgccttatccggtaactatcgtcttgagtccaacccggtaagacacgacttatcgccactggcagcagccactggtaacaggattagcagagcgaggtatgtaggcggtgctacagagttcttgaagtggtggcctaactacggctacactagaaggacagtatttggtatctgcgctctgctgaagccagttaccttcggaaaaagagttggtagctcttgatccggcaaacaaaccaccgctggtagcggtggtttttttgtttgcaagcagcagattacgcgcagaaaaaaaggatctcaagaagatcctttgatcttttctacggggtctgacgctcagtggaacgaaaactcacgttaagggattttggtcatgacttgtgcttggattctcaccaataaaaaacgcccggcggcaaccgagcgttctgaacaaatccagatggagttctgaggtcattactggatctatcaacaggagtccaagcgagctcgatatcaaattacgccccgccctgccactcatcgcagtactgttgtaattcattaagcattctgccgacatggaagccatcacagacggcatgatgaacctgaatcgccagcggcatcagcaccttgtcgccttgcgtataatatttgcccatggtgaaaacgggggcgaagaagttgtccatattggccacgtttaaatcaaaactggtgaaactcacccagggattggctgagacgaaaaacatattctcaataaaccctttagggaaataggccaggttttcaccgtaacacgccacatcttgcgaatatatgtgtagaaactgccggaaatcgtcgtggtattcactccagagcgatgaaaacgtttcagtttgctcatggaaaacggtgtaacaagggtgaacactatcccatatcaccagctcaccgtctttcattgccatacgaaattccggatgagcattcatcaggcgggcaagaatgtgaataaaggccggataaaacttgtgcttatttttctttacggtctttaaaaaggccgtaatatccagctgaacggtctggttataggtacattgagcaactgactgaaatgcctcaaaatgttctttacgatgccattgggatatatcaacggtggtatatccagtgatttttttctccattttagcttccttagctcctgaaaatctcgataactcaaaaaatacgcccggtagtgatcttatttcattatggtgaaagttggaacctcttacgtgccgatcaacgtctcattttcgccagatatcgacgtctaagaaaccattattatcatgacattaacctataaaaataggcgtatcacgaggccctttcgtcttcacctcgagtgccacctgacgtctaagaaaccattattatcatgacattaacctataaaaataggcgtatcacgaggcagaatttcagataaaaaaaatccttagctttcgctaaggatgatttctg</sbol:elements>
-    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb6b00191_1_sequence"/>
     <sbol:version>1</sbol:version>
-    <sbol:displayId>sb6b00191_1_sequence</sbol:displayId>
-    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
-  </sbol:Sequence>
-  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb6b00191_1_comp/1">
-    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb6b00191_1_comp"/>
     <sbol:sequenceAnnotation>
       <sbol:SequenceAnnotation rdf:about="http://examples.org/ComponentDefinition/sb6b00191_1_comp/BBa_B0062_u45_R_anno_1/1">
-        <sbol:version>1</sbol:version>
-        <sbol:location>
-          <sbol:Range rdf:about="http://examples.org/ComponentDefinition/sb6b00191_1_comp/BBa_B0062_u45_R_anno_1/BBa_B0062_u45_R_anno_1_loc/1">
-            <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb6b00191_1_comp/BBa_B0062_u45_R_anno_1/BBa_B0062_u45_R_anno_1_loc"/>
-            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
-            <sbol:start>2988</sbol:start>
-            <sbol:displayId>BBa_B0062_u45_R_anno_1_loc</sbol:displayId>
-            <sbol:version>1</sbol:version>
-            <sbol:end>3028</sbol:end>
-          </sbol:Range>
-        </sbol:location>
-        <ns0:description>Natural terminator</ns0:description>
-        <sbol:displayId>BBa_B0062_u45_R_anno_1</sbol:displayId>
-        <ns0:title>BBa_B0062-R</ns0:title>
         <sbol:component rdf:resource="http://examples.org/ComponentDefinition/sb6b00191_1_comp/BBa_B0062_u45_R_comp_1/1"/>
         <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb6b00191_1_comp/BBa_B0062_u45_R_anno_1"/>
-      </sbol:SequenceAnnotation>
-    </sbol:sequenceAnnotation>
-    <sbol:version>1</sbol:version>
-    <sbol:component>
-      <sbol:Component rdf:about="http://examples.org/ComponentDefinition/sb6b00191_1_comp/BBa_B0062_u45_R_comp_1/1">
-        <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb6b00191_1_comp/BBa_B0062_u45_R_comp_1"/>
-        <sbol:version>1</sbol:version>
-        <sbol:definition rdf:resource="https://synbioks.org/public/Synbict_Annotation_Libraries/BBa_B0062_u45_R/1"/>
-        <ns0:title>BBa_B0062-R</ns0:title>
-        <sbol:displayId>BBa_B0062_u45_R_comp_1</sbol:displayId>
-        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
-      </sbol:Component>
-    </sbol:component>
-    <sbol:component>
-      <sbol:Component rdf:about="http://examples.org/ComponentDefinition/sb6b00191_1_comp/CamR_Terminator_comp_1/1">
-        <sbol:definition rdf:resource="https://synbioks.org/public/YTK/CamR_Terminator/1"/>
-        <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb6b00191_1_comp/CamR_Terminator_comp_1"/>
-        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
-        <sbol:displayId>CamR_Terminator_comp_1</sbol:displayId>
-        <sbol:version>1</sbol:version>
-        <ns0:title>CamR Terminator</ns0:title>
-      </sbol:Component>
-    </sbol:component>
-    <sbol:displayId>sb6b00191_1_comp</sbol:displayId>
-    <ns2:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.6b00191"/>
-    <sbol:sequenceAnnotation>
-      <sbol:SequenceAnnotation rdf:about="http://examples.org/ComponentDefinition/sb6b00191_1_comp/CamR_Terminator_anno_1/1">
-        <sbol:version>1</sbol:version>
-        <ns0:title>CamR Terminator</ns0:title>
         <sbol:location>
-          <sbol:Range rdf:about="http://examples.org/ComponentDefinition/sb6b00191_1_comp/CamR_Terminator_anno_1/CamR_Terminator_anno_1_loc/1">
+          <sbol:Range rdf:about="http://examples.org/ComponentDefinition/sb6b00191_1_comp/BBa_B0062_u45_R_anno_1/BBa_B0062_u45_R_anno_1_loc/1">
+            <sbol:displayId>BBa_B0062_u45_R_anno_1_loc</sbol:displayId>
+            <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb6b00191_1_comp/BBa_B0062_u45_R_anno_1/BBa_B0062_u45_R_anno_1_loc"/>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:end>3028</sbol:end>
             <sbol:version>1</sbol:version>
-            <sbol:displayId>CamR_Terminator_anno_1_loc</sbol:displayId>
-            <sbol:end>2044</sbol:end>
-            <sbol:start>1936</sbol:start>
-            <sbol:orientation rdf:resource="http://sbols.org/v2#reverseComplement"/>
-            <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb6b00191_1_comp/CamR_Terminator_anno_1/CamR_Terminator_anno_1_loc"/>
+            <sbol:start>2988</sbol:start>
           </sbol:Range>
         </sbol:location>
-        <sbol:displayId>CamR_Terminator_anno_1</sbol:displayId>
-        <sbol:component rdf:resource="http://examples.org/ComponentDefinition/sb6b00191_1_comp/CamR_Terminator_comp_1/1"/>
-        <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb6b00191_1_comp/CamR_Terminator_anno_1"/>
+        <sbol:displayId>BBa_B0062_u45_R_anno_1</sbol:displayId>
+        <ns1:title>BBa_B0062-R</ns1:title>
+        <ns1:description>Natural terminator</ns1:description>
+        <sbol:version>1</sbol:version>
       </sbol:SequenceAnnotation>
     </sbol:sequenceAnnotation>
-    <ns2:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
-    <sbol:component>
-      <sbol:Component rdf:about="http://examples.org/ComponentDefinition/sb6b00191_1_comp/BBa_B0057_comp_1/1">
-        <sbol:definition rdf:resource="https://synbioks.org/public/Synbict_Annotation_Libraries/BBa_B0057/1"/>
-        <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb6b00191_1_comp/BBa_B0057_comp_1"/>
-        <ns0:title>BBa_B0057</ns0:title>
-        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
-        <sbol:displayId>BBa_B0057_comp_1</sbol:displayId>
-        <sbol:version>1</sbol:version>
-      </sbol:Component>
-    </sbol:component>
-    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
-    <sbol:component>
-      <sbol:Component rdf:about="http://examples.org/ComponentDefinition/sb6b00191_1_comp/BBa_B0053_comp_1/1">
-        <sbol:definition rdf:resource="https://synbioks.org/public/Synbict_Annotation_Libraries/BBa_B0053/1"/>
-        <sbol:version>1</sbol:version>
-        <ns0:title>BBa_B0053</ns0:title>
-        <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb6b00191_1_comp/BBa_B0053_comp_1"/>
-        <sbol:displayId>BBa_B0053_comp_1</sbol:displayId>
-        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
-      </sbol:Component>
-    </sbol:component>
     <sbol:sequenceAnnotation>
       <sbol:SequenceAnnotation rdf:about="http://examples.org/ComponentDefinition/sb6b00191_1_comp/BBa_B0053_anno_1/1">
-        <ns0:title>BBa_B0053</ns0:title>
-        <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb6b00191_1_comp/BBa_B0053_anno_1"/>
-        <sbol:version>1</sbol:version>
-        <sbol:displayId>BBa_B0053_anno_1</sbol:displayId>
-        <ns0:description>Natural terminator</ns0:description>
+        <ns1:title>BBa_B0053</ns1:title>
         <sbol:location>
           <sbol:Range rdf:about="http://examples.org/ComponentDefinition/sb6b00191_1_comp/BBa_B0053_anno_1/BBa_B0053_anno_1_loc/1">
             <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb6b00191_1_comp/BBa_B0053_anno_1/BBa_B0053_anno_1_loc"/>
+            <sbol:start>948</sbol:start>
+            <sbol:end>1019</sbol:end>
             <sbol:version>1</sbol:version>
             <sbol:displayId>BBa_B0053_anno_1_loc</sbol:displayId>
             <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
-            <sbol:end>1019</sbol:end>
-            <sbol:start>948</sbol:start>
           </sbol:Range>
         </sbol:location>
         <sbol:component rdf:resource="http://examples.org/ComponentDefinition/sb6b00191_1_comp/BBa_B0053_comp_1/1"/>
+        <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb6b00191_1_comp/BBa_B0053_anno_1"/>
+        <sbol:displayId>BBa_B0053_anno_1</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <ns1:description>Natural terminator</ns1:description>
       </sbol:SequenceAnnotation>
     </sbol:sequenceAnnotation>
+    <sbol:displayId>sb6b00191_1_comp</sbol:displayId>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
     <sbol:sequenceAnnotation>
       <sbol:SequenceAnnotation rdf:about="http://examples.org/ComponentDefinition/sb6b00191_1_comp/BBa_B0057_anno_1/1">
         <sbol:location>
           <sbol:Range rdf:about="http://examples.org/ComponentDefinition/sb6b00191_1_comp/BBa_B0057_anno_1/BBa_B0057_anno_1_loc/1">
             <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb6b00191_1_comp/BBa_B0057_anno_1/BBa_B0057_anno_1_loc"/>
             <sbol:version>1</sbol:version>
+            <sbol:end>3029</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#reverseComplement"/>
             <sbol:displayId>BBa_B0057_anno_1_loc</sbol:displayId>
             <sbol:start>2988</sbol:start>
-            <sbol:orientation rdf:resource="http://sbols.org/v2#reverseComplement"/>
-            <sbol:end>3029</sbol:end>
           </sbol:Range>
         </sbol:location>
+        <ns1:description>Natural terminator</ns1:description>
+        <ns1:title>BBa_B0057</ns1:title>
         <sbol:component rdf:resource="http://examples.org/ComponentDefinition/sb6b00191_1_comp/BBa_B0057_comp_1/1"/>
-        <ns0:title>BBa_B0057</ns0:title>
         <sbol:displayId>BBa_B0057_anno_1</sbol:displayId>
-        <ns0:description>Natural terminator</ns0:description>
-        <sbol:version>1</sbol:version>
         <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb6b00191_1_comp/BBa_B0057_anno_1"/>
+        <sbol:version>1</sbol:version>
       </sbol:SequenceAnnotation>
     </sbol:sequenceAnnotation>
     <sbol:sequence rdf:resource="http://examples.org/Sequence/sb6b00191_1_sequence/1"/>
+    <sbol:component>
+      <sbol:Component rdf:about="http://examples.org/ComponentDefinition/sb6b00191_1_comp/BBa_B0057_comp_1/1">
+        <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb6b00191_1_comp/BBa_B0057_comp_1"/>
+        <ns1:title>BBa_B0057</ns1:title>
+        <sbol:version>1</sbol:version>
+        <sbol:displayId>BBa_B0057_comp_1</sbol:displayId>
+        <sbol:definition rdf:resource="https://synbioks.org/public/Natural_and_Synthetic_Terminators_Voigt_Lab/BBa_B0057/1"/>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+      </sbol:Component>
+    </sbol:component>
+    <sbol:component>
+      <sbol:Component rdf:about="http://examples.org/ComponentDefinition/sb6b00191_1_comp/BBa_B0062_u45_R_comp_1/1">
+        <sbol:definition rdf:resource="https://synbioks.org/public/Natural_and_Synthetic_Terminators_Voigt_Lab/BBa_B0062_u45_R/1"/>
+        <sbol:displayId>BBa_B0062_u45_R_comp_1</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb6b00191_1_comp/BBa_B0062_u45_R_comp_1"/>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <ns1:title>BBa_B0062-R</ns1:title>
+      </sbol:Component>
+    </sbol:component>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb6b00191_1_comp"/>
+    <sbol:component>
+      <sbol:Component rdf:about="http://examples.org/ComponentDefinition/sb6b00191_1_comp/BBa_B0053_comp_1/1">
+        <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb6b00191_1_comp/BBa_B0053_comp_1"/>
+        <sbol:displayId>BBa_B0053_comp_1</sbol:displayId>
+        <ns1:title>BBa_B0053</ns1:title>
+        <sbol:version>1</sbol:version>
+        <sbol:definition rdf:resource="https://synbioks.org/public/Natural_and_Synthetic_Terminators_Voigt_Lab/BBa_B0053/1"/>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+      </sbol:Component>
+    </sbol:component>
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.6b00191"/>
   </sbol:ComponentDefinition>
-  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb6b00191_2_sequence/1">
-    <sbol:displayId>sb6b00191_2_sequence</sbol:displayId>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb6b00191_4_sequence/1">
     <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
-    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb6b00191_2_sequence"/>
-    <sbol:elements>gaattcttgacagctagctcagtcctaggtattgtgctagcggatcctcaacgcttcatataatcctaatgatatggtttgggagtttctaccaagagccttaaactcttgattatgaagtctgtcgctttatccgaaattttataaagagaagactatgaatgccatgatcatgagtaaaggagaagaacttttcactggagttgtcccaattcttgttgaattagatggtgatgttaatgggcaaaaattctctgtcacctgtacaatgatcgaattgctctctgaatcgctggaagggctttccgccgccatgatcgccgagctgggacgctaccggcatcaggtcttcatcgagaagctgggctgggacgtggtctccacctccagggtccgcgaccaggaattcgaccagttcgaccatccgcaaacccgctacatcgtcgccatgagccgccagggcatctgcggttgcgcccgcctgctgccgacgaccgacgcctacctgctcaaggacgtcttcgcctacctgtgcagcgaaaccccgccgagcgatccgtcggtctgggagctttcgcgctacgccgccagcgcggcggacgatccgcagctggcgatgaagatattctggtccagcctgcaatgcgcctggtacctgggcgccagttcggtggtggcggtgaccaccacggccatggagcgctatttcgttcgcaacggcgtgatcctccagcgcctcggcccgccgcagaaggtcaagggcgagacgctggtcgcgatcagcttcccggcctaccaggagcgcggcctggagatgctgctgcgctaccacccggaatggctgcagggcgtaccgctgtcgatggcggtggctgcaaacgacgaaaactacgctttagtagcttgagaattcgcggccgctgcagtccggcaaaaaaacgggcaaggtgtcaccaccctgccctttttctttaaaaccgaaaagattacttcgcgttatgcaggcttcctcgctcactgactcgctgcgctcggtcgttcggctgcggcgagcggtatcagctcactcaaaggcggtaatcctagggcgttcggctgcggcgagcggtatcagctcactcaaaggcggtaatacggttatccacagaatcaggggataacgcaggaaagaacatgtgagcaaaaggccagcaaaaggccaggaaccgtaaaaaggccgcgttgctggcgtttttccataggctccgcccccctgacgagcatcacaaaaatcgacgctcaagtcagaggtggcgaaacccgacaggactataaagataccaggcgtttccccctggaagctccctcgtgcgctctcctgttccgaccctgccgcttaccggatacctgtccgcctttctcccttcgggaagcgtggcgctttctcaatgctcacgctgtaggtatctcagttcggtgtaggtcgttcgctccaagctgggctgtgtgcacgaaccccccgttcagcccgaccgctgcgccttatccggtaactatcgtcttgagtccaacccggtaagacacgacttatcgccactggcagcagccactggtaacaggattagcagagcgaggtatgtaggcggtgctacagagttcttgaagtggtggcctaactacggctacactagaaggacagtatttggtatctgcgctctgctgaagccagttaccttcggaaaaagagttggtagctcttgatccggcaaacaaaccaccgctggtagcggtggtttttttgtttgcaagcagcagattacgcgcagaaaaaaaggatctcaagaagatcctttgatcttttctacggggtctgacgctcagtggaacgaaaactcacgttaagggattttggtcatgacttgtgcttggattctcaccaataaaaaacgcccggcggcaaccgagcgttctgaacaaatccagatggagttctgaggtcattactggatctatcaacaggagtccaagcgagctcgatatcaaattacgccccgccctgccactcatcgcagtactgttgtaattcattaagcattctgccgacatggaagccatcacagacggcatgatgaacctgaatcgccagcggcatcagcaccttgtcgccttgcgtataatatttgcccatggtgaaaacgggggcgaagaagttgtccatattggccacgtttaaatcaaaactggtgaaactcacccagggattggctgagacgaaaaacatattctcaataaaccctttagggaaataggccaggttttcaccgtaacacgccacatcttgcgaatatatgtgtagaaactgccggaaatcgtcgtggtattcactccagagcgatgaaaacgtttcagtttgctcatggaaaacggtgtaacaagggtgaacactatcccatatcaccagctcaccgtctttcattgccatacgaaattccggatgagcattcatcaggcgggcaagaatgtgaataaaggccggataaaacttgtgcttatttttctttacggtctttaaaaaggccgtaatatccagctgaacggtctggttataggtacattgagcaactgactgaaatgcctcaaaatgttctttacgatgccattgggatatatcaacggtggtatatccagtgatttttttctccattttagcttccttagctcctgaaaatctcgataactcaaaaaatacgcccggtagtgatcttatttcattatggtgaaagttggaacctcttacgtgccgatcaacgtctcattttcgccagatatcgacgtctaagaaaccattattatcatgacattaacctataaaaataggcgtatcacgaggccctttcgtcttcacctcgagtgccacctgacgtctaagaaaccattattatcatgacattaacctataaaaataggcgtatcacgaggcagaatttcagataaaaaaaatccttagctttcgctaaggatgatttctg</sbol:elements>
+    <sbol:displayId>sb6b00191_4_sequence</sbol:displayId>
+    <sbol:elements>gggattggctgagacgaaaaacatattctcaataaaccctttagggaaataggccaggttttcaccgtaacacgccacatcttgcgaatatatgtgtagaaactgccggaaatcgtcgtggtattcactccagagcgatgaaaacgtttcagtttgctcatggaaaacggtgtaacaagggtgaacactatcccatatcaccagctcaccgtctttcattgccatacgaaattccggatgagcattcatcaggcgggcaagaatgtgaataaaggccggataaaacttgtgcttatttttctttacggtctttaaaaaggccgtaatatccagctgaacggtctggttataggtacattgagcaactgactgaaatgcctcaaaatgttctttacgatgccattgggatatatcaacggtggtatatccagtgatttttttctccattttagcttccttagctcctgaaaatctcgataactcaaaaaatacgcccggtagtgatcttatttcattatggtgaaagttggaacctcttacgtgccgatcaacgtctcattttcgccagatatcgacgtctaagaaaccattattatcatgacattaacctataaaaataggcgtatcacgaggccctttcgtcttcacctcgagtgccacctgacgtctaagaaaccattattatcatgacattaacctataaaaataggcgtatcacgaggcagaatttcagataaaaaaaatccttagctttcgctaaggatgatttc</sbol:elements>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb6b00191_4_sequence"/>
     <sbol:version>1</sbol:version>
   </sbol:Sequence>
   <sbol:Sequence rdf:about="http://examples.org/Sequence/sb6b00191_3_sequence/1">
+    <sbol:displayId>sb6b00191_3_sequence</sbol:displayId>
     <sbol:elements>gaattcgcggccgcttctagagcggccgcccgtcctgtgaaatctggcagttaccgttagctttcgaattggctaaaaagtgttcatcggctacgtactagagtcacacaggaaacctactagatgcctctgcccgcaacccacgacatccaccttcacggctccatcaacggccacgagttcgacatggtggggggaggaaaaggcgacccgaacgccggctcgctggtgaccacagcgaaatccaccaagggtgccctgaagttctctccctacttgatgatcccccacctcgggtacgggtactaccagtacctcccctacccggacggaccctcgcctttccaggtctccatgttggaaggatcggggtatgcagtctaccgcgtgttcgactttgaagacggaggcaagctgtctaccgagtttaagtactcctacgagggttcccatatcaaggccgacatgaagctgatgggaagcggtttccctgacgacggcccagtcatgaccagccagattgtcgaccaggacggctgcgtgtccaagaagacgtatcttaacaacaacaccatcgtggacagcttcgactggagttacaacctgcagaatgggaagcgctacagggcccgagtgtcgagccactacatcttcgacaagcccttttcagccgatctcatgaagaagcagccggtcttcgtttaccgcaagtgccacgtgaaggctaccaagaccgaagtcaccctggacgagagggagaaggcgttctacgagctggcttagtaacgctgatagtgctagtgtagatcgctactagagccaggcatcaaataaaacgaaaggctcagtcgaaagactgggcctttcgttttatctgttgtttgtcggtgaacgctctctactagagtcacactggctcaccttcgggtgggcctttctgcgtttatactagagttgacagctagctcagtcctagggattgtgctagctactagagaaagaggagaaatactagatgaggaatgacggaggctttttgctgtggtgggacggtttgcgtagcgagatgcagccgatccacgacagccagggcgtgttcgccgtcctggaaaaggaagtgcggcgcctgggcttcgattactacgcctatggcgtgcgccatacgattcccttcacccggccgaagaccgaggtccatggcacctatcccaaggcctggctggagcgataccagatgcagaactacggggccgtggatccggcgatcctcaacggcctgcgctcctcggaaatggtggtctggagcgacagcctgttcgaccagagccggatgctctggaacgaggctcgcgattggggcctctgtgtcggcgcgactttgccgatccgcgcgccgaacaatttgctcagcgtgctttccgtggcgcgcgaccagcagaacatctccagcttcgagcgcgaggaaatacgcctgcggctgcgttgcatgatcgagttgctgacccagaagctgaccgacctggagcatccgatgctgatgtccaacccggtctgcctgagccatcgcgaacgcgagatcctgcaatggaccgccgacggcaagagctccggggaaatcgccatcatcctgagcatttccgagagcacggtgaacttccaccacaagaacatccagaagaagttcgacgcgccgaacaagacgctggctgccgcctacgccgcggcgctgggcctcatctgataatactagtagcggccgctgcagtccggcaaaaaaacgggcaaggtgtcaccaccctgccctttttctttaaaaccgaaaagattacttcgcgttatgcaggcttcctcgctcactgactcgctgcgctcggtcgttcggctgcggcgagcggtatcagctcactcaaaggcggtaatcctagggcgttcggctgcggcgagcggtatcagctcactcaaaggcggtaatacggttatccacagaatcaggggataacgcaggaaagaacatgtgagcaaaaggccagcaaaaggccaggaaccgtaaaaaggccgcgttgctggcgtttttccataggctccgcccccctgacgagcatcacaaaaatcgacgctcaagtcagaggtggcgaaacccgacaggactataaagataccaggcgtttccccctggaagctccctcgtgcgctctcctgttccgaccctgccgcttaccggatacctgtccgcctttctcccttcgggaagcgtggcgctttctcaatgctcacgctgtaggtatctcagttcggtgtaggtcgttcgctccaagctgggctgtgtgcacgaaccccccgttcagcccgaccgctgcgccttatccggtaactatcgtcttgagtccaacccggtaagacacgacttatcgccactggcagcagccactggtaacaggattagcagagcgaggtatgtaggcggtgctacagagttcttgaagtggtggcctaactacggctacactagaaggacagtatttggtatctgcgctctgctgaagccagttaccttcggaaaaagagttggtagctcttgatccggcaaacaaaccaccgctggtagcggtggtttttttgtttgcaagcagcagattacgcgcagaaaaaaaggatctcaagaagatcctttgatcttttctacggggtctgacgctcagtggaacgaaaactcacgttaagggattttggtcatgacttgtgcttggattctcaccaataaaaaacgcccggcggcaaccgagcgttctgaacaaatccagatggagttctgaggtcattactggatctatcaacaggagtccaagcgagctcgatatcaaattacgccccgccctgccactcatcgcagtactgttgtaattcattaagcattctgccgacatggaagccatcacagacggcatgatgaacctgaatcgccagcggcatcagcaccttgtcgccttgcgtataatatttgcccatggtgaaaacgggggcgaagaagttgtccatattggccacgtttaaatcaaaactggtgaaactcaccca</sbol:elements>
     <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb6b00191_3_sequence"/>
-    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
-    <sbol:displayId>sb6b00191_3_sequence</sbol:displayId>
     <sbol:version>1</sbol:version>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
   </sbol:Sequence>
-  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb6b00191_4_sequence/1">
-    <sbol:displayId>sb6b00191_4_sequence</sbol:displayId>
-    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb6b00191_4_sequence"/>
-    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb6b00191_3_comp/1">
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="http://examples.org/ComponentDefinition/sb6b00191_3_comp/B0015_anno_1/1">
+        <ns1:title>B0015</ns1:title>
+        <ns1:description>Double terminator, rrnBT1-T7TE</ns1:description>
+        <sbol:version>1</sbol:version>
+        <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb6b00191_3_comp/B0015_anno_1"/>
+        <sbol:location>
+          <sbol:Range rdf:about="http://examples.org/ComponentDefinition/sb6b00191_3_comp/B0015_anno_1/B0015_anno_1_loc/1">
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:start>820</sbol:start>
+            <sbol:displayId>B0015_anno_1_loc</sbol:displayId>
+            <sbol:end>948</sbol:end>
+            <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb6b00191_3_comp/B0015_anno_1/B0015_anno_1_loc"/>
+            <sbol:version>1</sbol:version>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:component rdf:resource="http://examples.org/ComponentDefinition/sb6b00191_3_comp/B0015_comp_1/1"/>
+        <sbol:displayId>B0015_anno_1</sbol:displayId>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:component>
+      <sbol:Component rdf:about="http://examples.org/ComponentDefinition/sb6b00191_3_comp/BBa_B0053_comp_1/1">
+        <sbol:definition rdf:resource="https://synbioks.org/public/Natural_and_Synthetic_Terminators_Voigt_Lab/BBa_B0053/1"/>
+        <ns1:title>BBa_B0053</ns1:title>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb6b00191_3_comp/BBa_B0053_comp_1"/>
+        <sbol:version>1</sbol:version>
+        <sbol:displayId>BBa_B0053_comp_1</sbol:displayId>
+      </sbol:Component>
+    </sbol:component>
+    <sbol:displayId>sb6b00191_3_comp</sbol:displayId>
+    <sbh:supplementalFile rdf:resource="sb6b00191/suppl/sb-2016-00191d_si_001.pdf"/>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="http://examples.org/ComponentDefinition/sb6b00191_3_comp/CamR_u32_Terminator_anno_1/1">
+        <sbol:displayId>CamR_u32_Terminator_anno_1</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb6b00191_3_comp/CamR_u32_Terminator_anno_1"/>
+        <ns1:title>CamR Terminator</ns1:title>
+        <sbol:component rdf:resource="http://examples.org/ComponentDefinition/sb6b00191_3_comp/CamR_u32_Terminator_comp_1/1"/>
+        <sbol:location>
+          <sbol:Range rdf:about="http://examples.org/ComponentDefinition/sb6b00191_3_comp/CamR_u32_Terminator_anno_1/CamR_u32_Terminator_anno_1_loc/1">
+            <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb6b00191_3_comp/CamR_u32_Terminator_anno_1/CamR_u32_Terminator_anno_1_loc"/>
+            <sbol:start>2754</sbol:start>
+            <sbol:displayId>CamR_u32_Terminator_anno_1_loc</sbol:displayId>
+            <sbol:end>2862</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#reverseComplement"/>
+            <sbol:version>1</sbol:version>
+          </sbol:Range>
+        </sbol:location>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="http://examples.org/ComponentDefinition/sb6b00191_3_comp/BBa_B0053_anno_1/1">
+        <sbol:component rdf:resource="http://examples.org/ComponentDefinition/sb6b00191_3_comp/BBa_B0053_comp_1/1"/>
+        <sbol:location>
+          <sbol:Range rdf:about="http://examples.org/ComponentDefinition/sb6b00191_3_comp/BBa_B0053_anno_1/BBa_B0053_anno_1_loc/1">
+            <sbol:version>1</sbol:version>
+            <sbol:displayId>BBa_B0053_anno_1_loc</sbol:displayId>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:end>1837</sbol:end>
+            <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb6b00191_3_comp/BBa_B0053_anno_1/BBa_B0053_anno_1_loc"/>
+            <sbol:start>1766</sbol:start>
+          </sbol:Range>
+        </sbol:location>
+        <ns1:title>BBa_B0053</ns1:title>
+        <sbol:version>1</sbol:version>
+        <ns1:description>Natural terminator</ns1:description>
+        <sbol:displayId>BBa_B0053_anno_1</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb6b00191_3_comp/BBa_B0053_anno_1"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:component>
+      <sbol:Component rdf:about="http://examples.org/ComponentDefinition/sb6b00191_3_comp/CamR_u32_Terminator_comp_1/1">
+        <sbol:version>1</sbol:version>
+        <sbol:displayId>CamR_u32_Terminator_comp_1</sbol:displayId>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <ns1:title>CamR Terminator</ns1:title>
+        <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb6b00191_3_comp/CamR_u32_Terminator_comp_1"/>
+        <sbol:definition rdf:resource="https://synbioks.org/public/MoClo_Yeast_Toolkit_Dueber_Lab/CamR_u32_Terminator/1"/>
+      </sbol:Component>
+    </sbol:component>
     <sbol:version>1</sbol:version>
-    <sbol:elements>gggattggctgagacgaaaaacatattctcaataaaccctttagggaaataggccaggttttcaccgtaacacgccacatcttgcgaatatatgtgtagaaactgccggaaatcgtcgtggtattcactccagagcgatgaaaacgtttcagtttgctcatggaaaacggtgtaacaagggtgaacactatcccatatcaccagctcaccgtctttcattgccatacgaaattccggatgagcattcatcaggcgggcaagaatgtgaataaaggccggataaaacttgtgcttatttttctttacggtctttaaaaaggccgtaatatccagctgaacggtctggttataggtacattgagcaactgactgaaatgcctcaaaatgttctttacgatgccattgggatatatcaacggtggtatatccagtgatttttttctccattttagcttccttagctcctgaaaatctcgataactcaaaaaatacgcccggtagtgatcttatttcattatggtgaaagttggaacctcttacgtgccgatcaacgtctcattttcgccagatatcgacgtctaagaaaccattattatcatgacattaacctataaaaataggcgtatcacgaggccctttcgtcttcacctcgagtgccacctgacgtctaagaaaccattattatcatgacattaacctataaaaataggcgtatcacgaggcagaatttcagataaaaaaaatccttagctttcgctaaggatgatttc</sbol:elements>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb6b00191_3_comp"/>
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.6b00191"/>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="http://examples.org/ComponentDefinition/sb6b00191_3_comp/Bba_B0015_anno_1/1">
+        <sbol:location>
+          <sbol:Range rdf:about="http://examples.org/ComponentDefinition/sb6b00191_3_comp/Bba_B0015_anno_1/Bba_B0015_anno_1_loc/1">
+            <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb6b00191_3_comp/Bba_B0015_anno_1/Bba_B0015_anno_1_loc"/>
+            <sbol:version>1</sbol:version>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:displayId>Bba_B0015_anno_1_loc</sbol:displayId>
+            <sbol:end>948</sbol:end>
+            <sbol:start>820</sbol:start>
+          </sbol:Range>
+        </sbol:location>
+        <ns1:title>Bba_B0015</ns1:title>
+        <sbol:displayId>Bba_B0015_anno_1</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb6b00191_3_comp/Bba_B0015_anno_1"/>
+        <sbol:version>1</sbol:version>
+        <sbol:component rdf:resource="http://examples.org/ComponentDefinition/sb6b00191_3_comp/Bba_B0015_comp_1/1"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:component>
+      <sbol:Component rdf:about="http://examples.org/ComponentDefinition/sb6b00191_3_comp/B0015_comp_1/1">
+        <sbol:definition rdf:resource="https://synbioks.org/public/CIDAR_MoClo_Toolkit_Densmore_Lab/B0015/1"/>
+        <sbol:displayId>B0015_comp_1</sbol:displayId>
+        <ns1:title>B0015</ns1:title>
+        <sbol:version>1</sbol:version>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb6b00191_3_comp/B0015_comp_1"/>
+      </sbol:Component>
+    </sbol:component>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbol:component>
+      <sbol:Component rdf:about="http://examples.org/ComponentDefinition/sb6b00191_3_comp/Bba_B0015_comp_1/1">
+        <ns1:title>Bba_B0015</ns1:title>
+        <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb6b00191_3_comp/Bba_B0015_comp_1"/>
+        <sbol:displayId>Bba_B0015_comp_1</sbol:displayId>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:definition rdf:resource="https://synbioks.org/public/MoClo_Yeast_Toolkit_Dueber_Lab/Bba_B0015/1"/>
+        <sbol:version>1</sbol:version>
+      </sbol:Component>
+    </sbol:component>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb6b00191_3_sequence/1"/>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb6b00191_2_comp/1">
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.6b00191"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb6b00191_2_comp"/>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="http://examples.org/ComponentDefinition/sb6b00191_2_comp/BBa_B0053_anno_1/1">
+        <sbol:component rdf:resource="http://examples.org/ComponentDefinition/sb6b00191_2_comp/BBa_B0053_comp_1/1"/>
+        <ns1:description>Natural terminator</ns1:description>
+        <sbol:displayId>BBa_B0053_anno_1</sbol:displayId>
+        <sbol:location>
+          <sbol:Range rdf:about="http://examples.org/ComponentDefinition/sb6b00191_2_comp/BBa_B0053_anno_1/BBa_B0053_anno_1_loc/1">
+            <sbol:version>1</sbol:version>
+            <sbol:end>998</sbol:end>
+            <sbol:displayId>BBa_B0053_anno_1_loc</sbol:displayId>
+            <sbol:start>927</sbol:start>
+            <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb6b00191_2_comp/BBa_B0053_anno_1/BBa_B0053_anno_1_loc"/>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+        <ns1:title>BBa_B0053</ns1:title>
+        <sbol:version>1</sbol:version>
+        <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb6b00191_2_comp/BBa_B0053_anno_1"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:component>
+      <sbol:Component rdf:about="http://examples.org/ComponentDefinition/sb6b00191_2_comp/BBa_B0053_comp_1/1">
+        <sbol:definition rdf:resource="https://synbioks.org/public/Natural_and_Synthetic_Terminators_Voigt_Lab/BBa_B0053/1"/>
+        <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb6b00191_2_comp/BBa_B0053_comp_1"/>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:displayId>BBa_B0053_comp_1</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <ns1:title>BBa_B0053</ns1:title>
+      </sbol:Component>
+    </sbol:component>
+    <sbol:component>
+      <sbol:Component rdf:about="http://examples.org/ComponentDefinition/sb6b00191_2_comp/BBa_B0057_comp_1/1">
+        <sbol:version>1</sbol:version>
+        <sbol:displayId>BBa_B0057_comp_1</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb6b00191_2_comp/BBa_B0057_comp_1"/>
+        <ns1:title>BBa_B0057</ns1:title>
+        <sbol:definition rdf:resource="https://synbioks.org/public/Natural_and_Synthetic_Terminators_Voigt_Lab/BBa_B0057/1"/>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+      </sbol:Component>
+    </sbol:component>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb6b00191_2_sequence/1"/>
+    <sbol:component>
+      <sbol:Component rdf:about="http://examples.org/ComponentDefinition/sb6b00191_2_comp/BBa_B0062_u45_R_comp_1/1">
+        <sbol:displayId>BBa_B0062_u45_R_comp_1</sbol:displayId>
+        <sbol:definition rdf:resource="https://synbioks.org/public/Natural_and_Synthetic_Terminators_Voigt_Lab/BBa_B0062_u45_R/1"/>
+        <ns1:title>BBa_B0062-R</ns1:title>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:version>1</sbol:version>
+        <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb6b00191_2_comp/BBa_B0062_u45_R_comp_1"/>
+      </sbol:Component>
+    </sbol:component>
+    <sbh:supplementalFile rdf:resource="sb6b00191/suppl/sb-2016-00191d_si_001.pdf"/>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="http://examples.org/ComponentDefinition/sb6b00191_2_comp/BBa_B0062_u45_R_anno_1/1">
+        <sbol:displayId>BBa_B0062_u45_R_anno_1</sbol:displayId>
+        <ns1:title>BBa_B0062-R</ns1:title>
+        <sbol:version>1</sbol:version>
+        <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb6b00191_2_comp/BBa_B0062_u45_R_anno_1"/>
+        <ns1:description>Natural terminator</ns1:description>
+        <sbol:component rdf:resource="http://examples.org/ComponentDefinition/sb6b00191_2_comp/BBa_B0062_u45_R_comp_1/1"/>
+        <sbol:location>
+          <sbol:Range rdf:about="http://examples.org/ComponentDefinition/sb6b00191_2_comp/BBa_B0062_u45_R_anno_1/BBa_B0062_u45_R_anno_1_loc/1">
+            <sbol:displayId>BBa_B0062_u45_R_anno_1_loc</sbol:displayId>
+            <sbol:version>1</sbol:version>
+            <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb6b00191_2_comp/BBa_B0062_u45_R_anno_1/BBa_B0062_u45_R_anno_1_loc"/>
+            <sbol:end>3007</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:start>2967</sbol:start>
+          </sbol:Range>
+        </sbol:location>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:version>1</sbol:version>
+    <sbol:component>
+      <sbol:Component rdf:about="http://examples.org/ComponentDefinition/sb6b00191_2_comp/CamR_u32_Terminator_comp_1/1">
+        <sbol:definition rdf:resource="https://synbioks.org/public/MoClo_Yeast_Toolkit_Dueber_Lab/CamR_u32_Terminator/1"/>
+        <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb6b00191_2_comp/CamR_u32_Terminator_comp_1"/>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:version>1</sbol:version>
+        <sbol:displayId>CamR_u32_Terminator_comp_1</sbol:displayId>
+        <ns1:title>CamR Terminator</ns1:title>
+      </sbol:Component>
+    </sbol:component>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbol:displayId>sb6b00191_2_comp</sbol:displayId>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="http://examples.org/ComponentDefinition/sb6b00191_2_comp/CamR_u32_Terminator_anno_1/1">
+        <ns1:title>CamR Terminator</ns1:title>
+        <sbol:displayId>CamR_u32_Terminator_anno_1</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb6b00191_2_comp/CamR_u32_Terminator_anno_1"/>
+        <sbol:version>1</sbol:version>
+        <sbol:location>
+          <sbol:Range rdf:about="http://examples.org/ComponentDefinition/sb6b00191_2_comp/CamR_u32_Terminator_anno_1/CamR_u32_Terminator_anno_1_loc/1">
+            <sbol:start>1915</sbol:start>
+            <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb6b00191_2_comp/CamR_u32_Terminator_anno_1/CamR_u32_Terminator_anno_1_loc"/>
+            <sbol:version>1</sbol:version>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#reverseComplement"/>
+            <sbol:end>2023</sbol:end>
+            <sbol:displayId>CamR_u32_Terminator_anno_1_loc</sbol:displayId>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:component rdf:resource="http://examples.org/ComponentDefinition/sb6b00191_2_comp/CamR_u32_Terminator_comp_1/1"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="http://examples.org/ComponentDefinition/sb6b00191_2_comp/BBa_B0057_anno_1/1">
+        <sbol:location>
+          <sbol:Range rdf:about="http://examples.org/ComponentDefinition/sb6b00191_2_comp/BBa_B0057_anno_1/BBa_B0057_anno_1_loc/1">
+            <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb6b00191_2_comp/BBa_B0057_anno_1/BBa_B0057_anno_1_loc"/>
+            <sbol:version>1</sbol:version>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#reverseComplement"/>
+            <sbol:displayId>BBa_B0057_anno_1_loc</sbol:displayId>
+            <sbol:end>3008</sbol:end>
+            <sbol:start>2967</sbol:start>
+          </sbol:Range>
+        </sbol:location>
+        <ns1:description>Natural terminator</ns1:description>
+        <ns1:title>BBa_B0057</ns1:title>
+        <sbol:version>1</sbol:version>
+        <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb6b00191_2_comp/BBa_B0057_anno_1"/>
+        <sbol:displayId>BBa_B0057_anno_1</sbol:displayId>
+        <sbol:component rdf:resource="http://examples.org/ComponentDefinition/sb6b00191_2_comp/BBa_B0057_comp_1/1"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+  </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb6b00191_1_sequence/1">
+    <sbol:displayId>sb6b00191_1_sequence</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <sbol:elements>gaattcttgacagctagctcagtcctaggtattgtgctagcggatcctcaacgcttcatataatcctaatgatatggtttgggagtttctaccaagagccttaaactcttgattatgaagtctgtcgctttatccgaaattttataaagagaagactatgaatgccatgatcatgagtaaaggagaagaacttttcactggagttgtcccaattcttgttgaattagatggtgatgttaatgggcaaaaattctctgtcacctgtacaatgcctctgcccgcaacccacgacatccaccttcacggctccatcaacggccacgagttcgacatggtggggggaggaaaaggcgacccgaacgccggctcgctggtgaccacagcgaaatccaccaagggtgccctgaagttctctccctacttgatgatcccccacctcgggtacgggtactaccagtacctcccctacccggacggaccctcgcctttccaggtctccatgttggaaggatcggggtatgcagtctaccgcgtgttcgactttgaagacggaggcaagctgtctaccgagtttaagtactcctacgagggttcccatatcaaggccgacatgaagctgatgggaagcggtttccctgacgacggcccagtcatgaccagccagattgtcgaccaggacggctgcgtgtccaagaagacgtatcttaacaacaacaccatcgtggacagcttcgactggagttacaacctgcagaatgggaagcgctacagggcccgagtgtcgagccactacatcttcgacaagcccttttcagccgatctcatgaagaagcagccggtcttcgtttaccgcaagtgccacgtgaaggctaccaagaccgaagtcaccctggacgagagggagaaggcgttctacgagctggcttaggaattcgcggccgctgcagtccggcaaaaaaacgggcaaggtgtcaccaccctgccctttttctttaaaaccgaaaagattacttcgcgttatgcaggcttcctcgctcactgactcgctgcgctcggtcgttcggctgcggcgagcggtatcagctcactcaaaggcggtaatcctagggcgttcggctgcggcgagcggtatcagctcactcaaaggcggtaatacggttatccacagaatcaggggataacgcaggaaagaacatgtgagcaaaaggccagcaaaaggccaggaaccgtaaaaaggccgcgttgctggcgtttttccataggctccgcccccctgacgagcatcacaaaaatcgacgctcaagtcagaggtggcgaaacccgacaggactataaagataccaggcgtttccccctggaagctccctcgtgcgctctcctgttccgaccctgccgcttaccggatacctgtccgcctttctcccttcgggaagcgtggcgctttctcaatgctcacgctgtaggtatctcagttcggtgtaggtcgttcgctccaagctgggctgtgtgcacgaaccccccgttcagcccgaccgctgcgccttatccggtaactatcgtcttgagtccaacccggtaagacacgacttatcgccactggcagcagccactggtaacaggattagcagagcgaggtatgtaggcggtgctacagagttcttgaagtggtggcctaactacggctacactagaaggacagtatttggtatctgcgctctgctgaagccagttaccttcggaaaaagagttggtagctcttgatccggcaaacaaaccaccgctggtagcggtggtttttttgtttgcaagcagcagattacgcgcagaaaaaaaggatctcaagaagatcctttgatcttttctacggggtctgacgctcagtggaacgaaaactcacgttaagggattttggtcatgacttgtgcttggattctcaccaataaaaaacgcccggcggcaaccgagcgttctgaacaaatccagatggagttctgaggtcattactggatctatcaacaggagtccaagcgagctcgatatcaaattacgccccgccctgccactcatcgcagtactgttgtaattcattaagcattctgccgacatggaagccatcacagacggcatgatgaacctgaatcgccagcggcatcagcaccttgtcgccttgcgtataatatttgcccatggtgaaaacgggggcgaagaagttgtccatattggccacgtttaaatcaaaactggtgaaactcacccagggattggctgagacgaaaaacatattctcaataaaccctttagggaaataggccaggttttcaccgtaacacgccacatcttgcgaatatatgtgtagaaactgccggaaatcgtcgtggtattcactccagagcgatgaaaacgtttcagtttgctcatggaaaacggtgtaacaagggtgaacactatcccatatcaccagctcaccgtctttcattgccatacgaaattccggatgagcattcatcaggcgggcaagaatgtgaataaaggccggataaaacttgtgcttatttttctttacggtctttaaaaaggccgtaatatccagctgaacggtctggttataggtacattgagcaactgactgaaatgcctcaaaatgttctttacgatgccattgggatatatcaacggtggtatatccagtgatttttttctccattttagcttccttagctcctgaaaatctcgataactcaaaaaatacgcccggtagtgatcttatttcattatggtgaaagttggaacctcttacgtgccgatcaacgtctcattttcgccagatatcgacgtctaagaaaccattattatcatgacattaacctataaaaataggcgtatcacgaggccctttcgtcttcacctcgagtgccacctgacgtctaagaaaccattattatcatgacattaacctataaaaataggcgtatcacgaggcagaatttcagataaaaaaaatccttagctttcgctaaggatgatttctg</sbol:elements>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb6b00191_1_sequence"/>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb6b00191_2_sequence/1">
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:elements>gaattcttgacagctagctcagtcctaggtattgtgctagcggatcctcaacgcttcatataatcctaatgatatggtttgggagtttctaccaagagccttaaactcttgattatgaagtctgtcgctttatccgaaattttataaagagaagactatgaatgccatgatcatgagtaaaggagaagaacttttcactggagttgtcccaattcttgttgaattagatggtgatgttaatgggcaaaaattctctgtcacctgtacaatgatcgaattgctctctgaatcgctggaagggctttccgccgccatgatcgccgagctgggacgctaccggcatcaggtcttcatcgagaagctgggctgggacgtggtctccacctccagggtccgcgaccaggaattcgaccagttcgaccatccgcaaacccgctacatcgtcgccatgagccgccagggcatctgcggttgcgcccgcctgctgccgacgaccgacgcctacctgctcaaggacgtcttcgcctacctgtgcagcgaaaccccgccgagcgatccgtcggtctgggagctttcgcgctacgccgccagcgcggcggacgatccgcagctggcgatgaagatattctggtccagcctgcaatgcgcctggtacctgggcgccagttcggtggtggcggtgaccaccacggccatggagcgctatttcgttcgcaacggcgtgatcctccagcgcctcggcccgccgcagaaggtcaagggcgagacgctggtcgcgatcagcttcccggcctaccaggagcgcggcctggagatgctgctgcgctaccacccggaatggctgcagggcgtaccgctgtcgatggcggtggctgcaaacgacgaaaactacgctttagtagcttgagaattcgcggccgctgcagtccggcaaaaaaacgggcaaggtgtcaccaccctgccctttttctttaaaaccgaaaagattacttcgcgttatgcaggcttcctcgctcactgactcgctgcgctcggtcgttcggctgcggcgagcggtatcagctcactcaaaggcggtaatcctagggcgttcggctgcggcgagcggtatcagctcactcaaaggcggtaatacggttatccacagaatcaggggataacgcaggaaagaacatgtgagcaaaaggccagcaaaaggccaggaaccgtaaaaaggccgcgttgctggcgtttttccataggctccgcccccctgacgagcatcacaaaaatcgacgctcaagtcagaggtggcgaaacccgacaggactataaagataccaggcgtttccccctggaagctccctcgtgcgctctcctgttccgaccctgccgcttaccggatacctgtccgcctttctcccttcgggaagcgtggcgctttctcaatgctcacgctgtaggtatctcagttcggtgtaggtcgttcgctccaagctgggctgtgtgcacgaaccccccgttcagcccgaccgctgcgccttatccggtaactatcgtcttgagtccaacccggtaagacacgacttatcgccactggcagcagccactggtaacaggattagcagagcgaggtatgtaggcggtgctacagagttcttgaagtggtggcctaactacggctacactagaaggacagtatttggtatctgcgctctgctgaagccagttaccttcggaaaaagagttggtagctcttgatccggcaaacaaaccaccgctggtagcggtggtttttttgtttgcaagcagcagattacgcgcagaaaaaaaggatctcaagaagatcctttgatcttttctacggggtctgacgctcagtggaacgaaaactcacgttaagggattttggtcatgacttgtgcttggattctcaccaataaaaaacgcccggcggcaaccgagcgttctgaacaaatccagatggagttctgaggtcattactggatctatcaacaggagtccaagcgagctcgatatcaaattacgccccgccctgccactcatcgcagtactgttgtaattcattaagcattctgccgacatggaagccatcacagacggcatgatgaacctgaatcgccagcggcatcagcaccttgtcgccttgcgtataatatttgcccatggtgaaaacgggggcgaagaagttgtccatattggccacgtttaaatcaaaactggtgaaactcacccagggattggctgagacgaaaaacatattctcaataaaccctttagggaaataggccaggttttcaccgtaacacgccacatcttgcgaatatatgtgtagaaactgccggaaatcgtcgtggtattcactccagagcgatgaaaacgtttcagtttgctcatggaaaacggtgtaacaagggtgaacactatcccatatcaccagctcaccgtctttcattgccatacgaaattccggatgagcattcatcaggcgggcaagaatgtgaataaaggccggataaaacttgtgcttatttttctttacggtctttaaaaaggccgtaatatccagctgaacggtctggttataggtacattgagcaactgactgaaatgcctcaaaatgttctttacgatgccattgggatatatcaacggtggtatatccagtgatttttttctccattttagcttccttagctcctgaaaatctcgataactcaaaaaatacgcccggtagtgatcttatttcattatggtgaaagttggaacctcttacgtgccgatcaacgtctcattttcgccagatatcgacgtctaagaaaccattattatcatgacattaacctataaaaataggcgtatcacgaggccctttcgtcttcacctcgagtgccacctgacgtctaagaaaccattattatcatgacattaacctataaaaataggcgtatcacgaggcagaatttcagataaaaaaaatccttagctttcgctaaggatgatttctg</sbol:elements>
+    <sbol:displayId>sb6b00191_2_sequence</sbol:displayId>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb6b00191_2_sequence"/>
+    <sbol:version>1</sbol:version>
   </sbol:Sequence>
 </rdf:RDF>

@@ -1,64 +1,36 @@
-<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:sbol="http://sbols.org/v2#" xmlns:ns0="http://purl.org/dc/terms/" xmlns:ns1="http://wiki.synbiohub.org/wiki/Terms/synbiohub#" xmlns:ns2="http://purl.obolibrary.org/obo/" xmlns:ns3="http://www.w3.org/ns/prov#" xmlns:ns4="http://purl.org/dc/elements/1.1/">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:sbh="https://wiki.synbiohub.org/wiki/Terms/synbiohub#" xmlns:sbol="http://sbols.org/v2#" xmlns:ns0="http://www.w3.org/ns/prov#">
   <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb8b00437_1_comp/1">
-    <sbol:displayId>sb8b00437_1_comp</sbol:displayId>
-    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb8b00437_1_sequence/1"/>
-    <ns3:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.8b00437"/>
-    <sbol:version>1</sbol:version>
     <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00437_1_comp"/>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb8b00437_1_sequence/1"/>
+    <sbol:displayId>sb8b00437_1_comp</sbol:displayId>
+    <sbh:supplementalFile rdf:resource="sb8b00437/suppl/sb-2018-004373_si_001.pdf"/>
+    <sbol:version>1</sbol:version>
     <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
-    <ns3:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.8b00437"/>
   </sbol:ComponentDefinition>
   <sbol:Sequence rdf:about="http://examples.org/Sequence/sb8b00437_2_sequence/1">
+    <sbol:displayId>sb8b00437_2_sequence</sbol:displayId>
     <sbol:elements>gagcgtgacaccacgatgctgcatgacaaagtcatcg</sbol:elements>
     <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
     <sbol:version>1</sbol:version>
-    <sbol:displayId>sb8b00437_2_sequence</sbol:displayId>
     <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb8b00437_2_sequence"/>
   </sbol:Sequence>
   <sbol:Sequence rdf:about="http://examples.org/Sequence/sb8b00437_1_sequence/1">
     <sbol:displayId>sb8b00437_1_sequence</sbol:displayId>
-    <sbol:version>1</sbol:version>
     <sbol:elements>gatgtatgctcttctgctctagctagaggatcgatcct</sbol:elements>
-    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb8b00437_1_sequence"/>
     <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb8b00437_1_sequence"/>
+    <sbol:version>1</sbol:version>
   </sbol:Sequence>
   <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb8b00437_2_comp/1">
-    <sbol:displayId>sb8b00437_2_comp</sbol:displayId>
-    <ns3:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
-    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
-    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb8b00437_2_sequence/1"/>
     <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00437_2_comp"/>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbol:displayId>sb8b00437_2_comp</sbol:displayId>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbh:supplementalFile rdf:resource="sb8b00437/suppl/sb-2018-004373_si_001.pdf"/>
     <sbol:version>1</sbol:version>
-    <ns3:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.8b00437"/>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb8b00437_2_sequence/1"/>
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.8b00437"/>
   </sbol:ComponentDefinition>
-  <sbol:Collection rdf:about="http://examples.org/Collection/sb8b00437/1">
-    <ns0:type rdf:resource="http://purl.org/dc/dcmitype/Text"/>
-    <sbol:member rdf:resource="http://examples.org/Sequence/sb8b00437_2_sequence/1"/>
-    <ns1:ownedBy rdf:resource="https://synbioks.org/user/myers"/>
-    <ns2:OBI_0002110>10.1021/acssynbio.8b00437</ns2:OBI_0002110>
-    <ns4:type>research-article</ns4:type>
-    <sbol:version>1</sbol:version>
-    <ns0:references>Zheng, X. Y., O&#8217;Shea, E. K. Cyanobacteria maintain constant protein concentration despite genome copy-number variation Cell Rep. 2017. 19:497-504.</ns0:references>
-    <ns0:dateCopyrighted>2018</ns0:dateCopyrighted>
-    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb8b00437_1_comp/1"/>
-    <ns4:creator>Zi-Qian Wang</ns4:creator>
-    <ns1:topLevel rdf:resource="https://synbioks.org/public/ACS/sb8b00437/1"/>
-    <ns2:OBI_0001617>30525474</ns2:OBI_0001617>
-    <ns0:description>CRISPR systems, such as CRISPR-Cas9 and CRISPR-Cpf1, have been successfully used for genome editing in a variety of organisms. Although the technique of CRISPR-Cpf1 has been applied in cyanobacteria recently, its use was limited without exploiting the full potential of such a powerful genetic system. Using the cyanobacterium Anabaena PCC 7120 as a model strain, we improved the tools and designed genetic strategies based on CRISPR-Cpf1, which enabled us to realize genetic experiments that have been so far difficult to do in cyanobacteria. The development includes: (1) a &#8220;two-spacers&#8221; strategy for single genomic modification, with a success rate close to 100%; (2) rapid multiple genome editing using editing plasmids with different resistance markers; (3) using sacB, a counter-selection marker conferring sucrose sensitivity, to enable the active loss of the editing plasmids and facilitate multiple rounds of genetic modification or phenotypic analysis; (4) manipulation of essential genes by the creation of conditional mutants, using as example, polA encoding the DNA polymerase I essential for DNA replication and repair; (5) large DNA fragment deletion, up to 118 kb, from the Anabaena chromosome, corresponding to the largest bacterial chromosomal region removed with CRISPR systems so far. The genome editing vectors and the strategies developed here will expand our ability to study and engineer cyanobacteria, which are extensively used for fundamental studies, biotechnological applications including biofuel production, and synthetic biology research. The vectors developed here have a broad host range, and could be readily used for genetic modification in other microorganisms.</ns0:description>
-    <ns4:publisher>American Chemical
-Society</ns4:publisher>
-    <ns4:subject>large DNA fragment
-deletion</ns4:subject>
-    <sbol:member rdf:resource="http://examples.org/Sequence/sb8b00437_1_sequence/1"/>
-    <ns0:dateSubmitted>2018-10-23</ns0:dateSubmitted>
-    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb8b00437_2_comp/1"/>
-    <ns0:abstract>CRISPR systems, such as CRISPR-Cas9 and CRISPR-Cpf1, have been successfully used for genome editing in a variety of organisms. Although the technique of CRISPR-Cpf1 has been applied in cyanobacteria recently, its use was limited without exploiting the full potential of such a powerful genetic system. Using the cyanobacterium Anabaena PCC 7120 as a model strain, we improved the tools and designed genetic strategies based on CRISPR-Cpf1, which enabled us to realize genetic experiments that have been so far difficult to do in cyanobacteria. The development includes: (1) a &#8220;two-spacers&#8221; strategy for single genomic modification, with a success rate close to 100%; (2) rapid multiple genome editing using editing plasmids with different resistance markers; (3) using sacB, a counter-selection marker conferring sucrose sensitivity, to enable the active loss of the editing plasmids and facilitate multiple rounds of genetic modification or phenotypic analysis; (4) manipulation of essential genes by the creation of conditional mutants, using as example, polA encoding the DNA polymerase I essential for DNA replication and repair; (5) large DNA fragment deletion, up to 118 kb, from the Anabaena chromosome, corresponding to the largest bacterial chromosomal region removed with CRISPR systems so far. The genome editing vectors and the strategies developed here will expand our ability to study and engineer cyanobacteria, which are extensively used for fundamental studies, biotechnological applications including biofuel production, and synthetic biology research. The vectors developed here have a broad host range, and could be readily used for genetic modification in other microorganisms.</ns0:abstract>
-    <ns0:dateAccepted>2018-12-10</ns0:dateAccepted>
-    <ns0:created>2018-12-10</ns0:created>
-    <sbol:persistentIdentity rdf:resource="http://examples.org/Collection/sb8b00437"/>
-    <ns0:isPartOf rdf:resource="http://pubs.acs.org/journal/asbcd6"/>
-    <sbol:displayId>sb8b00437</sbol:displayId>
-    <ns0:rightsHolder>American Chemical
-Society</ns0:rightsHolder>
-  </sbol:Collection>
 </rdf:RDF>

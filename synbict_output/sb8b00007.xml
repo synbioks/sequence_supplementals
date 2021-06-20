@@ -1,99 +1,70 @@
-<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:sbol="http://sbols.org/v2#" xmlns:ns0="http://purl.obolibrary.org/obo/" xmlns:ns1="http://www.w3.org/ns/prov#" xmlns:ns2="http://purl.org/dc/terms/" xmlns:ns3="http://purl.org/dc/elements/1.1/" xmlns:ns4="http://wiki.synbiohub.org/wiki/Terms/synbiohub#">
-  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb8b00007_4_sequence/1">
-    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb8b00007_4_sequence"/>
-    <sbol:displayId>sb8b00007_4_sequence</sbol:displayId>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:sbh="https://wiki.synbiohub.org/wiki/Terms/synbiohub#" xmlns:sbol="http://sbols.org/v2#" xmlns:ns0="http://www.w3.org/ns/prov#">
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb8b00007_1_comp/1">
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.8b00007"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00007_1_comp"/>
     <sbol:version>1</sbol:version>
-    <sbol:elements>gcagcccctcgagcagccggatcctattagcg</sbol:elements>
+    <sbh:supplementalFile rdf:resource="sb8b00007/suppl/sb-2018-00007p_si_001.pdf"/>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:displayId>sb8b00007_1_comp</sbol:displayId>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb8b00007_1_sequence/1"/>
+  </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb8b00007_2_sequence/1">
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:displayId>sb8b00007_2_sequence</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <sbol:elements>gcggcaaaagcttgcgatgtacaaggtggtggaagt</sbol:elements>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb8b00007_2_sequence"/>
+  </sbol:Sequence>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb8b00007_3_comp/1">
+    <sbol:displayId>sb8b00007_3_comp</sbol:displayId>
+    <sbh:supplementalFile rdf:resource="sb8b00007/suppl/sb-2018-00007p_si_001.pdf"/>
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.8b00007"/>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00007_3_comp"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb8b00007_3_sequence/1"/>
+    <sbol:version>1</sbol:version>
+  </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb8b00007_3_sequence/1">
+    <sbol:version>1</sbol:version>
+    <sbol:elements>gctacggggcggccgcaatgtatggcaagttgaacaagctg</sbol:elements>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb8b00007_3_sequence"/>
+    <sbol:displayId>sb8b00007_3_sequence</sbol:displayId>
     <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
   </sbol:Sequence>
   <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb8b00007_4_comp/1">
     <sbol:displayId>sb8b00007_4_comp</sbol:displayId>
-    <ns1:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
     <sbol:version>1</sbol:version>
-    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00007_4_comp"/>
-    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
-    <ns1:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.8b00007"/>
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.8b00007"/>
     <sbol:sequence rdf:resource="http://examples.org/Sequence/sb8b00007_4_sequence/1"/>
-  </sbol:ComponentDefinition>
-  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb8b00007_1_comp/1">
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00007_4_comp"/>
+    <sbh:supplementalFile rdf:resource="sb8b00007/suppl/sb-2018-00007p_si_001.pdf"/>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
     <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
-    <ns1:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.8b00007"/>
-    <sbol:displayId>sb8b00007_1_comp</sbol:displayId>
-    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00007_1_comp"/>
-    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb8b00007_1_sequence/1"/>
-    <sbol:version>1</sbol:version>
-    <ns1:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
-  </sbol:ComponentDefinition>
-  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb8b00007_3_comp/1">
-    <ns1:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
-    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb8b00007_3_sequence/1"/>
-    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00007_3_comp"/>
-    <sbol:version>1</sbol:version>
-    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
-    <sbol:displayId>sb8b00007_3_comp</sbol:displayId>
-    <ns1:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.8b00007"/>
   </sbol:ComponentDefinition>
   <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb8b00007_2_comp/1">
-    <ns1:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
     <sbol:version>1</sbol:version>
-    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb8b00007_2_sequence/1"/>
-    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
-    <ns1:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.8b00007"/>
+    <sbh:supplementalFile rdf:resource="sb8b00007/suppl/sb-2018-00007p_si_001.pdf"/>
     <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00007_2_comp"/>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb8b00007_2_sequence/1"/>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
     <sbol:displayId>sb8b00007_2_comp</sbol:displayId>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.8b00007"/>
   </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb8b00007_4_sequence/1">
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:version>1</sbol:version>
+    <sbol:elements>gcagcccctcgagcagccggatcctattagcg</sbol:elements>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb8b00007_4_sequence"/>
+    <sbol:displayId>sb8b00007_4_sequence</sbol:displayId>
+  </sbol:Sequence>
   <sbol:Sequence rdf:about="http://examples.org/Sequence/sb8b00007_1_sequence/1">
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
     <sbol:elements>taatacgactcactataggg</sbol:elements>
-    <sbol:version>1</sbol:version>
-    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
     <sbol:displayId>sb8b00007_1_sequence</sbol:displayId>
+    <sbol:version>1</sbol:version>
     <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb8b00007_1_sequence"/>
-  </sbol:Sequence>
-  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb8b00007_2_sequence/1">
-    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb8b00007_2_sequence"/>
-    <sbol:elements>gcggcaaaagcttgcgatgtacaaggtggtggaagt</sbol:elements>
-    <sbol:displayId>sb8b00007_2_sequence</sbol:displayId>
-    <sbol:version>1</sbol:version>
-    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
-  </sbol:Sequence>
-  <sbol:Collection rdf:about="http://examples.org/Collection/sb8b00007/1">
-    <ns0:OBI_0001617>29690759</ns0:OBI_0001617>
-    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb8b00007_2_comp/1"/>
-    <ns2:type rdf:resource="http://purl.org/dc/dcmitype/Text"/>
-    <ns2:abstract>The design of novel proteins that self-assemble into supramolecular complexes is important for development in nanobiotechnology and synthetic biology. Recently, we designed and created a protein nanobuilding block (PN&#8211;Block), WA20-foldon, by fusing an intermolecularly folded dimeric de novo WA20 protein and a trimeric foldon domain of T4 phage fibritin (Kobayashi et al., J. Am. Chem. Soc.                 2015, 137, 11285). WA20-foldon formed several types of self-assembling nanoarchitectures in multiples of 6-mers, including a barrel-like hexamer and a tetrahedron-like dodecamer. In this study, to construct chain-like polymeric nanostructures, we designed de novo extender protein nanobuilding blocks (ePN&#8211;Blocks) by tandemly fusing two de novo binary-patterned WA20 proteins with various linkers. The ePN&#8211;Blocks with long helical linkers or flexible linkers were expressed in soluble fractions of Escherichia coli, and the purified ePN&#8211;Blocks were analyzed by native PAGE, size exclusion chromatography&#8211;multiangle light scattering (SEC&#8211;MALS), small-angle X-ray scattering (SAXS), and transmission electron microscopy. These results suggest formation of various structural homo-oligomers. Subsequently, we reconstructed hetero-oligomeric complexes from extender and stopper PN&#8211;Blocks by denaturation and refolding. The present SEC&#8211;MALS and SAXS analyses show that extender and stopper PN&#8211;Block (esPN&#8211;Block) heterocomplexes formed different types of extended chain-like conformations depending on their linker types. Moreover, atomic force microscopy imaging in liquid suggests that the esPN&#8211;Block heterocomplexes with metal ions further self-assembled into supramolecular nanostructures on mica surfaces. Taken together, the present data demonstrate that the design and construction of self-assembling PN&#8211;Blocks using de novo proteins is a useful strategy for building polymeric nanoarchitectures of supramolecular protein complexes.</ns2:abstract>
-    <ns3:publisher>American Chemical
-Society</ns3:publisher>
-    <sbol:persistentIdentity rdf:resource="http://examples.org/Collection/sb8b00007"/>
-    <sbol:member rdf:resource="http://examples.org/Sequence/sb8b00007_3_sequence/1"/>
-    <ns4:topLevel rdf:resource="https://synbioks.org/public/ACS/sb8b00007/1"/>
-    <ns2:rightsHolder>American Chemical
-Society</ns2:rightsHolder>
-    <ns2:isPartOf rdf:resource="http://pubs.acs.org/journal/asbcd6"/>
-    <ns3:type>research-article</ns3:type>
-    <ns4:ownedBy rdf:resource="https://synbioks.org/user/myers"/>
-    <ns3:subject>self-assembly</ns3:subject>
-    <ns2:dateCopyrighted>2018</ns2:dateCopyrighted>
-    <sbol:displayId>sb8b00007</sbol:displayId>
-    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb8b00007_4_comp/1"/>
-    <ns2:references>Yeates, T. O., Liu, Y., Laniado, J. The design of symmetric protein nanomaterials comes of age in theory and practice, Curr. Opin. Struct. Biol. 2016. 39:134-143.</ns2:references>
-    <ns2:dateSubmitted>2018-01-05</ns2:dateSubmitted>
-    <ns2:description>The design of novel proteins that self-assemble into supramolecular complexes is important for development in nanobiotechnology and synthetic biology. Recently, we designed and created a protein nanobuilding block (PN&#8211;Block), WA20-foldon, by fusing an intermolecularly folded dimeric de novo WA20 protein and a trimeric foldon domain of T4 phage fibritin (Kobayashi et al., J. Am. Chem. Soc.                 2015, 137, 11285). WA20-foldon formed several types of self-assembling nanoarchitectures in multiples of 6-mers, including a barrel-like hexamer and a tetrahedron-like dodecamer. In this study, to construct chain-like polymeric nanostructures, we designed de novo extender protein nanobuilding blocks (ePN&#8211;Blocks) by tandemly fusing two de novo binary-patterned WA20 proteins with various linkers. The ePN&#8211;Blocks with long helical linkers or flexible linkers were expressed in soluble fractions of Escherichia coli, and the purified ePN&#8211;Blocks were analyzed by native PAGE, size exclusion chromatography&#8211;multiangle light scattering (SEC&#8211;MALS), small-angle X-ray scattering (SAXS), and transmission electron microscopy. These results suggest formation of various structural homo-oligomers. Subsequently, we reconstructed hetero-oligomeric complexes from extender and stopper PN&#8211;Blocks by denaturation and refolding. The present SEC&#8211;MALS and SAXS analyses show that extender and stopper PN&#8211;Block (esPN&#8211;Block) heterocomplexes formed different types of extended chain-like conformations depending on their linker types. Moreover, atomic force microscopy imaging in liquid suggests that the esPN&#8211;Block heterocomplexes with metal ions further self-assembled into supramolecular nanostructures on mica surfaces. Taken together, the present data demonstrate that the design and construction of self-assembling PN&#8211;Blocks using de novo proteins is a useful strategy for building polymeric nanoarchitectures of supramolecular protein complexes.</ns2:description>
-    <ns0:OBI_0002110>10.1021/acssynbio.8b00007</ns0:OBI_0002110>
-    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb8b00007_3_comp/1"/>
-    <ns3:creator>Takeshi Fukuma</ns3:creator>
-    <sbol:member rdf:resource="http://examples.org/Sequence/sb8b00007_2_sequence/1"/>
-    <sbol:member rdf:resource="http://examples.org/Sequence/sb8b00007_4_sequence/1"/>
-    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb8b00007_1_comp/1"/>
-    <ns2:dateAccepted>2018-04-24</ns2:dateAccepted>
-    <sbol:version>1</sbol:version>
-    <ns2:created>2018-04-24</ns2:created>
-    <sbol:member rdf:resource="http://examples.org/Sequence/sb8b00007_1_sequence/1"/>
-  </sbol:Collection>
-  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb8b00007_3_sequence/1">
-    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb8b00007_3_sequence"/>
-    <sbol:version>1</sbol:version>
-    <sbol:displayId>sb8b00007_3_sequence</sbol:displayId>
-    <sbol:elements>gctacggggcggccgcaatgtatggcaagttgaacaagctg</sbol:elements>
-    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
   </sbol:Sequence>
 </rdf:RDF>

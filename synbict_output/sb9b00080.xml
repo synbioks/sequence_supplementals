@@ -1,100 +1,70 @@
-<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:sbol="http://sbols.org/v2#" xmlns:ns0="http://www.w3.org/ns/prov#" xmlns:ns1="http://purl.org/dc/elements/1.1/" xmlns:ns2="http://purl.org/dc/terms/" xmlns:ns3="http://wiki.synbiohub.org/wiki/Terms/synbiohub#" xmlns:ns4="http://purl.obolibrary.org/obo/">
-  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb9b00080_1_comp/1">
-    <sbol:displayId>sb9b00080_1_comp</sbol:displayId>
-    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb9b00080_1_sequence/1"/>
-    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
-    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.9b00080"/>
-    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb9b00080_1_comp"/>
-    <sbol:version>1</sbol:version>
-    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
-  </sbol:ComponentDefinition>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:sbh="https://wiki.synbiohub.org/wiki/Terms/synbiohub#" xmlns:sbol="http://sbols.org/v2#" xmlns:ns0="http://www.w3.org/ns/prov#">
   <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb9b00080_2_comp/1">
-    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
-    <sbol:displayId>sb9b00080_2_comp</sbol:displayId>
     <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
-    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.9b00080"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
     <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb9b00080_2_comp"/>
     <sbol:sequence rdf:resource="http://examples.org/Sequence/sb9b00080_2_sequence/1"/>
+    <sbol:displayId>sb9b00080_2_comp</sbol:displayId>
     <sbol:version>1</sbol:version>
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.9b00080"/>
+    <sbh:supplementalFile rdf:resource="sb9b00080/suppl/sb-2019-000804_si_001.pdf"/>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb9b00080_4_comp/1">
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb9b00080_4_comp"/>
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.9b00080"/>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb9b00080_4_sequence/1"/>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbh:supplementalFile rdf:resource="sb9b00080/suppl/sb-2019-000804_si_001.pdf"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:version>1</sbol:version>
+    <sbol:displayId>sb9b00080_4_comp</sbol:displayId>
+  </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb9b00080_2_sequence/1">
+    <sbol:displayId>sb9b00080_2_sequence</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:elements>ctcgagggtaccttagcactcacc</sbol:elements>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb9b00080_2_sequence"/>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb9b00080_4_sequence/1">
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb9b00080_4_sequence"/>
+    <sbol:displayId>sb9b00080_4_sequence</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:elements>ctcgagggtaccttagcaatcacc</sbol:elements>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb9b00080_1_sequence/1">
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb9b00080_1_sequence"/>
+    <sbol:elements>ggtgagtgctaaggtaccctcgag</sbol:elements>
+    <sbol:displayId>sb9b00080_1_sequence</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+  </sbol:Sequence>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb9b00080_1_comp/1">
+    <sbol:version>1</sbol:version>
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.9b00080"/>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb9b00080_1_sequence/1"/>
+    <sbh:supplementalFile rdf:resource="sb9b00080/suppl/sb-2019-000804_si_001.pdf"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb9b00080_1_comp"/>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:displayId>sb9b00080_1_comp</sbol:displayId>
   </sbol:ComponentDefinition>
   <sbol:Sequence rdf:about="http://examples.org/Sequence/sb9b00080_3_sequence/1">
     <sbol:version>1</sbol:version>
-    <sbol:displayId>sb9b00080_3_sequence</sbol:displayId>
-    <sbol:elements>ggtgattgctaaggtaccctcgag</sbol:elements>
-    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
     <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb9b00080_3_sequence"/>
-  </sbol:Sequence>
-  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb9b00080_4_sequence/1">
-    <sbol:elements>ctcgagggtaccttagcaatcacc</sbol:elements>
-    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb9b00080_4_sequence"/>
-    <sbol:version>1</sbol:version>
     <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
-    <sbol:displayId>sb9b00080_4_sequence</sbol:displayId>
+    <sbol:elements>ggtgattgctaaggtaccctcgag</sbol:elements>
+    <sbol:displayId>sb9b00080_3_sequence</sbol:displayId>
   </sbol:Sequence>
   <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb9b00080_3_comp/1">
     <sbol:displayId>sb9b00080_3_comp</sbol:displayId>
-    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.9b00080"/>
+    <sbh:supplementalFile rdf:resource="sb9b00080/suppl/sb-2019-000804_si_001.pdf"/>
     <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb9b00080_3_comp"/>
-    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
-    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb9b00080_3_sequence/1"/>
-    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.9b00080"/>
-    <sbol:version>1</sbol:version>
-  </sbol:ComponentDefinition>
-  <sbol:Collection rdf:about="http://examples.org/Collection/sb9b00080/1">
-    <ns1:publisher>American Chemical
-Society</ns1:publisher>
-    <ns2:dateAccepted>2019-05-01</ns2:dateAccepted>
-    <sbol:version>1</sbol:version>
-    <ns3:topLevel rdf:resource="https://synbioks.org/public/ACS/sb9b00080/1"/>
-    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb9b00080_2_comp/1"/>
-    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb9b00080_4_comp/1"/>
-    <ns2:dateSubmitted>2019-02-21</ns2:dateSubmitted>
-    <ns2:created>2019-05-01</ns2:created>
-    <sbol:member rdf:resource="http://examples.org/Sequence/sb9b00080_4_sequence/1"/>
-    <ns1:subject>substrate scope</ns1:subject>
-    <ns3:ownedBy rdf:resource="https://synbioks.org/user/myers"/>
-    <ns2:isPartOf rdf:resource="http://pubs.acs.org/journal/asbcd6"/>
-    <sbol:member rdf:resource="http://examples.org/Sequence/sb9b00080_1_sequence/1"/>
-    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb9b00080_1_comp/1"/>
-    <ns2:dateCopyrighted>2019</ns2:dateCopyrighted>
-    <sbol:displayId>sb9b00080</sbol:displayId>
-    <ns1:type>research-article</ns1:type>
-    <ns4:OBI_0002110>10.1021/acssynbio.9b00080</ns4:OBI_0002110>
-    <ns2:abstract>Cyclization is a common strategy to confer proteolytic resistance to peptide scaffolds. Thus, cyclic peptides have been the focus of extensive bioengineering efforts. Ribosomally synthesized and post-translationally modified peptides (RiPPs) are a superfamily of peptidic natural products that often contain macrocycles. In the RiPP family of lanthipeptides, macrocyclization is accomplished through formation of thioether cross-links between cysteines and dehydrated serines/threonines. The recent production of lanthipeptide libraries and development of methods to display lanthipeptides on yeast or phage highlights their potential for bioengineering and synthetic biology. In this regard, the prochlorosins are especially promising as the corresponding class II lanthipeptide synthetase ProcM matures numerous precursor peptides with diverse core peptide sequences. To facilitate future bioengineering projects, one of its native substrates, ProcA2.8, was subjected in this study to in-depth mutational analysis to test the limitations of ProcM-mediated cyclization. Alanine scan mutagenesis was performed on all residues within the two rings, and multiple prolines were introduced at various positions. Moreover, mutation, deletion, and insertion of residues in the region linking the two lanthionine rings was tested. Additional residues were also introduced or deleted from either ring, and inversion of ring forming residues was attempted to generate diastereomers. The findings were used for epitope grafting of the RGD integrin binding epitope within prochlorosin 2.8, resulting in a low nanomolar affinity binder of the &#945;v&#946;3 integrin that was more stable toward proteolysis and displayed higher affinity than the linear counterpart.</ns2:abstract>
-    <ns4:OBI_0001617>31042373</ns4:OBI_0001617>
-    <ns2:description>Cyclization is a common strategy to confer proteolytic resistance to peptide scaffolds. Thus, cyclic peptides have been the focus of extensive bioengineering efforts. Ribosomally synthesized and post-translationally modified peptides (RiPPs) are a superfamily of peptidic natural products that often contain macrocycles. In the RiPP family of lanthipeptides, macrocyclization is accomplished through formation of thioether cross-links between cysteines and dehydrated serines/threonines. The recent production of lanthipeptide libraries and development of methods to display lanthipeptides on yeast or phage highlights their potential for bioengineering and synthetic biology. In this regard, the prochlorosins are especially promising as the corresponding class II lanthipeptide synthetase ProcM matures numerous precursor peptides with diverse core peptide sequences. To facilitate future bioengineering projects, one of its native substrates, ProcA2.8, was subjected in this study to in-depth mutational analysis to test the limitations of ProcM-mediated cyclization. Alanine scan mutagenesis was performed on all residues within the two rings, and multiple prolines were introduced at various positions. Moreover, mutation, deletion, and insertion of residues in the region linking the two lanthionine rings was tested. Additional residues were also introduced or deleted from either ring, and inversion of ring forming residues was attempted to generate diastereomers. The findings were used for epitope grafting of the RGD integrin binding epitope within prochlorosin 2.8, resulting in a low nanomolar affinity binder of the &#945;v&#946;3 integrin that was more stable toward proteolysis and displayed higher affinity than the linear counterpart.</ns2:description>
-    <sbol:member rdf:resource="http://examples.org/Sequence/sb9b00080_2_sequence/1"/>
-    <ns2:references>de
-Veer, S. J., Weidmann, J., Craik, D. J.  Acc. Chem. Res. 2017. 50:1557-1565.</ns2:references>
-    <ns2:rightsHolder>American Chemical
-Society</ns2:rightsHolder>
-    <ns2:type rdf:resource="http://purl.org/dc/dcmitype/Text"/>
-    <sbol:member rdf:resource="http://examples.org/Sequence/sb9b00080_3_sequence/1"/>
-    <ns1:creator>Wilfred A. van der Donk</ns1:creator>
-    <sbol:persistentIdentity rdf:resource="http://examples.org/Collection/sb9b00080"/>
-    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb9b00080_3_comp/1"/>
-  </sbol:Collection>
-  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb9b00080_2_sequence/1">
-    <sbol:version>1</sbol:version>
-    <sbol:elements>ctcgagggtaccttagcactcacc</sbol:elements>
-    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb9b00080_2_sequence"/>
-    <sbol:displayId>sb9b00080_2_sequence</sbol:displayId>
-    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
-  </sbol:Sequence>
-  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb9b00080_1_sequence/1">
-    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
-    <sbol:elements>ggtgagtgctaaggtaccctcgag</sbol:elements>
-    <sbol:version>1</sbol:version>
-    <sbol:displayId>sb9b00080_1_sequence</sbol:displayId>
-    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb9b00080_1_sequence"/>
-  </sbol:Sequence>
-  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb9b00080_4_comp/1">
-    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb9b00080_4_comp"/>
-    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
-    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb9b00080_4_sequence/1"/>
-    <sbol:version>1</sbol:version>
     <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
-    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.9b00080"/>
-    <sbol:displayId>sb9b00080_4_comp</sbol:displayId>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb9b00080_3_sequence/1"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:version>1</sbol:version>
   </sbol:ComponentDefinition>
 </rdf:RDF>

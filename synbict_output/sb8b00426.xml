@@ -1,655 +1,624 @@
-<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:sbol="http://sbols.org/v2#" xmlns:ns0="http://purl.org/dc/terms/" xmlns:ns1="http://www.w3.org/ns/prov#" xmlns:ns2="http://purl.obolibrary.org/obo/" xmlns:ns3="http://purl.org/dc/elements/1.1/" xmlns:ns4="http://wiki.synbiohub.org/wiki/Terms/synbiohub#">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:sbh="https://wiki.synbiohub.org/wiki/Terms/synbiohub#" xmlns:sbol="http://sbols.org/v2#" xmlns:ns0="http://purl.org/dc/terms/" xmlns:ns1="http://www.w3.org/ns/prov#">
   <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb8b00426_2_comp/1">
-    <sbol:displayId>sb8b00426_2_comp</sbol:displayId>
-    <sbol:component>
-      <sbol:Component rdf:about="http://examples.org/ComponentDefinition/sb8b00426_2_comp/AmpR_promoter_comp_1/1">
-        <sbol:definition rdf:resource="https://synbioks.org/public/YTK/AmpR_promoter/1"/>
-        <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00426_2_comp/AmpR_promoter_comp_1"/>
-        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
-        <sbol:version>1</sbol:version>
-        <ns0:title>AmpR promoter</ns0:title>
-        <sbol:displayId>AmpR_promoter_comp_1</sbol:displayId>
-      </sbol:Component>
-    </sbol:component>
-    <ns1:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
-    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb8b00426_2_sequence/1"/>
     <sbol:sequenceAnnotation>
-      <sbol:SequenceAnnotation rdf:about="http://examples.org/ComponentDefinition/sb8b00426_2_comp/AmpR_anno_1/1">
-        <ns0:title>AmpR</ns0:title>
-        <ns0:description>Confers resistance to ampicillin in bacteria</ns0:description>
-        <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00426_2_comp/AmpR_anno_1"/>
-        <sbol:version>1</sbol:version>
-        <sbol:component rdf:resource="http://examples.org/ComponentDefinition/sb8b00426_2_comp/AmpR_comp_1/1"/>
-        <sbol:displayId>AmpR_anno_1</sbol:displayId>
-        <sbol:location>
-          <sbol:Range rdf:about="http://examples.org/ComponentDefinition/sb8b00426_2_comp/AmpR_anno_1/AmpR_anno_1_loc/1">
-            <sbol:start>4849</sbol:start>
-            <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00426_2_comp/AmpR_anno_1/AmpR_anno_1_loc"/>
-            <sbol:end>5706</sbol:end>
-            <sbol:version>1</sbol:version>
-            <sbol:displayId>AmpR_anno_1_loc</sbol:displayId>
-            <sbol:orientation rdf:resource="http://sbols.org/v2#reverseComplement"/>
-          </sbol:Range>
-        </sbol:location>
-      </sbol:SequenceAnnotation>
-    </sbol:sequenceAnnotation>
-    <sbol:component>
-      <sbol:Component rdf:about="http://examples.org/ComponentDefinition/sb8b00426_2_comp/ColE1_comp_1/1">
-        <sbol:definition rdf:resource="https://synbioks.org/public/YTK/ColE1/1"/>
-        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
-        <ns0:title>ColE1</ns0:title>
-        <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00426_2_comp/ColE1_comp_1"/>
-        <sbol:displayId>ColE1_comp_1</sbol:displayId>
-        <sbol:version>1</sbol:version>
-      </sbol:Component>
-    </sbol:component>
-    <sbol:version>1</sbol:version>
-    <sbol:component>
-      <sbol:Component rdf:about="http://examples.org/ComponentDefinition/sb8b00426_2_comp/AmpR_comp_1/1">
-        <sbol:definition rdf:resource="https://synbioks.org/public/YTK/AmpR/1"/>
-        <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00426_2_comp/AmpR_comp_1"/>
-        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
-        <sbol:displayId>AmpR_comp_1</sbol:displayId>
-        <sbol:version>1</sbol:version>
-        <ns0:title>AmpR</ns0:title>
-      </sbol:Component>
-    </sbol:component>
-    <ns1:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.8b00426"/>
-    <sbol:sequenceAnnotation>
-      <sbol:SequenceAnnotation rdf:about="http://examples.org/ComponentDefinition/sb8b00426_2_comp/AmpR_promoter_anno_1/1">
-        <sbol:version>1</sbol:version>
-        <ns0:title>AmpR promoter</ns0:title>
-        <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00426_2_comp/AmpR_promoter_anno_1"/>
-        <sbol:component rdf:resource="http://examples.org/ComponentDefinition/sb8b00426_2_comp/AmpR_promoter_comp_1/1"/>
-        <sbol:location>
-          <sbol:Range rdf:about="http://examples.org/ComponentDefinition/sb8b00426_2_comp/AmpR_promoter_anno_1/AmpR_promoter_anno_1_loc/1">
-            <sbol:orientation rdf:resource="http://sbols.org/v2#reverseComplement"/>
-            <sbol:version>1</sbol:version>
-            <sbol:end>4848</sbol:end>
-            <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00426_2_comp/AmpR_promoter_anno_1/AmpR_promoter_anno_1_loc"/>
-            <sbol:start>4752</sbol:start>
-            <sbol:displayId>AmpR_promoter_anno_1_loc</sbol:displayId>
-          </sbol:Range>
-        </sbol:location>
-        <sbol:displayId>AmpR_promoter_anno_1</sbol:displayId>
-      </sbol:SequenceAnnotation>
-    </sbol:sequenceAnnotation>
-    <sbol:component>
-      <sbol:Component rdf:about="http://examples.org/ComponentDefinition/sb8b00426_2_comp/AmpR_terminator_comp_1/1">
-        <sbol:version>1</sbol:version>
-        <sbol:definition rdf:resource="https://synbioks.org/public/YTK/AmpR_terminator/1"/>
-        <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00426_2_comp/AmpR_terminator_comp_1"/>
-        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
-        <sbol:displayId>AmpR_terminator_comp_1</sbol:displayId>
+      <sbol:SequenceAnnotation rdf:about="http://examples.org/ComponentDefinition/sb8b00426_2_comp/AmpR_u32_terminator_anno_1/1">
+        <sbol:displayId>AmpR_u32_terminator_anno_1</sbol:displayId>
         <ns0:title>AmpR terminator</ns0:title>
-      </sbol:Component>
-    </sbol:component>
-    <sbol:sequenceAnnotation>
-      <sbol:SequenceAnnotation rdf:about="http://examples.org/ComponentDefinition/sb8b00426_2_comp/AmpR_terminator_anno_1/1">
-        <sbol:displayId>AmpR_terminator_anno_1</sbol:displayId>
-        <ns0:title>AmpR terminator</ns0:title>
-        <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00426_2_comp/AmpR_terminator_anno_1"/>
-        <sbol:version>1</sbol:version>
+        <sbol:component rdf:resource="http://examples.org/ComponentDefinition/sb8b00426_2_comp/AmpR_u32_terminator_comp_1/1"/>
+        <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00426_2_comp/AmpR_u32_terminator_anno_1"/>
         <sbol:location>
-          <sbol:Range rdf:about="http://examples.org/ComponentDefinition/sb8b00426_2_comp/AmpR_terminator_anno_1/AmpR_terminator_anno_1_loc/1">
-            <sbol:displayId>AmpR_terminator_anno_1_loc</sbol:displayId>
-            <sbol:start>5707</sbol:start>
+          <sbol:Range rdf:about="http://examples.org/ComponentDefinition/sb8b00426_2_comp/AmpR_u32_terminator_anno_1/AmpR_u32_terminator_anno_1_loc/1">
             <sbol:orientation rdf:resource="http://sbols.org/v2#reverseComplement"/>
             <sbol:end>5837</sbol:end>
-            <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00426_2_comp/AmpR_terminator_anno_1/AmpR_terminator_anno_1_loc"/>
+            <sbol:displayId>AmpR_u32_terminator_anno_1_loc</sbol:displayId>
+            <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00426_2_comp/AmpR_u32_terminator_anno_1/AmpR_u32_terminator_anno_1_loc"/>
+            <sbol:start>5707</sbol:start>
             <sbol:version>1</sbol:version>
           </sbol:Range>
         </sbol:location>
-        <sbol:component rdf:resource="http://examples.org/ComponentDefinition/sb8b00426_2_comp/AmpR_terminator_comp_1/1"/>
+        <sbol:version>1</sbol:version>
       </sbol:SequenceAnnotation>
     </sbol:sequenceAnnotation>
-    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00426_2_comp"/>
+    <ns0:title>dCas9_tdk_promoter_seq</ns0:title>
+    <sbol:displayId>sb8b00426_2_comp</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb8b00426_2_sequence/1"/>
+    <ns1:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.8b00426"/>
+    <ns1:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="http://examples.org/ComponentDefinition/sb8b00426_2_comp/AmpR_u32_promoter_anno_1/1">
+        <sbol:displayId>AmpR_u32_promoter_anno_1</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00426_2_comp/AmpR_u32_promoter_anno_1"/>
+        <sbol:component rdf:resource="http://examples.org/ComponentDefinition/sb8b00426_2_comp/AmpR_u32_promoter_comp_1/1"/>
+        <ns0:title>AmpR promoter</ns0:title>
+        <sbol:version>1</sbol:version>
+        <sbol:location>
+          <sbol:Range rdf:about="http://examples.org/ComponentDefinition/sb8b00426_2_comp/AmpR_u32_promoter_anno_1/AmpR_u32_promoter_anno_1_loc/1">
+            <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00426_2_comp/AmpR_u32_promoter_anno_1/AmpR_u32_promoter_anno_1_loc"/>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#reverseComplement"/>
+            <sbol:displayId>AmpR_u32_promoter_anno_1_loc</sbol:displayId>
+            <sbol:start>4752</sbol:start>
+            <sbol:version>1</sbol:version>
+            <sbol:end>4848</sbol:end>
+          </sbol:Range>
+        </sbol:location>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
     <sbol:sequenceAnnotation>
       <sbol:SequenceAnnotation rdf:about="http://examples.org/ComponentDefinition/sb8b00426_2_comp/ColE1_anno_1/1">
+        <sbol:version>1</sbol:version>
         <ns0:title>ColE1</ns0:title>
         <sbol:location>
           <sbol:Range rdf:about="http://examples.org/ComponentDefinition/sb8b00426_2_comp/ColE1_anno_1/ColE1_anno_1_loc/1">
-            <sbol:version>1</sbol:version>
             <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00426_2_comp/ColE1_anno_1/ColE1_anno_1_loc"/>
-            <sbol:start>5838</sbol:start>
             <sbol:displayId>ColE1_anno_1_loc</sbol:displayId>
             <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
             <sbol:end>6601</sbol:end>
+            <sbol:version>1</sbol:version>
+            <sbol:start>5838</sbol:start>
           </sbol:Range>
         </sbol:location>
+        <sbol:displayId>ColE1_anno_1</sbol:displayId>
         <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00426_2_comp/ColE1_anno_1"/>
         <sbol:component rdf:resource="http://examples.org/ComponentDefinition/sb8b00426_2_comp/ColE1_comp_1/1"/>
-        <sbol:displayId>ColE1_anno_1</sbol:displayId>
-        <sbol:version>1</sbol:version>
       </sbol:SequenceAnnotation>
     </sbol:sequenceAnnotation>
-    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
-    <ns0:title>dCas9_tdk_promoter_seq</ns0:title>
-  </sbol:ComponentDefinition>
-  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb8b00426_3_comp/1">
-    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
-    <sbol:sequenceAnnotation>
-      <sbol:SequenceAnnotation rdf:about="http://examples.org/ComponentDefinition/sb8b00426_3_comp/SpecR_anno_1/1">
-        <sbol:location>
-          <sbol:Range rdf:about="http://examples.org/ComponentDefinition/sb8b00426_3_comp/SpecR_anno_1/SpecR_anno_1_loc/1">
-            <sbol:version>1</sbol:version>
-            <sbol:displayId>SpecR_anno_1_loc</sbol:displayId>
-            <sbol:start>4333</sbol:start>
-            <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00426_3_comp/SpecR_anno_1/SpecR_anno_1_loc"/>
-            <sbol:end>5343</sbol:end>
-            <sbol:orientation rdf:resource="http://sbols.org/v2#reverseComplement"/>
-          </sbol:Range>
-        </sbol:location>
-        <sbol:displayId>SpecR_anno_1</sbol:displayId>
-        <ns0:description>Confers resistance to spectinomycin in bacteria</ns0:description>
-        <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00426_3_comp/SpecR_anno_1"/>
-        <ns0:title>SpecR</ns0:title>
-        <sbol:version>1</sbol:version>
-        <sbol:component rdf:resource="http://examples.org/ComponentDefinition/sb8b00426_3_comp/SpecR_comp_1/1"/>
-      </sbol:SequenceAnnotation>
-    </sbol:sequenceAnnotation>
-    <sbol:displayId>sb8b00426_3_comp</sbol:displayId>
     <sbol:component>
-      <sbol:Component rdf:about="http://examples.org/ComponentDefinition/sb8b00426_3_comp/SpecR_Promoter_comp_1/1">
-        <sbol:displayId>SpecR_Promoter_comp_1</sbol:displayId>
-        <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00426_3_comp/SpecR_Promoter_comp_1"/>
-        <sbol:definition rdf:resource="https://synbioks.org/public/YTK/SpecR_Promoter/1"/>
+      <sbol:Component rdf:about="http://examples.org/ComponentDefinition/sb8b00426_2_comp/AmpR_u32_promoter_comp_1/1">
+        <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00426_2_comp/AmpR_u32_promoter_comp_1"/>
         <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:displayId>AmpR_u32_promoter_comp_1</sbol:displayId>
+        <ns0:title>AmpR promoter</ns0:title>
+        <sbol:definition rdf:resource="https://synbioks.org/public/MoClo_Yeast_Toolkit_Dueber_Lab/AmpR_u32_promoter/1"/>
         <sbol:version>1</sbol:version>
-        <ns0:title>SpecR Promoter</ns0:title>
       </sbol:Component>
     </sbol:component>
-    <ns1:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00426_2_comp"/>
+    <sbol:component>
+      <sbol:Component rdf:about="http://examples.org/ComponentDefinition/sb8b00426_2_comp/AmpR_u32_terminator_comp_1/1">
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00426_2_comp/AmpR_u32_terminator_comp_1"/>
+        <sbol:version>1</sbol:version>
+        <sbol:displayId>AmpR_u32_terminator_comp_1</sbol:displayId>
+        <sbol:definition rdf:resource="https://synbioks.org/public/MoClo_Yeast_Toolkit_Dueber_Lab/AmpR_u32_terminator/1"/>
+        <ns0:title>AmpR terminator</ns0:title>
+      </sbol:Component>
+    </sbol:component>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:component>
+      <sbol:Component rdf:about="http://examples.org/ComponentDefinition/sb8b00426_2_comp/AmpR_comp_1/1">
+        <sbol:definition rdf:resource="https://synbioks.org/public/MoClo_Yeast_Toolkit_Dueber_Lab/AmpR/1"/>
+        <sbol:displayId>AmpR_comp_1</sbol:displayId>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:version>1</sbol:version>
+        <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00426_2_comp/AmpR_comp_1"/>
+        <ns0:title>AmpR</ns0:title>
+      </sbol:Component>
+    </sbol:component>
+    <sbol:component>
+      <sbol:Component rdf:about="http://examples.org/ComponentDefinition/sb8b00426_2_comp/ColE1_comp_1/1">
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:displayId>ColE1_comp_1</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <ns0:title>ColE1</ns0:title>
+        <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00426_2_comp/ColE1_comp_1"/>
+        <sbol:definition rdf:resource="https://synbioks.org/public/MoClo_Yeast_Toolkit_Dueber_Lab/ColE1/1"/>
+      </sbol:Component>
+    </sbol:component>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="http://examples.org/ComponentDefinition/sb8b00426_2_comp/AmpR_anno_1/1">
+        <sbol:displayId>AmpR_anno_1</sbol:displayId>
+        <ns0:title>AmpR</ns0:title>
+        <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00426_2_comp/AmpR_anno_1"/>
+        <sbol:location>
+          <sbol:Range rdf:about="http://examples.org/ComponentDefinition/sb8b00426_2_comp/AmpR_anno_1/AmpR_anno_1_loc/1">
+            <sbol:end>5706</sbol:end>
+            <sbol:displayId>AmpR_anno_1_loc</sbol:displayId>
+            <sbol:start>4849</sbol:start>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#reverseComplement"/>
+            <sbol:version>1</sbol:version>
+            <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00426_2_comp/AmpR_anno_1/AmpR_anno_1_loc"/>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:component rdf:resource="http://examples.org/ComponentDefinition/sb8b00426_2_comp/AmpR_comp_1/1"/>
+        <sbol:version>1</sbol:version>
+        <ns0:description>Confers resistance to ampicillin in bacteria</ns0:description>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbh:supplementalFile rdf:resource="sb8b00426/suppl/sb-2018-00426x_si_001.txt"/>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb8b00426_3_comp/1">
     <sbol:version>1</sbol:version>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="http://examples.org/ComponentDefinition/sb8b00426_3_comp/SpecR_u32_Promoter_anno_1/1">
+        <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00426_3_comp/SpecR_u32_Promoter_anno_1"/>
+        <sbol:version>1</sbol:version>
+        <sbol:component rdf:resource="http://examples.org/ComponentDefinition/sb8b00426_3_comp/SpecR_u32_Promoter_comp_1/1"/>
+        <sbol:displayId>SpecR_u32_Promoter_anno_1</sbol:displayId>
+        <sbol:location>
+          <sbol:Range rdf:about="http://examples.org/ComponentDefinition/sb8b00426_3_comp/SpecR_u32_Promoter_anno_1/SpecR_u32_Promoter_anno_1_loc/1">
+            <sbol:version>1</sbol:version>
+            <sbol:start>5344</sbol:start>
+            <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00426_3_comp/SpecR_u32_Promoter_anno_1/SpecR_u32_Promoter_anno_1_loc"/>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#reverseComplement"/>
+            <sbol:end>5477</sbol:end>
+            <sbol:displayId>SpecR_u32_Promoter_anno_1_loc</sbol:displayId>
+          </sbol:Range>
+        </sbol:location>
+        <ns0:title>SpecR Promoter</ns0:title>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
     <sbol:sequence rdf:resource="http://examples.org/Sequence/sb8b00426_3_sequence/1"/>
-    <ns0:title>pBTK527a_seq</ns0:title>
+    <ns1:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.8b00426"/>
+    <sbh:supplementalFile rdf:resource="sb8b00426/suppl/sb-2018-00426x_si_001.txt"/>
+    <ns1:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00426_3_comp"/>
+    <sbol:component>
+      <sbol:Component rdf:about="http://examples.org/ComponentDefinition/sb8b00426_3_comp/SpecR_u32_Promoter_comp_1/1">
+        <sbol:definition rdf:resource="https://synbioks.org/public/MoClo_Yeast_Toolkit_Dueber_Lab/SpecR_u32_Promoter/1"/>
+        <ns0:title>SpecR Promoter</ns0:title>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00426_3_comp/SpecR_u32_Promoter_comp_1"/>
+        <sbol:version>1</sbol:version>
+        <sbol:displayId>SpecR_u32_Promoter_comp_1</sbol:displayId>
+      </sbol:Component>
+    </sbol:component>
     <sbol:component>
       <sbol:Component rdf:about="http://examples.org/ComponentDefinition/sb8b00426_3_comp/SpecR_comp_1/1">
-        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
         <sbol:version>1</sbol:version>
         <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00426_3_comp/SpecR_comp_1"/>
         <ns0:title>SpecR</ns0:title>
-        <sbol:definition rdf:resource="https://synbioks.org/public/YTK/SpecR/1"/>
+        <sbol:definition rdf:resource="https://synbioks.org/public/MoClo_Yeast_Toolkit_Dueber_Lab/SpecR/1"/>
         <sbol:displayId>SpecR_comp_1</sbol:displayId>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
       </sbol:Component>
     </sbol:component>
-    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00426_3_comp"/>
-    <ns1:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.8b00426"/>
+    <ns0:title>pBTK527a_seq</ns0:title>
     <sbol:sequenceAnnotation>
-      <sbol:SequenceAnnotation rdf:about="http://examples.org/ComponentDefinition/sb8b00426_3_comp/SpecR_Promoter_anno_1/1">
-        <sbol:displayId>SpecR_Promoter_anno_1</sbol:displayId>
+      <sbol:SequenceAnnotation rdf:about="http://examples.org/ComponentDefinition/sb8b00426_3_comp/SpecR_anno_1/1">
+        <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00426_3_comp/SpecR_anno_1"/>
+        <sbol:version>1</sbol:version>
         <sbol:location>
-          <sbol:Range rdf:about="http://examples.org/ComponentDefinition/sb8b00426_3_comp/SpecR_Promoter_anno_1/SpecR_Promoter_anno_1_loc/1">
-            <sbol:start>5344</sbol:start>
-            <sbol:end>5477</sbol:end>
-            <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00426_3_comp/SpecR_Promoter_anno_1/SpecR_Promoter_anno_1_loc"/>
-            <sbol:orientation rdf:resource="http://sbols.org/v2#reverseComplement"/>
+          <sbol:Range rdf:about="http://examples.org/ComponentDefinition/sb8b00426_3_comp/SpecR_anno_1/SpecR_anno_1_loc/1">
+            <sbol:start>4333</sbol:start>
             <sbol:version>1</sbol:version>
-            <sbol:displayId>SpecR_Promoter_anno_1_loc</sbol:displayId>
+            <sbol:displayId>SpecR_anno_1_loc</sbol:displayId>
+            <sbol:end>5343</sbol:end>
+            <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00426_3_comp/SpecR_anno_1/SpecR_anno_1_loc"/>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#reverseComplement"/>
           </sbol:Range>
         </sbol:location>
-        <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00426_3_comp/SpecR_Promoter_anno_1"/>
-        <sbol:component rdf:resource="http://examples.org/ComponentDefinition/sb8b00426_3_comp/SpecR_Promoter_comp_1/1"/>
-        <ns0:title>SpecR Promoter</ns0:title>
-        <sbol:version>1</sbol:version>
+        <sbol:component rdf:resource="http://examples.org/ComponentDefinition/sb8b00426_3_comp/SpecR_comp_1/1"/>
+        <ns0:description>Confers resistance to spectinomycin in bacteria</ns0:description>
+        <sbol:displayId>SpecR_anno_1</sbol:displayId>
+        <ns0:title>SpecR</ns0:title>
       </sbol:SequenceAnnotation>
     </sbol:sequenceAnnotation>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:displayId>sb8b00426_3_comp</sbol:displayId>
   </sbol:ComponentDefinition>
-  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb8b00426_4_sequence/1">
-    <sbol:version>1</sbol:version>
-    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
-    <ns0:title>sgRNA_J23119__seq Sequence</ns0:title>
-    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb8b00426_4_sequence"/>
-    <sbol:elements>gaattcgcatctagatggtagagccacaaacagccggtacaagcaacgatctccaggaccatctgaatcatgcgcggatgacacgaactcacgacggcgatcacagacattaacccacagtacagacactgcgacaacgtggcaattcgtcgcaataccgtctcactgaactggccgataattgcagacgaacgagtcagtgagcgaggaagcggaagagcgcctgatgcggtattttctccttacgcatctgtgcggtatttcacaccgcatatgctggatccttgacagctagctcagtcctaggtataatactagtcatccagttccaccagaatagttttagagctagaaatagcaagttaaaataaggctagtccgttatcaacttgaaaaagtggcaccgagtcggtgctttttttgaattctctagagtcgacctgcagaagcttagatctattaccctgttatccctactcgagttcatgtgcagctccatcagcatccgtaatcgttaatccgcaaataacgtaaaaacccgcttcggcgggtttttttatggggggagtttagggaaagagcatttgtcagctggctgccaatgagacgacggggtcatcacggctcatcatgcgccaaacaaatgtgtgcaatacacgctcggatgactgcatgatgaccgcactgactggggacagcagatccacctaagcctgtgagagaagcagacacccgacagatcaaggcagttaactagtgcactgcagtacagcggccgcgattatcaaaaaggatcttcacctagatccttttaaattaaaaatgaagttttaaatcaatctaaagtatatatgagtaaacttggtctgacagttaccaatgcttaatcagtgaggcacctatctcagcgatctgtctatttcgttcatccatagttgcctgactccccgtcgtgtagataactacgatacgggagggcttaccatctggccccagtgctgcaatgataccgcgggacccacgctcaccggctccagatttatcagcaataaaccagccagccggaagggccgagcgcagaagtggtcctgcaactttatccgcctccatccagtctattaattgttgccgggaagctagagtaagtagttcgccagttaatagtttgcgcaacgttgttgccattgctacaggcatcgtggtgtcacgctcgtcgtttggtatggcttcattcagctccggttcccaacgatcaaggcgagttacatgatcccccatgttgtgcaaaaaagcggttagctccttcggtcctccgatcgttgtcagaagtaagttggccgcagtgttatcactcatggttatggcagcactgcataattctcttactgtcatgccatccgtaagatgcttttctgtgactggtgagtactcaaccaagtcattctgagaatagtgtatgcggcgaccgagttgctcttgcccggcgtcaatacgggataataccgcgccacatagcagaactttaaaagtgctcatcattggaaaacgttcttcggggcgaaaactctcaaggatcttaccgctgttgagatccagttcgatgtaacccactcgtgcacccaactgatcttcagcatcttttactttcaccagcgtttctgggtgagcaaaaacaggaaggcaaaatgccgcaaaaaagggaataagggcgacacggaaatgttgaatactcatactcttcctttttcaatattattgaagcatttatcagggttattgtctcatgagcggatacatatttgaatgtatttagaaaaataaacaaataggggttccgcgcacatttccccgaaaagtgccacctgtcatgaccaaaatcccttaacgtgagttttcgttccactgagcgtcagaccccgtagaaaagatcaaaggatcttcttgagatcctttttttctgcgcgtaatctgctgcttgcaaacaaaaaaaccaccgctaccagcggtggtttgtttgccggatcaagagctaccaactctttttccgaaggtaactggcttcagcagagcgcagataccaaatactgttcttctagtgtagccgtagttaggccaccacttcaagaactctgtagcaccgcctacatacctcgctctgctaatcctgttaccagtggctgctgccagtggcgataagtcgtgtcttaccgggttggactcaagacgatagttaccggataaggcgcagcggtcgggctgaacggggggttcgtgcacacagcccagcttggagcgaacgacctacaccgaactgagatacctacagcgtgagctatgagaaagcgccacgcttcccgaagggagaaaggcggacaggtatccggtaagcggcagggtcggaacaggagagcgcacgagggagcttccagggggaaacgcctggtatctttatagtcctgtcgggtttcgccacctctgacttgagcgtcgatttttgtgatgctcgtcaggggggcggagcctatggaaaaacgccagcaacgcggcctttttacggttcctggccttttgctggccttttgctcacatgttctttcctgcgttatcccctgattctgtggataaccgtgcggccgcccct</sbol:elements>
-    <sbol:displayId>sb8b00426_4_sequence</sbol:displayId>
-  </sbol:Sequence>
-  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb8b00426_1_sequence/1">
-    <sbol:version>1</sbol:version>
-    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb8b00426_1_sequence"/>
-    <sbol:elements>gaattcgcatctagaacggggtcatcacggctcatcatgcgccaaacaaatgtgtgcaatacacgctcggatgactgcatgatgaccgcactgactggggacagcagatccacctaagcctgtgagagaagcagacacccgacagatcaaggcagttacgtctcaccaaccaaaccagatgtcaacacagctacaacggctgttttgaatggttccaacaagattattttataacttttataacaaataatcaaggagaaattcaaagaaatttatcagccataaaacaatacttaatactatagaatgataacaaaataaactactttttaaaagaattttgtgttataatctatttattattaagtattgggtaatattttttgaagagatattttgaaaaagaaaaattaaagcatattaaactaatttcggaggtcattaaaactattattgaaatcatcaaactcattatggatttaatttaaactttttattttaggaggcaaaatatggataagaaatactcaataggcttagctatcggcacaaatagcgtcggatgggcggtgatcactgatgaatataaggttccgtctaaaaagttcaaggttctgggaaatacagaccgccacagtatcaaaaaaaatcttataggggctcttttatttgacagtggagagacagcggaagcgactcgtctaaaacggacagctcgtagaaggtatacacgtcggaagaatcgtatttgttatctacaggagattttttcaaatgagatggcgaaagtagatgatagtttctttcatcgacttgaagagtcttttttggtggaagaagacaagaagcatgaacgtcatcctatttttggaaatatagtagatgaagttgcttatcatgagaaatatccaactatctatcatctgcgaaaaaaattggtagattctactgataaagcggatttgcgcttaatctatttggccttagcgcatatgattaagtttcgtggtcattttttgattgagggagatttaaatcctgataatagtgatgtggacaaactatttatccagttggtacaaacctacaatcaattatttgaagaaaaccctattaacgcaagtggagtagatgctaaagcgattctttctgcacgattgagtaaatcaagacgattagaaaatctcattgctcagctccccggtgagaagaaaaatggcttatttgggaatctcattgctttgtcattgggtttgacccctaattttaaatcaaattttgatttggcagaagatgctaaattacagctttcaaaagatacttacgatgatgatttagataatttattggcgcaaattggagatcaatatgctgatttgtttttggcagctaagaatttatcagatgctattttactttcagatatcctaagagtaaatactgaaataactaaggctcccctatcagcttcaatgattaaacgctacgatgaacatcatcaagacttgactcttttaaaagctttagttcgacaacaacttccagaaaagtataaagaaatcttttttgatcaatcaaaaaacggatatgcaggttatattgatgggggagctagccaagaagaattttataaatttatcaaaccaattttagaaaaaatggatggtactgaggaattattggtgaaactaaatcgtgaagatttgctgcgcaagcaacggacctttgacaacggctctattccccatcaaattcacttgggtgagctgcatgctattttgagaagacaagaagacttttatccatttttaaaagacaatcgtgagaagattgaaaaaatcttgacttttcgaattccttattatgttggtccattggcgcgtggcaatagtcgttttgcatggatgactcggaagtctgaagaaacaattaccccatggaattttgaagaagttgtcgataaaggtgcttcagctcaatcatttattgaacgcatgacaaactttgataaaaatcttccaaatgaaaaagtactaccaaaacatagtttgctttatgagtattttacggtttataacgaattgacaaaggtcaaatatgttactgaaggaatgcgaaaaccagcatttctttcaggtgaacagaagaaagccattgttgatttactcttcaaaacaaatcgaaaagtaaccgttaagcaattaaaagaagattatttcaaaaaaatagaatgttttgatagtgttgaaatttcaggagttgaagatagatttaatgcttcattaggtacctaccatgatttgctaaaaattattaaagataaagattttttggataatgaagaaaatgaagatatcttagaggatattgttttaacattgaccttatttgaagatagggagatgattgaggaaagacttaaaacatatgctcacctctttgatgataaggtgatgaaacagcttaaacgtcgccgttatactggttggggacgtttgtctcgaaaattgattaatggtattagggataagcaatctggcaaaacaatattagattttttgaaatcagatggttttgccaatcgcaattttatgcagctgatccatgatgatagtttgacatttaaagaagacattcaaaaagcacaagtgtctggacaaggcgatagtttacatgaacatattgcaaatttagctggtagccctgctattaaaaaaggtattttacagactgtaaaagttgttgatgaattggtcaaagtaatggggcggcataagccagaaaatatcgttattgaaatggcacgtgaaaatcagacaactcaaaagggccagaaaaattcgcgagagcgtatgaaacgaatcgaagaaggtatcaaagaattaggaagtcagattcttaaagagcatcctgttgaaaatactcaattgcaaaatgaaaagctctatctctattatctccaaaatggaagagacatgtatgtggaccaagaattagatattaatcgtttaagtgattatgatgtcgatgccattgttccacaaagtttccttaaagacgattcaatagacaataaggtcttaacgcgttctgataaaaatcgtggtaaatcggataacgttccaagtgaagaagtagtcaaaaagatgaaaaactattggagacaacttctaaacgccaagttaatcactcaacgtaagtttgataatttaacgaaagctgaacgtggaggtttgagtgaacttgataaagctggttttatcaaacgccaattggttgaaactcgccaaatcactaagcatgtggcacaaattttggatagtcgcatgaatactaaatacgatgaaaatgataaacttattcgagaggttaaagtgattaccttaaaatctaaattagtttctgacttccgaaaagatttccaattctataaagtacgtgagattaacaattaccatcatgcccatgatgcgtatctaaatgccgtcgttggaactgctttgattaagaaatatccaaaacttgaatcggagtttgtctatggtgattataaagtttatgatgttcgtaaaatgattgctaagtctgagcaagaaataggcaaagcaaccgcaaaatatttcttttactctaatatcatgaacttcttcaaaacagaaattacacttgcaaatggagagattcgcaaacgccctctaatcgaaactaatggggaaactggagaaattgtctgggataaagggcgagattttgccacagtgcgcaaagtattgtccatgccccaagtcaatattgtcaagaaaacagaagtacagacaggcggattctccaaggagtcaattttaccaaaaagaaattcggacaagcttattgctcgtaaaaaagactgggatccaaaaaaatatggtggttttgatagtccaacggtagcttattcagtcctagtggttgctaaggtggaaaaagggaaatcgaagaagttaaaatccgttaaagagttactagggatcacaattatggaaagaagttcctttgaaaaaaatccgattgactttttagaagctaaaggatataaggaagttaaaaaagacttaatcattaaactacctaaatatagtctttttgagttagaaaacggtcgtaaacggatgctggctagtgccggagaattacaaaaaggaaatgagctggctctgccaagcaaatatgtgaattttttatatttagctagtcattatgaaaagttgaagggtagtccagaagataacgaacaaaaacaattgtttgtggagcagcataagcattatttagatgagattattgagcaaatcagtgaattttctaagcgtgttattttagcagatgccaatttagataaagttcttagtgcatataacaaacatagagacaaaccaatacgtgaacaagcagaaaatattattcatttatttacgttgacgaatcttggagctcccgctgcttttaaatattttgatacaacaattgatcgtaaacgatatacgtctacaaaagaagttttagatgccactcttatccatcaatccatcactggtctttatgaaacacgcattgatttgagtcagctaggaggtgactgaatccaaagcaagctgataaaccgatacaattaaaggctccttttggagcctttttttttggagattttcaacatgaagaaattattatttgatgatcagatagcggcggggaactgccagacatcaaataaaacaaaaggctcagtcggaagactgggccttttgttttatctgttgtttgtcggtgaacactctcccggctgagcatgagacggaaatctgctcgtcagtggtgctcacactgacgaatcatgtacagatcataccgatgactgcctggcgactcacaactaagcaagacagccggaaccagcgccggcgaacaccactgcatatatggcatatcacaacagtccaactagtgcactgcagtacagcggccgcgattatcaaaaaggatcttcacctagatccttttaaattaaaaatgaagttttaaatcaatctaaagtatatatgagtaaacttggtctgacagttaccaatgcttaatcagtgaggcacctatctcagcgatctgtctatttcgttcatccatagttgcctgactccccgtcgtgtagataactacgatacgggagggcttaccatctggccccagtgctgcaatgataccgcgggacccacgctcaccggctccagatttatcagcaataaaccagccagccggaagggccgagcgcagaagtggtcctgcaactttatccgcctccatccagtctattaattgttgccgggaagctagagtaagtagttcgccagttaatagtttgcgcaacgttgttgccattgctacaggcatcgtggtgtcacgctcgtcgtttggtatggcttcattcagctccggttcccaacgatcaaggcgagttacatgatcccccatgttgtgcaaaaaagcggttagctccttcggtcctccgatcgttgtcagaagtaagttggccgcagtgttatcactcatggttatggcagcactgcataattctcttactgtcatgccatccgtaagatgcttttctgtgactggtgagtactcaaccaagtcattctgagaatagtgtatgcggcgaccgagttgctcttgcccggcgtcaatacgggataataccgcgccacatagcagaactttaaaagtgctcatcattggaaaacgttcttcggggcgaaaactctcaaggatcttaccgctgttgagatccagttcgatgtaacccactcgtgcacccaactgatcttcagcatcttttactttcaccagcgtttctgggtgagcaaaaacaggaaggcaaaatgccgcaaaaaagggaataagggcgacacggaaatgttgaatactcatactcttcctttttcaatattattgaagcatttatcagggttattgtctcatgagcggatacatatttgaatgtatttagaaaaataaacaaataggggttccgcgcacatttccccgaaaagtgccacctgtcatgaccaaaatcccttaacgtgagttttcgttccactgagcgtcagaccccgtagaaaagatcaaaggatcttcttgagatcctttttttctgcgcgtaatctgctgcttgcaaacaaaaaaaccaccgctaccagcggtggtttgtttgccggatcaagagctaccaactctttttccgaaggtaactggcttcagcagagcgcagataccaaatactgttcttctagtgtagccgtagttaggccaccacttcaagaactctgtagcaccgcctacatacctcgctctgctaatcctgttaccagtggctgctgccagtggcgataagtcgtgtcttaccgggttggactcaagacgatagttaccggataaggcgcagcggtcgggctgaacggggggttcgtgcacacagcccagcttggagcgaacgacctacaccgaactgagatacctacagcgtgagctatgagaaagcgccacgcttcccgaagggagaaaggcggacaggtatccggtaagcggcagggtcggaacaggagagcgcacgagggagcttccagggggaaacgcctggtatctttatagtcctgtcgggtttcgccacctctgacttgagcgtcgatttttgtgatgctcgtcaggggggcggagcctatggaaaaacgccagcaacgcggcctttttacggttcctggccttttgctggccttttgctcacatgttctttcctgcgttatcccctgattctgtggataaccgtgcggccgcccct</sbol:elements>
-    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
-    <ns0:title>dCas9_native_promoter_seq Sequence</ns0:title>
-    <sbol:displayId>sb8b00426_1_sequence</sbol:displayId>
-  </sbol:Sequence>
-  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb8b00426_2_sequence/1">
-    <sbol:version>1</sbol:version>
-    <sbol:elements>gaattcgcatctagaacggggtcatcacggctcatcatgcgccaaacaaatgtgtgcaatacacgctcggatgactgcatgatgaccgcactgactggggacagcagatccacctaagcctgtgagagaagcagacacccgacagatcaaggcagttacgtctcaccaaccaaaccagatgtcaacacagctacaacgcccagcctccaattcaaatcataaaaaatttatttgctttattaaagaggagaaattaattaatggataagaaatactcaataggcttagctatcggcacaaatagcgtcggatgggcggtgatcactgatgaatataaggttccgtctaaaaagttcaaggttctgggaaatacagaccgccacagtatcaaaaaaaatcttataggggctcttttatttgacagtggagagacagcggaagcgactcgtctaaaacggacagctcgtagaaggtatacacgtcggaagaatcgtatttgttatctacaggagattttttcaaatgagatggcgaaagtagatgatagtttctttcatcgacttgaagagtcttttttggtggaagaagacaagaagcatgaacgtcatcctatttttggaaatatagtagatgaagttgcttatcatgagaaatatccaactatctatcatctgcgaaaaaaattggtagattctactgataaagcggatttgcgcttaatctatttggccttagcgcatatgattaagtttcgtggtcattttttgattgagggagatttaaatcctgataatagtgatgtggacaaactatttatccagttggtacaaacctacaatcaattatttgaagaaaaccctattaacgcaagtggagtagatgctaaagcgattctttctgcacgattgagtaaatcaagacgattagaaaatctcattgctcagctccccggtgagaagaaaaatggcttatttgggaatctcattgctttgtcattgggtttgacccctaattttaaatcaaattttgatttggcagaagatgctaaattacagctttcaaaagatacttacgatgatgatttagataatttattggcgcaaattggagatcaatatgctgatttgtttttggcagctaagaatttatcagatgctattttactttcagatatcctaagagtaaatactgaaataactaaggctcccctatcagcttcaatgattaaacgctacgatgaacatcatcaagacttgactcttttaaaagctttagttcgacaacaacttccagaaaagtataaagaaatcttttttgatcaatcaaaaaacggatatgcaggttatattgatgggggagctagccaagaagaattttataaatttatcaaaccaattttagaaaaaatggatggtactgaggaattattggtgaaactaaatcgtgaagatttgctgcgcaagcaacggacctttgacaacggctctattccccatcaaattcacttgggtgagctgcatgctattttgagaagacaagaagacttttatccatttttaaaagacaatcgtgagaagattgaaaaaatcttgacttttcgaattccttattatgttggtccattggcgcgtggcaatagtcgttttgcatggatgactcggaagtctgaagaaacaattaccccatggaattttgaagaagttgtcgataaaggtgcttcagctcaatcatttattgaacgcatgacaaactttgataaaaatcttccaaatgaaaaagtactaccaaaacatagtttgctttatgagtattttacggtttataacgaattgacaaaggtcaaatatgttactgaaggaatgcgaaaaccagcatttctttcaggtgaacagaagaaagccattgttgatttactcttcaaaacaaatcgaaaagtaaccgttaagcaattaaaagaagattatttcaaaaaaatagaatgttttgatagtgttgaaatttcaggagttgaagatagatttaatgcttcattaggtacctaccatgatttgctaaaaattattaaagataaagattttttggataatgaagaaaatgaagatatcttagaggatattgttttaacattgaccttatttgaagatagggagatgattgaggaaagacttaaaacatatgctcacctctttgatgataaggtgatgaaacagcttaaacgtcgccgttatactggttggggacgtttgtctcgaaaattgattaatggtattagggataagcaatctggcaaaacaatattagattttttgaaatcagatggttttgccaatcgcaattttatgcagctgatccatgatgatagtttgacatttaaagaagacattcaaaaagcacaagtgtctggacaaggcgatagtttacatgaacatattgcaaatttagctggtagccctgctattaaaaaaggtattttacagactgtaaaagttgttgatgaattggtcaaagtaatggggcggcataagccagaaaatatcgttattgaaatggcacgtgaaaatcagacaactcaaaagggccagaaaaattcgcgagagcgtatgaaacgaatcgaagaaggtatcaaagaattaggaagtcagattcttaaagagcatcctgttgaaaatactcaattgcaaaatgaaaagctctatctctattatctccaaaatggaagagacatgtatgtggaccaagaattagatattaatcgtttaagtgattatgatgtcgatgccattgttccacaaagtttccttaaagacgattcaatagacaataaggtcttaacgcgttctgataaaaatcgtggtaaatcggataacgttccaagtgaagaagtagtcaaaaagatgaaaaactattggagacaacttctaaacgccaagttaatcactcaacgtaagtttgataatttaacgaaagctgaacgtggaggtttgagtgaacttgataaagctggttttatcaaacgccaattggttgaaactcgccaaatcactaagcatgtggcacaaattttggatagtcgcatgaatactaaatacgatgaaaatgataaacttattcgagaggttaaagtgattaccttaaaatctaaattagtttctgacttccgaaaagatttccaattctataaagtacgtgagattaacaattaccatcatgcccatgatgcgtatctaaatgccgtcgttggaactgctttgattaagaaatatccaaaacttgaatcggagtttgtctatggtgattataaagtttatgatgttcgtaaaatgattgctaagtctgagcaagaaataggcaaagcaaccgcaaaatatttcttttactctaatatcatgaacttcttcaaaacagaaattacacttgcaaatggagagattcgcaaacgccctctaatcgaaactaatggggaaactggagaaattgtctgggataaagggcgagattttgccacagtgcgcaaagtattgtccatgccccaagtcaatattgtcaagaaaacagaagtacagacaggcggattctccaaggagtcaattttaccaaaaagaaattcggacaagcttattgctcgtaaaaaagactgggatccaaaaaaatatggtggttttgatagtccaacggtagcttattcagtcctagtggttgctaaggtggaaaaagggaaatcgaagaagttaaaatccgttaaagagttactagggatcacaattatggaaagaagttcctttgaaaaaaatccgattgactttttagaagctaaaggatataaggaagttaaaaaagacttaatcattaaactacctaaatatagtctttttgagttagaaaacggtcgtaaacggatgctggctagtgccggagaattacaaaaaggaaatgagctggctctgccaagcaaatatgtgaattttttatatttagctagtcattatgaaaagttgaagggtagtccagaagataacgaacaaaaacaattgtttgtggagcagcataagcattatttagatgagattattgagcaaatcagtgaattttctaagcgtgttattttagcagatgccaatttagataaagttcttagtgcatataacaaacatagagacaaaccaatacgtgaacaagcagaaaatattattcatttatttacgttgacgaatcttggagctcccgctgcttttaaatattttgatacaacaattgatcgtaaacgatatacgtctacaaaagaagttttagatgccactcttatccatcaatccatcactggtctttatgaaacacgcattgatttgagtcagctaggaggtgactgaatccaaagcaagctgataaaccgatacaattaaaggctccttttggagcctttttttttggagattttcaacatgaagaaattattatttgatgatcagatagcggcggggaactgccagacatcaaataaaacaaaaggctcagtcggaagactgggccttttgttttatctgttgtttgtcggtgaacactctcccggctgagcatgagacggaaatctgctcgtcagtggtgctcacactgacgaatcatgtacagatcataccgatgactgcctggcgactcacaactaagcaagacagccggaaccagcgccggcgaacaccactgcatatatggcatatcacaacagtccaactagtgcactgcagtacagcggccgcgattatcaaaaaggatcttcacctagatccttttaaattaaaaatgaagttttaaatcaatctaaagtatatatgagtaaacttggtctgacagttaccaatgcttaatcagtgaggcacctatctcagcgatctgtctatttcgttcatccatagttgcctgactccccgtcgtgtagataactacgatacgggagggcttaccatctggccccagtgctgcaatgataccgcgggacccacgctcaccggctccagatttatcagcaataaaccagccagccggaagggccgagcgcagaagtggtcctgcaactttatccgcctccatccagtctattaattgttgccgggaagctagagtaagtagttcgccagttaatagtttgcgcaacgttgttgccattgctacaggcatcgtggtgtcacgctcgtcgtttggtatggcttcattcagctccggttcccaacgatcaaggcgagttacatgatcccccatgttgtgcaaaaaagcggttagctccttcggtcctccgatcgttgtcagaagtaagttggccgcagtgttatcactcatggttatggcagcactgcataattctcttactgtcatgccatccgtaagatgcttttctgtgactggtgagtactcaaccaagtcattctgagaatagtgtatgcggcgaccgagttgctcttgcccggcgtcaatacgggataataccgcgccacatagcagaactttaaaagtgctcatcattggaaaacgttcttcggggcgaaaactctcaaggatcttaccgctgttgagatccagttcgatgtaacccactcgtgcacccaactgatcttcagcatcttttactttcaccagcgtttctgggtgagcaaaaacaggaaggcaaaatgccgcaaaaaagggaataagggcgacacggaaatgttgaatactcatactcttcctttttcaatattattgaagcatttatcagggttattgtctcatgagcggatacatatttgaatgtatttagaaaaataaacaaataggggttccgcgcacatttccccgaaaagtgccacctgtcatgaccaaaatcccttaacgtgagttttcgttccactgagcgtcagaccccgtagaaaagatcaaaggatcttcttgagatcctttttttctgcgcgtaatctgctgcttgcaaacaaaaaaaccaccgctaccagcggtggtttgtttgccggatcaagagctaccaactctttttccgaaggtaactggcttcagcagagcgcagataccaaatactgttcttctagtgtagccgtagttaggccaccacttcaagaactctgtagcaccgcctacatacctcgctctgctaatcctgttaccagtggctgctgccagtggcgataagtcgtgtcttaccgggttggactcaagacgatagttaccggataaggcgcagcggtcgggctgaacggggggttcgtgcacacagcccagcttggagcgaacgacctacaccgaactgagatacctacagcgtgagctatgagaaagcgccacgcttcccgaagggagaaaggcggacaggtatccggtaagcggcagggtcggaacaggagagcgcacgagggagcttccagggggaaacgcctggtatctttatagtcctgtcgggtttcgccacctctgacttgagcgtcgatttttgtgatgctcgtcaggggggcggagcctatggaaaaacgccagcaacgcggcctttttacggttcctggccttttgctggccttttgctcacatgttctttcctgcgttatcccctgattctgtggataaccgtgcggccgcccct</sbol:elements>
-    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
-    <sbol:displayId>sb8b00426_2_sequence</sbol:displayId>
-    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb8b00426_2_sequence"/>
-    <ns0:title>dCas9_tdk_promoter_seq Sequence</ns0:title>
-  </sbol:Sequence>
-  <sbol:Collection rdf:about="http://examples.org/Collection/sb8b00426/1">
-    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb8b00426_2_comp/1"/>
-    <ns2:OBI_0001617>30703321</ns2:OBI_0001617>
-    <ns0:dateCopyrighted>2019</ns0:dateCopyrighted>
-    <ns0:abstract>Mobile genetic elements drive evolution by disrupting genes and rearranging genomes. Eukaryotes have evolved epigenetic mechanisms, including DNA methylation and RNA interference, that silence mobile elements and thereby preserve the integrity of their genomes. We created an artificial reprogrammable epigenetic system based on CRISPR interference to give engineered bacteria a similar line of defense against transposons and other selfish elements in their genomes. We demonstrate that this CRISPR interference against mobile elements (CRISPRi-ME) approach can be used to simultaneously repress two different transposon families in Escherichia coli, thereby increasing the evolutionary stability of costly protein expression. We further show that silencing a transposon in Acinetobacter baylyi ADP1 reduces mutation rates by a factor of 5, nearly as much as deleting all copies of this element from its genome. By deploying CRISPRi-ME on a broad-host-range vector, we have created a generalizable platform for stabilizing the genomes of engineered bacterial cells for applications in metabolic engineering and synthetic biology.</ns0:abstract>
-    <ns0:isPartOf rdf:resource="http://pubs.acs.org/journal/asbcd6"/>
-    <sbol:member rdf:resource="http://examples.org/Sequence/sb8b00426_3_sequence/1"/>
-    <ns0:type rdf:resource="http://purl.org/dc/dcmitype/Text"/>
-    <sbol:member rdf:resource="http://examples.org/Sequence/sb8b00426_5_sequence/1"/>
-    <sbol:member rdf:resource="http://examples.org/Sequence/sb8b00426_1_sequence/1"/>
-    <ns3:publisher>American Chemical
-Society</ns3:publisher>
-    <ns0:dateAccepted>2019-01-31</ns0:dateAccepted>
-    <sbol:displayId>sb8b00426</sbol:displayId>
-    <ns4:topLevel rdf:resource="https://synbioks.org/public/ACS/sb8b00426/1"/>
-    <sbol:persistentIdentity rdf:resource="http://examples.org/Collection/sb8b00426"/>
-    <ns2:OBI_0002110>10.1021/acssynbio.8b00426</ns2:OBI_0002110>
-    <ns0:description>Mobile genetic elements drive evolution by disrupting genes and rearranging genomes. Eukaryotes have evolved epigenetic mechanisms, including DNA methylation and RNA interference, that silence mobile elements and thereby preserve the integrity of their genomes. We created an artificial reprogrammable epigenetic system based on CRISPR interference to give engineered bacteria a similar line of defense against transposons and other selfish elements in their genomes. We demonstrate that this CRISPR interference against mobile elements (CRISPRi-ME) approach can be used to simultaneously repress two different transposon families in Escherichia coli, thereby increasing the evolutionary stability of costly protein expression. We further show that silencing a transposon in Acinetobacter baylyi ADP1 reduces mutation rates by a factor of 5, nearly as much as deleting all copies of this element from its genome. By deploying CRISPRi-ME on a broad-host-range vector, we have created a generalizable platform for stabilizing the genomes of engineered bacterial cells for applications in metabolic engineering and synthetic biology.</ns0:description>
-    <sbol:member rdf:resource="http://examples.org/Sequence/sb8b00426_2_sequence/1"/>
-    <ns3:type>research-article</ns3:type>
-    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb8b00426_1_comp/1"/>
-    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb8b00426_4_comp/1"/>
-    <ns0:created>2019-01-31</ns0:created>
-    <ns3:creator>Sean P. Leonard</ns3:creator>
-    <ns0:references>de
-Berardinis, V., Vallenet, D., Castelli, V., Besnard, M., Pinet, A., Cruaud, C., Samair, S., Lechaplais, C., Gyapay, G., Richez, C., Durot, M., Kreimeyer, A., Le Fe&#768;vre, F., Scha&#776;chter, V., Pezo, V., Do&#776;ring, V., Scarpelli, C., Me&#769;digue, C., Cohen, G. N., Marlie&#768;re, P., Salanoubat, M., Weissenbach, J. A complete collection of single-gene deletion mutants of Acinetobacter baylyi ADP1 Mol. Syst. Biol. 2008. 4.</ns0:references>
-    <ns0:rightsHolder>American Chemical Society</ns0:rightsHolder>
-    <ns4:ownedBy rdf:resource="https://synbioks.org/user/myers"/>
-    <ns3:subject>selfish
-DNA</ns3:subject>
-    <sbol:member rdf:resource="http://examples.org/Sequence/sb8b00426_4_sequence/1"/>
-    <sbol:version>1</sbol:version>
-    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb8b00426_5_comp/1"/>
-    <ns0:dateSubmitted>2018-10-11</ns0:dateSubmitted>
-    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb8b00426_3_comp/1"/>
-  </sbol:Collection>
   <sbol:Sequence rdf:about="http://examples.org/Sequence/sb8b00426_5_sequence/1">
-    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb8b00426_5_sequence"/>
-    <sbol:elements>gaattcgcatctagatggtagagccacaaacagccggtacaagcaacgatctccaggaccatctgaatcatgcgcggatgacacgaactcacgacggcgatcacagacattaacccacagtacagacactgcgacaacgtggcaattcgtcgcaataccgtctcactgaactggccgataattgcagacgaacgcgcccttcccaacagttgcctaagaaaccattattatcatgacattaacctataaaaataggcgtatcacgaggccctttcgtcttcacctcgagaaatcataaaaaatttatttgctttgtgagcggataacaattataatagattcacatccagttccaccagaatagttttagagctagaaatagcaagttaaaataaggctagtccgttatcaacttgaaaaagtggcaccgagtcggtgctttttttgaattctctagagtcgacctgcagaagcttagatctattaccctgttatccctactcgagttcatgtgcagctccatcagcatccgtaatcgttaatccgcaaataacgtaaaaacccgcttcggcgggtttttttatggggggagtttagggaaagagcatttgtcagctggctgccaatgagacgacggggtcatcacggctcatcatgcgccaaacaaatgtgtgcaatacacgctcggatgactgcatgatgaccgcactgactggggacagcagatccacctaagcctgtgagagaagcagacacccgacagatcaaggcagttaactagtgcactgcagtacagcggccgcgattatcaaaaaggatcttcacctagatccttttaaattaaaaatgaagttttaaatcaatctaaagtatatatgagtaaacttggtctgacagttaccaatgcttaatcagtgaggcacctatctcagcgatctgtctatttcgttcatccatagttgcctgactccccgtcgtgtagataactacgatacgggagggcttaccatctggccccagtgctgcaatgataccgcgggacccacgctcaccggctccagatttatcagcaataaaccagccagccggaagggccgagcgcagaagtggtcctgcaactttatccgcctccatccagtctattaattgttgccgggaagctagagtaagtagttcgccagttaatagtttgcgcaacgttgttgccattgctacaggcatcgtggtgtcacgctcgtcgtttggtatggcttcattcagctccggttcccaacgatcaaggcgagttacatgatcccccatgttgtgcaaaaaagcggttagctccttcggtcctccgatcgttgtcagaagtaagttggccgcagtgttatcactcatggttatggcagcactgcataattctcttactgtcatgccatccgtaagatgcttttctgtgactggtgagtactcaaccaagtcattctgagaatagtgtatgcggcgaccgagttgctcttgcccggcgtcaatacgggataataccgcgccacatagcagaactttaaaagtgctcatcattggaaaacgttcttcggggcgaaaactctcaaggatcttaccgctgttgagatccagttcgatgtaacccactcgtgcacccaactgatcttcagcatcttttactttcaccagcgtttctgggtgagcaaaaacaggaaggcaaaatgccgcaaaaaagggaataagggcgacacggaaatgttgaatactcatactcttcctttttcaatattattgaagcatttatcagggttattgtctcatgagcggatacatatttgaatgtatttagaaaaataaacaaataggggttccgcgcacatttccccgaaaagtgccacctgtcatgaccaaaatcccttaacgtgagttttcgttccactgagcgtcagaccccgtagaaaagatcaaaggatcttcttgagatcctttttttctgcgcgtaatctgctgcttgcaaacaaaaaaaccaccgctaccagcggtggtttgtttgccggatcaagagctaccaactctttttccgaaggtaactggcttcagcagagcgcagataccaaatactgttcttctagtgtagccgtagttaggccaccacttcaagaactctgtagcaccgcctacatacctcgctctgctaatcctgttaccagtggctgctgccagtggcgataagtcgtgtcttaccgggttggactcaagacgatagttaccggataaggcgcagcggtcgggctgaacggggggttcgtgcacacagcccagcttggagcgaacgacctacaccgaactgagatacctacagcgtgagctatgagaaagcgccacgcttcccgaagggagaaaggcggacaggtatccggtaagcggcagggtcggaacaggagagcgcacgagggagcttccagggggaaacgcctggtatctttatagtcctgtcgggtttcgccacctctgacttgagcgtcgatttttgtgatgctcgtcaggggggcggagcctatggaaaaacgccagcaacgcggcctttttacggttcctggccttttgctggccttttgctcacatgttctttcctgcgttatcccctgattctgtggataaccgtgcggccgcccct</sbol:elements>
     <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
-    <sbol:displayId>sb8b00426_5_sequence</sbol:displayId>
+    <sbol:elements>gaattcgcatctagatggtagagccacaaacagccggtacaagcaacgatctccaggaccatctgaatcatgcgcggatgacacgaactcacgacggcgatcacagacattaacccacagtacagacactgcgacaacgtggcaattcgtcgcaataccgtctcactgaactggccgataattgcagacgaacgcgcccttcccaacagttgcctaagaaaccattattatcatgacattaacctataaaaataggcgtatcacgaggccctttcgtcttcacctcgagaaatcataaaaaatttatttgctttgtgagcggataacaattataatagattcacatccagttccaccagaatagttttagagctagaaatagcaagttaaaataaggctagtccgttatcaacttgaaaaagtggcaccgagtcggtgctttttttgaattctctagagtcgacctgcagaagcttagatctattaccctgttatccctactcgagttcatgtgcagctccatcagcatccgtaatcgttaatccgcaaataacgtaaaaacccgcttcggcgggtttttttatggggggagtttagggaaagagcatttgtcagctggctgccaatgagacgacggggtcatcacggctcatcatgcgccaaacaaatgtgtgcaatacacgctcggatgactgcatgatgaccgcactgactggggacagcagatccacctaagcctgtgagagaagcagacacccgacagatcaaggcagttaactagtgcactgcagtacagcggccgcgattatcaaaaaggatcttcacctagatccttttaaattaaaaatgaagttttaaatcaatctaaagtatatatgagtaaacttggtctgacagttaccaatgcttaatcagtgaggcacctatctcagcgatctgtctatttcgttcatccatagttgcctgactccccgtcgtgtagataactacgatacgggagggcttaccatctggccccagtgctgcaatgataccgcgggacccacgctcaccggctccagatttatcagcaataaaccagccagccggaagggccgagcgcagaagtggtcctgcaactttatccgcctccatccagtctattaattgttgccgggaagctagagtaagtagttcgccagttaatagtttgcgcaacgttgttgccattgctacaggcatcgtggtgtcacgctcgtcgtttggtatggcttcattcagctccggttcccaacgatcaaggcgagttacatgatcccccatgttgtgcaaaaaagcggttagctccttcggtcctccgatcgttgtcagaagtaagttggccgcagtgttatcactcatggttatggcagcactgcataattctcttactgtcatgccatccgtaagatgcttttctgtgactggtgagtactcaaccaagtcattctgagaatagtgtatgcggcgaccgagttgctcttgcccggcgtcaatacgggataataccgcgccacatagcagaactttaaaagtgctcatcattggaaaacgttcttcggggcgaaaactctcaaggatcttaccgctgttgagatccagttcgatgtaacccactcgtgcacccaactgatcttcagcatcttttactttcaccagcgtttctgggtgagcaaaaacaggaaggcaaaatgccgcaaaaaagggaataagggcgacacggaaatgttgaatactcatactcttcctttttcaatattattgaagcatttatcagggttattgtctcatgagcggatacatatttgaatgtatttagaaaaataaacaaataggggttccgcgcacatttccccgaaaagtgccacctgtcatgaccaaaatcccttaacgtgagttttcgttccactgagcgtcagaccccgtagaaaagatcaaaggatcttcttgagatcctttttttctgcgcgtaatctgctgcttgcaaacaaaaaaaccaccgctaccagcggtggtttgtttgccggatcaagagctaccaactctttttccgaaggtaactggcttcagcagagcgcagataccaaatactgttcttctagtgtagccgtagttaggccaccacttcaagaactctgtagcaccgcctacatacctcgctctgctaatcctgttaccagtggctgctgccagtggcgataagtcgtgtcttaccgggttggactcaagacgatagttaccggataaggcgcagcggtcgggctgaacggggggttcgtgcacacagcccagcttggagcgaacgacctacaccgaactgagatacctacagcgtgagctatgagaaagcgccacgcttcccgaagggagaaaggcggacaggtatccggtaagcggcagggtcggaacaggagagcgcacgagggagcttccagggggaaacgcctggtatctttatagtcctgtcgggtttcgccacctctgacttgagcgtcgatttttgtgatgctcgtcaggggggcggagcctatggaaaaacgccagcaacgcggcctttttacggttcctggccttttgctggccttttgctcacatgttctttcctgcgttatcccctgattctgtggataaccgtgcggccgcccct</sbol:elements>
     <sbol:version>1</sbol:version>
     <ns0:title>sgRNA_T5_seq Sequence</ns0:title>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb8b00426_5_sequence"/>
+    <sbol:displayId>sb8b00426_5_sequence</sbol:displayId>
   </sbol:Sequence>
-  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb8b00426_1_comp/1">
-    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00426_1_comp"/>
-    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
-    <sbol:component>
-      <sbol:Component rdf:about="http://examples.org/ComponentDefinition/sb8b00426_1_comp/AmpR_comp_1/1">
-        <sbol:definition rdf:resource="https://synbioks.org/public/YTK/AmpR/1"/>
-        <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00426_1_comp/AmpR_comp_1"/>
-        <sbol:displayId>AmpR_comp_1</sbol:displayId>
-        <ns0:title>AmpR</ns0:title>
-        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
-        <sbol:version>1</sbol:version>
-      </sbol:Component>
-    </sbol:component>
-    <sbol:sequenceAnnotation>
-      <sbol:SequenceAnnotation rdf:about="http://examples.org/ComponentDefinition/sb8b00426_1_comp/ColE1_anno_1/1">
-        <sbol:location>
-          <sbol:Range rdf:about="http://examples.org/ComponentDefinition/sb8b00426_1_comp/ColE1_anno_1/ColE1_anno_1_loc/1">
-            <sbol:displayId>ColE1_anno_1_loc</sbol:displayId>
-            <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00426_1_comp/ColE1_anno_1/ColE1_anno_1_loc"/>
-            <sbol:start>6090</sbol:start>
-            <sbol:version>1</sbol:version>
-            <sbol:end>6853</sbol:end>
-            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
-          </sbol:Range>
-        </sbol:location>
-        <sbol:component rdf:resource="http://examples.org/ComponentDefinition/sb8b00426_1_comp/ColE1_comp_1/1"/>
-        <ns0:title>ColE1</ns0:title>
-        <sbol:version>1</sbol:version>
-        <sbol:displayId>ColE1_anno_1</sbol:displayId>
-        <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00426_1_comp/ColE1_anno_1"/>
-      </sbol:SequenceAnnotation>
-    </sbol:sequenceAnnotation>
-    <sbol:displayId>sb8b00426_1_comp</sbol:displayId>
-    <sbol:component>
-      <sbol:Component rdf:about="http://examples.org/ComponentDefinition/sb8b00426_1_comp/ColE1_comp_1/1">
-        <sbol:definition rdf:resource="https://synbioks.org/public/YTK/ColE1/1"/>
-        <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00426_1_comp/ColE1_comp_1"/>
-        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
-        <ns0:title>ColE1</ns0:title>
-        <sbol:displayId>ColE1_comp_1</sbol:displayId>
-        <sbol:version>1</sbol:version>
-      </sbol:Component>
-    </sbol:component>
-    <sbol:sequenceAnnotation>
-      <sbol:SequenceAnnotation rdf:about="http://examples.org/ComponentDefinition/sb8b00426_1_comp/AmpR_anno_1/1">
-        <sbol:component rdf:resource="http://examples.org/ComponentDefinition/sb8b00426_1_comp/AmpR_comp_1/1"/>
-        <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00426_1_comp/AmpR_anno_1"/>
-        <sbol:location>
-          <sbol:Range rdf:about="http://examples.org/ComponentDefinition/sb8b00426_1_comp/AmpR_anno_1/AmpR_anno_1_loc/1">
-            <sbol:displayId>AmpR_anno_1_loc</sbol:displayId>
-            <sbol:start>5101</sbol:start>
-            <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00426_1_comp/AmpR_anno_1/AmpR_anno_1_loc"/>
-            <sbol:orientation rdf:resource="http://sbols.org/v2#reverseComplement"/>
-            <sbol:version>1</sbol:version>
-            <sbol:end>5958</sbol:end>
-          </sbol:Range>
-        </sbol:location>
-        <ns0:title>AmpR</ns0:title>
-        <ns0:description>Confers resistance to ampicillin in bacteria</ns0:description>
-        <sbol:version>1</sbol:version>
-        <sbol:displayId>AmpR_anno_1</sbol:displayId>
-      </sbol:SequenceAnnotation>
-    </sbol:sequenceAnnotation>
-    <ns1:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
-    <sbol:component>
-      <sbol:Component rdf:about="http://examples.org/ComponentDefinition/sb8b00426_1_comp/AmpR_terminator_comp_1/1">
-        <ns0:title>AmpR terminator</ns0:title>
-        <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00426_1_comp/AmpR_terminator_comp_1"/>
-        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
-        <sbol:version>1</sbol:version>
-        <sbol:definition rdf:resource="https://synbioks.org/public/YTK/AmpR_terminator/1"/>
-        <sbol:displayId>AmpR_terminator_comp_1</sbol:displayId>
-      </sbol:Component>
-    </sbol:component>
-    <ns0:title>dCas9_native_promoter_seq</ns0:title>
-    <sbol:sequenceAnnotation>
-      <sbol:SequenceAnnotation rdf:about="http://examples.org/ComponentDefinition/sb8b00426_1_comp/AmpR_terminator_anno_1/1">
-        <sbol:component rdf:resource="http://examples.org/ComponentDefinition/sb8b00426_1_comp/AmpR_terminator_comp_1/1"/>
-        <sbol:displayId>AmpR_terminator_anno_1</sbol:displayId>
-        <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00426_1_comp/AmpR_terminator_anno_1"/>
-        <ns0:title>AmpR terminator</ns0:title>
-        <sbol:location>
-          <sbol:Range rdf:about="http://examples.org/ComponentDefinition/sb8b00426_1_comp/AmpR_terminator_anno_1/AmpR_terminator_anno_1_loc/1">
-            <sbol:displayId>AmpR_terminator_anno_1_loc</sbol:displayId>
-            <sbol:start>5959</sbol:start>
-            <sbol:orientation rdf:resource="http://sbols.org/v2#reverseComplement"/>
-            <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00426_1_comp/AmpR_terminator_anno_1/AmpR_terminator_anno_1_loc"/>
-            <sbol:version>1</sbol:version>
-            <sbol:end>6089</sbol:end>
-          </sbol:Range>
-        </sbol:location>
-        <sbol:version>1</sbol:version>
-      </sbol:SequenceAnnotation>
-    </sbol:sequenceAnnotation>
-    <sbol:version>1</sbol:version>
-    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb8b00426_1_sequence/1"/>
-    <sbol:component>
-      <sbol:Component rdf:about="http://examples.org/ComponentDefinition/sb8b00426_1_comp/AmpR_promoter_comp_1/1">
-        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
-        <sbol:version>1</sbol:version>
-        <sbol:definition rdf:resource="https://synbioks.org/public/YTK/AmpR_promoter/1"/>
-        <ns0:title>AmpR promoter</ns0:title>
-        <sbol:displayId>AmpR_promoter_comp_1</sbol:displayId>
-        <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00426_1_comp/AmpR_promoter_comp_1"/>
-      </sbol:Component>
-    </sbol:component>
-    <ns1:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.8b00426"/>
-    <sbol:sequenceAnnotation>
-      <sbol:SequenceAnnotation rdf:about="http://examples.org/ComponentDefinition/sb8b00426_1_comp/AmpR_promoter_anno_1/1">
-        <sbol:displayId>AmpR_promoter_anno_1</sbol:displayId>
-        <sbol:version>1</sbol:version>
-        <ns0:title>AmpR promoter</ns0:title>
-        <sbol:component rdf:resource="http://examples.org/ComponentDefinition/sb8b00426_1_comp/AmpR_promoter_comp_1/1"/>
-        <sbol:location>
-          <sbol:Range rdf:about="http://examples.org/ComponentDefinition/sb8b00426_1_comp/AmpR_promoter_anno_1/AmpR_promoter_anno_1_loc/1">
-            <sbol:start>5004</sbol:start>
-            <sbol:orientation rdf:resource="http://sbols.org/v2#reverseComplement"/>
-            <sbol:version>1</sbol:version>
-            <sbol:end>5100</sbol:end>
-            <sbol:displayId>AmpR_promoter_anno_1_loc</sbol:displayId>
-            <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00426_1_comp/AmpR_promoter_anno_1/AmpR_promoter_anno_1_loc"/>
-          </sbol:Range>
-        </sbol:location>
-        <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00426_1_comp/AmpR_promoter_anno_1"/>
-      </sbol:SequenceAnnotation>
-    </sbol:sequenceAnnotation>
-  </sbol:ComponentDefinition>
   <sbol:Sequence rdf:about="http://examples.org/Sequence/sb8b00426_3_sequence/1">
     <ns0:title>pBTK527a_seq Sequence</ns0:title>
-    <sbol:elements>ggggccgaaaggcttgtcttcgcggaacaaggacaaggtgcagccgtcaaggttaaggctggccatatcagcgactgaaaagcggccagcctcggccttgtttgacgtataaccaaagccaccgggcaaccaatagcccttgtcacttttgatcaggtagaccgaccctgaagcgcttttttcgtattccataaaacccccttctgtgcgtgagtactcatagtataacaggcgtgagtaccaacgcaagcactacatgctgaaatctggcccgcccctgtccatgcctcgctggcggggtgccggtgcccgtgccagctcggcccgcgcaagctggacgctgggcagacccatgaccttgctgacggtgcgctcgatgtaatccgcttcgtggccgggcttgcgctctgccagcgctgggctggcctcggccatggccttgccgatttcctcggcactgcggccccggctggccagcttctgcgcggcgataaagtcgcacttgctgaggtcatgaccgaagcgcttgaccagcccggccatctcgctgcggtactcgtccagcgccgtgcgccggtggcggctaagctgccgctcgggcagttcgaggctggccagcctgcgggccttctcctgctgccgctgggcctgctcgatctgctggccagcctgctgcaccagcgccgggccagcggtggcggtcttgcccttggattcacgcagcagcacccacggctgataaccggcgcgggtggtgtgcttgtccttgcggttggtgaagcccgccaagcggccatagtggcggctgtcggcgctggccgggtcggcgtcgtactcgctggccagcgtccgggcaatctgcccccgaagttcaccgcctgcggcgtcggccaccttgacccatgcctgatagttcttcgggctggtttccactaccagggcaggctcccggccctcggctttcatgtcatccaggtcaaactcgctgaggtcgtccaccagcaccagaccatgccgctcctgctcggcgggcctgatatacacgtcattgccctgggcattcatccgcttgagccatggcgtgttctggagcacttcggcggctgaccattcccggttcatcatctggccggtgggtgcgtccctgacgccgatatcgaagcgctcacagcccatggccttgagctgtcggcctatggcctgcaaagtcctgtcgttcttcatcgggccaccaagcgcagccagatcgagccgtcctcggttgtcagtggcgtcaggtcgagcaagagcaacgatgcgatcagcagcaccaccgtaggcatcatggaagccagcatcacggttagccatagcttccagtgccacccccgcgacgcgctccgggcgctctgcgcggcgctgctcacctcggcggctacctcccgcaactctttggccagctccacccatgccgcccctgtctggcgctgggctttcagccactccgccgcctgcgcctcgctggcctgcttggtctggctcatgacctgccgggcttcgtcggccagtgtcgccatgctctgggccagcggttcgatctgctccgctaactcgttgatgcctctggatttcttcactctgtcgattgcgttcatggtctattgcctcccggtattcctgtaagtcgatgatctgggcgttggcggtgtcgatgttcagggccacgtctgcccggtcggtgcggatgccccggccttccatctccaccacgttcggccccaggtgaacaccgggcaggcgctcgatgccctgcgcctcaagtgttctgtggtcaatgcgggcgtcgtggccagcccgctctaatgcccggttggcatggtcggcccatgcctcgcgggtctgctcaagccatgccttgggcttgagcgcttcggtcttctgtgccccgcccttctccggggtcttgccgttgtaccgcttgaaccactgagcggcgggccgctcgatgccgtcattgatccgctcggagatcatcaggtggcagtgcgggttctcgccgccaccggcatggatggccagcgtatacggcaggcgctcggcaccggtcaggtgctgggcgaactcggacgccagcgccttctgctggtcgagggtcagctcgaccggcagggcaaattcgacctccttgaacagccgcccattggcgcgttcatacaggtcggcagcatcccagtagtcggcgggccgctcgacgaactccggcatgtgcccggattcggcgtgcaagacttcatccatgtcgcgggcatacttgccttcgcgctggatgtagtcggccttggccctggccgattggccgcccgacctgctgccggttttcgccgtaaggtgataaatcgccatgctgcctcgctgttgcttttgcttttcggctccatgcaatggccctcggagagcgcaccgcccgaagggtggccgttaggccagtttctcgaagagaaaccggtaagtgcgccctcccctacaaagtagggtcgggattgccgccgctgtgcctccatgatagcctacgagacagcacattaacaatggggtgtcaagatggttaaggggagcaacaaggcggcggatcggctggccaagctcgaagaacaacgagcgcgaatcaatgccgaaattcagcgggagcgggcaagggaacagcagcaagagcgcaagaacgaaacaaggcgcaaggtgctggtgggggccatgattttggccaaggtgaacagcagcgagtggccggaggatcggctcatggcggcaatggatgcgtaccttgaacgcgaccacgaccgcgccttgttcggtctgccgccacgccagaaggatgagccgggctgaatgatcgaccgagacaggccctgcggggctgcacacgcgcccccacccttcgggtagggggaaaggccgctaaagcggctaaaagcgctccagcgtatttctgcggggtttggtgtggggtttagcgggctttgcccgcctttccccctgccgcgcagcggtggggcggtgtgtagcctagcgcagcgaatagaccagctatccggcctctggccgggcatattgggcaagggcagcagcgccccacaagggcgctgataaccgcgcctagtggattattcttagataatcatggatggatttttccaacaccccgccagcccccgcccctgctgggtttgcaggtttgggggcgtgacagttattgcaggggttcgtgacagttattgcaggggggcgtgacagttattgcaggggttcgtgacagttagtacgggagtgacgggcactggctggcaatgtctagcaacggcaggcatttcggctgagggtaaaagaactttccgctaagcgatagactgtatgtaaacacagtattgcaaggacgcggaacatgcctcatgtggcggccaggacggccagccgggatcgggatactggtcgttaccagagccaccgacccgagcaaacccttctctatcagatcgttgacgagtattacccggcattcgctgcgcttatggcagagcagggaaaggaattgccgggctatgtgcaacgggaatttgaagaatttctccaatgcgggcggctggagcatggctttctacgggttcgctgcgagtcttgccacgccgagcacctggtcgctttcagaaatcaatctaaagtatatatgagtaaacttggtctgacaggcccctgaattcgcatctagactgatgagacgtggtagagccacaaacagccggtacaagcaacgatctccaggaccatctgaatcatgcgcggatgacacgaactcacgacggcgatcacagacattaacccacagtacagacactgcgacaacgtggcaattcgtcgcaatacaacgtaacgggcttcccatacaatcgattagagattgtcatcgcacctgattgcccgacattatcgcgagttataacccatttatacccatataaatcagcatccatgttggaatttaatcgcgtgagcctatgtaacgggcttcccatacaatcgattagagattgtcatcgcacctgattgcccgacattatcgcgagttataacccatttatacccatataaatcagcatccatgttggaatttaatcgcgtgagccatccgtaatcgttaatccgcaaataacgtaaaaacccgcttcggcgggtttttttatggggggagtttagggaaagagcatttgtcagctgcgtctcaagcagttacagagatgttacgaacccccaggacatccgagaatgcgaggcgatggagggtacaacccgagcggccgcttatttgccgactaccttggtgatctcgcctttcacgtagtggacaaattcttccaactgatctgcgcgcgaggccaagcgatcttcttcttgtccaagataagcctgtctagcttcaagtatgacgggctgatactgggccggcaggcgctccattgcccagtcggcagcgacatccttcggcgcgattttgccggttactgcgctgtaccaaatgcgggacaacgtaagcactacatttcgctcatcgccagcccagtcgggcggcgagttccatagcgttaaggtttcatttagcgcctcaaatagatcctgttcaggaaccggatcaaagagttcctccgccgctggacctaccaaggcaacgctatgttctcttgcttttgtcagcaagatagccagatcaatgtcgatcgtggctggctcgaagatacccgcaagaatgtcattgcgctgccattctccaaattgcagttcgcgcttagctggataacgccacggaatgatgtcgtcgtgcacaacaatggtgacttctacagcgcggagaatctcgctctctccaggggaagccgaagtttccaaaaggtcgttgatcaaagctcgccgcgttgtttcatcaagccttacggtcaccgtaaccagcaaatcaatatcactgtgtggcttcaggccgccatccactgcggagccgtacaaatgtacggccagcaacgtcggttcgagatggcgctcgatgacgccaactacctctgatagttgagtcgatacttcggcgatcaccgcttccctcataatgtttaactttgttttagggcgactgccctgctgcgtaacatcgttgctgctccataacatcaaacatcgacccacggcgtaacgcgcttgctgcttggatgcccgaggcatagactgtaccccaaaaaaacagtcataacaagccatgaaaaccgccactgcgccgttaccaccgctgcgttcggtcaaggttctggaccagttgcgtgagcgcatacgctacttgcattacagcttacgaaccgaacaggcttatgtccactgggttcgtgccttcatccgtttccacggtgtgcgtcacccggcaaccttgggtagcagcgaagtcgaggcatttctgtcctggctggtcatgaccaaaatcccttaacgtgagtcagcctgccgccttgggccgggtgatgtcgtacttgcccgccgcgaactcggttaccgtccagcccagcgcgaccagctccggcaacgcctcgcgcacccgcttgcggcgcttgcgcatggtcgaaccactggcctctgacggccagacatagccgcacaaggtatctatggaagccttgccggttttgccggggtcgatccagccacacagccgctggtgcagcaggcgggcggtttcgctgtccagcgcccgcacctcgtccatgctgatgcgcacatgctggccgccacccatgacggcctgcgcgatcaaggggttcagggccacgtacaggcgcccgtccgcctcgtcgctggcgtactccgacagcagccgaaacccctgccgcttgcggccattctgggcgatgatggataccttccaaaggcgctcgatgcagtcctgtatgtgcttgagcgccccaccactatcgacctctgccccgatttcctttgccagcgcccgatagctacctttgaccacatggcattcagcggtgacggcctcccacttgggttccaggaacagccggagctgccgtccgccttcggtcttgggttccgggccaagcactaggccattaggcccagccatggccaccagcccttgcaggatgcgcagatcatcagcgcccagcggctccgggccgctgaactcgatccgcttgccgtcgccgtagtcatacgtcacgtccagcttgctgcgcttgcgctcgccccgcttgagggcacggaacaggccgggggccagacagtgcgccgggtcgtgccggacgtggctgaggctgtgcttgttcttaggcttcaccacggggcacccccttgctcttgcgctgcctctccagcacggcgggcttgagcaccccgccgtcatgccgcctgaaccaccgatcagcgaacggtgcgccatagttggccttgctcacaccgaagcggacgaagaaccggcgctggtcgtcgtccacaccccattcctcggcctcggcgctggtcatgctcgacaggtaggactgccagcggatgttatcgaccagtaccgagctgccccggctggcctgctgctggtcgcctgcgcccatcatggccgcgcccttgctggcatggtgcaggaacacgatagagcacccggtatcggcggcgatggcctccatgcgaccgatgacctgggccatggggccgctggcgttttcttcctcgatgtggaaccggcgcagcgtgtccagcaccatcaggcggcggccctcggcggcgcgcttgaggccgtcgaaccactccggggccatgatgttgggcaggctgccgatcagcggctggatcagcaggccgtcagccacggcttgccgttcctcggcgctgaggtgcgccccaagggcgtgcaggcggtgatgaatggcggtgggcgggtcttcggcgggcaggtagatcaccgggccggtgggcagttcgcccacctccagcagatccggcccgcctgcaatctgtgcggccagttgcagggccagcatggatttaccggcaccaccgggcgacaccagcgccccgaccgtaccggccaccatgttgggcaaaacgtagtccagcggtggcggcgctgctgcgaacgcctccagaatattgataggcttatgggtagccattgattgcctcctttgcaggcagttggtggttaggcgctggcggggtcactacccccgccctgcgccgctctgagttcttccaggcactcgcgcagcgcctcgtattcgtcgtcggtcagccagaacttgcgctgacgcatccctttggccttcatgcgctcggcatatcgcgcttggcgtacagcgtcagggctggccagcaggtcgccggtctgcttgtccttttggtctttcatatcagtcaccgagaaacttgcc</sbol:elements>
-    <sbol:displayId>sb8b00426_3_sequence</sbol:displayId>
-    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb8b00426_3_sequence"/>
-    <sbol:version>1</sbol:version>
     <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:elements>ggggccgaaaggcttgtcttcgcggaacaaggacaaggtgcagccgtcaaggttaaggctggccatatcagcgactgaaaagcggccagcctcggccttgtttgacgtataaccaaagccaccgggcaaccaatagcccttgtcacttttgatcaggtagaccgaccctgaagcgcttttttcgtattccataaaacccccttctgtgcgtgagtactcatagtataacaggcgtgagtaccaacgcaagcactacatgctgaaatctggcccgcccctgtccatgcctcgctggcggggtgccggtgcccgtgccagctcggcccgcgcaagctggacgctgggcagacccatgaccttgctgacggtgcgctcgatgtaatccgcttcgtggccgggcttgcgctctgccagcgctgggctggcctcggccatggccttgccgatttcctcggcactgcggccccggctggccagcttctgcgcggcgataaagtcgcacttgctgaggtcatgaccgaagcgcttgaccagcccggccatctcgctgcggtactcgtccagcgccgtgcgccggtggcggctaagctgccgctcgggcagttcgaggctggccagcctgcgggccttctcctgctgccgctgggcctgctcgatctgctggccagcctgctgcaccagcgccgggccagcggtggcggtcttgcccttggattcacgcagcagcacccacggctgataaccggcgcgggtggtgtgcttgtccttgcggttggtgaagcccgccaagcggccatagtggcggctgtcggcgctggccgggtcggcgtcgtactcgctggccagcgtccgggcaatctgcccccgaagttcaccgcctgcggcgtcggccaccttgacccatgcctgatagttcttcgggctggtttccactaccagggcaggctcccggccctcggctttcatgtcatccaggtcaaactcgctgaggtcgtccaccagcaccagaccatgccgctcctgctcggcgggcctgatatacacgtcattgccctgggcattcatccgcttgagccatggcgtgttctggagcacttcggcggctgaccattcccggttcatcatctggccggtgggtgcgtccctgacgccgatatcgaagcgctcacagcccatggccttgagctgtcggcctatggcctgcaaagtcctgtcgttcttcatcgggccaccaagcgcagccagatcgagccgtcctcggttgtcagtggcgtcaggtcgagcaagagcaacgatgcgatcagcagcaccaccgtaggcatcatggaagccagcatcacggttagccatagcttccagtgccacccccgcgacgcgctccgggcgctctgcgcggcgctgctcacctcggcggctacctcccgcaactctttggccagctccacccatgccgcccctgtctggcgctgggctttcagccactccgccgcctgcgcctcgctggcctgcttggtctggctcatgacctgccgggcttcgtcggccagtgtcgccatgctctgggccagcggttcgatctgctccgctaactcgttgatgcctctggatttcttcactctgtcgattgcgttcatggtctattgcctcccggtattcctgtaagtcgatgatctgggcgttggcggtgtcgatgttcagggccacgtctgcccggtcggtgcggatgccccggccttccatctccaccacgttcggccccaggtgaacaccgggcaggcgctcgatgccctgcgcctcaagtgttctgtggtcaatgcgggcgtcgtggccagcccgctctaatgcccggttggcatggtcggcccatgcctcgcgggtctgctcaagccatgccttgggcttgagcgcttcggtcttctgtgccccgcccttctccggggtcttgccgttgtaccgcttgaaccactgagcggcgggccgctcgatgccgtcattgatccgctcggagatcatcaggtggcagtgcgggttctcgccgccaccggcatggatggccagcgtatacggcaggcgctcggcaccggtcaggtgctgggcgaactcggacgccagcgccttctgctggtcgagggtcagctcgaccggcagggcaaattcgacctccttgaacagccgcccattggcgcgttcatacaggtcggcagcatcccagtagtcggcgggccgctcgacgaactccggcatgtgcccggattcggcgtgcaagacttcatccatgtcgcgggcatacttgccttcgcgctggatgtagtcggccttggccctggccgattggccgcccgacctgctgccggttttcgccgtaaggtgataaatcgccatgctgcctcgctgttgcttttgcttttcggctccatgcaatggccctcggagagcgcaccgcccgaagggtggccgttaggccagtttctcgaagagaaaccggtaagtgcgccctcccctacaaagtagggtcgggattgccgccgctgtgcctccatgatagcctacgagacagcacattaacaatggggtgtcaagatggttaaggggagcaacaaggcggcggatcggctggccaagctcgaagaacaacgagcgcgaatcaatgccgaaattcagcgggagcgggcaagggaacagcagcaagagcgcaagaacgaaacaaggcgcaaggtgctggtgggggccatgattttggccaaggtgaacagcagcgagtggccggaggatcggctcatggcggcaatggatgcgtaccttgaacgcgaccacgaccgcgccttgttcggtctgccgccacgccagaaggatgagccgggctgaatgatcgaccgagacaggccctgcggggctgcacacgcgcccccacccttcgggtagggggaaaggccgctaaagcggctaaaagcgctccagcgtatttctgcggggtttggtgtggggtttagcgggctttgcccgcctttccccctgccgcgcagcggtggggcggtgtgtagcctagcgcagcgaatagaccagctatccggcctctggccgggcatattgggcaagggcagcagcgccccacaagggcgctgataaccgcgcctagtggattattcttagataatcatggatggatttttccaacaccccgccagcccccgcccctgctgggtttgcaggtttgggggcgtgacagttattgcaggggttcgtgacagttattgcaggggggcgtgacagttattgcaggggttcgtgacagttagtacgggagtgacgggcactggctggcaatgtctagcaacggcaggcatttcggctgagggtaaaagaactttccgctaagcgatagactgtatgtaaacacagtattgcaaggacgcggaacatgcctcatgtggcggccaggacggccagccgggatcgggatactggtcgttaccagagccaccgacccgagcaaacccttctctatcagatcgttgacgagtattacccggcattcgctgcgcttatggcagagcagggaaaggaattgccgggctatgtgcaacgggaatttgaagaatttctccaatgcgggcggctggagcatggctttctacgggttcgctgcgagtcttgccacgccgagcacctggtcgctttcagaaatcaatctaaagtatatatgagtaaacttggtctgacaggcccctgaattcgcatctagactgatgagacgtggtagagccacaaacagccggtacaagcaacgatctccaggaccatctgaatcatgcgcggatgacacgaactcacgacggcgatcacagacattaacccacagtacagacactgcgacaacgtggcaattcgtcgcaatacaacgtaacgggcttcccatacaatcgattagagattgtcatcgcacctgattgcccgacattatcgcgagttataacccatttatacccatataaatcagcatccatgttggaatttaatcgcgtgagcctatgtaacgggcttcccatacaatcgattagagattgtcatcgcacctgattgcccgacattatcgcgagttataacccatttatacccatataaatcagcatccatgttggaatttaatcgcgtgagccatccgtaatcgttaatccgcaaataacgtaaaaacccgcttcggcgggtttttttatggggggagtttagggaaagagcatttgtcagctgcgtctcaagcagttacagagatgttacgaacccccaggacatccgagaatgcgaggcgatggagggtacaacccgagcggccgcttatttgccgactaccttggtgatctcgcctttcacgtagtggacaaattcttccaactgatctgcgcgcgaggccaagcgatcttcttcttgtccaagataagcctgtctagcttcaagtatgacgggctgatactgggccggcaggcgctccattgcccagtcggcagcgacatccttcggcgcgattttgccggttactgcgctgtaccaaatgcgggacaacgtaagcactacatttcgctcatcgccagcccagtcgggcggcgagttccatagcgttaaggtttcatttagcgcctcaaatagatcctgttcaggaaccggatcaaagagttcctccgccgctggacctaccaaggcaacgctatgttctcttgcttttgtcagcaagatagccagatcaatgtcgatcgtggctggctcgaagatacccgcaagaatgtcattgcgctgccattctccaaattgcagttcgcgcttagctggataacgccacggaatgatgtcgtcgtgcacaacaatggtgacttctacagcgcggagaatctcgctctctccaggggaagccgaagtttccaaaaggtcgttgatcaaagctcgccgcgttgtttcatcaagccttacggtcaccgtaaccagcaaatcaatatcactgtgtggcttcaggccgccatccactgcggagccgtacaaatgtacggccagcaacgtcggttcgagatggcgctcgatgacgccaactacctctgatagttgagtcgatacttcggcgatcaccgcttccctcataatgtttaactttgttttagggcgactgccctgctgcgtaacatcgttgctgctccataacatcaaacatcgacccacggcgtaacgcgcttgctgcttggatgcccgaggcatagactgtaccccaaaaaaacagtcataacaagccatgaaaaccgccactgcgccgttaccaccgctgcgttcggtcaaggttctggaccagttgcgtgagcgcatacgctacttgcattacagcttacgaaccgaacaggcttatgtccactgggttcgtgccttcatccgtttccacggtgtgcgtcacccggcaaccttgggtagcagcgaagtcgaggcatttctgtcctggctggtcatgaccaaaatcccttaacgtgagtcagcctgccgccttgggccgggtgatgtcgtacttgcccgccgcgaactcggttaccgtccagcccagcgcgaccagctccggcaacgcctcgcgcacccgcttgcggcgcttgcgcatggtcgaaccactggcctctgacggccagacatagccgcacaaggtatctatggaagccttgccggttttgccggggtcgatccagccacacagccgctggtgcagcaggcgggcggtttcgctgtccagcgcccgcacctcgtccatgctgatgcgcacatgctggccgccacccatgacggcctgcgcgatcaaggggttcagggccacgtacaggcgcccgtccgcctcgtcgctggcgtactccgacagcagccgaaacccctgccgcttgcggccattctgggcgatgatggataccttccaaaggcgctcgatgcagtcctgtatgtgcttgagcgccccaccactatcgacctctgccccgatttcctttgccagcgcccgatagctacctttgaccacatggcattcagcggtgacggcctcccacttgggttccaggaacagccggagctgccgtccgccttcggtcttgggttccgggccaagcactaggccattaggcccagccatggccaccagcccttgcaggatgcgcagatcatcagcgcccagcggctccgggccgctgaactcgatccgcttgccgtcgccgtagtcatacgtcacgtccagcttgctgcgcttgcgctcgccccgcttgagggcacggaacaggccgggggccagacagtgcgccgggtcgtgccggacgtggctgaggctgtgcttgttcttaggcttcaccacggggcacccccttgctcttgcgctgcctctccagcacggcgggcttgagcaccccgccgtcatgccgcctgaaccaccgatcagcgaacggtgcgccatagttggccttgctcacaccgaagcggacgaagaaccggcgctggtcgtcgtccacaccccattcctcggcctcggcgctggtcatgctcgacaggtaggactgccagcggatgttatcgaccagtaccgagctgccccggctggcctgctgctggtcgcctgcgcccatcatggccgcgcccttgctggcatggtgcaggaacacgatagagcacccggtatcggcggcgatggcctccatgcgaccgatgacctgggccatggggccgctggcgttttcttcctcgatgtggaaccggcgcagcgtgtccagcaccatcaggcggcggccctcggcggcgcgcttgaggccgtcgaaccactccggggccatgatgttgggcaggctgccgatcagcggctggatcagcaggccgtcagccacggcttgccgttcctcggcgctgaggtgcgccccaagggcgtgcaggcggtgatgaatggcggtgggcgggtcttcggcgggcaggtagatcaccgggccggtgggcagttcgcccacctccagcagatccggcccgcctgcaatctgtgcggccagttgcagggccagcatggatttaccggcaccaccgggcgacaccagcgccccgaccgtaccggccaccatgttgggcaaaacgtagtccagcggtggcggcgctgctgcgaacgcctccagaatattgataggcttatgggtagccattgattgcctcctttgcaggcagttggtggttaggcgctggcggggtcactacccccgccctgcgccgctctgagttcttccaggcactcgcgcagcgcctcgtattcgtcgtcggtcagccagaacttgcgctgacgcatccctttggccttcatgcgctcggcatatcgcgcttggcgtacagcgtcagggctggccagcaggtcgccggtctgcttgtccttttggtctttcatatcagtcaccgagaaacttgcc</sbol:elements>
+    <sbol:version>1</sbol:version>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb8b00426_3_sequence"/>
+    <sbol:displayId>sb8b00426_3_sequence</sbol:displayId>
   </sbol:Sequence>
   <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb8b00426_4_comp/1">
+    <ns1:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbol:displayId>sb8b00426_4_comp</sbol:displayId>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb8b00426_4_sequence/1"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
     <sbol:component>
-      <sbol:Component rdf:about="http://examples.org/ComponentDefinition/sb8b00426_4_comp/AmpR_promoter_comp_1/1">
-        <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00426_4_comp/AmpR_promoter_comp_1"/>
+      <sbol:Component rdf:about="http://examples.org/ComponentDefinition/sb8b00426_4_comp/AmpR_u32_terminator_comp_1/1">
+        <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00426_4_comp/AmpR_u32_terminator_comp_1"/>
+        <ns0:title>AmpR terminator</ns0:title>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:definition rdf:resource="https://synbioks.org/public/MoClo_Yeast_Toolkit_Dueber_Lab/AmpR_u32_terminator/1"/>
+        <sbol:displayId>AmpR_u32_terminator_comp_1</sbol:displayId>
+        <sbol:version>1</sbol:version>
+      </sbol:Component>
+    </sbol:component>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="http://examples.org/ComponentDefinition/sb8b00426_4_comp/ColE1_anno_1/1">
+        <sbol:component rdf:resource="http://examples.org/ComponentDefinition/sb8b00426_4_comp/ColE1_comp_1/1"/>
+        <sbol:location>
+          <sbol:Range rdf:about="http://examples.org/ComponentDefinition/sb8b00426_4_comp/ColE1_anno_1/ColE1_anno_1_loc/1">
+            <sbol:end>2629</sbol:end>
+            <sbol:displayId>ColE1_anno_1_loc</sbol:displayId>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:start>1866</sbol:start>
+            <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00426_4_comp/ColE1_anno_1/ColE1_anno_1_loc"/>
+            <sbol:version>1</sbol:version>
+          </sbol:Range>
+        </sbol:location>
+        <ns0:title>ColE1</ns0:title>
+        <sbol:version>1</sbol:version>
+        <sbol:displayId>ColE1_anno_1</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00426_4_comp/ColE1_anno_1"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:component>
+      <sbol:Component rdf:about="http://examples.org/ComponentDefinition/sb8b00426_4_comp/AmpR_u32_promoter_comp_1/1">
+        <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00426_4_comp/AmpR_u32_promoter_comp_1"/>
+        <sbol:displayId>AmpR_u32_promoter_comp_1</sbol:displayId>
+        <sbol:definition rdf:resource="https://synbioks.org/public/MoClo_Yeast_Toolkit_Dueber_Lab/AmpR_u32_promoter/1"/>
         <sbol:access rdf:resource="http://sbols.org/v2#public"/>
         <sbol:version>1</sbol:version>
         <ns0:title>AmpR promoter</ns0:title>
-        <sbol:displayId>AmpR_promoter_comp_1</sbol:displayId>
-        <sbol:definition rdf:resource="https://synbioks.org/public/YTK/AmpR_promoter/1"/>
       </sbol:Component>
     </sbol:component>
-    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
     <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00426_4_comp"/>
-    <sbol:sequenceAnnotation>
-      <sbol:SequenceAnnotation rdf:about="http://examples.org/ComponentDefinition/sb8b00426_4_comp/ColE1_anno_1/1">
-        <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00426_4_comp/ColE1_anno_1"/>
-        <sbol:location>
-          <sbol:Range rdf:about="http://examples.org/ComponentDefinition/sb8b00426_4_comp/ColE1_anno_1/ColE1_anno_1_loc/1">
-            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
-            <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00426_4_comp/ColE1_anno_1/ColE1_anno_1_loc"/>
-            <sbol:start>1866</sbol:start>
-            <sbol:displayId>ColE1_anno_1_loc</sbol:displayId>
-            <sbol:version>1</sbol:version>
-            <sbol:end>2629</sbol:end>
-          </sbol:Range>
-        </sbol:location>
-        <sbol:component rdf:resource="http://examples.org/ComponentDefinition/sb8b00426_4_comp/ColE1_comp_1/1"/>
-        <sbol:displayId>ColE1_anno_1</sbol:displayId>
+    <ns0:title>sgRNA_J23119__seq</ns0:title>
+    <sbh:supplementalFile rdf:resource="sb8b00426/suppl/sb-2018-00426x_si_001.txt"/>
+    <sbol:component>
+      <sbol:Component rdf:about="http://examples.org/ComponentDefinition/sb8b00426_4_comp/AmpR_comp_1/1">
+        <sbol:definition rdf:resource="https://synbioks.org/public/MoClo_Yeast_Toolkit_Dueber_Lab/AmpR/1"/>
+        <sbol:displayId>AmpR_comp_1</sbol:displayId>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00426_4_comp/AmpR_comp_1"/>
+        <sbol:version>1</sbol:version>
+        <ns0:title>AmpR</ns0:title>
+      </sbol:Component>
+    </sbol:component>
+    <sbol:component>
+      <sbol:Component rdf:about="http://examples.org/ComponentDefinition/sb8b00426_4_comp/ColE1_comp_1/1">
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:definition rdf:resource="https://synbioks.org/public/MoClo_Yeast_Toolkit_Dueber_Lab/ColE1/1"/>
+        <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00426_4_comp/ColE1_comp_1"/>
+        <sbol:displayId>ColE1_comp_1</sbol:displayId>
         <sbol:version>1</sbol:version>
         <ns0:title>ColE1</ns0:title>
-      </sbol:SequenceAnnotation>
-    </sbol:sequenceAnnotation>
-    <sbol:sequenceAnnotation>
-      <sbol:SequenceAnnotation rdf:about="http://examples.org/ComponentDefinition/sb8b00426_4_comp/AmpR_promoter_anno_1/1">
-        <sbol:component rdf:resource="http://examples.org/ComponentDefinition/sb8b00426_4_comp/AmpR_promoter_comp_1/1"/>
-        <sbol:location>
-          <sbol:Range rdf:about="http://examples.org/ComponentDefinition/sb8b00426_4_comp/AmpR_promoter_anno_1/AmpR_promoter_anno_1_loc/1">
-            <sbol:orientation rdf:resource="http://sbols.org/v2#reverseComplement"/>
-            <sbol:displayId>AmpR_promoter_anno_1_loc</sbol:displayId>
-            <sbol:version>1</sbol:version>
-            <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00426_4_comp/AmpR_promoter_anno_1/AmpR_promoter_anno_1_loc"/>
-            <sbol:start>780</sbol:start>
-            <sbol:end>876</sbol:end>
-          </sbol:Range>
-        </sbol:location>
-        <sbol:displayId>AmpR_promoter_anno_1</sbol:displayId>
-        <sbol:version>1</sbol:version>
-        <ns0:title>AmpR promoter</ns0:title>
-        <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00426_4_comp/AmpR_promoter_anno_1"/>
-      </sbol:SequenceAnnotation>
-    </sbol:sequenceAnnotation>
+      </sbol:Component>
+    </sbol:component>
     <sbol:sequenceAnnotation>
       <sbol:SequenceAnnotation rdf:about="http://examples.org/ComponentDefinition/sb8b00426_4_comp/AmpR_anno_1/1">
         <sbol:location>
           <sbol:Range rdf:about="http://examples.org/ComponentDefinition/sb8b00426_4_comp/AmpR_anno_1/AmpR_anno_1_loc/1">
+            <sbol:version>1</sbol:version>
             <sbol:displayId>AmpR_anno_1_loc</sbol:displayId>
             <sbol:start>877</sbol:start>
             <sbol:orientation rdf:resource="http://sbols.org/v2#reverseComplement"/>
-            <sbol:version>1</sbol:version>
             <sbol:end>1734</sbol:end>
             <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00426_4_comp/AmpR_anno_1/AmpR_anno_1_loc"/>
           </sbol:Range>
         </sbol:location>
-        <ns0:title>AmpR</ns0:title>
-        <ns0:description>Confers resistance to ampicillin in bacteria</ns0:description>
+        <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00426_4_comp/AmpR_anno_1"/>
         <sbol:version>1</sbol:version>
         <sbol:displayId>AmpR_anno_1</sbol:displayId>
+        <ns0:title>AmpR</ns0:title>
         <sbol:component rdf:resource="http://examples.org/ComponentDefinition/sb8b00426_4_comp/AmpR_comp_1/1"/>
-        <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00426_4_comp/AmpR_anno_1"/>
+        <ns0:description>Confers resistance to ampicillin in bacteria</ns0:description>
       </sbol:SequenceAnnotation>
     </sbol:sequenceAnnotation>
+    <ns1:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.8b00426"/>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="http://examples.org/ComponentDefinition/sb8b00426_4_comp/AmpR_u32_terminator_anno_1/1">
+        <sbol:displayId>AmpR_u32_terminator_anno_1</sbol:displayId>
+        <sbol:component rdf:resource="http://examples.org/ComponentDefinition/sb8b00426_4_comp/AmpR_u32_terminator_comp_1/1"/>
+        <sbol:location>
+          <sbol:Range rdf:about="http://examples.org/ComponentDefinition/sb8b00426_4_comp/AmpR_u32_terminator_anno_1/AmpR_u32_terminator_anno_1_loc/1">
+            <sbol:version>1</sbol:version>
+            <sbol:start>1735</sbol:start>
+            <sbol:displayId>AmpR_u32_terminator_anno_1_loc</sbol:displayId>
+            <sbol:end>1865</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#reverseComplement"/>
+            <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00426_4_comp/AmpR_u32_terminator_anno_1/AmpR_u32_terminator_anno_1_loc"/>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:version>1</sbol:version>
+        <ns0:title>AmpR terminator</ns0:title>
+        <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00426_4_comp/AmpR_u32_terminator_anno_1"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="http://examples.org/ComponentDefinition/sb8b00426_4_comp/AmpR_u32_promoter_anno_1/1">
+        <sbol:displayId>AmpR_u32_promoter_anno_1</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <ns0:title>AmpR promoter</ns0:title>
+        <sbol:component rdf:resource="http://examples.org/ComponentDefinition/sb8b00426_4_comp/AmpR_u32_promoter_comp_1/1"/>
+        <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00426_4_comp/AmpR_u32_promoter_anno_1"/>
+        <sbol:location>
+          <sbol:Range rdf:about="http://examples.org/ComponentDefinition/sb8b00426_4_comp/AmpR_u32_promoter_anno_1/AmpR_u32_promoter_anno_1_loc/1">
+            <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00426_4_comp/AmpR_u32_promoter_anno_1/AmpR_u32_promoter_anno_1_loc"/>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#reverseComplement"/>
+            <sbol:end>876</sbol:end>
+            <sbol:start>780</sbol:start>
+            <sbol:version>1</sbol:version>
+            <sbol:displayId>AmpR_u32_promoter_anno_1_loc</sbol:displayId>
+          </sbol:Range>
+        </sbol:location>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:version>1</sbol:version>
+  </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb8b00426_4_sequence/1">
+    <sbol:displayId>sb8b00426_4_sequence</sbol:displayId>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb8b00426_4_sequence"/>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:elements>gaattcgcatctagatggtagagccacaaacagccggtacaagcaacgatctccaggaccatctgaatcatgcgcggatgacacgaactcacgacggcgatcacagacattaacccacagtacagacactgcgacaacgtggcaattcgtcgcaataccgtctcactgaactggccgataattgcagacgaacgagtcagtgagcgaggaagcggaagagcgcctgatgcggtattttctccttacgcatctgtgcggtatttcacaccgcatatgctggatccttgacagctagctcagtcctaggtataatactagtcatccagttccaccagaatagttttagagctagaaatagcaagttaaaataaggctagtccgttatcaacttgaaaaagtggcaccgagtcggtgctttttttgaattctctagagtcgacctgcagaagcttagatctattaccctgttatccctactcgagttcatgtgcagctccatcagcatccgtaatcgttaatccgcaaataacgtaaaaacccgcttcggcgggtttttttatggggggagtttagggaaagagcatttgtcagctggctgccaatgagacgacggggtcatcacggctcatcatgcgccaaacaaatgtgtgcaatacacgctcggatgactgcatgatgaccgcactgactggggacagcagatccacctaagcctgtgagagaagcagacacccgacagatcaaggcagttaactagtgcactgcagtacagcggccgcgattatcaaaaaggatcttcacctagatccttttaaattaaaaatgaagttttaaatcaatctaaagtatatatgagtaaacttggtctgacagttaccaatgcttaatcagtgaggcacctatctcagcgatctgtctatttcgttcatccatagttgcctgactccccgtcgtgtagataactacgatacgggagggcttaccatctggccccagtgctgcaatgataccgcgggacccacgctcaccggctccagatttatcagcaataaaccagccagccggaagggccgagcgcagaagtggtcctgcaactttatccgcctccatccagtctattaattgttgccgggaagctagagtaagtagttcgccagttaatagtttgcgcaacgttgttgccattgctacaggcatcgtggtgtcacgctcgtcgtttggtatggcttcattcagctccggttcccaacgatcaaggcgagttacatgatcccccatgttgtgcaaaaaagcggttagctccttcggtcctccgatcgttgtcagaagtaagttggccgcagtgttatcactcatggttatggcagcactgcataattctcttactgtcatgccatccgtaagatgcttttctgtgactggtgagtactcaaccaagtcattctgagaatagtgtatgcggcgaccgagttgctcttgcccggcgtcaatacgggataataccgcgccacatagcagaactttaaaagtgctcatcattggaaaacgttcttcggggcgaaaactctcaaggatcttaccgctgttgagatccagttcgatgtaacccactcgtgcacccaactgatcttcagcatcttttactttcaccagcgtttctgggtgagcaaaaacaggaaggcaaaatgccgcaaaaaagggaataagggcgacacggaaatgttgaatactcatactcttcctttttcaatattattgaagcatttatcagggttattgtctcatgagcggatacatatttgaatgtatttagaaaaataaacaaataggggttccgcgcacatttccccgaaaagtgccacctgtcatgaccaaaatcccttaacgtgagttttcgttccactgagcgtcagaccccgtagaaaagatcaaaggatcttcttgagatcctttttttctgcgcgtaatctgctgcttgcaaacaaaaaaaccaccgctaccagcggtggtttgtttgccggatcaagagctaccaactctttttccgaaggtaactggcttcagcagagcgcagataccaaatactgttcttctagtgtagccgtagttaggccaccacttcaagaactctgtagcaccgcctacatacctcgctctgctaatcctgttaccagtggctgctgccagtggcgataagtcgtgtcttaccgggttggactcaagacgatagttaccggataaggcgcagcggtcgggctgaacggggggttcgtgcacacagcccagcttggagcgaacgacctacaccgaactgagatacctacagcgtgagctatgagaaagcgccacgcttcccgaagggagaaaggcggacaggtatccggtaagcggcagggtcggaacaggagagcgcacgagggagcttccagggggaaacgcctggtatctttatagtcctgtcgggtttcgccacctctgacttgagcgtcgatttttgtgatgctcgtcaggggggcggagcctatggaaaaacgccagcaacgcggcctttttacggttcctggccttttgctggccttttgctcacatgttctttcctgcgttatcccctgattctgtggataaccgtgcggccgcccct</sbol:elements>
+    <sbol:version>1</sbol:version>
+    <ns0:title>sgRNA_J23119__seq Sequence</ns0:title>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb8b00426_2_sequence/1">
+    <sbol:version>1</sbol:version>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb8b00426_2_sequence"/>
+    <ns0:title>dCas9_tdk_promoter_seq Sequence</ns0:title>
+    <sbol:elements>gaattcgcatctagaacggggtcatcacggctcatcatgcgccaaacaaatgtgtgcaatacacgctcggatgactgcatgatgaccgcactgactggggacagcagatccacctaagcctgtgagagaagcagacacccgacagatcaaggcagttacgtctcaccaaccaaaccagatgtcaacacagctacaacgcccagcctccaattcaaatcataaaaaatttatttgctttattaaagaggagaaattaattaatggataagaaatactcaataggcttagctatcggcacaaatagcgtcggatgggcggtgatcactgatgaatataaggttccgtctaaaaagttcaaggttctgggaaatacagaccgccacagtatcaaaaaaaatcttataggggctcttttatttgacagtggagagacagcggaagcgactcgtctaaaacggacagctcgtagaaggtatacacgtcggaagaatcgtatttgttatctacaggagattttttcaaatgagatggcgaaagtagatgatagtttctttcatcgacttgaagagtcttttttggtggaagaagacaagaagcatgaacgtcatcctatttttggaaatatagtagatgaagttgcttatcatgagaaatatccaactatctatcatctgcgaaaaaaattggtagattctactgataaagcggatttgcgcttaatctatttggccttagcgcatatgattaagtttcgtggtcattttttgattgagggagatttaaatcctgataatagtgatgtggacaaactatttatccagttggtacaaacctacaatcaattatttgaagaaaaccctattaacgcaagtggagtagatgctaaagcgattctttctgcacgattgagtaaatcaagacgattagaaaatctcattgctcagctccccggtgagaagaaaaatggcttatttgggaatctcattgctttgtcattgggtttgacccctaattttaaatcaaattttgatttggcagaagatgctaaattacagctttcaaaagatacttacgatgatgatttagataatttattggcgcaaattggagatcaatatgctgatttgtttttggcagctaagaatttatcagatgctattttactttcagatatcctaagagtaaatactgaaataactaaggctcccctatcagcttcaatgattaaacgctacgatgaacatcatcaagacttgactcttttaaaagctttagttcgacaacaacttccagaaaagtataaagaaatcttttttgatcaatcaaaaaacggatatgcaggttatattgatgggggagctagccaagaagaattttataaatttatcaaaccaattttagaaaaaatggatggtactgaggaattattggtgaaactaaatcgtgaagatttgctgcgcaagcaacggacctttgacaacggctctattccccatcaaattcacttgggtgagctgcatgctattttgagaagacaagaagacttttatccatttttaaaagacaatcgtgagaagattgaaaaaatcttgacttttcgaattccttattatgttggtccattggcgcgtggcaatagtcgttttgcatggatgactcggaagtctgaagaaacaattaccccatggaattttgaagaagttgtcgataaaggtgcttcagctcaatcatttattgaacgcatgacaaactttgataaaaatcttccaaatgaaaaagtactaccaaaacatagtttgctttatgagtattttacggtttataacgaattgacaaaggtcaaatatgttactgaaggaatgcgaaaaccagcatttctttcaggtgaacagaagaaagccattgttgatttactcttcaaaacaaatcgaaaagtaaccgttaagcaattaaaagaagattatttcaaaaaaatagaatgttttgatagtgttgaaatttcaggagttgaagatagatttaatgcttcattaggtacctaccatgatttgctaaaaattattaaagataaagattttttggataatgaagaaaatgaagatatcttagaggatattgttttaacattgaccttatttgaagatagggagatgattgaggaaagacttaaaacatatgctcacctctttgatgataaggtgatgaaacagcttaaacgtcgccgttatactggttggggacgtttgtctcgaaaattgattaatggtattagggataagcaatctggcaaaacaatattagattttttgaaatcagatggttttgccaatcgcaattttatgcagctgatccatgatgatagtttgacatttaaagaagacattcaaaaagcacaagtgtctggacaaggcgatagtttacatgaacatattgcaaatttagctggtagccctgctattaaaaaaggtattttacagactgtaaaagttgttgatgaattggtcaaagtaatggggcggcataagccagaaaatatcgttattgaaatggcacgtgaaaatcagacaactcaaaagggccagaaaaattcgcgagagcgtatgaaacgaatcgaagaaggtatcaaagaattaggaagtcagattcttaaagagcatcctgttgaaaatactcaattgcaaaatgaaaagctctatctctattatctccaaaatggaagagacatgtatgtggaccaagaattagatattaatcgtttaagtgattatgatgtcgatgccattgttccacaaagtttccttaaagacgattcaatagacaataaggtcttaacgcgttctgataaaaatcgtggtaaatcggataacgttccaagtgaagaagtagtcaaaaagatgaaaaactattggagacaacttctaaacgccaagttaatcactcaacgtaagtttgataatttaacgaaagctgaacgtggaggtttgagtgaacttgataaagctggttttatcaaacgccaattggttgaaactcgccaaatcactaagcatgtggcacaaattttggatagtcgcatgaatactaaatacgatgaaaatgataaacttattcgagaggttaaagtgattaccttaaaatctaaattagtttctgacttccgaaaagatttccaattctataaagtacgtgagattaacaattaccatcatgcccatgatgcgtatctaaatgccgtcgttggaactgctttgattaagaaatatccaaaacttgaatcggagtttgtctatggtgattataaagtttatgatgttcgtaaaatgattgctaagtctgagcaagaaataggcaaagcaaccgcaaaatatttcttttactctaatatcatgaacttcttcaaaacagaaattacacttgcaaatggagagattcgcaaacgccctctaatcgaaactaatggggaaactggagaaattgtctgggataaagggcgagattttgccacagtgcgcaaagtattgtccatgccccaagtcaatattgtcaagaaaacagaagtacagacaggcggattctccaaggagtcaattttaccaaaaagaaattcggacaagcttattgctcgtaaaaaagactgggatccaaaaaaatatggtggttttgatagtccaacggtagcttattcagtcctagtggttgctaaggtggaaaaagggaaatcgaagaagttaaaatccgttaaagagttactagggatcacaattatggaaagaagttcctttgaaaaaaatccgattgactttttagaagctaaaggatataaggaagttaaaaaagacttaatcattaaactacctaaatatagtctttttgagttagaaaacggtcgtaaacggatgctggctagtgccggagaattacaaaaaggaaatgagctggctctgccaagcaaatatgtgaattttttatatttagctagtcattatgaaaagttgaagggtagtccagaagataacgaacaaaaacaattgtttgtggagcagcataagcattatttagatgagattattgagcaaatcagtgaattttctaagcgtgttattttagcagatgccaatttagataaagttcttagtgcatataacaaacatagagacaaaccaatacgtgaacaagcagaaaatattattcatttatttacgttgacgaatcttggagctcccgctgcttttaaatattttgatacaacaattgatcgtaaacgatatacgtctacaaaagaagttttagatgccactcttatccatcaatccatcactggtctttatgaaacacgcattgatttgagtcagctaggaggtgactgaatccaaagcaagctgataaaccgatacaattaaaggctccttttggagcctttttttttggagattttcaacatgaagaaattattatttgatgatcagatagcggcggggaactgccagacatcaaataaaacaaaaggctcagtcggaagactgggccttttgttttatctgttgtttgtcggtgaacactctcccggctgagcatgagacggaaatctgctcgtcagtggtgctcacactgacgaatcatgtacagatcataccgatgactgcctggcgactcacaactaagcaagacagccggaaccagcgccggcgaacaccactgcatatatggcatatcacaacagtccaactagtgcactgcagtacagcggccgcgattatcaaaaaggatcttcacctagatccttttaaattaaaaatgaagttttaaatcaatctaaagtatatatgagtaaacttggtctgacagttaccaatgcttaatcagtgaggcacctatctcagcgatctgtctatttcgttcatccatagttgcctgactccccgtcgtgtagataactacgatacgggagggcttaccatctggccccagtgctgcaatgataccgcgggacccacgctcaccggctccagatttatcagcaataaaccagccagccggaagggccgagcgcagaagtggtcctgcaactttatccgcctccatccagtctattaattgttgccgggaagctagagtaagtagttcgccagttaatagtttgcgcaacgttgttgccattgctacaggcatcgtggtgtcacgctcgtcgtttggtatggcttcattcagctccggttcccaacgatcaaggcgagttacatgatcccccatgttgtgcaaaaaagcggttagctccttcggtcctccgatcgttgtcagaagtaagttggccgcagtgttatcactcatggttatggcagcactgcataattctcttactgtcatgccatccgtaagatgcttttctgtgactggtgagtactcaaccaagtcattctgagaatagtgtatgcggcgaccgagttgctcttgcccggcgtcaatacgggataataccgcgccacatagcagaactttaaaagtgctcatcattggaaaacgttcttcggggcgaaaactctcaaggatcttaccgctgttgagatccagttcgatgtaacccactcgtgcacccaactgatcttcagcatcttttactttcaccagcgtttctgggtgagcaaaaacaggaaggcaaaatgccgcaaaaaagggaataagggcgacacggaaatgttgaatactcatactcttcctttttcaatattattgaagcatttatcagggttattgtctcatgagcggatacatatttgaatgtatttagaaaaataaacaaataggggttccgcgcacatttccccgaaaagtgccacctgtcatgaccaaaatcccttaacgtgagttttcgttccactgagcgtcagaccccgtagaaaagatcaaaggatcttcttgagatcctttttttctgcgcgtaatctgctgcttgcaaacaaaaaaaccaccgctaccagcggtggtttgtttgccggatcaagagctaccaactctttttccgaaggtaactggcttcagcagagcgcagataccaaatactgttcttctagtgtagccgtagttaggccaccacttcaagaactctgtagcaccgcctacatacctcgctctgctaatcctgttaccagtggctgctgccagtggcgataagtcgtgtcttaccgggttggactcaagacgatagttaccggataaggcgcagcggtcgggctgaacggggggttcgtgcacacagcccagcttggagcgaacgacctacaccgaactgagatacctacagcgtgagctatgagaaagcgccacgcttcccgaagggagaaaggcggacaggtatccggtaagcggcagggtcggaacaggagagcgcacgagggagcttccagggggaaacgcctggtatctttatagtcctgtcgggtttcgccacctctgacttgagcgtcgatttttgtgatgctcgtcaggggggcggagcctatggaaaaacgccagcaacgcggcctttttacggttcctggccttttgctggccttttgctcacatgttctttcctgcgttatcccctgattctgtggataaccgtgcggccgcccct</sbol:elements>
+    <sbol:displayId>sb8b00426_2_sequence</sbol:displayId>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+  </sbol:Sequence>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb8b00426_1_comp/1">
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="http://examples.org/ComponentDefinition/sb8b00426_1_comp/ColE1_anno_1/1">
+        <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00426_1_comp/ColE1_anno_1"/>
+        <sbol:location>
+          <sbol:Range rdf:about="http://examples.org/ComponentDefinition/sb8b00426_1_comp/ColE1_anno_1/ColE1_anno_1_loc/1">
+            <sbol:version>1</sbol:version>
+            <sbol:displayId>ColE1_anno_1_loc</sbol:displayId>
+            <sbol:end>6853</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00426_1_comp/ColE1_anno_1/ColE1_anno_1_loc"/>
+            <sbol:start>6090</sbol:start>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:version>1</sbol:version>
+        <sbol:component rdf:resource="http://examples.org/ComponentDefinition/sb8b00426_1_comp/ColE1_comp_1/1"/>
+        <sbol:displayId>ColE1_anno_1</sbol:displayId>
+        <ns0:title>ColE1</ns0:title>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="http://examples.org/ComponentDefinition/sb8b00426_1_comp/AmpR_anno_1/1">
+        <ns0:title>AmpR</ns0:title>
+        <ns0:description>Confers resistance to ampicillin in bacteria</ns0:description>
+        <sbol:displayId>AmpR_anno_1</sbol:displayId>
+        <sbol:location>
+          <sbol:Range rdf:about="http://examples.org/ComponentDefinition/sb8b00426_1_comp/AmpR_anno_1/AmpR_anno_1_loc/1">
+            <sbol:end>5958</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#reverseComplement"/>
+            <sbol:version>1</sbol:version>
+            <sbol:start>5101</sbol:start>
+            <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00426_1_comp/AmpR_anno_1/AmpR_anno_1_loc"/>
+            <sbol:displayId>AmpR_anno_1_loc</sbol:displayId>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:component rdf:resource="http://examples.org/ComponentDefinition/sb8b00426_1_comp/AmpR_comp_1/1"/>
+        <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00426_1_comp/AmpR_anno_1"/>
+        <sbol:version>1</sbol:version>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:version>1</sbol:version>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
     <ns1:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
     <sbol:component>
-      <sbol:Component rdf:about="http://examples.org/ComponentDefinition/sb8b00426_4_comp/ColE1_comp_1/1">
-        <sbol:displayId>ColE1_comp_1</sbol:displayId>
+      <sbol:Component rdf:about="http://examples.org/ComponentDefinition/sb8b00426_1_comp/AmpR_comp_1/1">
+        <sbol:version>1</sbol:version>
+        <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00426_1_comp/AmpR_comp_1"/>
         <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:definition rdf:resource="https://synbioks.org/public/MoClo_Yeast_Toolkit_Dueber_Lab/AmpR/1"/>
+        <sbol:displayId>AmpR_comp_1</sbol:displayId>
+        <ns0:title>AmpR</ns0:title>
+      </sbol:Component>
+    </sbol:component>
+    <sbol:displayId>sb8b00426_1_comp</sbol:displayId>
+    <sbol:component>
+      <sbol:Component rdf:about="http://examples.org/ComponentDefinition/sb8b00426_1_comp/AmpR_u32_promoter_comp_1/1">
+        <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00426_1_comp/AmpR_u32_promoter_comp_1"/>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <ns0:title>AmpR promoter</ns0:title>
+        <sbol:displayId>AmpR_u32_promoter_comp_1</sbol:displayId>
+        <sbol:definition rdf:resource="https://synbioks.org/public/MoClo_Yeast_Toolkit_Dueber_Lab/AmpR_u32_promoter/1"/>
+        <sbol:version>1</sbol:version>
+      </sbol:Component>
+    </sbol:component>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00426_1_comp"/>
+    <sbol:component>
+      <sbol:Component rdf:about="http://examples.org/ComponentDefinition/sb8b00426_1_comp/AmpR_u32_terminator_comp_1/1">
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:definition rdf:resource="https://synbioks.org/public/MoClo_Yeast_Toolkit_Dueber_Lab/AmpR_u32_terminator/1"/>
+        <sbol:version>1</sbol:version>
+        <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00426_1_comp/AmpR_u32_terminator_comp_1"/>
+        <sbol:displayId>AmpR_u32_terminator_comp_1</sbol:displayId>
+        <ns0:title>AmpR terminator</ns0:title>
+      </sbol:Component>
+    </sbol:component>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="http://examples.org/ComponentDefinition/sb8b00426_1_comp/AmpR_u32_terminator_anno_1/1">
+        <sbol:displayId>AmpR_u32_terminator_anno_1</sbol:displayId>
+        <ns0:title>AmpR terminator</ns0:title>
+        <sbol:component rdf:resource="http://examples.org/ComponentDefinition/sb8b00426_1_comp/AmpR_u32_terminator_comp_1/1"/>
+        <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00426_1_comp/AmpR_u32_terminator_anno_1"/>
+        <sbol:location>
+          <sbol:Range rdf:about="http://examples.org/ComponentDefinition/sb8b00426_1_comp/AmpR_u32_terminator_anno_1/AmpR_u32_terminator_anno_1_loc/1">
+            <sbol:start>5959</sbol:start>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#reverseComplement"/>
+            <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00426_1_comp/AmpR_u32_terminator_anno_1/AmpR_u32_terminator_anno_1_loc"/>
+            <sbol:end>6089</sbol:end>
+            <sbol:displayId>AmpR_u32_terminator_anno_1_loc</sbol:displayId>
+            <sbol:version>1</sbol:version>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:version>1</sbol:version>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="http://examples.org/ComponentDefinition/sb8b00426_1_comp/AmpR_u32_promoter_anno_1/1">
+        <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00426_1_comp/AmpR_u32_promoter_anno_1"/>
+        <sbol:component rdf:resource="http://examples.org/ComponentDefinition/sb8b00426_1_comp/AmpR_u32_promoter_comp_1/1"/>
+        <sbol:displayId>AmpR_u32_promoter_anno_1</sbol:displayId>
+        <sbol:location>
+          <sbol:Range rdf:about="http://examples.org/ComponentDefinition/sb8b00426_1_comp/AmpR_u32_promoter_anno_1/AmpR_u32_promoter_anno_1_loc/1">
+            <sbol:displayId>AmpR_u32_promoter_anno_1_loc</sbol:displayId>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#reverseComplement"/>
+            <sbol:version>1</sbol:version>
+            <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00426_1_comp/AmpR_u32_promoter_anno_1/AmpR_u32_promoter_anno_1_loc"/>
+            <sbol:start>5004</sbol:start>
+            <sbol:end>5100</sbol:end>
+          </sbol:Range>
+        </sbol:location>
+        <ns0:title>AmpR promoter</ns0:title>
+        <sbol:version>1</sbol:version>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbh:supplementalFile rdf:resource="sb8b00426/suppl/sb-2018-00426x_si_001.txt"/>
+    <ns1:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.8b00426"/>
+    <sbol:component>
+      <sbol:Component rdf:about="http://examples.org/ComponentDefinition/sb8b00426_1_comp/ColE1_comp_1/1">
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:definition rdf:resource="https://synbioks.org/public/MoClo_Yeast_Toolkit_Dueber_Lab/ColE1/1"/>
+        <sbol:displayId>ColE1_comp_1</sbol:displayId>
         <sbol:version>1</sbol:version>
         <ns0:title>ColE1</ns0:title>
-        <sbol:definition rdf:resource="https://synbioks.org/public/YTK/ColE1/1"/>
-        <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00426_4_comp/ColE1_comp_1"/>
+        <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00426_1_comp/ColE1_comp_1"/>
       </sbol:Component>
     </sbol:component>
-    <sbol:component>
-      <sbol:Component rdf:about="http://examples.org/ComponentDefinition/sb8b00426_4_comp/AmpR_terminator_comp_1/1">
-        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
-        <sbol:displayId>AmpR_terminator_comp_1</sbol:displayId>
-        <sbol:version>1</sbol:version>
-        <ns0:title>AmpR terminator</ns0:title>
-        <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00426_4_comp/AmpR_terminator_comp_1"/>
-        <sbol:definition rdf:resource="https://synbioks.org/public/YTK/AmpR_terminator/1"/>
-      </sbol:Component>
-    </sbol:component>
-    <sbol:displayId>sb8b00426_4_comp</sbol:displayId>
-    <sbol:version>1</sbol:version>
-    <sbol:component>
-      <sbol:Component rdf:about="http://examples.org/ComponentDefinition/sb8b00426_4_comp/AmpR_comp_1/1">
-        <sbol:definition rdf:resource="https://synbioks.org/public/YTK/AmpR/1"/>
-        <sbol:displayId>AmpR_comp_1</sbol:displayId>
-        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
-        <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00426_4_comp/AmpR_comp_1"/>
-        <ns0:title>AmpR</ns0:title>
-        <sbol:version>1</sbol:version>
-      </sbol:Component>
-    </sbol:component>
-    <ns0:title>sgRNA_J23119__seq</ns0:title>
-    <ns1:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.8b00426"/>
-    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb8b00426_4_sequence/1"/>
-    <sbol:sequenceAnnotation>
-      <sbol:SequenceAnnotation rdf:about="http://examples.org/ComponentDefinition/sb8b00426_4_comp/AmpR_terminator_anno_1/1">
-        <sbol:location>
-          <sbol:Range rdf:about="http://examples.org/ComponentDefinition/sb8b00426_4_comp/AmpR_terminator_anno_1/AmpR_terminator_anno_1_loc/1">
-            <sbol:end>1865</sbol:end>
-            <sbol:start>1735</sbol:start>
-            <sbol:displayId>AmpR_terminator_anno_1_loc</sbol:displayId>
-            <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00426_4_comp/AmpR_terminator_anno_1/AmpR_terminator_anno_1_loc"/>
-            <sbol:orientation rdf:resource="http://sbols.org/v2#reverseComplement"/>
-            <sbol:version>1</sbol:version>
-          </sbol:Range>
-        </sbol:location>
-        <sbol:displayId>AmpR_terminator_anno_1</sbol:displayId>
-        <sbol:version>1</sbol:version>
-        <ns0:title>AmpR terminator</ns0:title>
-        <sbol:component rdf:resource="http://examples.org/ComponentDefinition/sb8b00426_4_comp/AmpR_terminator_comp_1/1"/>
-        <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00426_4_comp/AmpR_terminator_anno_1"/>
-      </sbol:SequenceAnnotation>
-    </sbol:sequenceAnnotation>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb8b00426_1_sequence/1"/>
+    <ns0:title>dCas9_native_promoter_seq</ns0:title>
   </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb8b00426_1_sequence/1">
+    <ns0:title>dCas9_native_promoter_seq Sequence</ns0:title>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:displayId>sb8b00426_1_sequence</sbol:displayId>
+    <sbol:elements>gaattcgcatctagaacggggtcatcacggctcatcatgcgccaaacaaatgtgtgcaatacacgctcggatgactgcatgatgaccgcactgactggggacagcagatccacctaagcctgtgagagaagcagacacccgacagatcaaggcagttacgtctcaccaaccaaaccagatgtcaacacagctacaacggctgttttgaatggttccaacaagattattttataacttttataacaaataatcaaggagaaattcaaagaaatttatcagccataaaacaatacttaatactatagaatgataacaaaataaactactttttaaaagaattttgtgttataatctatttattattaagtattgggtaatattttttgaagagatattttgaaaaagaaaaattaaagcatattaaactaatttcggaggtcattaaaactattattgaaatcatcaaactcattatggatttaatttaaactttttattttaggaggcaaaatatggataagaaatactcaataggcttagctatcggcacaaatagcgtcggatgggcggtgatcactgatgaatataaggttccgtctaaaaagttcaaggttctgggaaatacagaccgccacagtatcaaaaaaaatcttataggggctcttttatttgacagtggagagacagcggaagcgactcgtctaaaacggacagctcgtagaaggtatacacgtcggaagaatcgtatttgttatctacaggagattttttcaaatgagatggcgaaagtagatgatagtttctttcatcgacttgaagagtcttttttggtggaagaagacaagaagcatgaacgtcatcctatttttggaaatatagtagatgaagttgcttatcatgagaaatatccaactatctatcatctgcgaaaaaaattggtagattctactgataaagcggatttgcgcttaatctatttggccttagcgcatatgattaagtttcgtggtcattttttgattgagggagatttaaatcctgataatagtgatgtggacaaactatttatccagttggtacaaacctacaatcaattatttgaagaaaaccctattaacgcaagtggagtagatgctaaagcgattctttctgcacgattgagtaaatcaagacgattagaaaatctcattgctcagctccccggtgagaagaaaaatggcttatttgggaatctcattgctttgtcattgggtttgacccctaattttaaatcaaattttgatttggcagaagatgctaaattacagctttcaaaagatacttacgatgatgatttagataatttattggcgcaaattggagatcaatatgctgatttgtttttggcagctaagaatttatcagatgctattttactttcagatatcctaagagtaaatactgaaataactaaggctcccctatcagcttcaatgattaaacgctacgatgaacatcatcaagacttgactcttttaaaagctttagttcgacaacaacttccagaaaagtataaagaaatcttttttgatcaatcaaaaaacggatatgcaggttatattgatgggggagctagccaagaagaattttataaatttatcaaaccaattttagaaaaaatggatggtactgaggaattattggtgaaactaaatcgtgaagatttgctgcgcaagcaacggacctttgacaacggctctattccccatcaaattcacttgggtgagctgcatgctattttgagaagacaagaagacttttatccatttttaaaagacaatcgtgagaagattgaaaaaatcttgacttttcgaattccttattatgttggtccattggcgcgtggcaatagtcgttttgcatggatgactcggaagtctgaagaaacaattaccccatggaattttgaagaagttgtcgataaaggtgcttcagctcaatcatttattgaacgcatgacaaactttgataaaaatcttccaaatgaaaaagtactaccaaaacatagtttgctttatgagtattttacggtttataacgaattgacaaaggtcaaatatgttactgaaggaatgcgaaaaccagcatttctttcaggtgaacagaagaaagccattgttgatttactcttcaaaacaaatcgaaaagtaaccgttaagcaattaaaagaagattatttcaaaaaaatagaatgttttgatagtgttgaaatttcaggagttgaagatagatttaatgcttcattaggtacctaccatgatttgctaaaaattattaaagataaagattttttggataatgaagaaaatgaagatatcttagaggatattgttttaacattgaccttatttgaagatagggagatgattgaggaaagacttaaaacatatgctcacctctttgatgataaggtgatgaaacagcttaaacgtcgccgttatactggttggggacgtttgtctcgaaaattgattaatggtattagggataagcaatctggcaaaacaatattagattttttgaaatcagatggttttgccaatcgcaattttatgcagctgatccatgatgatagtttgacatttaaagaagacattcaaaaagcacaagtgtctggacaaggcgatagtttacatgaacatattgcaaatttagctggtagccctgctattaaaaaaggtattttacagactgtaaaagttgttgatgaattggtcaaagtaatggggcggcataagccagaaaatatcgttattgaaatggcacgtgaaaatcagacaactcaaaagggccagaaaaattcgcgagagcgtatgaaacgaatcgaagaaggtatcaaagaattaggaagtcagattcttaaagagcatcctgttgaaaatactcaattgcaaaatgaaaagctctatctctattatctccaaaatggaagagacatgtatgtggaccaagaattagatattaatcgtttaagtgattatgatgtcgatgccattgttccacaaagtttccttaaagacgattcaatagacaataaggtcttaacgcgttctgataaaaatcgtggtaaatcggataacgttccaagtgaagaagtagtcaaaaagatgaaaaactattggagacaacttctaaacgccaagttaatcactcaacgtaagtttgataatttaacgaaagctgaacgtggaggtttgagtgaacttgataaagctggttttatcaaacgccaattggttgaaactcgccaaatcactaagcatgtggcacaaattttggatagtcgcatgaatactaaatacgatgaaaatgataaacttattcgagaggttaaagtgattaccttaaaatctaaattagtttctgacttccgaaaagatttccaattctataaagtacgtgagattaacaattaccatcatgcccatgatgcgtatctaaatgccgtcgttggaactgctttgattaagaaatatccaaaacttgaatcggagtttgtctatggtgattataaagtttatgatgttcgtaaaatgattgctaagtctgagcaagaaataggcaaagcaaccgcaaaatatttcttttactctaatatcatgaacttcttcaaaacagaaattacacttgcaaatggagagattcgcaaacgccctctaatcgaaactaatggggaaactggagaaattgtctgggataaagggcgagattttgccacagtgcgcaaagtattgtccatgccccaagtcaatattgtcaagaaaacagaagtacagacaggcggattctccaaggagtcaattttaccaaaaagaaattcggacaagcttattgctcgtaaaaaagactgggatccaaaaaaatatggtggttttgatagtccaacggtagcttattcagtcctagtggttgctaaggtggaaaaagggaaatcgaagaagttaaaatccgttaaagagttactagggatcacaattatggaaagaagttcctttgaaaaaaatccgattgactttttagaagctaaaggatataaggaagttaaaaaagacttaatcattaaactacctaaatatagtctttttgagttagaaaacggtcgtaaacggatgctggctagtgccggagaattacaaaaaggaaatgagctggctctgccaagcaaatatgtgaattttttatatttagctagtcattatgaaaagttgaagggtagtccagaagataacgaacaaaaacaattgtttgtggagcagcataagcattatttagatgagattattgagcaaatcagtgaattttctaagcgtgttattttagcagatgccaatttagataaagttcttagtgcatataacaaacatagagacaaaccaatacgtgaacaagcagaaaatattattcatttatttacgttgacgaatcttggagctcccgctgcttttaaatattttgatacaacaattgatcgtaaacgatatacgtctacaaaagaagttttagatgccactcttatccatcaatccatcactggtctttatgaaacacgcattgatttgagtcagctaggaggtgactgaatccaaagcaagctgataaaccgatacaattaaaggctccttttggagcctttttttttggagattttcaacatgaagaaattattatttgatgatcagatagcggcggggaactgccagacatcaaataaaacaaaaggctcagtcggaagactgggccttttgttttatctgttgtttgtcggtgaacactctcccggctgagcatgagacggaaatctgctcgtcagtggtgctcacactgacgaatcatgtacagatcataccgatgactgcctggcgactcacaactaagcaagacagccggaaccagcgccggcgaacaccactgcatatatggcatatcacaacagtccaactagtgcactgcagtacagcggccgcgattatcaaaaaggatcttcacctagatccttttaaattaaaaatgaagttttaaatcaatctaaagtatatatgagtaaacttggtctgacagttaccaatgcttaatcagtgaggcacctatctcagcgatctgtctatttcgttcatccatagttgcctgactccccgtcgtgtagataactacgatacgggagggcttaccatctggccccagtgctgcaatgataccgcgggacccacgctcaccggctccagatttatcagcaataaaccagccagccggaagggccgagcgcagaagtggtcctgcaactttatccgcctccatccagtctattaattgttgccgggaagctagagtaagtagttcgccagttaatagtttgcgcaacgttgttgccattgctacaggcatcgtggtgtcacgctcgtcgtttggtatggcttcattcagctccggttcccaacgatcaaggcgagttacatgatcccccatgttgtgcaaaaaagcggttagctccttcggtcctccgatcgttgtcagaagtaagttggccgcagtgttatcactcatggttatggcagcactgcataattctcttactgtcatgccatccgtaagatgcttttctgtgactggtgagtactcaaccaagtcattctgagaatagtgtatgcggcgaccgagttgctcttgcccggcgtcaatacgggataataccgcgccacatagcagaactttaaaagtgctcatcattggaaaacgttcttcggggcgaaaactctcaaggatcttaccgctgttgagatccagttcgatgtaacccactcgtgcacccaactgatcttcagcatcttttactttcaccagcgtttctgggtgagcaaaaacaggaaggcaaaatgccgcaaaaaagggaataagggcgacacggaaatgttgaatactcatactcttcctttttcaatattattgaagcatttatcagggttattgtctcatgagcggatacatatttgaatgtatttagaaaaataaacaaataggggttccgcgcacatttccccgaaaagtgccacctgtcatgaccaaaatcccttaacgtgagttttcgttccactgagcgtcagaccccgtagaaaagatcaaaggatcttcttgagatcctttttttctgcgcgtaatctgctgcttgcaaacaaaaaaaccaccgctaccagcggtggtttgtttgccggatcaagagctaccaactctttttccgaaggtaactggcttcagcagagcgcagataccaaatactgttcttctagtgtagccgtagttaggccaccacttcaagaactctgtagcaccgcctacatacctcgctctgctaatcctgttaccagtggctgctgccagtggcgataagtcgtgtcttaccgggttggactcaagacgatagttaccggataaggcgcagcggtcgggctgaacggggggttcgtgcacacagcccagcttggagcgaacgacctacaccgaactgagatacctacagcgtgagctatgagaaagcgccacgcttcccgaagggagaaaggcggacaggtatccggtaagcggcagggtcggaacaggagagcgcacgagggagcttccagggggaaacgcctggtatctttatagtcctgtcgggtttcgccacctctgacttgagcgtcgatttttgtgatgctcgtcaggggggcggagcctatggaaaaacgccagcaacgcggcctttttacggttcctggccttttgctggccttttgctcacatgttctttcctgcgttatcccctgattctgtggataaccgtgcggccgcccct</sbol:elements>
+    <sbol:version>1</sbol:version>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb8b00426_1_sequence"/>
+  </sbol:Sequence>
   <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb8b00426_5_comp/1">
-    <sbol:sequenceAnnotation>
-      <sbol:SequenceAnnotation rdf:about="http://examples.org/ComponentDefinition/sb8b00426_5_comp/AmpR_anno_1/1">
-        <sbol:component rdf:resource="http://examples.org/ComponentDefinition/sb8b00426_5_comp/AmpR_comp_1/1"/>
-        <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00426_5_comp/AmpR_anno_1"/>
-        <ns0:title>AmpR</ns0:title>
-        <sbol:version>1</sbol:version>
-        <sbol:location>
-          <sbol:Range rdf:about="http://examples.org/ComponentDefinition/sb8b00426_5_comp/AmpR_anno_1/AmpR_anno_1_loc/1">
-            <sbol:version>1</sbol:version>
-            <sbol:end>1758</sbol:end>
-            <sbol:start>901</sbol:start>
-            <sbol:displayId>AmpR_anno_1_loc</sbol:displayId>
-            <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00426_5_comp/AmpR_anno_1/AmpR_anno_1_loc"/>
-            <sbol:orientation rdf:resource="http://sbols.org/v2#reverseComplement"/>
-          </sbol:Range>
-        </sbol:location>
-        <sbol:displayId>AmpR_anno_1</sbol:displayId>
-        <ns0:description>Confers resistance to ampicillin in bacteria</ns0:description>
-      </sbol:SequenceAnnotation>
-    </sbol:sequenceAnnotation>
-    <sbol:sequenceAnnotation>
-      <sbol:SequenceAnnotation rdf:about="http://examples.org/ComponentDefinition/sb8b00426_5_comp/AmpR_promoter_anno_1/1">
-        <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00426_5_comp/AmpR_promoter_anno_1"/>
-        <sbol:displayId>AmpR_promoter_anno_1</sbol:displayId>
-        <sbol:version>1</sbol:version>
-        <sbol:location>
-          <sbol:Range rdf:about="http://examples.org/ComponentDefinition/sb8b00426_5_comp/AmpR_promoter_anno_1/AmpR_promoter_anno_1_loc/1">
-            <sbol:displayId>AmpR_promoter_anno_1_loc</sbol:displayId>
-            <sbol:end>900</sbol:end>
-            <sbol:start>804</sbol:start>
-            <sbol:orientation rdf:resource="http://sbols.org/v2#reverseComplement"/>
-            <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00426_5_comp/AmpR_promoter_anno_1/AmpR_promoter_anno_1_loc"/>
-            <sbol:version>1</sbol:version>
-          </sbol:Range>
-        </sbol:location>
-        <sbol:component rdf:resource="http://examples.org/ComponentDefinition/sb8b00426_5_comp/AmpR_promoter_comp_1/1"/>
-        <ns0:title>AmpR promoter</ns0:title>
-      </sbol:SequenceAnnotation>
-    </sbol:sequenceAnnotation>
-    <ns1:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.8b00426"/>
-    <ns0:title>sgRNA_T5_seq</ns0:title>
     <sbol:component>
       <sbol:Component rdf:about="http://examples.org/ComponentDefinition/sb8b00426_5_comp/ColE1_comp_1/1">
-        <sbol:displayId>ColE1_comp_1</sbol:displayId>
         <sbol:access rdf:resource="http://sbols.org/v2#public"/>
-        <sbol:version>1</sbol:version>
-        <ns0:title>ColE1</ns0:title>
         <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00426_5_comp/ColE1_comp_1"/>
-        <sbol:definition rdf:resource="https://synbioks.org/public/YTK/ColE1/1"/>
+        <ns0:title>ColE1</ns0:title>
+        <sbol:version>1</sbol:version>
+        <sbol:definition rdf:resource="https://synbioks.org/public/MoClo_Yeast_Toolkit_Dueber_Lab/ColE1/1"/>
+        <sbol:displayId>ColE1_comp_1</sbol:displayId>
       </sbol:Component>
     </sbol:component>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb8b00426_5_sequence/1"/>
+    <sbol:version>1</sbol:version>
+    <ns0:title>sgRNA_T5_seq</ns0:title>
+    <ns1:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.8b00426"/>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="http://examples.org/ComponentDefinition/sb8b00426_5_comp/AmpR_u32_promoter_anno_1/1">
+        <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00426_5_comp/AmpR_u32_promoter_anno_1"/>
+        <sbol:displayId>AmpR_u32_promoter_anno_1</sbol:displayId>
+        <sbol:component rdf:resource="http://examples.org/ComponentDefinition/sb8b00426_5_comp/AmpR_u32_promoter_comp_1/1"/>
+        <ns0:title>AmpR promoter</ns0:title>
+        <sbol:version>1</sbol:version>
+        <sbol:location>
+          <sbol:Range rdf:about="http://examples.org/ComponentDefinition/sb8b00426_5_comp/AmpR_u32_promoter_anno_1/AmpR_u32_promoter_anno_1_loc/1">
+            <sbol:version>1</sbol:version>
+            <sbol:start>804</sbol:start>
+            <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00426_5_comp/AmpR_u32_promoter_anno_1/AmpR_u32_promoter_anno_1_loc"/>
+            <sbol:displayId>AmpR_u32_promoter_anno_1_loc</sbol:displayId>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#reverseComplement"/>
+            <sbol:end>900</sbol:end>
+          </sbol:Range>
+        </sbol:location>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
     <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00426_5_comp"/>
-    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbh:supplementalFile rdf:resource="sb8b00426/suppl/sb-2018-00426x_si_001.txt"/>
     <sbol:component>
       <sbol:Component rdf:about="http://examples.org/ComponentDefinition/sb8b00426_5_comp/AmpR_comp_1/1">
-        <sbol:definition rdf:resource="https://synbioks.org/public/YTK/AmpR/1"/>
-        <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00426_5_comp/AmpR_comp_1"/>
-        <sbol:displayId>AmpR_comp_1</sbol:displayId>
         <ns0:title>AmpR</ns0:title>
+        <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00426_5_comp/AmpR_comp_1"/>
         <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:definition rdf:resource="https://synbioks.org/public/MoClo_Yeast_Toolkit_Dueber_Lab/AmpR/1"/>
+        <sbol:displayId>AmpR_comp_1</sbol:displayId>
         <sbol:version>1</sbol:version>
+      </sbol:Component>
+    </sbol:component>
+    <ns1:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:component>
+      <sbol:Component rdf:about="http://examples.org/ComponentDefinition/sb8b00426_5_comp/AmpR_u32_terminator_comp_1/1">
+        <sbol:version>1</sbol:version>
+        <ns0:title>AmpR terminator</ns0:title>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00426_5_comp/AmpR_u32_terminator_comp_1"/>
+        <sbol:displayId>AmpR_u32_terminator_comp_1</sbol:displayId>
+        <sbol:definition rdf:resource="https://synbioks.org/public/MoClo_Yeast_Toolkit_Dueber_Lab/AmpR_u32_terminator/1"/>
       </sbol:Component>
     </sbol:component>
     <sbol:sequenceAnnotation>
-      <sbol:SequenceAnnotation rdf:about="http://examples.org/ComponentDefinition/sb8b00426_5_comp/ColE1_anno_1/1">
-        <sbol:component rdf:resource="http://examples.org/ComponentDefinition/sb8b00426_5_comp/ColE1_comp_1/1"/>
-        <sbol:displayId>ColE1_anno_1</sbol:displayId>
+      <sbol:SequenceAnnotation rdf:about="http://examples.org/ComponentDefinition/sb8b00426_5_comp/AmpR_anno_1/1">
+        <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00426_5_comp/AmpR_anno_1"/>
         <sbol:version>1</sbol:version>
-        <ns0:title>ColE1</ns0:title>
-        <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00426_5_comp/ColE1_anno_1"/>
+        <sbol:component rdf:resource="http://examples.org/ComponentDefinition/sb8b00426_5_comp/AmpR_comp_1/1"/>
+        <ns0:title>AmpR</ns0:title>
+        <ns0:description>Confers resistance to ampicillin in bacteria</ns0:description>
+        <sbol:displayId>AmpR_anno_1</sbol:displayId>
         <sbol:location>
-          <sbol:Range rdf:about="http://examples.org/ComponentDefinition/sb8b00426_5_comp/ColE1_anno_1/ColE1_anno_1_loc/1">
-            <sbol:displayId>ColE1_anno_1_loc</sbol:displayId>
-            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
-            <sbol:end>2653</sbol:end>
+          <sbol:Range rdf:about="http://examples.org/ComponentDefinition/sb8b00426_5_comp/AmpR_anno_1/AmpR_anno_1_loc/1">
+            <sbol:orientation rdf:resource="http://sbols.org/v2#reverseComplement"/>
+            <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00426_5_comp/AmpR_anno_1/AmpR_anno_1_loc"/>
             <sbol:version>1</sbol:version>
-            <sbol:start>1890</sbol:start>
-            <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00426_5_comp/ColE1_anno_1/ColE1_anno_1_loc"/>
+            <sbol:start>901</sbol:start>
+            <sbol:displayId>AmpR_anno_1_loc</sbol:displayId>
+            <sbol:end>1758</sbol:end>
           </sbol:Range>
         </sbol:location>
       </sbol:SequenceAnnotation>
     </sbol:sequenceAnnotation>
     <sbol:displayId>sb8b00426_5_comp</sbol:displayId>
-    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb8b00426_5_sequence/1"/>
-    <sbol:component>
-      <sbol:Component rdf:about="http://examples.org/ComponentDefinition/sb8b00426_5_comp/AmpR_promoter_comp_1/1">
-        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
-        <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00426_5_comp/AmpR_promoter_comp_1"/>
-        <sbol:version>1</sbol:version>
-        <sbol:definition rdf:resource="https://synbioks.org/public/YTK/AmpR_promoter/1"/>
-        <ns0:title>AmpR promoter</ns0:title>
-        <sbol:displayId>AmpR_promoter_comp_1</sbol:displayId>
-      </sbol:Component>
-    </sbol:component>
-    <ns1:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
     <sbol:sequenceAnnotation>
-      <sbol:SequenceAnnotation rdf:about="http://examples.org/ComponentDefinition/sb8b00426_5_comp/AmpR_terminator_anno_1/1">
-        <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00426_5_comp/AmpR_terminator_anno_1"/>
+      <sbol:SequenceAnnotation rdf:about="http://examples.org/ComponentDefinition/sb8b00426_5_comp/ColE1_anno_1/1">
+        <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00426_5_comp/ColE1_anno_1"/>
+        <sbol:displayId>ColE1_anno_1</sbol:displayId>
+        <sbol:component rdf:resource="http://examples.org/ComponentDefinition/sb8b00426_5_comp/ColE1_comp_1/1"/>
         <sbol:version>1</sbol:version>
-        <sbol:component rdf:resource="http://examples.org/ComponentDefinition/sb8b00426_5_comp/AmpR_terminator_comp_1/1"/>
+        <ns0:title>ColE1</ns0:title>
         <sbol:location>
-          <sbol:Range rdf:about="http://examples.org/ComponentDefinition/sb8b00426_5_comp/AmpR_terminator_anno_1/AmpR_terminator_anno_1_loc/1">
-            <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00426_5_comp/AmpR_terminator_anno_1/AmpR_terminator_anno_1_loc"/>
-            <sbol:end>1889</sbol:end>
-            <sbol:displayId>AmpR_terminator_anno_1_loc</sbol:displayId>
-            <sbol:orientation rdf:resource="http://sbols.org/v2#reverseComplement"/>
+          <sbol:Range rdf:about="http://examples.org/ComponentDefinition/sb8b00426_5_comp/ColE1_anno_1/ColE1_anno_1_loc/1">
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00426_5_comp/ColE1_anno_1/ColE1_anno_1_loc"/>
+            <sbol:end>2653</sbol:end>
             <sbol:version>1</sbol:version>
-            <sbol:start>1759</sbol:start>
+            <sbol:start>1890</sbol:start>
+            <sbol:displayId>ColE1_anno_1_loc</sbol:displayId>
           </sbol:Range>
         </sbol:location>
-        <sbol:displayId>AmpR_terminator_anno_1</sbol:displayId>
-        <ns0:title>AmpR terminator</ns0:title>
       </sbol:SequenceAnnotation>
     </sbol:sequenceAnnotation>
-    <sbol:version>1</sbol:version>
     <sbol:component>
-      <sbol:Component rdf:about="http://examples.org/ComponentDefinition/sb8b00426_5_comp/AmpR_terminator_comp_1/1">
-        <ns0:title>AmpR terminator</ns0:title>
-        <sbol:displayId>AmpR_terminator_comp_1</sbol:displayId>
-        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+      <sbol:Component rdf:about="http://examples.org/ComponentDefinition/sb8b00426_5_comp/AmpR_u32_promoter_comp_1/1">
+        <sbol:displayId>AmpR_u32_promoter_comp_1</sbol:displayId>
+        <sbol:definition rdf:resource="https://synbioks.org/public/MoClo_Yeast_Toolkit_Dueber_Lab/AmpR_u32_promoter/1"/>
+        <ns0:title>AmpR promoter</ns0:title>
         <sbol:version>1</sbol:version>
-        <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00426_5_comp/AmpR_terminator_comp_1"/>
-        <sbol:definition rdf:resource="https://synbioks.org/public/YTK/AmpR_terminator/1"/>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00426_5_comp/AmpR_u32_promoter_comp_1"/>
       </sbol:Component>
     </sbol:component>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="http://examples.org/ComponentDefinition/sb8b00426_5_comp/AmpR_u32_terminator_anno_1/1">
+        <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00426_5_comp/AmpR_u32_terminator_anno_1"/>
+        <sbol:component rdf:resource="http://examples.org/ComponentDefinition/sb8b00426_5_comp/AmpR_u32_terminator_comp_1/1"/>
+        <sbol:location>
+          <sbol:Range rdf:about="http://examples.org/ComponentDefinition/sb8b00426_5_comp/AmpR_u32_terminator_anno_1/AmpR_u32_terminator_anno_1_loc/1">
+            <sbol:start>1759</sbol:start>
+            <sbol:displayId>AmpR_u32_terminator_anno_1_loc</sbol:displayId>
+            <sbol:version>1</sbol:version>
+            <sbol:end>1889</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#reverseComplement"/>
+            <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00426_5_comp/AmpR_u32_terminator_anno_1/AmpR_u32_terminator_anno_1_loc"/>
+          </sbol:Range>
+        </sbol:location>
+        <ns0:title>AmpR terminator</ns0:title>
+        <sbol:displayId>AmpR_u32_terminator_anno_1</sbol:displayId>
+        <sbol:version>1</sbol:version>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
   </sbol:ComponentDefinition>
 </rdf:RDF>

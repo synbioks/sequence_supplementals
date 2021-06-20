@@ -1,64 +1,36 @@
-<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:sbol="http://sbols.org/v2#" xmlns:ns0="http://purl.org/dc/terms/" xmlns:ns1="http://wiki.synbiohub.org/wiki/Terms/synbiohub#" xmlns:ns2="http://www.w3.org/ns/prov#" xmlns:ns3="http://purl.org/dc/elements/1.1/" xmlns:ns4="http://purl.obolibrary.org/obo/">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:sbh="https://wiki.synbiohub.org/wiki/Terms/synbiohub#" xmlns:sbol="http://sbols.org/v2#" xmlns:ns0="http://www.w3.org/ns/prov#">
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb8b00505_2_sequence/1">
+    <sbol:displayId>sb8b00505_2_sequence</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb8b00505_2_sequence"/>
+    <sbol:elements>acccacagcacctaacaaaa</sbol:elements>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb8b00505_1_sequence/1">
+    <sbol:elements>aatcacagccgaagccatta</sbol:elements>
+    <sbol:version>1</sbol:version>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb8b00505_1_sequence"/>
+    <sbol:displayId>sb8b00505_1_sequence</sbol:displayId>
+  </sbol:Sequence>
   <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb8b00505_1_comp/1">
-    <sbol:displayId>sb8b00505_1_comp</sbol:displayId>
-    <ns2:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.8b00505"/>
+    <sbh:supplementalFile rdf:resource="sb8b00505/suppl/sb-2018-005058_si_001.pdf"/>
     <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00505_1_comp"/>
-    <ns2:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbol:version>1</sbol:version>
     <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
-    <sbol:version>1</sbol:version>
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.8b00505"/>
     <sbol:sequence rdf:resource="http://examples.org/Sequence/sb8b00505_1_sequence/1"/>
+    <sbol:displayId>sb8b00505_1_comp</sbol:displayId>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
   </sbol:ComponentDefinition>
-  <sbol:Collection rdf:about="http://examples.org/Collection/sb8b00505/1">
-    <sbol:member rdf:resource="http://examples.org/Sequence/sb8b00505_1_sequence/1"/>
-    <ns0:dateSubmitted>2018-11-29</ns0:dateSubmitted>
-    <sbol:member rdf:resource="http://examples.org/Sequence/sb8b00505_2_sequence/1"/>
-    <ns1:topLevel rdf:resource="https://synbioks.org/public/ACS/sb8b00505/1"/>
-    <ns3:publisher>American Chemical
-Society</ns3:publisher>
-    <ns0:type rdf:resource="http://purl.org/dc/dcmitype/Text"/>
-    <ns3:type>rapid-communication</ns3:type>
-    <ns1:ownedBy rdf:resource="https://synbioks.org/user/myers"/>
-    <ns0:dateAccepted>2019-09-18</ns0:dateAccepted>
-    <ns0:abstract>Recent advances in DNA synthesis technology have made it possible to rewrite the entire genome of an organism. The major hurdles in this process are efficiently identifying and fixing the defect-inducing sequences (or &#8220;bugs&#8221;) during rewriting. Here, we describe a high-throughput, semiquantitative phenotype assay for evaluating the fitness of synthetic yeast and identifying potential bugs. Growth curves were measured under a carefully chosen set of testing conditions. Statistical analysis revealed strains with subtle defects relative to the wild type, which were targeted for debugging. The effectiveness of the assay was demonstrated by phenotypic profiling of all intermediate synthetic strains of the synthetic yeast chromosome XII. Subsequently, the assay was applied during the process of constructing another synthetic chromosome. Furthermore, we designed an efficient chromosome assembly strategy that integrates iterative megachunk construction with CRISPR/Cas9-mediated assembly of synthetic segments. Together, the semiquantitative assay and refined assembly strategy could greatly facilitate synthetic genomics projects by improving efficiency during both debugging and construction.</ns0:abstract>
-    <ns3:creator>Yizhi Cai</ns3:creator>
-    <sbol:version>1</sbol:version>
-    <ns0:references>Zhang, W., Zhao, G., Luo, Z., Lin, Y., Wang, L., Guo, Y., Wang, A., Jiang, S., Jiang, Q., Gong, J., Wang, Y., Hou, S., Huang, J., Li, T., Qin, Y., Dong, J., Qin, Q., Zhang, J., Zou, X., He, X., Zhao, L., Xiao, Y., Xu, M., Cheng, E., Huang, N., Zhou, T., Shen, Y., Walker, R., Luo, Y., Kuang, Z., Mitchell, L. A., Yang, K., Richardson, S. M., Wu, Y., Li, B. Z., Yuan, Y. J., Yang, H., Lin, J., Chen, G. Q., Wu, Q., Bader, J. S., Cai, Y., Boeke, J. D., Dai, J. Engineering the ribosomal DNA in a megabase synthetic chromosome Science 2017. 355.</ns0:references>
-    <ns3:subject>synthetic
-biology</ns3:subject>
-    <ns0:created>2019-09-18</ns0:created>
-    <ns4:OBI_0002110>10.1021/acssynbio.8b00505</ns4:OBI_0002110>
-    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb8b00505_1_comp/1"/>
-    <ns0:description>Recent advances in DNA synthesis technology have made it possible to rewrite the entire genome of an organism. The major hurdles in this process are efficiently identifying and fixing the defect-inducing sequences (or &#8220;bugs&#8221;) during rewriting. Here, we describe a high-throughput, semiquantitative phenotype assay for evaluating the fitness of synthetic yeast and identifying potential bugs. Growth curves were measured under a carefully chosen set of testing conditions. Statistical analysis revealed strains with subtle defects relative to the wild type, which were targeted for debugging. The effectiveness of the assay was demonstrated by phenotypic profiling of all intermediate synthetic strains of the synthetic yeast chromosome XII. Subsequently, the assay was applied during the process of constructing another synthetic chromosome. Furthermore, we designed an efficient chromosome assembly strategy that integrates iterative megachunk construction with CRISPR/Cas9-mediated assembly of synthetic segments. Together, the semiquantitative assay and refined assembly strategy could greatly facilitate synthetic genomics projects by improving efficiency during both debugging and construction.</ns0:description>
-    <sbol:displayId>sb8b00505</sbol:displayId>
-    <sbol:persistentIdentity rdf:resource="http://examples.org/Collection/sb8b00505"/>
-    <ns4:OBI_0001617>31532633</ns4:OBI_0001617>
-    <ns0:dateCopyrighted>2019</ns0:dateCopyrighted>
-    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb8b00505_2_comp/1"/>
-    <ns0:rightsHolder>American Chemical
-Society</ns0:rightsHolder>
-    <ns0:isPartOf rdf:resource="http://pubs.acs.org/journal/asbcd6"/>
-  </sbol:Collection>
   <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb8b00505_2_comp/1">
+    <sbol:displayId>sb8b00505_2_comp</sbol:displayId>
     <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00505_2_comp"/>
-    <ns2:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
     <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
     <sbol:version>1</sbol:version>
     <sbol:sequence rdf:resource="http://examples.org/Sequence/sb8b00505_2_sequence/1"/>
-    <sbol:displayId>sb8b00505_2_comp</sbol:displayId>
-    <ns2:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.8b00505"/>
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.8b00505"/>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbh:supplementalFile rdf:resource="sb8b00505/suppl/sb-2018-005058_si_001.pdf"/>
   </sbol:ComponentDefinition>
-  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb8b00505_2_sequence/1">
-    <sbol:version>1</sbol:version>
-    <sbol:displayId>sb8b00505_2_sequence</sbol:displayId>
-    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb8b00505_2_sequence"/>
-    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
-    <sbol:elements>acccacagcacctaacaaaa</sbol:elements>
-  </sbol:Sequence>
-  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb8b00505_1_sequence/1">
-    <sbol:displayId>sb8b00505_1_sequence</sbol:displayId>
-    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
-    <sbol:elements>aatcacagccgaagccatta</sbol:elements>
-    <sbol:version>1</sbol:version>
-    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb8b00505_1_sequence"/>
-  </sbol:Sequence>
 </rdf:RDF>

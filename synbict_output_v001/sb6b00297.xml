@@ -1,0 +1,64 @@
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:sbol="http://sbols.org/v2#" xmlns:ns0="http://purl.org/dc/terms/" xmlns:ns1="http://purl.org/dc/elements/1.1/" xmlns:ns2="http://wiki.synbiohub.org/wiki/Terms/synbiohub#" xmlns:ns3="http://www.w3.org/ns/prov#" xmlns:ns4="http://purl.obolibrary.org/obo/">
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb6b00297_2_comp/1">
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb6b00297_2_comp"/>
+    <ns3:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <ns3:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.6b00297"/>
+    <sbol:version>1</sbol:version>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb6b00297_2_sequence/1"/>
+    <sbol:displayId>sb6b00297_2_comp</sbol:displayId>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb6b00297_1_comp/1">
+    <sbol:displayId>sb6b00297_1_comp</sbol:displayId>
+    <ns3:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.6b00297"/>
+    <sbol:version>1</sbol:version>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb6b00297_1_sequence/1"/>
+    <ns3:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb6b00297_1_comp"/>
+  </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb6b00297_1_sequence/1">
+    <sbol:elements>ttaatacatatgtccggcaagattgacaagatcctc</sbol:elements>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb6b00297_1_sequence"/>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:version>1</sbol:version>
+    <sbol:displayId>sb6b00297_1_sequence</sbol:displayId>
+  </sbol:Sequence>
+  <sbol:Collection rdf:about="http://examples.org/Collection/sb6b00297/1">
+    <ns0:description>Directed evolution is a powerful tool for optimizing enzymes, and mutagenesis methods that improve enzyme library quality can significantly expedite the evolution process. Here, we report a simple method for targeted combinatorial codon mutagenesis (CCM). To demonstrate the utility of this method for protein engineering, CCM libraries were constructed for cytochrome P450BM3, pfu prolyl oligopeptidase, and the flavin-dependent halogenase RebH; 10&#8211;26 sites were targeted for codon mutagenesis in each of these enzymes, and libraries with a tunable average of 1&#8211;7 codon mutations per gene were generated. Each of these libraries provided improved enzymes for their respective transformations, which highlights the generality, simplicity, and tunability of CCM for targeted protein engineering.</ns0:description>
+    <ns1:publisher>American Chemical
+Society</ns1:publisher>
+    <ns1:creator>Mary C. Andorfer</ns1:creator>
+    <sbol:displayId>sb6b00297</sbol:displayId>
+    <ns2:ownedBy rdf:resource="https://synbioks.org/user/myers"/>
+    <ns0:abstract>Directed evolution is a powerful tool for optimizing enzymes, and mutagenesis methods that improve enzyme library quality can significantly expedite the evolution process. Here, we report a simple method for targeted combinatorial codon mutagenesis (CCM). To demonstrate the utility of this method for protein engineering, CCM libraries were constructed for cytochrome P450BM3, pfu prolyl oligopeptidase, and the flavin-dependent halogenase RebH; 10&#8211;26 sites were targeted for codon mutagenesis in each of these enzymes, and libraries with a tunable average of 1&#8211;7 codon mutations per gene were generated. Each of these libraries provided improved enzymes for their respective transformations, which highlights the generality, simplicity, and tunability of CCM for targeted protein engineering.</ns0:abstract>
+    <ns2:topLevel rdf:resource="https://synbioks.org/public/ACS/sb6b00297/1"/>
+    <ns0:dateAccepted>2016-12-29</ns0:dateAccepted>
+    <ns1:rights>Copyright &#169; 2016 American Chemical Society</ns1:rights>
+    <ns4:OBI_0001617>28033708</ns4:OBI_0001617>
+    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb6b00297_2_comp/1"/>
+    <ns0:rightsHolder>American Chemical Society</ns0:rightsHolder>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Collection/sb6b00297"/>
+    <sbol:member rdf:resource="http://examples.org/Sequence/sb6b00297_2_sequence/1"/>
+    <sbol:version>1</sbol:version>
+    <ns4:OBI_0002110>10.1021/acssynbio.6b00297</ns4:OBI_0002110>
+    <ns0:created>2016-12-29</ns0:created>
+    <ns1:subject>prolyl oligopeptidase</ns1:subject>
+    <ns0:dateSubmitted>2016-10-14</ns0:dateSubmitted>
+    <ns0:references>van
+Vugt-Lussenburg, B. M. A., Stjernschantz, E., Lastdrager, J., Oostenbrink, C., Vermeulen, P. E., Commandeur, J. N. M. Identification of Critical Residues in Novel Drug Metabolizing Mutants of Cytochrome P450 BM3 Using Random Mutagenesis J. Med. Chem. 2007. 50:455-461.</ns0:references>
+    <ns0:type rdf:resource="http://purl.org/dc/dcmitype/Text"/>
+    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb6b00297_1_comp/1"/>
+    <ns1:type>rapid-communication</ns1:type>
+    <sbol:member rdf:resource="http://examples.org/Sequence/sb6b00297_1_sequence/1"/>
+    <ns0:isPartOf rdf:resource="http://pubs.acs.org/journal/asbcd6"/>
+    <ns0:dateCopyrighted>2016</ns0:dateCopyrighted>
+  </sbol:Collection>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb6b00297_2_sequence/1">
+    <sbol:displayId>sb6b00297_2_sequence</sbol:displayId>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb6b00297_2_sequence"/>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:version>1</sbol:version>
+    <sbol:elements>tattaaaagctttcagcggccgtgctgttgcctcag</sbol:elements>
+  </sbol:Sequence>
+</rdf:RDF>
