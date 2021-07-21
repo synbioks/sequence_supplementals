@@ -1,0 +1,949 @@
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:sbh="https://wiki.synbiohub.org/wiki/Terms/synbiohub#" xmlns:sbol="http://sbols.org/v2#" xmlns:ns0="http://www.w3.org/ns/prov#" xmlns:ns1="http://purl.org/dc/elements/1.1/" xmlns:ns2="http://purl.org/dc/terms/" xmlns:ns3="http://purl.obolibrary.org/obo/">
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb9b00077_6_comp/1">
+    <sbh:supplementalFile rdf:resource="file:///C:/Users/JVM/Downloads/sequence_supplementals/synbict_output/sb9b00077/suppl/sb-2019-00077n_si_001.pdf"/>
+    <sbol:displayId>sb9b00077_6_comp</sbol:displayId>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb9b00077_6_sequence/1"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb9b00077_6_comp"/>
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.9b00077"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbol:version>1</sbol:version>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb9b00077_1_comp/1">
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb9b00077_1_comp"/>
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.9b00077"/>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb9b00077_1_sequence/1"/>
+    <sbol:displayId>sb9b00077_1_comp</sbol:displayId>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbol:version>1</sbol:version>
+    <sbh:supplementalFile rdf:resource="file:///C:/Users/JVM/Downloads/sequence_supplementals/synbict_output/sb9b00077/suppl/sb-2019-00077n_si_001.pdf"/>
+  </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb9b00077_5_sequence/1">
+    <sbol:displayId>sb9b00077_5_sequence</sbol:displayId>
+    <sbol:elements>aaaagatctaaggagggataaacatgactcgagcagaacg</sbol:elements>
+    <sbol:version>1</sbol:version>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb9b00077_5_sequence"/>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb9b00077_6_sequence/1">
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:version>1</sbol:version>
+    <sbol:elements>aaaatcgatttatcgcacactatagcttgatgtattg</sbol:elements>
+    <sbol:displayId>sb9b00077_6_sequence</sbol:displayId>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb9b00077_6_sequence"/>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb9b00077_15_sequence/1">
+    <sbol:displayId>sb9b00077_15_sequence</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb9b00077_15_sequence"/>
+    <sbol:elements>aaagaattcccttgcgtgcagatgcgaatacaacaaaagccgtttatcaaatcaataatggaccagagacggcgtttaaggatggagatcaattcacaatcggaaaaggagatccatttggcaaaacatacaccatcatgttaaaaggaacgaacagtgatggtgtaacgaggaccgagaaatacagttttgttaaaagagatccagcgtcggccaaaaccatcggctatcaaaatccgaatcattggagccaggtaaatgcttatatctataaacatgatgggagccgagtaattgaattgaccggatcttggcctggaaaaccaatgactaaaaatgcagacggaatttacacgctgacgctgcctgcggacacggatacaaccaacgcaaaagtgatttttaataatggcagcgcccaagtgcccggtcagaatcagcctggctttgattacgtgctaaatggtttatataatgactcgggcttaagcggttctcttccccattgaaaagaacatgtgagcaaaaggccagcaaaaggccaggaaccgtaaaaaggccgcgttgctggcgtttttccataggctccgcccccctgacgagcatcacaaaaatcgacgctcaagtcagaggtggcgaaacccgacaggactataaagataccaggcgtttccccctggaagctccctcgtgcgctctcctgttccgaccctgccgcttaccggatacctgtccgcctttctcccttcgggaagcgtggcgctttctcatagctcacgctgtaggtatctcagttcggtgtaggtcgttcgctccaagctgggctgtgtgcacgaaccccccgttcagcccgaccgctgcgccttatccggtaactatcgtcttgagtccaacccggtaagacacgacttatcgccactggcagcagccactggtaacaggattagcagagcgaggtatgtaggcggtgctacagagttcttgaagtggtggcctaactacggctacactagaagaacagtatttggtatctgcgctctgctgaagccagttaccttcggaaaaagagttggtagctcttgatccggcaaacaaaccaccgctggtagcggtggtttttttgtttgcaagcagcagattacgcgcagaaaaaaaggatctcaagaagatcctttgatcttttctacggggtctgaatgtttgcaaaacgattcaaaacctctttactgccgttattcgctggatttttattgctgtttcatttggttctggcaggaccggcggctgcgagtgctgaaacggcgaacaaatcgaatgagcttacagcaccgtcgatcaaaagcggaaccattcttcatgcatggaattggtcgttcaatacgttaaaacacaatatgaaggatattcatgatgcaggatatacagccattcagacatctccgattaaccaagtaaaggaagggaatcaaggagataaaagcatgtcgaactggtactggctgtatcagccgacatcgtatcaaattggcaaccgttacttaggtactgaacaagaatttaaagaaatgtgtgcagccgctgaagaatatggcataaaggtcattgttgacgcggtcatcaatcataccaccagtgattatgccgcgatttccaatgaggttaagagtattccaaactggacacatggaaacacacagaattcaaa</sbol:elements>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb9b00077_22_sequence/1">
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb9b00077_22_sequence"/>
+    <sbol:displayId>sb9b00077_22_sequence</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <sbol:elements>aacctgttcgccttgaagag</sbol:elements>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb9b00077_7_sequence/1">
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb9b00077_7_sequence"/>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:elements>aaaatcgataaggagggtggaagatgaaccaaacaaataaggg</sbol:elements>
+    <sbol:displayId>sb9b00077_7_sequence</sbol:displayId>
+    <sbol:version>1</sbol:version>
+  </sbol:Sequence>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb9b00077_8_comp/1">
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb9b00077_8_comp"/>
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.9b00077"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:displayId>sb9b00077_8_comp</sbol:displayId>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbol:version>1</sbol:version>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb9b00077_8_sequence/1"/>
+    <sbh:supplementalFile rdf:resource="file:///C:/Users/JVM/Downloads/sequence_supplementals/synbict_output/sb9b00077/suppl/sb-2019-00077n_si_001.pdf"/>
+  </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb9b00077_17_sequence/1">
+    <sbol:elements>ctgattctgtggataaccgtattaccg</sbol:elements>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb9b00077_17_sequence"/>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:displayId>sb9b00077_17_sequence</sbol:displayId>
+    <sbol:version>1</sbol:version>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb9b00077_29_sequence/1">
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb9b00077_29_sequence"/>
+    <sbol:displayId>sb9b00077_29_sequence</sbol:displayId>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:elements>agtctctacggaaatagcga</sbol:elements>
+    <sbol:version>1</sbol:version>
+  </sbol:Sequence>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb9b00077_7_comp/1">
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.9b00077"/>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb9b00077_7_sequence/1"/>
+    <sbol:displayId>sb9b00077_7_comp</sbol:displayId>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbol:version>1</sbol:version>
+    <sbh:supplementalFile rdf:resource="file:///C:/Users/JVM/Downloads/sequence_supplementals/synbict_output/sb9b00077/suppl/sb-2019-00077n_si_001.pdf"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb9b00077_7_comp"/>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb9b00077_21_comp/1">
+    <sbol:displayId>sb9b00077_21_comp</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <sbh:supplementalFile rdf:resource="file:///C:/Users/JVM/Downloads/sequence_supplementals/synbict_output/sb9b00077/suppl/sb-2019-00077n_si_001.pdf"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb9b00077_21_comp"/>
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.9b00077"/>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb9b00077_21_sequence/1"/>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+  </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb9b00077_32_sequence/1">
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb9b00077_32_sequence"/>
+    <sbol:displayId>sb9b00077_32_sequence</sbol:displayId>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:version>1</sbol:version>
+    <sbol:elements>gaggaagcggaagaatgaag</sbol:elements>
+  </sbol:Sequence>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb9b00077_27_comp/1">
+    <sbol:version>1</sbol:version>
+    <sbh:supplementalFile rdf:resource="file:///C:/Users/JVM/Downloads/sequence_supplementals/synbict_output/sb9b00077/suppl/sb-2019-00077n_si_001.pdf"/>
+    <sbol:displayId>sb9b00077_27_comp</sbol:displayId>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb9b00077_27_comp"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.9b00077"/>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb9b00077_27_sequence/1"/>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+  </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb9b00077_27_sequence/1">
+    <sbol:displayId>sb9b00077_27_sequence</sbol:displayId>
+    <sbol:elements>ccttcacataaaacatcgcc</sbol:elements>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb9b00077_27_sequence"/>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:version>1</sbol:version>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb9b00077_9_sequence/1">
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb9b00077_9_sequence"/>
+    <sbol:displayId>sb9b00077_9_sequence</sbol:displayId>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:version>1</sbol:version>
+    <sbol:elements>aaagaattcaaaagtaagcacctgttattgc</sbol:elements>
+  </sbol:Sequence>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb9b00077_20_comp/1">
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbol:displayId>sb9b00077_20_comp</sbol:displayId>
+    <sbh:supplementalFile rdf:resource="file:///C:/Users/JVM/Downloads/sequence_supplementals/synbict_output/sb9b00077/suppl/sb-2019-00077n_si_001.pdf"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb9b00077_20_comp"/>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb9b00077_20_sequence/1"/>
+    <sbol:version>1</sbol:version>
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.9b00077"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb9b00077_12_comp/1">
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb9b00077_12_comp"/>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb9b00077_12_sequence/1"/>
+    <sbol:version>1</sbol:version>
+    <sbh:supplementalFile rdf:resource="file:///C:/Users/JVM/Downloads/sequence_supplementals/synbict_output/sb9b00077/suppl/sb-2019-00077n_si_001.pdf"/>
+    <sbol:displayId>sb9b00077_12_comp</sbol:displayId>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.9b00077"/>
+  </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb9b00077_13_sequence/1">
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:version>1</sbol:version>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb9b00077_13_sequence"/>
+    <sbol:displayId>sb9b00077_13_sequence</sbol:displayId>
+    <sbol:elements>tcgcacgtgttatcggaaatagctgatcaataatcc</sbol:elements>
+  </sbol:Sequence>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb9b00077_30_comp/1">
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb9b00077_30_sequence/1"/>
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.9b00077"/>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb9b00077_30_comp"/>
+    <sbol:version>1</sbol:version>
+    <sbh:supplementalFile rdf:resource="file:///C:/Users/JVM/Downloads/sequence_supplementals/synbict_output/sb9b00077/suppl/sb-2019-00077n_si_001.pdf"/>
+    <sbol:displayId>sb9b00077_30_comp</sbol:displayId>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb9b00077_9_comp/1">
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.9b00077"/>
+    <sbol:displayId>sb9b00077_9_comp</sbol:displayId>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb9b00077_9_comp"/>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb9b00077_9_sequence/1"/>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbh:supplementalFile rdf:resource="file:///C:/Users/JVM/Downloads/sequence_supplementals/synbict_output/sb9b00077/suppl/sb-2019-00077n_si_001.pdf"/>
+    <sbol:version>1</sbol:version>
+  </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb9b00077_24_sequence/1">
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb9b00077_24_sequence"/>
+    <sbol:version>1</sbol:version>
+    <sbol:elements>ttagctggcaagataccgtt</sbol:elements>
+    <sbol:displayId>sb9b00077_24_sequence</sbol:displayId>
+  </sbol:Sequence>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb9b00077_33_comp/1">
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb9b00077_33_comp"/>
+    <sbol:version>1</sbol:version>
+    <sbh:supplementalFile rdf:resource="file:///C:/Users/JVM/Downloads/sequence_supplementals/synbict_output/sb9b00077/suppl/sb-2019-00077n_si_001.pdf"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.9b00077"/>
+    <sbol:displayId>sb9b00077_33_comp</sbol:displayId>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb9b00077_33_sequence/1"/>
+  </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb9b00077_23_sequence/1">
+    <sbol:displayId>sb9b00077_23_sequence</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb9b00077_23_sequence"/>
+    <sbol:elements>accagtgggtcaaagatgag</sbol:elements>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb9b00077_12_sequence/1">
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb9b00077_12_sequence"/>
+    <sbol:elements>aaacacgtgttatcgcacactatagcttgatgta</sbol:elements>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:displayId>sb9b00077_12_sequence</sbol:displayId>
+    <sbol:version>1</sbol:version>
+  </sbol:Sequence>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb9b00077_35_comp/1">
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.9b00077"/>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbol:displayId>sb9b00077_35_comp</sbol:displayId>
+    <sbh:supplementalFile rdf:resource="file:///C:/Users/JVM/Downloads/sequence_supplementals/synbict_output/sb9b00077/suppl/sb-2019-00077n_si_001.pdf"/>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb9b00077_35_sequence/1"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb9b00077_35_comp"/>
+    <sbol:version>1</sbol:version>
+  </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb9b00077_28_sequence/1">
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb9b00077_28_sequence"/>
+    <sbol:displayId>sb9b00077_28_sequence</sbol:displayId>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:elements>actctgttagctgcgtcgtt</sbol:elements>
+    <sbol:version>1</sbol:version>
+  </sbol:Sequence>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb9b00077_15_comp/1">
+    <sbh:supplementalFile rdf:resource="file:///C:/Users/JVM/Downloads/sequence_supplementals/synbict_output/sb9b00077/suppl/sb-2019-00077n_si_001.pdf"/>
+    <sbol:displayId>sb9b00077_15_comp</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb9b00077_15_comp"/>
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.9b00077"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb9b00077_15_sequence/1"/>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb9b00077_3_comp/1">
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb9b00077_3_comp"/>
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.9b00077"/>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbol:displayId>sb9b00077_3_comp</sbol:displayId>
+    <sbh:supplementalFile rdf:resource="file:///C:/Users/JVM/Downloads/sequence_supplementals/synbict_output/sb9b00077/suppl/sb-2019-00077n_si_001.pdf"/>
+    <sbol:version>1</sbol:version>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb9b00077_3_sequence/1"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+  </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb9b00077_18_sequence/1">
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:version>1</sbol:version>
+    <sbol:elements>acaaggtgtggcataatgtg</sbol:elements>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb9b00077_18_sequence"/>
+    <sbol:displayId>sb9b00077_18_sequence</sbol:displayId>
+  </sbol:Sequence>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb9b00077_31_comp/1">
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.9b00077"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb9b00077_31_comp"/>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbol:displayId>sb9b00077_31_comp</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb9b00077_31_sequence/1"/>
+    <sbh:supplementalFile rdf:resource="file:///C:/Users/JVM/Downloads/sequence_supplementals/synbict_output/sb9b00077/suppl/sb-2019-00077n_si_001.pdf"/>
+  </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb9b00077_19_sequence/1">
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:version>1</sbol:version>
+    <sbol:displayId>sb9b00077_19_sequence</sbol:displayId>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb9b00077_19_sequence"/>
+    <sbol:elements>tatggacatacgactgatggc</sbol:elements>
+  </sbol:Sequence>
+  <sbol:Collection rdf:about="http://examples.org/sb9b00077/1">
+    <ns1:subject>(E)-4-Hydroxy-3-methyl-but-2-enyl pyrophosphate</ns1:subject>
+    <ns2:references>Yang, S., Cao, Y., Sun, L., Li, C., Lin, X., Cai, Z., Zhang, G., Song, H. Modular Pathway Engineering of Bacillus subtilis To Promote De Novo Biosynthesis of Menaquinone-7 ACS Synth. Biol. 2019. 8:70-81.</ns2:references>
+    <ns1:subject>Shrimp Alkaline Phosphatase</ns1:subject>
+    <ns1:subject>potassium iodide</ns1:subject>
+    <ns1:subject>idi</ns1:subject>
+    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb9b00077_13_comp/1"/>
+    <ns1:subject>dxr</ns1:subject>
+    <ns1:subject>metabolic engineering</ns1:subject>
+    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb9b00077_34_comp/1"/>
+    <ns2:references>Tai, M., Stephanopoulos, G. Engineering the push and pull of lipid biosynthesis in oleaginous yeast Yarrowia lipolytica for biofuel production Metab. Eng. 2013. 15:1-9.</ns2:references>
+    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb9b00077_33_comp/1"/>
+    <sbol:member rdf:resource="http://examples.org/Sequence/sb9b00077_19_sequence/1"/>
+    <ns1:subject>lacI</ns1:subject>
+    <sbol:member rdf:resource="http://examples.org/Sequence/sb9b00077_21_sequence/1"/>
+    <sbol:member rdf:resource="http://examples.org/Sequence/sb9b00077_29_sequence/1"/>
+    <ns2:references>Gu, Y., Xu, X., Wu, Y., Niu, T., Liu, Y., Li, J., Du, G., Liu, L. Advances and prospects of Bacillus subtilis cellular factories: From rational design to industrial applications Metab. Eng. 2018. 50:109-121.</ns2:references>
+    <ns2:created>2019-06-19</ns2:created>
+    <ns1:subject>naphthoquinone</ns1:subject>
+    <ns1:subject>dichloromethane</ns1:subject>
+    <ns1:subject>spit</ns1:subject>
+    <ns1:creator>Dale D. McClure</ns1:creator>
+    <ns1:subject>Bacillus</ns1:subject>
+    <ns1:subject>oligonucleotides</ns1:subject>
+    <ns2:references>Shetty, R. P., Endy, D., Knight, T. F. Engineering BioBrick vectors from BioBrick parts J. Biol. Eng. 2008. 2.</ns2:references>
+    <ns1:subject>LB</ns1:subject>
+    <ns1:subject>Isoprene</ns1:subject>
+    <ns2:references>Lu, W., Ye, L., Lv, X., Xie, W., Gu, J., Chen, Z., Zhu, Y., Li, A., Yu, H. Identification and elimination of metabolic bottlenecks in the quinone modification pathway for enhanced coenzyme Q10 production in Rhodobacter sphaeroides Metab. Eng. 2015. 29:208-216.</ns2:references>
+    <ns2:dateAccepted>2019-06-19</ns2:dateAccepted>
+    <ns2:references>Xue, D., Abdallah, I. I., de Haan, I. E. M., Sibbald, M. J. J. B., Quax, W. J. Enhanced C30 carotenoid production in Bacillus subtilis by systematic overexpression of MEP pathway genes Appl. Microbiol. Biotechnol. 2015. 99:5907-5915.</ns2:references>
+    <ns1:subject>Deoxynucleotide</ns1:subject>
+    <ns1:subject>dhbB</ns1:subject>
+    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb9b00077_17_comp/1"/>
+    <ns2:references>Westbrook, A. W., Ren, X., Oh, J., Moo-Young, M., Chou, C. P. Metabolic engineering to enhance heterologous production of hyaluronic acid in Bacillus subtilis Metab. Eng. 2018. 47:401-413.</ns2:references>
+    <ns1:subject>B. subtilis</ns1:subject>
+    <ns1:subject>Taq DNA polymerase</ns1:subject>
+    <ns1:subject>Eco RI</ns1:subject>
+    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb9b00077_25_comp/1"/>
+    <ns1:subject>Vitamin</ns1:subject>
+    <sbol:member rdf:resource="http://examples.org/Sequence/sb9b00077_1_sequence/1"/>
+    <ns1:publisher>American Chemical
+Society</ns1:publisher>
+    <ns1:subject>ispG</ns1:subject>
+    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb9b00077_24_comp/1"/>
+    <sbol:member rdf:resource="http://examples.org/Sequence/sb9b00077_25_sequence/1"/>
+    <ns1:subject>Menaquinones</ns1:subject>
+    <ns1:subject>IPTG</ns1:subject>
+    <sbol:member rdf:resource="http://examples.org/Sequence/sb9b00077_33_sequence/1"/>
+    <ns1:subject>rSAP</ns1:subject>
+    <ns1:subject>isoprene synthases</ns1:subject>
+    <ns1:creator>Mark V. Somerville</ns1:creator>
+    <ns1:subject>farnesene</ns1:subject>
+    <ns1:subject>amyE</ns1:subject>
+    <ns1:subject>Cat</ns1:subject>
+    <ns2:references>Baj, A., Wa&#322;ejko, P., Kutner, A., Kaczmarek, &#321;., Morzycki, J. W., Witkowski, S. Convergent Synthesis of Menaquinone-7 (MK-7) Org. Process Res. Dev. 2016. 20:1026-1033.</ns2:references>
+    <ns1:type>research-article</ns1:type>
+    <ns2:isPartOf>ACS Synthetic Biology</ns2:isPartOf>
+    <ns1:subject>MK-7</ns1:subject>
+    <ns1:subject>isoprenoids</ns1:subject>
+    <ns1:subject>ispF</ns1:subject>
+    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb9b00077_3_comp/1"/>
+    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb9b00077_29_comp/1"/>
+    <ns1:subject>methylerythritol phosphate</ns1:subject>
+    <ns1:subject>isopropanol</ns1:subject>
+    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb9b00077_6_comp/1"/>
+    <ns1:subject>nitrogen</ns1:subject>
+    <ns1:subject>Bacillus
+subtilis</ns1:subject>
+    <ns1:subject>Tris-HCl</ns1:subject>
+    <ns1:subject>B. subtilis 168</ns1:subject>
+    <ns1:subject>ispD</ns1:subject>
+    <ns2:references>Julsing, M. K., Rijpkema, M., Woerdenbag, H. J., Quax, W. J., Kayser, O. Functional analysis of genes involved in the biosynthesis of isoprene in Bacillus subtilis Appl. Microbiol. Biotechnol. 2007. 75:1377-1384.</ns2:references>
+    <ns1:subject>2-C-methyld-erythritol-2,4-cyclodiphosphate</ns1:subject>
+    <ns1:subject>flask cultures</ns1:subject>
+    <ns2:references>Popp, P. F., Dotzler, M., Radeck, J., Bartels, J., Mascher, T. The Bacillus BioBrick Box 2.0: expanding the genetic toolbox for the standardized work with Bacillus subtilis Sci. Rep. 2017. 7:1-13.</ns2:references>
+    <ns1:subject>limonene</ns1:subject>
+    <ns2:references>Vickers, C. E. , Bongers, M. , Bydder, S. F. , Chrysanthopoulos, P. , and Hodson, M. P. (2016) Protocols for the Production and Analysis of Isoprenoids in Bacteria and Yeast, In Hydrocarbon and Lipid Microbiology Protocols: Synthetic and Systems Biology&#58872;Applications ( McGenity, T. J. , Timmis, K. N. , and Nogales Ferna&#769;ndez, B. , Eds.), pp 23&#8211;52, Springer, Berlin, Heidelberg.</ns2:references>
+    <ns2:references>Chizzolini, F., Forlin, M., Cecchi, D., Mansy, S. S. Gene Position More Strongly Influences Cell-Free Protein Expression from Operons than T7 Transcriptional Promoter Strength ACS Synth. Biol. 2014. 3:363-371.</ns2:references>
+    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb9b00077_18_comp/1"/>
+    <ns1:creator>Fariba Dehghani</ns1:creator>
+    <ns1:creator>John M. Kavanagh</ns1:creator>
+    <ns1:subject>vitamin K</ns1:subject>
+    <ns1:subject>2-C-methyl-d-erythritol-4-phosphate</ns1:subject>
+    <ns3:OBI_0001617>31250633</ns3:OBI_0001617>
+    <ns1:subject>acetonitrile</ns1:subject>
+    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb9b00077_27_comp/1"/>
+    <ns1:subject>EDTA</ns1:subject>
+    <ns1:subject>5-bromo-4-chloro-3-indolyl &#946;-d-galactopyranoside</ns1:subject>
+    <ns1:subject>KH 2</ns1:subject>
+    <ns1:subject>sodium acetate</ns1:subject>
+    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb9b00077_4_comp/1"/>
+    <ns1:subject>HMBPP</ns1:subject>
+    <ns2:references>Berenjian, A., Mahanama, R., Kavanagh, J., Dehghani, F. Vitamin K series: current status and future prospects Crit. Rev. Biotechnol. 2015. 35:199-208.</ns2:references>
+    <sbol:member rdf:resource="http://examples.org/Sequence/sb9b00077_24_sequence/1"/>
+    <ns1:subject>T4 DNA polymerase</ns1:subject>
+    <ns2:description>Vitamin K is essential for blood coagulation and plays important roles in bone and cardiovascular health. Menaquinone-7 (MK-7) is one form of vitamin K that is especially useful due to its long half-life in the circulation. MK-7 is difficult to make via organic synthesis, and is thus commonly produced by fermentation. This study aimed to genetically modify Bacillus subtilis cultures to increase their MK-7 yield and reduce production costs. We constructed 12 different strains of B.&#160;subtilis 168 by overexpressing different combinations of the rate-limiting enzymes Dxs, Dxr, Idi, and MenA. We observed an 11-fold enhancement of production in the best-performing strain, resulting in 50 mg/L MK-7. Metabolite analysis revealed new bottlenecks in the pathway at IspG and IspH, which suggest avenues for further optimization. This work highlights the usefulness of Bacillus subtilis for industrial production of high value compounds.</ns2:description>
+    <ns1:subject>monoterpenes</ns1:subject>
+    <sbol:member rdf:resource="http://examples.org/Sequence/sb9b00077_28_sequence/1"/>
+    <ns2:references>Ye, L. D., Lv, X. M., Yu, H. W. Engineering microbes for isoprene production Metab. Eng. 2016. 38:125-138.</ns2:references>
+    <sbol:member rdf:resource="http://examples.org/Sequence/sb9b00077_32_sequence/1"/>
+    <sbol:member rdf:resource="http://examples.org/Sequence/sb9b00077_12_sequence/1"/>
+    <ns1:subject>amylase</ns1:subject>
+    <ns1:subject>strains</ns1:subject>
+    <ns2:references>Ara, K., Ozaki, K., Nakamura, K., Yamane, K., Sekiguchi, J., Ogasawara, N. Bacillus minimum genome factory: effective utilization of microbial genome information Biotechnol. Appl. Biochem. 2007. 46:169-178.</ns2:references>
+    <ns1:subject>DMAPP</ns1:subject>
+    <ns1:subject>UbiA</ns1:subject>
+    <sbol:member rdf:resource="http://examples.org/Sequence/sb9b00077_17_sequence/1"/>
+    <ns2:references>Westbrook, A. W., Moo-Young, M., Chou, C. P. Development of a CRISPR-Cas9 tool kit for comprehensive engineering of bacillus subtilis Appl. Environ. Microbiol. 2016. 82:4876-4895.</ns2:references>
+    <ns1:subject>methanol/dichloromethane</ns1:subject>
+    <ns2:references>Yuan, L. Z., Rouvie&#768;re, P. E., LaRossa, R. A., Suh, W. Chromosomal promoter replacement of the isoprenoid pathway for enhancing carotenoid production in E. coli Metab. Eng. 2006. 8:79-90.</ns2:references>
+    <ns1:subject>MK-4</ns1:subject>
+    <ns1:subject>humans</ns1:subject>
+    <ns1:subject>dihydroxyacetone-phosphate</ns1:subject>
+    <ns2:references>Wu, Q., Zhi, Y., Xu, Y. Systematically engineering the biosynthesis of a green biosurfactant surfactin by Bacillus subtilis 168 Metab. Eng. 2019. 52:87-97.</ns2:references>
+    <ns1:subject>AZT</ns1:subject>
+    <ns1:subject>chloramphenicol</ns1:subject>
+    <ns1:subject>T4 DNA ligase</ns1:subject>
+    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb9b00077_20_comp/1"/>
+    <sbol:member rdf:resource="http://examples.org/Sequence/sb9b00077_35_sequence/1"/>
+    <ns2:abstract>Vitamin K is essential for blood coagulation and plays important roles in bone and cardiovascular health. Menaquinone-7 (MK-7) is one form of vitamin K that is especially useful due to its long half-life in the circulation. MK-7 is difficult to make via organic synthesis, and is thus commonly produced by fermentation. This study aimed to genetically modify Bacillus subtilis cultures to increase their MK-7 yield and reduce production costs. We constructed 12 different strains of B.&#160;subtilis 168 by overexpressing different combinations of the rate-limiting enzymes Dxs, Dxr, Idi, and MenA. We observed an 11-fold enhancement of production in the best-performing strain, resulting in 50 mg/L MK-7. Metabolite analysis revealed new bottlenecks in the pathway at IspG and IspH, which suggest avenues for further optimization. This work highlights the usefulness of Bacillus subtilis for industrial production of high value compounds.</ns2:abstract>
+    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb9b00077_21_comp/1"/>
+    <ns1:subject>cells</ns1:subject>
+    <sbol:member rdf:resource="http://examples.org/Sequence/sb9b00077_20_sequence/1"/>
+    <ns1:subject>acetic acid</ns1:subject>
+    <sbol:member rdf:resource="http://examples.org/Sequence/sb9b00077_9_sequence/1"/>
+    <ns1:subject>Menaquinone</ns1:subject>
+    <ns1:subject>MEP pathway</ns1:subject>
+    <ns1:subject>diterpenes</ns1:subject>
+    <ns2:references>Gu, Y., Lv, X., Liu, Y., Liu, L., Li, J., Du, G., Chen, J., Rodrigo, L.-A. Synthetic redesign of central carbon and redox metabolism for high yield production of N-acetylglucosamine in Bacillus subtilis Metab. Eng. 2019. 51:59-69.</ns2:references>
+    <ns1:subject>sodium pyruvate</ns1:subject>
+    <ns1:subject>dNTP</ns1:subject>
+    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb9b00077_1_comp/1"/>
+    <ns1:subject>lacZ&#945;</ns1:subject>
+    <ns2:references>Wang, C. L., Zada, B., Wei, G. Y., Kim, S. W. Metabolic engineering and synthetic biology approaches driving isoprenoid production in Escherichia coli Bioresour. Technol. 2017. 241:430-438.</ns2:references>
+    <ns1:subject>menaquinone</ns1:subject>
+    <ns1:creator>Nicholas W. Proschogo</ns1:creator>
+    <ns1:subject>Pspac</ns1:subject>
+    <ns2:references>Zhang, D., Shrestha, B., Li, Z., Tan, T. Ubiquinone-10 production using Agrobacterium tumefaciens dps gene in Escherichia coli by coexpression system Mol. Biotechnol. 2007. 35:1-14.</ns2:references>
+    <ns1:subject>IPP</ns1:subject>
+    <sbol:member rdf:resource="http://examples.org/Sequence/sb9b00077_18_sequence/1"/>
+    <ns2:references>Lv, X., Xu, H., Yu, H. Significantly enhanced production of isoprene by ordered coexpression of genes dxs, dxr, and idi in Escherichia coli Appl. Microbiol. Biotechnol. 2013. 97:2357-2365.</ns2:references>
+    <ns1:subject>dxs</ns1:subject>
+    <ns2:references>Ge, D., Xue, Y., Ma, Y. Two unexpected promiscuous activities of the iron-sulfur protein IspH in production of isoprene and isoamylene Microb. Cell Fact. 2016. 15.</ns2:references>
+    <ns2:references>Tran, L. S. P., Nagai, T., Itoh, Y. Divergent structure of the ComQXPA quorum-sensing components: molecular basis of strain-specific communication mechanism in Bacillus subtilis Mol. Microbiol. 2000. 37:1159-1171.</ns2:references>
+    <ns1:creator>Nicholas V. Coleman</ns1:creator>
+    <ns1:subject>isoprene synthase</ns1:subject>
+    <ns1:subject>MEcPP</ns1:subject>
+    <ns1:subject>hexane</ns1:subject>
+    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb9b00077_2_comp/1"/>
+    <ns1:subject>K 2</ns1:subject>
+    <ns2:references>Ajikumar, P. K., Tyo, K., Carlsen, S., Mucha, O., Phon, T. H., Stephanopoulos, G. Terpenoids: Opportunities for biosynthesis of natural product drugs using engineered microorganisms Mol. Pharmaceutics 2008. 5:167-190.</ns2:references>
+    <ns2:references>Beekman, A. C., Albertini, A. M., de Jong, A., Eschevins, C., Bruand, C., Ehrlich, D. S., Darmon, E., Jude, F., Antelmann, H., Westers, H., van Dijl, J. M., Kabel, J., Alonso, J. C., Devine, K. M., Salas, M., Hecker, M., Zamboni, N., Kuipers, O. P., Dorenbos, R., Bron, S., Se&#769;ror, S. J., Flanagan, T., Sauer, U., Quax, W. J. Genome Engineering Reveals Large Dispensable Regions in Bacillus subtilis Mol. Biol. Evol. 2003. 20:2076-2090.</ns2:references>
+    <sbol:member rdf:resource="http://examples.org/Sequence/sb9b00077_8_sequence/1"/>
+    <ns1:subject>Ampicillin</ns1:subject>
+    <ns1:subject>yxlA</ns1:subject>
+    <ns1:subject>MK-7 producing</ns1:subject>
+    <sbol:version>1</sbol:version>
+    <ns2:references>Schurgers, L. J., Teunissen, K. J. F., Hamulyak, K., Knapen, M. H. J., Vik, H., Vermeer, C. Vitamin K-containing dietary supplements: comparison of synthetic vitamin K1 and natto-derived menaquinone-7 Blood 2007. 109:3279-3283.</ns2:references>
+    <ns1:subject>Bacillus subtilis</ns1:subject>
+    <ns2:references>Bentley, R., Meganathan, R. Biosynthesis of vitamin K (menaquinone) in bacteria Microbiol. Rev. 1982. 46:241-280.</ns2:references>
+    <ns1:subject>Saccharomyces cerevisiae</ns1:subject>
+    <ns1:subject>Glycerol</ns1:subject>
+    <sbol:displayId>sb9b00077</sbol:displayId>
+    <ns2:title>Metabolic Engineering of the MEP Pathway in Bacillus subtilis for Increased Biosynthesis of Menaquinone&#8209;7</ns2:title>
+    <ns1:subject>AbrB</ns1:subject>
+    <sbol:member rdf:resource="http://examples.org/Sequence/sb9b00077_3_sequence/1"/>
+    <ns1:subject>FeSO 4</ns1:subject>
+    <ns1:subject>Dxs</ns1:subject>
+    <ns2:references>Vermeer, C., Braam, L. Role of K vitamins in the regulation of tissue calcification J. Bone Miner. Metab. 2001. 19:201-206.</ns2:references>
+    <ns2:references>Abdallah, I. I., Pramastya, H., van Merkerk, R., Sukrasno, W. J., Quax, I. I. Metabolic Engineering of Bacillus subtilis Toward Taxadiene Biosynthesis as the First Committed Step for Taxol Production Front. Microbiol. 2019. 10:218-218.</ns2:references>
+    <ns1:subject>large</ns1:subject>
+    <ns1:subject>GRAS</ns1:subject>
+    <ns1:subject>Sal I</ns1:subject>
+    <ns1:subject>amorphadiene</ns1:subject>
+    <ns1:subject>isoprene</ns1:subject>
+    <ns1:subject>Generally</ns1:subject>
+    <ns1:subject>MnSO 4</ns1:subject>
+    <sbol:member rdf:resource="http://examples.org/Sequence/sb9b00077_22_sequence/1"/>
+    <ns2:references>Kolodkin-Gal, I., Elsholz, A. K. W., Muth, C., Girguis, P. R., Kolter, R., Losick, R. Respiration control of multicellularity in Bacillus subtilis by a complex of the cytochrome chain with a membrane-embedded histidine kinase Genes Dev. 2013. 27:887-899.</ns2:references>
+    <ns1:subject>B. subtilis natto</ns1:subject>
+    <ns1:subject>SpecR</ns1:subject>
+    <ns2:references>Kirby, J., Dietzel, K. L., Wichmann, G., Chan, R., Antipov, E., Moss, N., Baidoo, E. E. K., Jackson, P., Gaucher, S. P., Gottlieb, S., LaBarge, J., Mahatdejkul, T., Hawkins, K. M., Muley, S., Newman, J. D., Liu, P., Keasling, J. D., Zhao, L. Engineering a functional 1-deoxy-d-xylulose 5-phosphate (DXP) pathway in Saccharomyces cerevisiae Metab. Eng. 2016. 38:494-503.</ns2:references>
+    <sbol:member rdf:resource="http://examples.org/Sequence/sb9b00077_31_sequence/1"/>
+    <ns1:subject>4-diphosphocytidyl-2-C-methylerythritol</ns1:subject>
+    <ns1:subject>selected</ns1:subject>
+    <ns2:references>Driscoll, J. R., Taber, H. W. Sequence organization and regulation of the Bacillus subtilis menBE operon J. Bacteriol. 1992. 174:5063-5071.</ns2:references>
+    <ns1:subject>menaquinones</ns1:subject>
+    <sbol:member rdf:resource="http://examples.org/Sequence/sb9b00077_6_sequence/1"/>
+    <ns2:references>Li, Q. Y., Fan, F. Y., Gao, X., Yang, C., Bi, C. H., Tang, J. L., Liu, T., Zhang, X. L. Balanced activation of IspG and IspH to eliminate MEP intermediate accumulation and improve isoprenoids production in Escherichia coli Metab. Eng. 2017. 44:13-21.</ns2:references>
+    <ns2:references>Koo, B.-M., Kritikos, G., Farelli, J. D., Todor, H., Tong, K., Kimsey, H., Wapinski, I., Galardini, M., Cabal, A., Peters, J. M., Hachmann, A.-B., Rudner, D. Z., Allen, K. N., Typas, A., Gross, C. A. Construction and Analysis of Two Genome-Scale Deletion Libraries for Bacillus subtilis Cell Syst. 2017. 4:291-305.</ns2:references>
+    <ns2:references>Liao, P., Hemmerlin, A., Bach, T. J., Chye, M.-L. The potential of the mevalonate pathway for enhanced isoprenoid production Biotechnol. Adv. 2016. 34:697-713.</ns2:references>
+    <ns1:subject>hydroquinone</ns1:subject>
+    <ns2:rightsHolder>American Chemical Society</ns2:rightsHolder>
+    <ns2:references>Ferland, G. Vitamin K and the nervous system: An overview of its actions Adv. Nutr. 2012. 3:204-212.</ns2:references>
+    <ns1:subject>isopentenol</ns1:subject>
+    <ns1:subject>water.</ns1:subject>
+    <ns2:references>Zhao, J., Li, Q., Sun, T., Zhu, X., Xu, H., Tang, J., Zhang, X., Ma, Y. Engineering central metabolic modules of Escherichia coli for improving B-carotene production Metab. Eng. 2013. 17:42-50.</ns2:references>
+    <ns1:subject>spectinomycin</ns1:subject>
+    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb9b00077_14_comp/1"/>
+    <ns1:subject>-flask cultures</ns1:subject>
+    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb9b00077_10_comp/1"/>
+    <ns1:subject>3&#8242;-Azido-3&#8242;-deoxythymidine</ns1:subject>
+    <ns2:references>Schurgers, L. J., Vermeer, C. Differential lipoprotein transport pathways of K-vitamins in healthy subjects Biochim. Biophys. Acta, Gen. Subj. 2002. 1570:27-32.</ns2:references>
+    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb9b00077_16_comp/1"/>
+    <ns3:OBI_0002110 rdf:resource="https://doi.org/10.1021/acssynbio.9b00077"/>
+    <ns2:references>Chai, Y., Chu, F., Kolter, R., Losick, R. Bistability and biofilm formation in Bacillus subtilis Mol. Microbiol. 2008. 67:254-263.</ns2:references>
+    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb9b00077_5_comp/1"/>
+    <ns1:subject>producing strains</ns1:subject>
+    <ns1:subject>MK</ns1:subject>
+    <ns1:subject>gBlock</ns1:subject>
+    <ns1:subject>168 strains</ns1:subject>
+    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb9b00077_12_comp/1"/>
+    <ns1:subject>IspG</ns1:subject>
+    <ns2:references>Berenjian, A., Chan, N. L.-c., Mahanama, R., Talbot, A., Regtop, H., Kavanagh, J., Dehghani, F. Effect of Biofilm Formation by Bacillus subtilis natto on Menaquinone-7 Biosynthesis Mol. Biotechnol. 2013. 54:371-378.</ns2:references>
+    <sbol:member rdf:resource="http://examples.org/Sequence/sb9b00077_14_sequence/1"/>
+    <ns2:references>Zahiri, H. S., Yoon, S. H., Keasling, J. D., Lee, S. H., Won Kim, S., Yoon, S. C., Shin, Y. C. Coenzyme Q10 production in recombinant Escherichia coli strains engineered with a heterologous decaprenyl diphosphate synthase gene and foreign mevalonate pathway Metab. Eng. 2006. 8:406-416.</ns2:references>
+    <ns2:references>Manna, P., Kalita, J. Beneficial role of vitamin K supplementation on insulin sensitivity, glucose metabolism, and the reduced risk of type 2 diabetes: A review Nutrition 2016. 32:732-739.</ns2:references>
+    <sbol:member rdf:resource="http://examples.org/Sequence/sb9b00077_16_sequence/1"/>
+    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb9b00077_15_comp/1"/>
+    <ns1:subject>ZnSO 4</ns1:subject>
+    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb9b00077_19_comp/1"/>
+    <ns2:references>Cairns, L. S., Hobley, L., Stanley-Wall, N. R. Biofilm formation by Bacillus subtilis: new insights into regulatory strategies and assembly mechanisms Mol. Microbiol. 2014. 93:587-598.</ns2:references>
+    <ns1:subject>starch</ns1:subject>
+    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb9b00077_8_comp/1"/>
+    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb9b00077_28_comp/1"/>
+    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb9b00077_23_comp/1"/>
+    <ns1:subject>IspH</ns1:subject>
+    <ns1:subject>vitamin K family</ns1:subject>
+    <ns1:subject>Restriction endonucleases</ns1:subject>
+    <ns1:subject>SpoA</ns1:subject>
+    <ns2:references>Jakobs, M., Meinhardt, F. What renders Bacilli genetically competent? A gaze beyond the model organism Appl. Microbiol. Biotechnol. 2015. 99:1557-1570.</ns2:references>
+    <ns1:subject>glpD</ns1:subject>
+    <ns1:subject>168</ns1:subject>
+    <ns2:type rdf:resource="http://purl.org/dc/dcmitype/Text"/>
+    <ns2:references>Xu, J. Z., Yan, W. L., Zhang, W. G. Enhancing menaquinone-7 production in recombinant Bacillus amyloliquefaciens by metabolic pathway engineering RSC Adv. 2017. 7:28527-28534.</ns2:references>
+    <ns1:subject>NaCl</ns1:subject>
+    <ns2:references>Farrand, S. K., Taber, H. W. Changes in Menaquinone Concentration During Growth and Early Sporulation in Bacillus subtilis J. Bacteriol. 1974. 117:324-326.</ns2:references>
+    <ns1:subject>phylloquinone</ns1:subject>
+    <ns1:subject>SinR</ns1:subject>
+    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb9b00077_32_comp/1"/>
+    <sbol:member rdf:resource="http://examples.org/Sequence/sb9b00077_4_sequence/1"/>
+    <ns1:subject>menaquinone-7</ns1:subject>
+    <ns1:subject>MgSO 4</ns1:subject>
+    <ns1:subject>IPP/DMAPP isomerase Idi</ns1:subject>
+    <ns1:subject>ubiquinone</ns1:subject>
+    <sbol:member rdf:resource="http://examples.org/Sequence/sb9b00077_26_sequence/1"/>
+    <ns2:dateCopyrighted>2019</ns2:dateCopyrighted>
+    <sbol:member rdf:resource="http://examples.org/Sequence/sb9b00077_34_sequence/1"/>
+    <ns1:subject>MK-</ns1:subject>
+    <ns1:subject>ColE1</ns1:subject>
+    <ns2:references>Collins, M. D., Jones, D. Distribution of isoprenoid quinone structural types in bacteria and their taxonomic implications Microbiol. Rev. 1981. 45:316-354.</ns2:references>
+    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb9b00077_31_comp/1"/>
+    <ns1:subject>CDPME</ns1:subject>
+    <ns1:subject>poly-&#947;-glutamic acid</ns1:subject>
+    <ns1:subject>carotenoids</ns1:subject>
+    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb9b00077_22_comp/1"/>
+    <ns2:references>Harshman, S. G., Shea, M. K. The Role of Vitamin K in Chronic Aging Diseases: Inflammation, Cardiovascular Disease, and Osteoarthritis Curr. Nutr. Rep. 2016. 5:90-98.</ns2:references>
+    <ns1:subject>bisabolene</ns1:subject>
+    <sbol:member rdf:resource="http://examples.org/Sequence/sb9b00077_13_sequence/1"/>
+    <ns2:references>Zhou, K., Zou, R., Zhang, C., Stephanopoulos, G., Too, H. P. Optimization of amorphadiene synthesis in bacillus subtilis via transcriptional, translational, and media modulation Biotechnol. Bioeng. 2013. 110:2556-2561.</ns2:references>
+    <sbol:member rdf:resource="http://examples.org/Sequence/sb9b00077_2_sequence/1"/>
+    <ns2:references>Tarento, T. D. C., McClure, D. D., Talbot, A. M., Regtop, H. L., Biffin, J. R., Valtchev, P., Dehghani, F., Kavanagh, J. M. A potential biotechnological process for the sustainable production of vitamin K1 Crit. Rev. Biotechnol. 2019. 39:1-19.</ns2:references>
+    <ns1:subject>glyceraldehyde-3-phosphate</ns1:subject>
+    <ns1:subject>dimethylallyl pyrophosphate</ns1:subject>
+    <ns2:references>Jin, P., Kang, Z., Yuan, P., Du, G., Chen, J. Production of specific-molecular-weight hyaluronan by metabolically engineered Bacillus subtilis 168 Metab. Eng. 2016. 35:21-30.</ns2:references>
+    <ns1:subject>Bacillus minimum</ns1:subject>
+    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb9b00077_9_comp/1"/>
+    <ns1:subject>NaMoO 4</ns1:subject>
+    <ns1:subject>CuSO 4</ns1:subject>
+    <ns1:subject>MEP</ns1:subject>
+    <ns1:subject>tryptone</ns1:subject>
+    <ns1:subject>E. coli</ns1:subject>
+    <ns1:subject>FPP</ns1:subject>
+    <ns2:references>Morimoto, T., Loh, P. C., Hirai, T., Asai, K., Kobayashi, K., Moriya, S., Ogasawara, N. Six GTP-binding proteins of the Era/Obg family are essential for cell growth in Bacillus subtilis Microbiology 2002. 148:3539-3552.</ns2:references>
+    <ns2:references>Meganathan, R. (2001) Biosynthesis of menaquinone (vitamin K2) and ubiquinone (coenzyme Q): A perspective on enzymatic mechanisms, In Vitamins  Hormones, pp 173&#8211;218, Academic Press.</ns2:references>
+    <ns1:subject>isoprenoid</ns1:subject>
+    <ns2:references>Radeck, J., Meyer, D., Lautenschlager, N., Mascher, T. Bacillus SEVA siblings: A Golden Gate-based toolbox to create personalized integrative vectors for Bacillus subtilis Sci. Rep. 2017. 7:1-13.</ns2:references>
+    <ns2:references>Sivy, T. L., Shirk, M. C., Fall, R. Isoprene synthase activity parallels fluctuations of isoprene release during growth of Bacillus subtilis Biochem. Biophys. Res. Commun. 2002. 294:71-75.</ns2:references>
+    <ns1:subject>Idi</ns1:subject>
+    <sbol:member rdf:resource="http://examples.org/Sequence/sb9b00077_30_sequence/1"/>
+    <ns2:references>Halder, M., Petsophonsakul, P., Akbulut, A. C., Pavlic, A., Bohan, F., Anderson, E., Maresz, K., Kramann, R., Schurgers, L. Vitamin K: Double Bonds beyond Coagulation Insights into Differences between Vitamin K1 and K2 in Health and Disease Int. J. Mol. Sci. 2019. 20.</ns2:references>
+    <ns2:references>Scoffone, V., Dondi, D., Biino, G., Borghese, G., Pasini, D., Galizzi, A., Calvio, C. Knockout of pgdS and ggt genes improves &#947;-PGA yield in B. subtilis Biotechnol. Bioeng. 2013. 110:2006-2012.</ns2:references>
+    <ns2:references>Yasbin, R. E., Wilson, G. A., Young, F. E. Transformation and transfection in lysogenic strains of Bacillus subtilis: evidence for selective induction of prophage in competent cells J. Bacteriol. 1975. 121:296-304.</ns2:references>
+    <ns1:subject>Dxr</ns1:subject>
+    <ns1:subject>iodine</ns1:subject>
+    <ns2:references>Liu, Y., Li, J., Du, G., Chen, J., Liu, L. Metabolic engineering of Bacillus subtilis fueled by systems biology: Recent advances and future directions Biotechnol. Adv. 2017. 35:20-30.</ns2:references>
+    <ns2:references>Chu, F., Kearns, D. B., McLoon, A., Chai, Y., Kolter, R., Losick, R. A novel regulatory protein governing biofilm formation in Bacillus subtilis Mol. Microbiol. 2008. 68:1117-1127.</ns2:references>
+    <ns1:subject>glutamate residues</ns1:subject>
+    <ns1:subject>ydeO</ns1:subject>
+    <ns2:references>Pelchovich, G., Omer-Bendori, S., Gophna, U. Menaquinone and Iron Are Essential for Complex Colony Development in Bacillus subtilis PLoS One 2013. 8.</ns2:references>
+    <ns1:subject>CO 2</ns1:subject>
+    <sbol:member rdf:resource="http://examples.org/Sequence/sb9b00077_11_sequence/1"/>
+    <ns2:references>Michna, R. H., Zhu, B., Ma&#776;der, U., Stu&#776;lke, J. SubtiWiki 2.0 - An integrated database for the model organism Bacillus subtilis Nucleic Acids Res. 2016. 44:D654-D662.</ns2:references>
+    <ns1:subject>ZnCl 2</ns1:subject>
+    <ns1:creator>Yanwei Ma</ns1:creator>
+    <ns1:subject>isopentenyl pyrophosphate</ns1:subject>
+    <ns1:subject>yacM</ns1:subject>
+    <ns1:subject>acetone</ns1:subject>
+    <ns2:references>Bongers, M., Chrysanthopoulos, P. K., Behrendorff, J. B. Y.
+H., Hodson, M. P., Vickers, C. E., Nielsen, L. K. Systems analysis of methylerythritol-phosphate pathway flux in E. coli: Insights into the role of oxidative stress and the validity of lycopene as an isoprenoid reporter metabolite Microb. Cell Fact. 2015. 14.</ns2:references>
+    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb9b00077_11_comp/1"/>
+    <ns1:subject>CoCl 2</ns1:subject>
+    <sbol:member rdf:resource="http://examples.org/Sequence/sb9b00077_7_sequence/1"/>
+    <ns1:subject>CaCl 2</ns1:subject>
+    <ns2:references>Kong, M. K., Lee, P. C. Metabolic engineering of menaquinone-8 pathway of Escherichia coli as a microbial platform for vitamin K production Biotechnol. Bioeng. 2011. 108:1997-2002.</ns2:references>
+    <ns1:subject>hemiterpenes</ns1:subject>
+    <sbol:member rdf:resource="http://examples.org/Sequence/sb9b00077_5_sequence/1"/>
+    <ns1:subject>Isopropyl-&#946;-d-1-thiogalactopyranoside</ns1:subject>
+    <ns1:subject>N-acetyl-glucosamine</ns1:subject>
+    <ns1:subject>yacN</ns1:subject>
+    <ns2:isPartOf rdf:resource="http://pubs.acs.org/journal/asbcd6"/>
+    <ns2:references>Cluis, C. P., Ekins, A., Narcross, L., Jiang, H., Gold, N. D., Burja, A. M., Martin, V. J. J. Identification of bottlenecks in Escherichia coli engineered for the production of CoQ10 Metab. Eng. 2011. 13:733-744.</ns2:references>
+    <ns1:subject>recombinant</ns1:subject>
+    <ns1:subject>methanol</ns1:subject>
+    <ns1:subject>ispH</ns1:subject>
+    <ns1:subject>sesquiterpenes</ns1:subject>
+    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb9b00077_30_comp/1"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/sb9b00077"/>
+    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb9b00077_35_comp/1"/>
+    <ns1:subject>taxadiene</ns1:subject>
+    <ns1:subject>1-Deoxy-d-xylulose 5-phosphate</ns1:subject>
+    <ns1:subject>helium</ns1:subject>
+    <ns2:references>Weber, P. Vitamin K and bone health Nutrition 2001. 17:880-887.</ns2:references>
+    <ns1:subject>menA</ns1:subject>
+    <ns1:subject>MenA</ns1:subject>
+    <ns1:subject>menA-dxs-dxr-idi</ns1:subject>
+    <ns1:subject>KinB</ns1:subject>
+    <ns1:subject>glycerol</ns1:subject>
+    <ns1:subject>subtilis</ns1:subject>
+    <ns1:subject>hyaluronic acid</ns1:subject>
+    <ns1:subject>dxs-dxr-idi</ns1:subject>
+    <ns1:subject>Bacillus subtilis natto</ns1:subject>
+    <sbol:member rdf:resource="http://examples.org/Sequence/sb9b00077_27_sequence/1"/>
+    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb9b00077_26_comp/1"/>
+    <ns1:subject>shikimic acid</ns1:subject>
+    <ns2:references>Caspi, R., Billington, R., Ferrer, L., Foerster, H., Fulcher, C. A., Keseler, I. M., Kothari, A., Krummenacker, M., Latendresse, M., Mueller, L. A., Ong, Q., Paley, S., Subhraveti, P., Weaver, D. S., Karp, P. D. The MetaCyc database of metabolic pathways and enzymes and the BioCyc collection of pathway/genome databases Nucleic Acids Res. 2016. 44:D471-D480.</ns2:references>
+    <ns1:subject>n-hexane</ns1:subject>
+    <ns1:subject>Na 2 EDTA</ns1:subject>
+    <ns0:wasDerivedFrom rdf:resource="https://pubs.acs.org/doi/10.1021/acssynbio.9b00077"/>
+    <sbol:member rdf:resource="http://examples.org/Sequence/sb9b00077_23_sequence/1"/>
+    <ns2:references>Zhao, L., Chang, W.-C., Xiao, Y., Liu, H.-W., Liu, P. Methylerythritol phosphate pathway of isoprenoid biosynthesis Annu. Rev. Biochem. 2013. 82:497-530.</ns2:references>
+    <ns2:dateSubmitted>2019-03-03</ns2:dateSubmitted>
+    <ns1:subject>tributylamine</ns1:subject>
+    <sbol:member rdf:resource="http://examples.org/Sequence/sb9b00077_15_sequence/1"/>
+    <ns1:subject>glacial acetic acid</ns1:subject>
+    <ns1:subject>biofilm formation</ns1:subject>
+    <ns1:subject>yeast</ns1:subject>
+    <sbol:member rdf:resource="http://examples.org/Sequence/sb9b00077_10_sequence/1"/>
+    <ns1:subject>farnesyl pyrophosphate</ns1:subject>
+    <ns1:subject>yjoB</ns1:subject>
+    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb9b00077_7_comp/1"/>
+  </sbol:Collection>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb9b00077_2_sequence/1">
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb9b00077_2_sequence"/>
+    <sbol:elements>tttactagtatcgatagatctgctagctcatgatccaattcctttgtgtgt</sbol:elements>
+    <sbol:displayId>sb9b00077_2_sequence</sbol:displayId>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:version>1</sbol:version>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb9b00077_33_sequence/1">
+    <sbol:elements>agggtatgtttctctttgatgtc</sbol:elements>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb9b00077_33_sequence"/>
+    <sbol:version>1</sbol:version>
+    <sbol:displayId>sb9b00077_33_sequence</sbol:displayId>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb9b00077_34_sequence/1">
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb9b00077_34_sequence"/>
+    <sbol:version>1</sbol:version>
+    <sbol:displayId>sb9b00077_34_sequence</sbol:displayId>
+    <sbol:elements>tgagtcgacaaggaggggcaactatga</sbol:elements>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb9b00077_21_sequence/1">
+    <sbol:version>1</sbol:version>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb9b00077_21_sequence"/>
+    <sbol:displayId>sb9b00077_21_sequence</sbol:displayId>
+    <sbol:elements>tatacctgatcggtttattgaac</sbol:elements>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb9b00077_31_sequence/1">
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb9b00077_31_sequence"/>
+    <sbol:elements>gcacttttactgcatataatgatg</sbol:elements>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:displayId>sb9b00077_31_sequence</sbol:displayId>
+    <sbol:version>1</sbol:version>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb9b00077_3_sequence/1">
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:version>1</sbol:version>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb9b00077_3_sequence"/>
+    <sbol:displayId>sb9b00077_3_sequence</sbol:displayId>
+    <sbol:elements>tttgctagcaaggaggggcaactatgaaaaatatttgtcttttag</sbol:elements>
+  </sbol:Sequence>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb9b00077_25_comp/1">
+    <sbol:displayId>sb9b00077_25_comp</sbol:displayId>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.9b00077"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb9b00077_25_comp"/>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb9b00077_25_sequence/1"/>
+    <sbh:supplementalFile rdf:resource="file:///C:/Users/JVM/Downloads/sequence_supplementals/synbict_output/sb9b00077/suppl/sb-2019-00077n_si_001.pdf"/>
+    <sbol:version>1</sbol:version>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb9b00077_17_comp/1">
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb9b00077_17_sequence/1"/>
+    <sbol:version>1</sbol:version>
+    <sbh:supplementalFile rdf:resource="file:///C:/Users/JVM/Downloads/sequence_supplementals/synbict_output/sb9b00077/suppl/sb-2019-00077n_si_001.pdf"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb9b00077_17_comp"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.9b00077"/>
+    <sbol:displayId>sb9b00077_17_comp</sbol:displayId>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb9b00077_11_comp/1">
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.9b00077"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb9b00077_11_comp"/>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb9b00077_11_sequence/1"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:displayId>sb9b00077_11_comp</sbol:displayId>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbol:version>1</sbol:version>
+    <sbh:supplementalFile rdf:resource="file:///C:/Users/JVM/Downloads/sequence_supplementals/synbict_output/sb9b00077/suppl/sb-2019-00077n_si_001.pdf"/>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb9b00077_14_comp/1">
+    <sbol:version>1</sbol:version>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb9b00077_14_sequence/1"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.9b00077"/>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbh:supplementalFile rdf:resource="file:///C:/Users/JVM/Downloads/sequence_supplementals/synbict_output/sb9b00077/suppl/sb-2019-00077n_si_001.pdf"/>
+    <sbol:displayId>sb9b00077_14_comp</sbol:displayId>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb9b00077_14_comp"/>
+  </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb9b00077_10_sequence/1">
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:displayId>sb9b00077_10_sequence</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <sbol:elements>cttcacgtgttatgtgagtattgaattgacgtatccc</sbol:elements>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb9b00077_10_sequence"/>
+  </sbol:Sequence>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb9b00077_4_comp/1">
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbol:version>1</sbol:version>
+    <sbh:supplementalFile rdf:resource="file:///C:/Users/JVM/Downloads/sequence_supplementals/synbict_output/sb9b00077/suppl/sb-2019-00077n_si_001.pdf"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb9b00077_4_comp"/>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb9b00077_4_sequence/1"/>
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.9b00077"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:displayId>sb9b00077_4_comp</sbol:displayId>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb9b00077_32_comp/1">
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb9b00077_32_comp"/>
+    <sbol:displayId>sb9b00077_32_comp</sbol:displayId>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbol:version>1</sbol:version>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb9b00077_32_sequence/1"/>
+    <sbh:supplementalFile rdf:resource="file:///C:/Users/JVM/Downloads/sequence_supplementals/synbict_output/sb9b00077/suppl/sb-2019-00077n_si_001.pdf"/>
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.9b00077"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb9b00077_29_comp/1">
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbol:version>1</sbol:version>
+    <sbh:supplementalFile rdf:resource="file:///C:/Users/JVM/Downloads/sequence_supplementals/synbict_output/sb9b00077/suppl/sb-2019-00077n_si_001.pdf"/>
+    <sbol:displayId>sb9b00077_29_comp</sbol:displayId>
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.9b00077"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb9b00077_29_sequence/1"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb9b00077_29_comp"/>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb9b00077_16_comp/1">
+    <sbol:displayId>sb9b00077_16_comp</sbol:displayId>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbol:version>1</sbol:version>
+    <sbh:supplementalFile rdf:resource="file:///C:/Users/JVM/Downloads/sequence_supplementals/synbict_output/sb9b00077/suppl/sb-2019-00077n_si_001.pdf"/>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb9b00077_16_sequence/1"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb9b00077_16_comp"/>
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.9b00077"/>
+  </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb9b00077_1_sequence/1">
+    <sbol:displayId>sb9b00077_1_sequence</sbol:displayId>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb9b00077_1_sequence"/>
+    <sbol:version>1</sbol:version>
+    <sbol:elements>ttttctagaaaggaggatccgctatggatcttttatcaatacag</sbol:elements>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb9b00077_8_sequence/1">
+    <sbol:displayId>sb9b00077_8_sequence</sbol:displayId>
+    <sbol:elements>aaaactagtttatcggaaatagctgatcaataatcc</sbol:elements>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb9b00077_8_sequence"/>
+    <sbol:version>1</sbol:version>
+  </sbol:Sequence>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb9b00077_2_comp/1">
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.9b00077"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb9b00077_2_comp"/>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbh:supplementalFile rdf:resource="file:///C:/Users/JVM/Downloads/sequence_supplementals/synbict_output/sb9b00077/suppl/sb-2019-00077n_si_001.pdf"/>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb9b00077_2_sequence/1"/>
+    <sbol:version>1</sbol:version>
+    <sbol:displayId>sb9b00077_2_comp</sbol:displayId>
+  </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb9b00077_4_sequence/1">
+    <sbol:displayId>sb9b00077_4_sequence</sbol:displayId>
+    <sbol:elements>tttagatctttatgtgagtattgaattgacgtatcc</sbol:elements>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb9b00077_4_sequence"/>
+    <sbol:version>1</sbol:version>
+  </sbol:Sequence>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb9b00077_34_comp/1">
+    <sbol:version>1</sbol:version>
+    <sbh:supplementalFile rdf:resource="file:///C:/Users/JVM/Downloads/sequence_supplementals/synbict_output/sb9b00077/suppl/sb-2019-00077n_si_001.pdf"/>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb9b00077_34_sequence/1"/>
+    <sbol:displayId>sb9b00077_34_comp</sbol:displayId>
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.9b00077"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb9b00077_34_comp"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+  </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb9b00077_35_sequence/1">
+    <sbol:version>1</sbol:version>
+    <sbol:displayId>sb9b00077_35_sequence</sbol:displayId>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb9b00077_35_sequence"/>
+    <sbol:elements>attgtcgacaaggagggtggaagatga</sbol:elements>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+  </sbol:Sequence>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb9b00077_22_comp/1">
+    <sbol:version>1</sbol:version>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb9b00077_22_sequence/1"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb9b00077_22_comp"/>
+    <sbh:supplementalFile rdf:resource="file:///C:/Users/JVM/Downloads/sequence_supplementals/synbict_output/sb9b00077/suppl/sb-2019-00077n_si_001.pdf"/>
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.9b00077"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbol:displayId>sb9b00077_22_comp</sbol:displayId>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb9b00077_5_comp/1">
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb9b00077_5_sequence/1"/>
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.9b00077"/>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb9b00077_5_comp"/>
+    <sbol:version>1</sbol:version>
+    <sbh:supplementalFile rdf:resource="file:///C:/Users/JVM/Downloads/sequence_supplementals/synbict_output/sb9b00077/suppl/sb-2019-00077n_si_001.pdf"/>
+    <sbol:displayId>sb9b00077_5_comp</sbol:displayId>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb9b00077_18_comp/1">
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb9b00077_18_sequence/1"/>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbol:version>1</sbol:version>
+    <sbh:supplementalFile rdf:resource="file:///C:/Users/JVM/Downloads/sequence_supplementals/synbict_output/sb9b00077/suppl/sb-2019-00077n_si_001.pdf"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb9b00077_18_comp"/>
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.9b00077"/>
+    <sbol:displayId>sb9b00077_18_comp</sbol:displayId>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb9b00077_23_comp/1">
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.9b00077"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:displayId>sb9b00077_23_comp</sbol:displayId>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb9b00077_23_sequence/1"/>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbol:version>1</sbol:version>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb9b00077_23_comp"/>
+    <sbh:supplementalFile rdf:resource="file:///C:/Users/JVM/Downloads/sequence_supplementals/synbict_output/sb9b00077/suppl/sb-2019-00077n_si_001.pdf"/>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb9b00077_13_comp/1">
+    <sbol:version>1</sbol:version>
+    <sbh:supplementalFile rdf:resource="file:///C:/Users/JVM/Downloads/sequence_supplementals/synbict_output/sb9b00077/suppl/sb-2019-00077n_si_001.pdf"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb9b00077_13_comp"/>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb9b00077_13_sequence/1"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:displayId>sb9b00077_13_comp</sbol:displayId>
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.9b00077"/>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+  </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb9b00077_20_sequence/1">
+    <sbol:displayId>sb9b00077_20_sequence</sbol:displayId>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb9b00077_20_sequence"/>
+    <sbol:version>1</sbol:version>
+    <sbol:elements>cactcaatgccgttaataatcc</sbol:elements>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb9b00077_14_sequence/1">
+    <sbol:elements>aaagtcgacaatttcacacaaggaggaacagctatgaccatgattacacgtgctagctcgagctcgggatcccggggactagtaggcctagattcactggccgtcgttttacaacgtcgtgactgggaaaaccctggcgttacccaacttaatcgccttgcagcacatccccctttcgccagctggcgtaatagcgaagaggcccgcaccgatcgcccttcccaacagttgcgcagcctgaatggcgaatggcgctttgcctaagaattcaaa</sbol:elements>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb9b00077_14_sequence"/>
+    <sbol:displayId>sb9b00077_14_sequence</sbol:displayId>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:version>1</sbol:version>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb9b00077_25_sequence/1">
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb9b00077_25_sequence"/>
+    <sbol:displayId>sb9b00077_25_sequence</sbol:displayId>
+    <sbol:elements>aatctcatatgtaagttttccgc</sbol:elements>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:version>1</sbol:version>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb9b00077_30_sequence/1">
+    <sbol:displayId>sb9b00077_30_sequence</sbol:displayId>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb9b00077_30_sequence"/>
+    <sbol:version>1</sbol:version>
+    <sbol:elements>gggagagtgtgatgataagtgg</sbol:elements>
+  </sbol:Sequence>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb9b00077_26_comp/1">
+    <sbol:version>1</sbol:version>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb9b00077_26_sequence/1"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb9b00077_26_comp"/>
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.9b00077"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbh:supplementalFile rdf:resource="file:///C:/Users/JVM/Downloads/sequence_supplementals/synbict_output/sb9b00077/suppl/sb-2019-00077n_si_001.pdf"/>
+    <sbol:displayId>sb9b00077_26_comp</sbol:displayId>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb9b00077_19_comp/1">
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.9b00077"/>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb9b00077_19_sequence/1"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:displayId>sb9b00077_19_comp</sbol:displayId>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbol:version>1</sbol:version>
+    <sbh:supplementalFile rdf:resource="file:///C:/Users/JVM/Downloads/sequence_supplementals/synbict_output/sb9b00077/suppl/sb-2019-00077n_si_001.pdf"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb9b00077_19_comp"/>
+  </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb9b00077_26_sequence/1">
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb9b00077_26_sequence"/>
+    <sbol:version>1</sbol:version>
+    <sbol:displayId>sb9b00077_26_sequence</sbol:displayId>
+    <sbol:elements>aggactgcttgaggagattc</sbol:elements>
+  </sbol:Sequence>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb9b00077_24_comp/1">
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb9b00077_24_sequence/1"/>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbol:version>1</sbol:version>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb9b00077_24_comp"/>
+    <sbol:displayId>sb9b00077_24_comp</sbol:displayId>
+    <sbh:supplementalFile rdf:resource="file:///C:/Users/JVM/Downloads/sequence_supplementals/synbict_output/sb9b00077/suppl/sb-2019-00077n_si_001.pdf"/>
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.9b00077"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+  </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb9b00077_11_sequence/1">
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb9b00077_11_sequence"/>
+    <sbol:elements>ataagtcgacaaggagggataaacatgactc</sbol:elements>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:version>1</sbol:version>
+    <sbol:displayId>sb9b00077_11_sequence</sbol:displayId>
+  </sbol:Sequence>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb9b00077_28_comp/1">
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb9b00077_28_sequence/1"/>
+    <sbol:displayId>sb9b00077_28_comp</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <sbh:supplementalFile rdf:resource="file:///C:/Users/JVM/Downloads/sequence_supplementals/synbict_output/sb9b00077/suppl/sb-2019-00077n_si_001.pdf"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb9b00077_28_comp"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.9b00077"/>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+  </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb9b00077_16_sequence/1">
+    <sbol:displayId>sb9b00077_16_sequence</sbol:displayId>
+    <sbol:elements>gagtgccacctgacgtctaagaaac</sbol:elements>
+    <sbol:version>1</sbol:version>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb9b00077_16_sequence"/>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+  </sbol:Sequence>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb9b00077_10_comp/1">
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.9b00077"/>
+    <sbol:displayId>sb9b00077_10_comp</sbol:displayId>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb9b00077_10_sequence/1"/>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbol:version>1</sbol:version>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb9b00077_10_comp"/>
+    <sbh:supplementalFile rdf:resource="file:///C:/Users/JVM/Downloads/sequence_supplementals/synbict_output/sb9b00077/suppl/sb-2019-00077n_si_001.pdf"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+  </sbol:ComponentDefinition>
+</rdf:RDF>

@@ -1,0 +1,73 @@
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:sbh="https://wiki.synbiohub.org/wiki/Terms/synbiohub#" xmlns:sbol="http://sbols.org/v2#" xmlns:ns0="http://www.w3.org/ns/prov#" xmlns:ns1="http://purl.org/dc/terms/" xmlns:ns2="http://purl.org/dc/elements/1.1/" xmlns:ns3="http://purl.obolibrary.org/obo/">
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb8b00511_1_sequence/1">
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:version>1</sbol:version>
+    <sbol:displayId>sb8b00511_1_sequence</sbol:displayId>
+    <sbol:elements>ctcagg</sbol:elements>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb8b00511_1_sequence"/>
+  </sbol:Sequence>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb8b00511_1_comp/1">
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb8b00511_1_sequence/1"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00511_1_comp"/>
+    <sbol:displayId>sb8b00511_1_comp</sbol:displayId>
+    <sbh:supplementalFile rdf:resource="file:///C:/Users/JVM/Downloads/sequence_supplementals/synbict_output/sb8b00511/suppl/sb-2018-00511u_si_001.pdf"/>
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.8b00511"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:version>1</sbol:version>
+  </sbol:ComponentDefinition>
+  <sbol:Collection rdf:about="http://examples.org/sb8b00511/1">
+    <ns1:description>Ligases are a class of enzymes that catalyze the formation of phosphodiester bonds between an oligonucleotide donor with a 5&#8242; terminal phosphate and an oligonucleotide acceptor with a 3&#8242; terminal hydroxyl group. Here, we wished to explore the substrate specificity of naturally occurring DNA and RNA ligases to determine whether the molecular recognition of these enzymes is sufficiently general to synthesize alternative genetic polymers with backbone structures that are distinct from those found in nature. We chose threose nucleic acid (TNA) as a model system, as TNA is known to be biologically stable and capable of undergoing Darwinian evolution. Enzyme screening and reaction optimization identified several ligases that can recognize TNA as either the donor or acceptor strand with DNA. Less discrimination occurs on the acceptor strand indicating that the determinants of substrate specificity depend primarily on the composition of the donor strand. Remarkably, T3 and T7 ligases were able to join TNA homopolymers together, which is surprising given that the TNA backbone is one atom shorter than that of DNA. In this reaction, the base composition of the ligation junction strongly favors the formation of A-T and A-G linkages. We suggest that these results will enable the assembly of TNA oligonucleotides of lengths beyond what is currently possible by solid-phase synthesis and provide a starting point for further optimization by directed evolution.</ns1:description>
+    <ns1:type rdf:resource="http://purl.org/dc/dcmitype/Text"/>
+    <sbol:version>1</sbol:version>
+    <ns1:abstract>Ligases are a class of enzymes that catalyze the formation of phosphodiester bonds between an oligonucleotide donor with a 5&#8242; terminal phosphate and an oligonucleotide acceptor with a 3&#8242; terminal hydroxyl group. Here, we wished to explore the substrate specificity of naturally occurring DNA and RNA ligases to determine whether the molecular recognition of these enzymes is sufficiently general to synthesize alternative genetic polymers with backbone structures that are distinct from those found in nature. We chose threose nucleic acid (TNA) as a model system, as TNA is known to be biologically stable and capable of undergoing Darwinian evolution. Enzyme screening and reaction optimization identified several ligases that can recognize TNA as either the donor or acceptor strand with DNA. Less discrimination occurs on the acceptor strand indicating that the determinants of substrate specificity depend primarily on the composition of the donor strand. Remarkably, T3 and T7 ligases were able to join TNA homopolymers together, which is surprising given that the TNA backbone is one atom shorter than that of DNA. In this reaction, the base composition of the ligation junction strongly favors the formation of A-T and A-G linkages. We suggest that these results will enable the assembly of TNA oligonucleotides of lengths beyond what is currently possible by solid-phase synthesis and provide a starting point for further optimization by directed evolution.</ns1:abstract>
+    <ns2:subject>ligase</ns2:subject>
+    <ns1:references>Scho&#776;ning, K. U., Scholz, P., Guntha, S., Wu, X., Krishnamurthy, R., Eschenmoser, A. Chemical etiology of nucleic acid structure: the alpha-threofuranosyl-(3&#8242;--&gt;2&#8217;) oligonucleotide system Science 2000. 290:1347-1351.</ns1:references>
+    <ns1:references>Wu, X., Delgado, G., Krishnamurthy, R., Eschenmoser, A. 2,6-diaminopurine in TNA: effect on duplex stabilities and on the efficiency of template-controlled ligations Org. Lett. 2002. 4:1283-1286.</ns1:references>
+    <ns1:references>Chaput, J. C., Yu, H., Zhang, S. The Emerging World of Synthetic Genetics Chem. Biol. 2012. 19:1360-1371.</ns1:references>
+    <ns1:references>Enland, T. E., Uhlenbeck, O. C. Enzymatic Oligoribonucleotide Synthesis with T4 RNA Ligase Biochemistry 1978. 17:2069-76.</ns1:references>
+    <ns2:publisher>American Chemical
+Society</ns2:publisher>
+    <ns1:references>Kestemont, D., Renders, M., Leonczak, P., Abramov, M., Schepers, G., Pinheiro, V. B., Rozenski, J., Herdewijn, P. XNA ligation using T4 DNA ligase in crowding conditions Chem. Commun. 2018. 54:6408-6411.</ns1:references>
+    <ns2:subject>enzymatic ligation</ns2:subject>
+    <ns1:references>Kosuri, S., Church, G. M. Large-scale de novo DNA synthesis: technologies and applications Nat. Methods 2014. 11:499-507.</ns1:references>
+    <ns1:title>Ligase-Mediated Threose Nucleic Acid Synthesis on DNA Templates</ns1:title>
+    <ns2:subject>threose nucleic acid</ns2:subject>
+    <ns1:isPartOf rdf:resource="http://pubs.acs.org/journal/asbcd6"/>
+    <ns1:isPartOf>ACS Synthetic Biology</ns1:isPartOf>
+    <ns2:creator>Cailen M. McCloskey</ns2:creator>
+    <ns1:references>Wu, D. Y., Wallace, R. B. Specificity of the nick-closing activity of bacteriophage T4 DNA ligase Gene 1989. 76:245-54.</ns1:references>
+    <ns2:creator>Saikat Bala</ns2:creator>
+    <ns1:references>Cherepanov, A. V., de Vries, S. Dynamic mechanism of nick recognition by DNA ligase Eur. J. Biochem. 2002. 269:5993-9.</ns1:references>
+    <ns1:rightsHolder>American Chemical Society</ns1:rightsHolder>
+    <ns1:dateAccepted>2019-01-10</ns1:dateAccepted>
+    <ns2:creator>Jen-Yu Liao</ns2:creator>
+    <ns1:references>Goffin, C., Bailly, V., Verly, W. G. Nicks 3&#8242; or 5&#8242; to AP sites or to mispaired bases, and one-nucleotide gaps can be sealed by T4 DNA ligase Nucleic Acids Res. 1987. 15:8755-71.</ns1:references>
+    <ns1:references>Ebert, M.-O., Mang, C., Krishnamurthy, R., Eschenmoser, A., Jaun, B. The Structure of a TNA&#8211;TNA Complex in Solution: NMR Study of the Octamer Duplex Derived from &#945;-(l)-Threofuranosyl-(3&#8242;-2&#8242;)-CGAATTCG J. Am. Chem. Soc. 2008. 130:15105-15115.</ns1:references>
+    <ns1:references>Anosova, I., Kowal, E. A., Sisco, N. J., Sau, S. P., Liao, J.-Y., Bala, S., Rozners, E., Egli, M., Chaput, J. C., Van Horn, W. D. Structural Insights into Conformational Differences between DNA/TNA and RNA/TNA Chimeric Duplexes ChemBioChem 2016. 17:1705-1708.</ns1:references>
+    <ns1:references>Joyce, G. F. The antiquity of RNA-based evolution Nature 2002. 418:214-221.</ns1:references>
+    <ns1:references>Sau, S. P., Fahmi, N. E., Liao, J.-Y., Bala, S., Chaput, J. C. A Scalable Synthesis of &#945;-L-Threose Nucleic Acid Monomers J. Org. Chem. 2016. 81:2302-2307.</ns1:references>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/sb8b00511"/>
+    <ns2:type>rapid-communication</ns2:type>
+    <ns1:references>Nilsson, S. V., Magnusson, G. Sealing of gaps in duplex DNA by T4 DNA ligase Nucleic Acids Res. 1982. 10:1425-37.</ns1:references>
+    <ns1:created>2019-01-10</ns1:created>
+    <ns2:subject>xeno nucleic acid</ns2:subject>
+    <ns1:references>Crut, A., Nair, P. A., Koster, D. A., Shuman, S., Dekker, N. H. Dynamics of phosphodiester synthesis by DNA ligase Proc. Natl. Acad. Sci. U. S. A. 2008. 105:6894-9.</ns1:references>
+    <ns1:dateSubmitted>2018-12-05</ns1:dateSubmitted>
+    <ns3:OBI_0001617>30629885</ns3:OBI_0001617>
+    <sbol:displayId>sb8b00511</sbol:displayId>
+    <ns1:references>Lehman, I. R. DNA Ligase: Structure, Mechanism, and Function Science 1974. 186:790-797.</ns1:references>
+    <ns1:dateCopyrighted>2019</ns1:dateCopyrighted>
+    <ns1:references>Anosova, I., Kowal, E. A., Dunn, M. R., Chaput, J. C., Van Horn, W. D., Egli, M. The Structural Diversity of Artificial Genetic Polymers Nucleic Acids Res. 2016. 44:1007-1021.</ns1:references>
+    <ns1:references>Hili, R., Niu, J., Liu, D. R. DNA Ligase-Mediated Translation of DNA Into Densely Functionalized Nucleic Acid Polymers J. Am. Chem. Soc. 2013. 135:98-101.</ns1:references>
+    <ns1:references>Yang, Y.-W., Zhang, S., McCullum, E. O., Chaput, J. C. Experimental Evidence that GNA and TNA Were Not Sequential Polymers in the Prebiotic Evolution of RNA J. Mol. Evol. 2007. 65:289-295.</ns1:references>
+    <ns1:references>Dunn, M. R., Jimenez, R. M., Chaput, J. C. Analysis of Aptamer Discovery and Technology Nat. Rev. Chem. 2017. 1.</ns1:references>
+    <ns0:wasDerivedFrom rdf:resource="https://pubs.acs.org/doi/10.1021/acssynbio.8b00511"/>
+    <ns1:references>Liu, L. S., Leung, H. M., Tam, D. Y., Lo, T. W., Wong, S. W., Lo, P. K. &#945;-l-Threose Nucleic Acids as Biocompatible Antisense Oligonucleotides for Suppressing Gene Expression in Living Cells ACS Appl. Mater. Interfaces 2018. 10:9736-9743.</ns1:references>
+    <ns1:references>Orgel, L. E. Origin of life. A simpler nucleic acid Science 2000. 290:1306-1307.</ns1:references>
+    <ns2:creator>John C. Chaput</ns2:creator>
+    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb8b00511_1_comp/1"/>
+    <ns3:OBI_0002110 rdf:resource="https://doi.org/10.1021/acssynbio.8b00511"/>
+    <sbol:member rdf:resource="http://examples.org/Sequence/sb8b00511_1_sequence/1"/>
+  </sbol:Collection>
+</rdf:RDF>

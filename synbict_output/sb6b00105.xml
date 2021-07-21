@@ -1,903 +1,903 @@
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:sbh="https://wiki.synbiohub.org/wiki/Terms/synbiohub#" xmlns:sbol="http://sbols.org/v2#" xmlns:ns0="http://www.w3.org/ns/prov#">
-  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb6b00105_35_comp/1">
-    <sbol:displayId>sb6b00105_35_comp</sbol:displayId>
-    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
-    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
-    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb6b00105_35_comp"/>
-    <sbh:supplementalFile rdf:resource="sb6b00105/suppl/sb-2016-00105a_si_001.pdf"/>
-    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.6b00105"/>
-    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb6b00105_35_sequence/1"/>
-    <sbol:version>1</sbol:version>
-  </sbol:ComponentDefinition>
-  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb6b00105_17_comp/1">
-    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
-    <sbol:displayId>sb6b00105_17_comp</sbol:displayId>
-    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
-    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb6b00105_17_sequence/1"/>
-    <sbh:supplementalFile rdf:resource="sb6b00105/suppl/sb-2016-00105a_si_001.pdf"/>
-    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.6b00105"/>
-    <sbol:version>1</sbol:version>
-    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb6b00105_17_comp"/>
-  </sbol:ComponentDefinition>
-  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb6b00105_17_sequence/1">
-    <sbol:displayId>sb6b00105_17_sequence</sbol:displayId>
-    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb6b00105_17_sequence"/>
-    <sbol:version>1</sbol:version>
-    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
-    <sbol:elements>agaaagaggagaaatactagggatccatgcagcgttctatc</sbol:elements>
-  </sbol:Sequence>
-  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb6b00105_43_sequence/1">
-    <sbol:displayId>sb6b00105_43_sequence</sbol:displayId>
-    <sbol:elements>tcaggacgcggggataaccaacggtttattcccgcttagtgtaggctggagctgcttcg</sbol:elements>
-    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb6b00105_43_sequence"/>
-    <sbol:version>1</sbol:version>
-    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
-  </sbol:Sequence>
-  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb6b00105_22_sequence/1">
-    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb6b00105_22_sequence"/>
-    <sbol:displayId>sb6b00105_22_sequence</sbol:displayId>
-    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
-    <sbol:version>1</sbol:version>
-    <sbol:elements>tcgcactcatattaatgtctaattcttttattttgctctc</sbol:elements>
-  </sbol:Sequence>
-  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb6b00105_5_sequence/1">
-    <sbol:elements>atgcagcgttctatcttcgcgcgtttcggtaactcttctgcggcggtttctaccctgaaccgtctgtctaccaccgcggcgccgcacgcgaaaaacggttacgcgaccgcgaccggtgcgggtgcggcggcggcgaccgcgaccgcgtcttctacccacgcggcggcggcggcggcggcggcggcgaaccactctacccaggaatctggtttcgactacgaaggtctgatcgactctgaactgcagaaaaaacgtctggacaaatcttaccgttacttcaacaacatcaaccgtctggcgaaagaattcccgctggcgcaccgtcagcgtgaagcggacaaagttaccgtttggtgctctaacgactacctggcgctgtctaaacacccggaagttctggacgcgatgcacaaaaccatcgacaaatacggttgcggtgcgggtggtacccgtaacatcgcgggtcacaacatcccgaccctgaacctggaagcggaactggcgaccctgcacaaaaaagaaggtgcgctggttttctcttcttgctacgttgcgaacgacgcggttctgtctctgctgggtcagaaaatgaaagacctggttatcttctctgacgaactgaaccacgcgtctatgatcgttggtatcaaacacgcgaacgttaaaaaacacatcttcaaacacaacgacctgaacgaactggaacagctgctgcagtcttacccgaaatctgttccgaaactgatcgcgttcgaatctgtttactctatggcgggttctgttgcggacatcgaaaaaatctgcgacctggcggacaaatacggtgcgctgaccttcctggacgaagttcacgcggttggtctgtacggtccgcacggtgcgggtgttgcggaacactgcgacttcgaatctcaccgtgcgtctggtatcgcgaccccgaaaaccaacgacaaaggtggtgcgaaaaccgttatggaccgtgttgacatgatcaccggtaccctgggtaaatctttcggttctgttggtggttacgttgcggcgtctcgtaaactgatcgactggttccgttctttcgcgccgggtttcatcttcaccaccaccctgccgccgtctgttatggcgggtgcgaccgcggcgatccgttaccagcgttgccacatcgacctgcgtacctctcagcagaaacacaccatgtacgttaaaaaagcgttccacgaactgggtatcccggttatcccgaacccgtctcacatcgttccggttctgatcggtaacgcggacctggcgaaacaggcgtctgacatcctgatcaacaaacaccagatctacgttcaggcgatcaacttcccgaccgttgcgcgtggtaccgaacgtctgcgtatcaccccgaccccgggtcacaccaacgacctgtctgacatcctgatcaacgcggttgacgacgttttcaacgaactgcagctgccgcgtgttcgtgactgggaatctcagggtggtctgctgggtgttggtgaatctggtttcgttgaagaatctaacctgtggacctcttctcagctgtctctgaccaacgacgacctgaacccgaacgttcgtgacccgatcgttaaacagctggaagtttcttctggtatcaaacagtaa</sbol:elements>
-    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb6b00105_5_sequence"/>
-    <sbol:displayId>sb6b00105_5_sequence</sbol:displayId>
-    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
-    <sbol:version>1</sbol:version>
-  </sbol:Sequence>
-  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb6b00105_8_comp/1">
-    <sbol:version>1</sbol:version>
-    <sbol:displayId>sb6b00105_8_comp</sbol:displayId>
-    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
-    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
-    <sbh:supplementalFile rdf:resource="sb6b00105/suppl/sb-2016-00105a_si_001.pdf"/>
-    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.6b00105"/>
-    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb6b00105_8_sequence/1"/>
-    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb6b00105_8_comp"/>
-  </sbol:ComponentDefinition>
-  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb6b00105_14_comp/1">
-    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
-    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb6b00105_14_sequence/1"/>
-    <sbh:supplementalFile rdf:resource="sb6b00105/suppl/sb-2016-00105a_si_001.pdf"/>
-    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.6b00105"/>
-    <sbol:version>1</sbol:version>
-    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb6b00105_14_comp"/>
-    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
-    <sbol:displayId>sb6b00105_14_comp</sbol:displayId>
-  </sbol:ComponentDefinition>
-  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb6b00105_30_comp/1">
-    <sbh:supplementalFile rdf:resource="sb6b00105/suppl/sb-2016-00105a_si_001.pdf"/>
-    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.6b00105"/>
-    <sbol:version>1</sbol:version>
-    <sbol:displayId>sb6b00105_30_comp</sbol:displayId>
-    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb6b00105_30_comp"/>
-    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb6b00105_30_sequence/1"/>
-    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
-    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
-  </sbol:ComponentDefinition>
-  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb6b00105_5_comp/1">
-    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
-    <sbh:supplementalFile rdf:resource="sb6b00105/suppl/sb-2016-00105a_si_001.pdf"/>
-    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.6b00105"/>
-    <sbol:version>1</sbol:version>
-    <sbol:displayId>sb6b00105_5_comp</sbol:displayId>
-    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
-    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb6b00105_5_comp"/>
-    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb6b00105_5_sequence/1"/>
-  </sbol:ComponentDefinition>
   <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb6b00105_3_comp/1">
-    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb6b00105_3_comp"/>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb6b00105_3_sequence/1"/>
+    <sbol:version>1</sbol:version>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbh:supplementalFile rdf:resource="pdf"/>
     <sbol:displayId>sb6b00105_3_comp</sbol:displayId>
     <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
-    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
-    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb6b00105_3_sequence/1"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb6b00105_3_comp"/>
     <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.6b00105"/>
-    <sbh:supplementalFile rdf:resource="sb6b00105/suppl/sb-2016-00105a_si_001.pdf"/>
-    <sbol:version>1</sbol:version>
   </sbol:ComponentDefinition>
-  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb6b00105_19_sequence/1">
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb6b00105_31_comp/1">
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb6b00105_31_sequence/1"/>
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.6b00105"/>
+    <sbol:displayId>sb6b00105_31_comp</sbol:displayId>
     <sbol:version>1</sbol:version>
-    <sbol:displayId>sb6b00105_19_sequence</sbol:displayId>
-    <sbol:elements>cccggggatcctctagag</sbol:elements>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb6b00105_31_comp"/>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbh:supplementalFile rdf:resource="pdf"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+  </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb6b00105_9_sequence/1">
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb6b00105_9_sequence"/>
+    <sbol:version>1</sbol:version>
+    <sbol:displayId>sb6b00105_9_sequence</sbol:displayId>
     <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
-    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb6b00105_19_sequence"/>
+    <sbol:elements>cccaagcttttactgtttgatacc</sbol:elements>
   </sbol:Sequence>
-  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb6b00105_10_sequence/1">
-    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb6b00105_10_sequence"/>
-    <sbol:displayId>sb6b00105_10_sequence</sbol:displayId>
-    <sbol:version>1</sbol:version>
-    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
-    <sbol:elements>atgcagcgttctatcttcgcgc</sbol:elements>
-  </sbol:Sequence>
-  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb6b00105_44_sequence/1">
-    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb6b00105_44_sequence"/>
-    <sbol:displayId>sb6b00105_44_sequence</sbol:displayId>
-    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
-    <sbol:version>1</sbol:version>
-    <sbol:elements>gcctgccggtagtgcattt</sbol:elements>
-  </sbol:Sequence>
-  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb6b00105_21_comp/1">
-    <sbol:version>1</sbol:version>
-    <sbol:displayId>sb6b00105_21_comp</sbol:displayId>
-    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
-    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb6b00105_21_sequence/1"/>
-    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
-    <sbh:supplementalFile rdf:resource="sb6b00105/suppl/sb-2016-00105a_si_001.pdf"/>
-    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.6b00105"/>
-    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb6b00105_21_comp"/>
-  </sbol:ComponentDefinition>
-  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb6b00105_28_sequence/1">
-    <sbol:version>1</sbol:version>
-    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb6b00105_28_sequence"/>
-    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
-    <sbol:elements>ttctggtatcaaacagtaaaagcttagaccaaaaagggatgctc</sbol:elements>
-    <sbol:displayId>sb6b00105_28_sequence</sbol:displayId>
-  </sbol:Sequence>
-  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb6b00105_41_comp/1">
-    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
-    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
-    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.6b00105"/>
-    <sbol:displayId>sb6b00105_41_comp</sbol:displayId>
-    <sbh:supplementalFile rdf:resource="sb6b00105/suppl/sb-2016-00105a_si_001.pdf"/>
-    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb6b00105_41_sequence/1"/>
-    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb6b00105_41_comp"/>
-    <sbol:version>1</sbol:version>
-  </sbol:ComponentDefinition>
-  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb6b00105_20_comp/1">
-    <sbol:version>1</sbol:version>
-    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb6b00105_20_comp"/>
-    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
-    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
-    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb6b00105_20_sequence/1"/>
-    <sbol:displayId>sb6b00105_20_comp</sbol:displayId>
-    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.6b00105"/>
-    <sbh:supplementalFile rdf:resource="sb6b00105/suppl/sb-2016-00105a_si_001.pdf"/>
-  </sbol:ComponentDefinition>
-  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb6b00105_53_comp/1">
-    <sbol:displayId>sb6b00105_53_comp</sbol:displayId>
-    <sbol:version>1</sbol:version>
-    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
-    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
-    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb6b00105_53_sequence/1"/>
-    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb6b00105_53_comp"/>
-    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.6b00105"/>
-    <sbh:supplementalFile rdf:resource="sb6b00105/suppl/sb-2016-00105a_si_001.pdf"/>
-  </sbol:ComponentDefinition>
-  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb6b00105_16_comp/1">
-    <sbh:supplementalFile rdf:resource="sb6b00105/suppl/sb-2016-00105a_si_001.pdf"/>
-    <sbol:displayId>sb6b00105_16_comp</sbol:displayId>
-    <sbol:version>1</sbol:version>
-    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
-    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb6b00105_16_sequence/1"/>
-    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.6b00105"/>
-    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
-    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb6b00105_16_comp"/>
-  </sbol:ComponentDefinition>
-  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb6b00105_38_sequence/1">
-    <sbol:version>1</sbol:version>
-    <sbol:elements>atgactgataaaatcgcggtcctgttgggtgggacctccattccggggatccgtcgacc</sbol:elements>
-    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
-    <sbol:displayId>sb6b00105_38_sequence</sbol:displayId>
-    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb6b00105_38_sequence"/>
-  </sbol:Sequence>
-  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb6b00105_45_comp/1">
-    <sbol:version>1</sbol:version>
-    <sbol:displayId>sb6b00105_45_comp</sbol:displayId>
-    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
-    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
-    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb6b00105_45_comp"/>
-    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.6b00105"/>
-    <sbh:supplementalFile rdf:resource="sb6b00105/suppl/sb-2016-00105a_si_001.pdf"/>
-    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb6b00105_45_sequence/1"/>
-  </sbol:ComponentDefinition>
-  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb6b00105_46_sequence/1">
-    <sbol:version>1</sbol:version>
-    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb6b00105_46_sequence"/>
-    <sbol:displayId>sb6b00105_46_sequence</sbol:displayId>
-    <sbol:elements>gcggattacttgattggg</sbol:elements>
-    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
-  </sbol:Sequence>
-  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb6b00105_53_sequence/1">
-    <sbol:elements>ggtattacccaggctcctt</sbol:elements>
-    <sbol:version>1</sbol:version>
-    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
-    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb6b00105_53_sequence"/>
-    <sbol:displayId>sb6b00105_53_sequence</sbol:displayId>
-  </sbol:Sequence>
-  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb6b00105_50_comp/1">
-    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
-    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.6b00105"/>
-    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
-    <sbol:displayId>sb6b00105_50_comp</sbol:displayId>
-    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb6b00105_50_comp"/>
-    <sbh:supplementalFile rdf:resource="sb6b00105/suppl/sb-2016-00105a_si_001.pdf"/>
-    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb6b00105_50_sequence/1"/>
-    <sbol:version>1</sbol:version>
-  </sbol:ComponentDefinition>
-  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb6b00105_13_comp/1">
-    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb6b00105_13_comp"/>
-    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
-    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb6b00105_13_sequence/1"/>
-    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.6b00105"/>
-    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
-    <sbol:displayId>sb6b00105_13_comp</sbol:displayId>
-    <sbh:supplementalFile rdf:resource="sb6b00105/suppl/sb-2016-00105a_si_001.pdf"/>
-    <sbol:version>1</sbol:version>
-  </sbol:ComponentDefinition>
   <sbol:Sequence rdf:about="http://examples.org/Sequence/sb6b00105_15_sequence/1">
     <sbol:elements>tagttaaggaacctacatcaggatccatgcagcgttctatc</sbol:elements>
     <sbol:displayId>sb6b00105_15_sequence</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
     <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb6b00105_15_sequence"/>
-    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
-    <sbol:version>1</sbol:version>
-  </sbol:Sequence>
-  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb6b00105_47_comp/1">
-    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
-    <sbh:supplementalFile rdf:resource="sb6b00105/suppl/sb-2016-00105a_si_001.pdf"/>
-    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.6b00105"/>
-    <sbol:displayId>sb6b00105_47_comp</sbol:displayId>
-    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb6b00105_47_comp"/>
-    <sbol:version>1</sbol:version>
-    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb6b00105_47_sequence/1"/>
-    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
-  </sbol:ComponentDefinition>
-  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb6b00105_26_comp/1">
-    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb6b00105_26_sequence/1"/>
-    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
-    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
-    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.6b00105"/>
-    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb6b00105_26_comp"/>
-    <sbol:displayId>sb6b00105_26_comp</sbol:displayId>
-    <sbh:supplementalFile rdf:resource="sb6b00105/suppl/sb-2016-00105a_si_001.pdf"/>
-    <sbol:version>1</sbol:version>
-  </sbol:ComponentDefinition>
-  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb6b00105_12_comp/1">
-    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
-    <sbol:displayId>sb6b00105_12_comp</sbol:displayId>
-    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
-    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.6b00105"/>
-    <sbh:supplementalFile rdf:resource="sb6b00105/suppl/sb-2016-00105a_si_001.pdf"/>
-    <sbol:version>1</sbol:version>
-    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb6b00105_12_sequence/1"/>
-    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb6b00105_12_comp"/>
-  </sbol:ComponentDefinition>
-  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb6b00105_27_comp/1">
-    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb6b00105_27_comp"/>
-    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
-    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb6b00105_27_sequence/1"/>
-    <sbol:displayId>sb6b00105_27_comp</sbol:displayId>
-    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
-    <sbh:supplementalFile rdf:resource="sb6b00105/suppl/sb-2016-00105a_si_001.pdf"/>
-    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.6b00105"/>
-    <sbol:version>1</sbol:version>
-  </sbol:ComponentDefinition>
-  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb6b00105_40_comp/1">
-    <sbh:supplementalFile rdf:resource="sb6b00105/suppl/sb-2016-00105a_si_001.pdf"/>
-    <sbol:version>1</sbol:version>
-    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb6b00105_40_sequence/1"/>
-    <sbol:displayId>sb6b00105_40_comp</sbol:displayId>
-    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
-    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb6b00105_40_comp"/>
-    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
-    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.6b00105"/>
-  </sbol:ComponentDefinition>
-  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb6b00105_34_comp/1">
-    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb6b00105_34_sequence/1"/>
-    <sbol:version>1</sbol:version>
-    <sbol:displayId>sb6b00105_34_comp</sbol:displayId>
-    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
-    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb6b00105_34_comp"/>
-    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
-    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.6b00105"/>
-    <sbh:supplementalFile rdf:resource="sb6b00105/suppl/sb-2016-00105a_si_001.pdf"/>
-  </sbol:ComponentDefinition>
-  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb6b00105_37_comp/1">
-    <sbol:displayId>sb6b00105_37_comp</sbol:displayId>
-    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
-    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
-    <sbh:supplementalFile rdf:resource="sb6b00105/suppl/sb-2016-00105a_si_001.pdf"/>
-    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.6b00105"/>
-    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb6b00105_37_sequence/1"/>
-    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb6b00105_37_comp"/>
-    <sbol:version>1</sbol:version>
-  </sbol:ComponentDefinition>
-  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb6b00105_3_sequence/1">
-    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb6b00105_3_sequence"/>
-    <sbol:version>1</sbol:version>
-    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
-    <sbol:displayId>sb6b00105_3_sequence</sbol:displayId>
-    <sbol:elements>ccaaaaaacttgattagggtgatggttcacgtagtgatgaacacgattaacatcgctaag</sbol:elements>
-  </sbol:Sequence>
-  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb6b00105_51_comp/1">
-    <sbol:version>1</sbol:version>
-    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
-    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb6b00105_51_sequence/1"/>
-    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
-    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb6b00105_51_comp"/>
-    <sbh:supplementalFile rdf:resource="sb6b00105/suppl/sb-2016-00105a_si_001.pdf"/>
-    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.6b00105"/>
-    <sbol:displayId>sb6b00105_51_comp</sbol:displayId>
-  </sbol:ComponentDefinition>
-  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb6b00105_46_comp/1">
-    <sbh:supplementalFile rdf:resource="sb6b00105/suppl/sb-2016-00105a_si_001.pdf"/>
-    <sbol:version>1</sbol:version>
-    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb6b00105_46_sequence/1"/>
-    <sbol:displayId>sb6b00105_46_comp</sbol:displayId>
-    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
-    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
-    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.6b00105"/>
-    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb6b00105_46_comp"/>
-  </sbol:ComponentDefinition>
-  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb6b00105_33_sequence/1">
-    <sbol:elements>tcgtcgttggtcagagacag</sbol:elements>
-    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb6b00105_33_sequence"/>
-    <sbol:version>1</sbol:version>
-    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
-    <sbol:displayId>sb6b00105_33_sequence</sbol:displayId>
-  </sbol:Sequence>
-  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb6b00105_18_sequence/1">
-    <sbol:displayId>sb6b00105_18_sequence</sbol:displayId>
-    <sbol:elements>gactctagaggatccccgggaagcttttactgtttgataccagaag</sbol:elements>
-    <sbol:version>1</sbol:version>
-    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb6b00105_18_sequence"/>
-    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
-  </sbol:Sequence>
-  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb6b00105_11_sequence/1">
-    <sbol:version>1</sbol:version>
-    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
-    <sbol:elements>ttactgtttgataccagaaga</sbol:elements>
-    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb6b00105_11_sequence"/>
-    <sbol:displayId>sb6b00105_11_sequence</sbol:displayId>
-  </sbol:Sequence>
-  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb6b00105_6_sequence/1">
-    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb6b00105_6_sequence"/>
-    <sbol:displayId>sb6b00105_6_sequence</sbol:displayId>
-    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
-    <sbol:version>1</sbol:version>
-    <sbol:elements>cgcggatccatgcaacgctccattttt</sbol:elements>
-  </sbol:Sequence>
-  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb6b00105_8_sequence/1">
-    <sbol:displayId>sb6b00105_8_sequence</sbol:displayId>
-    <sbol:elements>cgcggatccatgcagcgttctatc</sbol:elements>
-    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb6b00105_8_sequence"/>
-    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
-    <sbol:version>1</sbol:version>
-  </sbol:Sequence>
-  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb6b00105_48_comp/1">
-    <sbol:displayId>sb6b00105_48_comp</sbol:displayId>
-    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb6b00105_48_sequence/1"/>
-    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.6b00105"/>
-    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
-    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb6b00105_48_comp"/>
-    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
-    <sbh:supplementalFile rdf:resource="sb6b00105/suppl/sb-2016-00105a_si_001.pdf"/>
-    <sbol:version>1</sbol:version>
-  </sbol:ComponentDefinition>
-  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb6b00105_35_sequence/1">
-    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
-    <sbol:version>1</sbol:version>
-    <sbol:displayId>sb6b00105_35_sequence</sbol:displayId>
-    <sbol:elements>ttaaccaaaccagtgatggaacattaatttaatgtaatcatgtaggctggagctgcttcg</sbol:elements>
-    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb6b00105_35_sequence"/>
-  </sbol:Sequence>
-  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb6b00105_36_comp/1">
-    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
-    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
-    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb6b00105_36_sequence/1"/>
-    <sbol:displayId>sb6b00105_36_comp</sbol:displayId>
-    <sbh:supplementalFile rdf:resource="sb6b00105/suppl/sb-2016-00105a_si_001.pdf"/>
-    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.6b00105"/>
-    <sbol:version>1</sbol:version>
-    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb6b00105_36_comp"/>
-  </sbol:ComponentDefinition>
-  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb6b00105_31_sequence/1">
-    <sbol:version>1</sbol:version>
-    <sbol:elements>cggactacgacgcactttatgag</sbol:elements>
-    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb6b00105_31_sequence"/>
-    <sbol:displayId>sb6b00105_31_sequence</sbol:displayId>
-    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
-  </sbol:Sequence>
-  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb6b00105_1_comp/1">
-    <sbol:version>1</sbol:version>
-    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb6b00105_1_sequence/1"/>
-    <sbol:displayId>sb6b00105_1_comp</sbol:displayId>
-    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
-    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
-    <sbh:supplementalFile rdf:resource="sb6b00105/suppl/sb-2016-00105a_si_001.pdf"/>
-    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb6b00105_1_comp"/>
-    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.6b00105"/>
-  </sbol:ComponentDefinition>
-  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb6b00105_4_sequence/1">
-    <sbol:displayId>sb6b00105_4_sequence</sbol:displayId>
-    <sbol:elements>aacagtaaagggccaattccggcggcggcaaactgggcggcggcatgcctggttcattacgtaaaatg</sbol:elements>
-    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb6b00105_4_sequence"/>
-    <sbol:version>1</sbol:version>
-    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
-  </sbol:Sequence>
-  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb6b00105_15_comp/1">
-    <sbol:version>1</sbol:version>
-    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
-    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb6b00105_15_comp"/>
-    <sbol:displayId>sb6b00105_15_comp</sbol:displayId>
-    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb6b00105_15_sequence/1"/>
-    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
-    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.6b00105"/>
-    <sbh:supplementalFile rdf:resource="sb6b00105/suppl/sb-2016-00105a_si_001.pdf"/>
-  </sbol:ComponentDefinition>
-  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb6b00105_2_comp/1">
-    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
-    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.6b00105"/>
-    <sbh:supplementalFile rdf:resource="sb6b00105/suppl/sb-2016-00105a_si_001.pdf"/>
-    <sbol:displayId>sb6b00105_2_comp</sbol:displayId>
-    <sbol:version>1</sbol:version>
-    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb6b00105_2_comp"/>
-    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb6b00105_2_sequence/1"/>
-    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
-  </sbol:ComponentDefinition>
-  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb6b00105_41_sequence/1">
-    <sbol:elements>ttactgtagagcgttaagaatctgccaggcggcgtcgactgtaggctggagctgcttcg</sbol:elements>
-    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
-    <sbol:displayId>sb6b00105_41_sequence</sbol:displayId>
-    <sbol:version>1</sbol:version>
-    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb6b00105_41_sequence"/>
-  </sbol:Sequence>
-  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb6b00105_42_comp/1">
-    <sbol:version>1</sbol:version>
-    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
-    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb6b00105_42_comp"/>
-    <sbol:displayId>sb6b00105_42_comp</sbol:displayId>
-    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
-    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.6b00105"/>
-    <sbh:supplementalFile rdf:resource="sb6b00105/suppl/sb-2016-00105a_si_001.pdf"/>
-    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb6b00105_42_sequence/1"/>
-  </sbol:ComponentDefinition>
-  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb6b00105_23_comp/1">
-    <sbh:supplementalFile rdf:resource="sb6b00105/suppl/sb-2016-00105a_si_001.pdf"/>
-    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.6b00105"/>
-    <sbol:version>1</sbol:version>
-    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb6b00105_23_comp"/>
-    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb6b00105_23_sequence/1"/>
-    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
-    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
-    <sbol:displayId>sb6b00105_23_comp</sbol:displayId>
-  </sbol:ComponentDefinition>
-  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb6b00105_16_sequence/1">
-    <sbol:elements>gtttgaacaataaaattaataaagcttttactgtttgataccagaag</sbol:elements>
-    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb6b00105_16_sequence"/>
-    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
-    <sbol:version>1</sbol:version>
-    <sbol:displayId>sb6b00105_16_sequence</sbol:displayId>
-  </sbol:Sequence>
-  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb6b00105_24_comp/1">
-    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
-    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb6b00105_24_sequence/1"/>
-    <sbh:supplementalFile rdf:resource="sb6b00105/suppl/sb-2016-00105a_si_001.pdf"/>
-    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.6b00105"/>
-    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb6b00105_24_comp"/>
-    <sbol:version>1</sbol:version>
-    <sbol:displayId>sb6b00105_24_comp</sbol:displayId>
-    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
-  </sbol:ComponentDefinition>
-  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb6b00105_31_comp/1">
-    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb6b00105_31_comp"/>
-    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb6b00105_31_sequence/1"/>
-    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
-    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
-    <sbol:displayId>sb6b00105_31_comp</sbol:displayId>
-    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.6b00105"/>
-    <sbh:supplementalFile rdf:resource="sb6b00105/suppl/sb-2016-00105a_si_001.pdf"/>
-    <sbol:version>1</sbol:version>
-  </sbol:ComponentDefinition>
-  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb6b00105_6_comp/1">
-    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb6b00105_6_comp"/>
-    <sbol:version>1</sbol:version>
-    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb6b00105_6_sequence/1"/>
-    <sbol:displayId>sb6b00105_6_comp</sbol:displayId>
-    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
-    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
-    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.6b00105"/>
-    <sbh:supplementalFile rdf:resource="sb6b00105/suppl/sb-2016-00105a_si_001.pdf"/>
-  </sbol:ComponentDefinition>
-  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb6b00105_26_sequence/1">
-    <sbol:displayId>sb6b00105_26_sequence</sbol:displayId>
-    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
-    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb6b00105_26_sequence"/>
-    <sbol:version>1</sbol:version>
-    <sbol:elements>ggaaataatatgcgactccattaccgttg</sbol:elements>
-  </sbol:Sequence>
-  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb6b00105_52_comp/1">
-    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.6b00105"/>
-    <sbh:supplementalFile rdf:resource="sb6b00105/suppl/sb-2016-00105a_si_001.pdf"/>
-    <sbol:version>1</sbol:version>
-    <sbol:displayId>sb6b00105_52_comp</sbol:displayId>
-    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
-    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb6b00105_52_sequence/1"/>
-    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
-    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb6b00105_52_comp"/>
-  </sbol:ComponentDefinition>
-  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb6b00105_14_sequence/1">
-    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb6b00105_14_sequence"/>
-    <sbol:version>1</sbol:version>
-    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
-    <sbol:elements>aaaccgtctatcagggcgatggcccactacttacgcgaacgcgaagt</sbol:elements>
-    <sbol:displayId>sb6b00105_14_sequence</sbol:displayId>
-  </sbol:Sequence>
-  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb6b00105_2_sequence/1">
-    <sbol:version>1</sbol:version>
-    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
-    <sbol:elements>agcgagacgaaatacgcgataccaataactgccttaaaaaaattaccat</sbol:elements>
-    <sbol:displayId>sb6b00105_2_sequence</sbol:displayId>
-    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb6b00105_2_sequence"/>
-  </sbol:Sequence>
-  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb6b00105_45_sequence/1">
-    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
-    <sbol:displayId>sb6b00105_45_sequence</sbol:displayId>
-    <sbol:version>1</sbol:version>
-    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb6b00105_45_sequence"/>
-    <sbol:elements>cttcaaccacctgatcaacca</sbol:elements>
-  </sbol:Sequence>
-  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb6b00105_33_comp/1">
-    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.6b00105"/>
-    <sbh:supplementalFile rdf:resource="sb6b00105/suppl/sb-2016-00105a_si_001.pdf"/>
-    <sbol:displayId>sb6b00105_33_comp</sbol:displayId>
-    <sbol:version>1</sbol:version>
-    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb6b00105_33_comp"/>
-    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
-    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
-    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb6b00105_33_sequence/1"/>
-  </sbol:ComponentDefinition>
-  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb6b00105_25_sequence/1">
-    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
-    <sbol:version>1</sbol:version>
-    <sbol:elements>agtggtggtggtggtggtgcttaattaatgtctaattcttttattttgctc</sbol:elements>
-    <sbol:displayId>sb6b00105_25_sequence</sbol:displayId>
-    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb6b00105_25_sequence"/>
-  </sbol:Sequence>
-  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb6b00105_18_comp/1">
-    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
-    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.6b00105"/>
-    <sbh:supplementalFile rdf:resource="sb6b00105/suppl/sb-2016-00105a_si_001.pdf"/>
-    <sbol:displayId>sb6b00105_18_comp</sbol:displayId>
-    <sbol:version>1</sbol:version>
-    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
-    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb6b00105_18_comp"/>
-    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb6b00105_18_sequence/1"/>
-  </sbol:ComponentDefinition>
-  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb6b00105_7_comp/1">
-    <sbol:displayId>sb6b00105_7_comp</sbol:displayId>
-    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
-    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb6b00105_7_sequence/1"/>
-    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
-    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.6b00105"/>
-    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb6b00105_7_comp"/>
-    <sbh:supplementalFile rdf:resource="sb6b00105/suppl/sb-2016-00105a_si_001.pdf"/>
-    <sbol:version>1</sbol:version>
-  </sbol:ComponentDefinition>
-  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb6b00105_32_comp/1">
-    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb6b00105_32_sequence/1"/>
-    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
-    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
-    <sbol:displayId>sb6b00105_32_comp</sbol:displayId>
-    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.6b00105"/>
-    <sbh:supplementalFile rdf:resource="sb6b00105/suppl/sb-2016-00105a_si_001.pdf"/>
-    <sbol:version>1</sbol:version>
-    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb6b00105_32_comp"/>
-  </sbol:ComponentDefinition>
-  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb6b00105_10_comp/1">
-    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
-    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
-    <sbol:displayId>sb6b00105_10_comp</sbol:displayId>
-    <sbh:supplementalFile rdf:resource="sb6b00105/suppl/sb-2016-00105a_si_001.pdf"/>
-    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.6b00105"/>
-    <sbol:version>1</sbol:version>
-    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb6b00105_10_sequence/1"/>
-    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb6b00105_10_comp"/>
-  </sbol:ComponentDefinition>
-  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb6b00105_49_sequence/1">
-    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb6b00105_49_sequence"/>
-    <sbol:displayId>sb6b00105_49_sequence</sbol:displayId>
-    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
-    <sbol:elements>catccagcccaacacgac</sbol:elements>
-    <sbol:version>1</sbol:version>
   </sbol:Sequence>
   <sbol:Sequence rdf:about="http://examples.org/Sequence/sb6b00105_40_sequence/1">
-    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb6b00105_40_sequence"/>
+    <sbol:version>1</sbol:version>
     <sbol:elements>atgttcaaaacgacgctctgcgccttattaattaccgccattccggggatccgtcgacc</sbol:elements>
     <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
-    <sbol:version>1</sbol:version>
     <sbol:displayId>sb6b00105_40_sequence</sbol:displayId>
-  </sbol:Sequence>
-  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb6b00105_1_sequence/1">
-    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb6b00105_1_sequence"/>
-    <sbol:elements>gcctgttgaacaagtctggaaagaaatgcatatcaacactgagcgatgccat</sbol:elements>
-    <sbol:version>1</sbol:version>
-    <sbol:displayId>sb6b00105_1_sequence</sbol:displayId>
-    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
-  </sbol:Sequence>
-  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb6b00105_48_sequence/1">
-    <sbol:version>1</sbol:version>
-    <sbol:displayId>sb6b00105_48_sequence</sbol:displayId>
-    <sbol:elements>gttgctacggaagagggc</sbol:elements>
-    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
-    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb6b00105_48_sequence"/>
-  </sbol:Sequence>
-  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb6b00105_25_comp/1">
-    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.6b00105"/>
-    <sbh:supplementalFile rdf:resource="sb6b00105/suppl/sb-2016-00105a_si_001.pdf"/>
-    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb6b00105_25_comp"/>
-    <sbol:version>1</sbol:version>
-    <sbol:displayId>sb6b00105_25_comp</sbol:displayId>
-    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
-    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb6b00105_25_sequence/1"/>
-    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
-  </sbol:ComponentDefinition>
-  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb6b00105_23_sequence/1">
-    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb6b00105_23_sequence"/>
-    <sbol:displayId>sb6b00105_23_sequence</sbol:displayId>
-    <sbol:version>1</sbol:version>
-    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
-    <sbol:elements>agacattaatatgagtgcgattaagccag</sbol:elements>
-  </sbol:Sequence>
-  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb6b00105_11_comp/1">
-    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
-    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
-    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb6b00105_11_comp"/>
-    <sbol:displayId>sb6b00105_11_comp</sbol:displayId>
-    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.6b00105"/>
-    <sbh:supplementalFile rdf:resource="sb6b00105/suppl/sb-2016-00105a_si_001.pdf"/>
-    <sbol:version>1</sbol:version>
-    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb6b00105_11_sequence/1"/>
-  </sbol:ComponentDefinition>
-  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb6b00105_49_comp/1">
-    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.6b00105"/>
-    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb6b00105_49_comp"/>
-    <sbh:supplementalFile rdf:resource="sb6b00105/suppl/sb-2016-00105a_si_001.pdf"/>
-    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb6b00105_49_sequence/1"/>
-    <sbol:displayId>sb6b00105_49_comp</sbol:displayId>
-    <sbol:version>1</sbol:version>
-    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
-    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
-  </sbol:ComponentDefinition>
-  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb6b00105_13_sequence/1">
-    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
-    <sbol:version>1</sbol:version>
-    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb6b00105_13_sequence"/>
-    <sbol:displayId>sb6b00105_13_sequence</sbol:displayId>
-    <sbol:elements>aatcaggtgcgacaatctatccaacttttggcgaaaatg</sbol:elements>
-  </sbol:Sequence>
-  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb6b00105_24_sequence/1">
-    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
-    <sbol:elements>agtggtggtggtggtggtgctaatcgtctggcattgtcagg</sbol:elements>
-    <sbol:version>1</sbol:version>
-    <sbol:displayId>sb6b00105_24_sequence</sbol:displayId>
-    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb6b00105_24_sequence"/>
-  </sbol:Sequence>
-  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb6b00105_20_sequence/1">
-    <sbol:displayId>sb6b00105_20_sequence</sbol:displayId>
-    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb6b00105_20_sequence"/>
-    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
-    <sbol:elements>ctagtatttctcctctttctctagtaaag</sbol:elements>
-    <sbol:version>1</sbol:version>
-  </sbol:Sequence>
-  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb6b00105_7_sequence/1">
-    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb6b00105_7_sequence"/>
-    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
-    <sbol:elements>ccggaattctgatttacaaattccttgtacc</sbol:elements>
-    <sbol:displayId>sb6b00105_7_sequence</sbol:displayId>
-    <sbol:version>1</sbol:version>
-  </sbol:Sequence>
-  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb6b00105_28_comp/1">
-    <sbol:displayId>sb6b00105_28_comp</sbol:displayId>
-    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.6b00105"/>
-    <sbh:supplementalFile rdf:resource="sb6b00105/suppl/sb-2016-00105a_si_001.pdf"/>
-    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb6b00105_28_comp"/>
-    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb6b00105_28_sequence/1"/>
-    <sbol:version>1</sbol:version>
-    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
-    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
-  </sbol:ComponentDefinition>
-  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb6b00105_43_comp/1">
-    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
-    <sbol:displayId>sb6b00105_43_comp</sbol:displayId>
-    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
-    <sbh:supplementalFile rdf:resource="sb6b00105/suppl/sb-2016-00105a_si_001.pdf"/>
-    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.6b00105"/>
-    <sbol:version>1</sbol:version>
-    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb6b00105_43_comp"/>
-    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb6b00105_43_sequence/1"/>
-  </sbol:ComponentDefinition>
-  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb6b00105_27_sequence/1">
-    <sbol:displayId>sb6b00105_27_sequence</sbol:displayId>
-    <sbol:version>1</sbol:version>
-    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
-    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb6b00105_27_sequence"/>
-    <sbol:elements>ggtgctcgagtgcggccgcaagcttgcataacttaggctgctaatg</sbol:elements>
-  </sbol:Sequence>
-  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb6b00105_39_comp/1">
-    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb6b00105_39_comp"/>
-    <sbh:supplementalFile rdf:resource="sb6b00105/suppl/sb-2016-00105a_si_001.pdf"/>
-    <sbol:version>1</sbol:version>
-    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
-    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.6b00105"/>
-    <sbol:displayId>sb6b00105_39_comp</sbol:displayId>
-    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
-    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb6b00105_39_sequence/1"/>
-  </sbol:ComponentDefinition>
-  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb6b00105_29_comp/1">
-    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb6b00105_29_sequence/1"/>
-    <sbh:supplementalFile rdf:resource="sb6b00105/suppl/sb-2016-00105a_si_001.pdf"/>
-    <sbol:version>1</sbol:version>
-    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
-    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb6b00105_29_comp"/>
-    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
-    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.6b00105"/>
-    <sbol:displayId>sb6b00105_29_comp</sbol:displayId>
-  </sbol:ComponentDefinition>
-  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb6b00105_38_comp/1">
-    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb6b00105_38_comp"/>
-    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.6b00105"/>
-    <sbh:supplementalFile rdf:resource="sb6b00105/suppl/sb-2016-00105a_si_001.pdf"/>
-    <sbol:displayId>sb6b00105_38_comp</sbol:displayId>
-    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb6b00105_38_sequence/1"/>
-    <sbol:version>1</sbol:version>
-    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
-    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
-  </sbol:ComponentDefinition>
-  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb6b00105_21_sequence/1">
-    <sbol:elements>aacagtaaagggccaattccatgcctggttcattacgtaaaatg</sbol:elements>
-    <sbol:displayId>sb6b00105_21_sequence</sbol:displayId>
-    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
-    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb6b00105_21_sequence"/>
-    <sbol:version>1</sbol:version>
-  </sbol:Sequence>
-  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb6b00105_9_comp/1">
-    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb6b00105_9_sequence/1"/>
-    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb6b00105_9_comp"/>
-    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
-    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.6b00105"/>
-    <sbh:supplementalFile rdf:resource="sb6b00105/suppl/sb-2016-00105a_si_001.pdf"/>
-    <sbol:version>1</sbol:version>
-    <sbol:displayId>sb6b00105_9_comp</sbol:displayId>
-    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
-  </sbol:ComponentDefinition>
-  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb6b00105_37_sequence/1">
-    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb6b00105_37_sequence"/>
-    <sbol:elements>ttaattactaccaaacatatccttgatccaaccggctactgtaggctggagctgcttcg</sbol:elements>
-    <sbol:displayId>sb6b00105_37_sequence</sbol:displayId>
-    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
-    <sbol:version>1</sbol:version>
-  </sbol:Sequence>
-  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb6b00105_12_sequence/1">
-    <sbol:elements>ccaaaaaacttgattagggtgatggttcacgtagtgatttcacacaggaaacagc</sbol:elements>
-    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb6b00105_12_sequence"/>
-    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
-    <sbol:displayId>sb6b00105_12_sequence</sbol:displayId>
-    <sbol:version>1</sbol:version>
-  </sbol:Sequence>
-  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb6b00105_32_sequence/1">
-    <sbol:displayId>sb6b00105_32_sequence</sbol:displayId>
-    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb6b00105_32_sequence"/>
-    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
-    <sbol:version>1</sbol:version>
-    <sbol:elements>ggtaccgaacgtctgcgtat</sbol:elements>
-  </sbol:Sequence>
-  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb6b00105_22_comp/1">
-    <sbol:displayId>sb6b00105_22_comp</sbol:displayId>
-    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
-    <sbh:supplementalFile rdf:resource="sb6b00105/suppl/sb-2016-00105a_si_001.pdf"/>
-    <sbol:version>1</sbol:version>
-    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb6b00105_22_sequence/1"/>
-    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
-    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb6b00105_22_comp"/>
-    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.6b00105"/>
-  </sbol:ComponentDefinition>
-  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb6b00105_44_comp/1">
-    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
-    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb6b00105_44_comp"/>
-    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
-    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.6b00105"/>
-    <sbol:displayId>sb6b00105_44_comp</sbol:displayId>
-    <sbh:supplementalFile rdf:resource="sb6b00105/suppl/sb-2016-00105a_si_001.pdf"/>
-    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb6b00105_44_sequence/1"/>
-    <sbol:version>1</sbol:version>
-  </sbol:ComponentDefinition>
-  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb6b00105_47_sequence/1">
-    <sbol:version>1</sbol:version>
-    <sbol:displayId>sb6b00105_47_sequence</sbol:displayId>
-    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
-    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb6b00105_47_sequence"/>
-    <sbol:elements>ccaacgaatcgctaaagtc</sbol:elements>
-  </sbol:Sequence>
-  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb6b00105_52_sequence/1">
-    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb6b00105_52_sequence"/>
-    <sbol:displayId>sb6b00105_52_sequence</sbol:displayId>
-    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
-    <sbol:elements>ccattgtgacccatagca</sbol:elements>
-    <sbol:version>1</sbol:version>
-  </sbol:Sequence>
-  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb6b00105_4_comp/1">
-    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.6b00105"/>
-    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb6b00105_4_sequence/1"/>
-    <sbh:supplementalFile rdf:resource="sb6b00105/suppl/sb-2016-00105a_si_001.pdf"/>
-    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb6b00105_4_comp"/>
-    <sbol:version>1</sbol:version>
-    <sbol:displayId>sb6b00105_4_comp</sbol:displayId>
-    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
-    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
-  </sbol:ComponentDefinition>
-  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb6b00105_50_sequence/1">
-    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb6b00105_50_sequence"/>
-    <sbol:elements>cgctgattggtgtcgtta</sbol:elements>
-    <sbol:displayId>sb6b00105_50_sequence</sbol:displayId>
-    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
-    <sbol:version>1</sbol:version>
-  </sbol:Sequence>
-  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb6b00105_39_sequence/1">
-    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb6b00105_39_sequence"/>
-    <sbol:displayId>sb6b00105_39_sequence</sbol:displayId>
-    <sbol:version>1</sbol:version>
-    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
-    <sbol:elements>ttagtccgccagttccagaattcgtactaccaactgcgatgtaggctggagctgcttcg</sbol:elements>
-  </sbol:Sequence>
-  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb6b00105_36_sequence/1">
-    <sbol:displayId>sb6b00105_36_sequence</sbol:displayId>
-    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb6b00105_36_sequence"/>
-    <sbol:elements>atggccgggaatgaccgcgagccaattggacgcaaagggattccggggatccgtcgacc</sbol:elements>
-    <sbol:version>1</sbol:version>
-    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
-  </sbol:Sequence>
-  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb6b00105_30_sequence/1">
-    <sbol:displayId>sb6b00105_30_sequence</sbol:displayId>
-    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb6b00105_30_sequence"/>
-    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
-    <sbol:elements>ttcgggaaccgtgagacagg</sbol:elements>
-    <sbol:version>1</sbol:version>
-  </sbol:Sequence>
-  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb6b00105_9_sequence/1">
-    <sbol:version>1</sbol:version>
-    <sbol:elements>cccaagcttttactgtttgatacc</sbol:elements>
-    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
-    <sbol:displayId>sb6b00105_9_sequence</sbol:displayId>
-    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb6b00105_9_sequence"/>
-  </sbol:Sequence>
-  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb6b00105_34_sequence/1">
-    <sbol:displayId>sb6b00105_34_sequence</sbol:displayId>
-    <sbol:elements>atgaataccattttttccgctcgtatcatgaagcgcctggattccggggatccgtcgacc</sbol:elements>
-    <sbol:version>1</sbol:version>
-    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
-    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb6b00105_34_sequence"/>
-  </sbol:Sequence>
-  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb6b00105_29_sequence/1">
-    <sbol:displayId>sb6b00105_29_sequence</sbol:displayId>
-    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb6b00105_29_sequence"/>
-    <sbol:elements>atggagtcgcatattatttccgcaaagagatg</sbol:elements>
-    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
-    <sbol:version>1</sbol:version>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb6b00105_40_sequence"/>
   </sbol:Sequence>
   <sbol:Sequence rdf:about="http://examples.org/Sequence/sb6b00105_42_sequence/1">
     <sbol:version>1</sbol:version>
     <sbol:displayId>sb6b00105_42_sequence</sbol:displayId>
-    <sbol:elements>ttgaaacgtagtctgcttttttctgccgtgctgtgtgcgattccggggatccgtcgacc</sbol:elements>
     <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
     <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb6b00105_42_sequence"/>
+    <sbol:elements>ttgaaacgtagtctgcttttttctgccgtgctgtgtgcgattccggggatccgtcgacc</sbol:elements>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb6b00105_50_sequence/1">
+    <sbol:version>1</sbol:version>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb6b00105_50_sequence"/>
+    <sbol:elements>cgctgattggtgtcgtta</sbol:elements>
+    <sbol:displayId>sb6b00105_50_sequence</sbol:displayId>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb6b00105_12_sequence/1">
+    <sbol:displayId>sb6b00105_12_sequence</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb6b00105_12_sequence"/>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:elements>ccaaaaaacttgattagggtgatggttcacgtagtgatttcacacaggaaacagc</sbol:elements>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb6b00105_32_sequence/1">
+    <sbol:displayId>sb6b00105_32_sequence</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <sbol:elements>ggtaccgaacgtctgcgtat</sbol:elements>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb6b00105_32_sequence"/>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb6b00105_31_sequence/1">
+    <sbol:version>1</sbol:version>
+    <sbol:displayId>sb6b00105_31_sequence</sbol:displayId>
+    <sbol:elements>cggactacgacgcactttatgag</sbol:elements>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb6b00105_31_sequence"/>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb6b00105_1_sequence/1">
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb6b00105_1_sequence"/>
+    <sbol:elements>gcctgttgaacaagtctggaaagaaatgcatatcaacactgagcgatgccat</sbol:elements>
+    <sbol:displayId>sb6b00105_1_sequence</sbol:displayId>
+    <sbol:version>1</sbol:version>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb6b00105_18_sequence/1">
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:elements>gactctagaggatccccgggaagcttttactgtttgataccagaag</sbol:elements>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb6b00105_18_sequence"/>
+    <sbol:displayId>sb6b00105_18_sequence</sbol:displayId>
+    <sbol:version>1</sbol:version>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb6b00105_8_sequence/1">
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:displayId>sb6b00105_8_sequence</sbol:displayId>
+    <sbol:elements>cgcggatccatgcagcgttctatc</sbol:elements>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb6b00105_8_sequence"/>
+    <sbol:version>1</sbol:version>
+  </sbol:Sequence>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb6b00105_38_comp/1">
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.6b00105"/>
+    <sbol:displayId>sb6b00105_38_comp</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbh:supplementalFile rdf:resource="pdf"/>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb6b00105_38_sequence/1"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb6b00105_38_comp"/>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb6b00105_18_comp/1">
+    <sbol:version>1</sbol:version>
+    <sbh:supplementalFile rdf:resource="pdf"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.6b00105"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb6b00105_18_comp"/>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb6b00105_18_sequence/1"/>
+    <sbol:displayId>sb6b00105_18_comp</sbol:displayId>
+  </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb6b00105_49_sequence/1">
+    <sbol:elements>catccagcccaacacgac</sbol:elements>
+    <sbol:displayId>sb6b00105_49_sequence</sbol:displayId>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:version>1</sbol:version>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb6b00105_49_sequence"/>
+  </sbol:Sequence>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb6b00105_52_comp/1">
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb6b00105_52_sequence/1"/>
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.6b00105"/>
+    <sbol:displayId>sb6b00105_52_comp</sbol:displayId>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb6b00105_52_comp"/>
+    <sbol:version>1</sbol:version>
+    <sbh:supplementalFile rdf:resource="pdf"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+  </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb6b00105_45_sequence/1">
+    <sbol:elements>cttcaaccacctgatcaacca</sbol:elements>
+    <sbol:version>1</sbol:version>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb6b00105_45_sequence"/>
+    <sbol:displayId>sb6b00105_45_sequence</sbol:displayId>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb6b00105_28_sequence/1">
+    <sbol:displayId>sb6b00105_28_sequence</sbol:displayId>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:elements>ttctggtatcaaacagtaaaagcttagaccaaaaagggatgctc</sbol:elements>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb6b00105_28_sequence"/>
+    <sbol:version>1</sbol:version>
+  </sbol:Sequence>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb6b00105_47_comp/1">
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.6b00105"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb6b00105_47_comp"/>
+    <sbol:version>1</sbol:version>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbh:supplementalFile rdf:resource="pdf"/>
+    <sbol:displayId>sb6b00105_47_comp</sbol:displayId>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb6b00105_47_sequence/1"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+  </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb6b00105_7_sequence/1">
+    <sbol:version>1</sbol:version>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb6b00105_7_sequence"/>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:elements>ccggaattctgatttacaaattccttgtacc</sbol:elements>
+    <sbol:displayId>sb6b00105_7_sequence</sbol:displayId>
+  </sbol:Sequence>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb6b00105_24_comp/1">
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb6b00105_24_sequence/1"/>
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.6b00105"/>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb6b00105_24_comp"/>
+    <sbol:version>1</sbol:version>
+    <sbol:displayId>sb6b00105_24_comp</sbol:displayId>
+    <sbh:supplementalFile rdf:resource="pdf"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+  </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb6b00105_33_sequence/1">
+    <sbol:version>1</sbol:version>
+    <sbol:elements>tcgtcgttggtcagagacag</sbol:elements>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb6b00105_33_sequence"/>
+    <sbol:displayId>sb6b00105_33_sequence</sbol:displayId>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb6b00105_52_sequence/1">
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb6b00105_52_sequence"/>
+    <sbol:version>1</sbol:version>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:elements>ccattgtgacccatagca</sbol:elements>
+    <sbol:displayId>sb6b00105_52_sequence</sbol:displayId>
+  </sbol:Sequence>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb6b00105_53_comp/1">
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb6b00105_53_comp"/>
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.6b00105"/>
+    <sbol:version>1</sbol:version>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb6b00105_53_sequence/1"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbh:supplementalFile rdf:resource="pdf"/>
+    <sbol:displayId>sb6b00105_53_comp</sbol:displayId>
+  </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb6b00105_4_sequence/1">
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:displayId>sb6b00105_4_sequence</sbol:displayId>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb6b00105_4_sequence"/>
+    <sbol:elements>aacagtaaagggccaattccggcggcggcaaactgggcggcggcatgcctggttcattacgtaaaatg</sbol:elements>
+    <sbol:version>1</sbol:version>
+  </sbol:Sequence>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb6b00105_14_comp/1">
+    <sbol:version>1</sbol:version>
+    <sbh:supplementalFile rdf:resource="pdf"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb6b00105_14_comp"/>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb6b00105_14_sequence/1"/>
+    <sbol:displayId>sb6b00105_14_comp</sbol:displayId>
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.6b00105"/>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb6b00105_10_comp/1">
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.6b00105"/>
+    <sbol:version>1</sbol:version>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb6b00105_10_sequence/1"/>
+    <sbol:displayId>sb6b00105_10_comp</sbol:displayId>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbh:supplementalFile rdf:resource="pdf"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb6b00105_10_comp"/>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb6b00105_16_comp/1">
+    <sbol:displayId>sb6b00105_16_comp</sbol:displayId>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb6b00105_16_sequence/1"/>
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.6b00105"/>
+    <sbol:version>1</sbol:version>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb6b00105_16_comp"/>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbh:supplementalFile rdf:resource="pdf"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb6b00105_51_comp/1">
+    <sbol:displayId>sb6b00105_51_comp</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb6b00105_51_comp"/>
+    <sbh:supplementalFile rdf:resource="pdf"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.6b00105"/>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb6b00105_51_sequence/1"/>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb6b00105_33_comp/1">
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb6b00105_33_comp"/>
+    <sbol:version>1</sbol:version>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbh:supplementalFile rdf:resource="pdf"/>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb6b00105_33_sequence/1"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.6b00105"/>
+    <sbol:displayId>sb6b00105_33_comp</sbol:displayId>
+  </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb6b00105_21_sequence/1">
+    <sbol:version>1</sbol:version>
+    <sbol:elements>aacagtaaagggccaattccatgcctggttcattacgtaaaatg</sbol:elements>
+    <sbol:displayId>sb6b00105_21_sequence</sbol:displayId>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb6b00105_21_sequence"/>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb6b00105_24_sequence/1">
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb6b00105_24_sequence"/>
+    <sbol:displayId>sb6b00105_24_sequence</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <sbol:elements>agtggtggtggtggtggtgctaatcgtctggcattgtcagg</sbol:elements>
+  </sbol:Sequence>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb6b00105_40_comp/1">
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.6b00105"/>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb6b00105_40_sequence/1"/>
+    <sbol:version>1</sbol:version>
+    <sbh:supplementalFile rdf:resource="pdf"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb6b00105_40_comp"/>
+    <sbol:displayId>sb6b00105_40_comp</sbol:displayId>
+  </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb6b00105_48_sequence/1">
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb6b00105_48_sequence"/>
+    <sbol:version>1</sbol:version>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:displayId>sb6b00105_48_sequence</sbol:displayId>
+    <sbol:elements>gttgctacggaagagggc</sbol:elements>
+  </sbol:Sequence>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb6b00105_23_comp/1">
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb6b00105_23_sequence/1"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbh:supplementalFile rdf:resource="pdf"/>
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.6b00105"/>
+    <sbol:displayId>sb6b00105_23_comp</sbol:displayId>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb6b00105_23_comp"/>
+    <sbol:version>1</sbol:version>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb6b00105_17_comp/1">
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.6b00105"/>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb6b00105_17_sequence/1"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb6b00105_17_comp"/>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbol:displayId>sb6b00105_17_comp</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <sbh:supplementalFile rdf:resource="pdf"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb6b00105_5_comp/1">
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.6b00105"/>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb6b00105_5_sequence/1"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb6b00105_5_comp"/>
+    <sbol:displayId>sb6b00105_5_comp</sbol:displayId>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbol:version>1</sbol:version>
+    <sbh:supplementalFile rdf:resource="pdf"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb6b00105_21_comp/1">
+    <sbh:supplementalFile rdf:resource="pdf"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb6b00105_21_comp"/>
+    <sbol:displayId>sb6b00105_21_comp</sbol:displayId>
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.6b00105"/>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb6b00105_21_sequence/1"/>
+    <sbol:version>1</sbol:version>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb6b00105_11_comp/1">
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb6b00105_11_sequence/1"/>
+    <sbol:version>1</sbol:version>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb6b00105_11_comp"/>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbh:supplementalFile rdf:resource="pdf"/>
+    <sbol:displayId>sb6b00105_11_comp</sbol:displayId>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.6b00105"/>
+  </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb6b00105_36_sequence/1">
+    <sbol:version>1</sbol:version>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:displayId>sb6b00105_36_sequence</sbol:displayId>
+    <sbol:elements>atggccgggaatgaccgcgagccaattggacgcaaagggattccggggatccgtcgacc</sbol:elements>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb6b00105_36_sequence"/>
   </sbol:Sequence>
   <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb6b00105_19_comp/1">
     <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
-    <sbh:supplementalFile rdf:resource="sb6b00105/suppl/sb-2016-00105a_si_001.pdf"/>
-    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.6b00105"/>
-    <sbol:version>1</sbol:version>
     <sbol:displayId>sb6b00105_19_comp</sbol:displayId>
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.6b00105"/>
     <sbol:sequence rdf:resource="http://examples.org/Sequence/sb6b00105_19_sequence/1"/>
+    <sbol:version>1</sbol:version>
     <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb6b00105_19_comp"/>
+    <sbh:supplementalFile rdf:resource="pdf"/>
     <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
   </sbol:ComponentDefinition>
-  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb6b00105_51_sequence/1">
-    <sbol:displayId>sb6b00105_51_sequence</sbol:displayId>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb6b00105_22_sequence/1">
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb6b00105_22_sequence"/>
+    <sbol:displayId>sb6b00105_22_sequence</sbol:displayId>
+    <sbol:elements>tcgcactcatattaatgtctaattcttttattttgctctc</sbol:elements>
     <sbol:version>1</sbol:version>
+  </sbol:Sequence>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb6b00105_6_comp/1">
+    <sbol:version>1</sbol:version>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbh:supplementalFile rdf:resource="pdf"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:displayId>sb6b00105_6_comp</sbol:displayId>
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.6b00105"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb6b00105_6_comp"/>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb6b00105_6_sequence/1"/>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb6b00105_15_comp/1">
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.6b00105"/>
+    <sbol:displayId>sb6b00105_15_comp</sbol:displayId>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb6b00105_15_comp"/>
+    <sbh:supplementalFile rdf:resource="pdf"/>
+    <sbol:version>1</sbol:version>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb6b00105_15_sequence/1"/>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb6b00105_36_comp/1">
+    <sbol:displayId>sb6b00105_36_comp</sbol:displayId>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb6b00105_36_comp"/>
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.6b00105"/>
+    <sbh:supplementalFile rdf:resource="pdf"/>
+    <sbol:version>1</sbol:version>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb6b00105_36_sequence/1"/>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb6b00105_45_comp/1">
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb6b00105_45_sequence/1"/>
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.6b00105"/>
+    <sbol:version>1</sbol:version>
+    <sbh:supplementalFile rdf:resource="pdf"/>
+    <sbol:displayId>sb6b00105_45_comp</sbol:displayId>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb6b00105_45_comp"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+  </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb6b00105_20_sequence/1">
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:elements>ctagtatttctcctctttctctagtaaag</sbol:elements>
+    <sbol:displayId>sb6b00105_20_sequence</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb6b00105_20_sequence"/>
+  </sbol:Sequence>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb6b00105_50_comp/1">
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb6b00105_50_sequence/1"/>
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.6b00105"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb6b00105_50_comp"/>
+    <sbol:version>1</sbol:version>
+    <sbh:supplementalFile rdf:resource="pdf"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:displayId>sb6b00105_50_comp</sbol:displayId>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+  </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb6b00105_41_sequence/1">
+    <sbol:displayId>sb6b00105_41_sequence</sbol:displayId>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:elements>ttactgtagagcgttaagaatctgccaggcggcgtcgactgtaggctggagctgcttcg</sbol:elements>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb6b00105_41_sequence"/>
+    <sbol:version>1</sbol:version>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb6b00105_47_sequence/1">
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb6b00105_47_sequence"/>
+    <sbol:displayId>sb6b00105_47_sequence</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <sbol:elements>ccaacgaatcgctaaagtc</sbol:elements>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+  </sbol:Sequence>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb6b00105_7_comp/1">
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.6b00105"/>
+    <sbol:version>1</sbol:version>
+    <sbh:supplementalFile rdf:resource="pdf"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb6b00105_7_sequence/1"/>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbol:displayId>sb6b00105_7_comp</sbol:displayId>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb6b00105_7_comp"/>
+  </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb6b00105_34_sequence/1">
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:displayId>sb6b00105_34_sequence</sbol:displayId>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb6b00105_34_sequence"/>
+    <sbol:version>1</sbol:version>
+    <sbol:elements>atgaataccattttttccgctcgtatcatgaagcgcctggattccggggatccgtcgacc</sbol:elements>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb6b00105_29_sequence/1">
+    <sbol:displayId>sb6b00105_29_sequence</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb6b00105_29_sequence"/>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:elements>atggagtcgcatattatttccgcaaagagatg</sbol:elements>
+  </sbol:Sequence>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb6b00105_2_comp/1">
+    <sbol:version>1</sbol:version>
+    <sbh:supplementalFile rdf:resource="pdf"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb6b00105_2_comp"/>
+    <sbol:displayId>sb6b00105_2_comp</sbol:displayId>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb6b00105_2_sequence/1"/>
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.6b00105"/>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb6b00105_1_comp/1">
+    <sbol:version>1</sbol:version>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb6b00105_1_comp"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbh:supplementalFile rdf:resource="pdf"/>
+    <sbol:displayId>sb6b00105_1_comp</sbol:displayId>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb6b00105_1_sequence/1"/>
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.6b00105"/>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb6b00105_29_comp/1">
+    <sbol:displayId>sb6b00105_29_comp</sbol:displayId>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb6b00105_29_comp"/>
+    <sbol:version>1</sbol:version>
+    <sbh:supplementalFile rdf:resource="pdf"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb6b00105_29_sequence/1"/>
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.6b00105"/>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb6b00105_28_comp/1">
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb6b00105_28_sequence/1"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb6b00105_28_comp"/>
+    <sbol:displayId>sb6b00105_28_comp</sbol:displayId>
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.6b00105"/>
+    <sbol:version>1</sbol:version>
+    <sbh:supplementalFile rdf:resource="pdf"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb6b00105_9_comp/1">
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb6b00105_9_sequence/1"/>
+    <sbol:displayId>sb6b00105_9_comp</sbol:displayId>
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.6b00105"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb6b00105_9_comp"/>
+    <sbol:version>1</sbol:version>
+    <sbh:supplementalFile rdf:resource="pdf"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb6b00105_34_comp/1">
+    <sbol:version>1</sbol:version>
+    <sbh:supplementalFile rdf:resource="pdf"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb6b00105_34_comp"/>
+    <sbol:displayId>sb6b00105_34_comp</sbol:displayId>
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.6b00105"/>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb6b00105_34_sequence/1"/>
+  </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb6b00105_17_sequence/1">
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb6b00105_17_sequence"/>
+    <sbol:elements>agaaagaggagaaatactagggatccatgcagcgttctatc</sbol:elements>
+    <sbol:version>1</sbol:version>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:displayId>sb6b00105_17_sequence</sbol:displayId>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb6b00105_13_sequence/1">
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:elements>aatcaggtgcgacaatctatccaacttttggcgaaaatg</sbol:elements>
+    <sbol:displayId>sb6b00105_13_sequence</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb6b00105_13_sequence"/>
+  </sbol:Sequence>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb6b00105_26_comp/1">
+    <sbol:version>1</sbol:version>
+    <sbh:supplementalFile rdf:resource="pdf"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb6b00105_26_comp"/>
+    <sbol:displayId>sb6b00105_26_comp</sbol:displayId>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.6b00105"/>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb6b00105_26_sequence/1"/>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb6b00105_37_comp/1">
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb6b00105_37_comp"/>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb6b00105_37_sequence/1"/>
+    <sbol:version>1</sbol:version>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbh:supplementalFile rdf:resource="pdf"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.6b00105"/>
+    <sbol:displayId>sb6b00105_37_comp</sbol:displayId>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb6b00105_41_comp/1">
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.6b00105"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb6b00105_41_comp"/>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb6b00105_41_sequence/1"/>
+    <sbol:displayId>sb6b00105_41_comp</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbh:supplementalFile rdf:resource="pdf"/>
+  </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb6b00105_3_sequence/1">
+    <sbol:elements>ccaaaaaacttgattagggtgatggttcacgtagtgatgaacacgattaacatcgctaag</sbol:elements>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb6b00105_3_sequence"/>
+    <sbol:version>1</sbol:version>
+    <sbol:displayId>sb6b00105_3_sequence</sbol:displayId>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb6b00105_46_sequence/1">
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb6b00105_46_sequence"/>
+    <sbol:version>1</sbol:version>
+    <sbol:displayId>sb6b00105_46_sequence</sbol:displayId>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:elements>gcggattacttgattggg</sbol:elements>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb6b00105_27_sequence/1">
+    <sbol:version>1</sbol:version>
+    <sbol:elements>ggtgctcgagtgcggccgcaagcttgcataacttaggctgctaatg</sbol:elements>
+    <sbol:displayId>sb6b00105_27_sequence</sbol:displayId>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb6b00105_27_sequence"/>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb6b00105_30_sequence/1">
+    <sbol:displayId>sb6b00105_30_sequence</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb6b00105_30_sequence"/>
+    <sbol:elements>ttcgggaaccgtgagacagg</sbol:elements>
+  </sbol:Sequence>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb6b00105_39_comp/1">
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.6b00105"/>
+    <sbol:displayId>sb6b00105_39_comp</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb6b00105_39_sequence/1"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbh:supplementalFile rdf:resource="pdf"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb6b00105_39_comp"/>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb6b00105_20_comp/1">
+    <sbol:version>1</sbol:version>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbh:supplementalFile rdf:resource="pdf"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:displayId>sb6b00105_20_comp</sbol:displayId>
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.6b00105"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb6b00105_20_comp"/>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb6b00105_20_sequence/1"/>
+  </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb6b00105_19_sequence/1">
+    <sbol:elements>cccggggatcctctagag</sbol:elements>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:displayId>sb6b00105_19_sequence</sbol:displayId>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb6b00105_19_sequence"/>
+    <sbol:version>1</sbol:version>
+  </sbol:Sequence>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb6b00105_30_comp/1">
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbh:supplementalFile rdf:resource="pdf"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb6b00105_30_comp"/>
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.6b00105"/>
+    <sbol:displayId>sb6b00105_30_comp</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb6b00105_30_sequence/1"/>
+  </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb6b00105_10_sequence/1">
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb6b00105_10_sequence"/>
+    <sbol:elements>atgcagcgttctatcttcgcgc</sbol:elements>
+    <sbol:displayId>sb6b00105_10_sequence</sbol:displayId>
+    <sbol:version>1</sbol:version>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb6b00105_39_sequence/1">
+    <sbol:displayId>sb6b00105_39_sequence</sbol:displayId>
+    <sbol:elements>ttagtccgccagttccagaattcgtactaccaactgcgatgtaggctggagctgcttcg</sbol:elements>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb6b00105_39_sequence"/>
+    <sbol:version>1</sbol:version>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb6b00105_23_sequence/1">
+    <sbol:elements>agacattaatatgagtgcgattaagccag</sbol:elements>
+    <sbol:version>1</sbol:version>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb6b00105_23_sequence"/>
+    <sbol:displayId>sb6b00105_23_sequence</sbol:displayId>
+  </sbol:Sequence>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb6b00105_8_comp/1">
+    <sbol:version>1</sbol:version>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb6b00105_8_comp"/>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbh:supplementalFile rdf:resource="pdf"/>
+    <sbol:displayId>sb6b00105_8_comp</sbol:displayId>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb6b00105_8_sequence/1"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.6b00105"/>
+  </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb6b00105_6_sequence/1">
+    <sbol:displayId>sb6b00105_6_sequence</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:elements>cgcggatccatgcaacgctccattttt</sbol:elements>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb6b00105_6_sequence"/>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb6b00105_2_sequence/1">
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb6b00105_2_sequence"/>
+    <sbol:displayId>sb6b00105_2_sequence</sbol:displayId>
+    <sbol:elements>agcgagacgaaatacgcgataccaataactgccttaaaaaaattaccat</sbol:elements>
+    <sbol:version>1</sbol:version>
+  </sbol:Sequence>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb6b00105_25_comp/1">
+    <sbol:displayId>sb6b00105_25_comp</sbol:displayId>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb6b00105_25_comp"/>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb6b00105_25_sequence/1"/>
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.6b00105"/>
+    <sbol:version>1</sbol:version>
+    <sbh:supplementalFile rdf:resource="pdf"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb6b00105_27_comp/1">
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.6b00105"/>
+    <sbol:version>1</sbol:version>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb6b00105_27_comp"/>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbh:supplementalFile rdf:resource="pdf"/>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb6b00105_27_sequence/1"/>
+    <sbol:displayId>sb6b00105_27_comp</sbol:displayId>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+  </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb6b00105_26_sequence/1">
+    <sbol:version>1</sbol:version>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb6b00105_26_sequence"/>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:displayId>sb6b00105_26_sequence</sbol:displayId>
+    <sbol:elements>ggaaataatatgcgactccattaccgttg</sbol:elements>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb6b00105_44_sequence/1">
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb6b00105_44_sequence"/>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:elements>gcctgccggtagtgcattt</sbol:elements>
+    <sbol:version>1</sbol:version>
+    <sbol:displayId>sb6b00105_44_sequence</sbol:displayId>
+  </sbol:Sequence>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb6b00105_49_comp/1">
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:displayId>sb6b00105_49_comp</sbol:displayId>
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.6b00105"/>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb6b00105_49_sequence/1"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb6b00105_49_comp"/>
+    <sbol:version>1</sbol:version>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbh:supplementalFile rdf:resource="pdf"/>
+  </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb6b00105_43_sequence/1">
+    <sbol:displayId>sb6b00105_43_sequence</sbol:displayId>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb6b00105_43_sequence"/>
+    <sbol:version>1</sbol:version>
+    <sbol:elements>tcaggacgcggggataaccaacggtttattcccgcttagtgtaggctggagctgcttcg</sbol:elements>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb6b00105_5_sequence/1">
+    <sbol:displayId>sb6b00105_5_sequence</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb6b00105_5_sequence"/>
+    <sbol:elements>atgcagcgttctatcttcgcgcgtttcggtaactcttctgcggcggtttctaccctgaaccgtctgtctaccaccgcggcgccgcacgcgaaaaacggttacgcgaccgcgaccggtgcgggtgcggcggcggcgaccgcgaccgcgtcttctacccacgcggcggcggcggcggcggcggcggcgaaccactctacccaggaatctggtttcgactacgaaggtctgatcgactctgaactgcagaaaaaacgtctggacaaatcttaccgttacttcaacaacatcaaccgtctggcgaaagaattcccgctggcgcaccgtcagcgtgaagcggacaaagttaccgtttggtgctctaacgactacctggcgctgtctaaacacccggaagttctggacgcgatgcacaaaaccatcgacaaatacggttgcggtgcgggtggtacccgtaacatcgcgggtcacaacatcccgaccctgaacctggaagcggaactggcgaccctgcacaaaaaagaaggtgcgctggttttctcttcttgctacgttgcgaacgacgcggttctgtctctgctgggtcagaaaatgaaagacctggttatcttctctgacgaactgaaccacgcgtctatgatcgttggtatcaaacacgcgaacgttaaaaaacacatcttcaaacacaacgacctgaacgaactggaacagctgctgcagtcttacccgaaatctgttccgaaactgatcgcgttcgaatctgtttactctatggcgggttctgttgcggacatcgaaaaaatctgcgacctggcggacaaatacggtgcgctgaccttcctggacgaagttcacgcggttggtctgtacggtccgcacggtgcgggtgttgcggaacactgcgacttcgaatctcaccgtgcgtctggtatcgcgaccccgaaaaccaacgacaaaggtggtgcgaaaaccgttatggaccgtgttgacatgatcaccggtaccctgggtaaatctttcggttctgttggtggttacgttgcggcgtctcgtaaactgatcgactggttccgttctttcgcgccgggtttcatcttcaccaccaccctgccgccgtctgttatggcgggtgcgaccgcggcgatccgttaccagcgttgccacatcgacctgcgtacctctcagcagaaacacaccatgtacgttaaaaaagcgttccacgaactgggtatcccggttatcccgaacccgtctcacatcgttccggttctgatcggtaacgcggacctggcgaaacaggcgtctgacatcctgatcaacaaacaccagatctacgttcaggcgatcaacttcccgaccgttgcgcgtggtaccgaacgtctgcgtatcaccccgaccccgggtcacaccaacgacctgtctgacatcctgatcaacgcggttgacgacgttttcaacgaactgcagctgccgcgtgttcgtgactgggaatctcagggtggtctgctgggtgttggtgaatctggtttcgttgaagaatctaacctgtggacctcttctcagctgtctctgaccaacgacgacctgaacccgaacgttcgtgacccgatcgttaaacagctggaagtttcttctggtatcaaacagtaa</sbol:elements>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb6b00105_11_sequence/1">
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb6b00105_11_sequence"/>
+    <sbol:version>1</sbol:version>
+    <sbol:elements>ttactgtttgataccagaaga</sbol:elements>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:displayId>sb6b00105_11_sequence</sbol:displayId>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb6b00105_16_sequence/1">
+    <sbol:displayId>sb6b00105_16_sequence</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb6b00105_16_sequence"/>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:elements>gtttgaacaataaaattaataaagcttttactgtttgataccagaag</sbol:elements>
+  </sbol:Sequence>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb6b00105_46_comp/1">
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb6b00105_46_comp"/>
+    <sbol:displayId>sb6b00105_46_comp</sbol:displayId>
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.6b00105"/>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb6b00105_46_sequence/1"/>
+    <sbol:version>1</sbol:version>
+    <sbh:supplementalFile rdf:resource="pdf"/>
+  </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb6b00105_25_sequence/1">
+    <sbol:version>1</sbol:version>
+    <sbol:elements>agtggtggtggtggtggtgcttaattaatgtctaattcttttattttgctc</sbol:elements>
+    <sbol:displayId>sb6b00105_25_sequence</sbol:displayId>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb6b00105_25_sequence"/>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb6b00105_38_sequence/1">
+    <sbol:elements>atgactgataaaatcgcggtcctgttgggtgggacctccattccggggatccgtcgacc</sbol:elements>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:displayId>sb6b00105_38_sequence</sbol:displayId>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb6b00105_38_sequence"/>
+    <sbol:version>1</sbol:version>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb6b00105_51_sequence/1">
     <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
     <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb6b00105_51_sequence"/>
     <sbol:elements>gctttcccttcactctgc</sbol:elements>
+    <sbol:version>1</sbol:version>
+    <sbol:displayId>sb6b00105_51_sequence</sbol:displayId>
   </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb6b00105_14_sequence/1">
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:version>1</sbol:version>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb6b00105_14_sequence"/>
+    <sbol:elements>aaaccgtctatcagggcgatggcccactacttacgcgaacgcgaagt</sbol:elements>
+    <sbol:displayId>sb6b00105_14_sequence</sbol:displayId>
+  </sbol:Sequence>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb6b00105_22_comp/1">
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb6b00105_22_sequence/1"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:version>1</sbol:version>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbh:supplementalFile rdf:resource="pdf"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb6b00105_22_comp"/>
+    <sbol:displayId>sb6b00105_22_comp</sbol:displayId>
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.6b00105"/>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb6b00105_32_comp/1">
+    <sbol:version>1</sbol:version>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb6b00105_32_sequence/1"/>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbh:supplementalFile rdf:resource="pdf"/>
+    <sbol:displayId>sb6b00105_32_comp</sbol:displayId>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb6b00105_32_comp"/>
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.6b00105"/>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb6b00105_35_comp/1">
+    <sbol:version>1</sbol:version>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbh:supplementalFile rdf:resource="pdf"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb6b00105_35_comp"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb6b00105_35_sequence/1"/>
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.6b00105"/>
+    <sbol:displayId>sb6b00105_35_comp</sbol:displayId>
+  </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb6b00105_35_sequence/1">
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb6b00105_35_sequence"/>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:displayId>sb6b00105_35_sequence</sbol:displayId>
+    <sbol:elements>ttaaccaaaccagtgatggaacattaatttaatgtaatcatgtaggctggagctgcttcg</sbol:elements>
+    <sbol:version>1</sbol:version>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb6b00105_37_sequence/1">
+    <sbol:displayId>sb6b00105_37_sequence</sbol:displayId>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb6b00105_37_sequence"/>
+    <sbol:elements>ttaattactaccaaacatatccttgatccaaccggctactgtaggctggagctgcttcg</sbol:elements>
+    <sbol:version>1</sbol:version>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb6b00105_53_sequence/1">
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb6b00105_53_sequence"/>
+    <sbol:version>1</sbol:version>
+    <sbol:displayId>sb6b00105_53_sequence</sbol:displayId>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:elements>ggtattacccaggctcctt</sbol:elements>
+  </sbol:Sequence>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb6b00105_43_comp/1">
+    <sbol:version>1</sbol:version>
+    <sbh:supplementalFile rdf:resource="pdf"/>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb6b00105_43_sequence/1"/>
+    <sbol:displayId>sb6b00105_43_comp</sbol:displayId>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb6b00105_43_comp"/>
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.6b00105"/>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb6b00105_48_comp/1">
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb6b00105_48_comp"/>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbol:version>1</sbol:version>
+    <sbh:supplementalFile rdf:resource="pdf"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb6b00105_48_sequence/1"/>
+    <sbol:displayId>sb6b00105_48_comp</sbol:displayId>
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.6b00105"/>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb6b00105_4_comp/1">
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbh:supplementalFile rdf:resource="pdf"/>
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.6b00105"/>
+    <sbol:displayId>sb6b00105_4_comp</sbol:displayId>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb6b00105_4_sequence/1"/>
+    <sbol:version>1</sbol:version>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb6b00105_4_comp"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb6b00105_12_comp/1">
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb6b00105_12_comp"/>
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.6b00105"/>
+    <sbol:displayId>sb6b00105_12_comp</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbh:supplementalFile rdf:resource="pdf"/>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb6b00105_12_sequence/1"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb6b00105_42_comp/1">
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb6b00105_42_comp"/>
+    <sbol:displayId>sb6b00105_42_comp</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbh:supplementalFile rdf:resource="pdf"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb6b00105_42_sequence/1"/>
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.6b00105"/>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb6b00105_44_comp/1">
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.6b00105"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb6b00105_44_comp"/>
+    <sbol:version>1</sbol:version>
+    <sbh:supplementalFile rdf:resource="pdf"/>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb6b00105_44_sequence/1"/>
+    <sbol:displayId>sb6b00105_44_comp</sbol:displayId>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb6b00105_13_comp/1">
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.6b00105"/>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb6b00105_13_sequence/1"/>
+    <sbol:version>1</sbol:version>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb6b00105_13_comp"/>
+    <sbh:supplementalFile rdf:resource="pdf"/>
+    <sbol:displayId>sb6b00105_13_comp</sbol:displayId>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+  </sbol:ComponentDefinition>
 </rdf:RDF>

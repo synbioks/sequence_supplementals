@@ -1,0 +1,207 @@
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:sbh="https://wiki.synbiohub.org/wiki/Terms/synbiohub#" xmlns:sbol="http://sbols.org/v2#" xmlns:ns0="http://www.w3.org/ns/prov#" xmlns:ns1="http://purl.org/dc/elements/1.1/" xmlns:ns2="http://purl.org/dc/terms/" xmlns:ns3="http://purl.obolibrary.org/obo/">
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb500300d_2_sequence/1">
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb500300d_2_sequence"/>
+    <sbol:displayId>sb500300d_2_sequence</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <sbol:elements>cccctcgagtttgactcta</sbol:elements>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+  </sbol:Sequence>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb500300d_3_comp/1">
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbh:supplementalFile rdf:resource="file:///C:/Users/JVM/Downloads/sequence_supplementals/synbict_output/pdf"/>
+    <sbol:displayId>sb500300d_3_comp</sbol:displayId>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb500300d_3_sequence/1"/>
+    <sbol:version>1</sbol:version>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb500300d_3_comp"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/sb500300d"/>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb500300d_2_comp/1">
+    <sbh:supplementalFile rdf:resource="file:///C:/Users/JVM/Downloads/sequence_supplementals/synbict_output/pdf"/>
+    <sbol:version>1</sbol:version>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb500300d_2_sequence/1"/>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbol:displayId>sb500300d_2_comp</sbol:displayId>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb500300d_2_comp"/>
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/sb500300d"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb500300d_1_comp/1">
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbh:supplementalFile rdf:resource="file:///C:/Users/JVM/Downloads/sequence_supplementals/synbict_output/pdf"/>
+    <sbol:displayId>sb500300d_1_comp</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/sb500300d"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb500300d_1_comp"/>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb500300d_1_sequence/1"/>
+  </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb500300d_3_sequence/1">
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb500300d_3_sequence"/>
+    <sbol:displayId>sb500300d_3_sequence</sbol:displayId>
+    <sbol:elements>ctaatctgactcatg</sbol:elements>
+    <sbol:version>1</sbol:version>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb500300d_1_sequence/1">
+    <sbol:version>1</sbol:version>
+    <sbol:displayId>sb500300d_1_sequence</sbol:displayId>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:elements>tagagtcaaac</sbol:elements>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb500300d_1_sequence"/>
+  </sbol:Sequence>
+  <sbol:Collection rdf:about="http://examples.org/sb500300d/1">
+    <ns1:creator>Andre&#769; Este&#769;vez-Torres</ns1:creator>
+    <ns1:subject>in silico</ns1:subject>
+    <ns2:references>Hodgman, C. E., Jewett, M. C. Cell-free synthetic biology: Thinking outside the cell Metab. Eng. 2012. 14:261-269.</ns2:references>
+    <ns1:subject>solid lines</ns1:subject>
+    <ns2:references>Chen, Y.-J., Dalchau, N., Srinivas, N., Phillips, A., Cardelli, L., Soloveichik, D., Seelig, G. Programmable chemical controllers made from DNA Nat. Nanotechnol. 2013. 8:755-762.</ns2:references>
+    <ns1:creator>Zandra C. Fe&#769;lix Garza</ns1:creator>
+    <ns2:references>Barkai, N., Leibler, S. Robustness in simple biochemical networks Nature 1997. 387:913-917.</ns2:references>
+    <ns2:references>Padirac, A., Fujii, T., Rondelez, Y. Bottom-up construction of in vitro switchable memories Proc. Natl. Acad. Sci. U.S.A. 2012. 109:E3212-E3220.</ns2:references>
+    <ns2:references>Kirkpatrick, S., Gelatt, C. D., Vecchi, M. P. Optimization by simulated annealing Science 1983. 220:671-680.</ns2:references>
+    <ns2:references>Hafner, M. , Petrov, T. , Lu, J. , and Koeppl, H. (2011) Rational design of robust biomolecular circuits: From specification to parameters. In Design and Analysis of Biomolecular Circuits: Engineering Approaches to Systems and Synthetic Biology ( Koeppl, H. , Densmore, D. , Setti, G. , and di Bernardo, M. , Eds.), pp 253&#8211;280, Springer, New York.</ns2:references>
+    <ns2:references>Gardner, T. S., Cantor, C. R., Collins, J. J. Construction of a genetic toggle switch in Escherichia coli Nature 2000. 403:339-342.</ns2:references>
+    <ns1:subject>DNA polymerase</ns1:subject>
+    <ns2:title>Automated Design of Programmable Enzyme-Driven DNA Circuits</ns2:title>
+    <ns1:subject>polymerase</ns1:subject>
+    <sbol:member rdf:resource="http://examples.org/Sequence/sb500300d_2_sequence/1"/>
+    <ns1:subject>bottom-up synthetic
+biology</ns1:subject>
+    <ns1:subject>nickase&#8211;exonuclease</ns1:subject>
+    <sbol:member rdf:resource="http://examples.org/Sequence/sb500300d_1_sequence/1"/>
+    <ns2:references>Siegal-Gaskins, D., Tuza, Z. A., Kim, J., Noireaux, V., Murray, R. M. Gene circuit performance characterization and resource usage in a cell-free &#8220;breadboard&#8221; ACS Synth. Biol. 2014. 3:416-425.</ns2:references>
+    <ns1:subject>Triton</ns1:subject>
+    <ns2:references>Soloveichik, D., Seelig, G., Winfree, E. DNA as a universal substrate for chemical kinetics Proc. Natl. Acad. Sci. U.S.A. 2010. 107:5393-5398.</ns2:references>
+    <ns1:subject>nicking enzyme</ns1:subject>
+    <ns2:references>Padirac, A., Fujii, T., Rondelez, Y. Nucleic acids for the rational design of reaction circuits Curr. Opin. Biotechnol. 2013. 24:575-580.</ns2:references>
+    <ns0:wasDerivedFrom rdf:resource="https://pubs.acs.org/doi/10.1021/sb500300d"/>
+    <ns1:subject>exoN</ns1:subject>
+    <ns1:subject>T 1</ns1:subject>
+    <ns2:references>Montagne, K., Plasson, R., Sakai, Y., Fujii, T., Rondelez, Y. Programming an in vitro DNA oscillator using a molecular networking strategy Mol. Syst. Biol. 2011. 7.</ns2:references>
+    <ns1:subject>Polymerase</ns1:subject>
+    <ns1:creator>Lenny H. H. Meijer</ns1:creator>
+    <ns1:subject>polymerase&#8211;exonuclease&#8211;nickase</ns1:subject>
+    <ns1:subject>eqs</ns1:subject>
+    <ns2:references>Venturelli, O. S., El-Samad, H., Murray, R. M. Synergistic dual positive feedback loops established by molecular sequestration generate robust bimodal response Proc. Natl. Acad. Sci. U.S.A. 2012. 109:E3324-E3333.</ns2:references>
+    <ns2:references>Fritz, B. R., Timmerman, L. E., Daringer, N. M., Leonard, J. N., Jewett, M. C. Biology by design: From top to bottom and back J. Biomed. Biotechnol. 2010. 2010.</ns2:references>
+    <sbol:version>1</sbol:version>
+    <ns2:references>Hafner, M., Koeppl, H., Hasler, M., Wagner, A. Glocal robustness analysis and model discrimination for circadian oscillators PLoS Comput. Biol. 2009. 5.</ns2:references>
+    <ns2:created>2014-11-03</ns2:created>
+    <ns2:references>Rodrigo, G., Carrera, J., Jaramillo, A. Genetdes: Automatic design of transcriptional networks Bioinformatics 2007. 23:1857-1858.</ns2:references>
+    <ns2:dateCopyrighted>2014</ns2:dateCopyrighted>
+    <sbol:displayId>sb500300d</sbol:displayId>
+    <ns2:references>Gardner, P. M., Winzer, K., Davis, B. G. Sugar synthesis in a protocellular model leads to a cell signalling response in bacteria Nat. Chem. 2009. 1:377-383.</ns2:references>
+    <ns1:subject>PEN</ns1:subject>
+    <ns1:subject>exonucleases</ns1:subject>
+    <ns1:subject>inh</ns1:subject>
+    <ns2:references>Forster, A. C., Church, G. M. Synthetic biology projects in vitro Genome Res. 2007. 17:1-6.</ns2:references>
+    <ns1:subject>exonuclease RecJ</ns1:subject>
+    <ns1:subject>sulfur</ns1:subject>
+    <ns2:references>Rafelski, S. M., Marshall, W. F. Building the cell: Design principles of cellular architecture Nat. Rev. Mol. Cell Biol. 2008. 9:593-602.</ns2:references>
+    <ns2:references>Aubert, N., Mosca, C., Fujii, T., Hagiya, M., Rondelez, Y. Computer-assisted design for scaling up systems based on DNA reaction networks J. R. Soc. Interface 2014. 11.</ns2:references>
+    <ns2:isPartOf>ACS Synthetic Biology</ns2:isPartOf>
+    <ns2:references>Hasatani, K., Leocmach, M., Genot, A. J., Este&#769;vez-Torres, A., Fujii, T., Rondelez, Y. High-throughput and long-term observation of compartmentalized biochemical oscillators Chem. Commun. 2013. 49:8090-8092.</ns2:references>
+    <ns2:references>Nova&#769;k, B., Tyson, J. J. Design principles of biochemical oscillators Nat. Rev. Mol. Cell Biol. 2008. 9:981-991.</ns2:references>
+    <ns2:references>Goldbeter, A., Koshland, D. E. Ultrasensitivity in biochemical systems controlled by covalent modification. Interplay between zero-order and multistep effects J. Biol. Chem. 1984. 259:14441-14447.</ns2:references>
+    <ns2:references>Knox, B. E., Devreotes, P. N., Goldbeter, A., Segel, L. A. A molecular mechanism for sensory adaptation based on ligand-induced receptor modification Proc. Natl. Acad. Sci. U.S.A. 1986. 83:2345-2349.</ns2:references>
+    <ns1:subject>ssDNA</ns1:subject>
+    <ns2:references>Fujii, T., Rondelez, Y. Predator&#8211;prey molecular ecosystems ACS Nano 2013. 7:27-34.</ns2:references>
+    <ns1:creator>Antonios Zagaris</ns1:creator>
+    <ns2:rightsHolder>American Chemical Society</ns2:rightsHolder>
+    <ns2:description>Molecular programming allows for the bottom-up engineering of biochemical reaction networks in a controlled in vitro setting. These engineered biochemical reaction networks yield important insight in the design principles of biological systems and can potentially enrich molecular diagnostic systems. The DNA polymerase&#8211;nickase&#8211;exonuclease (PEN) toolbox has recently been used to program oscillatory and bistable biochemical networks using a minimal number of components. Previous work has reported the automatic construction of in silico descriptions of biochemical networks derived from the PEN toolbox, paving the way for generating networks of arbitrary size and complexity in vitro. Here, we report an automated approach that further bridges the gap between an in silico description and in vitro realization. A biochemical network of arbitrary complexity can be globally screened for parameter values that display the desired function and combining this approach with robustness analysis further increases the chance of successful in vitro implementation. Moreover, we present an automated design procedure for generating optimal DNA sequences, exhibiting key characteristics deduced from the in silico analysis. Our in silico method has been tested on a previously reported network, the Oligator, and has also been applied to the design of a reaction network capable of displaying adaptation in one of its components. Finally, we experimentally characterize unproductive sequestration of the exonuclease to phosphorothioate protected ssDNA strands. The strong nonlinearities in the degradation of active components caused by this unintended cross-coupling are shown computationally to have a positive effect on adaptation quality.</ns2:description>
+    <ns1:subject>DNA
+sequence design</ns1:subject>
+    <ns2:references>Ma, W., Trusina, A., El-Samad, H., Lim, W. A., Tang, C. Defining network topologies that can achieve biochemical adaptation Cell 2009. 138:760-773.</ns2:references>
+    <ns2:dateSubmitted>2014-08-14</ns2:dateSubmitted>
+    <ns2:references>Prindle, A., Selimkhanov, J., Li, H., Razinkov, I., Tsimring, L. S., Hasty, J. Rapid and tunable post-translational coupling of genetic circuits Nature 2014. 508:387-391.</ns2:references>
+    <sbol:member rdf:resource="http://examples.org/Sequence/sb500300d_3_sequence/1"/>
+    <ns1:creator>Tom F. A. de Greef</ns1:creator>
+    <ns1:subject>Exonuclease</ns1:subject>
+    <ns1:subject>water-in-oil</ns1:subject>
+    <ns2:references>Kim, J., Khetarpal, I., Sen, S., Murray, R. M. Synthetic circuit for exact adaptation and fold-change detection Nucleic Acids Res. 2014. 42:6078-6089.</ns2:references>
+    <ns1:creator>Hendrik W. H. van Roekel</ns1:creator>
+    <ns2:references>Muzzey, D., Go&#769;mez-Uribe, C. A., Mettetal, J. T., van Oudenaarden, A. A systems-level analysis of perfect adaptation in yeast osmoregulation Cell 2009. 138:160-171.</ns2:references>
+    <ns1:subject>Thermus thermophilus</ns1:subject>
+    <ns2:references>Noireaux, V., Maeda, Y. T., Libchaber, A. Development of an artificial cell, from self-organization to computation and self-reproduction Proc. Natl. Acad. Sci. U.S.A. 2011. 108:3473-3480.</ns2:references>
+    <ns1:type>research-article</ns1:type>
+    <ns2:references>Behar, M., Hoffmann, A. Understanding the temporal codes of intra-cellular signals Curr. Opin. Genet. Dev. 2010. 20:684-693.</ns2:references>
+    <ns1:subject>ttRecJ exonuclease</ns1:subject>
+    <ns2:references>Bray, D., Levin, M. D., Morton-Firth, C. J. Receptor clustering as a cellular mechanism to control sensitivity Nature 1998. 393:85-88.</ns2:references>
+    <ns2:references>Weitz, M., Kim, J., Kapsner, K., Winfree, E., Franco, E., Simmel, F. C. Diversity in the dynamical behavior of a compartmentalized programmable biochemical oscillator Nat. Chem. 2014. 6:295-302.</ns2:references>
+    <ns2:references>Rust, M. J., Markson, J. S., Lane, W. S., Fisher, D. S., O&#8217;Shea, E. K. Ordered phosphorylation governs oscillation of a three-protein circadian clock Science 2007. 318:809-812.</ns2:references>
+    <ns2:references>Tabor, J. J., Salis, H. M., Simpson, Z. B., Chevalier, A. A., Levskaya, A., Marcotte, E. M., Voigt, C. A., Ellington, A. D. A synthetic genetic edge detection program Cell 2009. 137:1272-1281.</ns2:references>
+    <ns1:creator>Mark A. Peletier</ns1:creator>
+    <ns2:references>Cellie&#768;re, G., Fengos, G., Herve&#769;, M., Iber, D. The plasticity of TGF-&#223; signaling BMC Syst. Biol. 2011. 5.</ns2:references>
+    <ns2:references>Artyukhin, A. B., Wu, L. F., Altschuler, S. J. Only two ways to achieve perfection Cell 2009. 138:619-621.</ns2:references>
+    <ns2:references>Zadeh, J. N., Steenberg, C. D., Bois, J. S., Wolfe, B. R., Pierce, M. B., Khan, A. R., Dirks, R. M., Pierce, N. A. NUPACK: Analysis and design of nucleic acid systems J. Comput. Chem. 2011. 32:170-173.</ns2:references>
+    <ns1:subject>CRNs</ns1:subject>
+    <ns2:references>Tu, Y. Quantitative modeling of bacterial chemotaxis: Signal amplification and accurate adaptation Annu. Rev. Biophys. 2013. 42:337-359.</ns2:references>
+    <ns1:subject>inhT 2</ns1:subject>
+    <ns2:dateAccepted>2014-11-03</ns2:dateAccepted>
+    <ns2:references>Wakamatsu, T., Kitamura, Y., Kotera, Y., Nakagawa, N., Kuramitsu, S., Masui, R. Structure of RecJ exonuclease defines its specificity for single-stranded DNA J. Biol. Chem. 2010. 285:9762-9769.</ns2:references>
+    <ns1:subject>in
+vitro</ns1:subject>
+    <ns2:references>Zhang, D. Y., Winfree, E. Control of DNA strand displacement kinetics using toehold exchange J. Am. Chem. Soc. 2009. 131:17303-17314.</ns2:references>
+    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb500300d_3_comp/1"/>
+    <ns1:creator>Saeed Masroor</ns1:creator>
+    <ns2:references>Dirks, R. M., Bois, J. S., Schaeffer, J. M., Winfree, E., Pierce, N. A. Thermodynamic analysis of interacting nucleic acid strands SIAM Rev. 2007. 49:65-88.</ns2:references>
+    <ns1:publisher>American Chemical
+Society</ns1:publisher>
+    <ns2:references> Dynamic DNA-toolbox reaction circuits: A walkthrough Methods . 67:234-249.</ns2:references>
+    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb500300d_1_comp/1"/>
+    <ns2:references>Hatakeyama, T. S., Kaneko, K. Generic temperature compensation of biological clocks by autonomous regulation of catalyst concentration Proc. Natl. Acad. Sci. U.S.A. 2012. 109:8109-8114.</ns2:references>
+    <ns1:subject>nickase</ns1:subject>
+    <ns2:references>Franco, E., Friedrichs, E., Kim, J., Jungmann, R., Murray, R., Winfree, E., Simmel, F. C. Timing molecular motion and production with a synthetic transcriptional clock Proc. Natl. Acad. Sci. U.S.A. 2011. 108:E784-E793.</ns2:references>
+    <ns2:references>Yordanov, B., Kim, J., Petersen, R. L., Shudy, A., Kulkarni, V. V., Phillips, A. Computational design of nucleic acid feedback control circuits ACS Synth. Biol. 2014. 3:600-616.</ns2:references>
+    <ns1:subject>exonuclease</ns1:subject>
+    <ns1:subject>inhT 3</ns1:subject>
+    <ns1:subject>phosphorothioate</ns1:subject>
+    <ns2:references>Semenov, S. N., Markvoort, A. J., Gevers, W. B. L., Piruska, A., de Greef, T. F. A., Huck, W. T. S. Ultrasensitivity by molecular titration in spatially propagating enzymatic reactions Biophys. J. 2013. 105:1057-1066.</ns2:references>
+    <ns2:references>Del
+Vecchio, D., Ninfa, A. J., Sontag, E. D. Modular cell biology: Retroactivity and insulation Mol. Syst. Biol. 2008. 4.</ns2:references>
+    <ns2:references>Chen, D., Arkin, A. P. Sequestration-based bistability enables tuning of the switching boundaries and design of a latch Mol. Syst. Biol. 2012. 8.</ns2:references>
+    <ns2:references>Hindmarsh, A. C., Brown, P. N., Grant, K. E., Lee, S. L., Serban, R., Shumaker, D. E., Woodward, C. S. SUNDIALS: Suite of nonlinear and differential/algebraic equation solvers ACM Trans. Math. Software 2005. 31:363-396.</ns2:references>
+    <ns1:subject>-100</ns1:subject>
+    <ns1:subject>Mn 2+</ns1:subject>
+    <ns1:subject>chemical reaction networks</ns1:subject>
+    <ns2:references>Schwille, P., Diez, S. Synthetic biology of minimal systems Crit. Rev. Biochem. Mol. 2009. 44:223-242.</ns2:references>
+    <ns1:subject>polymerase-exonuclease-nickase</ns1:subject>
+    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb500300d_2_comp/1"/>
+    <ns2:references>Szostak, J. W., Bartel, D. P., Luisi, P. L. Synthesizing life Nature 2001. 409:387-390.</ns2:references>
+    <ns2:references>Niederholtmeyer, H., Stepanova, V., Maerkl, S. J. Implementation of cell-free biological networks at steady state Proc. Natl. Acad. Sci. U.S.A. 2013. 110:15985-15990.</ns2:references>
+    <ns2:references>Basu, S., Mehreja, R., Thiberge, S., Chen, M.-T., Weiss, R. Spatiotemporal control of gene expression with pulse-generating networks Proc. Natl. Acad. Sci. U.S.A. 2004. 101:6355-6360.</ns2:references>
+    <ns1:creator>Yannick Rondelez</ns1:creator>
+    <ns2:references>Elowitz, M. B., Leibler, S. A synthetic oscillatory network of transcriptional regulators Nature 2000. 403:335-338.</ns2:references>
+    <ns1:subject>ttRecJ Exonuclease</ns1:subject>
+    <ns1:subject>uracil</ns1:subject>
+    <ns1:subject>polU</ns1:subject>
+    <ns2:references>Subsoontorn, P., Kim, J., Winfree, E. Ensemble Bayesian analysis of bistability in a synthetic transcriptional switch ACS Synth. Biol. 2012. 1:299-316.</ns2:references>
+    <ns2:references>Buchler, N. E., Cross, F. R. Protein sequestration generates a flexible ultrasensitive response in a genetic network Mol. Syst. Biol. 2009. 5.</ns2:references>
+    <ns2:references>Mann, S. Systems of creation: The emergence of life from nonliving matter Acc. Chem. Res. 2012. 45:2131-2141.</ns2:references>
+    <ns1:creator>Peter A. J. Hilbers</ns1:creator>
+    <ns1:subject>cross-talk</ns1:subject>
+    <ns3:OBI_0001617>25365785</ns3:OBI_0001617>
+    <ns1:subject>dashed</ns1:subject>
+    <ns1:subject>phosphate</ns1:subject>
+    <ns2:references>Padirac, A., Fujii, T., Este&#769;vez-Torres, A., Rondelez, Y. Spatial waves in synthetic biochemical networks J. Am. Chem. Soc. 2013. 135:14586-14592.</ns2:references>
+    <ns2:references>Luisi, P. L., Stano, P. Synthetic biology: Minimal cell mimicry Nat. Chem. 2011. 3:755-756.</ns2:references>
+    <ns2:references>Seeman, N. C. Nucleic acid junctions and lattices J. Theor. Biol. 1982. 99:237-247.</ns2:references>
+    <ns2:references>Van
+Ness, J., Van Ness, L. K., Galas, D. J. Isothermal reactions for the amplification of oligonucleotides Proc. Natl. Acad. Sci. U.S.A. 2003. 100:4504-4509.</ns2:references>
+    <ns2:references>Alon, U. Network motifs: Theory and experimental approaches Nat. Rev. Genet. 2007. 8:450-461.</ns2:references>
+    <ns2:references>Kim, J., Winfree, E. Synthetic in vitro transcriptional oscillators Mol. Syst. Biol. 2011. 7.</ns2:references>
+    <ns2:abstract>Molecular programming allows for the bottom-up engineering of biochemical reaction networks in a controlled in vitro setting. These engineered biochemical reaction networks yield important insight in the design principles of biological systems and can potentially enrich molecular diagnostic systems. The DNA polymerase&#8211;nickase&#8211;exonuclease (PEN) toolbox has recently been used to program oscillatory and bistable biochemical networks using a minimal number of components. Previous work has reported the automatic construction of in silico descriptions of biochemical networks derived from the PEN toolbox, paving the way for generating networks of arbitrary size and complexity in vitro. Here, we report an automated approach that further bridges the gap between an in silico description and in vitro realization. A biochemical network of arbitrary complexity can be globally screened for parameter values that display the desired function and combining this approach with robustness analysis further increases the chance of successful in vitro implementation. Moreover, we present an automated design procedure for generating optimal DNA sequences, exhibiting key characteristics deduced from the in silico analysis. Our in silico method has been tested on a previously reported network, the Oligator, and has also been applied to the design of a reaction network capable of displaying adaptation in one of its components. Finally, we experimentally characterize unproductive sequestration of the exonuclease to phosphorothioate protected ssDNA strands. The strong nonlinearities in the degradation of active components caused by this unintended cross-coupling are shown computationally to have a positive effect on adaptation quality.</ns2:abstract>
+    <ns2:references>Kim, J., White, K. S., Winfree, E. Construction of an in vitro bistable circuit from synthetic transcriptional switches Mol. Syst. Biol. 2006. 2.</ns2:references>
+    <ns2:references>Rondelez, Y. Competition for catalytic resources alters biological network dynamics Phys. Rev. Lett. 2012. 108.</ns2:references>
+    <ns3:OBI_0002110 rdf:resource="https://doi.org/10.1021/sb500300d"/>
+    <ns2:type rdf:resource="http://purl.org/dc/dcmitype/Text"/>
+    <ns2:isPartOf rdf:resource="http://pubs.acs.org/journal/asbcd6"/>
+    <ns1:subject>Mg 2+</ns1:subject>
+    <ns2:references>Franco, E., Giordano, G., Forsberg, P.-O., Murray, R. M. Negative autoregulation matches production and demand in synthetic transcriptional networks ACS Synth. Biol. 2014. 3:589-599.</ns2:references>
+    <ns2:references>Zamora-Sillero, E., Hafner, M., Ibig, A., Stelling, J., Wagner, A. Efficient characterization of high-dimensional parameter spaces for systems biology BMC Syst. Biol. 2011. 5.</ns2:references>
+    <ns2:references>Semenov, S. N., Markvoort, A. J., de Greef, T. F. A., Huck, W. T. S. Threshold sensing through a synthetic enzymatic reaction&#8211;diffusion network Angew. Chem., Int. Ed. 2014. 53:8066-8069.</ns2:references>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/sb500300d"/>
+    <ns1:subject>ttRecJ</ns1:subject>
+  </sbol:Collection>
+</rdf:RDF>

@@ -1,0 +1,68 @@
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:sbh="https://wiki.synbiohub.org/wiki/Terms/synbiohub#" xmlns:sbol="http://sbols.org/v2#" xmlns:ns0="http://www.w3.org/ns/prov#" xmlns:ns1="http://purl.org/dc/elements/1.1/" xmlns:ns2="http://purl.org/dc/terms/" xmlns:ns3="http://purl.obolibrary.org/obo/">
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb9b00224_1_sequence/1">
+    <sbol:displayId>sb9b00224_1_sequence</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <sbol:elements>catgatgcatgtgaacaagaaaacagtgaagc</sbol:elements>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb9b00224_1_sequence"/>
+  </sbol:Sequence>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb9b00224_1_comp/1">
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb9b00224_1_comp"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbh:supplementalFile rdf:resource="file:///C:/Users/JVM/Downloads/sequence_supplementals/synbict_output/sb9b00224/suppl/sb-2019-00224x_si_002.pdf"/>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb9b00224_1_sequence/1"/>
+    <sbol:version>1</sbol:version>
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.9b00224"/>
+    <sbol:displayId>sb9b00224_1_comp</sbol:displayId>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb9b00224_2_comp/1">
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb9b00224_2_sequence/1"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:displayId>sb9b00224_2_comp</sbol:displayId>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbh:supplementalFile rdf:resource="file:///C:/Users/JVM/Downloads/sequence_supplementals/synbict_output/sb9b00224/suppl/sb-2019-00224x_si_002.pdf"/>
+    <sbol:version>1</sbol:version>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb9b00224_2_comp"/>
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.9b00224"/>
+  </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb9b00224_2_sequence/1">
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb9b00224_2_sequence"/>
+    <sbol:version>1</sbol:version>
+    <sbol:elements>catgaccggtcatgcctgcagttcagatcc</sbol:elements>
+    <sbol:displayId>sb9b00224_2_sequence</sbol:displayId>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+  </sbol:Sequence>
+  <sbol:Collection rdf:about="http://examples.org/sb9b00224/1">
+    <ns1:creator>Gabrielle Guesdon</ns1:creator>
+    <ns1:creator>Carole Lartigue</ns1:creator>
+    <ns2:rightsHolder>American Chemical Society</ns2:rightsHolder>
+    <sbol:member rdf:resource="http://examples.org/Sequence/sb9b00224_1_sequence/1"/>
+    <ns1:publisher>American Chemical
+Society</ns1:publisher>
+    <ns2:isPartOf>ACS Synthetic Biology</ns2:isPartOf>
+    <ns2:dateSubmitted>2019-05-22</ns2:dateSubmitted>
+    <ns1:creator>Marie-Pierre Dubrana</ns1:creator>
+    <ns1:creator>Pascal Sirand-Pugnet</ns1:creator>
+    <ns1:creator>Yonathan Arfi</ns1:creator>
+    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb9b00224_1_comp/1"/>
+    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb9b00224_2_comp/1"/>
+    <ns3:OBI_0002110 rdf:resource="https://doi.org/10.1021/acssynbio.9b00224"/>
+    <ns3:OBI_0001617>31663334</ns3:OBI_0001617>
+    <ns1:creator>Estelle Ruiz</ns1:creator>
+    <ns2:isPartOf rdf:resource="http://pubs.acs.org/journal/asbcd6"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/sb9b00224"/>
+    <ns0:wasDerivedFrom rdf:resource="https://pubs.acs.org/doi/10.1021/acssynbio.9b00224"/>
+    <sbol:member rdf:resource="http://examples.org/Sequence/sb9b00224_2_sequence/1"/>
+    <ns1:creator>Maria Lluch-Senar</ns1:creator>
+    <ns1:creator>Vincent Talenton</ns1:creator>
+    <ns1:creator>Franck Salin</ns1:creator>
+    <ns2:abstract>Over the past decade, a new strategy was developed to bypass the difficulties to genetically engineer some microbial species by transferring (or &#8220;cloning&#8221;) their genome into another organism that is amenable to efficient genetic modifications and therefore acts as a living workbench. As such, the yeast Saccharomyces cerevisiae has been used to clone and engineer genomes from viruses, bacteria, and algae. The cloning step requires the insertion of yeast genetic elements in the genome of interest, in order to drive its replication and maintenance as an artificial chromosome in the host cell. Current methods used to introduce these genetic elements are still unsatisfactory, due either to their random nature (transposon) or the requirement for unique restriction sites at specific positions (TAR cloning). Here we describe the CReasPy-cloning, a new method that combines both the ability of Cas9 to cleave DNA at a user-specified locus and the yeast&#8217;s highly efficient homologous recombination to simultaneously clone and engineer a bacterial chromosome in yeast. Using the 0.816 Mbp genome of Mycoplasma pneumoniae as a proof of concept, we demonstrate that our method can be used to introduce the yeast genetic element at any location in the bacterial chromosome while simultaneously deleting various genes or group of genes. We also show that CReasPy-cloning can be used to edit up to three independent genomic loci at the same time with an efficiency high enough to warrant the screening of a small (</ns2:abstract>
+    <ns2:type rdf:resource="http://purl.org/dc/dcmitype/Text"/>
+    <sbol:displayId>sb9b00224</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <ns2:dateCopyrighted>2019</ns2:dateCopyrighted>
+    <ns2:title>CReasPy-Cloning: A Method for Simultaneous Cloning and Engineering of Megabase-Sized Genomes in Yeast Using the CRISPR-Cas9 System</ns2:title>
+    <ns1:type>research-article</ns1:type>
+  </sbol:Collection>
+</rdf:RDF>

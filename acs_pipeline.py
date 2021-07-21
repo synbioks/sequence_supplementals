@@ -71,7 +71,7 @@ def seq_file_reader(seq_file, sbol_doc, annotator, annotated_num=0):
         
     with open(seq_file, 'rt') as names:
         member_obj = []
-        print(seq_file)
+        #print(seq_file)
         #split file based on > at the start of each information row
         rows = names.read().split('>')
         for i, row in enumerate(rows):
@@ -93,8 +93,12 @@ def seq_file_reader(seq_file, sbol_doc, annotator, annotated_num=0):
                 component, annotated_num = synbict_use(sequence, f'{articleID}_{i}', annotator, annotated_num=annotated_num)
                 component.wasGeneratedBy =  "https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"
                 component.wasDerivedFrom = f'https://doi.org/{doi}'
+                file_type = pathname_of_file[pathname_of_file.rindex('.')+1:]
                 component.supplementalFile = sbol2.URIProperty(component, 'https://wiki.synbiohub.org/wiki/Terms/synbiohub#supplementalFile', 0, 1, [])
+                component.supplementalFileType = sbol2.URIProperty(component, 'https://wiki.synbiohub.org/wiki/Terms/synbiohub#supplementalFileType', 0, 1, [])
+                # print(pathname_of_file, file_type)
                 component.supplementalFile = pathname_of_file.replace(' ','_')
+                component.supplementalFile = file_type
                 # collect_obj.members += [component.identity]
                 
                 if sequence_name != "unknown" and sequence_name != "_unknown_seq":
@@ -119,7 +123,7 @@ def synbict_use(target_seq, seq_name, annotator, min_target_length=0, annotated_
     # print(annotated_list)
 
     if (len(annotated_list.componentDefinitions)-1)>0:
-        print(len(annotated_list.componentDefinitions)-1)
+        #print(len(annotated_list.componentDefinitions)-1)
         annotated_num += 1
     for comp in annotated_list.componentDefinitions:
         if comp.displayId == f'{seq_name}_comp':
@@ -140,7 +144,7 @@ seq_files = set([x.replace('.seq.txt', '') for x in seq_files])
 
 # make list of all papers
 ACS_doc = sbol2.Document()
-ACS_doc.read(os.path.join(cwd, 'ACS_collection.xml'))
+ACS_doc.read(os.path.join(cwd, 'ACS_collection_sbolnr.xml'))
 for col in ACS_doc.collections:
     papers_list = list(col.members)
     num_papers = len(papers_list)
@@ -153,11 +157,11 @@ for col in ACS_doc.collections:
 ## 2190 annotated of 88,509 plus sb700461 (jiawei says 58055)
 ## loop through papers, if seq file exists make collection and run other two functions and add name to used_seq_files list
 for ind, paper in enumerate(papers_list):
-    if ind>= 0:
-        print(f'ind: {ind}/{num_papers}')
+    if 0 <= ind <= 1554:
+        
         file_name = os.path.split(os.path.split(paper)[0])[1] #this is used to go from uri of the form: https://synbioks.org/public/ACS/sb5b00179/1 to just the sb5b00179 bit
         file_path = os.path.join(cwd,'sequences-files', f'{file_name}.seq.txt')
-        print(file_name)
+        print(f'ind: {ind}/{num_papers}', file_name)
         if os.path.isfile(file_path):
             with open(file_path) as file:
                 # displayId = paper['displayId']
@@ -168,6 +172,6 @@ for ind, paper in enumerate(papers_list):
             exist_list.append(file_name)
             sbol_doc.write(os.path.join(cwd, 'synbict_output', f'{file_name}.xml'))
 #make used_seqfiles list to set and check difference with all seq file set
-exist_list=set(exist_list)
-print(f'annotated_num: {annotated_num}')
+#exist_list=set(exist_list)
+#print(f'annotated_num: {annotated_num}')
 # print(seq_files.difference(exist_list))

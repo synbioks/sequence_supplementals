@@ -1,0 +1,448 @@
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:sbh="https://wiki.synbiohub.org/wiki/Terms/synbiohub#" xmlns:sbol="http://sbols.org/v2#" xmlns:ns0="http://purl.org/dc/terms/" xmlns:ns1="http://www.w3.org/ns/prov#" xmlns:ns2="http://purl.org/dc/elements/1.1/" xmlns:ns3="http://purl.obolibrary.org/obo/">
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb5b00296_5_sequence/1">
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:displayId>sb5b00296_5_sequence</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb5b00296_5_sequence"/>
+    <sbol:elements>atggtgagcaagggcgaggaggataacatggccatcatcaaggagttcatgcgcttcaaggtgcacatggagggctccgtgaacggccacgagttcgagatcgagggcgagggcgagggccgcccctacgagggcacccagaccgccaagctgaaggtgaccaagggtggccccctgcccttcgcctgggacatcctgtcccctcagttcatgtacggctccaaggcctacgtgaagcaccccgccgacatccccgactacttgaagctgtccttccccgagggcttcaagtgggagcgcgtgatgaacttcgaggacggcggcgtggtgaccgtgacccaggactcctccctgcaggacggcgagttcatctacaaggtgaagctgcgcggcaccaacttcccctccgacggccccgtaatgcagaagaagaccatgggctgggaggcctcctccgagcggatgtaccccgaggacggcgccctgaagggcgagatcaagcagaggctgaagctgaaggacggcggccactacgacgctgaggtcaagaccacctacaaggccaagaagcccgtgcagctgcccggcgcctacaacgtcaacatcaagttggacatcacctcccacaacgaggactacaccatcgtggaacagtacgaacgcgccgagggccgccactccaccggcggcatggacgagctgtacaagtaaatggtgagcaagggcgaagaagataacatggccatcatcaaggagttcatgcgcttcaaggtgcacatggagggctccgtgaacggccacgagttcgagatcgagggcgagggcgagggccgcccctacgagggcacccagaccgccaagctgaaggtgaccaagggtggccccctgcccttcgcctgggacatcctgtcccctcagttcatgtacggctccaaggcctacgtgaagcaccccgccgacatccccgactacttgaagctgtccttccccgagggcttcaagtgggagcgcgtgatgaacttcgaggacggcggcgtggtgaccgtgacccaggactcctccctgcaggacggcgagttcatctacaaggtgaagctgcgcggcaccaacttcccctccgacggccccgtaatgcagaagaagaccatgggctgggaggcctcctccgagcggatgtaccccgaggacggcgccctgaagggcgagatcaagcagaggctgaagctgaaggacggcggccactacgacgctgaggtcaagaccacctacaaggccaagaagcccgtgcagctgcccggcgcctacaacgtcaacatcaagttggacatcacctcccacaacgaggactacaccatcgtggaacagtacgaacgcgccgagggccgccactccaccggcggcatggacgagctgtacaagtaa</sbol:elements>
+  </sbol:Sequence>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb5b00296_1_comp/1">
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="http://examples.org/ComponentDefinition/sb5b00296_1_comp/deGFP_anno_1/1">
+        <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb5b00296_1_comp/deGFP_anno_1"/>
+        <ns0:description>Mutant of eGFP, modified for efficient translation in E. coli cell free extract (TX-TL). Commonly used for characterization of TX-TL extract.</ns0:description>
+        <sbol:version>1</sbol:version>
+        <sbol:displayId>deGFP_anno_1</sbol:displayId>
+        <ns0:title>deGFP</ns0:title>
+        <sbol:location>
+          <sbol:Range rdf:about="http://examples.org/ComponentDefinition/sb5b00296_1_comp/deGFP_anno_1/deGFP_anno_1_loc/1">
+            <sbol:version>1</sbol:version>
+            <sbol:end>1398</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:start>721</sbol:start>
+            <sbol:displayId>deGFP_anno_1_loc</sbol:displayId>
+            <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb5b00296_1_comp/deGFP_anno_1/deGFP_anno_1_loc"/>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:component rdf:resource="http://examples.org/ComponentDefinition/sb5b00296_1_comp/deGFP_comp_1/1"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb5b00296_1_comp"/>
+    <sbh:supplementalFile rdf:resource="file:///C:/Users/JVM/Downloads/sequence_supplementals/synbict_output/pdf"/>
+    <sbol:component>
+      <sbol:Component rdf:about="http://examples.org/ComponentDefinition/sb5b00296_1_comp/deGFP_comp_1/1">
+        <sbol:definition rdf:resource="https://synbioks.org/public/CIDAR_MoClo_Extension_Kit_Volume_I_Murray_Lab/deGFP/1"/>
+        <sbol:displayId>deGFP_comp_1</sbol:displayId>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:version>1</sbol:version>
+        <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb5b00296_1_comp/deGFP_comp_1"/>
+        <ns0:title>deGFP</ns0:title>
+      </sbol:Component>
+    </sbol:component>
+    <sbol:displayId>sb5b00296_1_comp</sbol:displayId>
+    <ns1:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.5b00296"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <ns1:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb5b00296_1_sequence/1"/>
+    <sbol:version>1</sbol:version>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb5b00296_7_comp/1">
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb5b00296_7_sequence/1"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb5b00296_7_comp"/>
+    <ns1:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.5b00296"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <ns1:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbol:version>1</sbol:version>
+    <sbol:displayId>sb5b00296_7_comp</sbol:displayId>
+    <sbh:supplementalFile rdf:resource="file:///C:/Users/JVM/Downloads/sequence_supplementals/synbict_output/pdf"/>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb5b00296_8_comp/1">
+    <ns1:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.5b00296"/>
+    <sbol:displayId>sb5b00296_8_comp</sbol:displayId>
+    <ns1:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb5b00296_8_sequence/1"/>
+    <sbol:version>1</sbol:version>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb5b00296_8_comp"/>
+    <sbh:supplementalFile rdf:resource="file:///C:/Users/JVM/Downloads/sequence_supplementals/synbict_output/pdf"/>
+  </sbol:ComponentDefinition>
+  <sbol:Collection rdf:about="http://examples.org/sb5b00296/1">
+    <ns2:subject>violacein</ns2:subject>
+    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb5b00296_8_comp/1"/>
+    <ns0:references>Lentini, R., Forlin, M., Martini, L., Del Bianco, C., Spencer, A. C., Torino, D., Mansy, S. S. Fluorescent proteins and in vitro genetic organization for cell-free synthetic biology ACS Synth. Biol. 2013. 2:482-489.</ns0:references>
+    <ns0:references>Worst, E. G., Exner, M. P., De Simone, A., Schenkelberger, M., Noireaux, V., Budisa, N., Ott, A. Cell-free expression with the toxic amino acid canavanine Bioorg. Med. Chem. Lett. 2015. 25:3658-3660.</ns0:references>
+    <ns0:references>Cai, Q., Hanson, J. A., Steiner, A. R., Tran, C., Masikat, M. R., Chen, R., Zawada, J. F., Sato, A. K., Hallam, T. J., Yin, G. A simplified and robust protocol for immunoglobulin expression in Escherichia coli cell-free protein synthesis systems Biotechnol. Prog. 2015. 31.</ns0:references>
+    <ns2:subject>gamS</ns2:subject>
+    <ns1:wasDerivedFrom rdf:resource="https://pubs.acs.org/doi/10.1021/acssynbio.5b00296"/>
+    <ns2:subject>protease</ns2:subject>
+    <ns2:subject>&#963; 19</ns2:subject>
+    <ns2:subject>PEG8000</ns2:subject>
+    <ns2:subject>sigma factor &#963; 28</ns2:subject>
+    <ns0:references>Noireaux, V., Maeda, Y. T., Libchaber, A. Development of an artificial cell, from self-organization to computation and self-reproduction Proc. Natl. Acad. Sci. U. S. A. 2011. 108:3473-3480.</ns0:references>
+    <ns0:dateAccepted>2016-01-27</ns0:dateAccepted>
+    <sbol:member rdf:resource="http://examples.org/Sequence/sb5b00296_7_sequence/1"/>
+    <ns0:references>Sun, Z. Z., Hayes, C. A., Shin, J., Caschera, F., Murray, R. M., Noireaux, V. Protocols for implementing an Escherichia coli based TX-TL cell-free expression system for synthetic biology J. Visualized Exp. 2013.</ns0:references>
+    <ns2:subject>flavin adenine dinucleotide</ns2:subject>
+    <ns0:references>Orsini, G., Ouhammouch, M., Le Caer, J. P., Brody, E. N. The asiA gene of bacteriophage T4 codes for the anti-sigma 70 protein J. Bacteriol. 1993. 175:85-93.</ns0:references>
+    <ns2:subject>Staphylococcus aureus</ns2:subject>
+    <ns2:subject>ClpXP proteases</ns2:subject>
+    <ns2:subject>TX</ns2:subject>
+    <ns2:subject>recBCD complex</ns2:subject>
+    <ns2:subject>major capsid protein 10A</ns2:subject>
+    <ns0:references>Heyman, Y., Buxboim, A., Wolf, S. G., Daube, S. S., Bar-Ziv, R. H. Cell-free protein synthesis and assembly on a biochip Nat. Nanotechnol. 2012. 7:374-378.</ns0:references>
+    <ns0:references>Niederholtmeyer, H., Stepanova, V., Maerkl, S. J. Implementation of cell-free biological networks at steady state Proc. Natl. Acad. Sci. U. S. A. 2013. 110:15985-15990.</ns0:references>
+    <ns0:references>Maeda, Y. T., Nakadai, T., Shin, J., Uryu, K., Noireaux, V., Libchaber, A. Assembly of MreB Filaments on Liposome Membranes: A Synthetic Biology Approach ACS Synth. Biol. 2012. 1:53-59.</ns0:references>
+    <ns0:references>Lu, Y., Welsh, J. P., Chan, W., Swartz, J. R. Escherichia coli-based cell free production of flagellin and ordered flagellin display on virus-like particles Biotechnol. Bioeng. 2013. 110:2073-2085.</ns0:references>
+    <ns2:subject>MazF interferase</ns2:subject>
+    <ns2:subject>&#963; 28-ssrA</ns2:subject>
+    <ns0:references>Liu, Y. J., Hansen, G. P., Venancio-Marques, A., Baigl, D. Cell-free preparation of functional and triggerable giant proteoliposomes ChemBioChem 2013. 14:2243-2247.</ns0:references>
+    <ns2:subject>sigma transcription factor</ns2:subject>
+    <ns0:references>Jewett, M. C., Fritz, B. R., Timmerman, L. E., Church, G. M. In vitro integration of ribosomal RNA synthesis, ribosome assembly, and translation Mol. Syst. Biol. 2013. 9.</ns0:references>
+    <ns2:subject>UTP</ns2:subject>
+    <sbol:member rdf:resource="http://examples.org/Sequence/sb5b00296_3_sequence/1"/>
+    <ns0:abstract>We report on and provide a detailed characterization of the performance and properties of a recently developed, all                    Escherichia coli                , cell-free transcription and translation system. Gene expression is entirely based on the endogenous translation components and transcription machinery provided by an E. coli cytoplasmic extract, thus expanding the repertoire of regulatory parts to hundreds of elements. We use a powerful metabolism for ATP regeneration to achieve more than 2 mg/mL of protein synthesis in batch mode reactions, and more than 6 mg/mL in semicontinuous mode. While the strength of cell-free expression is increased by a factor of 3 on average, the output signal of simple gene circuits and the synthesis of entire bacteriophages are increased by orders of magnitude compared to previous results. Messenger RNAs and protein degradation, respectively tuned using E. coli MazF interferase and ClpXP AAA+ proteases, are characterized over a much wider range of rates than the first version of the cell-free toolbox. This system is a highly versatile cell-free platform to construct complex biological systems through the execution of DNA programs composed of synthetic and natural bacterial regulatory parts.</ns0:abstract>
+    <ns3:OBI_0001617>26818434</ns3:OBI_0001617>
+    <ns2:subject>FAD</ns2:subject>
+    <ns2:subject>maltose</ns2:subject>
+    <ns0:title>The All E. coli TX-TL Toolbox 2.0: A Platform for Cell-Free Synthetic Biology</ns0:title>
+    <ns2:subject>eGFP</ns2:subject>
+    <ns0:references>Caschera, F., Noireaux, V. Preparation of amino acid mixtures for cell-free expression systems BioTechniques 2015. 58:40-43.</ns0:references>
+    <ns0:references>Chappell, J., Jensen, K., Freemont, P. S. Validation of an entirely in vitro approach for rapid prototyping of DNA regulatory elements for synthetic biology Nucleic Acids Res. 2013. 41:3471-3481.</ns0:references>
+    <ns0:references>Takahashi, M. K., Hayes, C. A., Chappell, J., Sun, Z. Z., Murray, R. M., Noireaux, V., Lucks, J. B. Characterizing and prototyping genetic networks with cell-free transcription-translation reactions Methods 2015. 86.</ns0:references>
+    <ns2:subject>lambda gamS</ns2:subject>
+    <ns0:references>Forlin, M., Lentini, R., Mansy, S. S. Cellular imitations Curr. Opin. Chem. Biol. 2012. 16:586-592.</ns0:references>
+    <ns0:references>Kigawa, T., Yokoyama, S. A continuous cell-free protein synthesis system for coupled transcription-translation J. Biochem. 1991. 110:166-168.</ns0:references>
+    <ns2:subject>&#963; 54</ns2:subject>
+    <ns0:type rdf:resource="http://purl.org/dc/dcmitype/Text"/>
+    <ns2:subject>&#963; 32-ssrA</ns2:subject>
+    <ns0:references>Segall-Shapiro, T. H., Meyer, A. J., Ellington, A. D., Sontag, E. D., Voigt, C. A. A &#8217;resource allocator&#8217; for transcription based on a highly fragmented T7 RNA polymerase Mol. Syst. Biol. 2014. 10.</ns0:references>
+    <ns2:subject>mRuby</ns2:subject>
+    <ns2:subject>lambda</ns2:subject>
+    <ns2:subject>phosphates</ns2:subject>
+    <ns0:references>Caschera, F., Noireaux, V. Integration of biological parts toward the synthesis of a minimal cell Curr. Opin. Chem. Biol. 2014. 22:85-91.</ns0:references>
+    <ns0:references>Shin, J., Noireaux, V. An E. coli cell-free expression toolbox: application to synthetic gene circuits and artificial cells ACS Synth. Biol. 2012. 1:29-41.</ns0:references>
+    <ns2:subject>mRNA interferase MazF</ns2:subject>
+    <ns2:subject>biosynthesis</ns2:subject>
+    <sbol:member rdf:resource="http://examples.org/Sequence/sb5b00296_5_sequence/1"/>
+    <ns0:references>Takahashi, M.
+K., Chappell, J., Hayes, C. A., Sun, Z. Z., Kim, J., Singhal, V., Spring, K. J., Al-Khabouri, S., Fall, C. P., Noireaux, V., Murray, R. M., Lucks, J. B. Rapidly Characterizing the Fast Dynamics of RNA Genetic Circuitry with Cell-Free Transcription-Translation (TX-TL) Systems ACS Synth. Biol. 2015. 4:503-515.</ns0:references>
+    <ns2:subject>sigma factor 70</ns2:subject>
+    <ns0:references>Alon, U. Network motifs: theory and experimental approaches Nat. Rev. Genet. 2007. 8:450-461.</ns0:references>
+    <ns2:subject>cAMP</ns2:subject>
+    <ns0:references>Hovijitra, N. T., Wuu, J. J., Peaker, B., Swartz, J. R. Cell-free synthesis of functional aquaporin Z in synthetic liposomes Biotechnol. Bioeng. 2009. 104:40-49.</ns0:references>
+    <ns2:type>research-article</ns2:type>
+    <ns2:subject>nicotinamide adenine dinucleotide</ns2:subject>
+    <ns2:subject>P 32a</ns2:subject>
+    <ns2:subject>RNA polymerases</ns2:subject>
+    <ns2:subject>vioABCDE operon</ns2:subject>
+    <ns2:subject>P 70a-&#963; 32</ns2:subject>
+    <ns2:subject>ClpXP complex</ns2:subject>
+    <sbol:member rdf:resource="http://examples.org/Sequence/sb5b00296_4_sequence/1"/>
+    <ns2:subject>transcription factor</ns2:subject>
+    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb5b00296_3_comp/1"/>
+    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb5b00296_5_comp/1"/>
+    <ns2:subject>deGFP</ns2:subject>
+    <ns2:subject>PEG</ns2:subject>
+    <ns2:creator>Mark Rustad</ns2:creator>
+    <ns2:subject>NAD</ns2:subject>
+    <ns0:references>Flynn, J. M., Neher, S. B., Kim, Y. I., Sauer, R. T., Baker, T. A. Proteomic discovery of cellular substrates of the ClpXP protease reveals five classes of ClpX-recognition signals Mol. Cell 2003. 11:671-683.</ns0:references>
+    <ns2:subject>anti &#963; 70</ns2:subject>
+    <ns0:references>Niederholtmeyer, H., Sun, Z. Z., Hori, Y., Yeung, E., Verpoorte, A., Murray, R. M., Maerkl, S. J. Rapid cell-free forward engineering of novel genetic ring oscillators eLife 2015.</ns0:references>
+    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb5b00296_2_comp/1"/>
+    <ns2:subject>coenzyme</ns2:subject>
+    <ns2:subject>ompA</ns2:subject>
+    <ns0:references>Shin, J., Noireaux, V. Study of messenger RNA inactivation and protein degradation in an Escherichia coli cell-free expression system J. Biol. Eng. 2010. 4.</ns0:references>
+    <ns2:subject>6-</ns2:subject>
+    <ns2:subject>phospholipids</ns2:subject>
+    <sbol:member rdf:resource="http://examples.org/Sequence/sb5b00296_6_sequence/1"/>
+    <ns2:subject>phospholipid</ns2:subject>
+    <sbol:displayId>sb5b00296</sbol:displayId>
+    <ns2:subject>alpha-hemolysin</ns2:subject>
+    <ns2:subject>egg</ns2:subject>
+    <ns0:references>Balibar, C.
+J., Walsh, C. T. In vitro biosynthesis of violacein from L-tryptophan by the enzymes VioA-E from Chromobacterium violaceum Biochemistry 2006. 45:15444-15457.</ns0:references>
+    <ns2:subject>CTP</ns2:subject>
+    <ns2:subject>folinic acid</ns2:subject>
+    <ns0:references>Maeda, H., Fujita, N., Ishihama, A. Competition among seven Escherichia coli sigma subunits: relative binding affinities to the core RNA polymerase Nucleic Acids Res. 2000. 28:3497-3503.</ns0:references>
+    <ns0:references>He, M. Cell-free protein synthesis: applications in proteomics and biotechnology New Biotechnol. 2008. 25:126-132.</ns0:references>
+    <ns0:references>Shin, J., Jardine, P., Noireaux, V. Genome Replication, Synthesis, and Assembly of the Bacteriophage T7 in a Single Cell-Free Reaction ACS Synth. Biol. 2012. 1:408-413.</ns0:references>
+    <ns0:rightsHolder>American Chemical Society</ns0:rightsHolder>
+    <ns2:subject>NtrC</ns2:subject>
+    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb5b00296_7_comp/1"/>
+    <ns0:references>Albayrak, C., Swartz, J. R. Direct polymerization of proteins ACS Synth. Biol. 2014. 3:353-362.</ns0:references>
+    <ns0:references>Caschera, F., Noireaux, V. Synthesis of 2.3 mg/mL of protein with an all Escherichia coli cell-free transcription-translation system Biochimie 2014. 99:162-168.</ns0:references>
+    <ns2:publisher>American Chemical
+Society</ns2:publisher>
+    <ns2:subject>maltodextrin</ns2:subject>
+    <ns2:subject>Mg-glutamate</ns2:subject>
+    <ns2:subject>Asia</ns2:subject>
+    <ns2:subject>water</ns2:subject>
+    <ns2:subject>&#963; 32</ns2:subject>
+    <ns0:created>2016-01-27</ns0:created>
+    <ns0:references>Spirin, A. S., Baranov, V. I., Ryabova, L. A., Ovodov, S. Y., Alakhov, Y. B. A continuous cell-free translation system capable of producing polypeptides in high yield Science 1988. 242:1162-1164.</ns0:references>
+    <ns0:references>Matsubayashi, H., Kuruma, Y., Ueda, T. In Vitro Synthesis of the E. coli Sec Translocon from DNA Angew. Chem., Int. Ed. 2014. 53:7535-7538.</ns0:references>
+    <ns2:creator>Jonathan Garamella</ns2:creator>
+    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb5b00296_1_comp/1"/>
+    <ns0:references>Zhang, J., Zhang, Y., Inouye, M. Characterization of the interactions within the mazEF addiction module of Escherichia coli J. Biol. Chem. 2003. 278:32300-32306.</ns0:references>
+    <ns2:subject>MazF</ns2:subject>
+    <ns2:subject>gene circuits
+prototyping</ns2:subject>
+    <ns2:subject>sigma factors</ns2:subject>
+    <sbol:member rdf:resource="http://examples.org/Sequence/sb5b00296_8_sequence/1"/>
+    <ns0:references>Karzbrun, E., Tayar, A. M., Noireaux, V., Bar-Ziv, R. H. Programmable on-chip DNA compartments as artificial cells Science 2014. 345:829-832.</ns0:references>
+    <ns2:subject>&#963; 38</ns2:subject>
+    <ns0:references>Zimmerman, S. B., Minton, A. P. Macromolecular crowding: biochemical, biophysical, and physiological consequences Annu. Rev. Biophys. Biomol. Struct. 1993. 22:27-65.</ns0:references>
+    <ns0:references>Hanes, J., Pluckthun, A. In vitro selection and evolution of functional proteins by using ribosome display Proc. Natl. Acad. Sci. U. S. A. 1997. 94:4937-4942.</ns0:references>
+    <ns2:subject>mApple</ns2:subject>
+    <ns0:references>Ishikawa, K., Sato, K., Shima, Y., Urabe, I., Yomo, T. Expression of a cascading genetic network within liposomes FEBS Lett. 2004. 576:387-390.</ns0:references>
+    <ns2:subject>ssrA</ns2:subject>
+    <ns0:references>Noireaux, V., Libchaber, A. A vesicle bioreactor as a step toward an artificial cell assembly Proc. Natl. Acad. Sci. U. S. A. 2004. 101:17669-17674.</ns0:references>
+    <ns2:subject>Rifampicin</ns2:subject>
+    <ns2:subject>rnap</ns2:subject>
+    <ns0:references>Shimizu, Y., Kanamori, T., Ueda, T. Protein synthesis by pure translation systems Methods 2005. 36:299-304.</ns0:references>
+    <ns0:references>Kanter, G., Yang, J., Voloshin, A., Levy, S., Swartz, J. R., Levy, R. Cell-free production of scFv fusion proteins: an efficient approach for personalized lymphoma vaccines Blood 2007. 109:3393-3399.</ns0:references>
+    <ns0:references>Shin, J., Noireaux, V.  J. Biol. Eng. 2010. 4.</ns0:references>
+    <ns2:subject>5-gene</ns2:subject>
+    <ns2:subject>asiA</ns2:subject>
+    <ns0:references>Chemla, Y., Ozer, E., Schlesinger, O., Noireaux, V., Alfonta, L. Genetically expanded cell-free protein synthesis using endogenous pyrrolysyl orthogonal translation system Biotechnol. Bioeng. 2015. 112.</ns0:references>
+    <ns2:subject>all E. coli</ns2:subject>
+    <ns0:references>Pautot, S., Frisken, B. J., Weitz, D. A. Engineering asymmetric vesicles Proc. Natl. Acad. Sci. U. S. A. 2003. 100:10718-10721.</ns0:references>
+    <ns2:subject>magnesium glutamate</ns2:subject>
+    <ns2:subject>deoxyviolacein</ns2:subject>
+    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb5b00296_6_comp/1"/>
+    <ns0:references>Noireaux, V., Bar-Ziv, R., Libchaber, A. Principles of cell-free genetic circuit assembly Proc. Natl. Acad. Sci. U. S. A. 2003. 100:12672-12677.</ns0:references>
+    <ns0:references>Nourian, Z., Danelon, C. Linking Genotype and Phenotype in Protein Synthesizing Liposomes with External Supply of Resources ACS Synth. Biol. 2013. 2:186-193.</ns0:references>
+    <ns2:subject>deCFP</ns2:subject>
+    <ns2:subject>self-assembly</ns2:subject>
+    <ns2:subject>GTP</ns2:subject>
+    <ns2:subject>GamS</ns2:subject>
+    <ns0:references>Siegal-Gaskins, D., Tuza, Z. A., Kim, J., Noireaux, V., Murray, R. M. Gene circuit performance characterization and resource usage in a cell-free &#8243;breadboard&#8243; ACS Synth. Biol. 2014. 3:416-425.</ns0:references>
+    <ns2:subject>. coli</ns2:subject>
+    <ns0:references>Roos, C., Kai, L., Proverbio, D., Ghoshdastider, U., Filipek, S., Dotsch, V., Bernhard, F. Co-translational association of cell-free expressed membrane proteins with supplied lipid bilayers Mol. Membr. Biol. 2013. 30:75-89.</ns0:references>
+    <ns2:subject>&#963; 70</ns2:subject>
+    <ns2:subject>UTP-fluorescein</ns2:subject>
+    <ns2:subject>TX-TL</ns2:subject>
+    <ns2:subject>sigma factor</ns2:subject>
+    <ns2:subject>T7rnap</ns2:subject>
+    <ns2:subject>E. coli</ns2:subject>
+    <ns2:subject>minimal cell</ns2:subject>
+    <ns2:subject>vioABCE</ns2:subject>
+    <ns2:subject>tRNA</ns2:subject>
+    <ns2:subject>mmCherry</ns2:subject>
+    <ns0:references>Fallah-Araghi, A., Baret, J. C., Ryckelynck, M., Griffiths, A. D. A completely in vitro ultrahigh-throughput droplet-based microfluidic screening system for protein engineering and directed evolution Lab Chip 2012. 12:882-891.</ns0:references>
+    <ns2:subject>clpX</ns2:subject>
+    <ns0:isPartOf rdf:resource="http://pubs.acs.org/journal/asbcd6"/>
+    <ns2:subject>all Escherichia coli</ns2:subject>
+    <ns0:references>Karzbrun, E., Shin, J., Bar-Ziv, R. H., Noireaux, V. Coarse-grained dynamics of protein synthesis in a cell-free system Phys. Rev. Lett. 2011. 106.</ns0:references>
+    <ns2:subject>magnesium</ns2:subject>
+    <ns3:OBI_0002110 rdf:resource="https://doi.org/10.1021/acssynbio.5b00296"/>
+    <ns2:subject>dmVenus</ns2:subject>
+    <ns2:creator>Ryan Marshall</ns2:creator>
+    <ns2:subject>amino acid</ns2:subject>
+    <ns2:subject>ClpXP AAA+ proteases</ns2:subject>
+    <ns2:subject>S 28</ns2:subject>
+    <ns0:references>Straus, D. B., Walter, W. A., Gross, C. A. The heat shock response of E. coli is regulated by changes in the concentration of sigma 32 Nature 1987. 329:348-351.</ns0:references>
+    <ns0:references>Daube, S. S., Arad, T., Bar-Ziv, R. Cell-free co-synthesis of protein nanoassemblies: tubes, rings, and doughnuts Nano Lett. 2007. 7:638-641.</ns0:references>
+    <ns2:subject>His</ns2:subject>
+    <ns0:references>Sokolova, E., Spruijt, E., Hansen, M. M. K., Dubuc, E., Groen, J., Chokkalingam, V., Piruska, A., Heus, H. A., Huck, W. T. S. Enhanced transcription rates in membrane-free protocells formed by coacervation of cell lysate Proc. Natl. Acad. Sci. U. S. A. 2013. 110:11692-11697.</ns0:references>
+    <ns2:subject>TagRFP</ns2:subject>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/sb5b00296"/>
+    <ns2:subject>TX-TL based synthetic cells</ns2:subject>
+    <ns2:subject>Mg glutamate</ns2:subject>
+    <ns0:references>Selinger, D. W., Saxena, R. M., Cheung, K. J., Church, G. M., Rosenow, C. Global RNA half-life analysis in Escherichia coli reveals positional patterns of transcript degradation Genome Res. 2003. 13:216-223.</ns0:references>
+    <sbol:member rdf:resource="http://examples.org/Sequence/sb5b00296_2_sequence/1"/>
+    <sbol:member rdf:resource="http://examples.org/Sequence/sb5b00296_1_sequence/1"/>
+    <ns2:subject>VioD</ns2:subject>
+    <ns2:subject>red</ns2:subject>
+    <ns2:subject>Luria</ns2:subject>
+    <ns2:subject>&#963; 28</ns2:subject>
+    <ns2:subject>P 70a</ns2:subject>
+    <ns2:subject>NADH</ns2:subject>
+    <ns2:subject>cell-free transcription&#8722;translation</ns2:subject>
+    <ns0:dateSubmitted>2015-12-21</ns0:dateSubmitted>
+    <ns0:references>Wong, W. W., Tsai, T. Y., Liao, J. C. Single-cell zeroth-order protein degradation enhances the robustness of synthetic oscillator Mol. Syst. Biol. 2007. 3.</ns0:references>
+    <ns2:subject>5 and</ns2:subject>
+    <ns0:references>Minton, A. P. How can biochemical reactions within cells differ from those in test tubes? J. Cell Sci. 2006. 119:2863-2869.</ns0:references>
+    <ns0:references>Chalmeau, J., Monina, N., Shin, J., Vieu, C., Noireaux, V. alpha-Hemolysin pore formation into a supported phospholipid bilayer using cell-free expression Biochim. Biophys. Acta, Biomembr. 2011. 1808:271-278.</ns0:references>
+    <ns0:references>Bundy, B. C., Franciszkowicz, M. J., Swartz, J. R. Escherichia coli-based cell-free synthesis of virus-like particles Biotechnol. Bioeng. 2008. 100:28-37.</ns0:references>
+    <ns2:subject>MazE</ns2:subject>
+    <ns2:subject>amino acids</ns2:subject>
+    <ns2:subject>Cl</ns2:subject>
+    <ns2:subject>Chromobacterium violaceum</ns2:subject>
+    <ns2:subject>dTomato</ns2:subject>
+    <ns0:references>Sun, Z. Z., Yeung, E., Hayes, C. A., Noireaux, V., Murray, R. M. Linear DNA for Rapid Prototyping of Synthetic Biological Circuits in an Escherichia coli Based TX-TL Cell-Free System ACS Synth. Biol. 2014. 3:387-397.</ns0:references>
+    <ns2:subject>T7P</ns2:subject>
+    <ns0:references>Pardee, K., Green, A. A., Ferrante, T., Cameron, D. E., DaleyKeyser, A., Yin, P., Collins, J. J. Paper-based synthetic gene networks Cell 2014. 159:940-954.</ns0:references>
+    <ns0:references>Matthies, D., Haberstock, S., Joos, F., Dotsch, V., Vonck, J., Bernhard, F., Meier, T. Cell-free expression and assembly of ATP synthase J. Mol. Biol. 2011. 413:593-603.</ns0:references>
+    <ns2:subject>spermidine</ns2:subject>
+    <ns0:references>Nevin, D. E., Pratt, J. M. A coupled in vitro transcription-translation system for the exclusive synthesis of polypeptides expressed from the T7 promoter FEBS Lett. 1991. 291:259-263.</ns0:references>
+    <ns2:subject>-gene</ns2:subject>
+    <ns0:references>Pereira
+de Souza, T., Stano, P., Luisi, P. L. The minimal size of liposome-based model cells brings about a remarkably enhanced entrapment and protein synthesis ChemBioChem 2009. 10:1056-1063.</ns0:references>
+    <ns0:references>Sawasaki, T., Ogasawara, T., Morishita, R., Endo, Y. A cell-free protein synthesis system for high-throughput proteomics Proc. Natl. Acad. Sci. U. S. A. 2002. 99:14652-14657.</ns0:references>
+    <ns2:subject>carbon</ns2:subject>
+    <ns0:description>We report on and provide a detailed characterization of the performance and properties of a recently developed, all                    Escherichia coli                , cell-free transcription and translation system. Gene expression is entirely based on the endogenous translation components and transcription machinery provided by an E. coli cytoplasmic extract, thus expanding the repertoire of regulatory parts to hundreds of elements. We use a powerful metabolism for ATP regeneration to achieve more than 2 mg/mL of protein synthesis in batch mode reactions, and more than 6 mg/mL in semicontinuous mode. While the strength of cell-free expression is increased by a factor of 3 on average, the output signal of simple gene circuits and the synthesis of entire bacteriophages are increased by orders of magnitude compared to previous results. Messenger RNAs and protein degradation, respectively tuned using E. coli MazF interferase and ClpXP AAA+ proteases, are characterized over a much wider range of rates than the first version of the cell-free toolbox. This system is a highly versatile cell-free platform to construct complex biological systems through the execution of DNA programs composed of synthetic and natural bacterial regulatory parts.</ns0:description>
+    <ns2:creator>Vincent Noireaux</ns2:creator>
+    <ns2:subject>interferase MazF</ns2:subject>
+    <ns0:references>Noireaux, V., Bar-Ziv, R., Godefroy, J., Salman, H., Libchaber, A. Toward an artificial cell based on gene expression in vesicles Phys. Biol. 2005. 2:P1-8.</ns0:references>
+    <ns2:subject>clpP</ns2:subject>
+    <ns2:subject>70a</ns2:subject>
+    <ns2:subject>potassium glutamate</ns2:subject>
+    <ns0:isPartOf>ACS Synthetic Biology</ns0:isPartOf>
+    <ns0:references>Hong, S. H., Kwon, Y. C., Jewett, M. C. Non-standard amino acid incorporation into proteins using Escherichia coli cell-free protein synthesis Front. Chem. 2014. 2.</ns0:references>
+    <ns0:references>Kittleson, J. T., DeLoache, W., Cheng, H. Y., Anderson, J. C. Scalable plasmid transfer using engineered P1-based phagemids ACS Synth. Biol. 2012. 1:583-589.</ns0:references>
+    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb5b00296_4_comp/1"/>
+    <ns2:subject>DNA exonuclease</ns2:subject>
+    <ns2:subject>deYFP</ns2:subject>
+    <ns2:subject>transcription factors</ns2:subject>
+    <ns2:subject>phosphate</ns2:subject>
+    <ns0:references>Tawfik, D. S., Griffiths, A. D. Man-made cell-like compartments for molecular evolution Nat. Biotechnol. 1998. 16:652-656.</ns0:references>
+    <ns2:subject>Cro</ns2:subject>
+    <ns2:subject>AH</ns2:subject>
+    <ns0:references>Vinarov, D. A., Lytle, B. L., Peterson, F. C., Tyler, E. M., Volkman, B. F., Markley, J. L. Cell-free protein production and labeling protocol for NMR-based structural proteomics Nat. Methods 2004. 1:149-153.</ns0:references>
+    <sbol:version>1</sbol:version>
+    <ns2:subject>ClpXP</ns2:subject>
+    <ns2:subject>Violacein</ns2:subject>
+    <ns0:references>Stano, P., Kuruma, Y., Souza, T. P., Luisi, P. L. Biosynthesis of proteins inside liposomes Methods Mol. Biol. 2010. 606:127-145.</ns0:references>
+    <ns2:subject>amino acid L-tryptophan</ns2:subject>
+    <ns2:subject>DTT</ns2:subject>
+    <ns2:rights>Copyright &amp; 2016 American Chemical Society</ns2:rights>
+    <ns2:subject>K-glutamate</ns2:subject>
+    <ns2:subject>RNA polymerase</ns2:subject>
+    <ns0:dateCopyrighted>2016</ns0:dateCopyrighted>
+    <ns2:subject>sigma factor &#963; 70</ns2:subject>
+    <ns0:references>Minton, A. P. Implications of macromolecular crowding for protein assembly Curr. Opin. Struct. Biol. 2000. 10:34-39.</ns0:references>
+    <ns2:subject>potassium</ns2:subject>
+    <ns2:subject>clpXP</ns2:subject>
+    <ns0:references>Karig, D. K., Iyer, S., Simpson, M. L., Doktycz, M. J. Expression optimization and synthetic gene networks in cell-free systems Nucleic Acids Res. 2012. 40:3763-3774.</ns0:references>
+  </sbol:Collection>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb5b00296_5_comp/1">
+    <sbh:supplementalFile rdf:resource="file:///C:/Users/JVM/Downloads/sequence_supplementals/synbict_output/pdf"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb5b00296_5_comp"/>
+    <ns1:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.5b00296"/>
+    <sbol:version>1</sbol:version>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb5b00296_5_sequence/1"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <ns1:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbol:displayId>sb5b00296_5_comp</sbol:displayId>
+  </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb5b00296_4_sequence/1">
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb5b00296_4_sequence"/>
+    <sbol:version>1</sbol:version>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:elements>atggtgagcaagggcgaggagctgttcaccggggtggtgcccatcctggtcgagctggacggcgacgtaaacggccacaagttcagcgtgtccggcgagggcgagggcgatgccacctacggcaagctgaccctgaagctgatctgcaccaccggcaagctgcccgtgccctggcccaccctcgtgaccaccctgggctacggcctgcagtgcttcgcccgctaccccgaccacatgaagcagcacgacttcttcaagtccgccatgcccgaaggctacgtccaggagcgcaccatcttcttcaaggacgacggcaactacaagacccgcgccgaggtgaagttcgagggcgacaccctggtgaaccgcatcgagctgaagggcatcgacttcaaggaggacggcaacatcctggggcacaagctggagtacaactacaacagccacaacgtctatatcaccgccgacaagcagaagaacggcatcaaggccaacttcaagatccgccacaacatcgaggacggcggcgtgcagctcgccgaccactaccagcagaacacccccatcggcgacggccccgtgctgctgcccgacaaccactacctgagctaccagtccaagctgagcaaagaccccaacgagaagcgcgatcacatggtcctgctggagttcgtgaccgccgccgggatcactctcggcatggacgagctgtacaagtaaatggagcttttcactggcgttgttcccatcctggtcgagctggacggcgacgtaaacggccacaagttcagcgtgtccggcgagggcgagggcgatgccacctacggcaagctgaccctgaagctgatctgcaccaccggcaagctgcccgtgccctggcccaccctcgtgaccaccctgggctacggcctgcagtgcttcgcccgctaccccgaccacatgaagcagcacgacttcttcaagtccgccatgcccgaaggctacgtccaggagcgcaccatcttcttcaaggacgacggcaactacaagacccgcgccgaggtgaagttcgagggcgacaccctggtgaaccgcatcgagctgaagggcatcgacttcaaggaggacggcaacatcctggggcacaagctggagtacaactacaacagccacaacgtctatatcaccgccgacaagcagaagaacggcatcaaggccaacttcaagatccgccacaacatcgaggacggcggcgtgcagctcgccgaccactaccagcagaacacccccatcggcgacggccccgtgctgctgcccgacaaccactacctgagctaccagtccgccctgagcaaagaccccaacgagaagcgcgatcacatggtcctgctggagttcgtgaccgccgccgggatctaa</sbol:elements>
+    <sbol:displayId>sb5b00296_4_sequence</sbol:displayId>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb5b00296_6_sequence/1">
+    <sbol:version>1</sbol:version>
+    <sbol:elements>atggtgagcaagggcgaggaggtcatcaaagagttcatgcgcttcaaggtgcgcatggagggctccatgaacggccacgagttcgagatcgagggcgagggcgagggccgcccctacgagggcacccagaccgccaagctgaaggtgaccaagggcggccccctgcccttcgcctgggacatcctgtccccccagttcatgtacggctccaaggcgtacgtgaagcaccccgccgacatccccgattacaagaagctgtccttccccgagggcttcaagtgggagcgcgtgatgaacttcgaggacggcggtctggtgaccgtgacccaggactcctccctgcaggacggcacgctgatctacaaggtgaagatgcgcggcaccaacttcccccccgacggccccgtaatgcagaagaagaccatgggctgggaggcctccaccgagcgcctgtacccccgcgacggcgtgctgaagggcgagatccaccaggccctgaagctgaaggacggcggccactacctggtggagttcaagaccatctacatggccaagaagcccgtgcaactgcccggctactactacgtggacaccaagctggacatcacctcccacaacgaggactacaccatcgtggaacagtacgagcgctccgagggccgccaccacctgttcctgtacggcatggacgagctgtacaagtaaatggtgtctaagggcgaagagctgattaaggagaacatgcacatgaagctgtacatggagggcaccgtgaacaaccaccacttcaagtgcacatccgagggcgaaggcaagccctacgagggcacccagaccatgagaatcaaggtggtcgagggcggccctctccccttcgccttcgacatcctggctaccagcttcatgtacggcagcagaaccttcatcaaccacacccagggcatccccgacttctttaagcagtccttccctgagggcttcacatgggagagagtcaccacatacgaagacgggggcgtgctgaccgctacccaggacaccagcctccaggacggctgcctcatctacaacgtcaagatcagaggggtgaacttcccatccaacggccctgtgatgcagaagaaaacactcggctgggaggccaacaccgagatgctgtaccccgctgacggcggcctggaaggcagaaccgacatggccctgaagctcgtgggcgggggccacctgatctgcaacttcaagaccacatacagatccaagaaacccgctaagaacctcaagatgcccggcgtctactatgtggaccacagactggaaagaatcaaggaggccgacaaagagacctacgtcgagcagcacgaggtggctgtggccagatactgcgacctccctagcaaactggggcacaaacttaatggcatggacgagctgtacaagtaa</sbol:elements>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb5b00296_6_sequence"/>
+    <sbol:displayId>sb5b00296_6_sequence</sbol:displayId>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+  </sbol:Sequence>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb5b00296_3_comp/1">
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:version>1</sbol:version>
+    <sbh:supplementalFile rdf:resource="file:///C:/Users/JVM/Downloads/sequence_supplementals/synbict_output/pdf"/>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb5b00296_3_sequence/1"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb5b00296_3_comp"/>
+    <sbol:displayId>sb5b00296_3_comp</sbol:displayId>
+    <ns1:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.5b00296"/>
+    <ns1:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb5b00296_4_comp/1">
+    <sbol:displayId>sb5b00296_4_comp</sbol:displayId>
+    <sbh:supplementalFile rdf:resource="file:///C:/Users/JVM/Downloads/sequence_supplementals/synbict_output/pdf"/>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb5b00296_4_sequence/1"/>
+    <ns1:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.5b00296"/>
+    <sbol:version>1</sbol:version>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <ns1:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb5b00296_4_comp"/>
+  </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb5b00296_7_sequence/1">
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb5b00296_7_sequence"/>
+    <sbol:elements>atggtgagcaagggcgaggagaataacatggccatcatcaaggagttcatgcgcttcaaggtgcacatggagggctccgtgaacggccacgagttcgagatcgagggcgagggcgagggccgcccctacgaggcctttcagaccgctaagctgaaggtgaccaagggtggccccctgcccttcgcctgggacatcctgtcccctcagttcatgtacggctccaaggtctacattaagcacccagccgacatccccgactacttcaagctgtccttccccgagggcttcaggtgggagcgcgtgatgaacttcgaggacggcggcattattcacgttaaccaggactcctccctgcaggacggcgtgttcatctacaaggtgaagctgcgcggcaccaacttcccctccgacggccccgtaatgcagaagaagaccatgggctgggaggcctccgaggagcggatgtaccccgaggacggcgccctgaagagcgagatcaagaagaggctgaagctgaaggacggcggccactacgccgccgaggtcaagaccacctacaaggccaagaagcccgtgcagctgcccggcgcctacatcgtcgacatcaagttggacatcgtgtcccacaacgaggactacaccatcgtggaacagtacgaacgcgccgagggccgccactccaccggcggcatggacgagctgtacaagta</sbol:elements>
+    <sbol:displayId>sb5b00296_7_sequence</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb5b00296_2_sequence/1">
+    <sbol:displayId>sb5b00296_2_sequence</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <sbol:elements>atggtgagcaagggcgaggagctgttcaccggggtggtgcccatcctggtcgagctggacggcgacgtaaacggccacaagttcagcgtgtccggcgagggcgagggcgatgccacctacggcaagctgaccctgaagttcatctgcaccaccggcaagctgcccgtgccctggcccaccctcgtgaccaccctgacctggggcgtgcagtgcttcagccgctaccccgaccacatgaagcagcacgacttcttcaagtccgccatgcccgaaggctacgtccaggagcgcaccatcttcttcaaggacgacggcaactacaagacccgcgccgaggtgaagttcgagggcgacaccctggtgaaccgcatcgagctgaagggcatcgacttcaaggaggacggcaacatcctggggcacaagctggagtacaactacatcagccacaacgtctatatcaccgccgacaagcagaagaacggcatcaaggccaacttcaagatccgccacaacatcgaggacggcagcgtgcagctcgccgaccactaccagcagaacacccccatcggcgacggccccgtgctgctgcccgacaaccactacctgagcacccagtccgccctgagcaaagaccccaacgagaagcgcgatcacatggtcctgctggagttcgtgaccgccgccgggatcactctcggcatggacgagctgtacaagctgtacaagtaaatggagcttttcactggcgttgttcccatcctggtcgagctggacggcgacgtaaacggccacaagttcagcgtgtccggcgagggcgagggcgatgccacctacggcaagctgaccctgaagttcatctgcaccaccggcaagctgcccgtgccctggcccaccctcgtgaccaccctgacctggggcgtgcagtgcttcagccgctaccccgaccacatgaagcagcacgacttcttcaagtccgccatgcccgaaggctacgtccaggagcgcaccatcttcttcaaggacgacggcaactacaagacccgcgccgaggtgaagttcgagggcgacaccctggtgaaccgcatcgagctgaagggcatcgacttcaaggaggacggcaacatcctggggcacaagctggagtacaactacatcagccacaacgtctatatcaccgccgacaagcagaagaacggcatcaaggccaacttcaagatccgccacaacatcgaggacggcagcgtgcagctcgccgaccactaccagcagaacacccccatcggcgacggccccgtgctgctgcccgacaaccactacctgagcacccagtccgccctgagcaaagaccccaacgagaagcgcgatcacatggtcctgctggagttcgtgaccgccgccgggatctaa</sbol:elements>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb5b00296_2_sequence"/>
+  </sbol:Sequence>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb5b00296_6_comp/1">
+    <sbh:supplementalFile rdf:resource="file:///C:/Users/JVM/Downloads/sequence_supplementals/synbict_output/pdf"/>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb5b00296_6_sequence/1"/>
+    <ns1:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.5b00296"/>
+    <ns1:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:displayId>sb5b00296_6_comp</sbol:displayId>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb5b00296_6_comp"/>
+    <sbol:version>1</sbol:version>
+  </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb5b00296_8_sequence/1">
+    <sbol:version>1</sbol:version>
+    <sbol:displayId>sb5b00296_8_sequence</sbol:displayId>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb5b00296_8_sequence"/>
+    <sbol:elements>atgaacagcctgatcaaagaaaacatgcggatgaaggtggtgctggaaggcagcgtgaacggccaccagttcaagtgcaccggcgagggcgagggcaacccctacatgggcacccagaccatgcggatcaaagtgatcgagggcggacctctgcccttcgccttcgacatcctggccacatccttcatgtacggcagccggaccttcatcaagtaccccaagggcatccccgatttcttcaagcagagcttccccgagggcttcacctgggagagagtgaccagatacgaggacggcggcgtgatcaccgtgatgcaggacaccagcctggaagatggctgcctggtgtaccatgcccaggtcaggggcgtgaattttcccagcaacggcgccgtgatgcagaagaaaaccaagggctgggagcccaacaccgagatgatgtaccccgctgacggcggactgagaggctacacccacatggccctgaaggtggacggcggagggcacctgagctgcagcttcgtgaccacctaccgatccaagaaaaccgtgggcaacatcaagatgcccggcatccacgccgtggaccaccggctggaaaggctggaagagtccgacaacgagatgttcgtggtgcagcgggagcacgccgtggccaagttcgccggcctgggcggagggtaa</sbol:elements>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb5b00296_3_sequence/1">
+    <sbol:displayId>sb5b00296_3_sequence</sbol:displayId>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb5b00296_3_sequence"/>
+    <sbol:version>1</sbol:version>
+    <sbol:elements>atggtgagcaagggcgaggagctgttcaccggggtggtgcccatcctggtcgagctggacggcgacgtaaacggccacaagttcagcgtgtccggcgagggcgagggcgatgccacctacggcaagctgaccctgaagttcatctgcaccaccggcaagctgcccgtgccctggcccaccctcgtgaccaccttcggctacggcctgcagtgcttcgcccgctaccccgaccacatgaagcagcacgacttcttcaagtccgccatgcccgaaggctacgtccaggagcgcaccatcttcttcaaggacgacggcaactacaagacccgcgccgaggtgaagttcgagggcgacaccctggtgaaccgcatcgagctgaagggcatcgacttcaaggaggacggcaacatcctggggcacaagctggagtacaactacaacagccacaacgtctatatcatggccgacaagcagaagaacggcatcaaggtgaacttcaagatccgccacaacatcgaggacggcagcgtgcagctcgccgaccactaccagcagaacacccccatcggcgacggccccgtgctgctgcccgacaaccactacctgagctaccagtccgccctgagcaaagaccccaacgagaagcgcgatcacatggtcctgctggagttcgtgaccgccgccgggatcactctcggcatggacgagctgtacaagtaaatggagcttttcactggcgttgttcccatcctggtcgagctggacggcgacgtaaacggccacaagttcagcgtgtccggcgagggcgagggcgatgccacctacggcaagctgaccctgaagttcatctgcaccaccggcaagctgcccgtgccctggcccaccctcgtgaccaccttcggctacggcctgcagtgcttcgcccgctaccccgaccacatgaagcagcacgacttcttcaagtccgccatgcccgaaggctacgtccaggagcgcaccatcttcttcaaggacgacggcaactacaagacccgcgccgaggtgaagttcgagggcgacaccctggtgaaccgcatcgagctgaagggcatcgacttcaaggaggacggcaacatcctggggcacaagctggagtacaactacaacagccacaacgtctatatcatggccgacaagcagaagaacggcatcaaggtgaacttcaagatccgccacaacatcgaggacggcagcgtgcagctcgccgaccactaccagcagaacacccccatcggcgacggccccgtgctgctgcccgacaaccactacctgagctaccagtccgccctgagcaaagaccccaacgagaagcgcgatcacatggtcctgctggagttcgtgaccgccgccgggatctaa</sbol:elements>
+  </sbol:Sequence>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb5b00296_2_comp/1">
+    <sbol:displayId>sb5b00296_2_comp</sbol:displayId>
+    <sbol:component>
+      <sbol:Component rdf:about="http://examples.org/ComponentDefinition/sb5b00296_2_comp/deCFP_comp_1/1">
+        <sbol:version>1</sbol:version>
+        <ns0:title>deCFP</ns0:title>
+        <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb5b00296_2_comp/deCFP_comp_1"/>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:displayId>deCFP_comp_1</sbol:displayId>
+        <sbol:definition rdf:resource="https://synbioks.org/public/CIDAR_MoClo_Extension_Kit_Volume_I_Murray_Lab/deCFP/1"/>
+      </sbol:Component>
+    </sbol:component>
+    <ns1:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb5b00296_2_comp"/>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="http://examples.org/ComponentDefinition/sb5b00296_2_comp/deCFP_anno_1/1">
+        <sbol:location>
+          <sbol:Range rdf:about="http://examples.org/ComponentDefinition/sb5b00296_2_comp/deCFP_anno_1/deCFP_anno_1_loc/1">
+            <sbol:start>730</sbol:start>
+            <sbol:displayId>deCFP_anno_1_loc</sbol:displayId>
+            <sbol:version>1</sbol:version>
+            <sbol:end>1407</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb5b00296_2_comp/deCFP_anno_1/deCFP_anno_1_loc"/>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:component rdf:resource="http://examples.org/ComponentDefinition/sb5b00296_2_comp/deCFP_comp_1/1"/>
+        <ns0:description>Cyan fluorescent protein modified for efficient translation in E. coli cell free extract (TX-TL). Sometimes used for characterization of TX-TL extract.</ns0:description>
+        <sbol:version>1</sbol:version>
+        <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb5b00296_2_comp/deCFP_anno_1"/>
+        <sbol:displayId>deCFP_anno_1</sbol:displayId>
+        <ns0:title>deCFP</ns0:title>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:version>1</sbol:version>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb5b00296_2_sequence/1"/>
+    <sbh:supplementalFile rdf:resource="file:///C:/Users/JVM/Downloads/sequence_supplementals/synbict_output/pdf"/>
+    <ns1:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.5b00296"/>
+  </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb5b00296_1_sequence/1">
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:displayId>sb5b00296_1_sequence</sbol:displayId>
+    <sbol:elements>atggtgagcaagggcgaggagctgttcaccggggtggtgcccatcctggtcgagctggacggcgacgtaaacggccacaagttcagcgtgtccggcgagggcgagggcgatgccacctacggcaagctgaccctgaagttcatctgcaccaccggcaagctgcccgtgccctggcccaccctcgtgaccaccctgacctacggcgtgcagtgcttcagccgctaccccgaccacatgaagcagcacgacttcttcaagtccgccatgcccgaaggctacgtccaggagcgcaccatcttcttcaaggacgacggcaactacaagacccgcgccgaggtgaagttcgagggcgacaccctggtgaaccgcatcgagctgaagggcatcgacttcaaggaggacggcaacatcctggggcacaagctggagtacaactacaacagccacaacgtctatatcatggccgacaagcagaagaacggcatcaaggtgaacttcaagatccgccacaacatcgaggacggcagcgtgcagctcgccgaccactaccagcagaacacccccatcggcgacggccccgtgctgctgcccgacaaccactacctgagcacccagtccgccctgagcaaagaccccaacgagaagcgcgatcacatggtcctgctggagttcgtgaccgccgccgggatcactctcggcatggacgagctgtacaagtaaatggagcttttcactggcgttgttcccatcctggtcgagctggacggcgacgtaaacggccacaagttcagcgtgtccggcgagggcgagggcgatgccacctacggcaagctgaccctgaagttcatctgcaccaccggcaagctgcccgtgccctggcccaccctcgtgaccaccctgacctacggcgtgcagtgcttcagccgctaccccgaccacatgaagcagcacgacttcttcaagtccgccatgcccgaaggctacgtccaggagcgcaccatcttcttcaaggacgacggcaactacaagacccgcgccgaggtgaagttcgagggcgacaccctggtgaaccgcatcgagctgaagggcatcgacttcaaggaggacggcaacatcctggggcacaagctggagtacaactacaacagccacaacgtctatatcatggccgacaagcagaagaacggcatcaaggtgaacttcaagatccgccacaacatcgaggacggcagcgtgcagctcgccgaccactaccagcagaacacccccatcggcgacggccccgtgctgctgcccgacaaccactacctgagcacccagtccgccctgagcaaagaccccaacgagaagcgcgatcacatggtcctgctggagttcgtgaccgccgccgggatctaa</sbol:elements>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb5b00296_1_sequence"/>
+    <sbol:version>1</sbol:version>
+  </sbol:Sequence>
+</rdf:RDF>

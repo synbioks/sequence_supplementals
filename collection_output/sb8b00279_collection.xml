@@ -1,0 +1,234 @@
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:sbh="https://wiki.synbiohub.org/wiki/Terms/synbiohub#" xmlns:sbol="http://sbols.org/v2#" xmlns:ns0="http://www.w3.org/ns/prov#" xmlns:ns1="http://purl.org/dc/terms/" xmlns:ns2="http://purl.org/dc/elements/1.1/" xmlns:ns3="http://purl.obolibrary.org/obo/">
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb8b00279_5_sequence/1">
+    <sbol:elements>cagacgtatacaaagatgctagcgctttaatagaaatccaagaaaagtgccgtacgctgcaggtcgac</sbol:elements>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb8b00279_5_sequence"/>
+    <sbol:version>1</sbol:version>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:displayId>sb8b00279_5_sequence</sbol:displayId>
+  </sbol:Sequence>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb8b00279_5_comp/1">
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.8b00279"/>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbh:supplementalFile rdf:resource="file:///C:/Users/JVM/Downloads/sequence_supplementals/synbict_output/sb8b00279/suppl/sb-2018-00279n_si_001.pdf"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00279_5_comp"/>
+    <sbol:displayId>sb8b00279_5_comp</sbol:displayId>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:version>1</sbol:version>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb8b00279_5_sequence/1"/>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb8b00279_6_comp/1">
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.8b00279"/>
+    <sbol:version>1</sbol:version>
+    <sbh:supplementalFile rdf:resource="file:///C:/Users/JVM/Downloads/sequence_supplementals/synbict_output/sb8b00279/suppl/sb-2018-00279n_si_001.pdf"/>
+    <sbol:displayId>sb8b00279_6_comp</sbol:displayId>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00279_6_comp"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb8b00279_6_sequence/1"/>
+  </sbol:ComponentDefinition>
+  <sbol:Collection rdf:about="http://examples.org/sb8b00279/1">
+    <ns1:dateSubmitted>2018-06-29</ns1:dateSubmitted>
+    <ns1:references>Blake, W. J., Kaern, M., Cantor, C. R., Collins, J. J. Noise in eukaryptic gene expression Nature 2003. 422:633-637.</ns1:references>
+    <ns2:subject>Tet</ns2:subject>
+    <ns2:subject>gene expression noise</ns2:subject>
+    <ns2:subject>Ribo 2</ns2:subject>
+    <ns2:subject>L2b8</ns2:subject>
+    <ns1:dateAccepted>2018-10-12</ns1:dateAccepted>
+    <ns1:abstract>Gene expression noise arises from stochastic variation in the synthesis and degradation of mRNA and protein molecules and creates differences in protein numbers across populations of genetically identical cells. Such variability can lead to imprecision and reduced performance of both native and synthetic networks. In principle, gene expression noise can be controlled through the rates of transcription, translation and degradation, such that different combinations of those rates lead to the same protein concentrations but at different noise levels. Here, we present a &#8220;noise tuner&#8221; which allows orthogonal control over the transcription and the mRNA degradation rates by two different inducer molecules. Combining experiments with theoretical analysis, we show that in this system the noise is largely determined by the transcription rate, whereas the mean expression is determined by both the transcription rate and mRNA stability and can thus be decoupled from the noise. This noise tuner enables 2-fold changes in gene expression noise over a 5-fold range of mean protein levels. We demonstrated the efficacy of the noise tuner in a complex regulatory network by varying gene expression noise in the mating pathway of Saccharomyces cerevisiae, which allowed us to control the output noise and the mutual information transduced through the pathway. The noise tuner thus represents an effective tool of gene expression noise control, both to interrogate noise sensitivity of natural networks and enhance performance of synthetic circuits.</ns1:abstract>
+    <ns2:subject>mTurquoise2</ns2:subject>
+    <sbol:displayId>sb8b00279</sbol:displayId>
+    <ns1:references>Raj, A., Peskin, C. S., Tranchina, D., Vargas, D. Y., Tyagi, S. Stochastic mRNA synthesis in mammalian cells PLoS Biol. 2006. 4:1707-1719.</ns1:references>
+    <ns1:references>Liang, J. C., Chang, A. L., Kennedy, A. B., Smolke, C. D. A high-throughput, quantitative cell-based screen for efficient tailoring of RNA device activity Nucleic Acids Res. 2012. 40.</ns1:references>
+    <ns1:references>Youk, H., Lim, W. A. Secreting and Sensing the Same Molecule Allows Cells to Achieve Versatile Social Behaviors Science 2014. 343.</ns1:references>
+    <ns2:subject>FZF1t</ns2:subject>
+    <ns1:references>Waltermann, C., Klipp, E. Signal integration in budding yeast Biochem. Soc. Trans. 2010. 38:1257-1264.</ns1:references>
+    <ns1:references>Dixit, G., Kelley, J. B., Houser, J. R., Elston, T. C., Dohlman, H. G. Cellular noise suppression by the regulator of G protein signaling Sst2 Mol. Cell 2014. 55:85-96.</ns1:references>
+    <ns2:subject>yeast</ns2:subject>
+    <ns1:type rdf:resource="http://purl.org/dc/dcmitype/Text"/>
+    <ns2:subject>PmeI</ns2:subject>
+    <ns1:created>2018-10-12</ns1:created>
+    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb8b00279_1_comp/1"/>
+    <ns2:publisher>American Chemical
+Society</ns2:publisher>
+    <ns2:subject>lithium acetate</ns2:subject>
+    <ns2:subject>MAPK</ns2:subject>
+    <ns1:references>Borst, A., Theunissen, F. E. Information theory and neural coding Nat. Neurosci. 1999. 2:947-957.</ns1:references>
+    <sbol:member rdf:resource="http://examples.org/Sequence/sb8b00279_6_sequence/1"/>
+    <ns2:subject>G-protein coupled receptor</ns2:subject>
+    <ns2:subject>PRG</ns2:subject>
+    <ns2:subject>regulation</ns2:subject>
+    <ns2:subject>Doxycycline</ns2:subject>
+    <ns2:subject>TetO7</ns2:subject>
+    <ns2:subject>blue fluorescent protein mTurquoise2</ns2:subject>
+    <ns1:references>Raser, J. M., O&#8217;Shea, E. K. Control of Stochasticity in Eukaryotic Gene Expression Science 2004. 304:1811-1814.</ns1:references>
+    <ns2:subject>t41</ns2:subject>
+    <ns2:subject>ribozyme Ribo 1</ns2:subject>
+    <ns2:subject>AvrII</ns2:subject>
+    <ns2:subject>endoribonuclease</ns2:subject>
+    <ns1:references>Natarajan, A., Subramanian, S., Srienc, F. Comparison of mutant forms of the green fluorescent protein as expression markers in Chinese hamster ovary (CHO) and Saccharomyces cerevisiae cells J. Biotechnol. 1998. 62:29-45.</ns1:references>
+    <ns1:references>Banderas, A., Koltai, M., Anders, A., Sourjik, V. Sensory input attenuation allows predictive sexual response in yeast Nat. Commun. 2016. 7.</ns1:references>
+    <ns2:subject>Ribo 1</ns2:subject>
+    <ns2:subject>glucose</ns2:subject>
+    <ns1:description>Gene expression noise arises from stochastic variation in the synthesis and degradation of mRNA and protein molecules and creates differences in protein numbers across populations of genetically identical cells. Such variability can lead to imprecision and reduced performance of both native and synthetic networks. In principle, gene expression noise can be controlled through the rates of transcription, translation and degradation, such that different combinations of those rates lead to the same protein concentrations but at different noise levels. Here, we present a &#8220;noise tuner&#8221; which allows orthogonal control over the transcription and the mRNA degradation rates by two different inducer molecules. Combining experiments with theoretical analysis, we show that in this system the noise is largely determined by the transcription rate, whereas the mean expression is determined by both the transcription rate and mRNA stability and can thus be decoupled from the noise. This noise tuner enables 2-fold changes in gene expression noise over a 5-fold range of mean protein levels. We demonstrated the efficacy of the noise tuner in a complex regulatory network by varying gene expression noise in the mating pathway of Saccharomyces cerevisiae, which allowed us to control the output noise and the mutual information transduced through the pathway. The noise tuner thus represents an effective tool of gene expression noise control, both to interrogate noise sensitivity of natural networks and enhance performance of synthetic circuits.</ns1:description>
+    <ns1:references>Shahrezaei, V., Swain, P. S. Analytical distributions for stochastic gene expression Proc. Natl. Acad. Sci. U. S. A. 2008. 105:17256-17261.</ns1:references>
+    <ns1:references>Williams, T. C., Nielsen, L. K., Vickers, C. E. Engineered Quorum Sensing Using Pheromone-Mediated Cell-to-Cell Communication in Saccharomyces cerevisiae ACS Synth. Biol. 2013. 2:136-149.</ns1:references>
+    <ns2:subject>pheromone response genes</ns2:subject>
+    <ns2:subject>Saccharomyces cerevisiae</ns2:subject>
+    <ns1:dateCopyrighted>2018</ns1:dateCopyrighted>
+    <ns1:references>Jiao, F., Sun, Q., Tang, M., Yu, J., Zheng, B. Distribution modes and their corresponding parameter regions in stochastic gene transcription SIAM J. Appl. Math. 2015. 75:2396-2420.</ns1:references>
+    <sbol:member rdf:resource="http://examples.org/Sequence/sb8b00279_2_sequence/1"/>
+    <ns2:type>research-article</ns2:type>
+    <ns2:creator>Sea&#769;n M. Murray</ns2:creator>
+    <ns1:isPartOf rdf:resource="http://pubs.acs.org/journal/asbcd6"/>
+    <ns3:OBI_0002110 rdf:resource="https://doi.org/10.1021/acssynbio.8b00279"/>
+    <ns2:subject>doxycycline</ns2:subject>
+    <ns1:isPartOf>ACS Synthetic Biology</ns1:isPartOf>
+    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb8b00279_5_comp/1"/>
+    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb8b00279_6_comp/1"/>
+    <ns2:subject>DNA polymerase</ns2:subject>
+    <sbol:version>1</sbol:version>
+    <ns2:subject>mating pathway</ns2:subject>
+    <ns1:references>Shah, P., Ding, Y., Niemczyk, M., Kudla, G., Plotkin, J. B. Rate-limiting steps in yeast protein translation Cell 2013. 153:1589-1601.</ns1:references>
+    <ns0:wasDerivedFrom rdf:resource="https://pubs.acs.org/doi/10.1021/acssynbio.8b00279"/>
+    <ns3:OBI_0001617>30354070</ns3:OBI_0001617>
+    <ns2:subject>Sst2</ns2:subject>
+    <ns2:subject>GFP</ns2:subject>
+    <sbol:member rdf:resource="http://examples.org/Sequence/sb8b00279_3_sequence/1"/>
+    <ns1:references>Ross, B. C. Mutual information between discrete and continuous data sets PLoS One 2014. 9.</ns1:references>
+    <ns1:references>Curran, K. A. Short Synthetic Terminators for Improved Heterologous Gene Expression in Yeast ACS Synth. Biol. 2015. 4:824-832.</ns1:references>
+    <ns2:subject>ADH1t</ns2:subject>
+    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb8b00279_3_comp/1"/>
+    <ns2:subject>TetO</ns2:subject>
+    <ns1:references>Hooshangi, S., Thiberge, S., Weiss, R. Ultrasensitivity and noise propagation in a synthetic transcriptional cascade Proc. Natl. Acad. Sci. U. S. A. 2005. 102:3581-3586.</ns1:references>
+    <ns1:title>A System for Gene Expression Noise Control in Yeast</ns1:title>
+    <ns2:subject>a1</ns2:subject>
+    <ns2:subject>solid lines</ns2:subject>
+    <ns1:references>Newman, J. R. S. Single-cell proteomic analysis of S. cerevisiae reveals the architecture of biological noise Nature 2006. 441:840-846.</ns1:references>
+    <ns2:subject>synthetic biology</ns2:subject>
+    <ns1:references>Ghaemmaghami, S. Global analysis of protein expression in yeast Nature 2003. 425:737-741.</ns1:references>
+    <ns2:subject>dashed lines</ns2:subject>
+    <ns1:references>Urlinger, S. Exploring the sequence space for tetracycline-dependent transcriptional activators: Novel mutations yield expanded range and sensitivity Proc. Natl. Acad. Sci. U. S. A. 2000. 97:7963-7968.</ns1:references>
+    <ns2:subject>reverse tetracycline trans-activator</ns2:subject>
+    <ns2:subject>mNeongreen</ns2:subject>
+    <ns2:subject>amino acid</ns2:subject>
+    <ns1:references>Eldar, A., Elowitz, M. B. Functional roles for noise in genetic circuits Nature 2010. 467:167-173.</ns1:references>
+    <ns2:creator>Alexander Anders</ns2:creator>
+    <ns1:rightsHolder>American Chemical Society</ns1:rightsHolder>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/sb8b00279"/>
+    <ns2:creator>Max Mundt</ns2:creator>
+    <ns1:references>Thattai, M., van Oudenaarden, A. Intrinsic noise in gene regulatory networks Proc. Natl. Acad. Sci. U. S. A. 2001. 98:8614-8619.</ns1:references>
+    <ns2:subject>XhoI</ns2:subject>
+    <ns1:references>Becskei, A., Serrano, L. Engineering stability in gene networks by autoregulation Nature 2000. 405:590-593.</ns1:references>
+    <ns2:subject>Christina</ns2:subject>
+    <ns1:references>Murphy, K. F., Adams, R. M., Wang, X., Bala&#769;zsi, G., Collins, J. J. Tuning and controlling gene expression noise in synthetic gene networks Nucleic Acids Res. 2010. 38:2712-2726.</ns1:references>
+    <ns1:references>Chalancon, G. Interplay between gene expression noise and regulatory network architecture Trends Genet. 2012. 28:221-232.</ns1:references>
+    <ns1:references>Keren, L. Massively Parallel Interrogation of the Effects of Gene Expression Levels on Fitness Cell 2016. 166:1282-1294.e18.</ns1:references>
+    <ns2:subject>Yeast</ns2:subject>
+    <ns2:subject>yellow-green fluorescent protein mNeongreen</ns2:subject>
+    <ns2:subject>mitogen-activated protein kinase</ns2:subject>
+    <ns2:subject>theophylline</ns2:subject>
+    <ns1:references>Alvaro, C. G., Thorner, J. Heterotrimeric G Protein-coupled Receptor Signaling in Yeast Mating Pheromone Response J. Biol. Chem. 2016. 291:7788-7795.</ns1:references>
+    <ns2:subject>mNG</ns2:subject>
+    <ns2:subject>FUS1</ns2:subject>
+    <ns1:references>Lehner, B. Selection to minimise noise in living systems and its implications for the evolution of gene expression Mol. Syst. Biol. 2008. 4.</ns1:references>
+    <ns1:references>Wang, Z., Zhang, J. Impact of gene expression noise on organismal fitness and the efficacy of natural selection Proc. Natl. Acad. Sci. U. S. A. 2011. 108:E67-E76.</ns1:references>
+    <ns1:references>Larson, D. R., Singer, R. H., Zenklusen, D. A single molecule view of gene expression Trends Cell Biol. 2009. 19:630-637.</ns1:references>
+    <ns1:references>Yamanishi, M. A Genome-Wide Activity Assessment of Terminator Regions in Saccharomyces cerevisiae Provides a &#8243;Terminatome&#8243; Toolbox ACS Synth. Biol. 2013. 2:337-347.</ns1:references>
+    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb8b00279_4_comp/1"/>
+    <ns2:subject>rtTA</ns2:subject>
+    <ns1:references>Holland, M. J. Transcript abundance in yeast varies over six orders of magnitude J. Biol. Chem. 2002. 277:14363-14366.</ns1:references>
+    <ns2:subject>SST2</ns2:subject>
+    <ns1:references>Shaner, N. C. A bright monomeric green fluorescent protein derived from Branchiostoma lanceolatum Nat. Methods 2013. 10:407-409.</ns1:references>
+    <ns1:references>Galloway, K. E., Franco, E., Smolke, C. D. Dynamically Reshaping Signaling Networks to Program Cell Fate via Genetic Controllers Science 2013. 341:12350051-123500511.</ns1:references>
+    <ns1:references>Masel, J., Siegal, M. L. Robustness: mechanisms and consequences Trends Genet. 2009. 25:395-403.</ns1:references>
+    <ns1:references>Raj, A., van Oudenaarden, A. Single-molecule approaches to stochastic gene expression Annu. Rev. Biophys. 2009. 38:255-270.</ns1:references>
+    <ns1:references>Malleshaiah, M. K., Shahrezaei, V., Swain, P. S., Michnick, S. W. The scaffold protein Ste5 directly controls a switch-like mating decision in yeast Nature 2010. 465:101-105.</ns1:references>
+    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb8b00279_2_comp/1"/>
+    <ns2:creator>Victor Sourjik</ns2:creator>
+    <ns2:subject>GIC1t</ns2:subject>
+    <sbol:member rdf:resource="http://examples.org/Sequence/sb8b00279_4_sequence/1"/>
+    <ns1:references>Aranda-Di&#769;az, A., Mace, K., Zuleta, I., Harrigan, P., El-Samad, H. Robust Synthetic Circuits for Two-Dimensional Control of Gene Expression in Yeast ACS Synth. Biol. 2017. 6:545-554.</ns1:references>
+    <sbol:member rdf:resource="http://examples.org/Sequence/sb8b00279_1_sequence/1"/>
+    <ns2:subject>TPS1t</ns2:subject>
+    <sbol:member rdf:resource="http://examples.org/Sequence/sb8b00279_5_sequence/1"/>
+    <ns2:subject>3&#8242;-RRs</ns2:subject>
+    <ns1:references>Elowitz, M. B., Levine, A. j., Siggia, E. D., Swain, P. S. Stochastic Gene Expression in a Single Cell Science 2002. 297:1183-1186.</ns1:references>
+    <ns1:references>Lestas, I., Vinnicombe, G., Paulsson, J. Fundamental limits on the suppression of molecular fluctuations Nature 2010. 467:174-178.</ns1:references>
+    <ns1:references>Gillespie, D. T. Exact stochastic simulation of coupled chemical reactions J. Phys. Chem. 1977. 81:2340-2361.</ns1:references>
+  </sbol:Collection>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb8b00279_3_sequence/1">
+    <sbol:version>1</sbol:version>
+    <sbol:displayId>sb8b00279_3_sequence</sbol:displayId>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb8b00279_3_sequence"/>
+    <sbol:elements>ctgaggcgttataggttcaatttggtaattaaagatagagttgtaagatgcgtacgctgcaggtcgac</sbol:elements>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb8b00279_6_sequence/1">
+    <sbol:elements>actgtttgtgcaattgtacctgaagatgagtaagactctcaatgaaattaatcgatgaattcgagctcg</sbol:elements>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb8b00279_6_sequence"/>
+    <sbol:version>1</sbol:version>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:displayId>sb8b00279_6_sequence</sbol:displayId>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb8b00279_4_sequence/1">
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb8b00279_4_sequence"/>
+    <sbol:displayId>sb8b00279_4_sequence</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <sbol:elements>ctgctgaaatttttggaagataattcatgcaacgtcctatttttatccaccatcgatgaattctctgtcg</sbol:elements>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+  </sbol:Sequence>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb8b00279_1_comp/1">
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:displayId>sb8b00279_1_comp</sbol:displayId>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb8b00279_1_sequence/1"/>
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.8b00279"/>
+    <sbol:version>1</sbol:version>
+    <sbh:supplementalFile rdf:resource="file:///C:/Users/JVM/Downloads/sequence_supplementals/synbict_output/sb8b00279/suppl/sb-2018-00279n_si_001.pdf"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00279_1_comp"/>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb8b00279_3_comp/1">
+    <sbol:version>1</sbol:version>
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.8b00279"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:displayId>sb8b00279_3_comp</sbol:displayId>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00279_3_comp"/>
+    <sbh:supplementalFile rdf:resource="file:///C:/Users/JVM/Downloads/sequence_supplementals/synbict_output/sb8b00279/suppl/sb-2018-00279n_si_001.pdf"/>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb8b00279_3_sequence/1"/>
+  </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb8b00279_2_sequence/1">
+    <sbol:version>1</sbol:version>
+    <sbol:elements>atatacacatgtatatatatcgtatgctgcagctttaaataatcggtgtcatcgatgaattcgagctcg</sbol:elements>
+    <sbol:displayId>sb8b00279_2_sequence</sbol:displayId>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb8b00279_2_sequence"/>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb8b00279_1_sequence/1">
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb8b00279_1_sequence"/>
+    <sbol:elements>aattgaacttcaaggaatggcaaaaggctttcactgacgttatgggttaacgtacgctgcaggtcgac</sbol:elements>
+    <sbol:version>1</sbol:version>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:displayId>sb8b00279_1_sequence</sbol:displayId>
+  </sbol:Sequence>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb8b00279_2_comp/1">
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbh:supplementalFile rdf:resource="file:///C:/Users/JVM/Downloads/sequence_supplementals/synbict_output/sb8b00279/suppl/sb-2018-00279n_si_001.pdf"/>
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.8b00279"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00279_2_comp"/>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb8b00279_2_sequence/1"/>
+    <sbol:displayId>sb8b00279_2_comp</sbol:displayId>
+    <sbol:version>1</sbol:version>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb8b00279_4_comp/1">
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.8b00279"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:version>1</sbol:version>
+    <sbh:supplementalFile rdf:resource="file:///C:/Users/JVM/Downloads/sequence_supplementals/synbict_output/sb8b00279/suppl/sb-2018-00279n_si_001.pdf"/>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb8b00279_4_sequence/1"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00279_4_comp"/>
+    <sbol:displayId>sb8b00279_4_comp</sbol:displayId>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+  </sbol:ComponentDefinition>
+</rdf:RDF>

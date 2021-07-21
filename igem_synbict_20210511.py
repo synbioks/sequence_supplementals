@@ -35,11 +35,11 @@ rbs_files = os.listdir(os.path.join(cwd, 'Basic_Unique_RBS_SBOL'))
 annotated_num = 0
 # output_ind = 0
 annotated_doc = sbol2.Document()
-for ind, file in enumerate(rbs_files): #there are 448 unqiue basic  rbs sequence files
-    if ind > -1: #useful for testing
+for ind, file in enumerate(rbs_files): # there are 448 unqiue basic  rbs sequence files
+    if ind > -1: # useful for testing
         print(ind)
         doc = sbol2.Document()
-        doc.read(os.path.join(cwd, 'Basic_Unique_RBS_SBOL', file ))
+        doc.read(os.path.join(cwd, 'Basic_Unique_RBS_SBOL', file))
         for seq in doc.sequences:
             sequence = seq.elements
             file_name = file.split(".")[0]

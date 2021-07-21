@@ -1,0 +1,302 @@
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:sbh="https://wiki.synbiohub.org/wiki/Terms/synbiohub#" xmlns:sbol="http://sbols.org/v2#" xmlns:ns0="http://www.w3.org/ns/prov#" xmlns:ns1="http://purl.org/dc/elements/1.1/" xmlns:ns2="http://purl.org/dc/terms/" xmlns:ns3="http://purl.obolibrary.org/obo/">
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb6b00377_2_comp/1">
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb6b00377_2_sequence/1"/>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbh:supplementalFile rdf:resource="file:///C:/Users/JVM/Downloads/sequence_supplementals/synbict_output/pdf"/>
+    <sbol:displayId>sb6b00377_2_comp</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.6b00377"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb6b00377_2_comp"/>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb6b00377_4_comp/1">
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb6b00377_4_sequence/1"/>
+    <sbh:supplementalFile rdf:resource="file:///C:/Users/JVM/Downloads/sequence_supplementals/synbict_output/pdf"/>
+    <sbol:version>1</sbol:version>
+    <sbol:displayId>sb6b00377_4_comp</sbol:displayId>
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.6b00377"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb6b00377_4_comp"/>
+  </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb6b00377_2_sequence/1">
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb6b00377_2_sequence"/>
+    <sbol:version>1</sbol:version>
+    <sbol:elements>gtgatggtgatggtga</sbol:elements>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:displayId>sb6b00377_2_sequence</sbol:displayId>
+  </sbol:Sequence>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb6b00377_6_comp/1">
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbh:supplementalFile rdf:resource="file:///C:/Users/JVM/Downloads/sequence_supplementals/synbict_output/pdf"/>
+    <sbol:displayId>sb6b00377_6_comp</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb6b00377_6_comp"/>
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.6b00377"/>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb6b00377_6_sequence/1"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+  </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb6b00377_5_sequence/1">
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb6b00377_5_sequence"/>
+    <sbol:elements>atgagcttactcaacgtccc</sbol:elements>
+    <sbol:version>1</sbol:version>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:displayId>sb6b00377_5_sequence</sbol:displayId>
+  </sbol:Sequence>
+  <sbol:Collection rdf:about="http://examples.org/sb6b00377/1">
+    <sbol:displayId>sb6b00377</sbol:displayId>
+    <ns1:subject>S. cerevisiae</ns1:subject>
+    <ns2:references>Vickers, C. , Behrendorff, J. Y. H. , Bongers, M. , Brennan, T. R. , Bruschi, M. , and Nielsen, L. (2015) Production of industrially relevant isoprenoid compounds in engineered microbes, In Microorganisms in Biorefineries ( Kamm, B. , Ed.), pp 303&#8211;334, Springer, Berlin Heidelberg.</ns2:references>
+    <ns1:subject>ribose</ns1:subject>
+    <ns1:subject>isopentenyl diphosphate isomerase</ns1:subject>
+    <ns1:subject>mevalonic acid</ns1:subject>
+    <ns2:abstract>In vitro metabolic engineering is an alternative approach to cell-based biosynthesis. It offers unprecedented flexibility for the study of biochemical pathways, thus providing useful information for the rational design and assembly of reaction modules. Herein, we took the advantage of in vitro metabolic engineering to initially gain insight into the regulatory network of a reconstituted amorpha-4,11-diene (AD) synthetic pathway. Guided by lin-log approximation, we rapidly identified the hitherto unrecognized inhibition of adenosine triphosphate (ATP) on both farnesyl pyrophosphate synthase (FPPS) and amorpha-4,11-diene synthase (ADS). Furthermore, the byproduct, pyrophosphate (PPi), potently inhibits ADS, but not FPPS. To lower the inhibition, an ATP recycling system and pyrophosphatase were used and resulted in a significant (&#8764;3-fold) enhancement in the rate of AD production (&#8764;5.7 &#956;mol L&#8211;1 min&#8211;1). A coimmobilized multienzyme reaction system was then developed to recycle the enzymes. When inhibitory metabolites concentrations were reduced, the specific enzymatic yield of AD was further enhanced (&gt;6-fold). This study demonstrated that mitigating the accumulation of inhibitory metabolites can result in higher yields of AD production by in vitro multienzymatic reactions.</ns2:abstract>
+    <ns2:references>Porath, J. Immobilized metal ion affinity chromatography Protein Expression Purif. 1992. 3:263-281.</ns2:references>
+    <ns1:subject>ammonium hydroxide</ns1:subject>
+    <ns1:subject>chicken</ns1:subject>
+    <ns1:subject>Adenosine diphosphate</ns1:subject>
+    <ns1:creator>Ruiyang Zou</ns1:creator>
+    <sbol:member rdf:resource="http://examples.org/Sequence/sb6b00377_2_sequence/1"/>
+    <ns2:references>Chen, X., Zhang, C., Zou, R., Zhou, K., Stephanopoulos, G., Too, H. P. Statistical experimental design guided optimization of a one-pot biphasic multienzyme total synthesis of amorpha-4,11-diene PLoS One 2013. 8.</ns2:references>
+    <ns1:subject>carbon dioxide</ns1:subject>
+    <ns1:rights>Copyright &amp; 2017 American Chemical Society</ns1:rights>
+    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb6b00377_5_comp/1"/>
+    <ns1:subject>Pyrophosphate</ns1:subject>
+    <ns1:subject>erg8</ns1:subject>
+    <ns1:subject>EC 3.6.1.1</ns1:subject>
+    <ns1:subject>citrate</ns1:subject>
+    <ns1:subject>ethyl acetate</ns1:subject>
+    <ns1:subject>pyruvate oxidase</ns1:subject>
+    <ns2:references>Wilner, O.
+I., Weizmann, Y., Gill, R., Lioubashevski, O., Freeman, R., Willner, I. Enzyme cascades activated on topologically programmed DNA scaffolds Nat. Nanotechnol. 2009. 4:249-254.</ns2:references>
+    <ns1:creator>Congqiang Zhang</ns1:creator>
+    <ns2:references>Martin, V. J., Pitera, D. J., Withers, S. T., Newman, J. D., Keasling, J. D. Engineering a mevalonate pathway in Escherichia coli for production of terpenoids Nat. Biotechnol. 2003. 21:796-802.</ns2:references>
+    <ns1:subject>-diene synthase</ns1:subject>
+    <ns2:references>Kim, D. M., Swartz, J. R. Prolonging cell-free protein synthesis with a novel ATP regeneration system Biotechnol. Bioeng. 1999. 66:180-188.</ns2:references>
+    <ns1:subject>ads</ns1:subject>
+    <ns2:references>Leatherbarrow, R. J. (2009) GraFit Version 7, Erithacus Software Ltd., Horley, U.K.</ns2:references>
+    <ns1:subject>FOH</ns1:subject>
+    <ns2:references>Mempin, R., Tran, H., Chen, C., Gong, H., Kim, H. K., Lu, S. Release of extracellular ATP by bacteria during growth BMC Microbiol. 2013. 13.</ns2:references>
+    <ns2:references>Ajikumar, P. K., Xiao, W.-H., Tyo, K. E. J., Wang, Y., Simeon, F., Leonard, E., Mucha, O., Phon, T. H., Pfeifer, B., Stephanopoulos, G. Isoprenoid pathway optimization for taxol precursor overproduction in escherichia coli Science 2010. 330:70-74.</ns2:references>
+    <ns2:references>Heinrich, R., Rapoport, T. A. A linear steady-state treatment of enzymatic chains. General properties, control and effector strength Eur. J. Biochem. 1974. 42:89-95.</ns2:references>
+    <ns1:subject>ATP</ns1:subject>
+    <ns1:subject>MVA pathway regulation</ns1:subject>
+    <ns2:references>Altman, D. G., Bland, J. M. How to obtain the P value from a confidence interval Bmj 2011. 343.</ns2:references>
+    <ns2:references>Bloch, K., Chaykin, S., Phillips, A. H., De Waard, A. Mevalonic acid pyrophosphate and isopentenylpyrophosphate J. Biol. Chem. 1959. 234:2595-2604.</ns2:references>
+    <ns2:references>Bayne, L., Ulijn, R. V., Halling, P. J. Effect of pore size on the performance of immobilised enzymes Chem. Soc. Rev. 2013. 42:9000-9010.</ns2:references>
+    <ns2:references>Nikerel, E. I., van Winden, W. A., van Gulik, W. M., Heijnen, J. J. A method for estimation of elasticities in metabolic networks using steady state and dynamic metabolomics data and linlog kinetics BMC Bioinf. 2006. 7:1-23.</ns2:references>
+    <ns1:subject>farnesyl pyrophosphate</ns1:subject>
+    <ns1:subject>mevalonate</ns1:subject>
+    <ns2:references>Hodgman, C.
+E., Jewett, M. C. Cell-free synthetic biology: thinking outside the cell Metab. Eng. 2012. 14:261-269.</ns2:references>
+    <ns1:subject>Ni-NTA</ns1:subject>
+    <ns3:OBI_0001617>28520394</ns3:OBI_0001617>
+    <ns1:subject>mevalonate kinase</ns1:subject>
+    <ns1:subject>farnesyl pyrophosphate synthase</ns1:subject>
+    <ns2:references>Drake, M. T., Clarke, B. L., Khosla, S. Bisphosphonates: mechanism of action and role in clinical practice Mayo Clin. Proc. 2008. 83:1032-1045.</ns2:references>
+    <ns1:subject>IPP</ns1:subject>
+    <ns2:references>Resnick, S. M., Zehnder, A. J. In vitro ATP regeneration from polyphosphate and AMP by polyphosphate:AMP phosphotransferase and adenylate kinase from Acinetobacter johnsonii 210A Appl. Environ. Microbiol. 2000. 66:2045-2051.</ns2:references>
+    <ns2:created>2017-05-18</ns2:created>
+    <ns2:references>Giersch, C. Determining elasticities from multiple measurements of flux rates and metabolite concentrations. Application of the multiple modulation method to a reconstituted pathway Eur. J. Biochem. 1995. 227:194-201.</ns2:references>
+    <ns1:subject>amorpha-4,11-diene synthase</ns1:subject>
+    <ns2:references>Dueber, J. E., Wu, G. C., Malmirchegini, G. R., Moon, T. S., Petzold, C. J., Ullal, A. V., Prather, K. L., Keasling, J. D. Synthetic protein scaffolds provide modular control over metabolic flux Nat. Biotechnol. 2009. 27:753-759.</ns2:references>
+    <ns3:OBI_0002110 rdf:resource="https://doi.org/10.1021/acssynbio.6b00377"/>
+    <ns1:subject>phosphate</ns1:subject>
+    <ns1:publisher>American Chemical
+Society</ns1:publisher>
+    <ns1:subject>farnesol</ns1:subject>
+    <ns1:subject>Pyruvate kinase</ns1:subject>
+    <ns1:subject>MgCl 2</ns1:subject>
+    <ns2:references>Zhou, K., Zou, R., Stephanopoulos, G., Too, H. P. Metabolite profiling identified methylerythritol cyclodiphosphate efflux as a limiting step in microbial isoprenoid production PLoS One 2012. 7.</ns2:references>
+    <ns2:references>Tsuruta, H., Paddon, C. J., Eng, D., Lenihan, J. R., Horning, T., Anthony, L. C., Regentin, R., Keasling, J. D., Renninger, N. S., Newman, J. D. High-level production of amorpha-4,11-diene, a precursor of the antimalarial agent artemisinin, in Escherichia coli PLoS One 2009. 4.</ns2:references>
+    <ns2:isPartOf rdf:resource="http://pubs.acs.org/journal/asbcd6"/>
+    <ns2:references>Richard, P., Teusink, B., Hemker, M. B., Van Dam, K., Westerhoff, H. V. Sustained oscillations in free-energy state and hexose phosphates in yeast Yeast 1996. 12:731-740.</ns2:references>
+    <ns1:subject>pyruvate kinase</ns1:subject>
+    <sbol:member rdf:resource="http://examples.org/Sequence/sb6b00377_5_sequence/1"/>
+    <ns2:references>Gray, J. C., Kekwick, R. G. The inhibition of plant mevalonate kinase preparations by prenyl pyrophosphates Biochim. Biophys. Acta, Gen. Subj. 1972. 279:290-296.</ns2:references>
+    <ns2:references>Zou, R., Zhou, K., Stephanopoulos, G., Too, H. P. Combinatorial engineering of 1-deoxy-D-xylulose 5-phosphate pathway using cross-lapping in vitro assembly (CLIVA) method PLoS One 2013. 8.</ns2:references>
+    <ns1:subject>ispA</ns1:subject>
+    <ns1:subject>solid line</ns1:subject>
+    <ns1:subject>glycerol.</ns1:subject>
+    <ns1:subject>EC 3.1.3.2</ns1:subject>
+    <ns2:rightsHolder>American Chemical Society</ns2:rightsHolder>
+    <ns2:references>Costa, R. S., Machado, D., Rocha, I., Ferreira, E. C. Hybrid dynamic modeling of Escherichia coli central metabolic network combining Michaelis-Menten and approximate kinetic equations BioSystems 2010. 100:150-157.</ns2:references>
+    <ns1:subject>erg12</ns1:subject>
+    <ns1:type>research-article</ns1:type>
+    <ns1:subject>Mg 2+</ns1:subject>
+    <ns1:creator>Gregory Stephanopoulos</ns1:creator>
+    <ns1:subject>Ni-NTA resin</ns1:subject>
+    <ns2:isPartOf>ACS Synthetic Biology</ns2:isPartOf>
+    <ns1:subject>FPP</ns1:subject>
+    <ns2:dateSubmitted>2016-12-13</ns2:dateSubmitted>
+    <ns1:subject>pyruvate</ns1:subject>
+    <ns2:title>In Vitro Metabolic Engineering of Amorpha-4,11-diene Biosynthesis at Enhanced Rate and Specific Yield of Production</ns2:title>
+    <ns1:subject>methanol</ns1:subject>
+    <ns1:subject>PMVA</ns1:subject>
+    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb6b00377_6_comp/1"/>
+    <ns1:subject>MK</ns1:subject>
+    <ns2:references>Martin, V. J. J., Yoshikuni, Y., Keasling, J. D. The in vivo synthesis of plant sesquiterpenes by Escherichia coli Biotechnol. Bioeng. 2001. 75:497-503.</ns2:references>
+    <ns2:references>Gao, C., Li, Z., Zhang, L., Wang, C., Li, K., Ma, C., Xu, P. An artificial enzymatic reaction cascade for a cell-free bio-system based on glycerol Green Chem. 2015. 17:804-807.</ns2:references>
+    <ns2:type rdf:resource="http://purl.org/dc/dcmitype/Text"/>
+    <ns1:subject>PMK</ns1:subject>
+    <ns1:subject>PPi</ns1:subject>
+    <ns1:subject>erg19</ns1:subject>
+    <ns1:subject>pyrophosphatase</ns1:subject>
+    <ns2:references>Tusek, A., Kurtanjek, Z. Lin-log model of E. coli central metabolism Acta Chim. Slov. 2010. 57:52-59.</ns2:references>
+    <ns2:references>Westfall, P. J., Pitera, D. J., Lenihan, J. R., Eng, D., Woolard, F. X., Regentin, R., Horning, T., Tsuruta, H., Melis, D. J., Owens, A., Fickes, S., Diola, D., Benjamin, K. R., Keasling, J. D., Leavell, M. D., McPhee, D. J., Renninger, N. S., Newman, J. D., Paddon, C. J. Production of amorphadiene in yeast, and its conversion to dihydroartemisinic acid, precursor to the antimalarial agent artemisinin Proc. Natl. Acad. Sci. U. S. A. 2012. 109:E111-E118.</ns2:references>
+    <ns1:subject>idi</ns1:subject>
+    <ns1:subject>(+)-mevalonic acid</ns1:subject>
+    <ns1:subject>terpene synthases</ns1:subject>
+    <ns1:subject>trans-caryophyllene</ns1:subject>
+    <ns1:subject>inorganic pyrophosphatase</ns1:subject>
+    <ns2:references>Smith, M. T., Wilding, K. M., Hunt, J. M., Bennett, A. M., Bundy, B. C. The emerging age of cell-free synthetic biology FEBS Lett. 2014. 588:2755-2761.</ns2:references>
+    <ns1:subject>Amorpha-4,11-diene</ns1:subject>
+    <ns1:subject>isoprenoid</ns1:subject>
+    <sbol:version>1</sbol:version>
+    <ns1:subject>PykF</ns1:subject>
+    <sbol:member rdf:resource="http://examples.org/Sequence/sb6b00377_4_sequence/1"/>
+    <ns2:references>Proteau, P. J. 1-Deoxy-D-xylulose 5-phosphate reductoisomerase: an overview Bioorg. Chem. 2004. 32:483-493.</ns2:references>
+    <ns1:subject>E. coli MG1655</ns1:subject>
+    <ns2:references>Myung, S., You, C., Zhang, Y.-H. P. Recyclable cellulose-containing magnetic nanoparticles: immobilization of cellulose-binding module-tagged proteins and a synthetic metabolon featuring substrate channeling J. Mater. Chem. B 2013. 1:4419-4427.</ns2:references>
+    <ns1:subject>IDI</ns1:subject>
+    <ns1:subject>polyphosphate group</ns1:subject>
+    <ns1:subject>in vitro multienzyme biosynthesis</ns1:subject>
+    <sbol:member rdf:resource="http://examples.org/Sequence/sb6b00377_3_sequence/1"/>
+    <ns1:subject>pyrophosphates</ns1:subject>
+    <ns1:subject>phosphoenolpyruvate</ns1:subject>
+    <ns1:subject>EC 2.7.1.40</ns1:subject>
+    <ns1:subject>Amorphadiene</ns1:subject>
+    <ns1:subject>phosphomevalonate kinase</ns1:subject>
+    <ns2:references>Kang, A., George, K. W., Wang, G., Baidoo, E., Keasling, J. D., Lee, T. S. Isopentenyl diphosphate (IPP)-bypass mevalonate pathways for isopentenol production Metab. Eng. 2016. 34:25-35.</ns2:references>
+    <ns1:subject>mevalonate diphosphate decarboxylase</ns1:subject>
+    <ns1:subject>dodecane</ns1:subject>
+    <ns1:subject>amorpha-4,11-diene</ns1:subject>
+    <ns1:subject>imidazole</ns1:subject>
+    <ns1:subject>terpenoids</ns1:subject>
+    <ns2:references>Visser, D., Heijnen, J. J. Dynamic simulation and metabolic re-design of a branched pathway using linlog kinetics Metab. Eng. 2003. 5:164-176.</ns2:references>
+    <ns1:subject>acid phosphatase</ns1:subject>
+    <ns2:references>Rollin, J. A., Martin del Campo, J., Myung, S., Sun, F., You, C., Bakovic, A., Castro, R., Chandrayan, S. K., Wu, C.-H., Adams, M. W. W., Senger, R. S., Zhang, Y.-H. P. High-yield hydrogen production from biomass by in vitro metabolic engineering: mixed sugars coutilization and kinetic modeling Proc. Natl. Acad. Sci. U. S. A. 2015. 112:4964-4969.</ns2:references>
+    <ns1:subject>adenosine triphosphate</ns1:subject>
+    <ns1:subject>phosphomevalonic acid</ns1:subject>
+    <ns1:subject>amorphadiene</ns1:subject>
+    <ns1:subject>adenosine diphosphate</ns1:subject>
+    <ns1:subject>PEP</ns1:subject>
+    <ns1:subject>MVD</ns1:subject>
+    <ns1:subject>sodium dodecyl sulfate</ns1:subject>
+    <ns1:subject>nitrogen</ns1:subject>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/sb6b00377"/>
+    <ns1:subject>ADP</ns1:subject>
+    <ns1:subject>fanesyl</ns1:subject>
+    <ns2:references>Sheldon, R. A. Enzyme immobilization: the quest for optimum performance Adv. Synth. Catal. 2007. 349:1289-1307.</ns2:references>
+    <ns2:references>Wu, L., Wang, W., van Winden, W. A., van Gulik, W. M., Heijnen, J. J. A new framework for the estimation of control parameters in metabolic pathways using lin-log kinetics Eur. J. Biochem. 2004. 271:3348-3359.</ns2:references>
+    <ns1:subject>dash</ns1:subject>
+    <ns2:references>Opgenorth, P. H., Korman, T. P., Bowie, J. U. A synthetic biochemistry module for production of bio-based chemicals from glucose Nat. Chem. Biol. 2016. 12:393-395.</ns2:references>
+    <ns1:subject>farnesyl diphosphate synthase</ns1:subject>
+    <ns1:subject>DMAPP</ns1:subject>
+    <ns2:references>Fell, D. A. Metabolic control analysis: a survey of its theoretical and experimental development Biochem. J. 1992. 286:313-330.</ns2:references>
+    <ns1:subject>FPPS</ns1:subject>
+    <ns2:references>Jabalquinto, A. M., Cardemil, E. Substrate binding order in mevalonate 5-diphosphate decarboxylase from chicken liver Biochim. Biophys. Acta, Protein Struct. Mol. Enzymol. 1989. 996:257-259.</ns2:references>
+    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb6b00377_3_comp/1"/>
+    <ns2:description>In vitro metabolic engineering is an alternative approach to cell-based biosynthesis. It offers unprecedented flexibility for the study of biochemical pathways, thus providing useful information for the rational design and assembly of reaction modules. Herein, we took the advantage of in vitro metabolic engineering to initially gain insight into the regulatory network of a reconstituted amorpha-4,11-diene (AD) synthetic pathway. Guided by lin-log approximation, we rapidly identified the hitherto unrecognized inhibition of adenosine triphosphate (ATP) on both farnesyl pyrophosphate synthase (FPPS) and amorpha-4,11-diene synthase (ADS). Furthermore, the byproduct, pyrophosphate (PPi), potently inhibits ADS, but not FPPS. To lower the inhibition, an ATP recycling system and pyrophosphatase were used and resulted in a significant (&#8764;3-fold) enhancement in the rate of AD production (&#8764;5.7 &#956;mol L&#8211;1 min&#8211;1). A coimmobilized multienzyme reaction system was then developed to recycle the enzymes. When inhibitory metabolites concentrations were reduced, the specific enzymatic yield of AD was further enhanced (&gt;6-fold). This study demonstrated that mitigating the accumulation of inhibitory metabolites can result in higher yields of AD production by in vitro multienzymatic reactions.</ns2:description>
+    <ns2:references>Dudley, Q. M., Karim, A. S., Jewett, M. C. Cell-free metabolic engineering: biomanufacturing beyond the cell Biotechnol. J. 2015. 10:69-82.</ns2:references>
+    <ns1:subject>polyphosphates</ns1:subject>
+    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb6b00377_2_comp/1"/>
+    <ns1:subject>NaH 2 PO 4</ns1:subject>
+    <ns1:subject>CTP</ns1:subject>
+    <ns2:references>Withers, S. T., Keasling, J. D. Biosynthesis and engineering of isoprenoid small molecules Appl. Microbiol. Biotechnol. 2007. 73:980-990.</ns2:references>
+    <ns1:subject>CO 2</ns1:subject>
+    <ns2:references>Bennett, B. D., Kimball, E. H., Gao, M., Osterhout, R., Van Dien, S. J., Rabinowitz, J. D. Absolute metabolite concentrations and implied enzyme active site occupancy in Escherichia coli Nat. Chem. Biol. 2009. 5:593-599.</ns2:references>
+    <ns1:subject>Pi</ns1:subject>
+    <ns1:subject>glucose</ns1:subject>
+    <ns1:subject>pyrophosphate</ns1:subject>
+    <ns1:subject>Ctrl</ns1:subject>
+    <ns1:creator>Xixian Chen</ns1:creator>
+    <ns1:subject>acetyl kinase</ns1:subject>
+    <ns2:references>Zawada, J. F., Yin, G., Steiner, A. R., Yang, J. H., Naresh, A., Roy, S. M., Gold, D. S., Heinsohn, H. G., Murray, C. J. Microscale to manufacturing scale-up of cell-free cytokine production-a new approach for shortening protein production development timelines Biotechnol. Bioeng. 2011. 108:1570-1578.</ns2:references>
+    <ns1:subject>magnesium chloride</ns1:subject>
+    <ns1:creator>Heng-Phon Too</ns1:creator>
+    <ns2:dateAccepted>2017-05-18</ns2:dateAccepted>
+    <ns1:subject>Tris/HCl</ns1:subject>
+    <ns1:subject>ADS</ns1:subject>
+    <ns2:dateCopyrighted>2017</ns2:dateCopyrighted>
+    <ns1:subject>Ppa</ns1:subject>
+    <ns0:wasDerivedFrom rdf:resource="https://pubs.acs.org/doi/10.1021/acssynbio.6b00377"/>
+    <ns1:subject>sesquiterpene synthases</ns1:subject>
+    <ns1:subject>glycerol</ns1:subject>
+    <ns2:references>Kwok, R. Five hard truths for synthetic biology Nature 2010. 463:288-290.</ns2:references>
+    <ns1:subject>NaCl</ns1:subject>
+    <ns1:subject>isoprenoids</ns1:subject>
+    <ns1:subject>polyphosphate</ns1:subject>
+    <ns2:references>Crans, D. C., Kazlauskas, R. J., Hirschbein, B. L., Wong, C. H., Abril, O., Whitesides, G. M. Enzymatic regeneration of adenosine 5&#8242;-triphosphate: Acetyl phosphate, phosphoenolpyruvate, methoxycarbonyl phosphate, dihydroxyacetone phosphate, 5-phospho-alpha-d-ribosyl pyrophosphate, uridine-5&#8242;-diphosphoglucose Methods Enzymol. 1987. 136:263-280.</ns2:references>
+    <sbol:member rdf:resource="http://examples.org/Sequence/sb6b00377_6_sequence/1"/>
+    <ns1:subject>nitrogen-containing bisphosphates</ns1:subject>
+    <ns1:subject>cytidine triphosphate</ns1:subject>
+    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb6b00377_1_comp/1"/>
+    <ns2:references>Patil, K. R., Akesson, M., Nielsen, J. Use of genome-scale microbial models for metabolic engineering Curr. Opin. Biotechnol. 2004. 15:64-69.</ns2:references>
+    <sbol:member rdf:resource="http://examples.org/Sequence/sb6b00377_1_sequence/1"/>
+    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb6b00377_4_comp/1"/>
+    <ns1:subject>AD</ns1:subject>
+    <ns2:references>Krutsakorn, B., Honda, K., Ye, X., Imagawa, T., Bei, X., Okano, K., Ohtake, H. In vitro production of n-butanol from glucose Metab. Eng. 2013. 20:84-91.</ns2:references>
+    <ns1:subject>magnesium</ns1:subject>
+    <ns1:subject>E. coli</ns1:subject>
+    <ns2:references>Paddon, C. J., Keasling, J. D. Semi-synthetic artemisinin: a model for the use of synthetic biology in pharmaceutical development Nat. Rev. Microbiol. 2014. 12:355-367.</ns2:references>
+  </sbol:Collection>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb6b00377_1_comp/1">
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.6b00377"/>
+    <sbol:displayId>sb6b00377_1_comp</sbol:displayId>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb6b00377_1_sequence/1"/>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb6b00377_1_comp"/>
+    <sbh:supplementalFile rdf:resource="file:///C:/Users/JVM/Downloads/sequence_supplementals/synbict_output/pdf"/>
+    <sbol:version>1</sbol:version>
+  </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb6b00377_1_sequence/1">
+    <sbol:version>1</sbol:version>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:displayId>sb6b00377_1_sequence</sbol:displayId>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb6b00377_1_sequence"/>
+    <sbol:elements>tggcggatgagagaag</sbol:elements>
+  </sbol:Sequence>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb6b00377_5_comp/1">
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb6b00377_5_comp"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbh:supplementalFile rdf:resource="file:///C:/Users/JVM/Downloads/sequence_supplementals/synbict_output/pdf"/>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb6b00377_5_sequence/1"/>
+    <sbol:displayId>sb6b00377_5_comp</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.6b00377"/>
+  </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb6b00377_3_sequence/1">
+    <sbol:displayId>sb6b00377_3_sequence</sbol:displayId>
+    <sbol:elements>atgaaaaagaccaaaattgttt</sbol:elements>
+    <sbol:version>1</sbol:version>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb6b00377_3_sequence"/>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb6b00377_4_sequence/1">
+    <sbol:elements>ttacaggacgtgaacagatgc</sbol:elements>
+    <sbol:version>1</sbol:version>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb6b00377_4_sequence"/>
+    <sbol:displayId>sb6b00377_4_sequence</sbol:displayId>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb6b00377_6_sequence/1">
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb6b00377_6_sequence"/>
+    <sbol:elements>ttatttattctttgcgcgc</sbol:elements>
+    <sbol:displayId>sb6b00377_6_sequence</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+  </sbol:Sequence>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb6b00377_3_comp/1">
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb6b00377_3_comp"/>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb6b00377_3_sequence/1"/>
+    <sbh:supplementalFile rdf:resource="file:///C:/Users/JVM/Downloads/sequence_supplementals/synbict_output/pdf"/>
+    <sbol:version>1</sbol:version>
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.6b00377"/>
+    <sbol:displayId>sb6b00377_3_comp</sbol:displayId>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+  </sbol:ComponentDefinition>
+</rdf:RDF>

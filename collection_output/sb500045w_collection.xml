@@ -1,0 +1,124 @@
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:sbh="https://wiki.synbiohub.org/wiki/Terms/synbiohub#" xmlns:sbol="http://sbols.org/v2#" xmlns:ns0="http://www.w3.org/ns/prov#" xmlns:ns1="http://purl.org/dc/elements/1.1/" xmlns:ns2="http://purl.org/dc/terms/" xmlns:ns3="http://purl.obolibrary.org/obo/">
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb500045w_1_sequence/1">
+    <sbol:elements>gaattctcgatcacttctagatttactgctgctcccgcttaagttaaactgcgtggtacc</sbol:elements>
+    <sbol:displayId>sb500045w_1_sequence</sbol:displayId>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:version>1</sbol:version>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb500045w_1_sequence"/>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb500045w_3_sequence/1">
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb500045w_3_sequence"/>
+    <sbol:displayId>sb500045w_3_sequence</sbol:displayId>
+    <sbol:elements>gaattctcgatcacttctagatcctccgtttccacatcttaagttaaactgcgtggtacc</sbol:elements>
+    <sbol:version>1</sbol:version>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb500045w_4_sequence/1">
+    <sbol:elements>ggtaccacgcagtttaacttaagatgtggaaacggaggatctagaagtgatcgagaattc</sbol:elements>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb500045w_4_sequence"/>
+    <sbol:version>1</sbol:version>
+    <sbol:displayId>sb500045w_4_sequence</sbol:displayId>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+  </sbol:Sequence>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb500045w_3_comp/1">
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbol:displayId>sb500045w_3_comp</sbol:displayId>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb500045w_3_sequence/1"/>
+    <sbh:supplementalFile rdf:resource="file:///C:/Users/JVM/Downloads/sequence_supplementals/synbict_output/pdf"/>
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/sb500045w"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb500045w_3_comp"/>
+    <sbol:version>1</sbol:version>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+  </sbol:ComponentDefinition>
+  <sbol:Collection rdf:about="http://examples.org/sb500045w/1">
+    <ns1:creator>Ali Honarmand</ns1:creator>
+    <ns2:isPartOf>ACS Synthetic Biology</ns2:isPartOf>
+    <ns2:dateSubmitted>2014-01-17</ns2:dateSubmitted>
+    <ns1:creator>Su Wang</ns1:creator>
+    <sbol:member rdf:resource="http://examples.org/Sequence/sb500045w_4_sequence/1"/>
+    <ns1:creator>Kate Chatfield-Reed</ns1:creator>
+    <ns1:creator>Julie Osgood</ns1:creator>
+    <ns1:creator>Mayi Arcellana-Panlilio</ns1:creator>
+    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb500045w_1_comp/1"/>
+    <ns1:type>review-article</ns1:type>
+    <ns1:creator>Lisa Oberding</ns1:creator>
+    <ns1:creator>Justin Dole</ns1:creator>
+    <ns2:references>Fang, Z., Soleymani, L., Pampalakis, G., Yoshimoto, M., Squire, J. A., Sargent, E. H., Kelley, S.O. Direct profiling of cancer biomarkers in tumor tissue using a multiplexed nanostructured microelectrode integrated circuit ACS Nano 2009. 3:3207-3213.</ns2:references>
+    <ns2:references>Gaber, R., Lebar, T., Majerle, A., S&#780;ter, B., Dobnikar, A., Benc&#780;ina, M., Jerala, R. Designable DNA-binding domains enable construction of logic circuits in mammalian cells Nat. Chem. Biol. 2014. 10:203-208.</ns2:references>
+    <ns1:creator>Wm. Keith van der Meulen</ns1:creator>
+    <ns2:references>Ruggiero, P., McMillen, T., Tang, Y. W., Babady, N. E. Evaluation of the BioFire FilmArray respiratory panel and the GenMark eSensor respiratory viral panel on lower respiratory tract specimens J. Clin. Microbiol. 2014. 52:1288-1290.</ns2:references>
+    <ns1:creator>Jamie Fegan</ns1:creator>
+    <ns2:dateCopyrighted>2014</ns2:dateCopyrighted>
+    <ns1:creator>Chris Wintersinger</ns1:creator>
+    <sbol:version>1</sbol:version>
+    <ns1:creator>Anders Nygren</ns1:creator>
+    <ns3:OBI_0002110 rdf:resource="https://doi.org/10.1021/sb500045w"/>
+    <ns1:creator>Himika Dastidar</ns1:creator>
+    <ns1:creator>Denny Hoang</ns1:creator>
+    <ns0:wasDerivedFrom rdf:resource="https://pubs.acs.org/doi/10.1021/sb500045w"/>
+    <sbol:displayId>sb500045w</sbol:displayId>
+    <sbol:member rdf:resource="http://examples.org/Sequence/sb500045w_1_sequence/1"/>
+    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb500045w_4_comp/1"/>
+    <ns2:references>Moscou, M. J., Bogdanove, A. J. A simple cipher governs DNA recognition by TAL effectors Science 2009. 326.</ns2:references>
+    <ns1:creator>Iain George</ns1:creator>
+    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb500045w_3_comp/1"/>
+    <ns1:creator>Somshukla Chaudhuri</ns1:creator>
+    <ns3:OBI_0001617>25524096</ns3:OBI_0001617>
+    <ns2:type rdf:resource="http://purl.org/dc/dcmitype/Text"/>
+    <ns2:isPartOf rdf:resource="http://pubs.acs.org/journal/asbcd6"/>
+    <ns1:creator>Robert Mayall</ns1:creator>
+    <ns1:publisher>American Chemical
+Society</ns1:publisher>
+    <ns1:creator>Sharon Feng</ns1:creator>
+    <ns1:creator>Ruth Moges</ns1:creator>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/sb500045w"/>
+    <ns1:creator>Taylor Remondini</ns1:creator>
+    <ns2:references>Christian, M., Cermak, T., Doyle, E. L., Schmidt, C., Zhang, F., Hummel, A., Bogdanove, A. J., Voytas, D. F. Targeting DNA double-strand breaks with TAL effector nucleases Genetics 2010. 186:757-761.</ns2:references>
+    <ns1:creator>Amanda Zaparoli Zucoloto</ns1:creator>
+    <sbol:member rdf:resource="http://examples.org/Sequence/sb500045w_2_sequence/1"/>
+    <sbol:member rdf:resource="http://examples.org/Sequence/sb500045w_3_sequence/1"/>
+    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb500045w_2_comp/1"/>
+    <ns2:description>Transcription activator-like effectors (TALEs), originating from the Xanthomonas genus of bacteria, bind to specific DNA sequences based on amino acid sequence in the repeat-variable diresidue (RVD) positions of the protein. By altering these RVDs, it has been shown that a TALE protein can be engineered to bind virtually any DNA sequence of interest. The possibility of multiplexing TALEs for the purposes of identifying specific DNA sequences has yet to be explored. Here, we demonstrate a system in which a TALE protein bound to a nitrocellulose strip has been utilized to capture purified DNA, which is then detected using the binding of a second distinct TALE protein conjugated to a protein tag that is then detected by a dot blot. This system provides a signal only when both TALEs bind to their respective sequences, further demonstrating the specificity of the TALE binding.</ns2:description>
+    <ns2:title>A Multiplexed Transcription Activator-like Effector System for Detecting Specific DNA Sequences</ns2:title>
+    <ns1:rights>Copyright &amp; 2014 American Chemical Society</ns1:rights>
+    <ns2:abstract>Transcription activator-like effectors (TALEs), originating from the Xanthomonas genus of bacteria, bind to specific DNA sequences based on amino acid sequence in the repeat-variable diresidue (RVD) positions of the protein. By altering these RVDs, it has been shown that a TALE protein can be engineered to bind virtually any DNA sequence of interest. The possibility of multiplexing TALEs for the purposes of identifying specific DNA sequences has yet to be explored. Here, we demonstrate a system in which a TALE protein bound to a nitrocellulose strip has been utilized to capture purified DNA, which is then detected using the binding of a second distinct TALE protein conjugated to a protein tag that is then detected by a dot blot. This system provides a signal only when both TALEs bind to their respective sequences, further demonstrating the specificity of the TALE binding.</ns2:abstract>
+    <ns2:rightsHolder>American Chemical Society</ns2:rightsHolder>
+  </sbol:Collection>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb500045w_4_comp/1">
+    <sbol:version>1</sbol:version>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbh:supplementalFile rdf:resource="file:///C:/Users/JVM/Downloads/sequence_supplementals/synbict_output/pdf"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb500045w_4_comp"/>
+    <sbol:displayId>sb500045w_4_comp</sbol:displayId>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb500045w_4_sequence/1"/>
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/sb500045w"/>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb500045w_2_comp/1">
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbh:supplementalFile rdf:resource="file:///C:/Users/JVM/Downloads/sequence_supplementals/synbict_output/pdf"/>
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/sb500045w"/>
+    <sbol:displayId>sb500045w_2_comp</sbol:displayId>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb500045w_2_sequence/1"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb500045w_2_comp"/>
+    <sbol:version>1</sbol:version>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb500045w_1_comp/1">
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb500045w_1_sequence/1"/>
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/sb500045w"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb500045w_1_comp"/>
+    <sbol:version>1</sbol:version>
+    <sbol:displayId>sb500045w_1_comp</sbol:displayId>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbh:supplementalFile rdf:resource="file:///C:/Users/JVM/Downloads/sequence_supplementals/synbict_output/pdf"/>
+  </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb500045w_2_sequence/1">
+    <sbol:displayId>sb500045w_2_sequence</sbol:displayId>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:elements>ggtaccacgcagtttaacttaagcgggagcagcagtaaatctagaagtgatcgagaattc</sbol:elements>
+    <sbol:version>1</sbol:version>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb500045w_2_sequence"/>
+  </sbol:Sequence>
+</rdf:RDF>

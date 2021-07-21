@@ -1,0 +1,568 @@
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:sbh="https://wiki.synbiohub.org/wiki/Terms/synbiohub#" xmlns:sbol="http://sbols.org/v2#" xmlns:ns0="http://www.w3.org/ns/prov#" xmlns:ns1="http://purl.org/dc/terms/" xmlns:ns2="http://purl.org/dc/elements/1.1/" xmlns:ns3="http://purl.obolibrary.org/obo/">
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb400082j_12_sequence/1">
+    <sbol:displayId>sb400082j_12_sequence</sbol:displayId>
+    <sbol:elements>agaaagctgggtgcttaagttatcagctagcgctgtccgccgttgcctg</sbol:elements>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb400082j_12_sequence"/>
+    <sbol:version>1</sbol:version>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb400082j_8_sequence/1">
+    <sbol:displayId>sb400082j_8_sequence</sbol:displayId>
+    <sbol:elements>tatcgctaccgataaccgggccaacggactgcacagttagccgttactcgagctctgagtgtaataatgttatcg</sbol:elements>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:version>1</sbol:version>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb400082j_8_sequence"/>
+  </sbol:Sequence>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb400082j_11_comp/1">
+    <sbol:version>1</sbol:version>
+    <sbh:supplementalFile rdf:resource="file:///C:/Users/JVM/Downloads/sequence_supplementals/synbict_output/pdf"/>
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/sb400082j"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb400082j_11_comp"/>
+    <sbol:displayId>sb400082j_11_comp</sbol:displayId>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb400082j_11_sequence/1"/>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb400082j_18_comp/1">
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb400082j_18_comp"/>
+    <sbol:displayId>sb400082j_18_comp</sbol:displayId>
+    <sbh:supplementalFile rdf:resource="file:///C:/Users/JVM/Downloads/sequence_supplementals/synbict_output/pdf"/>
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/sb400082j"/>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb400082j_18_sequence/1"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:version>1</sbol:version>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb400082j_9_comp/1">
+    <sbh:supplementalFile rdf:resource="file:///C:/Users/JVM/Downloads/sequence_supplementals/synbict_output/pdf"/>
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/sb400082j"/>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb400082j_9_sequence/1"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb400082j_9_comp"/>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:version>1</sbol:version>
+    <sbol:displayId>sb400082j_9_comp</sbol:displayId>
+  </sbol:ComponentDefinition>
+  <sbol:Collection rdf:about="http://examples.org/sb400082j/1">
+    <ns1:references> Media Recipes: LB (Luria&#8211;Bertani) liquid medium Cold Spring Harbor Protoc. 2006.</ns1:references>
+    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb400082j_14_comp/1"/>
+    <sbol:member rdf:resource="http://examples.org/Sequence/sb400082j_24_sequence/1"/>
+    <ns1:references>Pimentel-Elardo, S. M., Kozytska, S., Bugni, T. S., Ireland, C. M., Moll, H., Hentschel, U. Anti-parasitic compounds from Streptomyces sp. strains isolated from Mediterranean sponges Mar. Drugs 2010. 8:373-380.</ns1:references>
+    <ns1:description>The structural complexity of nonribosomal peptides (NRPs) impeding economic chemical synthesis and poor cultivability of source organisms limits the development of bioprocesses for novel bioactive compounds. Since nonribosomal peptide synthetases (NRPSs) assemble NRPs from simple amino acid building blocks, heterologous expression of NRPSs in a robust and easy to manipulate expression host is an attractive strategy to make pharmaceutically relevant NRPs more accessible and is also a basis for engineering of these enzymes to generate novel synthetic bioactive compounds. Here we show a systematic approach for the heterologous expression of the 654 kDa heterodimeric valinomycin synthetase (VlmSyn) from                    Streptomyces tsusimaensis                 in a soluble and active form in                    Escherichia coli                . VlmSyn activity and precursor requirements were determined in vitro and provided evidence for a previously proposed model of valinomycin biosynthesis. In vivo production of recombinant valinomycin, a macrolactone antibiotic with reported antifungal, antibacterial, and antiviral activities, was achieved using an engineered E. coli strain growing in inexpensive media and independent of the supplementation with precursors and further optimization of the cultivation conditions. Tailoring of VlmSyn in E. coli paves the way to the production of novel valinomycin analogues in the future.</ns1:description>
+    <ns1:references>Boghigian, B. A., Pfeifer, B. A. Current status, strategies, and potential for the metabolic engineering of heterologous polyketides in Escherichia coli Biotechnol. Lett. 2008. 30:1323-1330.</ns1:references>
+    <ns1:references>Li, J., Jaitzig, J., Hillig, F., Su&#776;ssmuth, R., Neubauer, P. Enhanced production of the nonribosomal peptide antibiotic valinomycin in Escherichia coli through small-scale high cell density fed-batch cultivation Appl. Microbiol. Biotechnol. 2013.</ns1:references>
+    <sbol:member rdf:resource="http://examples.org/Sequence/sb400082j_10_sequence/1"/>
+    <sbol:member rdf:resource="http://examples.org/Sequence/sb400082j_7_sequence/1"/>
+    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb400082j_22_comp/1"/>
+    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb400082j_11_comp/1"/>
+    <sbol:member rdf:resource="http://examples.org/Sequence/sb400082j_16_sequence/1"/>
+    <ns1:references>Patterson E. L. , and Wright D. P. (1970) Process for controlling insects, nematodes and mites using valinomycin. U.S. Patent No. 3520973, US.</ns1:references>
+    <ns1:references>Su&#776;ssmuth, R., Mu&#776;ller, J., von Do&#776;hren, H., Molnar, I. Fungal cyclooligomer depsipeptides: from classical biochemistry to combinatorial biosynthesis Nat. Prod. Rep. 2011. 28:99-124.</ns1:references>
+    <ns1:references>Zhang, H., Boghigian, B. A., Armando, J., Pfeifer, B. A. Methods and options for the heterologous production of complex natural products Nat. Prod. Rep. 2011. 28:125-151.</ns1:references>
+    <ns1:references>Cheng, Y. Q. Deciphering the biosynthetic codes for the potent anti-SARS-CoV cyclodepsipeptide valinomycin in Streptomyces tsusimaensis ATCC 15141 ChemBioChem 2006. 7:471-477.</ns1:references>
+    <ns1:isPartOf rdf:resource="http://pubs.acs.org/journal/asbcd6"/>
+    <ns2:subject>heterologous expression</ns2:subject>
+    <ns1:references>Watanabe, K., Hotta, K., Praseuth, A. P., Koketsu, K., Migita, A., Boddy, C. N., Wang, C. C., Oguri, H., Oikawa, H. Total biosynthesis of antitumor nonribosomal peptides in Escherichia coli Nat. Chem. Biol. 2006. 2:423-428.</ns1:references>
+    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb400082j_20_comp/1"/>
+    <ns2:creator>Jian Li</ns2:creator>
+    <sbol:member rdf:resource="http://examples.org/Sequence/sb400082j_23_sequence/1"/>
+    <sbol:member rdf:resource="http://examples.org/Sequence/sb400082j_22_sequence/1"/>
+    <ns2:subject>secondary metabolite production</ns2:subject>
+    <ns1:dateAccepted>2013-12-11</ns1:dateAccepted>
+    <ns1:references>Matthes, D., Richter, L., Mu&#776;ller, J., Denisiuk, A., Feifel, S. C., Xu, Y., Espinosa-Artiles, P., Su&#776;ssmuth, R. D., Molnar, I. In vitro chemoenzymatic and in vivo biocatalytic syntheses of new beauvericin analogues Chem. Commun. (Cambridge, U. K.) 2012. 48:5674-5676.</ns1:references>
+    <sbol:member rdf:resource="http://examples.org/Sequence/sb400082j_15_sequence/1"/>
+    <ns1:rightsHolder>American Chemical Society</ns1:rightsHolder>
+    <sbol:member rdf:resource="http://examples.org/Sequence/sb400082j_12_sequence/1"/>
+    <sbol:member rdf:resource="http://examples.org/Sequence/sb400082j_5_sequence/1"/>
+    <ns1:references>Pettit, G. R., Tan, R., Melody, N., Kielty, J. M., Pettit, R. K., Herald, D. L., Tucker, B. E., Mallavia, L. P., Doubek, D. L., Schmidt, J. M. Antineoplastic agents. Part 409: Isolation and structure of montanastatin from a terrestrial actinomycete Bioorg. Med. Chem. 1999. 7:895-899.</ns1:references>
+    <ns1:dateSubmitted>2013-07-16</ns1:dateSubmitted>
+    <sbol:member rdf:resource="http://examples.org/Sequence/sb400082j_14_sequence/1"/>
+    <ns1:references>Caboche, S., Leclere, V., Pupin, M., Kucherov, G., Jacques, P. Diversity of monomers in nonribosomal peptides: towards the prediction of origin and biological activity J. Bacteriol. 2010. 192:5143-5150.</ns1:references>
+    <ns1:isPartOf>ACS Synthetic Biology</ns1:isPartOf>
+    <sbol:member rdf:resource="http://examples.org/Sequence/sb400082j_9_sequence/1"/>
+    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb400082j_24_comp/1"/>
+    <sbol:member rdf:resource="http://examples.org/Sequence/sb400082j_13_sequence/1"/>
+    <ns1:references>Pfeifer, B. A., Wang, C. C., Walsh, C. T., Khosla, C. Biosynthesis of Yersiniabactin, a complex polyketide-nonribosomal peptide, using Escherichia coli as a heterologous host Appl. Environ. Microbiol. 2003. 69:6698-6702.</ns1:references>
+    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb400082j_4_comp/1"/>
+    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb400082j_15_comp/1"/>
+    <sbol:member rdf:resource="http://examples.org/Sequence/sb400082j_18_sequence/1"/>
+    <ns1:references>Matter, A.
+M., Hoot, S. B., Anderson, P. D., Neves, S. S., Cheng, Y. Q. Valinomycin biosynthetic gene cluster in Streptomyces: conservation, ecology and evolution PLoS One 2009. 4.</ns1:references>
+    <sbol:version>1</sbol:version>
+    <sbol:member rdf:resource="http://examples.org/Sequence/sb400082j_17_sequence/1"/>
+    <sbol:member rdf:resource="http://examples.org/Sequence/sb400082j_1_sequence/1"/>
+    <sbol:member rdf:resource="http://examples.org/Sequence/sb400082j_21_sequence/1"/>
+    <ns2:rights>Copyright &amp; 2013 American Chemical Society</ns2:rights>
+    <ns2:subject>valinomycin biosynthesis</ns2:subject>
+    <sbol:member rdf:resource="http://examples.org/Sequence/sb400082j_26_sequence/1"/>
+    <ns2:type>rapid-communication</ns2:type>
+    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb400082j_18_comp/1"/>
+    <ns1:references>Magarvey, N.
+A., Ehling-Schulz, M., Walsh, C. T. Characterization of the cereulide NRPS alpha-hydroxy acid specifying modules: activation of alpha-keto acids and chiral reduction on the assembly line J. Am. Chem. Soc. 2006. 128:10698-10699.</ns1:references>
+    <ns1:references>Cheng, Y. Q., Tang, G. L., Shen, B. Identification and localization of the gene cluster encoding biosynthesis of the antitumor macrolactam leinamycin in Streptomyces atroolivaceus S-140 J. Bacteriol. 2002. 184:7013-7024.</ns1:references>
+    <sbol:member rdf:resource="http://examples.org/Sequence/sb400082j_2_sequence/1"/>
+    <ns1:references>Ryoo, I. J., Park, H. R., Choo, S. J., Hwang, J. H., Park, Y. M., Bae, K. H., Shin-Ya, K., Yoo, I. D. Selective cytotoxic activity of valinomycin against HT-29 Human colon carcinoma cells via down-regulation of GRP78 Biol. Pharm. Bull. 2006. 29:817-820.</ns1:references>
+    <ns1:dateCopyrighted>2013</ns1:dateCopyrighted>
+    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb400082j_13_comp/1"/>
+    <ns2:subject>nonribosomal peptide synthetase</ns2:subject>
+    <ns2:subject>cyclodepsipeptide antibiotic</ns2:subject>
+    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb400082j_3_comp/1"/>
+    <ns1:references>Pham, V. H., Kim, J. Cultivation of unculturable soil bacteria Trends Biotechnol. 2012. 30:475-484.</ns1:references>
+    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb400082j_10_comp/1"/>
+    <ns1:references>Albermann, C., Trachtmann, N., Sprenger, G. A. A simple and reliable method to conduct and monitor expression cassette integration into the Escherichia coli chromosome Biotechnol. J. 2010. 5:32-38.</ns1:references>
+    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb400082j_21_comp/1"/>
+    <sbol:displayId>sb400082j</sbol:displayId>
+    <ns1:references>Keasling, J. D. Synthetic biology for synthetic chemistry ACS Chem. Biol. 2008. 3:64-76.</ns1:references>
+    <ns1:references>S&#780;iurkus, J., Panula-Pera&#776;la&#776;, J., Horn, U., Kraft, M., Rims&#780;eliene, R., Neubauer, P. Novel approach of high cell density recombinant bioprocess development: optimization and scale-up from microliter to pilot scales while maintaining the fed-batch cultivation mode of E. coli cultures Microb. Cell Fact. 2010. 9.</ns1:references>
+    <ns2:creator>Peter Neubauer</ns2:creator>
+    <ns1:references>Caetano, T., Krawczyk, J. M., Mosker, E., Su&#776;ssmuth, R. D., Mendo, S. Lichenicidin biosynthesis in Escherichia coli: licFGEHI immunity genes are not essential for lantibiotic production or self-protection Appl. Environ. Microbiol. 2011. 77:5023-5026.</ns1:references>
+    <sbol:member rdf:resource="http://examples.org/Sequence/sb400082j_11_sequence/1"/>
+    <ns1:references>Schwarzer, D., Mootz, H. D., Linne, U., Marahiel, M. A. Regeneration of misprimed nonribosomal peptide synthetases by type II thioesterases Proc. Natl. Acad. Sci. U. S. A. 2002. 99:14083-14088.</ns1:references>
+    <ns1:references>Finking, R., Marahiel, M. A. Biosynthesis of nonribosomal peptides1 Annu. Rev. Microbiol. 2004. 58:453-488.</ns1:references>
+    <ns1:references>Gerdes, K., Helin, K., Christensen, O. W., Lobner-Olesen, A. Translational control and differential RNA decay are key elements regulating postsegregational expression of the killer protein encoded by the parB locus of plasmid R1 J. Mol. Biol. 1988. 203:119-129.</ns1:references>
+    <ns1:references>Gruenewald, S., Mootz, H. D., Stehmeier, P., Stachelhaus, T. In vivo production of artificial nonribosomal peptide products in the heterologous host Escherichia coli Appl. Environ. Microbiol. 2004. 70:3282-3291.</ns1:references>
+    <ns1:references>Ladeuze, S., Lentz, N., Delbrassinne, L., Hu, X., Mahillon, J. Antifungal activity displayed by cereulide, the emetic toxin produced by Bacillus cereus Appl. Environ. Microbiol. 2011. 77:2555-2558.</ns1:references>
+    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb400082j_6_comp/1"/>
+    <sbol:member rdf:resource="http://examples.org/Sequence/sb400082j_19_sequence/1"/>
+    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb400082j_19_comp/1"/>
+    <ns1:references>Ongley, S. E., Bian, X., Zhang, Y., Chau, R., Gerwick, W. H., Muller, R., Neilan, B. A. High-titer heterologous production in E. coli of lyngbyatoxin, a protein kinase C activator from an uncultured marine cyanobacterium ACS Chem. Biol. 2013. 8:1888-1893.</ns1:references>
+    <ns1:references>Watanabe, K., Oikawa, H. Robust platform for de novo production of heterologous polyketides and nonribosomal peptides in Escherichia coli Org. Biomol. Chem. 2007. 5:593-602.</ns1:references>
+    <ns1:created>2013-12-11</ns1:created>
+    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb400082j_9_comp/1"/>
+    <sbol:member rdf:resource="http://examples.org/Sequence/sb400082j_6_sequence/1"/>
+    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb400082j_1_comp/1"/>
+    <ns1:references>Tempelaars, M. H., Rodrigues, S., Abee, T. Comparative analysis of antimicrobial activities of valinomycin and cereulide, the Bacillus cereus emetic toxin Appl. Environ. Microbiol. 2011. 77:2755-2762.</ns1:references>
+    <ns1:title>Reconstituted Biosynthesis of the Nonribosomal Macrolactone Antibiotic Valinomycin in Escherichia coli</ns1:title>
+    <ns2:creator>Roderich D. Su&#776;ssmuth</ns2:creator>
+    <sbol:member rdf:resource="http://examples.org/Sequence/sb400082j_3_sequence/1"/>
+    <ns1:references>Wu, C. Y., Jan, J. T., Ma, S. H., Kuo, C. J., Juan, H. F., Cheng, Y. S., Hsu, H. H., Huang, H. C., Wu, D., Brik, A., Liang, F. S., Liu, R. S., Fang, J. M., Chen, S. T., Liang, P. H., Wong, C. H. Small molecules targeting severe acute respiratory syndrome human coronavirus Proc. Natl. Acad. Sci. U. S. A. 2004. 101:10012-10017.</ns1:references>
+    <ns1:references>Watanabe, K., Oguri, H., Oikawa, H. Diversification of echinomycin molecular structure by way of chemoenzymatic synthesis and heterologous expression of the engineered echinomycin biosynthetic pathway Curr. Opin. Chem. Biol. 2009. 13:189-196.</ns1:references>
+    <sbol:member rdf:resource="http://examples.org/Sequence/sb400082j_20_sequence/1"/>
+    <ns1:references>Fischbach, M. A., Walsh, C. T. Assembly-line enzymology for polyketide and nonribosomal Peptide antibiotics: logic, machinery, and mechanisms Chem. Rev. 2006. 106:3468-3496.</ns1:references>
+    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb400082j_26_comp/1"/>
+    <sbol:member rdf:resource="http://examples.org/Sequence/sb400082j_8_sequence/1"/>
+    <ns2:creator>Jennifer Jaitzig</ns2:creator>
+    <ns0:wasDerivedFrom rdf:resource="https://pubs.acs.org/doi/10.1021/sb400082j"/>
+    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb400082j_25_comp/1"/>
+    <ns1:type rdf:resource="http://purl.org/dc/dcmitype/Text"/>
+    <ns2:subject>synthetic biology</ns2:subject>
+    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb400082j_12_comp/1"/>
+    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb400082j_8_comp/1"/>
+    <sbol:member rdf:resource="http://examples.org/Sequence/sb400082j_25_sequence/1"/>
+    <ns1:references>Sharan, S. K., Thomason, L. C., Kuznetsov, S. G., Court, D. L. Recombineering: a homologous recombination-based method of genetic engineering Nat. Protoc. 2009. 4:206-223.</ns1:references>
+    <ns1:abstract>The structural complexity of nonribosomal peptides (NRPs) impeding economic chemical synthesis and poor cultivability of source organisms limits the development of bioprocesses for novel bioactive compounds. Since nonribosomal peptide synthetases (NRPSs) assemble NRPs from simple amino acid building blocks, heterologous expression of NRPSs in a robust and easy to manipulate expression host is an attractive strategy to make pharmaceutically relevant NRPs more accessible and is also a basis for engineering of these enzymes to generate novel synthetic bioactive compounds. Here we show a systematic approach for the heterologous expression of the 654 kDa heterodimeric valinomycin synthetase (VlmSyn) from                    Streptomyces tsusimaensis                 in a soluble and active form in                    Escherichia coli                . VlmSyn activity and precursor requirements were determined in vitro and provided evidence for a previously proposed model of valinomycin biosynthesis. In vivo production of recombinant valinomycin, a macrolactone antibiotic with reported antifungal, antibacterial, and antiviral activities, was achieved using an engineered E. coli strain growing in inexpensive media and independent of the supplementation with precursors and further optimization of the cultivation conditions. Tailoring of VlmSyn in E. coli paves the way to the production of novel valinomycin analogues in the future.</ns1:abstract>
+    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb400082j_7_comp/1"/>
+    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb400082j_5_comp/1"/>
+    <ns2:publisher>American Chemical
+Society</ns2:publisher>
+    <ns3:OBI_0002110 rdf:resource="https://doi.org/10.1021/sb400082j"/>
+    <ns1:references>Flugel, R. S., Hwangbo, Y., Lambalot, R. H., Cronan, J. E., Walsh, C. T. Holo-(acyl carrier protein) synthase and phosphopantetheinyl transfer in Escherichia coli J. Biol. Chem. 2000. 275:959-968.</ns1:references>
+    <ns1:references>Mootz, H. D., Schwarzer, D., Marahiel, M. A. Ways of assembling complex natural products on modular nonribosomal peptide synthetases ChemBioChem 2002. 3:490-504.</ns1:references>
+    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb400082j_23_comp/1"/>
+    <sbol:member rdf:resource="http://examples.org/Sequence/sb400082j_4_sequence/1"/>
+    <ns1:references>Anke, T., Lipmann, F. Studies on the biosynthesis of valinomycin FEBS Lett. 1977. 82:337-340.</ns1:references>
+    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb400082j_17_comp/1"/>
+    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb400082j_2_comp/1"/>
+    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb400082j_16_comp/1"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/sb400082j"/>
+    <ns3:OBI_0001617>24350980</ns3:OBI_0001617>
+  </sbol:Collection>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb400082j_7_sequence/1">
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:version>1</sbol:version>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb400082j_7_sequence"/>
+    <sbol:elements>gcgaagcttgtgcggctcaacccg</sbol:elements>
+    <sbol:displayId>sb400082j_7_sequence</sbol:displayId>
+  </sbol:Sequence>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb400082j_21_comp/1">
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/sb400082j"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbol:displayId>sb400082j_21_comp</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb400082j_21_sequence/1"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb400082j_21_comp"/>
+    <sbh:supplementalFile rdf:resource="file:///C:/Users/JVM/Downloads/sequence_supplementals/synbict_output/pdf"/>
+  </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb400082j_25_sequence/1">
+    <sbol:elements>cgtacgaagagcttttataagtgtaggctggagctgcttcg</sbol:elements>
+    <sbol:displayId>sb400082j_25_sequence</sbol:displayId>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:version>1</sbol:version>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb400082j_25_sequence"/>
+  </sbol:Sequence>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb400082j_16_comp/1">
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb400082j_16_comp"/>
+    <sbh:supplementalFile rdf:resource="file:///C:/Users/JVM/Downloads/sequence_supplementals/synbict_output/pdf"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbol:version>1</sbol:version>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb400082j_16_sequence/1"/>
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/sb400082j"/>
+    <sbol:displayId>sb400082j_16_comp</sbol:displayId>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb400082j_13_comp/1">
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb400082j_13_sequence/1"/>
+    <sbol:displayId>sb400082j_13_comp</sbol:displayId>
+    <sbh:supplementalFile rdf:resource="file:///C:/Users/JVM/Downloads/sequence_supplementals/synbict_output/pdf"/>
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/sb400082j"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb400082j_13_comp"/>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbol:version>1</sbol:version>
+  </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb400082j_15_sequence/1">
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb400082j_15_sequence"/>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:elements>aaaaagcaggcttcgaaaacctgtattttcagggc</sbol:elements>
+    <sbol:version>1</sbol:version>
+    <sbol:displayId>sb400082j_15_sequence</sbol:displayId>
+  </sbol:Sequence>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb400082j_15_comp/1">
+    <sbol:displayId>sb400082j_15_comp</sbol:displayId>
+    <sbh:supplementalFile rdf:resource="file:///C:/Users/JVM/Downloads/sequence_supplementals/synbict_output/pdf"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbol:version>1</sbol:version>
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/sb400082j"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb400082j_15_comp"/>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb400082j_15_sequence/1"/>
+  </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb400082j_18_sequence/1">
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:displayId>sb400082j_18_sequence</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <sbol:elements>agaaagctgggtgcttaagttatcaggctcgagggcggggttcctc</sbol:elements>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb400082j_18_sequence"/>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb400082j_3_sequence/1">
+    <sbol:version>1</sbol:version>
+    <sbol:elements>gctagcgacacgccgaccgcccttc</sbol:elements>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb400082j_3_sequence"/>
+    <sbol:displayId>sb400082j_3_sequence</sbol:displayId>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb400082j_1_sequence/1">
+    <sbol:elements>ggggacaagtttgtacaaaaaagcaggctatt</sbol:elements>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb400082j_1_sequence"/>
+    <sbol:version>1</sbol:version>
+    <sbol:displayId>sb400082j_1_sequence</sbol:displayId>
+  </sbol:Sequence>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb400082j_14_comp/1">
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb400082j_14_sequence/1"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb400082j_14_comp"/>
+    <sbol:version>1</sbol:version>
+    <sbh:supplementalFile rdf:resource="file:///C:/Users/JVM/Downloads/sequence_supplementals/synbict_output/pdf"/>
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/sb400082j"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:displayId>sb400082j_14_comp</sbol:displayId>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb400082j_4_comp/1">
+    <sbol:displayId>sb400082j_4_comp</sbol:displayId>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb400082j_4_sequence/1"/>
+    <sbh:supplementalFile rdf:resource="file:///C:/Users/JVM/Downloads/sequence_supplementals/synbict_output/pdf"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb400082j_4_comp"/>
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/sb400082j"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbol:version>1</sbol:version>
+  </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb400082j_9_sequence/1">
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:elements>gtgcccaatattacgacatcatccatcacccgcggcattacctgattatggagcttggattctcaccaataaaaaacgcc</sbol:elements>
+    <sbol:version>1</sbol:version>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb400082j_9_sequence"/>
+    <sbol:displayId>sb400082j_9_sequence</sbol:displayId>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb400082j_13_sequence/1">
+    <sbol:elements>aaaaagcaggcttcgaaaacctgtattttcagggc</sbol:elements>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb400082j_13_sequence"/>
+    <sbol:displayId>sb400082j_13_sequence</sbol:displayId>
+    <sbol:version>1</sbol:version>
+  </sbol:Sequence>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb400082j_25_comp/1">
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:displayId>sb400082j_25_comp</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb400082j_25_sequence/1"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb400082j_25_comp"/>
+    <sbh:supplementalFile rdf:resource="file:///C:/Users/JVM/Downloads/sequence_supplementals/synbict_output/pdf"/>
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/sb400082j"/>
+  </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb400082j_6_sequence/1">
+    <sbol:displayId>sb400082j_6_sequence</sbol:displayId>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb400082j_6_sequence"/>
+    <sbol:version>1</sbol:version>
+    <sbol:elements>cctcgagcccgggtggccgac</sbol:elements>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb400082j_11_sequence/1">
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:elements>aaaaagcaggcttcgaaaacctgtattttcagggc</sbol:elements>
+    <sbol:displayId>sb400082j_11_sequence</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb400082j_11_sequence"/>
+  </sbol:Sequence>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb400082j_24_comp/1">
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:displayId>sb400082j_24_comp</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <sbh:supplementalFile rdf:resource="file:///C:/Users/JVM/Downloads/sequence_supplementals/synbict_output/pdf"/>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb400082j_24_sequence/1"/>
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/sb400082j"/>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb400082j_24_comp"/>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb400082j_6_comp/1">
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb400082j_6_sequence/1"/>
+    <sbol:version>1</sbol:version>
+    <sbh:supplementalFile rdf:resource="file:///C:/Users/JVM/Downloads/sequence_supplementals/synbict_output/pdf"/>
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/sb400082j"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb400082j_6_comp"/>
+    <sbol:displayId>sb400082j_6_comp</sbol:displayId>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb400082j_3_comp/1">
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbol:displayId>sb400082j_3_comp</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb400082j_3_sequence/1"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb400082j_3_comp"/>
+    <sbh:supplementalFile rdf:resource="file:///C:/Users/JVM/Downloads/sequence_supplementals/synbict_output/pdf"/>
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/sb400082j"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb400082j_26_comp/1">
+    <sbh:supplementalFile rdf:resource="file:///C:/Users/JVM/Downloads/sequence_supplementals/synbict_output/pdf"/>
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/sb400082j"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbol:displayId>sb400082j_26_comp</sbol:displayId>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb400082j_26_sequence/1"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb400082j_26_comp"/>
+    <sbol:version>1</sbol:version>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb400082j_5_comp/1">
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb400082j_5_sequence/1"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb400082j_5_comp"/>
+    <sbh:supplementalFile rdf:resource="file:///C:/Users/JVM/Downloads/sequence_supplementals/synbict_output/pdf"/>
+    <sbol:displayId>sb400082j_5_comp</sbol:displayId>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/sb400082j"/>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbol:version>1</sbol:version>
+  </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb400082j_10_sequence/1">
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb400082j_10_sequence"/>
+    <sbol:elements>ggggaccactttgtacaagaaagctgggt</sbol:elements>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:version>1</sbol:version>
+    <sbol:displayId>sb400082j_10_sequence</sbol:displayId>
+  </sbol:Sequence>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb400082j_23_comp/1">
+    <sbh:supplementalFile rdf:resource="file:///C:/Users/JVM/Downloads/sequence_supplementals/synbict_output/pdf"/>
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/sb400082j"/>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb400082j_23_sequence/1"/>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb400082j_23_comp"/>
+    <sbol:version>1</sbol:version>
+    <sbol:displayId>sb400082j_23_comp</sbol:displayId>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb400082j_20_comp/1">
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/sb400082j"/>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb400082j_20_sequence/1"/>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbol:version>1</sbol:version>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb400082j_20_comp"/>
+    <sbol:displayId>sb400082j_20_comp</sbol:displayId>
+    <sbh:supplementalFile rdf:resource="file:///C:/Users/JVM/Downloads/sequence_supplementals/synbict_output/pdf"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb400082j_22_comp/1">
+    <sbol:displayId>sb400082j_22_comp</sbol:displayId>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb400082j_22_comp"/>
+    <sbol:version>1</sbol:version>
+    <sbh:supplementalFile rdf:resource="file:///C:/Users/JVM/Downloads/sequence_supplementals/synbict_output/pdf"/>
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/sb400082j"/>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb400082j_22_sequence/1"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+  </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb400082j_22_sequence/1">
+    <sbol:version>1</sbol:version>
+    <sbol:displayId>sb400082j_22_sequence</sbol:displayId>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb400082j_22_sequence"/>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:elements>agaaagctgggtgcttaagttatcagccgcgcgggccgtcgtc</sbol:elements>
+  </sbol:Sequence>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb400082j_8_comp/1">
+    <sbol:displayId>sb400082j_8_comp</sbol:displayId>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb400082j_8_sequence/1"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:version>1</sbol:version>
+    <sbh:supplementalFile rdf:resource="file:///C:/Users/JVM/Downloads/sequence_supplementals/synbict_output/pdf"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb400082j_8_comp"/>
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/sb400082j"/>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb400082j_19_comp/1">
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb400082j_19_comp"/>
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/sb400082j"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:displayId>sb400082j_19_comp</sbol:displayId>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb400082j_19_sequence/1"/>
+    <sbol:version>1</sbol:version>
+    <sbh:supplementalFile rdf:resource="file:///C:/Users/JVM/Downloads/sequence_supplementals/synbict_output/pdf"/>
+  </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb400082j_14_sequence/1">
+    <sbol:displayId>sb400082j_14_sequence</sbol:displayId>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb400082j_14_sequence"/>
+    <sbol:elements>agaaagctgggtgcttaagttatcacccatatgccgcgaggacggcctc</sbol:elements>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:version>1</sbol:version>
+  </sbol:Sequence>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb400082j_7_comp/1">
+    <sbol:version>1</sbol:version>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb400082j_7_comp"/>
+    <sbol:displayId>sb400082j_7_comp</sbol:displayId>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb400082j_7_sequence/1"/>
+    <sbh:supplementalFile rdf:resource="file:///C:/Users/JVM/Downloads/sequence_supplementals/synbict_output/pdf"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/sb400082j"/>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb400082j_1_comp/1">
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/sb400082j"/>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb400082j_1_sequence/1"/>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbol:displayId>sb400082j_1_comp</sbol:displayId>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:version>1</sbol:version>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb400082j_1_comp"/>
+    <sbh:supplementalFile rdf:resource="file:///C:/Users/JVM/Downloads/sequence_supplementals/synbict_output/pdf"/>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb400082j_12_comp/1">
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbol:version>1</sbol:version>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb400082j_12_comp"/>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb400082j_12_sequence/1"/>
+    <sbh:supplementalFile rdf:resource="file:///C:/Users/JVM/Downloads/sequence_supplementals/synbict_output/pdf"/>
+    <sbol:displayId>sb400082j_12_comp</sbol:displayId>
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/sb400082j"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb400082j_17_comp/1">
+    <sbh:supplementalFile rdf:resource="file:///C:/Users/JVM/Downloads/sequence_supplementals/synbict_output/pdf"/>
+    <sbol:displayId>sb400082j_17_comp</sbol:displayId>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/sb400082j"/>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb400082j_17_sequence/1"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb400082j_17_comp"/>
+    <sbol:version>1</sbol:version>
+  </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb400082j_16_sequence/1">
+    <sbol:displayId>sb400082j_16_sequence</sbol:displayId>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb400082j_16_sequence"/>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:elements>agaaagctgggtgcttaagttatcagtcaagaagcttgatggagtc</sbol:elements>
+    <sbol:version>1</sbol:version>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb400082j_17_sequence/1">
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb400082j_17_sequence"/>
+    <sbol:version>1</sbol:version>
+    <sbol:displayId>sb400082j_17_sequence</sbol:displayId>
+    <sbol:elements>aaaaagcaggcttcgaaaacctgtattttcagggc</sbol:elements>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+  </sbol:Sequence>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb400082j_10_comp/1">
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb400082j_10_sequence/1"/>
+    <sbol:displayId>sb400082j_10_comp</sbol:displayId>
+    <sbh:supplementalFile rdf:resource="file:///C:/Users/JVM/Downloads/sequence_supplementals/synbict_output/pdf"/>
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/sb400082j"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb400082j_10_comp"/>
+    <sbol:version>1</sbol:version>
+  </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb400082j_20_sequence/1">
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:displayId>sb400082j_20_sequence</sbol:displayId>
+    <sbol:elements>agaaagctgggtgcttaagttatcaccgcacaagcttcgccgtggggtc</sbol:elements>
+    <sbol:version>1</sbol:version>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb400082j_20_sequence"/>
+  </sbol:Sequence>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb400082j_2_comp/1">
+    <sbol:version>1</sbol:version>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb400082j_2_sequence/1"/>
+    <sbh:supplementalFile rdf:resource="file:///C:/Users/JVM/Downloads/sequence_supplementals/synbict_output/pdf"/>
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/sb400082j"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:displayId>sb400082j_2_comp</sbol:displayId>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb400082j_2_comp"/>
+  </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb400082j_4_sequence/1">
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb400082j_4_sequence"/>
+    <sbol:elements>gcatatggggaggacgtccagcac</sbol:elements>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:version>1</sbol:version>
+    <sbol:displayId>sb400082j_4_sequence</sbol:displayId>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb400082j_26_sequence/1">
+    <sbol:elements>gagcggccgcatgggaattagccatggtcc</sbol:elements>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:displayId>sb400082j_26_sequence</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb400082j_26_sequence"/>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb400082j_2_sequence/1">
+    <sbol:version>1</sbol:version>
+    <sbol:displayId>sb400082j_2_sequence</sbol:displayId>
+    <sbol:elements>atggtgtctccttccaaggatgacg</sbol:elements>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb400082j_2_sequence"/>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb400082j_21_sequence/1">
+    <sbol:displayId>sb400082j_21_sequence</sbol:displayId>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb400082j_21_sequence"/>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:elements>aaaaagcaggcttcgaaaacctgtattttcagggc</sbol:elements>
+    <sbol:version>1</sbol:version>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb400082j_19_sequence/1">
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:version>1</sbol:version>
+    <sbol:elements>aaaaagcaggcttcgaaaacctgtattttcagggc</sbol:elements>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb400082j_19_sequence"/>
+    <sbol:displayId>sb400082j_19_sequence</sbol:displayId>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb400082j_5_sequence/1">
+    <sbol:version>1</sbol:version>
+    <sbol:displayId>sb400082j_5_sequence</sbol:displayId>
+    <sbol:elements>atgccgattcgcaacacccatcg</sbol:elements>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb400082j_5_sequence"/>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb400082j_24_sequence/1">
+    <sbol:elements>cgaagcagctccagcctacacttataaaagctcttcgtacg</sbol:elements>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb400082j_24_sequence"/>
+    <sbol:displayId>sb400082j_24_sequence</sbol:displayId>
+    <sbol:version>1</sbol:version>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb400082j_23_sequence/1">
+    <sbol:displayId>sb400082j_23_sequence</sbol:displayId>
+    <sbol:elements>cgtcacgcgtatgaagatttacggaatttatatgg</sbol:elements>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb400082j_23_sequence"/>
+    <sbol:version>1</sbol:version>
+  </sbol:Sequence>
+</rdf:RDF>

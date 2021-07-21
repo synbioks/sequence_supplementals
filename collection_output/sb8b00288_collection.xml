@@ -1,0 +1,117 @@
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:sbh="https://wiki.synbiohub.org/wiki/Terms/synbiohub#" xmlns:sbol="http://sbols.org/v2#" xmlns:ns0="http://www.w3.org/ns/prov#" xmlns:ns1="http://purl.org/dc/terms/" xmlns:ns2="http://purl.org/dc/elements/1.1/" xmlns:ns3="http://purl.obolibrary.org/obo/">
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb8b00288_2_sequence/1">
+    <sbol:displayId>sb8b00288_2_sequence</sbol:displayId>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb8b00288_2_sequence"/>
+    <sbol:elements>tccctcatcctccactcttcc</sbol:elements>
+    <sbol:version>1</sbol:version>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb8b00288_3_sequence/1">
+    <sbol:version>1</sbol:version>
+    <sbol:displayId>sb8b00288_3_sequence</sbol:displayId>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb8b00288_3_sequence"/>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:elements>cttcgtccacaaacacaactcctgggaagagtggaggatgagg</sbol:elements>
+  </sbol:Sequence>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb8b00288_2_comp/1">
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.8b00288"/>
+    <sbol:displayId>sb8b00288_2_comp</sbol:displayId>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00288_2_comp"/>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb8b00288_2_sequence/1"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:version>1</sbol:version>
+    <sbh:supplementalFile rdf:resource="file:///C:/Users/JVM/Downloads/sequence_supplementals/synbict_output/sb8b00288/suppl/sb-2018-00288v_si_001.pdf"/>
+  </sbol:ComponentDefinition>
+  <sbol:Collection rdf:about="http://examples.org/sb8b00288/1">
+    <ns1:references>Srinivas, N., Parkin, J., Seelig, G., Winfree, E., Soloveichik, D. Enzyme-Free Nucleic Acid Dynamical Systems Science (Washington, DC, U. S.) 2017. 358.</ns1:references>
+    <ns2:publisher>American Chemical
+Society</ns2:publisher>
+    <ns1:dateSubmitted>2018-07-08</ns1:dateSubmitted>
+    <ns1:description>Strand displacement reactions are widely used in DNA nanotechnology as a building block for engineering molecular computers and machines. Here, we demonstrate that strand displacement-based probes can be triggered by RNA expressed in mammalian cells, thus taking a step toward adapting the DNA nanotechnology toolbox to a cellular environment. We systematically compare different probe architectures in order to identify a design that works robustly in living cells. Our optimized strand displacement probe combines chemically modified nucleic acids that enhance stability to degradation by cellular nucleases with structural elements that improve probe retention in the cytoplasm. We visualize probe binding to individual mRNA carrying 96 repeats of a target sequence in the 3&#8242;UTR. We find that RNA counts based on live cell imaging using a strand displacement probe are comparable to counts from independent measurement based on fluorescence in situ hybridization experiments. We used probes with scrambled toeholds and scrambled binding domains to demonstrate that target recognition indeed occurs through toehold-mediated strand displacement. Our results demonstrate that strand displacement probes can work reliably in mammalian cells and lay the groundwork for future applications of such probes for live-cell imaging and molecular computing.</ns1:description>
+    <ns2:creator>Georg Seelig</ns2:creator>
+    <ns1:references>Funke, J. J., Dietz, H. Placing Molecules with Bohr Radius Resolution Using DNA Origami Nat. Nanotechnol. 2016. 11:47-52.</ns1:references>
+    <ns1:references>Groves, B., Chen, Y. J., Zurla, C., Pochekailov, S., Kirschman, J. L., Santangelo, P. J., Seelig, G. Computing in Mammalian Cells with Nucleic Acid Strand Exchange Nat. Nanotechnol. 2016. 11:287-294.</ns1:references>
+    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb8b00288_2_comp/1"/>
+    <ns1:references>Ohrt, T., Muetze, J., Svoboda, P., Schwille, P. Intracellular Localization and Routing of miRNA and RNAi Pathway Components Curr. Top. Med. Chem. 2012. 12:79-88.</ns1:references>
+    <ns1:references>Zhang, X., Song, Y., Shah, A. Y., Lekova, V., Raj, A., Huang, L., Behlke, M. a, Tsourkas, A. Quantitative Assessment of Ratiometric Bimolecular Beacons as a Tool for Imaging Single Engineered RNA Transcripts and Measuring Gene Expression in Living Cells Nucleic Acids Res. 2013. 41.</ns1:references>
+    <ns1:references>Jordan, E. T., Collins, M., Terefe, J., Ugozzoli, L., Rubio, T. Optimizing Electroporation Conditions in Primary and Other Difficult-to-Transfect Cells J. Biomol. Technol. 2008.</ns1:references>
+    <ns1:isPartOf>ACS Synthetic Biology</ns1:isPartOf>
+    <ns2:creator>Yuan-Jyue Chen</ns2:creator>
+    <ns2:type>rapid-communication</ns2:type>
+    <ns1:references>Douglas, S. M., Bachelet, I., Church, G. M. A Logic-Gated Nanorobot for Targeted Transport of Molecular Payloads Science (Washington, DC, U. S.) 2012. 335:831-834.</ns1:references>
+    <ns1:references>Thubagere, A. J., Li, W., Johnson, R. F., Chen, Z., Doroudi, S., Lee, Y. L., Izatt, G., Wittman, S., Srinivas, N., Woods, D. A Cargo-Sorting DNA Robot Science (Washington, DC, U. S.) 2017. 357.</ns1:references>
+    <ns0:wasDerivedFrom rdf:resource="https://pubs.acs.org/doi/10.1021/acssynbio.8b00288"/>
+    <ns1:references>Yang, Y., Chen, M., Krueger, C. J., Tsourkas, A., Chen, A. K. Quantifying Gene Expression in Living Cells with Ratiometric Bimolecular Beacons Methods Mol. Biol. 2018. 1649:231-242.</ns1:references>
+    <ns1:type rdf:resource="http://purl.org/dc/dcmitype/Text"/>
+    <ns1:dateCopyrighted>2018</ns1:dateCopyrighted>
+    <ns1:references>Kim, J., Yin, P., Green, A. A. Ribocomputing: Cellular Logic Computation Using RNA Devices Biochemistry 2018. 57.</ns1:references>
+    <ns1:references>Gwizdek, C., Ossareh-Nazari, B., Brownawell, A. M., Doglio, A., Bertrand, E., Macara, I. G., Dargemont, C. Exportin-5 Mediates Nuclear Export of Minihelix-Containing RNAs J. Biol. Chem. 2003. 278:5505-5508.</ns1:references>
+    <sbol:version>1</sbol:version>
+    <ns1:references>Chen, Y.-J., Dalchau, N., Srinivas, N., Phillips, A., Cardelli, L., Soloveichik, D., Seelig, G. Programmable Chemical Controllers Made from DNA Nat. Nanotechnol. 2013. 8:755-762.</ns1:references>
+    <ns1:references>Dietz, H., Douglas, S. M., Shih, W. M. Folding DNA into Twisted and Curved Nanoscale Shapes Science (Washington, DC, U. S.) 2009. 325:725-730.</ns1:references>
+    <ns1:references>Seelig, G., Soloveichik, D., Zhang, D. Y., Winfree, E. Enzyme-Free Nucleic Acid Logic Circuits Science 2006. 314:1585-1588.</ns1:references>
+    <ns1:references>Chen, S. X., Seelig, G. An Engineered Kinetic Amplification Mechanism for Single Nucleotide Variant Discrimination by DNA Hybridization Probes J. Am. Chem. Soc. 2016. 138:5076-5086.</ns1:references>
+    <ns1:references>Qian, L., Winfree, E. Scaling up Digital Circuit Computation with DNA Strand Displacement Cascades Science 2011. 332:1196-1201.</ns1:references>
+    <ns1:references>Wickham, S. F. J., Bath, J., Katsuda, Y., Endo, M., Hidaka, K., Sugiyama, H., Turberfield, A. J. A DNA-Based Molecular Motor That Can Navigate a Network of Tracks Nat. Nanotechnol. 2012. 7:169-173.</ns1:references>
+    <ns1:references>Chen, A. K., Behlke, M. A., Tsourkas, A. Efficient Cytosolic Delivery of Molecular Beacon Conjugates and Flow Cytometric Analysis of Target RNA Nucleic Acids Res. 2008. 36.</ns1:references>
+    <ns1:references>Steinhauer, C., Jungmann, R., Sobey, T. L., Simmel, F. C., Tinnefeld, P. DNA Origami as a Nanoscopic Ruler for Super-Resolution Microscopy Angew. Chem., Int. Ed. 2009. 48:8870-8873.</ns1:references>
+    <ns2:creator>Gourab Chatterjee</ns2:creator>
+    <ns1:abstract>Strand displacement reactions are widely used in DNA nanotechnology as a building block for engineering molecular computers and machines. Here, we demonstrate that strand displacement-based probes can be triggered by RNA expressed in mammalian cells, thus taking a step toward adapting the DNA nanotechnology toolbox to a cellular environment. We systematically compare different probe architectures in order to identify a design that works robustly in living cells. Our optimized strand displacement probe combines chemically modified nucleic acids that enhance stability to degradation by cellular nucleases with structural elements that improve probe retention in the cytoplasm. We visualize probe binding to individual mRNA carrying 96 repeats of a target sequence in the 3&#8242;UTR. We find that RNA counts based on live cell imaging using a strand displacement probe are comparable to counts from independent measurement based on fluorescence in situ hybridization experiments. We used probes with scrambled toeholds and scrambled binding domains to demonstrate that target recognition indeed occurs through toehold-mediated strand displacement. Our results demonstrate that strand displacement probes can work reliably in mammalian cells and lay the groundwork for future applications of such probes for live-cell imaging and molecular computing.</ns1:abstract>
+    <ns1:references>Zhang, D. Y., Seelig, G. Dynamic DNA Nanotechnology Using Strand-Displacement Reactions Nat. Chem. 2011. 3:103-113.</ns1:references>
+    <ns1:references>Lund, K., Manzo, A. J., Dabby, N., Michelotti, N., Johnson-Buck, A., Nangreave, J., Taylor, S., Pei, R., Stojanovic, M. N., Walter, N. G. Molecular Robots Guided by Prescriptive Landscapes Nature 2010. 465:206-210.</ns1:references>
+    <ns1:references>Hemphill, J., Deiters, A. DNA Computation in Mammalian Cells: MicroRNA Logic Operations J. Am. Chem. Soc. 2013. 135.</ns1:references>
+    <ns1:dateAccepted>2018-11-15</ns1:dateAccepted>
+    <ns1:isPartOf rdf:resource="http://pubs.acs.org/journal/asbcd6"/>
+    <ns1:references>Bramsen, J. B., Laursen, M. B., Nielsen, A. F., Hansen, T. B., Bus, C., Langkjo&#248;r, N., Babu, B. R., H&#248;jland, T., Abramov, M., Van Aerschot, A. A Large-Scale Chemical Modification Screen Identifies Design Rules to Generate siRNAs with High Activity, High Stability and Low Toxicity Nucleic Acids Res. 2009. 37.</ns1:references>
+    <ns1:created>2018-11-15</ns1:created>
+    <ns1:references>Briley, W. E., Bondy, M. H., Randeria, P. S., Dupper, T. J., Mirkin, C. A. Quantification and Real-Time Tracking of RNA in Live Cells Using Sticky-Flares Proc. Natl. Acad. Sci. U. S. A. 2015. 112:9591-9595.</ns1:references>
+    <sbol:displayId>sb8b00288</sbol:displayId>
+    <sbol:member rdf:resource="http://examples.org/Sequence/sb8b00288_3_sequence/1"/>
+    <ns3:OBI_0001617>30441897</ns3:OBI_0001617>
+    <ns1:references>Maurisse, R., De Semir, D., Emamekhoo, H., Bedayat, B., Abdolmohammadi, A., Parsi, H., Gruenert, D. C. Comparative Transfection of DNA into Primary and Transformed Mammalian Cells from Different Lineages BMC Biotechnol. 2010. 10.</ns1:references>
+    <sbol:member rdf:resource="http://examples.org/Sequence/sb8b00288_2_sequence/1"/>
+    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb8b00288_1_comp/1"/>
+    <ns1:references>Shukla, S., Sumaria, C. S., Pradeepkumar, P. I. Exploring Chemical Modifications for siRNA Therapeutics: A Structural and Functional Outlook ChemMedChem 2010. 5:328-349.</ns1:references>
+    <ns1:title>Nucleic Acid Strand Displacement with Synthetic mRNA Inputs in Living Mammalian Cells</ns1:title>
+    <ns1:references>Zhang, X., Zajac, A. L., Huang, L., Behlke, M. A., Tsourkas, A. Imaging the Directed Transport of Single Engineered RNA Transcripts in Real-Time Using Ratiometric Bimolecular Beacons PLoS One 2014. 9.</ns1:references>
+    <ns1:rightsHolder>American Chemical Society</ns1:rightsHolder>
+    <ns1:references>Li, Q., Luan, G., Guo, Q., Liang, J. A New Class of Homogeneous Nucleic Acid Probes Based on Specific Displacement Hybridization Nucleic Acids Res. 2002. 30.</ns1:references>
+    <sbol:member rdf:resource="http://examples.org/Sequence/sb8b00288_1_sequence/1"/>
+    <ns1:references>Mueller, F., Senecal, A., Tantale, K., Marie-Nelly, H., Ly, N., Collin, O., Basyuk, E., Bertrand, E., Darzacq, X., Zimmer, C. FISH-Quant: Automatic Counting of Transcripts in 3D FISH Images Nat. Methods 2013. 10:277-278.</ns1:references>
+    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb8b00288_3_comp/1"/>
+    <ns1:references>Santangelo, P. J., Nitin, N., Bao, G. Direct Visualization of mRNA Colocalization with Mitochondria in Living Cells Using Molecular Beacons J. Biomed. Opt. 2013. 10.</ns1:references>
+    <ns1:references>Zadorin, A. S., Rondelez, Y., Gines, G., Dilhas, V., Urtel, G., Zambrano, A., Galas, J. C., Estevez-Torres, A. Synthesis and Materialization of a Reaction-Diffusion French Flag Pattern Nat. Chem. 2017. 9:990-996.</ns1:references>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/sb8b00288"/>
+    <ns1:references>Chatterjee, G., Dalchau, N., Muscat, R. A., Phillips, A., Seelig, G. A Spatially Localized Architecture for Fast and Modular DNA Computing Nat. Nanotechnol. 2017. 12:920-927.</ns1:references>
+    <ns1:references>Marras, A. E., Zhou, L., Su, H.-J., Castro, C. E. Programmable Motion of DNA Origami Mechanisms Proc. Natl. Acad. Sci. U. S. A. 2015. 112:713-718.</ns1:references>
+    <ns3:OBI_0002110 rdf:resource="https://doi.org/10.1021/acssynbio.8b00288"/>
+  </sbol:Collection>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb8b00288_3_comp/1">
+    <sbol:displayId>sb8b00288_3_comp</sbol:displayId>
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.8b00288"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00288_3_comp"/>
+    <sbh:supplementalFile rdf:resource="file:///C:/Users/JVM/Downloads/sequence_supplementals/synbict_output/sb8b00288/suppl/sb-2018-00288v_si_001.pdf"/>
+    <sbol:version>1</sbol:version>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb8b00288_3_sequence/1"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb8b00288_1_comp/1">
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:displayId>sb8b00288_1_comp</sbol:displayId>
+    <sbh:supplementalFile rdf:resource="file:///C:/Users/JVM/Downloads/sequence_supplementals/synbict_output/sb8b00288/suppl/sb-2018-00288v_si_001.pdf"/>
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.8b00288"/>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbol:version>1</sbol:version>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb8b00288_1_sequence/1"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00288_1_comp"/>
+  </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb8b00288_1_sequence/1">
+    <sbol:version>1</sbol:version>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb8b00288_1_sequence"/>
+    <sbol:elements>ggacgaagagcaccagccagc</sbol:elements>
+    <sbol:displayId>sb8b00288_1_sequence</sbol:displayId>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+  </sbol:Sequence>
+</rdf:RDF>

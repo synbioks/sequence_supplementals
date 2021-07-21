@@ -1,36 +1,36 @@
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:sbh="https://wiki.synbiohub.org/wiki/Terms/synbiohub#" xmlns:sbol="http://sbols.org/v2#" xmlns:ns0="http://www.w3.org/ns/prov#">
-  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb9b00258_2_comp/1">
-    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb9b00258_2_sequence/1"/>
-    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
-    <sbh:supplementalFile rdf:resource="sb9b00258/suppl/sb-2019-00258m_si_002.pdf"/>
-    <sbol:displayId>sb9b00258_2_comp</sbol:displayId>
-    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.9b00258"/>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb9b00258_1_sequence/1">
+    <sbol:displayId>sb9b00258_1_sequence</sbol:displayId>
     <sbol:version>1</sbol:version>
-    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
-    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb9b00258_2_comp"/>
-  </sbol:ComponentDefinition>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb9b00258_1_sequence"/>
+    <sbol:elements>cgattggcag</sbol:elements>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+  </sbol:Sequence>
   <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb9b00258_1_comp/1">
-    <sbol:version>1</sbol:version>
-    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
-    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb9b00258_1_comp"/>
     <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.9b00258"/>
-    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb9b00258_1_sequence/1"/>
-    <sbh:supplementalFile rdf:resource="sb9b00258/suppl/sb-2019-00258m_si_002.pdf"/>
+    <sbol:version>1</sbol:version>
     <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
     <sbol:displayId>sb9b00258_1_comp</sbol:displayId>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb9b00258_1_comp"/>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb9b00258_1_sequence/1"/>
+    <sbh:supplementalFile rdf:resource="pdf"/>
   </sbol:ComponentDefinition>
   <sbol:Sequence rdf:about="http://examples.org/Sequence/sb9b00258_2_sequence/1">
     <sbol:elements>gttttagagc</sbol:elements>
-    <sbol:version>1</sbol:version>
-    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb9b00258_2_sequence"/>
-    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
     <sbol:displayId>sb9b00258_2_sequence</sbol:displayId>
-  </sbol:Sequence>
-  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb9b00258_1_sequence/1">
-    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb9b00258_2_sequence"/>
     <sbol:version>1</sbol:version>
-    <sbol:displayId>sb9b00258_1_sequence</sbol:displayId>
-    <sbol:elements>cgattggcag</sbol:elements>
-    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb9b00258_1_sequence"/>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
   </sbol:Sequence>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb9b00258_2_comp/1">
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.9b00258"/>
+    <sbol:version>1</sbol:version>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb9b00258_2_comp"/>
+    <sbh:supplementalFile rdf:resource="pdf"/>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb9b00258_2_sequence/1"/>
+    <sbol:displayId>sb9b00258_2_comp</sbol:displayId>
+  </sbol:ComponentDefinition>
 </rdf:RDF>

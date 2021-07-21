@@ -1,0 +1,357 @@
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:sbh="https://wiki.synbiohub.org/wiki/Terms/synbiohub#" xmlns:sbol="http://sbols.org/v2#" xmlns:ns0="http://www.w3.org/ns/prov#" xmlns:ns1="http://purl.org/dc/terms/" xmlns:ns2="http://purl.org/dc/elements/1.1/" xmlns:ns3="http://purl.obolibrary.org/obo/">
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb300084h_5_comp/1">
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/sb300084h"/>
+    <sbol:version>1</sbol:version>
+    <sbh:supplementalFile rdf:resource="file:///C:/Users/JVM/Downloads/sequence_supplementals/synbict_output/pdf"/>
+    <sbol:component>
+      <sbol:Component rdf:about="http://examples.org/ComponentDefinition/sb300084h_5_comp/C0040_comp_1/1">
+        <sbol:version>1</sbol:version>
+        <sbol:definition rdf:resource="https://synbioks.org/public/CIDAR_MoClo_Toolkit_Densmore_Lab/C0040/1"/>
+        <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb300084h_5_comp/C0040_comp_1"/>
+        <sbol:displayId>C0040_comp_1</sbol:displayId>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <ns1:title>C0040</ns1:title>
+      </sbol:Component>
+    </sbol:component>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="http://examples.org/ComponentDefinition/sb300084h_5_comp/C0040_anno_1/1">
+        <ns1:title>C0040</ns1:title>
+        <sbol:component rdf:resource="http://examples.org/ComponentDefinition/sb300084h_5_comp/C0040_comp_1/1"/>
+        <sbol:location>
+          <sbol:Range rdf:about="http://examples.org/ComponentDefinition/sb300084h_5_comp/C0040_anno_1/C0040_anno_1_loc/1">
+            <sbol:start>2319</sbol:start>
+            <sbol:displayId>C0040_anno_1_loc</sbol:displayId>
+            <sbol:end>2975</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:version>1</sbol:version>
+            <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb300084h_5_comp/C0040_anno_1/C0040_anno_1_loc"/>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:version>1</sbol:version>
+        <ns1:description>tetR protein with LVA degradation tag</ns1:description>
+        <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb300084h_5_comp/C0040_anno_1"/>
+        <sbol:displayId>C0040_anno_1</sbol:displayId>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb300084h_5_sequence/1"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbol:displayId>sb300084h_5_comp</sbol:displayId>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb300084h_5_comp"/>
+  </sbol:ComponentDefinition>
+  <sbol:Collection rdf:about="http://examples.org/sb300084h/1">
+    <ns1:references>Marchisio, M. A., Stelling, J. Computational design of synthetic gene circuits with composable parts Bioinformatics 2008. 24:1903-1910.</ns1:references>
+    <ns1:type rdf:resource="http://purl.org/dc/dcmitype/Text"/>
+    <ns1:references>Benson, D. GenBank Nucleic Acids Res. 2008. 36:D25-D30.</ns1:references>
+    <ns1:references>Cai, Y., Hartnett, B., Gustafsson, C., Peccoud, J. A syntactic model to design and verify synthetic genetic constructs derived from standard biological parts Bioinformatics 2007. 23:2760-2767.</ns1:references>
+    <ns1:references>Rodrigo, G., Carrera, J., Jaramillo, A. Asmparts: assembly of biological model parts Syst. Synth. Biol. 2007. 1:167-170.</ns1:references>
+    <ns1:references>Hucka, M. The systems biology markup language (SBML): a medium for representation and exchange of biochemical network models Bioinformatics 2003. 19:524-531.</ns1:references>
+    <ns1:references>Rodrigo, G., Landrain, T. E., Jaramillo, A. De novo automated design of small RNA circuits for engineering synthetic riboregulation in living cells Proc. Natl. Acad. Sci. U.S.A. 2012. 109:15271-15276.</ns1:references>
+    <ns1:dateSubmitted>2012-09-15</ns1:dateSubmitted>
+    <ns1:dateAccepted>2012-11-19</ns1:dateAccepted>
+    <ns1:description>Synthetic regulatory networks with prescribed functions are engineered by assembling a reduced set of functional elements. We could also assemble them computationally if the mathematical models of those functional elements were predictive enough in different genetic contexts. Only after achieving this will we have libraries of models of biological parts able to provide predictive dynamical behaviors for most circuits constructed with them. We thus need tools that can automatically explore different genetic contexts, in addition to being able to use such libraries to design novel circuits with targeted dynamics. We have implemented a new tool, AutoBioCAD, aimed at the automated design of gene regulatory circuits. AutoBioCAD loads a library of models of genetic elements and implements evolutionary design strategies to produce (i) nucleotide sequences encoding circuits with targeted dynamics that can then be tested experimentally and (ii) circuit models for testing regulation principles in natural systems, providing a new tool for synthetic biology. AutoBioCAD can be used to model and design genetic circuits with dynamic behavior, thanks to the incorporation of stochastic effects, robustness, qualitative dynamics, multiobjective optimization, or degenerate nucleotide sequences, all facilitating the link with biological part/circuit engineering.</ns1:description>
+    <ns1:created>2012-11-19</ns1:created>
+    <ns1:references>Guet, C. C., Elowitz, M. B., Hsing, W., Leibler, S. Combinatorial synthesis of genetic networks Science 2002. 296:1466-1470.</ns1:references>
+    <ns1:references>Dasika, M. S., Maranas, C. D. OptCircuit: An optimization based method for computational design of genetic circuits BMC Syst. Biol. 2008. 2.</ns1:references>
+    <ns1:references>Wang, B. Engineering modular and orthogonal genetic logic gates for robust digital-like synthetic biology Nat. Commun. 2011. 2.</ns1:references>
+    <ns1:references>Salis, H. M., Mirsky, E. A., Voigt, C. A. Automated design of synthetic ribosome binding sites to control protein expression Nat. Biotechnol. 2009. 27:946-950.</ns1:references>
+    <ns1:references>Kuhlman, B. Design of a novel globular protein fold with atomic-level accuracy Science 2003. 302:1364-1368.</ns1:references>
+    <ns2:subject>tetR</ns2:subject>
+    <ns1:references>Sauro, H. M. Next generation simulation tools: the Systems Biology Workbench and BioSPICE integration OMICS 2003. 7:355-372.</ns1:references>
+    <ns1:references>Huynh, L. Automatic design of synthetic gene circuits through mixed integer non-linear programming PLoS One 2012. 7.</ns1:references>
+    <ns3:OBI_0001617>23654253</ns3:OBI_0001617>
+    <sbol:member rdf:resource="http://examples.org/Sequence/sb300084h_6_sequence/1"/>
+    <ns1:references>Ellis, T., Wang, X., Collins, J. J. Diversity-based, model-guided construction of synthetic gene networks with predicted functions Nat. Biotechnol. 2009. 27:465-471.</ns1:references>
+    <ns2:subject>SOSlib</ns2:subject>
+    <ns2:subject>regulatory network</ns2:subject>
+    <sbol:member rdf:resource="http://examples.org/Sequence/sb300084h_5_sequence/1"/>
+    <ns2:subject>LtetO1</ns2:subject>
+    <ns1:dateCopyrighted>2012</ns1:dateCopyrighted>
+    <ns1:references>Wu, C.-H., Lee, H.-C., Chen, B.-S. Robust synthetic gene network design via library-based search method Bioinformatics 2011. 27:2700-2706.</ns1:references>
+    <ns1:references>Rodrigo, G., Carrera, J., Jaramillo, A. Computational design of synthetic regulatory networks from a genetic library to characterize the designability of dynamical behaviors Nucleic Acids Res. 2011. 39.</ns1:references>
+    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb300084h_1_comp/1"/>
+    <ns1:references>Marchisio, M. A., Stelling, J. Automatic design of digital synthetic gene circuits PLoS Comput. Biol. 2011. 7.</ns1:references>
+    <ns1:references>Chen W-K. (2009) Computer Aided Design and Design Automation, CRC Press, Boca Raton, FL.</ns1:references>
+    <ns1:references>Cookson, N. A. Queueing up for enzymatic processing: correlated signaling through coupled degradation Mol. Syst. Biol. 2011. 7.</ns1:references>
+    <ns2:subject>nucleic acids</ns2:subject>
+    <ns1:references>Cooling, M. T. Standard virtual biological parts: a repository of modular modeling components for synthetic biology Bioinformatics 2010. 26:925-931.</ns1:references>
+    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb300084h_4_comp/1"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/sb300084h"/>
+    <ns2:subject>behavior</ns2:subject>
+    <ns1:references>Bornstein, B. J., Keating, S. M., Jouraku, A., Hucka, M. LibSBML: An API Library for SBML Bioinformatics 2008. 24:880-881.</ns1:references>
+    <ns1:references>Funahashi, A., Tanimura, N., Morohashi, M., Kitano, H. CellDesigner: a process diagram editor for gene-regulatory and biochemical networks BIOSILICO 2003. 1:159-162.</ns1:references>
+    <ns1:references>Rodrigo, G., Elena, S. F. Structural discrimination of robustness in transcriptional feedforward loops for pattern formation PLoS One 2011. 6.</ns1:references>
+    <ns2:subject>lacI</ns2:subject>
+    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb300084h_6_comp/1"/>
+    <ns1:references>Tagkopoulos, I., Liu, Y., Tavazoie, S. Predictive behavior within microbial genetic networks Science 2008. 320:1313-1317.</ns1:references>
+    <sbol:member rdf:resource="http://examples.org/Sequence/sb300084h_1_sequence/1"/>
+    <ns1:references>Mayo, A. E. Plasticity of the cis-regulatory input function of a gene PLoS Biol. 2006. 4.</ns1:references>
+    <ns2:rights>Copyright &amp; 2012 American
+Chemical Society</ns2:rights>
+    <sbol:member rdf:resource="http://examples.org/Sequence/sb300084h_3_sequence/1"/>
+    <ns1:references>http://biologylabs.utah.edu/jorgensen/wayned/ape</ns1:references>
+    <ns2:subject>&#955;-cI</ns2:subject>
+    <ns1:references>Rodrigo, G., Carrera, J., Jaramillo, A. Genetdes: automatic design of transcriptional networks Bioinformatics 2007. 23:1857-1858.</ns1:references>
+    <ns0:wasDerivedFrom rdf:resource="https://pubs.acs.org/doi/10.1021/sb300084h"/>
+    <ns1:references>Lutz, R., Bujard, H. Independent and tight regulation of transcriptional units in Escherichia coli via the LacR/O, the TetR/O and AraC/I1-I2 regulatory elements Nucleic Acids Res. 1997. 25:1203-1210.</ns1:references>
+    <ns1:references>Kashtan, N., Alon, U. Spontaneous evolution of modularity and network motifs Proc. Natl. Acad. Sci. U.S.A. 2005. 102:13773-13778.</ns1:references>
+    <ns1:references>Dahiyat, B. I., Mayo, S. L. De novo protein design: fully automated sequence selection Science 1997. 278:82-87.</ns1:references>
+    <sbol:displayId>sb300084h</sbol:displayId>
+    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb300084h_8_comp/1"/>
+    <ns2:subject>Raj11</ns2:subject>
+    <ns1:rightsHolder>American
+Chemical Society</ns1:rightsHolder>
+    <ns1:references>Beal, J. An end-to-end workflow for engineering of biological networks from high-level specifications ACS Synth. Biol. 2012. 1:317-331.</ns1:references>
+    <ns1:references>Rhodius, V. A., Mutalik, V. K., Gross, C. A. Predicting the strength of UP-elements and full-length E. coli sigmaE promoters Nucleic Acids Res. 2011. 40:2907-2924.</ns1:references>
+    <ns2:subject>Intel</ns2:subject>
+    <ns1:references>Bintu, L. Transcriptional regulation by the numbers: models Curr. Opin. Genet. Dev. 2005. 15:116-124.</ns1:references>
+    <ns2:subject>GFP</ns2:subject>
+    <ns1:references>Seelig, G., Soloveichik, D., Zhang, D. Y., Winfree, E. Enzyme-free nucleic acid logic circuits Science 2006. 314:1585-1588.</ns1:references>
+    <ns2:subject>mCherry</ns2:subject>
+    <ns2:subject>araC</ns2:subject>
+    <ns1:references>Paladugu, S. R. In silico evolution of functional modules in biochemical networks IEE Proc. Syst. Biol. 2006. 153:223-235.</ns1:references>
+    <sbol:member rdf:resource="http://examples.org/Sequence/sb300084h_7_sequence/1"/>
+    <ns2:subject>LlacO12</ns2:subject>
+    <ns1:references>Franc&#807;ois, P., Hakim, V. Design of genetic networks with specified functions by evolution in silico Proc. Natl. Acad. Sci. U.S.A. 2004. 101:580-585.</ns1:references>
+    <ns1:references>Rosenfeld, N., Elowitz, M. B., Alon, U. Negative autoregulation speeds the response times of transcription networks J. Mol. Biol. 2002. 323:785-793.</ns1:references>
+    <ns1:references>Davis, J. H., Rubin, A. J., Sauer, R. T. Design, construction and characterization of a set of insulated bacterial promoters Nucleic Acids Res. 2011. 39:1131-1141.</ns1:references>
+    <ns1:references>Canton, B., Labno, A., Endy, D. Refinement and standardization of synthetic biological parts and devices Nat. Biotechnol. 2008. 26:787-793.</ns1:references>
+    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb300084h_5_comp/1"/>
+    <ns1:references>Kirkpatrick, S., Gelatt, C. D., Vecchi, M. P. Optimization by simulated annealing Science 1983. 220:671-680.</ns1:references>
+    <ns1:references>Berman, H. M. The Protein Data Bank Nucleic Acids Res. 2000. 28:235-242.</ns1:references>
+    <ns1:references>Bilitchenko, L. Eugene: A domain specific language for specifying and constraining synthetic biological parts, devices, and systems PLoS One 2011. 6.</ns1:references>
+    <ns2:subject>ApE</ns2:subject>
+    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb300084h_7_comp/1"/>
+    <ns1:references>Ausla&#776;nder, S. Programmable single-cell mammalian biocomputers Nature 2012. 487:123-127.</ns1:references>
+    <ns1:references>Chandran, D., Bergmann, F. T., Sauro, H. M. TinkerCell: modular CAD tool for synthetic biology J. Biol. Eng. 2009. 3.</ns1:references>
+    <ns1:references>Machne&#769;, R. The SBML ODE Solver Library: a native API for symbolic and fast numerical analysis of reaction networks Bioinformatics 2006. 22:1406-1407.</ns1:references>
+    <ns1:references>Koza J. R. (1992) Genetic Programming: On the Programming of Computers by Means of Natural Selection, MIT Press, Cambridge MA.</ns1:references>
+    <ns2:subject>design automation</ns2:subject>
+    <ns1:references>Hindmarsh, A. C. SUNDIALS: Suite of nonlinear and differential/algebraic equation solvers ACM Trans. Math. Softw. 2005. 31:363-396.</ns1:references>
+    <ns1:isPartOf rdf:resource="http://pubs.acs.org/journal/asbcd6"/>
+    <ns2:subject>evolutionary computation</ns2:subject>
+    <ns1:references>Chandran, D., Sauro, H. M. Hierarchical modeling for synthetic biology ACS Synth. Biol. 2012. 1:353-364.</ns1:references>
+    <sbol:member rdf:resource="http://examples.org/Sequence/sb300084h_8_sequence/1"/>
+    <ns1:references>Guido, N. J. A bottom-up approach to gene regulation Nature 2006. 439:856-860.</ns1:references>
+    <sbol:member rdf:resource="http://examples.org/Sequence/sb300084h_2_sequence/1"/>
+    <ns2:publisher>American Chemical
+Society</ns2:publisher>
+    <ns2:creator>Alfonso Jaramillo</ns2:creator>
+    <ns2:subject>sfGFP</ns2:subject>
+    <ns1:references>Ponder, J. W., Case, D. A. Force fields for protein simulations Adv. Protein Chem. 2003. 66:27-85.</ns1:references>
+    <ns2:subject>TetR</ns2:subject>
+    <ns2:creator>Guillermo Rodrigo</ns2:creator>
+    <ns1:references>Kittleson, J. T., Wu, G. C., Anderson, J. C. Successes and failures in modular genetic engineering Curr. Opin. Chem. Biol. 2012. 16:329-336.</ns1:references>
+    <ns3:OBI_0002110 rdf:resource="https://doi.org/10.1021/sb300084h"/>
+    <ns2:subject>LacI</ns2:subject>
+    <ns1:references>Rodrigo, G., Carrera, J., Landrain, T. E., Jaramillo, A. Perspectives on the automatic design of regulatory systems for synthetic biology FEBS Lett. 2012. 586:2037-2042.</ns1:references>
+    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb300084h_2_comp/1"/>
+    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb300084h_3_comp/1"/>
+    <ns2:subject>Kanamycin</ns2:subject>
+    <ns2:subject>combinatorial optimization</ns2:subject>
+    <ns1:title>AutoBioCAD: Full Biodesign Automation of Genetic Circuits</ns1:title>
+    <ns2:subject>nucleotide</ns2:subject>
+    <ns1:isPartOf>ACS Synthetic Biology</ns1:isPartOf>
+    <ns2:subject>temperature</ns2:subject>
+    <ns2:subject>E. coli K-12 MG1655-Z1 cells</ns2:subject>
+    <ns2:type>research-article</ns2:type>
+    <ns1:references>Suman, B. Study of simulated annealing based algorithms for multiobjective optimization of a constrained problem Comput. Chem. Eng. 2004. 28:1849-1871.</ns1:references>
+    <sbol:version>1</sbol:version>
+    <ns1:references>Cao, H. Evolving cell models for systems and synthetic biology Syst. Synth. Biol. 2010. 4:55-84.</ns1:references>
+    <ns1:abstract>Synthetic regulatory networks with prescribed functions are engineered by assembling a reduced set of functional elements. We could also assemble them computationally if the mathematical models of those functional elements were predictive enough in different genetic contexts. Only after achieving this will we have libraries of models of biological parts able to provide predictive dynamical behaviors for most circuits constructed with them. We thus need tools that can automatically explore different genetic contexts, in addition to being able to use such libraries to design novel circuits with targeted dynamics. We have implemented a new tool, AutoBioCAD, aimed at the automated design of gene regulatory circuits. AutoBioCAD loads a library of models of genetic elements and implements evolutionary design strategies to produce (i) nucleotide sequences encoding circuits with targeted dynamics that can then be tested experimentally and (ii) circuit models for testing regulation principles in natural systems, providing a new tool for synthetic biology. AutoBioCAD can be used to model and design genetic circuits with dynamic behavior, thanks to the incorporation of stochastic effects, robustness, qualitative dynamics, multiobjective optimization, or degenerate nucleotide sequences, all facilitating the link with biological part/circuit engineering.</ns1:abstract>
+    <sbol:member rdf:resource="http://examples.org/Sequence/sb300084h_4_sequence/1"/>
+    <ns1:references>Cox, R. S., Surette, M. G., Elowitz, M. B. Programming gene expression with combinatorial promoters Mol. Syst. Biol. 2007. 3.</ns1:references>
+    <ns1:references>Yaman, F. Automated selection of synthetic biology parts for genetic regulatory networks ACS Synth. Biol. 2012. 1:332-344.</ns1:references>
+  </sbol:Collection>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb300084h_5_sequence/1">
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb300084h_5_sequence"/>
+    <sbol:version>1</sbol:version>
+    <sbol:elements>agccagacttgggggtgatgagtttaccttcaagaaactgatcagggatagcggtcaggtgtttttacaaccactaaacccacagtacccaatgatcccatgcaatgagagttgttccgttgtggggaaagttatcgctagtcagtggcctgaagagacgtttggcgctgcaaacgacgaaaactacgctttagtagcttaataaattaaagaggagaaaggtaccatgagccgtaaaggcgaagagctgttcactggtgtcgtccctattctggtggaactggatggtgatgtcaacggtcataagttttccgtgcgtggcgagggtgaaggtgacgcaactaatggtaaactgacgctgaagttcatctgtactactggtaaactgccggtaccttggccgactctggtaacgacgctgacttatggtgttcagtgctttgctcgttatccggaccatatgaagcagcatgacttcttcaagtccgccatgccggaaggctatgtgcaggaacgcacgatttcctttaaggatgacggcacgtacaaaacgcgtgcggaagtgaaatttgaaggcgataccctggtaaaccgcattgagctgaaaggcattgactttaaagaagacggcaatatcctgggccataagctggaatacaattttaacagccacaatgtttacatcaccgccgataaacaaaaaaatggcattaaagcgaattttaaaattcgccacaacgtggaggatggcagcgtgcagctggctgatcactaccagcaaaacactccaatcggtgatggtcctgttctgctgccagacaatcactatctgagcacgcaaagcgttctgtctaaagatccgaacgagaaacgcgatcatatggttctgctggagttcgtaaccgcagcgggcatcacgcatggtatggatgaactgtacaaagctgcaaacgacgaaaactacgctcttgctgcttgatgacaaagcccgccgaaaggcgggcttttctgttaacaccgtgcgtgttgactattttacctctggcggtgataatggttgcattaaagaggagaaaggtaccatggtgaatgtgaaaccagtaacgttatacgatgtcgcagagtatgccggtgtctcttatcagaccgtttcccgcgtggtgaaccaggccagccacgtttctgcgaaaacgcgggaaaaagtggaagcggcgatggcggagctgaattacattcccaaccgcgtggcacaacaactggcgggcaaacagtcgttgctgattggcgttgccacctccagtctggccctgcacgcgccgtcgcaaattgtcgcggcgattaaatctcgcgccgatcaactgggtgccagcgtggtggtgtcgatggtagaacgaagcggcgtcgaagcctgtaaagcggcggtgcacaatcttctcgcgcaacgcgtcagtgggctgatcattaactatccgctggatgaccaggatgccattgctgtggaagctgcctgcactaatgttccggcgttatttcttgatgtctctgaccagacacccatcaacagtattattttctcccatgaagacggtacgcgactgggcgtggagcatctggtcgcattgggtcaccagcaaatcgcgctgttagcgggcccattaagttctgtctcggcgcgtctgcgtctggctggctggcataaatatctcactcgcaatcaaattcagccgatagcggaacgggaaggcgactggagtgccatgtccggttttcaacaaaccatgcaaatgctgaatgagggcatcgttcccactgcgatgctggttgccaacgatcagatggcgctgggcgcaatgcgcgccattaccgagtccgggctgcgcgttggtgcggatatctcggtagtgggatacgacgataccgaagacagctcatgttatatcccgccgttaaccaccatcaaacaggattttcgcctgctggggcaaaccagcgtggaccgcttgctgcaactctctcagggccaggcggtgaagggcaatcagctgttgcccgtctcactggtgaaaagaaaaaccaccctggcgcccaatacgcaaaccgcctctccccgcgcgttggccgattcattaatgcagctggcacgacaggtttcccgactggaaagcgggcaggctgcaaacgacgaaaactacgctttagtagcttaataacaaagcccgccgaaaggcgggcttttctgtaattgtgagcggataacaattgacattgtgagcggataacaagatactgagcacattaaagaggagaaaggtaccatgtccagattagataaaagtaaagtgattaacagcgcattagagctgcttaatgaggtcggaatcgaaggtttaacaacccgtaaactcgcccagaagctaggtgtagagcagcctacattgtattggcatgtaaaaaataagcgggctttgctcgacgccttagccattgagatgttagataggcaccatactcacttttgccctttagaaggggaaagctggcaagattttttacgtaataacgctaaaagttttagatgtgctttactaagtcatcgcgatggagcaaaagtacatttaggtacacggcctacagaaaaacagtatgaaactctcgaaaatcaattagcctttttatgccaacaaggtttttcactagagaatgcattatatgcactcagcgctgtggggcattttactttaggttgcgtattggaagatcaagagcatcaagtcgctaaagaagaaagggaaacacctactactgatagtatgccgccattattacgacaagctatcgaattatttgatcaccaaggtgcagagccagccttcttattcggccttgaattgatcatatgcggattagaaaaacaacttaaatgtgaaagtgggtccgctgcaaacgacgaaaactacgctttagtagcttaataacaaagcccgccgaaaggcgggcttttctgt</sbol:elements>
+    <sbol:displayId>sb300084h_5_sequence</sbol:displayId>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb300084h_1_sequence/1">
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:elements>atcgaatggtgcaaaacctttcgcggtatggcatgatagcgcccattaaagtaccatggtgaatgtgaaaccagtaacgttatacgatgtcgcagagtatcttatcagaccgtttcccgcgtggtgaaccaggccagccacgtttctgcgaaaaagtggaagcggcgatggcggagctgaattacattcccaaccgcgtgtggcgggcaaacagtcgttgctgattggcgttgccacctccagtctggcccgtcgcaaattgtcgcggcgattaaatctcgcgccgatcaactgggtgcctgtcgatggtagaacgaagcggcgtcgaagcctgtaaagcggcggtgcaccgcaacgcgtcagtgggctgatcattaactatccgctggatgaccaggattggaagctgcctgcactaatgttccggcgttatttcttgatgtctctgactcaacagtattattttctcccatgaagacggtacgcgactgggcgtggagcattgggtcaccagcaaatcgcgctgttagcgggcccattaagttctgtctgcgtctggctggctggcataaatatctcactcgcaatcaaattcagccggggaaggcgactggagtgccatgtccggttttcaacaaaccatgcaaatggcatcgttcccactgcgatgctggttgccaacgatcagatggcgctgggcccattaccgagtccgggctgcgcgttggtgcggatatctcggtagtgggaccgaagacagctcatgttatatcccgccgttaaccaccatcaaacaggattggggcaaaccagcgtggaccgcttgctgcaactctctcagggccaggcgatcagctgttgcccgtctcactggtgaaaagaaaaaccaccctggcgcccccgcctctccccgcgcgttggccgattcattaatgcagctggcacgacagtggaaagcgggcagtaataaattaaagaggagaaaggtaccatgtccagagtaaagtgattaacagcgcattagagctgcttaatgaggtcggaatcgaacccgtaaactcgcccagaagctaggtgtagagcagcctacattgtattggataagcgggctttgctcgacgccttagccattgagatgttagataggcactttgccctttagaaggggaaagctggcaagattttttacgtaataacgctgatgtgctttactaagtcatcgcgatggagcaaaagtacatttaggtacaaaaaacagtatgaaactctcgaaaatcaattagcctttttatgccaacaatagagaatgcattatatgcactcagcgctgtggggcattttactttaggtaagatcaagagcatcaagtcgctaaagaagaaagggaaacacctactactcgccattattacgacaagctatcgaattatttgatcaccaaggtgcagagtattcggccttgaattgatcatatgcggattagaaaaacaacttaaatgtcctaataacaaagcccgccgaaaggcgggcttttctgtcaaagcccgccgttttctgttccctatcagtgatagagattgacatccctatcagtgatagaacgggagggttgattgtgtgagtctgtcacagttcagcggaaacgttgatatttatgcgaggccaaagcccgccgaaaggcgggcttttctgtataaatgacattgacattgtgagcggataacaagatactgagcaccctcgcataattaatcctcccgttaaagaggagaaattatgaatgagccgtaaaggcgaagaggtgtcgtccctattctggtggaactggatggtgatgtcaacggtcataacgtggcgagggtgaaggtgacgcaactaatggtaaactgacgctgaagttactggtaaactgccggtaccttggccgactctggtaacgacgctgacttatgctttgctcgttatccggaccatatgaagcagcatgacttcttcaagtcgaaggctatgtgcaggaacgcacgatttcctttaaggatgacggcacgtagcggaagtgaaatttgaaggcgataccctggtaaaccgcattgagctgaatttaaagaagacggcaatatcctgggccataagctggaatacaattttaagtttacatcaccgccgataaacaaaaaaatggcattaaagcgaattttaaaacgtggaggatggcagcgtgcagctggctgatcactaccagcaaaacacgatggtcctgttctgctgccagacaatcactatctgagcacgcaaagcgtgatccgaacgagaaacgcgatcatatggttctgctggagttcgtaaccgcacgcatggtatggatgaactgtacaaatgatgacaaagcccgccgaaaggtgt</sbol:elements>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb300084h_1_sequence"/>
+    <sbol:version>1</sbol:version>
+    <ns1:title>system_raj11_seq Sequence</ns1:title>
+    <sbol:displayId>sb300084h_1_sequence</sbol:displayId>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb300084h_3_sequence/1">
+    <sbol:elements>tgatagagattgacatccctatcagtgatagagatactgagcacattaaagtaccatgagcacaaaaaagaaaccattaacacaagagcagcttgaggacttaaagcaatttatgaaaaaaagaaaaatgaacttggcttatcccaggaaacaagatggggatggggcagtcaggcgttggtgctttatttaatggcatcatgcttataacgccgcattgcttgcaaaaattctcaaagttagcgttgaacttcaatcgccagagaaatctacgagatgtatgaagcggttagtatgcaggaagtgagtatgagtaccctgttttttctcatgttcaggcagggatgttcttagaacctttaccaaaggtgatgcggagagatgggtaagcacaaccaaaattctgcattctggcttgaggttgaaggtaattccatgaccgcaccaacacaagctttcctgacggaatgttaattctcgttgaccctgagcaggctgttatttctgcatagccagacttgggggtgatgagtttaccttcaagaaactggcggtcaggtgtttttacaaccactaaacccacagtacccaatgatcccagttgttccgttgtggggaaagttatcgctagtcagtggcctgaagagacgcaaacgacgaaaactacgctttagtagcttaataaattaaagaggagaaagccgtaaaggcgaagagctgttcactggtgtcgtccctattctggtggaaatgtcaacggtcataagttttccgtgcgtggcgagggtgaaggtgacgcaaactgacgctgaagttcatctgtactactggtaaactgccggtaccttggtaacgacgctgacttatggtgttcagtgctttgctcgttatccggaccatatgacttcttcaagtccgccatgccggaaggctatgtgcaggaacgcacgaggatgacggcacgtacaaaacgcgtgcggaagtgaaatttgaaggcgataccgcattgagctgaaaggcattgactttaaagaagacggcaatatcctgtggaatacaattttaacagccacaatgtttacatcaccgccgataaacaattaaagcgaattttaaaattcgccacaacgtggaggatggcagcgtgcagactaccagcaaaacactccaatcggtgatggtcctgttctgctgccagactgagcacgcaaagcgttctgtctaaagatccgaacgagaaacgcgatcattggagttcgtaaccgcagcgggcatcacgcatggtatggatgaactgtacacgacgaaaactacgctcttgctgcttgatgacaaagcccgccgaaaggcgttaacaccgtgcgtgttgactattttacctctggcggtgataatggttggagaaaggtaccatggtgaatgtgaaaccagtaacgttatacgatgtcgcggtgtctcttatcagaccgtttcccgcgtggtgaaccaggccagccacgtacgcgggaaaaagtggaagcggcgatggcggagctgaattacattcccaacaacaactggcgggcaaacagtcgttgctgattggcgttgccacctccagcacgcgccgtcgcaaattgtcgcggcgattaaatctcgcgccgatcaactgtggtggtgtcgatggtagaacgaagcggcgtcgaagcctgtaaagcggccttctcgcgcaacgcgtcagtgggctgatcattaactatccgctggatgaattgctgtggaagctgcctgcactaatgttccggcgttatttcttgatgtacacccatcaacagtattattttctcccatgaagacggtacgcgactgggctggtcgcattgggtcaccagcaaatcgcgctgttagcgggcccattaaggcgcgtctgcgtctggctggctggcataaatatctcactcgcaatcaaatgcggaacgggaaggcgactggagtgccatgtccggttttcaacaaaccataatgagggcatcgttcccactgcgatgctggttgccaacgatcagatggcatgcgcgccattaccgagtccgggctgcgcgttggtgcggatatctcggtgacgataccgaagacagctcatgttatatcccgccgttaaccaccatcaacgcctgctggggcaaaccagcgtggaccgcttgctgcaactctctcagggaagggcaatcagctgttgcccgtctcactggtgaaaagaaaaaccaccctacgcaaaccgcctctccccgcgcgttggccgattcattaatgcagctggctcccgactggaaagcgggcaggctgcaaacgacgaaaactacgctttagtcaaagcccgccgaaaggcgggcttttctgtaattgtgagcggataacaatagcggataacaagatactgagcacattaaagaggagaaaggtaccatgtcaaaagtaaagtgattaacagcgcattagagctgcttaatgaggtcggaatacaacccgtaaactcgcccagaagctaggtgtagagcagcctacattgtaaaaaataagcgggctttgctcgacgccttagccattgagatgttagatagcacttttgccctttagaaggggaaagctggcaagattttttacgtaataatttagatgtgctttactaagtcatcgcgatggagcaaaagtacatttaggacagaaaaacagtatgaaactctcgaaaatcaattagcctttttatgccatcactagagaatgcattatatgcactcagcgctgtggggcattttactttttggaagatcaagagcatcaagtcgctaaagaagaaagggaaacacctacatgccgccattattacgacaagctatcgaattatttgatcaccaaggtgcttcttattcggccttgaattgatcatatgcggattagaaaaacaacttaagggtccgctgcaaacgacgaaaactacgctttagtagcttaataacaaagggcgggcttttctgt</sbol:elements>
+    <sbol:displayId>sb300084h_3_sequence</sbol:displayId>
+    <ns1:title>repressilator_seq Sequence</ns1:title>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb300084h_3_sequence"/>
+    <sbol:version>1</sbol:version>
+  </sbol:Sequence>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb300084h_1_comp/1">
+    <ns1:title>system_raj11_seq</ns1:title>
+    <sbh:supplementalFile rdf:resource="file:///C:/Users/JVM/Downloads/sequence_supplementals/synbict_output/gb"/>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb300084h_1_sequence/1"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb300084h_1_comp"/>
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/sb300084h"/>
+    <sbol:version>1</sbol:version>
+    <sbol:displayId>sb300084h_1_comp</sbol:displayId>
+  </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb300084h_8_sequence/1">
+    <sbol:elements>tactagtagcggccgctgcag</sbol:elements>
+    <sbol:displayId>sb300084h_8_sequence</sbol:displayId>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb300084h_8_sequence"/>
+    <sbol:version>1</sbol:version>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb300084h_7_sequence/1">
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:elements>gaattcgcggccgcttctagag</sbol:elements>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb300084h_7_sequence"/>
+    <sbol:version>1</sbol:version>
+    <sbol:displayId>sb300084h_7_sequence</sbol:displayId>
+  </sbol:Sequence>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb300084h_7_comp/1">
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbol:displayId>sb300084h_7_comp</sbol:displayId>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb300084h_7_sequence/1"/>
+    <sbol:version>1</sbol:version>
+    <sbh:supplementalFile rdf:resource="file:///C:/Users/JVM/Downloads/sequence_supplementals/synbict_output/pdf"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb300084h_7_comp"/>
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/sb300084h"/>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb300084h_6_comp/1">
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/sb300084h"/>
+    <sbh:supplementalFile rdf:resource="file:///C:/Users/JVM/Downloads/sequence_supplementals/synbict_output/pdf"/>
+    <sbol:displayId>sb300084h_6_comp</sbol:displayId>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb300084h_6_sequence/1"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb300084h_6_comp"/>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbol:version>1</sbol:version>
+  </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb300084h_4_sequence/1">
+    <sbol:displayId>sb300084h_4_sequence</sbol:displayId>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb300084h_4_sequence"/>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:elements>tccctatcagtgatagagattgacatccctatcagtgatagagatactgagcacattaaagaggagaaaggtaccatgagcacaaaaaagaaaccattaacacaagagcagcttgaggacgcacgtcgccttaaagcaatttatgaaaaaaagaaaaatgaacttggcttatcccaggaatctgtcgcagacaagatggggatggggcagtcaggcgttggtgctttatttaatggcatcaatgcattaaatgcttataacgccgcattgcttgcaaaaattctcaaagttagcgttgaagaatttagcccttcaatcgccagagaaatctacgagatgtatgaagcggttagtatgcagccgtcacttagaagtgagtatgagtaccctgttttttctcatgttcaggcagggatgttctcacctgagcttagaacctttaccaaaggtgatgcggagagatgggtaagcacaaccaaaaaagccagtgattctgcattctggcttgaggttgaaggtaattccatgaccgcaccaacaggctccaagccaagctttcctgacggaatgttaattctcgttgaccctgagcaggctgttgagccaggtgatttctgcat</sbol:elements>
+    <sbol:version>1</sbol:version>
+  </sbol:Sequence>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb300084h_3_comp/1">
+    <sbol:version>1</sbol:version>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <ns1:title>repressilator_seq</ns1:title>
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/sb300084h"/>
+    <sbh:supplementalFile rdf:resource="file:///C:/Users/JVM/Downloads/sequence_supplementals/synbict_output/gb"/>
+    <sbol:displayId>sb300084h_3_comp</sbol:displayId>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb300084h_3_comp"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb300084h_3_sequence/1"/>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb300084h_2_comp/1">
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb300084h_2_sequence/1"/>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbol:version>1</sbol:version>
+    <sbol:displayId>sb300084h_2_comp</sbol:displayId>
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/sb300084h"/>
+    <sbh:supplementalFile rdf:resource="file:///C:/Users/JVM/Downloads/sequence_supplementals/synbict_output/gb"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <ns1:title>half_adder_seq</ns1:title>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb300084h_2_comp"/>
+  </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb300084h_6_sequence/1">
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb300084h_6_sequence"/>
+    <sbol:version>1</sbol:version>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:elements>taacaccgtgcgtgttgactattttacctctggcggtgataatggttgc</sbol:elements>
+    <sbol:displayId>sb300084h_6_sequence</sbol:displayId>
+  </sbol:Sequence>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb300084h_4_comp/1">
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="http://examples.org/ComponentDefinition/sb300084h_4_comp/Bba_R0040_u32_TetR_u32_promoter_anno_1/1">
+        <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb300084h_4_comp/Bba_R0040_u32_TetR_u32_promoter_anno_1"/>
+        <ns1:title>Bba_R0040 TetR promoter</ns1:title>
+        <sbol:version>1</sbol:version>
+        <sbol:location>
+          <sbol:Range rdf:about="http://examples.org/ComponentDefinition/sb300084h_4_comp/Bba_R0040_u32_TetR_u32_promoter_anno_1/Bba_R0040_u32_TetR_u32_promoter_anno_1_loc/1">
+            <sbol:version>1</sbol:version>
+            <sbol:start>1</sbol:start>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb300084h_4_comp/Bba_R0040_u32_TetR_u32_promoter_anno_1/Bba_R0040_u32_TetR_u32_promoter_anno_1_loc"/>
+            <sbol:end>54</sbol:end>
+            <sbol:displayId>Bba_R0040_u32_TetR_u32_promoter_anno_1_loc</sbol:displayId>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:displayId>Bba_R0040_u32_TetR_u32_promoter_anno_1</sbol:displayId>
+        <sbol:component rdf:resource="http://examples.org/ComponentDefinition/sb300084h_4_comp/Bba_R0040_u32_TetR_u32_promoter_comp_1/1"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/sb300084h"/>
+    <sbol:version>1</sbol:version>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb300084h_4_sequence/1"/>
+    <sbol:displayId>sb300084h_4_comp</sbol:displayId>
+    <sbh:supplementalFile rdf:resource="file:///C:/Users/JVM/Downloads/sequence_supplementals/synbict_output/pdf"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb300084h_4_comp"/>
+    <sbol:component>
+      <sbol:Component rdf:about="http://examples.org/ComponentDefinition/sb300084h_4_comp/Bba_R0040_u32_TetR_u32_promoter_comp_1/1">
+        <ns1:title>Bba_R0040 TetR promoter</ns1:title>
+        <sbol:definition rdf:resource="https://synbioks.org/public/MoClo_Yeast_Toolkit_Dueber_Lab/Bba_R0040_u32_TetR_u32_promoter/1"/>
+        <sbol:version>1</sbol:version>
+        <sbol:displayId>Bba_R0040_u32_TetR_u32_promoter_comp_1</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb300084h_4_comp/Bba_R0040_u32_TetR_u32_promoter_comp_1"/>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+      </sbol:Component>
+    </sbol:component>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="http://examples.org/ComponentDefinition/sb300084h_4_comp/R0040_anno_1/1">
+        <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb300084h_4_comp/R0040_anno_1"/>
+        <ns1:title>R0040</ns1:title>
+        <sbol:version>1</sbol:version>
+        <sbol:displayId>R0040_anno_1</sbol:displayId>
+        <ns1:description>tetR repressible promoter (Ptet)</ns1:description>
+        <sbol:location>
+          <sbol:Range rdf:about="http://examples.org/ComponentDefinition/sb300084h_4_comp/R0040_anno_1/R0040_anno_1_loc/1">
+            <sbol:start>1</sbol:start>
+            <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb300084h_4_comp/R0040_anno_1/R0040_anno_1_loc"/>
+            <sbol:displayId>R0040_anno_1_loc</sbol:displayId>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:version>1</sbol:version>
+            <sbol:end>54</sbol:end>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:component rdf:resource="http://examples.org/ComponentDefinition/sb300084h_4_comp/R0040_comp_1/1"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:component>
+      <sbol:Component rdf:about="http://examples.org/ComponentDefinition/sb300084h_4_comp/R0040_comp_1/1">
+        <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb300084h_4_comp/R0040_comp_1"/>
+        <sbol:definition rdf:resource="https://synbioks.org/public/CIDAR_MoClo_Toolkit_Densmore_Lab/R0040/1"/>
+        <sbol:version>1</sbol:version>
+        <sbol:displayId>R0040_comp_1</sbol:displayId>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <ns1:title>R0040</ns1:title>
+      </sbol:Component>
+    </sbol:component>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb300084h_8_comp/1">
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/sb300084h"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb300084h_8_comp"/>
+    <sbol:version>1</sbol:version>
+    <sbh:supplementalFile rdf:resource="file:///C:/Users/JVM/Downloads/sequence_supplementals/synbict_output/pdf"/>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb300084h_8_sequence/1"/>
+    <sbol:displayId>sb300084h_8_comp</sbol:displayId>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+  </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb300084h_2_sequence/1">
+    <sbol:displayId>sb300084h_2_sequence</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <sbol:elements>atcgaatggtgcaaaacctttcgcggtatggcatgatagcgcccattaaagtaccatggtgaatgtgaaaccagtaacgttatacgatgtcgcagagtatcttatcagaccgtttcccgcgtggtgaaccaggccagccacgtttctgcgaaaaagtggaagcggcgatggcggagctgaattacattcccaaccgcgtgtggcgggcaaacagtcgttgctgattggcgttgccacctccagtctggcccgtcgcaaattgtcgcggcgattaaatctcgcgccgatcaactgggtgcctgtcgatggtagaacgaagcggcgtcgaagcctgtaaagcggcggtgcaccgcaacgcgtcagtgggctgatcattaactatccgctggatgaccaggattggaagctgcctgcactaatgttccggcgttatttcttgatgtctctgactcaacagtattattttctcccatgaagacggtacgcgactgggcgtggagcattgggtcaccagcaaatcgcgctgttagcgggcccattaagttctgtctgcgtctggctggctggcataaatatctcactcgcaatcaaattcagccggggaaggcgactggagtgccatgtccggttttcaacaaaccatgcaaatggcatcgttcccactgcgatgctggttgccaacgatcagatggcgctgggcccattaccgagtccgggctgcgcgttggtgcggatatctcggtagtgggaccgaagacagctcatgttatatcccgccgttaaccaccatcaaacaggattggggcaaaccagcgtggaccgcttgctgcaactctctcagggccaggcgatcagctgttgcccgtctcactggtgaaaagaaaaaccaccctggcgcccccgcctctccccgcgcgttggccgattcattaatgcagctggcacgacagtggaaagcgggcagtaataaattaaagaggagaaaggtaccatgtccagagtaaagtgattaacagcgcattagagctgcttaatgaggtcggaatcgaacccgtaaactcgcccagaagctaggtgtagagcagcctacattgtattggataagcgggctttgctcgacgccttagccattgagatgttagataggcactttgccctttagaaggggaaagctggcaagattttttacgtaataacgctgatgtgctttactaagtcatcgcgatggagcaaaagtacatttaggtacaaaaaacagtatgaaactctcgaaaatcaattagcctttttatgccaacaatagagaatgcattatatgcactcagcgctgtggggcattttactttaggtaagatcaagagcatcaagtcgctaaagaagaaagggaaacacctactactcgccattattacgacaagctatcgaattatttgatcaccaaggtgcagagtattcggccttgaattgatcatatgcggattagaaaaacaacttaaatgtcctaataacaaagcccgccgaaaggcgggcttttctgtcaaagcccgccgttttctgttccctatcagtgatagagattgacatccctatcagtgatagatggaattgtgagcggataacaatttcacacaattaaagaggagaaaggtaaaaaaagaaaccattaacacaagagcagcttgaggacgcacgtcgccttatgaaaaaaagaaaaatgaacttggcttatcccaggaatctgtcgcagacaggggcagtcaggcgttggtgctttatttaatggcatcaatgcattaaatgcgcattgcttgcaaaaattctcaaagttagcgttgaagaatttagcccttagaaatctacgagatgtatgaagcggttagtatgcagccgtcacttagaagtaccctgttttttctcatgttcaggcagggatgttctcacctgagcttacaaaggtgatgcggagagatgggtaagcacaaccaaaaaagccagtgattgcttgaggttgaaggtaattccatgaccgcaccaacaggctccaagccaacggaatgttaattctcgttgaccctgagcaggctgttgagccaggtgattcagacttgggggtgatgagtttaccttcaagaaactgatcagggatagcgtttacaaccactaaacccacagtacccaatgatcccatgcaatgagagttggggaaagttatcgctagtcagtggcctgaagagacgtttggcgctgcaactacgctttagtagcttaataacaaagcccgccgaaaggcgggcttttcttgcgtgttgactattttacctctggcggtgataatggttgccctcgcatattcaatcctcccgttaaagaggagaaattatgaatgagccgtaaaggcgaactggtgtcgtccctattctggtggaactggatggtgatgtcaacggtcagtgcgtggcgagggtgaaggtgacgcaactaatggtaaactgacgctgaaactactggtaaactgccggtaccttggccgactctggtaacgacgctgaccagtgctttgctcgttatccggaccatatgaagcagcatgacttcttcaaccggaaggctatgtgcaggaacgcacgatttcctttaaggatgacggcaccgtgcggaagtgaaatttgaaggcgataccctggtaaaccgcattgagctgactttaaagaagacggcaatatcctgggccataagctggaatacaatttaatgtttacatcaccgccgataaacaaaaaaatggcattaaagcgaatttcacaacgtggaggatggcagcgtgcagctggctgatcactaccagcaaaaggtgatggtcctgttctgctgccagacaatcactatctgagcacgcaaagaaagatccgaacgagaaacgcgatcatatggttctgctggagttcgtaacatcacgcatggtatggatgaactgtacaaatgatgacaaagcccgccgaattctgttgttgtgtggaattgtgagcggataacaattcacacacccggccttatcaccgccagaggtaaaatagtcaacacgcacggtgttagatatttatgatagattgagcacattaaagaggagaaaggtaccatggtgagcaagggaacatggccatcatcaaggagttcatgcgcttcaaggtgcacatggagggggccacgagttcgagatcgagggcgagggcgagggccgcccctacgaggggccaagctgaaggtgaccaagggtggccccctgcccttcgcctgggacatcagttcatgtacggctccaaggcctacgtgaagcaccccgccgacatcccaagctgtccttccccgagggcttcaagtgggagcgcgtgatgaacttcgagtggtgaccgtgacccaggactcctccttgcaggacggcgagttcatctactgcgcggcaccaacttcccctccgacggccccgtaatgcagaagaagacgaggcctcctccgagcggatgtaccccgaggacggcgccctgaagggcgaaggctgaagctgaaggacggcggccactacgacgctgaggtcaagaccacaagaagcccgtgcagctgcccggcgcctacaacgtcaacatcaagttggacacaacgaggactacaccatcgtggaacagtacgaacgcgccgagggccgggcggcatggacgagctgtacaagtaataacaaagcccgccgaaaggcggataaatgtgagcggataacattgacattgtgagcggataacaagatactgggttgattgtgtgagtctgtcacagttcagcggaaacgttgatgctgtgacgaggccaaagcccgccgaaaggcgggcttttctgttccctatcagtgatatccctatcagtgatagagatactgagcacgggagggttgattgtgtgagttcagcggaaacgttgatgctgtgacagatttatgcgaggccaaagcccgggcttttctgt</sbol:elements>
+    <ns1:title>half_adder_seq Sequence</ns1:title>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb300084h_2_sequence"/>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+  </sbol:Sequence>
+</rdf:RDF>

@@ -1,0 +1,149 @@
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:sbh="https://wiki.synbiohub.org/wiki/Terms/synbiohub#" xmlns:sbol="http://sbols.org/v2#" xmlns:ns0="http://www.w3.org/ns/prov#" xmlns:ns1="http://purl.org/dc/terms/" xmlns:ns2="http://purl.org/dc/elements/1.1/" xmlns:ns3="http://purl.obolibrary.org/obo/">
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb7b00203_4_sequence/1">
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:version>1</sbol:version>
+    <sbol:displayId>sb7b00203_4_sequence</sbol:displayId>
+    <sbol:elements>ccgctcccgagaatgaatacccgcagctcagagaccccagctgacattaactcacatttaccccttgacagtgatttgaagcacaagcaatatatgacctacgccataaactaactaagagtttaggtatttggttataaaatagaaggaggtcttaagatg</sbol:elements>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb7b00203_4_sequence"/>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb7b00203_1_sequence/1">
+    <sbol:version>1</sbol:version>
+    <sbol:elements>accggtttcgaattgacaattaatcatcggctcgtataatggtaccggtgataccagcatcgtcttgatgcccttggcagcacccgctgcgcagggggtatcaacaagatg</sbol:elements>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:displayId>sb7b00203_1_sequence</sbol:displayId>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb7b00203_1_sequence"/>
+  </sbol:Sequence>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb7b00203_2_comp/1">
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb7b00203_2_comp"/>
+    <sbol:displayId>sb7b00203_2_comp</sbol:displayId>
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.7b00203"/>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb7b00203_2_sequence/1"/>
+    <sbol:version>1</sbol:version>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbh:supplementalFile rdf:resource="file:///C:/Users/JVM/Downloads/sequence_supplementals/synbict_output/pdf"/>
+  </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb7b00203_2_sequence/1">
+    <sbol:version>1</sbol:version>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb7b00203_2_sequence"/>
+    <sbol:elements>accggtttcgaattgacaattaatcatcggctcgtataatggtacccggtacctgataagataggggtgataccagcatcgtcttgatgcccttggcagcaccaagggacaacaagatg</sbol:elements>
+    <sbol:displayId>sb7b00203_2_sequence</sbol:displayId>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+  </sbol:Sequence>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb7b00203_4_comp/1">
+    <sbh:supplementalFile rdf:resource="file:///C:/Users/JVM/Downloads/sequence_supplementals/synbict_output/pdf"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:version>1</sbol:version>
+    <sbol:displayId>sb7b00203_4_comp</sbol:displayId>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb7b00203_4_sequence/1"/>
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.7b00203"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb7b00203_4_comp"/>
+  </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb7b00203_3_sequence/1">
+    <sbol:elements>tttcgaattggaattgtgagcgctcacaattcgaacggttctggcaaatattctgaaatgagctgttgacaattaatcatccggctcgtataatgtgtggaattgtgagcggataacaatttcacacaaaatagaaggaggtcttaagatg</sbol:elements>
+    <sbol:displayId>sb7b00203_3_sequence</sbol:displayId>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:version>1</sbol:version>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb7b00203_3_sequence"/>
+  </sbol:Sequence>
+  <sbol:Collection rdf:about="http://examples.org/sb7b00203/1">
+    <sbol:member rdf:resource="http://examples.org/Sequence/sb7b00203_4_sequence/1"/>
+    <ns1:references>Niederholtmeyer, H., Wolfstadter, B. T., Savage, D. F., Silver, P. A., Way, J. C. Engineering cyanobacteria to synthesize and export hydrophilic products Appl. Environ. Microbiol. 2010. 76:3462-3466.</ns1:references>
+    <ns1:references>Huang, H. H., Lindblad, P. Wide-dynamic-range promoters engineered for cyanobacteria J. Biol. Eng. 2013. 7.</ns1:references>
+    <ns2:subject>circuits</ns2:subject>
+    <ns1:references>Taton, A., Lis, E., Adin, D. M., Dong, G., Cookson, S., Kay, S. A., Golden, S. S., Golden, J. W. Gene transfer in Leptolyngbya sp. strain BL0902, a cyanobacterium suitable for production of biomass and bioproducts PLoS One 2012. 7.</ns1:references>
+    <ns1:references>Rippka, R., Deruelles, J., Waterbury, J. B., Herdman, M., Stanier, R. Y. Generic assignments, strain histories and properties of pure cultures of cyanobacteria J. Gen. Microbiol. 1979. 111:1-61.</ns1:references>
+    <ns2:creator>Amy T. Ma</ns2:creator>
+    <ns1:references>Gardner, T. S., Cantor, C. R., Collins, J. J. Construction of a genetic toggle switch in Escherichia coli Nature 2000. 403:339-342.</ns1:references>
+    <ns1:dateCopyrighted>2017</ns1:dateCopyrighted>
+    <ns1:references>Thanbichler, M., Iniesta, A. A., Shapiro, L. A comprehensive set of plasmids for vanillate- and xylose-inducible gene expression in Caulobacter crescentus Nucleic Acids Res. 2007. 35.</ns1:references>
+    <ns1:isPartOf rdf:resource="http://pubs.acs.org/journal/asbcd6"/>
+    <sbol:displayId>sb7b00203</sbol:displayId>
+    <ns1:description>To downregulate gene expression in cyanobacteria, we constructed NOT gate genetic circuits using orthogonal promoters and their cognate repressors regulated translationally by synthetic riboswitches. Four NOT gates were tested and characterized in five cyanobacterial strains using fluorescent reporter-gene assays. In comparison to alternative systems used to downregulate gene expression in cyanobacteria, these NOT gates performed well, reducing YFP reporter expression by 4 to 50-fold. We further evaluated these NOT gates by controlling the expression of the ftsZ gene, which encodes a prokaryotic tubulin homologue that is required for cell division and is essential for Synechococcus elongatus PCC 7942. These NOT gates would facilitate cyanobacterial genetic engineering or the study of essential cellular processes.</ns1:description>
+    <ns1:references>Huang, H. H., Camsund, D., Lindblad, P., Heidorn, T. Design and characterization of molecular tools for a Synthetic Biology approach towards developing cyanobacterial biotechnology Nucleic Acids Res. 2010. 38:2577-2593.</ns1:references>
+    <ns1:references>Camsund, D., Heidorn, T., Lindblad, P. Design and analysis of LacI-repressed promoters and DNA-looping in a cyanobacterium J. Biol. Eng. 2014. 8.</ns1:references>
+    <ns1:references>Zess, E. K., Begemann, M. B., Pfleger, B. F. Construction of new synthetic biology tools for the control of gene expression in the cyanobacterium Synechococcus sp. strain PCC 7002 Biotechnol. Bioeng. 2016. 113:424-432.</ns1:references>
+    <ns1:rightsHolder>American Chemical
+Society</ns1:rightsHolder>
+    <ns2:creator>Mizuho Ota</ns2:creator>
+    <ns1:references>Miyagishima, S. Y., Wolk, C. P., Osteryoung, K. W. Identification of cyanobacterial cell division genes by comparative and mutational analyses Mol. Microbiol. 2005. 56:126-143.</ns1:references>
+    <ns1:references>Nakahira, Y., Ogawa, A., Asano, H., Oyama, T., Tozawa, Y. Theophylline-dependent riboswitch as a novel genetic tool for strict regulation of protein expression in cyanobacterium Synechococcus elongatus PCC 7942 Plant Cell Physiol. 2013. 54:1724-1735.</ns1:references>
+    <ns1:references>Huang, C. H., Shen, C. R., Li, H., Sung, L. Y., Wu, M. Y., Hu, Y. C. CRISPR interference (CRISPRi) for gene regulation and succinate production in cyanobacterium S. elongatus PCC 7942 Microb. Cell Fact. 2016. 15.</ns1:references>
+    <ns3:OBI_0002110 rdf:resource="https://doi.org/10.1021/acssynbio.7b00203"/>
+    <ns1:abstract>To downregulate gene expression in cyanobacteria, we constructed NOT gate genetic circuits using orthogonal promoters and their cognate repressors regulated translationally by synthetic riboswitches. Four NOT gates were tested and characterized in five cyanobacterial strains using fluorescent reporter-gene assays. In comparison to alternative systems used to downregulate gene expression in cyanobacteria, these NOT gates performed well, reducing YFP reporter expression by 4 to 50-fold. We further evaluated these NOT gates by controlling the expression of the ftsZ gene, which encodes a prokaryotic tubulin homologue that is required for cell division and is essential for Synechococcus elongatus PCC 7942. These NOT gates would facilitate cyanobacterial genetic engineering or the study of essential cellular processes.</ns1:abstract>
+    <ns1:type rdf:resource="http://purl.org/dc/dcmitype/Text"/>
+    <ns1:references>Topp, S., Gallivan, J. P. Emerging applications of riboswitches in chemical biology ACS Chem. Biol. 2010. 5:139-148.</ns1:references>
+    <ns2:creator>Arnaud Taton</ns2:creator>
+    <ns1:references>Morabbi
+Heravi, K., Lange, J., Watzlawick, H., Kalinowski, J., Altenbuchner, J. Transcriptional regulation of the vanillate utilization genes (vanABK operon) of Corynebacterium glutamicum by VanR, a PadR-like repressor J. Bacteriol. 2015. 197:959-972.</ns1:references>
+    <ns1:references>Yokobayashi, Y., Weiss, R., Arnold, F. H. Directed evolution of a genetic circuit Proc. Natl. Acad. Sci. U. S. A. 2002. 99:16587-16591.</ns1:references>
+    <ns1:dateAccepted>2017-08-14</ns1:dateAccepted>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/sb7b00203"/>
+    <ns2:subject>cyanobacteria</ns2:subject>
+    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb7b00203_4_comp/1"/>
+    <ns1:references>Chabot, J. R., Pedraza, J. M., Luitel, P., van Oudenaarden, A. Stochastic gene expression out-of-steady-state in the cyanobacterial circadian clock Nature 2007. 450:1249-1252.</ns1:references>
+    <sbol:member rdf:resource="http://examples.org/Sequence/sb7b00203_3_sequence/1"/>
+    <ns1:references>Geerts, D., Bovy, A., de Vrieze, G., Borrias, M., Weisbeek, P. Inducible expression of heterologous genes targeted to a chromosomal platform in the cyanobacterium Synechococcus sp. PCC 7942 Microbiology 1995. 141:831-841.</ns1:references>
+    <ns2:rights>Copyright &amp; 2017 American Chemical
+Society</ns2:rights>
+    <ns1:created>2017-08-14</ns1:created>
+    <ns2:creator>Susan S. Golden</ns2:creator>
+    <ns1:references>Rubin, B. E., Wetmore, K. M., Price, M. N., Diamond, S., Shultzaberger, R. K., Lowe, L. C., Curtin, G., Arkin, A. P., Deutschbauer, A., Golden, S. S. The essential gene set of a photosynthetic organism Proc. Natl. Acad. Sci. U. S. A. 2015. 112:E6634-6643.</ns1:references>
+    <ns1:references>Elhai, J. Strong and regulated promoters in the cyanobacterium Anabaena PCC 7120 FEMS Microbiol. Lett. 1993. 114:179-184.</ns1:references>
+    <ns1:references>Kaczmarczyk, A., Vorholt, J. A., Francez-Charlot, A. Synthetic vanillate-regulated promoter for graded gene expression in Sphingomonas Sci. Rep. 2015. 4.</ns1:references>
+    <ns1:dateSubmitted>2017-06-12</ns1:dateSubmitted>
+    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb7b00203_1_comp/1"/>
+    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb7b00203_2_comp/1"/>
+    <ns1:isPartOf>ACS Synthetic Biology</ns1:isPartOf>
+    <ns2:publisher>American Chemical
+Society</ns2:publisher>
+    <sbol:version>1</sbol:version>
+    <ns1:references>Sadler, J. R., Sasmor, H., Betz, J. L. A perfectly symmetric lac operator binds the lac repressor very tightly Proc. Natl. Acad. Sci. U. S. A. 1983. 80:6785-6789.</ns1:references>
+    <ns0:wasDerivedFrom rdf:resource="https://pubs.acs.org/doi/10.1021/acssynbio.7b00203"/>
+    <ns1:references>Mori, T., Johnson, C. H. Independence of circadian timing from cell division in cyanobacteria J. Bacteriol. 2001. 183:2439-2444.</ns1:references>
+    <ns1:references>Ma, A. T., Schmidt, C. M., Golden, J. W. Regulation of gene expression in diverse cyanobacterial species by using theophylline-responsive riboswitches Appl. Environ. Microbiol. 2014. 80:6704-6713.</ns1:references>
+    <ns1:references>Taton, A., Unglaub, F., Wright, N. E., Zeng, W. Y., Paz-Yepes, J., Brahamsha, B., Palenik, B., Peterson, T. C., Haerizadeh, F., Golden, S. S., Golden, J. W. Broad-host-range vector system for synthetic biology and biotechnology in cyanobacteria Nucleic Acids Res. 2014. 42.</ns1:references>
+    <ns1:references>Oehler, S., Amouyal, M., Kolkhof, P., von Wilcken-Bergmann, B., Muller-Hill, B. Quality and position of the three lac operators of E. coli define efficiency of repression EMBO J. 1994. 13:3348-3355.</ns1:references>
+    <ns2:type>rapid-communication</ns2:type>
+    <ns2:subject>genetic engineering</ns2:subject>
+    <sbol:member rdf:resource="http://examples.org/Sequence/sb7b00203_2_sequence/1"/>
+    <ns1:references>Yao, L., Cengic, I., Anfelt, J., Hudson, E. P. Multiple gene repression in cyanobacteria using CRISPRi ACS Synth. Biol. 2016. 5:207-212.</ns1:references>
+    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb7b00203_3_comp/1"/>
+    <ns1:references>Elowitz, M.
+B., Leibler, S. A synthetic oscillatory network of transcriptional regulators Nature 2000. 403:335-338.</ns1:references>
+    <ns1:references>Elhai, J., Vepritskiy, A., Muro-Pastor, A. M., Flores, E., Wolk, C. P. Reduction of conjugal transfer efficiency by three restriction activities of Anabaena sp. strain PCC 7120 J. Bacteriol. 1997. 179:1998-2005.</ns1:references>
+    <ns1:references>Cohen, S. E., Erb, M. L., Pogliano, J., Golden, S. S. Best practices for fluorescence microscopy of the cyanobacterial circadian clock Methods Enzymol. 2015. 551:211-221.</ns1:references>
+    <ns1:title>NOT Gate Genetic Circuits to Control Gene Expression in Cyanobacteria</ns1:title>
+    <ns1:references>Clerico, E. M., Ditty, J. L., Golden, S. S. Specialized techniques for site-directed mutagenesis in cyanobacteria Methods Mol. Biol. 2007. 362:155-171.</ns1:references>
+    <ns1:references>Gordon, G. C., Korosh, T. C., Cameron, J. C., Markley, A. L., Begemann, M. B., Pfleger, B. F. CRISPR interference as a titratable, trans-acting regulatory tool for metabolic engineering in the cyanobacterium Synechococcus sp. strain PCC 7002 Metab. Eng. 2016. 38:170-179.</ns1:references>
+    <ns1:references>Berla, B. M., Saha, R., Immethun, C. M., Maranas, C. D., Moon, T. S., Pakrasi, H. B. Synthetic biology of cyanobacteria: unique challenges and opportunities Front. Microbiol. 2013. 4.</ns1:references>
+    <ns2:subject>downregulation</ns2:subject>
+    <ns1:references>Szwedziak, P., Wang, Q., Bharat, T. A., Tsim, M., Lowe, J. Architecture of the ring formed by the tubulin homologue FtsZ in bacterial cell division eLife 2014. 3.</ns1:references>
+    <ns2:subject>synthetic biology</ns2:subject>
+    <ns1:references>Topp, S., Reynoso, C. M., Seeliger, J. C., Goldlust, I. S., Desai, S. K., Murat, D., Shen, A., Puri, A. W., Komeili, A., Bertozzi, C. R., Scott, J. R., Gallivan, J. P. Synthetic riboswitches that induce gene expression in diverse bacterial species Appl. Environ. Microbiol. 2010. 76:7881-7884.</ns1:references>
+    <ns3:OBI_0001617>28803467</ns3:OBI_0001617>
+    <ns2:creator>James W. Golden</ns2:creator>
+    <sbol:member rdf:resource="http://examples.org/Sequence/sb7b00203_1_sequence/1"/>
+  </sbol:Collection>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb7b00203_1_comp/1">
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb7b00203_1_comp"/>
+    <sbol:version>1</sbol:version>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb7b00203_1_sequence/1"/>
+    <sbh:supplementalFile rdf:resource="file:///C:/Users/JVM/Downloads/sequence_supplementals/synbict_output/pdf"/>
+    <sbol:displayId>sb7b00203_1_comp</sbol:displayId>
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.7b00203"/>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb7b00203_3_comp/1">
+    <sbh:supplementalFile rdf:resource="file:///C:/Users/JVM/Downloads/sequence_supplementals/synbict_output/pdf"/>
+    <sbol:version>1</sbol:version>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb7b00203_3_comp"/>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:displayId>sb7b00203_3_comp</sbol:displayId>
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.7b00203"/>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb7b00203_3_sequence/1"/>
+  </sbol:ComponentDefinition>
+</rdf:RDF>

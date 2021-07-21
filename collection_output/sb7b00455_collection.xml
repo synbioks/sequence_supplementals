@@ -1,0 +1,200 @@
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:sbh="https://wiki.synbiohub.org/wiki/Terms/synbiohub#" xmlns:sbol="http://sbols.org/v2#" xmlns:ns0="http://www.w3.org/ns/prov#" xmlns:ns1="http://purl.org/dc/terms/" xmlns:ns2="http://purl.org/dc/elements/1.1/" xmlns:ns3="http://purl.obolibrary.org/obo/">
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb7b00455_5_sequence/1">
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb7b00455_5_sequence"/>
+    <sbol:version>1</sbol:version>
+    <sbol:displayId>sb7b00455_5_sequence</sbol:displayId>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:elements>ggctgaagcttcttgtcgga</sbol:elements>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb7b00455_4_sequence/1">
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb7b00455_4_sequence"/>
+    <sbol:elements>cgaaagttcgcggcgg</sbol:elements>
+    <sbol:displayId>sb7b00455_4_sequence</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+  </sbol:Sequence>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb7b00455_2_comp/1">
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:version>1</sbol:version>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb7b00455_2_sequence/1"/>
+    <sbh:supplementalFile rdf:resource="file:///C:/Users/JVM/Downloads/sequence_supplementals/synbict_output/pdf"/>
+    <sbol:displayId>sb7b00455_2_comp</sbol:displayId>
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.7b00455"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb7b00455_2_comp"/>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+  </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb7b00455_3_sequence/1">
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb7b00455_3_sequence"/>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:elements>aattctaccactgaaccaccaatgc</sbol:elements>
+    <sbol:displayId>sb7b00455_3_sequence</sbol:displayId>
+    <sbol:version>1</sbol:version>
+  </sbol:Sequence>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb7b00455_4_comp/1">
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb7b00455_4_comp"/>
+    <sbh:supplementalFile rdf:resource="file:///C:/Users/JVM/Downloads/sequence_supplementals/synbict_output/pdf"/>
+    <sbol:displayId>sb7b00455_4_comp</sbol:displayId>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:version>1</sbol:version>
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.7b00455"/>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb7b00455_4_sequence/1"/>
+  </sbol:ComponentDefinition>
+  <sbol:Collection rdf:about="http://examples.org/sb7b00455/1">
+    <ns1:references>Baumeister, S. H., Freeman, G. J., Dranoff, G., Sharpe, A. H. Coinhibitory Pathways in Immunotherapy for Cancer Annu. Rev. Immunol. 2016. 34:539-573.</ns1:references>
+    <ns1:abstract>Engineered T cells are transforming broad fields in biomedicine, yet our ability to control cellular activity at specific anatomical sites remains limited. Here we engineer thermal gene switches to allow spatial and remote control of transcriptional activity using pulses of heat. These gene switches are constructed from the heat shock protein HSP70B&#8242; (HSPA6) promoter, show negligible basal transcriptional activity, and activate within an elevated temperature window of 40&#8211;45 &#176;C. Using engineered Jurkat T cells implanted in vivo, we use plasmonic photothermal heating to trigger gene expression at specific sites to levels greater than 200-fold. We show that delivery of heat as thermal pulse trains significantly increase cellular thermal tolerance compared to continuous heating curves with identical area-under-the-curve (AUC), enabling long-term control of gene expression in Jurkat T cells. This approach expands the toolkit of remotely controlled genetic devices for basic and translational applications in synthetic immunology.</ns1:abstract>
+    <ns1:references>Auslander, S., Fussenegger, M. From gene switches to mammalian designer cells: present and future prospects Trends Biotechnol. 2013. 31:155-168.</ns1:references>
+    <ns1:dateCopyrighted>2018</ns1:dateCopyrighted>
+    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb7b00455_3_comp/1"/>
+    <ns1:references>Hensen, S. M., Heldens, L., van Genesen, S. T., Pruijn, G. J., Lubsen, N. H. A delayed antioxidant response in heat-stressed cells expressing a non-DNA binding HSF1 mutant Cell Stress Chaperones 2013. 18:455-473.</ns1:references>
+    <ns1:references>Jain, P. K., Lee, K. S., El-Sayed, I. H., El-Sayed, M. A. Calculated absorption and scattering properties of gold nanoparticles of different size, shape, and composition: applications in biological imaging and biomedicine J. Phys. Chem. B 2006. 110:7238-7248.</ns1:references>
+    <ns1:references>Chu, K. F., Dupuy, D. E. Thermal ablation of tumours: biological mechanisms and advances in therapy Nat. Rev. Cancer 2014. 14:199-208.</ns1:references>
+    <ns1:references>von
+Maltzahn, G., Park, J. H., Agrawal, A., Bandaru, N. K., Das, S. K., Sailor, M. J., Bhatia, S. N. Computationally guided photothermal tumor therapy using long-circulating gold nanorod antennas Cancer Res. 2009. 69:3892-3900.</ns1:references>
+    <ns2:creator>Joe Maenza</ns2:creator>
+    <ns1:references>Stephan, S.
+B., Taber, A. M., Jileaeva, I., Pegues, E. P., Sentman, C. L., Stephan, M. T. Biopolymer implants enhance the efficacy of adoptive T-cell therapy Nat. Biotechnol. 2015. 33:97-U277.</ns1:references>
+    <ns1:references>Fenno, L., Yizhar, O., Deisseroth, K. The Development and Application of Optogenetics Annu. Rev. Neurosci. 2011. 34:389-412.</ns1:references>
+    <ns2:creator>Gabriel A. Kwong</ns2:creator>
+    <ns1:references>Hentze, N., Le Breton, L., Wiesner, J., Kempf, G., Mayer, M. P. Molecular mechanism of thermosensory function of human heat shock transcription factor Hsf1 eLife 2016.</ns1:references>
+    <ns2:creator>Jason P. Weis</ns2:creator>
+    <ns1:references>Khlebtsov, N., Dykman, L. Biodistribution and toxicity of engineered gold nanoparticles: a review of in vitro and in vivo studies Chem. Soc. Rev. 2011. 40:1647-1671.</ns1:references>
+    <ns1:references>von
+Maltzahn, G., Park, J. H., Lin, K. Y., Singh, N., Schwoppe, C., Mesters, R., Berdel, W. E., Ruoslahti, E., Sailor, M. J., Bhatia, S. N. Nanoparticles that communicate in vivo to amplify tumour targeting Nat. Mater. 2011. 10:545-552.</ns1:references>
+    <sbol:member rdf:resource="http://examples.org/Sequence/sb7b00455_2_sequence/1"/>
+    <ns1:references>Kregel, K. C. Heat shock proteins: modifying factors in physiological stress responses and acquired thermotolerance J. Appl. Physiol. 2002. 92:2177-2186.</ns1:references>
+    <ns1:references>Lienert, F., Lohmueller, J. J., Garg, A., Silver, P. A. Synthetic biology in mammalian cells: next generation research tools and therapeutics Nat. Rev. Mol. Cell Biol. 2014. 15:95-107.</ns1:references>
+    <ns1:type rdf:resource="http://purl.org/dc/dcmitype/Text"/>
+    <ns1:references>Ramos, D. M., Kamal, F., Wimmer, E. A., Cartwright, A. N., Monteiro, A. Temporal and spatial control of transgene expression using laser induction of the hsp70 promoter BMC Dev. Biol. 2006. 6.</ns1:references>
+    <ns1:references>Jackson, H. J., Rafiq, S., Brentjens, R. J. Driving CAR T-cells forward Nat. Rev. Clin. Oncol. 2016. 13:370-383.</ns1:references>
+    <ns1:references>Lindquist, S. The heat-shock response Annu. Rev. Biochem. 1986. 55:1151-1191.</ns1:references>
+    <ns1:references>Tan, P., He, L., Han, G., Zhou, Y. Optogenetic Immunomodulation: Shedding Light on Antitumor Immunity Trends Biotechnol. 2017. 35:215-226.</ns1:references>
+    <ns1:isPartOf rdf:resource="http://pubs.acs.org/journal/asbcd6"/>
+    <ns1:references>Rabindran, S. K., Haroun, R. I., Clos, J., Wisniewski, J., Wu, C. Regulation of heat shock factor trimer formation: role of a conserved leucine zipper Science 1993. 259:230-234.</ns1:references>
+    <ns1:references>Waldmann, T. A. The biology of interleukin-2 and interleukin-15: implications for cancer therapy and vaccine design Nat. Rev. Immunol. 2006. 6:595-601.</ns1:references>
+    <ns2:creator>Ian C. Miller</ns2:creator>
+    <ns2:type>brief-report</ns2:type>
+    <ns1:references>Neef, D. W., Jaeger, A. M., Thiele, D. J. Genetic selection for constitutively trimerized human HSF1 mutants identifies a role for coiled-coil motifs in DNA binding G3: Genes, Genomes, Genet. 2013. 3:1315-1324.</ns1:references>
+    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb7b00455_2_comp/1"/>
+    <ns1:references>Miyako, E., Deguchi, T., Nakajima, Y., Yudasaka, M., Hagihara, Y., Horie, M., Shichiri, M., Higuchi, Y., Yamashita, F., Hashida, M., Shigeri, Y., Yoshida, Y., Iijima, S. Photothermic regulation of gene expression triggered by laser-induced carbon nanohorns Proc. Natl. Acad. Sci. U. S. A. 2012. 109:7523-7528.</ns1:references>
+    <ns3:OBI_0002110 rdf:resource="https://doi.org/10.1021/acssynbio.7b00455"/>
+    <ns1:references>Kortmann, J., Narberhaus, F. Bacterial RNA thermometers: molecular zippers and switches Nat. Rev. Microbiol. 2012. 10:255-265.</ns1:references>
+    <ns1:references>Piraner, D. I., Abedi, M. H., Moser, B. A., Lee-Gosselin, A., Shapiro, M. G. Tunable thermal bioswitches for in vivo control of microbial therapeutics Nat. Chem. Biol. 2017. 13:75-80.</ns1:references>
+    <ns1:references>Gardner, T. S., Cantor, C. R., Collins, J. J. Construction of a genetic toggle switch in Escherichia coli Nature 2000. 403:339-342.</ns1:references>
+    <ns1:description>Engineered T cells are transforming broad fields in biomedicine, yet our ability to control cellular activity at specific anatomical sites remains limited. Here we engineer thermal gene switches to allow spatial and remote control of transcriptional activity using pulses of heat. These gene switches are constructed from the heat shock protein HSP70B&#8242; (HSPA6) promoter, show negligible basal transcriptional activity, and activate within an elevated temperature window of 40&#8211;45 &#176;C. Using engineered Jurkat T cells implanted in vivo, we use plasmonic photothermal heating to trigger gene expression at specific sites to levels greater than 200-fold. We show that delivery of heat as thermal pulse trains significantly increase cellular thermal tolerance compared to continuous heating curves with identical area-under-the-curve (AUC), enabling long-term control of gene expression in Jurkat T cells. This approach expands the toolkit of remotely controlled genetic devices for basic and translational applications in synthetic immunology.</ns1:description>
+    <ns1:references>Haar, G. T., Coussios, C. High intensity focused ultrasound: physical principles and devices Int. J. Hyperthermia 2007. 23:89-104.</ns1:references>
+    <sbol:member rdf:resource="http://examples.org/Sequence/sb7b00455_4_sequence/1"/>
+    <ns1:references>Lubner, M. G., Brace, C. L., Hinshaw, J. L., Lee, F. T. Microwave tumor ablation: mechanism of action, clinical results, and devices J. Vasc Interv Radiol 2010. 21:S192-203.</ns1:references>
+    <sbol:member rdf:resource="http://examples.org/Sequence/sb7b00455_3_sequence/1"/>
+    <sbol:displayId>sb7b00455</sbol:displayId>
+    <ns1:references>Heldens, L., Dirks, R. P., Hensen, S. M., Onnekink, C., van Genesen, S. T., Rustenburg, F., Lubsen, N. H. Co-chaperones are limiting in a depleted chaperone network Cell. Mol. Life Sci. 2010. 67:4035-4048.</ns1:references>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/sb7b00455"/>
+    <ns1:title>Remote Control of Mammalian Cells with Heat-Triggered Gene Switches and Photothermal Pulse Trains</ns1:title>
+    <ns1:references>Roybal, K. T., Rupp, L. J., Morsut, L., Walker, W. J., McNally, K. A., Park, J. S., Lim, W. A. Precision Tumor Recognition by T Cells With Combinatorial Antigen-Sensing Circuits Cell 2016. 164:770-779.</ns1:references>
+    <ns1:references>Hamajima, F., Hasegawa, T., Nakashima, I., Isobe, K. Genomic cloning and promoter analysis of the GAHSP40 gene J. Cell. Biochem. 2002. 84:401-407.</ns1:references>
+    <ns1:references>Swartz, M. A., Hirosue, S., Hubbell, J. A. Engineering approaches to immunotherapy Sci. Transl. Med. 2012. 4.</ns1:references>
+    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb7b00455_4_comp/1"/>
+    <ns2:publisher>American Chemical
+Society</ns2:publisher>
+    <ns1:references>Huang, B., Abraham, W. D., Zheng, Y., Bustamante Lopez, S. C., Luo, S. S., Irvine, D. J. Active targeting of chemotherapy to disseminated tumors using nanoparticle-carrying T cells Sci. Transl. Med. 2015. 7.</ns1:references>
+    <ns2:subject>plasmonic nanoparticles</ns2:subject>
+    <ns1:references>Clos, J., Westwood, J. T., Becker, P. B., Wilson, S., Lambert, K., Wu, C. Molecular cloning and expression of a hexameric Drosophila heat shock factor subject to negative regulation Cell 1990. 63:1085-1097.</ns1:references>
+    <ns1:isPartOf>ACS Synthetic Biology</ns1:isPartOf>
+    <ns1:references>Kaehler, K. C., Piel, S., Livingstone, E., Schilling, B., Hauschild, A., Schadendorf, D. Update on immunologic therapy with anti-CTLA-4 antibodies in melanoma: identification of clinical and biological response patterns, immune-related adverse events, and their management Semin. Oncol. 2010. 37:485-498.</ns1:references>
+    <ns1:references>Park, J. S., Rhau, B., Hermann, A., McNally, K. A., Zhou, C., Gong, D., Weiner, O. D., Conklin, B. R., Onuffer, J., Lim, W. A. Synthetic control of mammalian-cell motility by engineering chemotaxis to an orthogonal bioinert chemical signal Proc. Natl. Acad. Sci. U. S. A. 2014. 111:5896-5901.</ns1:references>
+    <ns1:references>Wust, P., Hildebrandt, B., Sreenivasa, G., Rau, B., Gellermann, J., Riess, H., Felix, R., Schlag, P. M. Hyperthermia in combined treatment of cancer Lancet Oncol. 2002. 3:487-497.</ns1:references>
+    <ns1:references>Murphy, A. G., Zheng, L. Small molecule drugs with immunomodulatory effects in cancer Hum. Vaccines Immunother. 2015. 11:2463-2468.</ns1:references>
+    <ns1:references>Kim, P. S., Ahmed, R. Features of responding T cells in cancer and chronic infection Curr. Opin. Immunol. 2010. 22:223-230.</ns1:references>
+    <ns1:references>Deguchi, T., Itoh, M., Urawa, H., Matsumoto, T., Nakayama, S., Kawasaki, T., Kitano, T., Oda, S., Mitani, H., Takahashi, T., Todo, T., Sato, J., Okada, K., Hatta, K., Yuba, S., Kamei, Y. Infrared laser-mediated local gene induction in medaka, zebrafish and Arabidopsis thaliana Dev., Growth Differ. 2009. 51:769-775.</ns1:references>
+    <ns1:references>Jaque, D., Martinez Maestro, L., del Rosal, B., Haro-Gonzalez, P., Benayas, A., Plaza, J. L., Martin Rodriguez, E., Garcia Sole, J. Nanoparticles for photothermal therapies Nanoscale 2014. 6:9494-9530.</ns1:references>
+    <ns2:creator>Marielena Gamboa Castro</ns2:creator>
+    <ns1:references>Fagnoni, F. F., Zerbini, A., Pelosi, G., Missale, G. Combination of radiofrequency ablation and immunotherapy Front. Biosci., Landmark Ed. 2008. 13:369-381.</ns1:references>
+    <sbol:member rdf:resource="http://examples.org/Sequence/sb7b00455_1_sequence/1"/>
+    <ns0:wasDerivedFrom rdf:resource="https://pubs.acs.org/doi/10.1021/acssynbio.7b00455"/>
+    <ns2:subject>thermal
+gene switches</ns2:subject>
+    <ns3:OBI_0001617>29579381</ns3:OBI_0001617>
+    <sbol:version>1</sbol:version>
+    <ns1:rightsHolder>American Chemical
+Society</ns1:rightsHolder>
+    <ns1:dateAccepted>2018-03-26</ns1:dateAccepted>
+    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb7b00455_5_comp/1"/>
+    <sbol:member rdf:resource="http://examples.org/Sequence/sb7b00455_5_sequence/1"/>
+    <ns2:subject>remote control</ns2:subject>
+    <ns1:references>Sabel, M. S. Cryo-immunology: a review of the literature and proposed mechanisms for stimulatory versus suppressive immune responses Cryobiology 2009. 58:1-11.</ns1:references>
+    <sbol:member rdf:resource="http://examples.org/Sequence/sb7b00455_6_sequence/1"/>
+    <ns1:dateSubmitted>2017-12-15</ns1:dateSubmitted>
+    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb7b00455_6_comp/1"/>
+    <ns2:subject>photothermal heating</ns2:subject>
+    <ns2:subject>engineered T cells</ns2:subject>
+    <ns1:created>2018-03-26</ns1:created>
+    <ns1:references>Richter, K., Haslbeck, M., Buchner, J. The heat shock response: life on the verge of death Mol. Cell 2010. 40:253-266.</ns1:references>
+    <ns1:references>Jensen, M. C., Riddell, S. R. Designing chimeric antigen receptors to effectively and safely target tumors Curr. Opin. Immunol. 2015. 33:9-15.</ns1:references>
+    <ns1:references>Akerfelt, M., Morimoto, R. I., Sistonen, L. Heat shock factors: integrators of cell stress, development and lifespan Nat. Rev. Mol. Cell Biol. 2010. 11:545-555.</ns1:references>
+    <ns1:references>Andersson, H. A., Kim, Y. S., O&#8217;Neill, B. E., Shi, Z. Z., Serda, R. E. HSP70 promoter-driven activation of gene expression for immunotherapy using gold nanorods and near infrared light Vaccines (Basel, Switz.) 2014. 2:216-227.</ns1:references>
+    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb7b00455_1_comp/1"/>
+    <ns1:references>Ramirez, V. P., Stamatis, M., Shmukler, A., Aneskievich, B. J. Basal and stress-inducible expression of HSPA6 in human keratinocytes is regulated by negative and positive promoter regions Cell Stress Chaperones 2015. 20:95-107.</ns1:references>
+    <ns1:references>Feder, M. E., Hofmann, G. E. Heat-shock proteins, molecular chaperones, and the stress response: evolutionary and ecological physiology Annu. Rev. Physiol. 1999. 61:243-282.</ns1:references>
+  </sbol:Collection>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb7b00455_2_sequence/1">
+    <sbol:version>1</sbol:version>
+    <sbol:displayId>sb7b00455_2_sequence</sbol:displayId>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb7b00455_2_sequence"/>
+    <sbol:elements>gatctgaatggaatgttctggattgaaga</sbol:elements>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+  </sbol:Sequence>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb7b00455_5_comp/1">
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb7b00455_5_sequence/1"/>
+    <sbh:supplementalFile rdf:resource="file:///C:/Users/JVM/Downloads/sequence_supplementals/synbict_output/pdf"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb7b00455_5_comp"/>
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.7b00455"/>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:displayId>sb7b00455_5_comp</sbol:displayId>
+    <sbol:version>1</sbol:version>
+  </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb7b00455_6_sequence/1">
+    <sbol:version>1</sbol:version>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb7b00455_6_sequence"/>
+    <sbol:displayId>sb7b00455_6_sequence</sbol:displayId>
+    <sbol:elements>agtgaggctctccctgcggtttctct</sbol:elements>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+  </sbol:Sequence>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb7b00455_6_comp/1">
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:displayId>sb7b00455_6_comp</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <sbh:supplementalFile rdf:resource="file:///C:/Users/JVM/Downloads/sequence_supplementals/synbict_output/pdf"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb7b00455_6_comp"/>
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.7b00455"/>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb7b00455_6_sequence/1"/>
+  </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb7b00455_1_sequence/1">
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:displayId>sb7b00455_1_sequence</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb7b00455_1_sequence"/>
+    <sbol:elements>tcatcttgaattcccacaacacatgg</sbol:elements>
+  </sbol:Sequence>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb7b00455_3_comp/1">
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:version>1</sbol:version>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbh:supplementalFile rdf:resource="file:///C:/Users/JVM/Downloads/sequence_supplementals/synbict_output/pdf"/>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb7b00455_3_sequence/1"/>
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.7b00455"/>
+    <sbol:displayId>sb7b00455_3_comp</sbol:displayId>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb7b00455_3_comp"/>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb7b00455_1_comp/1">
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbh:supplementalFile rdf:resource="file:///C:/Users/JVM/Downloads/sequence_supplementals/synbict_output/pdf"/>
+    <sbol:version>1</sbol:version>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb7b00455_1_comp"/>
+    <sbol:displayId>sb7b00455_1_comp</sbol:displayId>
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.7b00455"/>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb7b00455_1_sequence/1"/>
+  </sbol:ComponentDefinition>
+</rdf:RDF>

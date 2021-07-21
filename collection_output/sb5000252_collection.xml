@@ -1,0 +1,104 @@
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:sbh="https://wiki.synbiohub.org/wiki/Terms/synbiohub#" xmlns:sbol="http://sbols.org/v2#" xmlns:ns0="http://purl.org/dc/terms/" xmlns:ns1="http://www.w3.org/ns/prov#" xmlns:ns2="http://purl.org/dc/elements/1.1/" xmlns:ns3="http://purl.obolibrary.org/obo/">
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb5000252_1_comp/1">
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb5000252_1_sequence/1"/>
+    <sbh:supplementalFile rdf:resource="file:///C:/Users/JVM/Downloads/sequence_supplementals/synbict_output/pdf"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb5000252_1_comp"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="http://examples.org/ComponentDefinition/sb5000252_1_comp/BBa_B0010_anno_1/1">
+        <ns0:title>BBa_B0010</ns0:title>
+        <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb5000252_1_comp/BBa_B0010_anno_1"/>
+        <ns0:description>Natural terminator</ns0:description>
+        <sbol:version>1</sbol:version>
+        <sbol:component rdf:resource="http://examples.org/ComponentDefinition/sb5000252_1_comp/BBa_B0010_comp_1/1"/>
+        <sbol:displayId>BBa_B0010_anno_1</sbol:displayId>
+        <sbol:location>
+          <sbol:Range rdf:about="http://examples.org/ComponentDefinition/sb5000252_1_comp/BBa_B0010_anno_1/BBa_B0010_anno_1_loc/1">
+            <sbol:start>989</sbol:start>
+            <sbol:end>1068</sbol:end>
+            <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb5000252_1_comp/BBa_B0010_anno_1/BBa_B0010_anno_1_loc"/>
+            <sbol:version>1</sbol:version>
+            <sbol:displayId>BBa_B0010_anno_1_loc</sbol:displayId>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:version>1</sbol:version>
+    <ns1:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <ns1:wasDerivedFrom rdf:resource="https://doi.org/10.1021/sb5000252"/>
+    <sbol:component>
+      <sbol:Component rdf:about="http://examples.org/ComponentDefinition/sb5000252_1_comp/BBa_B0010_comp_1/1">
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:version>1</sbol:version>
+        <sbol:displayId>BBa_B0010_comp_1</sbol:displayId>
+        <sbol:definition rdf:resource="https://synbioks.org/public/Natural_and_Synthetic_Terminators_Voigt_Lab/BBa_B0010/1"/>
+        <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb5000252_1_comp/BBa_B0010_comp_1"/>
+        <ns0:title>BBa_B0010</ns0:title>
+      </sbol:Component>
+    </sbol:component>
+    <sbol:displayId>sb5000252_1_comp</sbol:displayId>
+  </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb5000252_1_sequence/1">
+    <sbol:version>1</sbol:version>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb5000252_1_sequence"/>
+    <sbol:displayId>sb5000252_1_sequence</sbol:displayId>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:elements>actagactgcttctatcttaccatcattgctcatcagatttgaagataaacctcataaaaagcatttccttatatagaagagaaaatcatatcactaattacctttaggaaatgttacatttttccgaaatctatcatttccttttcacatttttttcaaaatatatgtattgaattagtaatttgatagttttaagataaaagtacaacatagatctgctagaaaaacaaaaaaagggaggattcaattatgaaaaaagctgtcactagaaaagaggagaaaatgtcttattcaaagcatggcatcgtacaagaaatgaagacgaaataccatatggaaggcagtgtcaatggccatgaatttacgatcgaaggtgtaggaactgggtacccttacgaagggaaacagatgtccgaattagtgatcatcaagcctgcgggaaaaccccttccattctcctttgacatactgtcatcagtctttcaatatggaaaccgttgcttcacaaagtacccggcagacatgcctgactatttcaagcaagcattcccagatggaatgtcatatgaaaggtcatttctatttgaggatggagcagttgctacagccagctggaacattcgtctcgaaggaaattgcttcatccacaaatccatctttcatggcgtaaactttcccgctgatggacccgtaatgaaaaagaagacaattgactgggataagtccttcgaaaaaatgactgtgtctaaagaggtgctaagaggtgacgtgactatgtttcttatgctcgaaggaggtggttctcacagatgccaatttcactccacttacaaaacagagaagccggtcacactgcccccgaatcatgtcgtagaacatcaaattgtgaggaccgaccttggccaaagtgcaaaaggctttacagtcaagctggaagcacatgccgcggctcatgttaaccctttgaaggttaaataataactgcagccaggcatcaaataaaacgaaaggctcagtcgaaagactgggcctttcgttttatctgttgtttgtcggtgaacgctctctactagagtcacactgactcaccttcgggtgggcctttctgcgtttatag</sbol:elements>
+  </sbol:Sequence>
+  <sbol:Collection rdf:about="http://examples.org/sb5000252/1">
+    <ns0:references>Urban, A., Eckermann, S., Fast, B., Metzger, S., Gehling, M., Ziegelbauer, K., Ru&#776;bsamen-Waigmann, H., Freiberg, C. Novel whole-cell antibiotic biosensors for compound discovery Appl. Environ. Microbiol. 2007. 73:6436-6443.</ns0:references>
+    <sbol:displayId>sb5000252</sbol:displayId>
+    <ns0:references>Knecht, L. D., Pasini, P., Daunert, S. Bacterial spores as platforms for bioanalytical and biomedical applications Anal. Bioanal. Chem. 2011. 400:977-989.</ns0:references>
+    <ns2:creator>Arjan Oldebesten</ns2:creator>
+    <ns0:abstract>Here, we developed a cell-based biosensor that can assess meat freshness using the Gram-positive model bacterium Bacillus subtilis as a chassis. Using transcriptome analysis, we identified promoters that are specifically activated by volatiles released from spoiled meat. The most strongly activated promoter was P                   sboA                , which drives expression of the genes required for the bacteriocin subtilosin. Next, we created a novel BioBrick compatible integration plasmid for B. subtilis and cloned P                   sboA                 as a BioBrick in front of the gene encoding the chromoprotein amilGFP inside this vector. We show that the newly identified promoter could efficiently drive fluorescent protein production in B. subtilis in response to spoiled meat and thus can be used as a biosensor to detect meat spoilage.</ns0:abstract>
+    <ns2:creator>Annisa A. Purwanto</ns2:creator>
+    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb5000252_1_comp/1"/>
+    <ns2:creator>Matthias Heinemann</ns2:creator>
+    <sbol:member rdf:resource="http://examples.org/Sequence/sb5000252_1_sequence/1"/>
+    <ns0:references>Weber, W., Luzi, S., Karlsson, M., Fussenegger, M. A novel hybrid dual-channel catalytic-biological sensor system for assessment of fruit quality J. Biotechnol. 2009. 139:314-317.</ns0:references>
+    <ns2:creator>Renske van Raaphorst</ns2:creator>
+    <ns2:creator>Yonathan Dessalegne</ns2:creator>
+    <ns2:creator>Robin A. Sorg</ns2:creator>
+    <ns2:creator>Elbrich Hendriks</ns2:creator>
+    <ns2:creator>Jeroen Siebring</ns2:creator>
+    <ns0:type rdf:resource="http://purl.org/dc/dcmitype/Text"/>
+    <ns0:references>Alieva, N. O., Konzen, K. A., Field, S. F., Meleshkevitch, E. A., Hunt, M. E., Beltran-Ramirez, V., Miller, D. J., Wiedenmann, J., Salih, A., Matz, M. V. Diversity and evolution of coral fluorescent proteins PLoS One 2008. 3.</ns0:references>
+    <ns0:isPartOf>ACS Synthetic Biology</ns0:isPartOf>
+    <ns0:isPartOf rdf:resource="http://pubs.acs.org/journal/asbcd6"/>
+    <ns2:creator>Emeraldo Jo</ns2:creator>
+    <ns2:creator>Jonathon Parrish</ns2:creator>
+    <ns0:rightsHolder>American Chemical Society</ns0:rightsHolder>
+    <ns0:dateCopyrighted>2014</ns0:dateCopyrighted>
+    <ns1:wasDerivedFrom rdf:resource="https://pubs.acs.org/doi/10.1021/sb5000252"/>
+    <ns3:OBI_0002110 rdf:resource="https://doi.org/10.1021/sb5000252"/>
+    <ns2:creator>Sjoerd van der Meulen</ns2:creator>
+    <ns2:creator>Ismae&#770;l Drenth</ns2:creator>
+    <ns2:creator>Auke van Heel</ns2:creator>
+    <ns0:references>Harwood C. R. , and Cutting S. M. (1990) Molecular Biological Methods for Bacillus, John Wiley and Sons Ltd., Chichester.</ns0:references>
+    <ns0:references>Zheng, G., Yan, L. Z., Vederas, J. C., Zuber, P. Genes of the sbo-alb locus of Bacillus subtilis are required for production of the antilisterial bacteriocin subtilosin J. Bacteriol. 1999. 181:7346-7355.</ns0:references>
+    <ns0:references>Baerends, R. J., Smits, W. K., de Jong, A., Hamoen, L. W., Kok, J., Kuipers, O. P. Genome2D: A visualization tool for the rapid analysis of bacterial transcriptome data Genome Biol. 2004. 5.</ns0:references>
+    <ns2:creator>Wlada Poljakova</ns2:creator>
+    <ns2:creator>Jan-Willem Veening</ns2:creator>
+    <ns2:creator>Martijn Herber</ns2:creator>
+    <ns0:description>Here, we developed a cell-based biosensor that can assess meat freshness using the Gram-positive model bacterium Bacillus subtilis as a chassis. Using transcriptome analysis, we identified promoters that are specifically activated by volatiles released from spoiled meat. The most strongly activated promoter was P                   sboA                , which drives expression of the genes required for the bacteriocin subtilosin. Next, we created a novel BioBrick compatible integration plasmid for B. subtilis and cloned P                   sboA                 as a BioBrick in front of the gene encoding the chromoprotein amilGFP inside this vector. We show that the newly identified promoter could efficiently drive fluorescent protein production in B. subtilis in response to spoiled meat and thus can be used as a biosensor to detect meat spoilage.</ns0:description>
+    <ns2:creator>Tom van Lente</ns2:creator>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/sb5000252"/>
+    <ns0:references>Middleton, R., Hofmeister, A. New shuttle vectors for ectopic insertion of genes into Bacillus subtilis Plasmid 2004. 51:238-245.</ns0:references>
+    <ns2:publisher>American Chemical
+Society</ns2:publisher>
+    <sbol:version>1</sbol:version>
+    <ns3:OBI_0001617>25524109</ns3:OBI_0001617>
+    <ns0:references>Kerry, J. P., O&#8217;Grady, M. N., Hogan, S. A. Past, current, and potential utilisation of active and intelligent packaging systems for meat and muscle-based products: A review Meat Science 2006. 74:113-130.</ns0:references>
+    <ns0:title>Bacillus subtilis Biosensor Engineered To Assess Meat Spoilage</ns0:title>
+    <ns0:references>van
+der Meer, J. R., Belkin, S. Where microbiology meets microengineering: Design and applications of reporter bacteria Nat. Rev. Microbiol. 2010. 8:511-522.</ns0:references>
+    <ns2:creator>Mirjam Boonstra</ns2:creator>
+    <ns2:rights>Copyright &amp; 2014 American Chemical Society</ns2:rights>
+    <ns2:creator>Alicja Daszczuk</ns2:creator>
+    <ns0:dateSubmitted>2013-08-30</ns0:dateSubmitted>
+    <ns2:creator>Oscar P. Kuipers</ns2:creator>
+    <ns0:references>Michener, J. K., Thodey, K., Liang, J. C., Smolke, C. D. Applications of genetically-encoded biosensors for the construction and control of biosynthetic pathways Metab. Eng. 2012. 14:212-222.</ns0:references>
+    <ns2:type>review-article</ns2:type>
+  </sbol:Collection>
+</rdf:RDF>

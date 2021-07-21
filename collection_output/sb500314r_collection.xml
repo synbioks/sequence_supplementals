@@ -1,0 +1,99 @@
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:sbh="https://wiki.synbiohub.org/wiki/Terms/synbiohub#" xmlns:sbol="http://sbols.org/v2#" xmlns:ns0="http://www.w3.org/ns/prov#" xmlns:ns1="http://purl.org/dc/terms/" xmlns:ns2="http://purl.org/dc/elements/1.1/" xmlns:ns3="http://purl.obolibrary.org/obo/">
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb500314r_3_sequence/1">
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb500314r_3_sequence"/>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:displayId>sb500314r_3_sequence</sbol:displayId>
+    <sbol:elements>gaaggacggg</sbol:elements>
+    <sbol:version>1</sbol:version>
+  </sbol:Sequence>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb500314r_1_comp/1">
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb500314r_1_sequence/1"/>
+    <sbol:version>1</sbol:version>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb500314r_1_comp"/>
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/sb500314r"/>
+    <sbol:displayId>sb500314r_1_comp</sbol:displayId>
+    <sbh:supplementalFile rdf:resource="file:///C:/Users/JVM/Downloads/sequence_supplementals/synbict_output/pdf"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+  </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb500314r_1_sequence/1">
+    <sbol:version>1</sbol:version>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb500314r_1_sequence"/>
+    <sbol:elements>gcccagagc</sbol:elements>
+    <sbol:displayId>sb500314r_1_sequence</sbol:displayId>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+  </sbol:Sequence>
+  <sbol:Collection rdf:about="http://examples.org/sb500314r/1">
+    <ns1:abstract>We designed an in vitro signal amplification circuit that takes a short RNA input that catalytically activates the Spinach RNA aptamer to produce a fluorescent output. The circuit consists of three RNA strands: an internally blocked Spinach aptamer, a fuel strand, and an input strand (catalyst), as well as the Spinach aptamer ligand 3,5-difluoro-4-hydroxylbenzylidene imidazolinone (DFHBI). The input strand initially displaces the internal inhibitory strand to activate the fluorescent aptamer while exposing a toehold to which the fuel strand can bind to further displace and recycle the input strand. Under a favorable condition, one input strand was able to activate up to five molecules of the internally blocked Spinach aptamer in 185 min at 30 &#176;C. The simple RNA circuit reported here serves as a model for catalytic activation of arbitrary RNA effectors by chemical triggers.</ns1:abstract>
+    <ns1:dateAccepted>2014-10-29</ns1:dateAccepted>
+    <ns1:rightsHolder>American Chemical Society</ns1:rightsHolder>
+    <ns1:references>Nakayama, S., Luo, Y., Zhou, J., Dayie, T. K., Sintim, H. O. Nanomolar fluorescent detection of c-di-GMP using a modular aptamer strategy Chem. Commun. 2012. 48:9059-9061.</ns1:references>
+    <sbol:member rdf:resource="http://examples.org/Sequence/sb500314r_1_sequence/1"/>
+    <ns1:type rdf:resource="http://purl.org/dc/dcmitype/Text"/>
+    <ns2:creator>Yohei Yokobayashi</ns2:creator>
+    <ns2:subject>RNA circuit</ns2:subject>
+    <ns0:wasDerivedFrom rdf:resource="https://pubs.acs.org/doi/10.1021/sb500314r"/>
+    <ns1:title>RNA Signal Amplifier Circuit with Integrated Fluorescence Output</ns1:title>
+    <sbol:member rdf:resource="http://examples.org/Sequence/sb500314r_2_sequence/1"/>
+    <ns2:rights>Copyright &amp; 2014 American Chemical Society</ns2:rights>
+    <ns1:references>Bhadra, S., Ellington, A. D. Design and application of cotranscriptional non-enzymatic RNA circuits and signal transducers Nucleic Acids Res. 2014. 42.</ns1:references>
+    <ns1:references>Song, W., Strack, R. L., Jaffrey, S. R. Imaging bacterial protein expression using genetically encoded RNA sensors Nat. Methods 2013. 10:873-875.</ns1:references>
+    <ns2:subject>signal amplification</ns2:subject>
+    <ns1:dateCopyrighted>2014</ns1:dateCopyrighted>
+    <ns1:isPartOf rdf:resource="http://pubs.acs.org/journal/asbcd6"/>
+    <ns1:references>Hochrein, L. M., Schwarzkopf, M., Shahgholi, M., Yin, P., Pierce, N. A. Conditional dicer substrate formation via shape and sequence transduction with small conditional RNAs J. Am. Chem. Soc. 2013. 135:17322-17330.</ns1:references>
+    <ns1:created>2014-10-29</ns1:created>
+    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb500314r_1_comp/1"/>
+    <ns2:subject>Spinach aptamer</ns2:subject>
+    <ns1:references>Li, B., Ellington, A. D., Chen, X. Rational, modular adaptation of enzyme-free DNA circuits to multiple detection methods Nucleic Acids Res. 2011. 39.</ns1:references>
+    <ns2:creator>Farhima Akter</ns2:creator>
+    <ns2:type>research-article</ns2:type>
+    <ns3:OBI_0002110 rdf:resource="https://doi.org/10.1021/sb500314r"/>
+    <ns1:isPartOf>ACS Synthetic Biology</ns1:isPartOf>
+    <ns1:description>We designed an in vitro signal amplification circuit that takes a short RNA input that catalytically activates the Spinach RNA aptamer to produce a fluorescent output. The circuit consists of three RNA strands: an internally blocked Spinach aptamer, a fuel strand, and an input strand (catalyst), as well as the Spinach aptamer ligand 3,5-difluoro-4-hydroxylbenzylidene imidazolinone (DFHBI). The input strand initially displaces the internal inhibitory strand to activate the fluorescent aptamer while exposing a toehold to which the fuel strand can bind to further displace and recycle the input strand. Under a favorable condition, one input strand was able to activate up to five molecules of the internally blocked Spinach aptamer in 185 min at 30 &#176;C. The simple RNA circuit reported here serves as a model for catalytic activation of arbitrary RNA effectors by chemical triggers.</ns1:description>
+    <sbol:displayId>sb500314r</sbol:displayId>
+    <ns1:references>Paige, J. S., Wu, K. Y., Jaffrey, S. R. RNA mimics of green fluorescent protein Science 2011. 333:642-646.</ns1:references>
+    <ns2:subject>RNA engineering</ns2:subject>
+    <ns1:references>Huang, H., Suslov, N. B., Li, N. S., Shelke, S. A., Evans, M. E., Koldobskaya, Y., Rice, P. A., Piccirilli, J. A. A G-quadruplex-containing RNA activates fluorescence in a GFP-like fluorophore Nat. Chem. Biol. 2014. 10:686-691.</ns1:references>
+    <ns1:references>Warner, K. D., Chen, M. C., Song, W., Strack, R. L., Thorn, A., Jaffrey, S. R., Ferre-D&#8217;Amare, A. R. Structural basis for activity of highly efficient RNA mimics of green fluorescent protein Nat. Struct. Mol. Biol. 2014. 21:658-663.</ns1:references>
+    <ns1:references>Bhadra, S., Ellington, A. D. A Spinach molecular beacon triggered by strand displacement RNA 2014. 20:1183-1194.</ns1:references>
+    <sbol:member rdf:resource="http://examples.org/Sequence/sb500314r_3_sequence/1"/>
+    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb500314r_3_comp/1"/>
+    <ns1:references>Paige, J. S., Nguyen-Duc, T., Song, W., Jaffrey, S. R. Fluorescence imaging of cellular metabolites with RNA Science 2012. 335.</ns1:references>
+    <sbol:version>1</sbol:version>
+    <ns1:references>Kellenberger, C. A., Wilson, S. C., Sales-Lee, J., Hammond, M. C. RNA-based fluorescent biosensors for live cell imaging of second messengers cyclic di-GMP and cyclic AMP-GMP J. Am. Chem. Soc. 2013. 135:4906-4909.</ns1:references>
+    <ns2:publisher>American Chemical
+Society</ns2:publisher>
+    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb500314r_2_comp/1"/>
+    <ns3:OBI_0001617>25354355</ns3:OBI_0001617>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/sb500314r"/>
+    <ns1:dateSubmitted>2014-09-04</ns1:dateSubmitted>
+  </sbol:Collection>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb500314r_3_comp/1">
+    <sbh:supplementalFile rdf:resource="file:///C:/Users/JVM/Downloads/sequence_supplementals/synbict_output/pdf"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb500314r_3_sequence/1"/>
+    <sbol:version>1</sbol:version>
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/sb500314r"/>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbol:displayId>sb500314r_3_comp</sbol:displayId>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb500314r_3_comp"/>
+  </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb500314r_2_sequence/1">
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:elements>caacgcaggagaacaaacag</sbol:elements>
+    <sbol:displayId>sb500314r_2_sequence</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb500314r_2_sequence"/>
+  </sbol:Sequence>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb500314r_2_comp/1">
+    <sbol:version>1</sbol:version>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb500314r_2_sequence/1"/>
+    <sbol:displayId>sb500314r_2_comp</sbol:displayId>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb500314r_2_comp"/>
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/sb500314r"/>
+    <sbh:supplementalFile rdf:resource="file:///C:/Users/JVM/Downloads/sequence_supplementals/synbict_output/pdf"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+  </sbol:ComponentDefinition>
+</rdf:RDF>

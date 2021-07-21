@@ -1,0 +1,306 @@
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:sbh="https://wiki.synbiohub.org/wiki/Terms/synbiohub#" xmlns:sbol="http://sbols.org/v2#" xmlns:ns0="http://www.w3.org/ns/prov#" xmlns:ns1="http://purl.org/dc/elements/1.1/" xmlns:ns2="http://purl.org/dc/terms/" xmlns:ns3="http://purl.obolibrary.org/obo/">
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb5b00111_4_comp/1">
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbol:displayId>sb5b00111_4_comp</sbol:displayId>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb5b00111_4_comp"/>
+    <sbh:supplementalFile rdf:resource="file:///C:/Users/JVM/Downloads/sequence_supplementals/synbict_output/pdf"/>
+    <sbol:version>1</sbol:version>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb5b00111_4_sequence/1"/>
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.5b00111"/>
+  </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb5b00111_2_sequence/1">
+    <sbol:version>1</sbol:version>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:elements>gtggtggtgggattcagaatatggtgaaaccagctcgtccgagcaggcgcattctggcatctgccgacggatccatattcccttcagtcttactgtgtgtaggtgcatgg</sbol:elements>
+    <sbol:displayId>sb5b00111_2_sequence</sbol:displayId>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb5b00111_2_sequence"/>
+  </sbol:Sequence>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb5b00111_1_comp/1">
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbh:supplementalFile rdf:resource="file:///C:/Users/JVM/Downloads/sequence_supplementals/synbict_output/pdf"/>
+    <sbol:displayId>sb5b00111_1_comp</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb5b00111_1_comp"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.5b00111"/>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb5b00111_1_sequence/1"/>
+  </sbol:ComponentDefinition>
+  <sbol:Collection rdf:about="http://examples.org/sb5b00111/1">
+    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb5b00111_3_comp/1"/>
+    <ns1:subject>Oligonucleotide</ns1:subject>
+    <ns2:references>Merulla, D., Hatzimanikatis, V., van der Meer, J. R. Tunable reporter signal production in feedback-uncoupled arsenic bioreporters Microb. Biotechnol. 2013. 6:503-514.</ns2:references>
+    <ns2:abstract>Expression control in synthetic genetic circuitry, for example, for construction of sensitive biosensors, is hampered by the lack of DNA parts that maintain ultralow background yet achieve high output upon signal integration by the cells. Here, we demonstrate how placement of auxiliary transcription factor binding sites within a regulatable promoter context can yield an important gain in signal-to-noise output ratios from prokaryotic biosensor circuits. As a proof of principle, we use the arsenite-responsive ArsR repressor protein from Escherichia coli and its cognate operator. Additional ArsR operators placed downstream of its target promoter can act as a transcription roadblock in a distance-dependent manner and reduce background expression of downstream-placed reporter genes. We show that the transcription roadblock functions both in cognate and heterologous promoter contexts. Secondary ArsR operators placed upstream of their promoter can also improve signal-to-noise output while maintaining effector dependency. Importantly, background control can be released through the addition of micromolar concentrations of arsenite. The ArsR-operator system thus provides a flexible system for additional gene expression control, which, given the extreme sensitivity to micrograms per liter effector concentrations, could be applicable in more general contexts.</ns2:abstract>
+    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb5b00111_8_comp/1"/>
+    <ns2:references>Jaspers, M. C., Suske, W. A., Schmid, A., Goslings, D. A., Kohler, H. P., van der Meer, J. R. HbpR, a new member of the XylR/DmpR subclass within the NtrC family of bacterial transcriptional activators, regulates expression of 2-hydroxybiphenyl metabolism in Pseudomonas azelaica HBP1 J. Bacteriol. 2000. 182:405-417.</ns2:references>
+    <sbol:member rdf:resource="http://examples.org/Sequence/sb5b00111_4_sequence/1"/>
+    <ns1:creator>Davide Merulla</ns1:creator>
+    <ns1:subject>NaAsO 2</ns1:subject>
+    <ns1:subject>arsenite-containing</ns1:subject>
+    <ns1:subject>lacO</ns1:subject>
+    <ns2:title>Regulatable and Modulable Background Expression Control in Prokaryotic Synthetic Circuits by Auxiliary Repressor Binding Sites</ns2:title>
+    <ns1:subject>HBP1</ns1:subject>
+    <sbol:member rdf:resource="http://examples.org/Sequence/sb5b00111_6_sequence/1"/>
+    <ns2:references>Hammer, K., Mijakovic, I., Jensen, P. R. Synthetic promoter libraries-tuning of gene expression Trends Biotechnol. 2006. 24:53-55.</ns2:references>
+    <ns2:references>Regnier, P., Hajnsdorf, E. Decay of mRNA encoding ribosomal protein S15 of Escherichia coli is initiated by an RNase E-dependent endonucleolytic cleavage that removes the 3&#8242; stabilizing stem and loop structure J. Mol. Biol. 1991. 217:283-292.</ns2:references>
+    <ns1:subject>mCherry</ns1:subject>
+    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb5b00111_2_comp/1"/>
+    <ns2:references>Stocker, J., Balluch, D., Gsell, M., Harms, H., Feliciano, J. S., Daunert, S., Malik, K. A., van der
+Meer, J. R. Development of a set of simple bacterial biosensors for quantitative and rapid field measurements of arsenite and arsenate in potable water Environ. Sci. Technol. 2003. 37:4743-4750.</ns2:references>
+    <ns1:subject>growing bioreporter cultures</ns1:subject>
+    <ns1:creator>Jan Roelof van der Meer</ns1:creator>
+    <ns1:publisher>American Chemical
+Society</ns1:publisher>
+    <ns2:references>Trang, P. T., Berg, M., Viet, P. H., van Mui, N., van der
+Meer, J. R. Bacterial bioassay for rapid and accurate analysis of arsenic in highly variable groundwater samples Environ. Sci. Technol. 2005. 39:7625-7630.</ns2:references>
+    <ns2:references>Osman, D., Cavet, J. S. Bacterial metal-sensing proteins exemplified by ArsR-SmtB family repressors Nat. Prod. Rep. 2010. 27:668-680.</ns2:references>
+    <ns1:subject>P C</ns1:subject>
+    <ns1:subject>dimethyl sulfoxide</ns1:subject>
+    <ns1:subject>sodium salt</ns1:subject>
+    <ns2:references>Jaspers, M. C., Schmid, A., Sturme, M. H., Goslings, D. A., Kohler, H. P., van der Meer, J. R. Transcriptional organization and dynamic expression of the hbpCAD genes, which encode the first three enzymes for 2-hydroxybiphenyl degradation in Pseudomonas azelaica HBP1 J. Bacteriol. 2001. 183:270-279.</ns2:references>
+    <ns1:subject>arsenite oxyanions</ns1:subject>
+    <ns3:OBI_0002110 rdf:resource="https://doi.org/10.1021/acssynbio.5b00111"/>
+    <ns2:references>Eldar, A., Elowitz, M. B. Functional roles for noise in genetic circuits Nature 2010. 467:167-173.</ns2:references>
+    <ns1:subject>pHBP</ns1:subject>
+    <ns1:subject>arsenite-</ns1:subject>
+    <ns2:references>Alper, H., Fischer, C., Nevoigt, E., Stephanopoulos, G. Tuning genetic control through promoter engineering Proc. Natl. Acad. Sci. U. S. A. 2005. 102:12678-12683.</ns2:references>
+    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb5b00111_1_comp/1"/>
+    <ns1:subject>synthetic biology</ns1:subject>
+    <ns2:references>Fendorf, S., Michael, H. A., van Geen, A. Spatial and temporal variations of groundwater arsenic in South and Southeast Asia Science 2010. 328:1123-1127.</ns2:references>
+    <ns2:type rdf:resource="http://purl.org/dc/dcmitype/Text"/>
+    <ns1:subject>R773</ns1:subject>
+    <ns2:references>Kudla, G., Murray, A. W., Tollervey, D., Plotkin, J. B. Coding-sequence determinants of gene expression in Escherichia coli Science 2009. 324:255-258.</ns2:references>
+    <ns1:subject>ars operon</ns1:subject>
+    <ns2:references>Salis, H. M., Mirsky, E. A., Voigt, C. A. Automated design of synthetic ribosome binding sites to control protein expression Nat. Biotechnol. 2009. 27:946-950.</ns2:references>
+    <ns2:references>Moon, T. S., Lou, C., Tamsir, A., Stanton, B. C., Voigt, C. A. Genetic programs constructed from layered logic gates in single cells Nature 2012. 491:249-253.</ns2:references>
+    <ns1:subject>AsIII</ns1:subject>
+    <sbol:version>1</sbol:version>
+    <sbol:member rdf:resource="http://examples.org/Sequence/sb5b00111_2_sequence/1"/>
+    <ns2:created>2015-09-08</ns2:created>
+    <ns2:references>Stanton, B. C., Nielsen, A. A., Tamsir, A., Clancy, K., Peterson, T., Voigt, C. A. Genomic mining of prokaryotic repressors for orthogonal logic gates Nat. Chem. Biol. 2014. 10:99-105.</ns2:references>
+    <ns2:dateAccepted>2015-09-08</ns2:dateAccepted>
+    <ns2:references>Hedges, R. W., Baumberg, S. Resistance to arsenic compounds conferred by a plasmid transmissible between strains of Escherichia coli J. Bacteriol. 1973. 115:459-460.</ns2:references>
+    <ns2:references>Tropel, D., van der Meer, J. R. Bacterial transcriptional regulators for degradation pathways of aromatic compounds Microbiol. Mol. Biol. Rev. 2004. 68:474-500.</ns2:references>
+    <ns1:subject>digoxigenin</ns1:subject>
+    <ns1:type>research-article</ns1:type>
+    <ns1:subject>transcription factors</ns1:subject>
+    <ns1:subject>P AA</ns1:subject>
+    <ns2:references>Friedland, A. E., Lu, T. K., Wang, X., Shi, D., Church, G., Collins, J. J. Synthetic gene networks that count Science 2009. 324:1199-1202.</ns2:references>
+    <ns1:subject>formaldehyde</ns1:subject>
+    <ns1:subject>Arsenic</ns1:subject>
+    <ns2:description>Expression control in synthetic genetic circuitry, for example, for construction of sensitive biosensors, is hampered by the lack of DNA parts that maintain ultralow background yet achieve high output upon signal integration by the cells. Here, we demonstrate how placement of auxiliary transcription factor binding sites within a regulatable promoter context can yield an important gain in signal-to-noise output ratios from prokaryotic biosensor circuits. As a proof of principle, we use the arsenite-responsive ArsR repressor protein from Escherichia coli and its cognate operator. Additional ArsR operators placed downstream of its target promoter can act as a transcription roadblock in a distance-dependent manner and reduce background expression of downstream-placed reporter genes. We show that the transcription roadblock functions both in cognate and heterologous promoter contexts. Secondary ArsR operators placed upstream of their promoter can also improve signal-to-noise output while maintaining effector dependency. Importantly, background control can be released through the addition of micromolar concentrations of arsenite. The ArsR-operator system thus provides a flexible system for additional gene expression control, which, given the extreme sensitivity to micrograms per liter effector concentrations, could be applicable in more general contexts.</ns2:description>
+    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb5b00111_7_comp/1"/>
+    <sbol:member rdf:resource="http://examples.org/Sequence/sb5b00111_1_sequence/1"/>
+    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb5b00111_6_comp/1"/>
+    <ns1:subject>HbpR</ns1:subject>
+    <ns1:subject>transcription factor</ns1:subject>
+    <ns1:subject>sodium dodecylsulfate</ns1:subject>
+    <ns1:subject>RNA polymerases</ns1:subject>
+    <ns1:subject>arsenic</ns1:subject>
+    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb5b00111_5_comp/1"/>
+    <sbol:member rdf:resource="http://examples.org/Sequence/sb5b00111_5_sequence/1"/>
+    <sbol:member rdf:resource="http://examples.org/Sequence/sb5b00111_8_sequence/1"/>
+    <ns1:subject>ArsR</ns1:subject>
+    <ns2:references>Wu, J., Rosen, B. P. Metalloregulated expression of the ars operon J. Biol. Chem. 1993. 268:52-58.</ns2:references>
+    <sbol:displayId>sb5b00111</sbol:displayId>
+    <ns1:subject>phenol&#8211;chloroform</ns1:subject>
+    <ns1:subject>hbpR</ns1:subject>
+    <ns1:subject>arsRBC-operon</ns1:subject>
+    <ns1:subject>repressor protein</ns1:subject>
+    <ns1:subject>arsenic-free</ns1:subject>
+    <ns1:subject>ars</ns1:subject>
+    <ns2:dateCopyrighted>2015</ns2:dateCopyrighted>
+    <ns1:subject>Eco RI</ns1:subject>
+    <ns1:subject>NH 4 Cl</ns1:subject>
+    <ns1:subject>RNA polymerase</ns1:subject>
+    <ns1:subject>Psi I</ns1:subject>
+    <ns2:references>Aiba, H., Adhya, S., de Crombrugghe, B. Evidence for two functional gal promoters in intact Escherichia coli cells J. Biol. Chem. 1981. 256:11905-11910.</ns2:references>
+    <ns2:references>Lutz, R., Bujard, H. Independent and tight regulation of transcriptional units in Escherichia coli via the LacR/O, the TetR/O and AraC/I1-I2 regulatory elements Nucleic Acids Res. 1997. 25:1203-1210.</ns2:references>
+    <ns1:subject>AA</ns1:subject>
+    <ns2:rightsHolder>American Chemical
+Society</ns2:rightsHolder>
+    <ns1:subject>(A) EGFP</ns1:subject>
+    <ns1:subject>operator</ns1:subject>
+    <ns1:subject>XylR</ns1:subject>
+    <ns1:rights>Copyright &amp; 2015 American Chemical
+Society</ns1:rights>
+    <ns2:dateSubmitted>2015-06-17</ns2:dateSubmitted>
+    <ns0:wasDerivedFrom rdf:resource="https://pubs.acs.org/doi/10.1021/acssynbio.5b00111"/>
+    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb5b00111_4_comp/1"/>
+    <ns1:subject>agarose</ns1:subject>
+    <ns1:subject>2HBP</ns1:subject>
+    <ns1:subject>Na 2 HPO 4</ns1:subject>
+    <ns1:subject>pHBP269</ns1:subject>
+    <ns1:subject>&#963; 54</ns1:subject>
+    <ns3:OBI_0001617>26348795</ns3:OBI_0001617>
+    <ns1:subject>glucose</ns1:subject>
+    <ns2:references>van
+der Meer, J. R., Belkin, S. Where microbiology meets microengineering: design and applications of reporter bacteria Nat. Rev. Microbiol. 2010. 8:511-522.</ns2:references>
+    <ns1:subject>Sac I</ns1:subject>
+    <ns1:subject>Easy</ns1:subject>
+    <ns2:references>Dvir, S., Velten, L., Sharon, E., Zeevi, D., Carey, L. B., Weinberger, A., Segal, E. Deciphering the rules by which 5&#8242;-UTR sequences affect protein expression in yeast Proc. Natl. Acad. Sci. U. S. A. 2013. 110:E2792-2801.</ns2:references>
+    <ns1:subject>(C) ArsR</ns1:subject>
+    <ns1:subject>arsR operon</ns1:subject>
+    <ns1:subject>CaCl 2</ns1:subject>
+    <ns2:references>Sambrook J. , and Russell D. W. (2001) Molecular Cloning: A Laboratory Manual, 3rd ed., Cold Spring Harbor Laboratory Press, Cold Spring Harbor, NY.</ns2:references>
+    <ns1:subject>FITC</ns1:subject>
+    <ns1:subject>2-hydroxybiphenyl</ns1:subject>
+    <ns1:subject>arsR</ns1:subject>
+    <ns2:references>He, B., Zalkin, H. Repression of Escherichia coli purB is by a transcriptional roadblock mechanism J. Bacteriol. 1992. 174:7121-7127.</ns2:references>
+    <ns2:references>Chen, Y. J., Liu, P., Nielsen, A. A., Brophy, J. A., Clancy, K., Peterson, T., Voigt, C. A. Characterization of 582 natural and synthetic terminators and quantification of their design constraints Nat. Methods 2013. 10:659-664.</ns2:references>
+    <sbol:member rdf:resource="http://examples.org/Sequence/sb5b00111_7_sequence/1"/>
+    <ns1:subject>MgCl 2</ns1:subject>
+    <ns2:references>Beggah, S., Vogne, C., Zenaro, E., van der Meer, J. R. Mutant transcription activator isolation via green fluorescent protein based flow cytometry and cell sorting Microb. Biotechnol. 2008. 1:68-78.</ns2:references>
+    <ns1:subject>EGFP</ns1:subject>
+    <ns1:subject>hbpC</ns1:subject>
+    <ns2:references>Rodriguez-Lado, L., Sun, G., Berg, M., Zhang, Q., Xue, H., Zheng, Q., Johnson, C. A. Groundwater arsenic contamination throughout China Science 2013. 341:866-868.</ns2:references>
+    <ns1:subject>bacterial bioreporters</ns1:subject>
+    <ns2:references>van der Meer J. R. (2011) Bacterial Sensors: Synthetic Design and Application Principles, Morgan  Claypool, San Rafael, CA.</ns2:references>
+    <ns1:subject>P ars arsR</ns1:subject>
+    <ns1:subject>arsDABC</ns1:subject>
+    <ns1:subject>MOPS bioreporter cell suspension</ns1:subject>
+    <ns1:subject>3-([ N-morpholino]&#173;propanesulfonic acid</ns1:subject>
+    <ns2:references>Way, J. C., Collins, J. J., Keasling, J. D., Silver, P. A. Integrating biological redesign: where synthetic biology came from and where it needs to go Cell 2014. 157:151-161.</ns2:references>
+    <sbol:member rdf:resource="http://examples.org/Sequence/sb5b00111_3_sequence/1"/>
+    <ns1:subject>P ars</ns1:subject>
+    <ns2:isPartOf>ACS Synthetic Biology</ns2:isPartOf>
+    <ns2:isPartOf rdf:resource="http://pubs.acs.org/journal/asbcd6"/>
+    <ns1:subject>Kpn I</ns1:subject>
+    <ns1:subject>TetR</ns1:subject>
+    <ns1:subject>ampicillin</ns1:subject>
+    <ns1:subject>NaCl</ns1:subject>
+    <ns2:references>Prindle, A., Samayoa, P., Razinkov, I., Danino, T., Tsimring, L. S., Hasty, J. A sensing array of radically coupled genetic &#8217;biopixels&#8217; Nature 2011. 481:39-44.</ns2:references>
+    <ns1:subject>2-HBP</ns1:subject>
+    <ns2:references>Siegfried, K., Endes, C., Bhuiyan, A. F., Kuppardt, A., Mattusch, J., van der
+Meer, J. R., Chatzinotas, A., Harms, H. Field testing of arsenic in groundwater samples of bangladesh using a test kit based on lyophilized bioreporter bacteria Environ. Sci. Technol. 2012. 46:3281-3287.</ns2:references>
+    <ns1:subject>Repressor</ns1:subject>
+    <ns1:subject>Km</ns1:subject>
+    <ns2:references>Balleza, E., Lopez-Bojorquez, L. N., Martinez-Antonio, A., Resendis-Antonio, O., Lozada-Chavez, I., Balderas-Martinez, Y.
+I., Encarnacion, S., Collado-Vides, J. Regulation by transcription factors in bacteria: beyond description FEMS Microbiol. Rev. 2009. 33:133-151.</ns2:references>
+    <ns1:subject>&#963; 70</ns1:subject>
+    <ns1:subject>egfp</ns1:subject>
+    <ns1:subject>P lac</ns1:subject>
+    <ns1:subject>kanamycin</ns1:subject>
+    <ns2:references>Wang, B., Kitney, R. I., Joly, N., Buck, M. Engineering modular and orthogonal genetic logic gates for robust digital-like synthetic biology Nat. Commun. 2011. 2.</ns2:references>
+    <ns1:subject>DMSO</ns1:subject>
+    <ns2:references>Hao, N., Krishna, S., Ahlgren-Berg, A., Cutts, E. E., Shearwin, K. E., Dodd, I. B. Road rules for traffic on DNA-systematic analysis of transcriptional roadblocking in vivo Nucleic Acids Res. 2014. 42:8861-8872.</ns2:references>
+    <ns1:subject>LacI</ns1:subject>
+    <ns1:subject>arsenite</ns1:subject>
+    <ns1:subject>KH 2 PO 4</ns1:subject>
+    <ns2:references>Hammar, P., Leroy, P., Mahmutovic, A., Marklund, E. G., Berg, O. G., Elf, J. The lac repressor displays facilitated diffusion in living cells Science 2012. 336:1595-1598.</ns2:references>
+    <ns2:references>Lou, C., Stanton, B., Chen, Y. J., Munsky, B., Voigt, C. A. Ribozyme-based insulator parts buffer synthetic circuits from genetic context Nat. Biotechnol. 2012. 30:1137-1142.</ns2:references>
+    <ns2:references>Temme, K., Zhao, D., Voigt, C. A. Refactoring the nitrogen fixation gene cluster from Klebsiella oxytoca Proc. Natl. Acad. Sci. U. S. A. 2012. 109:7085-7090.</ns2:references>
+    <ns2:references>Stricker, J., Cookson, S., Bennett, M. R., Mather, W. H., Tsimring, L. S., Hasty, J. A fast, robust and tunable synthetic gene oscillator Nature 2008. 456:516-519.</ns2:references>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/sb5b00111"/>
+    <ns1:subject>Spe I</ns1:subject>
+  </sbol:Collection>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb5b00111_5_comp/1">
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb5b00111_5_comp"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.5b00111"/>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb5b00111_5_sequence/1"/>
+    <sbh:supplementalFile rdf:resource="file:///C:/Users/JVM/Downloads/sequence_supplementals/synbict_output/pdf"/>
+    <sbol:displayId>sb5b00111_5_comp</sbol:displayId>
+    <sbol:version>1</sbol:version>
+  </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb5b00111_3_sequence/1">
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb5b00111_3_sequence"/>
+    <sbol:version>1</sbol:version>
+    <sbol:displayId>sb5b00111_3_sequence</sbol:displayId>
+    <sbol:elements>atcgggctgtcgcctagccagatgcgtccttcgttgtggggagggaatgcagaccgaacgccgaaacatggatttcagggcgcgatagatcggcaacgatggtgcggttt</sbol:elements>
+  </sbol:Sequence>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb5b00111_2_comp/1">
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb5b00111_2_sequence/1"/>
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.5b00111"/>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbh:supplementalFile rdf:resource="file:///C:/Users/JVM/Downloads/sequence_supplementals/synbict_output/pdf"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:displayId>sb5b00111_2_comp</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb5b00111_2_comp"/>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb5b00111_8_comp/1">
+    <sbol:displayId>sb5b00111_8_comp</sbol:displayId>
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.5b00111"/>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb5b00111_8_sequence/1"/>
+    <sbh:supplementalFile rdf:resource="file:///C:/Users/JVM/Downloads/sequence_supplementals/synbict_output/pdf"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb5b00111_8_comp"/>
+    <sbol:version>1</sbol:version>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+  </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb5b00111_1_sequence/1">
+    <sbol:displayId>sb5b00111_1_sequence</sbol:displayId>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb5b00111_1_sequence"/>
+    <sbol:elements>ggcaacgatggagcgatcgtcgctattatttttatttgatttcatggcgatggttcaggtccggtaggaatagatgagggtctcgttgggtttaataattttattaaatt</sbol:elements>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:version>1</sbol:version>
+  </sbol:Sequence>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb5b00111_3_comp/1">
+    <sbol:version>1</sbol:version>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb5b00111_3_sequence/1"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:displayId>sb5b00111_3_comp</sbol:displayId>
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.5b00111"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb5b00111_3_comp"/>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbh:supplementalFile rdf:resource="file:///C:/Users/JVM/Downloads/sequence_supplementals/synbict_output/pdf"/>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb5b00111_6_comp/1">
+    <sbol:version>1</sbol:version>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb5b00111_6_sequence/1"/>
+    <sbol:displayId>sb5b00111_6_comp</sbol:displayId>
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.5b00111"/>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbh:supplementalFile rdf:resource="file:///C:/Users/JVM/Downloads/sequence_supplementals/synbict_output/pdf"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb5b00111_6_comp"/>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb5b00111_7_comp/1">
+    <sbol:displayId>sb5b00111_7_comp</sbol:displayId>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb5b00111_7_sequence/1"/>
+    <sbol:version>1</sbol:version>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb5b00111_7_comp"/>
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.5b00111"/>
+    <sbh:supplementalFile rdf:resource="file:///C:/Users/JVM/Downloads/sequence_supplementals/synbict_output/pdf"/>
+  </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb5b00111_5_sequence/1">
+    <sbol:elements>taatatggtgaagcttgcccgccatggcaagtgcatttcggcagctgttggcgaccgcggaaggggtttacagccgtctggagctaggctttctggcgctcattaaaata</sbol:elements>
+    <sbol:version>1</sbol:version>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:displayId>sb5b00111_5_sequence</sbol:displayId>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb5b00111_5_sequence"/>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb5b00111_4_sequence/1">
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:version>1</sbol:version>
+    <sbol:elements>tcatggttcttatttttgttagatttcatggtgatagctcatgccaggtaggagtagatagggttctcgtagatttaataaatttatgaaatcgtggttgtgagttttca</sbol:elements>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb5b00111_4_sequence"/>
+    <sbol:displayId>sb5b00111_4_sequence</sbol:displayId>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb5b00111_6_sequence/1">
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb5b00111_6_sequence"/>
+    <sbol:elements>aaaatccttataaaacagtatcctagcttttatgtctgaggctgcttagtcaacctggcacggtactggctacgagtcccgcaaggcagccgtgagttcgactgtactgc</sbol:elements>
+    <sbol:displayId>sb5b00111_6_sequence</sbol:displayId>
+    <sbol:version>1</sbol:version>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb5b00111_7_sequence/1">
+    <sbol:displayId>sb5b00111_7_sequence</sbol:displayId>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb5b00111_7_sequence"/>
+    <sbol:elements>tgcctattaaaacaatatgaacgcggagacgtgatacacatgaattccaagttatctcacctaccttaaggtaatagtgtgattcatcatatgcgtttttggttatgtga</sbol:elements>
+    <sbol:version>1</sbol:version>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb5b00111_8_sequence/1">
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb5b00111_8_sequence"/>
+    <sbol:version>1</sbol:version>
+    <sbol:displayId>sb5b00111_8_sequence</sbol:displayId>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:elements>attaatcactagtgaattcggcttattccctaactaactaaagattaactttataaggaggaaaaacatatgagtaaaggagaagaacttttcactggagttgtcccaat</sbol:elements>
+  </sbol:Sequence>
+</rdf:RDF>

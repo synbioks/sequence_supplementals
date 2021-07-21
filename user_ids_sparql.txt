@@ -1,0 +1,27 @@
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX sbh: <http://wiki.synbiohub.org/wiki/Terms/synbiohub#>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX sbol: <http://sbols.org/v2#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX purl: <http://purl.obolibrary.org/obo/>
+PREFIX igem: <http://wiki.synbiohub.org/wiki/Terms/igem#>
+
+SELECT
+?u_list
+?u_id
+?o_id
+
+
+WHERE {
+<https://synbiohub.org/public/igem/igem_collection/1> sbol:member ?s .
+?s a sbol:ComponentDefinition .
+?s sbol:sequence/sbol:elements ?seq .
+?s igem:group_u_list ?u_list .
+?s igem:m_user_id ?u_id .
+?s igem:owner_id ?o_id .
+}
+
+Limit 10000 Offset REPLACE_HERE

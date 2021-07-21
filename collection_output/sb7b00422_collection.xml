@@ -1,0 +1,247 @@
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:sbh="https://wiki.synbiohub.org/wiki/Terms/synbiohub#" xmlns:sbol="http://sbols.org/v2#" xmlns:ns0="http://www.w3.org/ns/prov#" xmlns:ns1="http://purl.org/dc/terms/" xmlns:ns2="http://purl.org/dc/elements/1.1/" xmlns:ns3="http://purl.obolibrary.org/obo/">
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb7b00422_2_sequence/1">
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb7b00422_2_sequence"/>
+    <sbol:version>1</sbol:version>
+    <sbol:elements>aggatctccaggcatcaaataaaacgaaaggctcagtcgaaagactgggcctttcgttttatctgttgtttgtcggtgaacgctctctactagagtcacactggctcaccttcgggtgggcctttctgcgtttata</sbol:elements>
+    <sbol:displayId>sb7b00422_2_sequence</sbol:displayId>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb7b00422_5_sequence/1">
+    <sbol:elements>ttgacggctagctcagtcctaggtacagtgctagc</sbol:elements>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:version>1</sbol:version>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb7b00422_5_sequence"/>
+    <sbol:displayId>sb7b00422_5_sequence</sbol:displayId>
+  </sbol:Sequence>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb7b00422_5_comp/1">
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:displayId>sb7b00422_5_comp</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb7b00422_5_sequence/1"/>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb7b00422_5_comp"/>
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.7b00422"/>
+    <sbh:supplementalFile rdf:resource="file:///C:/Users/JVM/Downloads/sequence_supplementals/synbict_output/pdf"/>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb7b00422_2_comp/1">
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb7b00422_2_sequence/1"/>
+    <sbol:component>
+      <sbol:Component rdf:about="http://examples.org/ComponentDefinition/sb7b00422_2_comp/Bba_B0015_comp_1/1">
+        <sbol:displayId>Bba_B0015_comp_1</sbol:displayId>
+        <sbol:definition rdf:resource="https://synbioks.org/public/MoClo_Yeast_Toolkit_Dueber_Lab/Bba_B0015/1"/>
+        <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb7b00422_2_comp/Bba_B0015_comp_1"/>
+        <ns1:title>Bba_B0015</ns1:title>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:version>1</sbol:version>
+      </sbol:Component>
+    </sbol:component>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="http://examples.org/ComponentDefinition/sb7b00422_2_comp/Bba_B0015_anno_1/1">
+        <sbol:displayId>Bba_B0015_anno_1</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <ns1:title>Bba_B0015</ns1:title>
+        <sbol:location>
+          <sbol:Range rdf:about="http://examples.org/ComponentDefinition/sb7b00422_2_comp/Bba_B0015_anno_1/Bba_B0015_anno_1_loc/1">
+            <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb7b00422_2_comp/Bba_B0015_anno_1/Bba_B0015_anno_1_loc"/>
+            <sbol:version>1</sbol:version>
+            <sbol:end>136</sbol:end>
+            <sbol:displayId>Bba_B0015_anno_1_loc</sbol:displayId>
+            <sbol:start>8</sbol:start>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb7b00422_2_comp/Bba_B0015_anno_1"/>
+        <sbol:component rdf:resource="http://examples.org/ComponentDefinition/sb7b00422_2_comp/Bba_B0015_comp_1/1"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb7b00422_2_comp"/>
+    <sbol:component>
+      <sbol:Component rdf:about="http://examples.org/ComponentDefinition/sb7b00422_2_comp/B0015_comp_1/1">
+        <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb7b00422_2_comp/B0015_comp_1"/>
+        <sbol:version>1</sbol:version>
+        <sbol:displayId>B0015_comp_1</sbol:displayId>
+        <ns1:title>B0015</ns1:title>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:definition rdf:resource="https://synbioks.org/public/CIDAR_MoClo_Toolkit_Densmore_Lab/B0015/1"/>
+      </sbol:Component>
+    </sbol:component>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.7b00422"/>
+    <sbh:supplementalFile rdf:resource="file:///C:/Users/JVM/Downloads/sequence_supplementals/synbict_output/pdf"/>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="http://examples.org/ComponentDefinition/sb7b00422_2_comp/B0015_anno_1/1">
+        <ns1:title>B0015</ns1:title>
+        <sbol:version>1</sbol:version>
+        <ns1:description>Double terminator, rrnBT1-T7TE</ns1:description>
+        <sbol:displayId>B0015_anno_1</sbol:displayId>
+        <sbol:component rdf:resource="http://examples.org/ComponentDefinition/sb7b00422_2_comp/B0015_comp_1/1"/>
+        <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb7b00422_2_comp/B0015_anno_1"/>
+        <sbol:location>
+          <sbol:Range rdf:about="http://examples.org/ComponentDefinition/sb7b00422_2_comp/B0015_anno_1/B0015_anno_1_loc/1">
+            <sbol:end>136</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:displayId>B0015_anno_1_loc</sbol:displayId>
+            <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb7b00422_2_comp/B0015_anno_1/B0015_anno_1_loc"/>
+            <sbol:start>8</sbol:start>
+            <sbol:version>1</sbol:version>
+          </sbol:Range>
+        </sbol:location>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:displayId>sb7b00422_2_comp</sbol:displayId>
+    <sbol:version>1</sbol:version>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb7b00422_6_comp/1">
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb7b00422_6_sequence/1"/>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbol:displayId>sb7b00422_6_comp</sbol:displayId>
+    <sbh:supplementalFile rdf:resource="file:///C:/Users/JVM/Downloads/sequence_supplementals/synbict_output/pdf"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb7b00422_6_comp"/>
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.7b00422"/>
+    <sbol:version>1</sbol:version>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb7b00422_3_comp/1">
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.7b00422"/>
+    <sbh:supplementalFile rdf:resource="file:///C:/Users/JVM/Downloads/sequence_supplementals/synbict_output/pdf"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:version>1</sbol:version>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb7b00422_3_comp"/>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb7b00422_3_sequence/1"/>
+    <sbol:displayId>sb7b00422_3_comp</sbol:displayId>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb7b00422_4_comp/1">
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb7b00422_4_comp"/>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbh:supplementalFile rdf:resource="file:///C:/Users/JVM/Downloads/sequence_supplementals/synbict_output/pdf"/>
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.7b00422"/>
+    <sbol:displayId>sb7b00422_4_comp</sbol:displayId>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb7b00422_4_sequence/1"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:version>1</sbol:version>
+  </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb7b00422_4_sequence/1">
+    <sbol:displayId>sb7b00422_4_sequence</sbol:displayId>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb7b00422_4_sequence"/>
+    <sbol:elements>atggcgagtagcgaagacgttatcaaagagttcatgcgtttcaaagttcgtatggaaggttccgttaacggtcacgagttcgaaatcgaaggtgaaggtgaaggtcgtccgtacgaaggtacccagaccgctaaactgaaagttaccaaaggtggtccgctgccgttcgcttgggacatcctgtccccgcagttccagtacggttccaaagcttacgttaaacacccggctgacatcccggactacctgaaactgtccttcccggaaggtttcaaatgggaacgtgttatgaacttcgaagacggtggtgttgttaccgttacccaggactcctccctgcaagacggtgagttcatctacaaagttaaactgcgtggtaccaacttcccgtccgacggtccggttatgcagaaaaaaaccatgggttgggaagcttccaccgaacgtatgtacccggaagacggtgctctgaaaggtgaaatcaaaatgcgtctgaaactgaaagacggtggtcactacgacgctgaagttaaaaccacctacatggctaaaaaaccggttcagctgccgggtgcttacaaaaccgacatcaaactggacatcacctcccacaacgaagactacaccatcgttgaacagtacgaacgtgctgaaggtcgtcactccaccggtgcttaa</sbol:elements>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:version>1</sbol:version>
+  </sbol:Sequence>
+  <sbol:Collection rdf:about="http://examples.org/sb7b00422/1">
+    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb7b00422_4_comp/1"/>
+    <ns1:references>Agapakis, C. M., Boyle, P. M., Silver, P. A. Natural strategies for the spatial optimization of metabolism in synthetic biology Nat. Chem. Biol. 2012. 8:527-535.</ns1:references>
+    <ns1:references>Levskaya, A., Chevalier, A. A., Tabor, J. J., Simpson, Z. B., Lavery, L. A., Levy, M., Davidson, E. A., Scouras, A., Ellington, A. D., Marcotte, E. M., Voigt, C. A. Synthetic biology: Engineering Escherichia coli to see light Nature 2005. 438:441-442.</ns1:references>
+    <ns2:creator>Jing Wui Yeoh</ns2:creator>
+    <ns1:references>Pardee, K., Green, A., Ferrante, T., Cameron, D. E., DaleyKeyser, A., Yin, P., Collins, J. Paper-Based Synthetic Gene Networks Cell 2014. 159:940-954.</ns1:references>
+    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb7b00422_5_comp/1"/>
+    <ns1:type rdf:resource="http://purl.org/dc/dcmitype/Text"/>
+    <ns1:title>Cell-Free Optogenetic Gene Expression System</ns1:title>
+    <ns1:references>Zieske, K., Schwille, P. Reconstitution of self-organizing protein gradients as spatial cues in cell-free systems eLife 2014. 3.</ns1:references>
+    <ns0:wasDerivedFrom rdf:resource="https://pubs.acs.org/doi/10.1021/acssynbio.7b00422"/>
+    <ns1:references>Han, T., Chen, Q., Liu, H. Engineered Photoactivatable Genetic Switches Based on the Bacterium Phage T7 RNA Polymerase ACS Synth. Biol. 2017. 6:357-366.</ns1:references>
+    <ns1:references>Brockman, I. M., Prather, K. L. J. Dynamic metabolic engineering: New strategies for developing responsive cell factories Biotechnol. J. 2015. 10:1360-1369.</ns1:references>
+    <ns1:references>Lu, Y. Cell-free synthetic biology: Engineering in an open world Synthetic and Systems Biotechnology 2017. 2:23-27.</ns1:references>
+    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb7b00422_1_comp/1"/>
+    <ns1:references>Karzbrun, E., Tayar, A. M., Noireaux, V., Bar-Ziv, R. H. Programmable on-chip DNA compartments as artificial cells Science 2014. 345.</ns1:references>
+    <ns1:references>Moore, S. J., MacDonald, J. T., Freemont, P. S. Cell-free synthetic biology for in vitro prototype engineering Biochem. Soc. Trans. 2017. 45:785-791.</ns1:references>
+    <ns1:references>Lee, T. S., Krupa, R. A., Zhang, F., Hajimorad, M., Holtz, W. J., Prasad, N., Lee, S. K., Keasling, J. D. BglBrick vectors and datasheets: A synthetic biology platform for gene expression J. Biol. Eng. 2011. 5.</ns1:references>
+    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb7b00422_6_comp/1"/>
+    <ns1:dateSubmitted>2017-11-22</ns1:dateSubmitted>
+    <ns2:subject>spatiotemporal control</ns2:subject>
+    <ns2:subject>EL222</ns2:subject>
+    <ns1:references>Guzman, L. M., Belin, D., Carson, M. J., Beckwith, J. Tight regulation, modulation, and high-level expression by vectors containing the arabinose PBAD promoter J. Bacteriol. 1995. 177:4121-30.</ns1:references>
+    <ns2:publisher>American Chemical
+Society</ns2:publisher>
+    <ns1:references>Kamiya, Y., Takagi, T., Ooi, H., Ito, H., Liang, X., Asanuma, H. Synthetic Gene Involving Azobenzene-Tethered T7 Promoter for the Photocontrol of Gene Expression by Visible Light ACS Synth. Biol. 2015. 4:365-370.</ns1:references>
+    <ns1:references>Chappell, J., Jensen, K., Freemont, P. S. Validation of an entirely in vitro approach for rapid prototyping of DNA regulatory elements for synthetic biology Nucleic Acids Res. 2013. 41:3471-3481.</ns1:references>
+    <sbol:member rdf:resource="http://examples.org/Sequence/sb7b00422_6_sequence/1"/>
+    <ns2:creator>Chueh Loo Poh</ns2:creator>
+    <ns1:references>Rivera-Cancel, G., Motta-Mena, L. B., Gardner, K. H. Identification of natural and artificial DNA substrates for the light-activated LOV-HTH transcription factor EL222 Biochemistry 2012. 51:10024-10034.</ns1:references>
+    <ns1:isPartOf rdf:resource="http://pubs.acs.org/journal/asbcd6"/>
+    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb7b00422_3_comp/1"/>
+    <ns1:description>Optogenetic tools provide a new and efficient way to dynamically program gene expression with unmatched spatiotemporal precision. To date, their vast potential remains untapped in the field of cell-free synthetic biology, largely due to the lack of simple and efficient light-switchable systems. Here, to bridge the gap between cell-free systems and optogenetics, we studied our previously engineered one component-based blue light-inducible Escherichia coli promoter in a cell-free environment through experimental characterization and mathematical modeling. We achieved &gt;10-fold dynamic expression and demonstrated rapid and reversible activation of the target gene to generate oscillatory response. The deterministic model developed was able to recapitulate the system behavior and helped to provide quantitative insights to optimize dynamic response. This in vitro optogenetic approach could be a powerful new high-throughput screening technology for rapid prototyping of complex biological networks in both space and time without the need for chemical induction.</ns1:description>
+    <ns1:references>Karig, D. K., Iyer, S., Simpson, M. L., Doktycz, M. J. Expression optimization and synthetic gene networks in cell-free systems Nucleic Acids Res. 2012. 40:3763-3774.</ns1:references>
+    <ns1:references>Dudley, Q. M., Anderson, K. C., Jewett, M. C. Cell-Free Mixing of Escherichia coli Crude Extracts to Prototype and Rationally Engineer High-Titer Mevalonate Synthesis ACS Synth. Biol. 2016. 5:1578-1588.</ns1:references>
+    <ns2:type>rapid-communication</ns2:type>
+    <ns3:OBI_0002110 rdf:resource="https://doi.org/10.1021/acssynbio.7b00422"/>
+    <ns1:references>Wen, K. Y., Cameron, L., Chappell, J., Jensen, K., Bell, D. J., Kelwick, R., Kopniczky, M., Davies, J. C., Filloux, A., Freemont, P. S. A Cell-Free Biosensor for Detecting Quorum Sensing Molecules in P. aeruginosa-Infected Respiratory Samples ACS Synth. Biol. 2017. 6.</ns1:references>
+    <ns1:references>Pardee, K., Green, A., Takahashi, K., Braff, D., Lambert, G., Lee, W., Ferrante, T., Ma, D., Donghia, N., Fan, M., Daringer, M., Bosch, I., Dudley, M., O&#8217;Connor, H., Gehrke, L., Collins, J. Rapid, Low-Cost Detection of Zika Virus Using Programmable Biomolecular Components Cell 2016. 165:1255-1266.</ns1:references>
+    <sbol:member rdf:resource="http://examples.org/Sequence/sb7b00422_1_sequence/1"/>
+    <ns1:references>Bujara, M., Schu&#776;mperli, M., Billerbeck, S., Heinemann, M., Panke, S. Exploiting cell-free systems: Implementation and debugging of a system of biotransformations Biotechnol. Bioeng. 2010. 106:376-389.</ns1:references>
+    <ns1:references>Niederholtmeyer, H., Sun, Z. Z., Hori, Y., Yeung, E., Verpoorte, A., Murray, R. M., Maerkl, S. J. Rapid cell-free forward engineering of novel genetic ring oscillators eLife 2015. 4.</ns1:references>
+    <ns3:OBI_0001617>29596741</ns3:OBI_0001617>
+    <sbol:member rdf:resource="http://examples.org/Sequence/sb7b00422_2_sequence/1"/>
+    <ns1:references>Zaslaver, A., Mayo, A. E., Rosenberg, R., Bashkin, P., Sberro, H., Tsalyuk, M., Surette, M. G., Alon, U. Just-in-time transcription program in metabolic pathways Nat. Genet. 2004. 36.</ns1:references>
+    <ns1:abstract>Optogenetic tools provide a new and efficient way to dynamically program gene expression with unmatched spatiotemporal precision. To date, their vast potential remains untapped in the field of cell-free synthetic biology, largely due to the lack of simple and efficient light-switchable systems. Here, to bridge the gap between cell-free systems and optogenetics, we studied our previously engineered one component-based blue light-inducible Escherichia coli promoter in a cell-free environment through experimental characterization and mathematical modeling. We achieved &gt;10-fold dynamic expression and demonstrated rapid and reversible activation of the target gene to generate oscillatory response. The deterministic model developed was able to recapitulate the system behavior and helped to provide quantitative insights to optimize dynamic response. This in vitro optogenetic approach could be a powerful new high-throughput screening technology for rapid prototyping of complex biological networks in both space and time without the need for chemical induction.</ns1:abstract>
+    <ns2:creator>Ai Ying Teh</ns2:creator>
+    <ns1:references>Yosef, N., Regev, A. Impulse control: Temporal dynamics in gene transcription Cell 2011. 144:886-896.</ns1:references>
+    <ns1:references>Schmidt-Dannert, C., Lopez-Gallego, F. A roadmap for biocatalysis &#8211; functional and spatial orchestration of enzyme cascades Microb. Biotechnol. 2016. 9:601-609.</ns1:references>
+    <sbol:version>1</sbol:version>
+    <ns2:creator>Premkumar Jayaraman</ns2:creator>
+    <ns1:references>Hodgman, C. E., Jewett, M. C. Cell-Free Synthetic Biology: Thinking Outside the Cell Metab. Eng. 2012. 14:261-269.</ns1:references>
+    <ns1:references>Ohlendorf, R., Vidavski, R. R., Eldar, A., Moffat, K., Mo&#776;glich, A. From Dusk till Dawn: One-Plasmid Systems for Light-Regulated Gene Expression J. Mol. Biol. 2012. 416:534-542.</ns1:references>
+    <ns1:references>Hu, C. Y., Varner, J. D., Lucks, J. B. Generating Effective Models and Parameters for RNA Genetic Circuits ACS Synth. Biol. 2015. 4:914-926.</ns1:references>
+    <ns1:references>You, C., Zhang, Y. H. P. Annexation of a High-Activity Enzyme in a Synthetic Three-Enzyme Complex Greatly Decreases the Degree of Substrate Channeling ACS Synth. Biol. 2014. 3:380-386.</ns1:references>
+    <ns2:creator>Jingyun Zhang</ns2:creator>
+    <sbol:member rdf:resource="http://examples.org/Sequence/sb7b00422_3_sequence/1"/>
+    <ns1:references>Dudley, Q. M., Karim, A. S., Jewett, M. C. Cell-free metabolic engineering: Biomanufacturing beyond the cell Biotechnol. J. 2015. 10:69-82.</ns1:references>
+    <ns1:references>Shin, J., Noireaux, V. Study of messenger RNA inactivation and protein degradation in an Escherichia coli cell-free expression system J. Biol. Eng. 2010. 4.</ns1:references>
+    <ns2:creator>Sudhaghar Jayaraman</ns2:creator>
+    <ns1:references>Quin, M. B., Wallin, K. K., Zhang, G., Schmidt-Dannert, C. Spatial organization of multi-enzyme biocatalytic cascades Org. Biomol. Chem. 2017. 15:4260-4271.</ns1:references>
+    <ns1:references>Lubbe, A. S., Szymanski, W., Feringa, B. L. Recent developments in reversible photoregulation of oligonucleotide structure and function Chem. Soc. Rev. 2017. 46:1052-1079.</ns1:references>
+    <ns1:references>Gibson, D. G., Young, L., Chuang, R.-Y., Venter, J. C., Hutchison, C. A., Smith, H. O. Enzymatic assembly of DNA molecules up to several hundred kilobases Nat. Methods 2009. 6:343-345.</ns1:references>
+    <ns2:subject>optogenetics</ns2:subject>
+    <ns1:created>2018-03-29</ns1:created>
+    <ns1:dateAccepted>2018-03-29</ns1:dateAccepted>
+    <ns1:references>Jayaraman, P., Devarajan, K., Chua, T. K., Zhang, H., Gunawan, E., Poh, C. L. Blue light-mediated transcriptional activation and repression of gene expression in bacteria Nucleic Acids Res. 2016. 44:6994-7005.</ns1:references>
+    <ns1:references>Spruijt, E., Sokolova, E., Huck, W. T. S. Complexity of molecular crowding in cell-free enzymatic reaction networks Nat. Nanotechnol. 2014. 9:406-407.</ns1:references>
+    <ns1:isPartOf>ACS Synthetic Biology</ns1:isPartOf>
+    <ns1:references>Pardee, K., Slomovic, S., Nguyen, P. Q., Lee, J. W., Donghia, N., Burrill, D., Ferrante, T., McSorley, F. R., Furuta, Y., Vernet, A., Lewandowski, M., Boddy, C. N., Joshi, N. S., Collins, J. J. Portable, On-Demand Biomolecular Manufacturing Cell 2016. 167:248-259e12.</ns1:references>
+    <ns1:references>Niederholtmeyer, H., Stepanova, V., Maerkl, S. J. Implementation of cell-free biological networks at steady state Proc. Natl. Acad. Sci. U. S. A. 2013. 110:15985-15990.</ns1:references>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/sb7b00422"/>
+    <ns2:subject>cell-free
+synthetic biology</ns2:subject>
+    <sbol:member rdf:resource="http://examples.org/Sequence/sb7b00422_5_sequence/1"/>
+    <ns1:references>Sun, Z. Z., Yeung, E., Hayes, C. A., Noireaux, V., Murray, R. M. Linear DNA for Rapid Prototyping of Synthetic Biological Circuits in an Escherichia coli Based TX-TL Cell-Free System ACS Synth. Biol. 2014. 3:387-397.</ns1:references>
+    <sbol:displayId>sb7b00422</sbol:displayId>
+    <ns1:dateCopyrighted>2018</ns1:dateCopyrighted>
+    <ns1:references>Sambrook, J , and Russell, D. W. (2001) Molecular cloning: a laboratory manual, Vol. 1, Cold Spring Harbor Laboratory.</ns1:references>
+    <ns1:rightsHolder>American Chemical Society</ns1:rightsHolder>
+    <sbol:member rdf:resource="http://examples.org/Sequence/sb7b00422_4_sequence/1"/>
+    <ns1:references>Mendelsohn, A. R. An enlightened genetic switch Nat. Biotechnol. 2002. 20:985-987.</ns1:references>
+    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb7b00422_2_comp/1"/>
+  </sbol:Collection>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb7b00422_1_sequence/1">
+    <sbol:elements>ggtagcctttagtccatgttagcgaagaaaatggtttgttatagtcgaataaa</sbol:elements>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:version>1</sbol:version>
+    <sbol:displayId>sb7b00422_1_sequence</sbol:displayId>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb7b00422_1_sequence"/>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb7b00422_3_sequence/1">
+    <sbol:version>1</sbol:version>
+    <sbol:elements>atgttggatatgggacaagatcggccgatcgatggaagtggggcacccggggcagacgacacacgcgttgaggtgcaaccgccggcgcagtgggtcctcgacctgatcgaggccagcccgatcgcatcggtcgtgtccgatccgcgtctcgccgacaatccgctgatcgccatcaaccaggccttcaccgacctgaccggctattccgaagaagaatgcgtcggccgcaattgccgattcctggcaggttccggcaccgagccgtggctgaccgacaagatccgccaaggcgtgcgcgagcacaagccggtgctggtcgagatcctgaactacaagaaggacggcacgccgttccgcaatgccgtgctcgttgcaccgatctacgatgacgacgacgagcttctctatttcctcggcagccaggtcgaagtcgacgacgaccagcccaacatgggcatggcgcgccgcgaacgcgccgcggaaatgctcaagacgctgtcgccgcgccagctcgaggttacgacgctggtggcatcgggcttgcgcaacaaggaagtggcggcccggctcggcctgtcggagaaaaccgtcaagatgcaccgcgggctggtgatggaaaagctcaacctgaagaccagcgccgatctggtgcgcattgccgtcgaagccggaatctaa</sbol:elements>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb7b00422_3_sequence"/>
+    <sbol:displayId>sb7b00422_3_sequence</sbol:displayId>
+  </sbol:Sequence>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb7b00422_1_comp/1">
+    <sbol:displayId>sb7b00422_1_comp</sbol:displayId>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb7b00422_1_sequence/1"/>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.7b00422"/>
+    <sbh:supplementalFile rdf:resource="file:///C:/Users/JVM/Downloads/sequence_supplementals/synbict_output/pdf"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:version>1</sbol:version>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb7b00422_1_comp"/>
+  </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb7b00422_6_sequence/1">
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:elements>aaagaggagaaa</sbol:elements>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb7b00422_6_sequence"/>
+    <sbol:version>1</sbol:version>
+    <sbol:displayId>sb7b00422_6_sequence</sbol:displayId>
+  </sbol:Sequence>
+</rdf:RDF>

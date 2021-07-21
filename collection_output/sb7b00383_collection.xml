@@ -1,0 +1,390 @@
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:sbh="https://wiki.synbiohub.org/wiki/Terms/synbiohub#" xmlns:sbol="http://sbols.org/v2#" xmlns:ns0="http://www.w3.org/ns/prov#" xmlns:ns1="http://purl.org/dc/terms/" xmlns:ns2="http://purl.org/dc/elements/1.1/" xmlns:ns3="http://purl.obolibrary.org/obo/">
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb7b00383_3_sequence/1">
+    <sbol:displayId>sb7b00383_3_sequence</sbol:displayId>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:version>1</sbol:version>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb7b00383_3_sequence"/>
+    <sbol:elements>aaaccatggaacatatgagcaaaggagaag</sbol:elements>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb7b00383_4_sequence/1">
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb7b00383_4_sequence"/>
+    <sbol:elements>aacttaatgggcccgctaacag</sbol:elements>
+    <sbol:displayId>sb7b00383_4_sequence</sbol:displayId>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:version>1</sbol:version>
+  </sbol:Sequence>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb7b00383_3_comp/1">
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.7b00383"/>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb7b00383_3_sequence/1"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb7b00383_3_comp"/>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbol:version>1</sbol:version>
+    <sbol:displayId>sb7b00383_3_comp</sbol:displayId>
+    <sbh:supplementalFile rdf:resource="file:///C:/Users/JVM/Downloads/sequence_supplementals/synbict_output/pdf"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+  </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb7b00383_2_sequence/1">
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb7b00383_2_sequence"/>
+    <sbol:elements>ccggatatagttcc</sbol:elements>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:displayId>sb7b00383_2_sequence</sbol:displayId>
+    <sbol:version>1</sbol:version>
+  </sbol:Sequence>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb7b00383_1_comp/1">
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.7b00383"/>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb7b00383_1_sequence/1"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb7b00383_1_comp"/>
+    <sbh:supplementalFile rdf:resource="file:///C:/Users/JVM/Downloads/sequence_supplementals/synbict_output/pdf"/>
+    <sbol:version>1</sbol:version>
+    <sbol:displayId>sb7b00383_1_comp</sbol:displayId>
+  </sbol:ComponentDefinition>
+  <sbol:Collection rdf:about="http://examples.org/sb7b00383/1">
+    <ns1:references>Catherine, C., Lee, S. W., Ju, J. W., Kim, H. C., Shin, H. I., Kim, Y. J. Cell-Free Expression and In Situ Immobilization of Parasite Proteins from Clonorchis sinensis for Rapid Identification of Antigenic Candidates PLoS One 2015. 10.</ns1:references>
+    <ns2:subject>peptide</ns2:subject>
+    <ns1:references>Timm, A. C., Shankles, P. G., Foster, C. M., Doktycz, M. J., Retterer, S. T. Toward Microfluidic Reactors for Cell-Free Protein Synthesis at the Point-of-Care Small 2016. 12:810-817.</ns1:references>
+    <ns2:subject>amino acid</ns2:subject>
+    <ns3:OBI_0002110 rdf:resource="https://doi.org/10.1021/acssynbio.7b00383"/>
+    <ns2:subject>cultured</ns2:subject>
+    <ns1:created>2018-02-23</ns1:created>
+    <ns2:subject>epoxide groups</ns2:subject>
+    <ns1:references>Lee, K. H., Kwon, Y. C., Yoo, S. J., Kim, D. M. Ribosomal synthesis and in situ isolation of peptide molecules in a cell-free translation system Protein Expression Purif. 2010. 71:16-20.</ns1:references>
+    <ns1:references>Nagamune, T. Biomolecular engineering for nanobio/bionanotechnology Nano Convergence 2017. 4.</ns1:references>
+    <ns1:references>Albayrak, C., Swartz, J. R. Cell-free co-production of an orthogonal transfer RNA activates efficient site-specific non-natural amino acid incorporation Nucleic Acids Res. 2013. 41:5949-5963.</ns1:references>
+    <ns1:references>Park, Y. J., Lee, K. H., Kim, D. M. Assessing translational efficiency by a reporter protein co-expressed in a cell-free synthesis system Anal. Biochem. 2017. 518:139-142.</ns1:references>
+    <ns1:references>Rosenblum, G., Cooperman, B. S. Engine out of the chassis: Cell-free protein synthesis and its uses FEBS Lett. 2014. 588:261-268.</ns1:references>
+    <ns1:references>Mateo, C., Grazu, V., Palomo, J. M., Lopez-Gallego, F., Fernandez-Lafuente, R., Guisan, J. M. Immobilization of enzymes on heterofunctional epoxy supports Nat. Protoc. 2007. 2:1022-1033.</ns1:references>
+    <ns2:subject>methionine</ns2:subject>
+    <ns1:references>Smith, M. T., Wu, J. C., Varner, C. T., Bundy, B. C. Enhanced protein stability through minimally invasive, direct, covalent, and site-specific immobilization Biotechnol. Prog. 2013. 29:247-254.</ns1:references>
+    <ns2:subject>cyanogen bromide-</ns2:subject>
+    <ns2:subject>Amino Acids</ns2:subject>
+    <ns2:subject>ProA</ns2:subject>
+    <ns2:subject>rhodamine and alkaline phosphatase</ns2:subject>
+    <ns2:subject>His-ADH Bs</ns2:subject>
+    <ns1:references>Li, J., Lawton, T. J., Kostecki, J. S., Nisthal, A., Fang, J., Mayo, S. L. Cell-free protein synthesis enables high yielding synthesis of an active multicopper oxidase Biotechnol. J. 2016. 11:212-218.</ns1:references>
+    <ns2:subject>iron oxide</ns2:subject>
+    <ns2:subject>chelates</ns2:subject>
+    <ns2:subject>synthetic biology</ns2:subject>
+    <ns1:references>Wang, C., Ye, Y., Hu, Q., Bellotti, A., Gu, Z. Tailoring Biomaterials for Cancer Immunotherapy: Emerging Trends and Future Outlook Adv. Mater. 2017. 29.</ns1:references>
+    <ns1:references>Hall
+Sedlak, R., Hnilova, M., Grosh, C., Fong, H., Baneyx, F., Schwartz, D. Engineered Escherichia coli Silver-Binding Periplasmic Protein That Promotes Silver Tolerance Appl. Environ. Microbiol. 2012. 78:2289-2296.</ns1:references>
+    <ns2:subject>nickel chelates</ns2:subject>
+    <ns1:references>Yunker, P. J., Asahara, H., Hung, K. C., Landry, C., Arriaga, L. R., Akartuna, I. One-pot system for synthesis, assembly, and display of functional single-span membrane proteins on oil&#8211;water interfaces Proc. Natl. Acad. Sci. U. S. A. 2016. 113:608-613.</ns1:references>
+    <ns1:dateSubmitted>2017-10-25</ns1:dateSubmitted>
+    <ns1:references>Wiesbauer, J., Bolivar, J. M., Mueller, M., Schiller, M., Nidetzky, B. Oriented Immobilization of Enzymes Made Fit for Applied Biocatalysis: Non-Covalent Attachment to Anionic Supports using Zbasic2Module ChemCatChem 2011. 3:1299-303.</ns1:references>
+    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb7b00383_1_comp/1"/>
+    <ns2:subject>CFPS-i</ns2:subject>
+    <sbol:member rdf:resource="http://examples.org/Sequence/sb7b00383_9_sequence/1"/>
+    <ns1:references>He, M., Stoevesandt, O., Taussig, M. J. In situ synthesis of protein arrays Curr. Opin. Biotechnol. 2008. 19:4-9.</ns1:references>
+    <ns1:references>Lo&#769;pez-Gallego, F., Acebro&#769;n, I., Manchen&#771;o, J. M., Raja, S., Lillo, M. P., Guisa&#769;n
+Seijas, J. M. Directed, Strong, and Reversible Immobilization of Proteins Tagged with a &#946;-Trefoil Lectin Domain: A Simple Method To Immobilize Biomolecules on Plain Agarose Matrixes Bioconjugate Chem. 2012. 23:565-573.</ns1:references>
+    <ns2:subject>alkyne-containing amino acids</ns2:subject>
+    <ns1:references>Bodelo&#769;n, G., Mourdikoudis, S., Yate, L., Pastoriza-Santos, I., Pe&#769;rez-Juste, J., Liz-Marza&#769;n, L.
+M. Nickel Nanoparticle-Doped Paper as a Bioactive Scaffold for Targeted and Robust Immobilization of Functional Proteins ACS Nano 2014. 8:6221-6231.</ns1:references>
+    <ns2:subject>dibenzocyclooctyne-amine</ns2:subject>
+    <ns2:subject>cobalt chelate</ns2:subject>
+    <ns2:subject>peptides</ns2:subject>
+    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb7b00383_7_comp/1"/>
+    <ns2:subject>4-nitrophenyl phosphate disodium salt hexahydrate</ns2:subject>
+    <ns1:references>Karig, D. K., Bessling, S., Thielen, P., Zhang, S., Wolfe, J. Preservation of protein expression systems at elevated temperatures for portable therapeutic production J. R. Soc., Interface 2017. 14.</ns1:references>
+    <ns2:subject>NcoI</ns2:subject>
+    <ns2:subject>l-lysine</ns2:subject>
+    <ns1:references>Denman, A. M. Molecular Cloning: A Laboratory Manual Immunology 1983. 49.</ns1:references>
+    <ns1:references>Yang, M., Choi, B. G., Park, T. J., Heo, N. S., Hong, W. H., Lee, S. Y. Site-specific immobilization of gold binding polypeptide on gold nanoparticle-coated graphene sheet for biosensor application Nanoscale 2011. 3:2950-2956.</ns1:references>
+    <ns2:subject>His-ADH</ns2:subject>
+    <sbol:member rdf:resource="http://examples.org/Sequence/sb7b00383_6_sequence/1"/>
+    <ns2:subject>nickel oxide</ns2:subject>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/sb7b00383"/>
+    <ns1:references>Bolivar, J. M., Hidalgo, A., Sa&#769;nchez-Ruiloba, L., Berenguer, J., Guisa&#769;n, J. M., Lo&#769;pez-Gallego, F. Modulation of the distribution of small proteins within porous matrixes by smart-control of the immobilization rate J. Biotechnol. 2011. 155:412-420.</ns1:references>
+    <ns2:subject>ADH</ns2:subject>
+    <ns2:subject>cyanogen bromide</ns2:subject>
+    <ns1:references>Tuckey, C., Asahara, H., Zhou, Y., Chong, S. Protein Synthesis Using A Reconstituted Cell-Free System Curr. Protoc. Mol. Biol. 2014. 108:16.31.1-16.31.22.</ns1:references>
+    <sbol:member rdf:resource="http://examples.org/Sequence/sb7b00383_8_sequence/1"/>
+    <ns2:subject>azide groups</ns2:subject>
+    <ns2:subject>coordination</ns2:subject>
+    <ns2:subject>green fluorescent protein</ns2:subject>
+    <ns2:subject>Rhodamine B isothiocyanate</ns2:subject>
+    <sbol:member rdf:resource="http://examples.org/Sequence/sb7b00383_5_sequence/1"/>
+    <ns2:subject>cobalt-activated agarose</ns2:subject>
+    <ns1:title>Expanding One-Pot Cell-Free Protein Synthesis and Immobilization for On-Demand Manufacturing of Biomaterials</ns1:title>
+    <ns1:references>Adamo, A., Beingessner, R. L., Behnam, M., Chen, J., Jamison, T. F., Jensen, K. F. On-demand continuous-flow production of pharmaceuticals in a compact, reconfigurable system Science 2016. 352.</ns1:references>
+    <ns2:subject>EDTA</ns2:subject>
+    <ns1:references>Lee, K. H., Lee, K. Y., Byun, J. Y., Kim, B. G., Kim, D. M. On-bead expression of recombinant proteins in an agarose gel matrix coated on a glass slide Lab Chip 2012. 12:1605-1610.</ns1:references>
+    <ns2:subject>SiO 2</ns2:subject>
+    <ns1:references>Kwon, Y. C., Jewett, M. C. High-throughput preparation methods of crude extract for robust cell-free protein synthesis Sci. Rep. 2015. 5.</ns1:references>
+    <ns1:references>Drabkin, H. J., RajBhandary, U. L. Initiation of Protein Synthesis in Mammalian Cells with Codons Other Than AUG and Amino Acids Other Than Methionine Mol. Cell. Biol. 1998. 18:5140-5147.</ns1:references>
+    <ns2:subject>alkaline phosphatase</ns2:subject>
+    <ns1:references>Hall, D. A., Ptacek, J., Snyder, M. Protein Microarray Technology Mech. Ageing Dev. 2007. 128:161-167.</ns1:references>
+    <ns2:subject>cell-free protein synthesis</ns2:subject>
+    <ns2:subject>poly&#173;(6X)&#173;Cys</ns2:subject>
+    <ns2:subject>cetyltrimethylammonium bromide</ns2:subject>
+    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb7b00383_5_comp/1"/>
+    <ns2:subject>enzymes</ns2:subject>
+    <ns2:subject>XhoI</ns2:subject>
+    <ns1:abstract>Fabrication of protein-based biomaterials is an arduous and time-consuming procedure with multiple steps. In this work, we describe a portable toolkit that integrates both cell-free protein synthesis (CFPS) and protein immobilization in one pot just by mixing DNA, solid materials, and a CFPS system. We have constructed a modular set of plasmids that fuse the N-terminus of superfolded green fluorescent protein (sGFP) with different peptide tags (poly&#173;(6X)&#173;Cys, poly&#173;(6X)&#173;His, and poly&#173;(6X)&#173;Lys), which drive the immobilization of the protein on the tailored material (agarose beads with different functionalities, gold nanorods, and silica nanoparticles). This system also enables the incorporation of azide-based amino acids into the nascent protein for its selective immobilization through copper-free click reactions. Finally, this technology has been expanded to the synthesis and immobilization of enzymes and antibody-binding proteins for the fabrication of functional biomaterials. This synthetic biological platform has emerged as a versatile tool for on-demand fabrication of therapeutic, diagnostic, and sensing biomaterials.</ns1:abstract>
+    <ns1:references>Gagner, J. E., Kim, W., Chaikof, E. L. Designing Protein-Based Biomaterials for Medical Applications Acta Biomater. 2014. 10:1542-1557.</ns1:references>
+    <ns1:dateAccepted>2018-02-23</ns1:dateAccepted>
+    <ns2:subject>poly&#173;(</ns2:subject>
+    <ns2:subject>alcohol dehydrogenase</ns2:subject>
+    <ns2:subject>)&#173;Lys</ns2:subject>
+    <ns2:subject>nanorods</ns2:subject>
+    <ns1:references>Smith, M. T., Berkheimer, S. D., Werner, C. J., Bundy, B. C. Lyophilized Escherichia coli-based cell-free systems for robust, high-density, long-term storage BioTechniques 2014. 56:186-193.</ns1:references>
+    <ns1:references>He, M., Liu, H., Turner, M., Taussig, M. J. Detection of protein-protein interactions by ribosome display and protein in situ immobilisation New Biotechnol. 2009. 26:277-281.</ns1:references>
+    <ns2:subject>polypeptide</ns2:subject>
+    <ns1:references>Pardee, K., Slomovic, S., Nguyen, P. Q., Lee, J. W., Donghia, N., Burrill, D. Portable, On-Demand Biomolecular Manufacturing Cell 2016. 167:248-259.</ns1:references>
+    <ns2:subject>DH10&#946;</ns2:subject>
+    <ns2:subject>cobalt-activated</ns2:subject>
+    <sbol:member rdf:resource="http://examples.org/Sequence/sb7b00383_3_sequence/1"/>
+    <ns2:subject>l-histidine</ns2:subject>
+    <ns1:references>Raliski, B. K., Howard, C. A., Young, D. D. Site-Specific Protein Immobilization Using Unnatural Amino Acids Bioconjugate Chem. 2014. 25:1916-1920.</ns1:references>
+    <ns2:subject>gold-based</ns2:subject>
+    <ns1:references>Schwaminger, S. P., Blank-Shim, S. A., Scheifele, I., Fraga-Garcia, P., Berensmeier, S. Peptide binding to metal oxide nanoparticles Faraday Discuss. 2017. 204:233-250.</ns1:references>
+    <ns2:subject>agarose</ns2:subject>
+    <ns2:subject>gold</ns2:subject>
+    <ns2:subject>3 + groups</ns2:subject>
+    <ns2:subject>alkyne</ns2:subject>
+    <ns2:subject>Met</ns2:subject>
+    <ns2:subject>polypeptide-</ns2:subject>
+    <ns2:subject>GFP</ns2:subject>
+    <ns2:subject>l-azidohomoalanine</ns2:subject>
+    <ns1:description>Fabrication of protein-based biomaterials is an arduous and time-consuming procedure with multiple steps. In this work, we describe a portable toolkit that integrates both cell-free protein synthesis (CFPS) and protein immobilization in one pot just by mixing DNA, solid materials, and a CFPS system. We have constructed a modular set of plasmids that fuse the N-terminus of superfolded green fluorescent protein (sGFP) with different peptide tags (poly&#173;(6X)&#173;Cys, poly&#173;(6X)&#173;His, and poly&#173;(6X)&#173;Lys), which drive the immobilization of the protein on the tailored material (agarose beads with different functionalities, gold nanorods, and silica nanoparticles). This system also enables the incorporation of azide-based amino acids into the nascent protein for its selective immobilization through copper-free click reactions. Finally, this technology has been expanded to the synthesis and immobilization of enzymes and antibody-binding proteins for the fabrication of functional biomaterials. This synthetic biological platform has emerged as a versatile tool for on-demand fabrication of therapeutic, diagnostic, and sensing biomaterials.</ns1:description>
+    <sbol:member rdf:resource="http://examples.org/Sequence/sb7b00383_7_sequence/1"/>
+    <ns2:subject>Gold</ns2:subject>
+    <ns1:references>Singh, M. I., Jain, V. Tagging the Expressed Protein with 6 Histidines: Rapid Cloning of an Amplicon with Three Options PLoS One 2013. 8.</ns1:references>
+    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb7b00383_3_comp/1"/>
+    <ns2:subject>site-selective
+protein
+immobilization</ns2:subject>
+    <ns1:references>Karim, A. S., Jewett, M. C. A cell-free framework for rapid biosynthetic pathway prototyping and enzyme discovery Metab. Eng. 2016. 36:116-126.</ns1:references>
+    <ns2:subject>azide-based amino acids</ns2:subject>
+    <sbol:displayId>sb7b00383</sbol:displayId>
+    <ns1:references>Wei, Q., Becherer, T., Angioletti-Uberti, S., Dzubiella, J., Wischke, C., Neffe, A. T. Protein Interactions with Polymer Coatings and Biomaterials Angew. Chem., Int. Ed. 2014. 53:8004-8031.</ns1:references>
+    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb7b00383_4_comp/1"/>
+    <ns2:subject>epoxide</ns2:subject>
+    <ns2:subject>disulfide</ns2:subject>
+    <ns2:subject>Oct</ns2:subject>
+    <ns2:subject>Cys</ns2:subject>
+    <ns1:references>Bundy, B. C., Swartz, J. R. Site-Specific Incorporation of p-Propargyloxyphenylalanine in a Cell-Free Environment for Direct Protein&#8211;Protein Click Conjugation Bioconjugate Chem. 2010. 21:255-263.</ns1:references>
+    <ns2:subject>proteinA</ns2:subject>
+    <ns1:references>Ferrari, M., Barreto, R., Jackson, E., Guisan, J. M., Lopez-Gallego, F., Betancor, L. Optimizing the biological activity of Fab fragments by controlling their molecular orientation and spatial distribution across porous hydrogels Process Biochem. 2015. 50:1565-1571.</ns1:references>
+    <ns2:subject>)&#173;His</ns2:subject>
+    <ns2:subject>SiO</ns2:subject>
+    <ns2:creator>Irantzu Llarena</ns2:creator>
+    <ns2:subject>IgGs</ns2:subject>
+    <sbol:member rdf:resource="http://examples.org/Sequence/sb7b00383_2_sequence/1"/>
+    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb7b00383_9_comp/1"/>
+    <ns2:subject>azide side chains</ns2:subject>
+    <ns1:references>Li, L., He, Z. Y., Wei, X. W., Wei, Y. Q. Recent advances of biomaterials in biotherapy Regen. Biomater. 2016. 3:99-105.</ns1:references>
+    <ns2:subject>sodium phosphate</ns2:subject>
+    <ns2:subject>protein A</ns2:subject>
+    <ns1:references> Patient-centered drug manufacture Nat. Biotechnol. 2017. 35.</ns1:references>
+    <ns2:subject>AMBER</ns2:subject>
+    <ns2:subject>&#949;-</ns2:subject>
+    <ns1:references>Dubacheva, G. V., Araya-Callis, C., Geert Volbeda, A., Fairhead, M., Code&#769;e, J., Howarth, M. Controlling Multivalent Binding through Surface Chemistry: Model Study on Streptavidin J. Am. Chem. Soc. 2017. 139:4157-4167.</ns1:references>
+    <ns3:OBI_0001617>29473413</ns3:OBI_0001617>
+    <ns2:subject>Bs</ns2:subject>
+    <ns2:subject>1,4-dithiothreitol</ns2:subject>
+    <sbol:member rdf:resource="http://examples.org/Sequence/sb7b00383_1_sequence/1"/>
+    <sbol:member rdf:resource="http://examples.org/Sequence/sb7b00383_4_sequence/1"/>
+    <ns1:references>Caschera, F., Noireaux, V. Synthesis of 2.3 mg/mL of protein with an all Escherichia coli cell-free transcription&#8211;translation system Biochimie 2014. 99:162-168.</ns1:references>
+    <ns2:subject>AP</ns2:subject>
+    <ns1:references>Brymora, A., Valova, V. A., Robinson, P. J. Protein-Protein Interactions Identified by Pull-Down Experiments and Mass Spectrometry Curr. Protoc. Cell Biol. 2004. 17:17.5.1-17.5.51.</ns1:references>
+    <ns2:subject>cells</ns2:subject>
+    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb7b00383_8_comp/1"/>
+    <ns2:subject>ethylenediaminetetraacetic acid</ns2:subject>
+    <ns2:subject>bursts</ns2:subject>
+    <ns2:subject>DTT</ns2:subject>
+    <ns2:subject>Agarose</ns2:subject>
+    <ns2:subject>cyclooctyne-activated agarose</ns2:subject>
+    <sbol:version>1</sbol:version>
+    <ns2:subject>cyclooctyne groups</ns2:subject>
+    <ns2:type>research-article</ns2:type>
+    <ns1:references>Hatzenpichler, R., Scheller, S., Tavormina, P. L., Babin, B. M., Tirrell, D. A., Orphan, V. J. In situ visualization of newly synthesized proteins in environmental microbes using amino acid tagging and click chemistry Environ. Microbiol. 2014. 16:2568-2590.</ns1:references>
+    <ns2:subject>immunoglobulin G</ns2:subject>
+    <ns1:rightsHolder>American Chemical Society</ns1:rightsHolder>
+    <ns1:type rdf:resource="http://purl.org/dc/dcmitype/Text"/>
+    <ns2:subject>IgG</ns2:subject>
+    <ns2:subject>His-</ns2:subject>
+    <ns2:subject>copper-free</ns2:subject>
+    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb7b00383_2_comp/1"/>
+    <ns2:subject>superfolded green fluorescent protein</ns2:subject>
+    <ns1:references>Frasconi, M., Mazzei, F., Ferri, T. Protein immobilization at gold&#8211;thiol surfaces and potential for biosensing Anal. Bioanal. Chem. 2010. 398:1545-1564.</ns1:references>
+    <ns2:subject>5,5&#8242;-dithiobis&#173;(2-nitrobenzoic acid)</ns2:subject>
+    <ns1:isPartOf>ACS Synthetic Biology</ns1:isPartOf>
+    <ns2:subject>cobalt chelates</ns2:subject>
+    <ns1:references>Bhide, M., Natarajan, S., Hresko, S., Aguilar, C., Bencurova, E. Rapid in vitro protein synthesis pipeline: a promising tool for cost-effective protein array design Mol. BioSyst. 2014. 10:1236-1245.</ns1:references>
+    <ns2:subject>point of care</ns2:subject>
+    <ns2:subject>hydrogen</ns2:subject>
+    <ns2:subject>biomaterials</ns2:subject>
+    <ns2:subject>restriction enzymes NcoI</ns2:subject>
+    <ns2:subject>thiolated</ns2:subject>
+    <ns2:subject>polyvinylidene difluoride</ns2:subject>
+    <ns2:subject>polypeptide-tagged</ns2:subject>
+    <ns2:subject>His</ns2:subject>
+    <ns2:subject>His-ProA</ns2:subject>
+    <ns1:references>Karfeld-Sulzer, L. S., Waters, E. A., Kohlmeir, E. K., Kissler, H., Zhang, X., Kaufman, D. B. Protein Polymer MRI Contrast Agents: Longitudinal Analysis of Biomaterials in Vivo Magn. Reson. Med. 2011. 65:220-228.</ns1:references>
+    <ns2:subject>Lys</ns2:subject>
+    <ns1:references>Prasad, A., Mahato, K., Maurya, P. K., Chandra, P. Biomaterials for Biosensing Applications J. Anal. Bioanal. Tech. 2016. 7.</ns1:references>
+    <ns2:creator>Ana I. Beni&#769;tez-Mateos</ns2:creator>
+    <ns2:subject>hydroxyl groups</ns2:subject>
+    <ns2:subject>l-AHA</ns2:subject>
+    <ns2:subject>NADH</ns2:subject>
+    <ns2:subject>cyclooctyne</ns2:subject>
+    <ns2:subject>tRNA</ns2:subject>
+    <ns1:references>Wu, P., Castner, D. G., Grainger, D. W. Diagnostic devices as biomaterials: a review of nucleic acid and protein microarray surface performance issues J. Biomater. Sci., Polym. Ed. 2008. 19:725-753.</ns1:references>
+    <ns2:subject>Rh</ns2:subject>
+    <ns1:references>Ramachandran, N., Raphael, J. V., Hainsworth, E., Demirkan, G., Fuentes, M. G., Rolfs, A. Next generation high density self assembling functional protein arrays Nat. Methods 2008. 5:535-538.</ns1:references>
+    <ns1:dateCopyrighted>2018</ns1:dateCopyrighted>
+    <ns2:creator>Ana Sa&#769;nchez-Iglesias</ns2:creator>
+    <ns2:subject>poly&#173;(6X</ns2:subject>
+    <ns2:subject>AHA</ns2:subject>
+    <ns2:subject>cyclooctyne groups.</ns2:subject>
+    <ns2:subject>poly&#173;(6X)&#173;His</ns2:subject>
+    <ns2:subject>methacrylate</ns2:subject>
+    <ns2:creator>Fernando Lo&#769;pez-Gallego</ns2:creator>
+    <ns2:subject>thiol&#8211;gold</ns2:subject>
+    <ns2:subject>rhodamine</ns2:subject>
+    <ns2:subject>cyclooctyne/azide</ns2:subject>
+    <ns2:subject>thiol groups</ns2:subject>
+    <ns2:subject>sGFP</ns2:subject>
+    <ns2:publisher>American Chemical
+Society</ns2:publisher>
+    <ns1:references>Tarrant, R. D. R., Velez-Suberbie, M. L., Tait, A. S., Smales, C. M., Bracewell, D. G. Host cell protein adsorption characteristics during protein a chromatography Biotechnol. Prog. 2012. 28:1037-1044.</ns1:references>
+    <ns2:subject>-sGFP</ns2:subject>
+    <ns2:subject>amino acids</ns2:subject>
+    <ns1:isPartOf rdf:resource="http://pubs.acs.org/journal/asbcd6"/>
+    <ns2:subject>cytokines receptors</ns2:subject>
+    <ns2:subject>silica</ns2:subject>
+    <ns2:subject>aminoacyl-tRNAs</ns2:subject>
+    <ns0:wasDerivedFrom rdf:resource="https://pubs.acs.org/doi/10.1021/acssynbio.7b00383"/>
+    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb7b00383_6_comp/1"/>
+    <ns1:references>He, M., Taussig, M. J. Single step generation of protein arrays from DNA by cell-free expression and in situ immobilisation (PISA method) Nucleic Acids Res. 2001. 29.</ns1:references>
+    <ns2:subject>histidines</ns2:subject>
+    <ns1:references>Schellekens, H., Aldosari, M., Talsma, H., Mastrobattista, E. Making individualized drugs a reality Nat. Biotechnol. 2017. 35:507-513.</ns1:references>
+    <ns2:subject>CFPS</ns2:subject>
+    <ns2:subject>silver</ns2:subject>
+    <ns2:subject>l-cysteine</ns2:subject>
+    <ns2:subject>lysines</ns2:subject>
+    <ns2:subject>Cys-sGFP</ns2:subject>
+    <ns1:references>Batalla, P., Boli&#769;var, J. M., Lopez-Gallego, F., Guisan, J. M. Oriented covalent immobilization of antibodies onto heterofunctional agarose supports: A highly efficient immuno-affinity chromatography platform J. Chromatogr. A 2012. 1262:56-63.</ns1:references>
+    <ns2:subject>goat</ns2:subject>
+    <ns1:references>Byun, J. Y., Lee, K. H., Lee, K. Y., Kim, M. G., Kim, D. M. In-gel expression and in situ immobilization of proteins for generation of three dimensional protein arrays in a hydrogel matrix Lab Chip 2013. 13:886-891.</ns1:references>
+    <ns2:subject>azide-</ns2:subject>
+    <ns1:references>Wu, J. C., Hutchings, C. H., Lindsay, M. J., Werner, C. J., Bundy, B. C. Enhanced enzyme stability through site-directed covalent immobilization J. Biotechnol. 2015. 193:83-90.</ns1:references>
+    <ns1:references>Burdick, B. A., Schaeffer, J. R. Co-immobilized coupled enzyme systems on nylon mesh capable of gluconic and pyruvic acid production Biotechnol. Lett. 1987. 9:253-258.</ns1:references>
+    <ns2:subject>cysteines</ns2:subject>
+  </sbol:Collection>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb7b00383_9_sequence/1">
+    <sbol:displayId>sb7b00383_9_sequence</sbol:displayId>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:version>1</sbol:version>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb7b00383_9_sequence"/>
+    <sbol:elements>acaacaacaacaacaacagctgctgcccatg</sbol:elements>
+  </sbol:Sequence>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb7b00383_9_comp/1">
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbol:version>1</sbol:version>
+    <sbh:supplementalFile rdf:resource="file:///C:/Users/JVM/Downloads/sequence_supplementals/synbict_output/pdf"/>
+    <sbol:displayId>sb7b00383_9_comp</sbol:displayId>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb7b00383_9_sequence/1"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb7b00383_9_comp"/>
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.7b00383"/>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb7b00383_4_comp/1">
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbol:version>1</sbol:version>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb7b00383_4_comp"/>
+    <sbh:supplementalFile rdf:resource="file:///C:/Users/JVM/Downloads/sequence_supplementals/synbict_output/pdf"/>
+    <sbol:displayId>sb7b00383_4_comp</sbol:displayId>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.7b00383"/>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb7b00383_4_sequence/1"/>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb7b00383_7_comp/1">
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb7b00383_7_comp"/>
+    <sbol:displayId>sb7b00383_7_comp</sbol:displayId>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb7b00383_7_sequence/1"/>
+    <sbol:version>1</sbol:version>
+    <sbh:supplementalFile rdf:resource="file:///C:/Users/JVM/Downloads/sequence_supplementals/synbict_output/pdf"/>
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.7b00383"/>
+  </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb7b00383_5_sequence/1">
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb7b00383_5_sequence"/>
+    <sbol:elements>cgtcccattcgccatcc</sbol:elements>
+    <sbol:displayId>sb7b00383_5_sequence</sbol:displayId>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:version>1</sbol:version>
+  </sbol:Sequence>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb7b00383_2_comp/1">
+    <sbol:version>1</sbol:version>
+    <sbh:supplementalFile rdf:resource="file:///C:/Users/JVM/Downloads/sequence_supplementals/synbict_output/pdf"/>
+    <sbol:displayId>sb7b00383_2_comp</sbol:displayId>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb7b00383_2_comp"/>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb7b00383_2_sequence/1"/>
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.7b00383"/>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+  </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb7b00383_1_sequence/1">
+    <sbol:version>1</sbol:version>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb7b00383_1_sequence"/>
+    <sbol:displayId>sb7b00383_1_sequence</sbol:displayId>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:elements>gcgtagaggatcgag</sbol:elements>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb7b00383_7_sequence/1">
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb7b00383_7_sequence"/>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:elements>ttttttttttttttttttgctgctgcccatg</sbol:elements>
+    <sbol:displayId>sb7b00383_7_sequence</sbol:displayId>
+    <sbol:version>1</sbol:version>
+  </sbol:Sequence>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb7b00383_6_comp/1">
+    <sbol:displayId>sb7b00383_6_comp</sbol:displayId>
+    <sbh:supplementalFile rdf:resource="file:///C:/Users/JVM/Downloads/sequence_supplementals/synbict_output/pdf"/>
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.7b00383"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbol:version>1</sbol:version>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb7b00383_6_sequence/1"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb7b00383_6_comp"/>
+  </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb7b00383_8_sequence/1">
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:version>1</sbol:version>
+    <sbol:elements>tgttgttgttgttgttgtagcagcggcctggtg</sbol:elements>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb7b00383_8_sequence"/>
+    <sbol:displayId>sb7b00383_8_sequence</sbol:displayId>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb7b00383_6_sequence/1">
+    <sbol:elements>aaaaaaaaaaaaaaaaaaagcagcggcctggtg</sbol:elements>
+    <sbol:displayId>sb7b00383_6_sequence</sbol:displayId>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:version>1</sbol:version>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb7b00383_6_sequence"/>
+  </sbol:Sequence>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb7b00383_8_comp/1">
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.7b00383"/>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbol:version>1</sbol:version>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb7b00383_8_comp"/>
+    <sbh:supplementalFile rdf:resource="file:///C:/Users/JVM/Downloads/sequence_supplementals/synbict_output/pdf"/>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb7b00383_8_sequence/1"/>
+    <sbol:displayId>sb7b00383_8_comp</sbol:displayId>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb7b00383_5_comp/1">
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.7b00383"/>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbh:supplementalFile rdf:resource="file:///C:/Users/JVM/Downloads/sequence_supplementals/synbict_output/pdf"/>
+    <sbol:version>1</sbol:version>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb7b00383_5_comp"/>
+    <sbol:displayId>sb7b00383_5_comp</sbol:displayId>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb7b00383_5_sequence/1"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+  </sbol:ComponentDefinition>
+</rdf:RDF>

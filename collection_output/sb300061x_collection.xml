@@ -1,0 +1,145 @@
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:sbh="https://wiki.synbiohub.org/wiki/Terms/synbiohub#" xmlns:sbol="http://sbols.org/v2#" xmlns:ns0="http://www.w3.org/ns/prov#" xmlns:ns1="http://purl.org/dc/terms/" xmlns:ns2="http://purl.org/dc/elements/1.1/" xmlns:ns3="http://purl.obolibrary.org/obo/">
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb300061x_3_sequence/1">
+    <sbol:displayId>sb300061x_3_sequence</sbol:displayId>
+    <sbol:elements>gaattcgcggccgcttctag</sbol:elements>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb300061x_3_sequence"/>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:version>1</sbol:version>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb300061x_5_sequence/1">
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb300061x_5_sequence"/>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:version>1</sbol:version>
+    <sbol:elements>taatgatact</sbol:elements>
+    <sbol:displayId>sb300061x_5_sequence</sbol:displayId>
+  </sbol:Sequence>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb300061x_5_comp/1">
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/sb300061x"/>
+    <sbol:displayId>sb300061x_5_comp</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb300061x_5_sequence/1"/>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbh:supplementalFile rdf:resource="file:///C:/Users/JVM/Downloads/sequence_supplementals/synbict_output/pdf"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb300061x_5_comp"/>
+  </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb300061x_2_sequence/1">
+    <sbol:version>1</sbol:version>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:displayId>sb300061x_2_sequence</sbol:displayId>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb300061x_2_sequence"/>
+    <sbol:elements>agtagcggccgctgcaggaa</sbol:elements>
+  </sbol:Sequence>
+  <sbol:Collection rdf:about="http://examples.org/sb300061x/1">
+    <ns1:created>2012-09-12</ns1:created>
+    <ns1:dateAccepted>2012-09-12</ns1:dateAccepted>
+    <sbol:member rdf:resource="http://examples.org/Sequence/sb300061x_1_sequence/1"/>
+    <sbol:member rdf:resource="http://examples.org/Sequence/sb300061x_3_sequence/1"/>
+    <ns2:creator>Ju Hye An</ns2:creator>
+    <ns2:subject>alkane biosynthesis</ns2:subject>
+    <ns1:abstract>Microbially produced alkanes are a new class of biofuels that closely match the chemical composition of petroleum-based fuels. Alkanes can be generated from the fatty acid biosynthetic pathway by the reduction of acyl-ACPs followed by decarbonylation of the resulting aldehydes. A current limitation of this pathway is the restricted product profile, which consists of n-alkanes of 13, 15, and 17 carbons in length. To expand the product profile, we incorporated a new part, FabH2 from                    Bacillus subtilis                , an enzyme known to have a broader specificity profile for fatty acid initiation than the native FabH of                    Escherichia coli                . When provided with the appropriate substrate, the addition of FabH2 resulted in an altered alkane product profile in which significant levels of n-alkanes of 14 and 16 carbons in length are produced. The production of even chain length alkanes represents initial steps toward the expansion of this recently discovered microbial alkane production pathway to synthesize complex fuels. This work was conceived and performed as part of the 2011 University of Washington international Genetically Engineered Machines (iGEM) project.</ns1:abstract>
+    <sbol:member rdf:resource="http://examples.org/Sequence/sb300061x_4_sequence/1"/>
+    <ns2:type>research-article</ns2:type>
+    <ns1:rightsHolder>American Chemical Society</ns1:rightsHolder>
+    <ns1:references>Schirmer, A., Rude, M. A., Li, X., Popova, E., del Cardayre, S. B. Microbial biosynthesis of alkanes Science 2010. 329:559-562.</ns1:references>
+    <ns2:creator>Chris Choe</ns2:creator>
+    <ns2:creator>Robert G. Egbert</ns2:creator>
+    <ns1:isPartOf>ACS Synthetic Biology</ns1:isPartOf>
+    <sbol:member rdf:resource="http://examples.org/Sequence/sb300061x_5_sequence/1"/>
+    <ns1:references>Davies, C., Heath, R. J., White, S. W., Rock, C., O. The 1.8 &#197; crystal structure and active-site architecture of &#946;-ketoacyl-acyl carrier protein synthase III (FabH) from Escherichia coli Structure 2000. 8:185-195.</ns1:references>
+    <ns1:references>Choi, K., Heath, R. J., Rock, C. O. &#946;-Ketoacyl-acyl carrier protein synthase III (FabH) is a determining factor in branched-chain fatty acid biosynthesis J. Bacteriol. 2000. 182:365-370.</ns1:references>
+    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb300061x_5_comp/1"/>
+    <ns1:description>Microbially produced alkanes are a new class of biofuels that closely match the chemical composition of petroleum-based fuels. Alkanes can be generated from the fatty acid biosynthetic pathway by the reduction of acyl-ACPs followed by decarbonylation of the resulting aldehydes. A current limitation of this pathway is the restricted product profile, which consists of n-alkanes of 13, 15, and 17 carbons in length. To expand the product profile, we incorporated a new part, FabH2 from                    Bacillus subtilis                , an enzyme known to have a broader specificity profile for fatty acid initiation than the native FabH of                    Escherichia coli                . When provided with the appropriate substrate, the addition of FabH2 resulted in an altered alkane product profile in which significant levels of n-alkanes of 14 and 16 carbons in length are produced. The production of even chain length alkanes represents initial steps toward the expansion of this recently discovered microbial alkane production pathway to synthesize complex fuels. This work was conceived and performed as part of the 2011 University of Washington international Genetically Engineered Machines (iGEM) project.</ns1:description>
+    <ns2:creator>David Zong</ns2:creator>
+    <ns2:creator>Lei Zheng</ns2:creator>
+    <sbol:version>1</sbol:version>
+    <ns3:OBI_0001617>23656326</ns3:OBI_0001617>
+    <ns1:title>Expanding the Product Profile of a Microbial Alkane Biosynthetic Pathway</ns1:title>
+    <ns2:creator>David Baker</ns2:creator>
+    <ns2:creator>Justin B. Siegel</ns2:creator>
+    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb300061x_1_comp/1"/>
+    <ns2:creator>Jeremy H. Mills</ns2:creator>
+    <ns1:references>Shetty, R. P., Endy, D., Knight, T. F. Engineering BioBrick vectors from BioBrick parts J. Biol. Eng. 2008. 2.</ns1:references>
+    <ns1:dateCopyrighted>2012</ns1:dateCopyrighted>
+    <ns2:subject>biofuels</ns2:subject>
+    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb300061x_3_comp/1"/>
+    <ns3:OBI_0002110 rdf:resource="https://doi.org/10.1021/sb300061x"/>
+    <ns0:wasDerivedFrom rdf:resource="https://pubs.acs.org/doi/10.1021/sb300061x"/>
+    <ns2:creator>Matthew Harger</ns2:creator>
+    <ns2:publisher>American Chemical
+Society</ns2:publisher>
+    <ns2:creator>Matthew D. Smith</ns2:creator>
+    <ns1:dateSubmitted>2012-07-10</ns1:dateSubmitted>
+    <ns2:rights>Copyright &amp; 2012 American Chemical Society</ns2:rights>
+    <sbol:member rdf:resource="http://examples.org/Sequence/sb300061x_2_sequence/1"/>
+    <ns2:creator>Casey Ager</ns2:creator>
+    <ns2:creator>Benjamin Mo</ns2:creator>
+    <ns1:type rdf:resource="http://purl.org/dc/dcmitype/Text"/>
+    <ns1:isPartOf rdf:resource="http://pubs.acs.org/journal/asbcd6"/>
+    <ns1:references>Armando, J. W., Boghigian, B. A., Pfeifer, B. A. LC&#8211;MS/MS quantification of short-chain acyl-CoA&#8217;s in Escherichia coli demonstrates versatile propionyl-CoA synthetase substrate specificity Lett. Appl. Microbiol. 2012. 54:140-148.</ns1:references>
+    <ns2:subject>fatty acid biosynthesis</ns2:subject>
+    <sbol:displayId>sb300061x</sbol:displayId>
+    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb300061x_4_comp/1"/>
+    <ns2:creator>Yi-Ling Lai</ns2:creator>
+    <ns2:subject>synthetic biology</ns2:subject>
+    <ns2:creator>Austin Moon</ns2:creator>
+    <ns2:creator>Ingrid Swanson Pultz</ns2:creator>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/sb300061x"/>
+    <ns1:references>Liang, F., Lu, M., Keener, T. C., Liu, Z., Khang, S. The organic composition of diesel particulate matter, diesel fuel and engine oil of a non-road diesel generator J. Environ. Monit. 2005. 7:983-988.</ns1:references>
+    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb300061x_2_comp/1"/>
+  </sbol:Collection>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb300061x_2_comp/1">
+    <sbh:supplementalFile rdf:resource="file:///C:/Users/JVM/Downloads/sequence_supplementals/synbict_output/pdf"/>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb300061x_2_sequence/1"/>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbol:version>1</sbol:version>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb300061x_2_comp"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:displayId>sb300061x_2_comp</sbol:displayId>
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/sb300061x"/>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb300061x_1_comp/1">
+    <sbh:supplementalFile rdf:resource="file:///C:/Users/JVM/Downloads/sequence_supplementals/synbict_output/pdf"/>
+    <sbol:version>1</sbol:version>
+    <sbol:displayId>sb300061x_1_comp</sbol:displayId>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb300061x_1_sequence/1"/>
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/sb300061x"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb300061x_1_comp"/>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb300061x_4_comp/1">
+    <sbol:version>1</sbol:version>
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/sb300061x"/>
+    <sbol:displayId>sb300061x_4_comp</sbol:displayId>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb300061x_4_sequence/1"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb300061x_4_comp"/>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbh:supplementalFile rdf:resource="file:///C:/Users/JVM/Downloads/sequence_supplementals/synbict_output/pdf"/>
+  </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb300061x_1_sequence/1">
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb300061x_1_sequence"/>
+    <sbol:elements>gaattcgcggccgcttctag</sbol:elements>
+    <sbol:displayId>sb300061x_1_sequence</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+  </sbol:Sequence>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb300061x_3_comp/1">
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/sb300061x"/>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb300061x_3_sequence/1"/>
+    <sbh:supplementalFile rdf:resource="file:///C:/Users/JVM/Downloads/sequence_supplementals/synbict_output/pdf"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb300061x_3_comp"/>
+    <sbol:version>1</sbol:version>
+    <sbol:displayId>sb300061x_3_comp</sbol:displayId>
+  </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb300061x_4_sequence/1">
+    <sbol:displayId>sb300061x_4_sequence</sbol:displayId>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:version>1</sbol:version>
+    <sbol:elements>taatgatactagtagcggccgctgcaggaagaaac</sbol:elements>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb300061x_4_sequence"/>
+  </sbol:Sequence>
+</rdf:RDF>

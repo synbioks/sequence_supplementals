@@ -1,0 +1,565 @@
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:sbh="https://wiki.synbiohub.org/wiki/Terms/synbiohub#" xmlns:sbol="http://sbols.org/v2#" xmlns:ns0="http://purl.org/dc/terms/" xmlns:ns1="http://www.w3.org/ns/prov#" xmlns:ns2="http://purl.org/dc/elements/1.1/" xmlns:ns3="http://purl.obolibrary.org/obo/">
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb6b00292_7_sequence/1">
+    <sbol:displayId>sb6b00292_7_sequence</sbol:displayId>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb6b00292_7_sequence"/>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:elements>ggtctcaggatatgtttaagtttaaaaagaatttcttagttggattatcggcagctttaatgagtattagcttgttttcggcaaccgcctctgcaggaagccgagac</sbol:elements>
+    <sbol:version>1</sbol:version>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb6b00292_4_sequence/1">
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:displayId>sb6b00292_4_sequence</sbol:displayId>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb6b00292_4_sequence"/>
+    <sbol:elements>ggtctcaggcagcgactccgcgacacacatcaaatttagcaagcgtgatgaggatgggaaagaattagccggcgcaacgatggaacttcgggattcgagcggaaagacgatttcgacgtggatttcagatggccaagtcaaagatttttacctgtatccgggaaaatatacatttgtcgaaacggcagcaccagatggatatgaggtcgcaacagctattacatttacggtgaatgagcaaggacaagtcacggttaatggcggaagccatcatcatcatcatcacggcagctaagttctgagacc</sbol:elements>
+    <sbol:version>1</sbol:version>
+  </sbol:Sequence>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb6b00292_9_comp/1">
+    <ns1:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbh:supplementalFile rdf:resource="file:///C:/Users/JVM/Downloads/sequence_supplementals/synbict_output/pdf"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb6b00292_9_comp"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb6b00292_9_sequence/1"/>
+    <sbol:displayId>sb6b00292_9_comp</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <ns1:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.6b00292"/>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb6b00292_5_comp/1">
+    <sbol:component>
+      <sbol:Component rdf:about="http://examples.org/ComponentDefinition/sb6b00292_5_comp/AmpR_u32_terminator_comp_1/1">
+        <sbol:displayId>AmpR_u32_terminator_comp_1</sbol:displayId>
+        <sbol:definition rdf:resource="https://synbioks.org/public/MoClo_Yeast_Toolkit_Dueber_Lab/AmpR_u32_terminator/1"/>
+        <ns0:title>AmpR terminator</ns0:title>
+        <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb6b00292_5_comp/AmpR_u32_terminator_comp_1"/>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:version>1</sbol:version>
+      </sbol:Component>
+    </sbol:component>
+    <ns1:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.6b00292"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb6b00292_5_comp"/>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="http://examples.org/ComponentDefinition/sb6b00292_5_comp/AmpR_u32_promoter_anno_1/1">
+        <ns0:title>AmpR promoter</ns0:title>
+        <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb6b00292_5_comp/AmpR_u32_promoter_anno_1"/>
+        <sbol:location>
+          <sbol:Range rdf:about="http://examples.org/ComponentDefinition/sb6b00292_5_comp/AmpR_u32_promoter_anno_1/AmpR_u32_promoter_anno_1_loc/1">
+            <sbol:version>1</sbol:version>
+            <sbol:end>1474</sbol:end>
+            <sbol:displayId>AmpR_u32_promoter_anno_1_loc</sbol:displayId>
+            <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb6b00292_5_comp/AmpR_u32_promoter_anno_1/AmpR_u32_promoter_anno_1_loc"/>
+            <sbol:start>1378</sbol:start>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:displayId>AmpR_u32_promoter_anno_1</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <sbol:component rdf:resource="http://examples.org/ComponentDefinition/sb6b00292_5_comp/AmpR_u32_promoter_comp_1/1"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <ns1:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbh:supplementalFile rdf:resource="file:///C:/Users/JVM/Downloads/sequence_supplementals/synbict_output/pdf"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="http://examples.org/ComponentDefinition/sb6b00292_5_comp/AmpR_u32_terminator_anno_1/1">
+        <sbol:version>1</sbol:version>
+        <sbol:displayId>AmpR_u32_terminator_anno_1</sbol:displayId>
+        <sbol:location>
+          <sbol:Range rdf:about="http://examples.org/ComponentDefinition/sb6b00292_5_comp/AmpR_u32_terminator_anno_1/AmpR_u32_terminator_anno_1_loc/1">
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:start>389</sbol:start>
+            <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb6b00292_5_comp/AmpR_u32_terminator_anno_1/AmpR_u32_terminator_anno_1_loc"/>
+            <sbol:version>1</sbol:version>
+            <sbol:displayId>AmpR_u32_terminator_anno_1_loc</sbol:displayId>
+            <sbol:end>519</sbol:end>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:component rdf:resource="http://examples.org/ComponentDefinition/sb6b00292_5_comp/AmpR_u32_terminator_comp_1/1"/>
+        <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb6b00292_5_comp/AmpR_u32_terminator_anno_1"/>
+        <ns0:title>AmpR terminator</ns0:title>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb6b00292_5_sequence/1"/>
+    <sbol:displayId>sb6b00292_5_comp</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <sbol:component>
+      <sbol:Component rdf:about="http://examples.org/ComponentDefinition/sb6b00292_5_comp/AmpR_u32_promoter_comp_1/1">
+        <sbol:definition rdf:resource="https://synbioks.org/public/MoClo_Yeast_Toolkit_Dueber_Lab/AmpR_u32_promoter/1"/>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <ns0:title>AmpR promoter</ns0:title>
+        <sbol:version>1</sbol:version>
+        <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb6b00292_5_comp/AmpR_u32_promoter_comp_1"/>
+        <sbol:displayId>AmpR_u32_promoter_comp_1</sbol:displayId>
+      </sbol:Component>
+    </sbol:component>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb6b00292_8_comp/1">
+    <ns1:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbol:displayId>sb6b00292_8_comp</sbol:displayId>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb6b00292_8_comp"/>
+    <sbh:supplementalFile rdf:resource="file:///C:/Users/JVM/Downloads/sequence_supplementals/synbict_output/pdf"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:version>1</sbol:version>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb6b00292_8_sequence/1"/>
+    <ns1:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.6b00292"/>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb6b00292_7_comp/1">
+    <ns1:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.6b00292"/>
+    <sbh:supplementalFile rdf:resource="file:///C:/Users/JVM/Downloads/sequence_supplementals/synbict_output/pdf"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb6b00292_7_comp"/>
+    <sbol:version>1</sbol:version>
+    <sbol:displayId>sb6b00292_7_comp</sbol:displayId>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb6b00292_7_sequence/1"/>
+    <ns1:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+  </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb6b00292_8_sequence/1">
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:version>1</sbol:version>
+    <sbol:elements>ggtctcaaagcgctcatattgtaatggttgatgcttataaaccgacgaagggctcatgagacc</sbol:elements>
+    <sbol:displayId>sb6b00292_8_sequence</sbol:displayId>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb6b00292_8_sequence"/>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb6b00292_3_sequence/1">
+    <sbol:elements>ggtctcaaagcgattcagctacgcatataaaattttctaaacgggacgaagacggcaaggaactggcgggtgctactatggaactccgggactcatcgggaaaaactataagcacgtggatcagcgatggacaagtcaaggacttttacctttaccctggcaagtacacattcgtcgaaacggctgctccggatggatatgaagtggcaacagctattacattcacggttaacgaacaggggcaggtcaccgtgaacgggggctcatgagacc</sbol:elements>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb6b00292_3_sequence"/>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:version>1</sbol:version>
+    <sbol:displayId>sb6b00292_3_sequence</sbol:displayId>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb6b00292_2_sequence/1">
+    <sbol:displayId>sb6b00292_2_sequence</sbol:displayId>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:version>1</sbol:version>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb6b00292_2_sequence"/>
+    <sbol:elements>ggtctcaggatatgaaacggtcaatctctatttttattacgtgtttattgattacgttattgacaatgggcggcatgatagcttcgccggcatcagcaggaagctgagacc</sbol:elements>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb6b00292_6_sequence/1">
+    <sbol:version>1</sbol:version>
+    <sbol:elements>agtcattaggcctatctgacaattcctgaatagagttcataaacaatcctgcatgataaccatcacaaacagaatgatgtacctgtaaagatagcggtaaatatattgaattacctttattaatgaattttcctgctgtaataatgggtagaaggtaattactattattattgatatttaagttaaacccagtaaatgaagtccatggaataatagaaagagaaaaagcattttcaggtataggtgttttgggaaacaatttccccgaaccattatatttctctacatcagaaaggtataaatcataaaactctttgaagtcattctttacaggagtccaaataccagagaatgttttagatacaccatcaaaaattgtataaagtggctctaacttatcccaataacctaactctccgtcgctattgtaaccagttctaaaagctgtatttgagtttatcacccttgtcactaagaaaataaatgcagggtaaaatttatatccttcttgttttatgtttcggtataaaacactaatatcaatttctgtggttatactaaaagtcgtttgttggttcaaataatgattaaatatctcttttctcttccaattgtctaaatcaattttattaaagttcatttgatatgcctcctaaatttttatctaaagtgaatttaggaggcttacttgtctgctttcttcattagaatcaatccttttttaaaagtcaatattactgtaacataaatatatattttaaaaatatcccactttatccaattttcgtttgttgaactaatgggtgctttagttgaagaataaaagaccacattaaaaaatgtggtcttttgtgtttttttaaaggatttgagcgtagcgaaaaatccttttctttcttatcttgataataagggtaactattgccgatcgtccattccgacagcatcgccagtcactatggcgtgctgctagcgccattcgccattcaggctgcgcaactgttgggaagggcgatcggtgcgggcctcttcgctattacgccagctggcgaaagggggatgtgctgcaaggcgattaagttgggtaacgccagggttttcccagtcacgacgttgtaaaacgacggccagtgaattcgagctcaggccttaactcacattaattgcgttgcgctcactgcccgctttccagtcgggaaacctgtcgtgccagctgcattaatgaatcggccaacgcgcggggagaggcggtttgcgtattgggcgccagggtggtttttcttttcaccagtgagacgggcaacagctgattgcccttcaccgcctggccctgagagagttgcagcaagcggtccacgctggtttgccccagcaggcgaaaatcctgtttgatggtggttaacggcgggatataacatgagctgtcttcggtatcgtcgtatcccactaccgagatatccgcaccaacgcgcagcccggactcggtaatggcgcgcattgcgcccagcgccatctgatcgttggcaaccagcatcgcagtgggaacgatgccctcattcagcatttgcatggtttgttgaaaaccggacatggcactccagtcgccttcccgttccgctatcggctgaatttgattgcgagtgagatatttatgccagccagccagacgcagacgcgccgagacagaacttaatgggcccgctaacagcgcgatttgctggtgacccaatgcgaccagatgctccacgcccagtcgcgtaccgtcttcatgggagaaaataatactgttgatgggtgtctggtcagagacatcaagaaataacgccggaacattagtgcaggcagcttccacagcaatggcatcctggtcatccagcggatagttaatgatcagcccactgacgcgttgcgcgagaagattgtgcaccgccgttttacaggcttcgacgccgcttcgttctaccatcgacaccaccacgctggcacccagttgatcggcgcgagatttaatcgccgcgacaatttgcgacggcgcgtgcagggccagactggaggtggcaacgccaatcagcaacgactgtttgcccgccagttgttgtgccacgcggttgggaatgtaattcagctccgccatcgccgcttccactttttcccgcgttttcgcagaaacgtggctggcctggttcaccacgcgggaaacggtctgataagagacaccggcatactctgcgacatcgtataacgttactggtttcatcaaaatcgtctccctccgtttgaatatttgattgatcgtaaccagatgaagcactctttccactatccctacagtgttatggcttgaacaatcacgaaacaataattggtacgtacgatctttcagccgactcaaacatcaaatcttacaaatgtagtctttgaaagtattacatatgtaagatttaaatgcaaccgttttttcggaaggaaatgatgacctcgtttccaccggaattagcttggtaccagctattgtaacataatcggtacgggggtgaaaaagctaacggaaaagggagcggaaaagaatgatgtaagcgtgaaaaattttttatcttatcacttgaaattggaagggagattctttattataagaattgtggaattgtgagcggataacaattcccaattaaaggaggaaggggatagagaccgggcctttctgcgtttatatactagagaattttgtcaaaataattttattgacaacgtcttattaacgttgatataatttaaattttatttgacaaaaatgggctcgtgttgtacaataaatgttactagagaaaggtggtgaatactagatgcgtaaaggagaagaacttttcactggagttgtcccaattcttgttgaattagatggtgatgttaatgggcacaaattttctgtcagtggagagggtgaaggtgatgcaacatacggaaaacttacccttaaatttatttgcactactggaaaactacctgttccatggccaacacttgtcactactttcggttatggtgttcaatgctttgcgagatacccagatcatatgaaacagcatgactttttcaagagtgccatgcccgaaggttatgtacaggaaagaactatatttttcaaagatgacgggaactacaagacacgtgctgaagtcaagtttgaaggtgatacccttgttaatagaatcgagttaaaaggtattgattttaaagaagatggaaacattcttggacacaaattggaatacaactataactcacacaatgtatacatcatggcagacaaacaaaagaatggaatcaaagttaacttcaaaattagacacaacattgaagatggaagcgttcaactagcagaccattatcaacaaaatactccaattggcgatggccctgtccttttaccagacaaccattacctgtccacacaatctgccctttcgaaagatcccaacgaaaagagagatcacatggtccttcttgagtttgtaacagctgctgggattacacatggcatggatgaactatacaaataataatactagagccaggcatcaaataaaacgaaaggctcagtcgaaagactgggcctttcgttttatctgttgtttgtcggtgaacgctctctactagagtcacactggctcaccttcgggtgggcctttctgcgtttatatactagagatccgtttaggctgggcggtgatagcttctcgttcaggcagtaggtctcagttctaagacgtccccggggcagcccgcctaatgagcgggcttttttcacgtcacgcgtccatggagatctttgtctgcaactgaaaagtttataccttacctggaacaaatggttgaaacatacgaggctaatatcggcttattaggaatagtccctgtactaataaaatcaggtggatcagttgatcagtatattttggacgaagctcggaaagaatttggagatgacttgcttaattccacaattaaattaagggaaagaataaagcgatttgatgttcaaggaatcacggaagaagatactcatgataaagaagctctaaaactattcaataaccttacaatggaattgatcgaaagggtggaaggttaatggtacgaaaattaggggatctacctagaaagccacaaggcgataggtcaagcttaaagaacccttacatggatcttacagattctgaaagtaaagaaacaacagaggttaaacaaacagaaccaaaaagaaaaaaagcattgttgaaaacaatgaaagttgatgtttcaatccataataagattaaatcgctgcacgaaattctggcagcatccgaagggaattcatattacttagaggatactattgagagagctattgataagatggttgagacattacctgagagccaaaaaactttttatgaatatgaattaaaaaaaagaaccaacaaaggctgagacagactccaaacgagtctgtttttttaaaaaaaatattaggagcattgaatatatattagagaattaagaaagacatgggaataaaaatattttaaatccagtaaaaatatgataagattatttcagaatatgaagaactctgtttgtttttgatgaaaaaacaaacaaaaaaaatccacctaacggaatctcaatttaactaacagcggccaaactgagaagttaaatttgagaaggggaaaaggcggatttatacttgtatttaactatctccattttaacattttattaaaccccatacaagtgaaaatcctcttttacactgttcctttaggtgatcgcggagggacattatgagtgaagtaaacctaaaaggaaatacagatgaattagtgtattatcgacagcaaaccactggaaataaaatcgccaggaagagaatcaaaaaagggaaagaagaagtttattatgttgctgaaacggaagagaagatatggacagaagagcaaataaaaaacttttctttagacaaatttggtacgcatataccttacatagaaggtcattatacaatcttaaataattacttctttgatttttggggctattttttaggtgctgaaggaattgcgctctatgctcacctaactcgttatgcatacggcagcaaagacttttgctttcctagtctacaaacaatcgctaaaaaaatggacaagactcctgttacagttagaggctacttgaaactgcttgaaaggtacggttttatttggaaggtaaacgtccgtaataaaaccaaggataacacagaggaatccccgatttttaagattagacgtaaggttcctttgctttcagaagaacttttaaatggaaaccctaatattgaaattccagatgacgaggaagcacatgtaaagaaggctttaaaaaaggaaaaagagggtcttccaaaggttttgaaaaaagagcacgatgaatttgttaaaaaaatgatggatgagtcagaaacaattaatattccagaggccttacaatatgacacaatgtatgaagatatactcagtaaaggagaaattcgaaaagaaatcaaaaaacaaatacctaatcctacaacatcttttgagagtatatcaatgacaactgaagaggaaaaagtcgacagtactttaaaaagcgaaatgcaaaatcgtgtctctaagccttcttttgatacctggtttaaaaacactaagatcaaaattgaaaataaaaattgtttattacttgtaccgagtgaatttgcatttgaatggattaagaaaagatatttagaaacaattaaaacagtccttgaagaagctggatatgttttcgaaaaaatcgaactaagaaaagtgcaataaactgctgaagtatttcagcagttttttttatttagaaatagtgaaaaaaatataatcagggaggtatcaatatttaatgagtactgatttaaatttatttagactggaattaataattaacacgtagactaattaaaatttaatgagggataaagaggatacaaaaatattaatttcaatccctattaaattttaacaagggggggattaaaatttaattagaggtttatccacaagaaaagaccctaataaaatttttactagggttataacactgattaatttcttaatgggggagggattaaaatttaatgacaaagaaaacaatcttttaagaaaagcttttaaaagataataataaaaagagctttgcgattaagcaaaactctttactttttcattgacattatcaaattcatcgatttcaaattgttgttgtatcataaagttaattctgttttgcacaaccttttcaggaatataaaacacatctgaggcttgttttataaactcagggtcgctaaagtcaatgtaacgtagcatatgatatggtatagcttccacccaagttagcctttctgcttcttctgaatgtttttcatatacttccatgggtatctctaaatgattttcctcatgtagcaaggtatgagcaaaaagtttatggaattgatagttcctctctttttcttcaacttttt</sbol:elements>
+    <sbol:displayId>sb6b00292_6_sequence</sbol:displayId>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb6b00292_6_sequence"/>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+  </sbol:Sequence>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb6b00292_3_comp/1">
+    <sbol:displayId>sb6b00292_3_comp</sbol:displayId>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb6b00292_3_comp"/>
+    <ns1:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.6b00292"/>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb6b00292_3_sequence/1"/>
+    <ns1:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbh:supplementalFile rdf:resource="file:///C:/Users/JVM/Downloads/sequence_supplementals/synbict_output/pdf"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:version>1</sbol:version>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb6b00292_6_comp/1">
+    <sbol:version>1</sbol:version>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:displayId>sb6b00292_6_comp</sbol:displayId>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="http://examples.org/ComponentDefinition/sb6b00292_6_comp/B0015_anno_1/1">
+        <sbol:version>1</sbol:version>
+        <sbol:displayId>B0015_anno_1</sbol:displayId>
+        <sbol:component rdf:resource="http://examples.org/ComponentDefinition/sb6b00292_6_comp/B0015_comp_1/1"/>
+        <ns0:title>B0015</ns0:title>
+        <sbol:location>
+          <sbol:Range rdf:about="http://examples.org/ComponentDefinition/sb6b00292_6_comp/B0015_anno_1/B0015_anno_1_loc/1">
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:start>3572</sbol:start>
+            <sbol:version>1</sbol:version>
+            <sbol:end>3700</sbol:end>
+            <sbol:displayId>B0015_anno_1_loc</sbol:displayId>
+            <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb6b00292_6_comp/B0015_anno_1/B0015_anno_1_loc"/>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb6b00292_6_comp/B0015_anno_1"/>
+        <ns0:description>Double terminator, rrnBT1-T7TE</ns0:description>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="http://examples.org/ComponentDefinition/sb6b00292_6_comp/E0040m_anno_1/1">
+        <sbol:displayId>E0040m_anno_1</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb6b00292_6_comp/E0040m_anno_1"/>
+        <ns0:title>E0040m</ns0:title>
+        <sbol:location>
+          <sbol:Range rdf:about="http://examples.org/ComponentDefinition/sb6b00292_6_comp/E0040m_anno_1/E0040m_anno_1_loc/1">
+            <sbol:displayId>E0040m_anno_1_loc</sbol:displayId>
+            <sbol:version>1</sbol:version>
+            <sbol:start>2844</sbol:start>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb6b00292_6_comp/E0040m_anno_1/E0040m_anno_1_loc"/>
+            <sbol:end>3563</sbol:end>
+          </sbol:Range>
+        </sbol:location>
+        <ns0:description>Green fluorescent protein</ns0:description>
+        <sbol:component rdf:resource="http://examples.org/ComponentDefinition/sb6b00292_6_comp/E0040m_comp_1/1"/>
+        <sbol:version>1</sbol:version>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <ns1:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbol:component>
+      <sbol:Component rdf:about="http://examples.org/ComponentDefinition/sb6b00292_6_comp/Bba_B0015_comp_1/1">
+        <sbol:version>1</sbol:version>
+        <sbol:displayId>Bba_B0015_comp_1</sbol:displayId>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:definition rdf:resource="https://synbioks.org/public/MoClo_Yeast_Toolkit_Dueber_Lab/Bba_B0015/1"/>
+        <ns0:title>Bba_B0015</ns0:title>
+        <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb6b00292_6_comp/Bba_B0015_comp_1"/>
+      </sbol:Component>
+    </sbol:component>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb6b00292_6_sequence/1"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb6b00292_6_comp"/>
+    <ns1:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.6b00292"/>
+    <sbol:component>
+      <sbol:Component rdf:about="http://examples.org/ComponentDefinition/sb6b00292_6_comp/B0015_comp_1/1">
+        <sbol:version>1</sbol:version>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:displayId>B0015_comp_1</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb6b00292_6_comp/B0015_comp_1"/>
+        <sbol:definition rdf:resource="https://synbioks.org/public/CIDAR_MoClo_Toolkit_Densmore_Lab/B0015/1"/>
+        <ns0:title>B0015</ns0:title>
+      </sbol:Component>
+    </sbol:component>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="http://examples.org/ComponentDefinition/sb6b00292_6_comp/Bba_B0015_anno_1/1">
+        <sbol:location>
+          <sbol:Range rdf:about="http://examples.org/ComponentDefinition/sb6b00292_6_comp/Bba_B0015_anno_1/Bba_B0015_anno_1_loc/1">
+            <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb6b00292_6_comp/Bba_B0015_anno_1/Bba_B0015_anno_1_loc"/>
+            <sbol:end>3700</sbol:end>
+            <sbol:start>3572</sbol:start>
+            <sbol:version>1</sbol:version>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:displayId>Bba_B0015_anno_1_loc</sbol:displayId>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:displayId>Bba_B0015_anno_1</sbol:displayId>
+        <ns0:title>Bba_B0015</ns0:title>
+        <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb6b00292_6_comp/Bba_B0015_anno_1"/>
+        <sbol:component rdf:resource="http://examples.org/ComponentDefinition/sb6b00292_6_comp/Bba_B0015_comp_1/1"/>
+        <sbol:version>1</sbol:version>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbh:supplementalFile rdf:resource="file:///C:/Users/JVM/Downloads/sequence_supplementals/synbict_output/pdf"/>
+    <sbol:component>
+      <sbol:Component rdf:about="http://examples.org/ComponentDefinition/sb6b00292_6_comp/E0040m_comp_1/1">
+        <sbol:displayId>E0040m_comp_1</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb6b00292_6_comp/E0040m_comp_1"/>
+        <sbol:definition rdf:resource="https://synbioks.org/public/CIDAR_MoClo_Toolkit_Densmore_Lab/E0040m/1"/>
+        <ns0:title>E0040m</ns0:title>
+      </sbol:Component>
+    </sbol:component>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb6b00292_4_comp/1">
+    <ns1:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.6b00292"/>
+    <ns1:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb6b00292_4_comp"/>
+    <sbh:supplementalFile rdf:resource="file:///C:/Users/JVM/Downloads/sequence_supplementals/synbict_output/pdf"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb6b00292_4_sequence/1"/>
+    <sbol:displayId>sb6b00292_4_comp</sbol:displayId>
+    <sbol:version>1</sbol:version>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb6b00292_2_comp/1">
+    <ns1:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.6b00292"/>
+    <sbh:supplementalFile rdf:resource="file:///C:/Users/JVM/Downloads/sequence_supplementals/synbict_output/pdf"/>
+    <ns1:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb6b00292_2_sequence/1"/>
+    <sbol:version>1</sbol:version>
+    <sbol:displayId>sb6b00292_2_comp</sbol:displayId>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb6b00292_2_comp"/>
+  </sbol:ComponentDefinition>
+  <sbol:Collection rdf:about="http://examples.org/sb6b00292/1">
+    <ns0:references>Morai&#776;s, S., Shterzer, N., Lamed, R., Bayer, E. A., Mizrahi, I. A combined cell-consortium approach for lignocellulose degradation by specialized Lactobacillus plantarum cells Biotechnol. Biofuels 2014. 7.</ns0:references>
+    <ns2:subject>SpyTag-</ns2:subject>
+    <ns0:description>The ability to stably and specifically conjugate recombinant proteins to one another is a powerful approach for engineering multifunctional enzymes, protein therapeutics, and novel biological materials. While many of these applications have been illustrated through in vitro and in vivo intracellular protein conjugation methods, extracellular self-assembly of protein conjugates offers unique advantages: simplifying purification, reducing toxicity and burden, and enabling tunability. Exploiting the recently described SpyTag-SpyCatcher system, we describe here how enzymes and structural proteins can be genetically encoded to covalently conjugate in culture media following programmable secretion from Bacillus subtilis. Using this approach, we demonstrate how self-conjugation of a secreted industrial enzyme, XynA, dramatically increases its resilience to boiling, and we show that cellular consortia can be engineered to self-assemble functional protein&#8211;protein conjugates with tunable composition. This novel genetically encoded modular system provides a flexible strategy for protein conjugation harnessing the substantial advantages of extracellular self-assembly.</ns0:description>
+    <ns0:references>Alves, N. J., Turner, K. B., Medintz, I. L., Walper, S. A. Protecting enzymatic function through directed packaging into bacterial outer membrane vesicles Sci. Rep. 2016. 6.</ns0:references>
+    <ns2:subject>kanamycin</ns2:subject>
+    <ns2:subject>xynA SP</ns2:subject>
+    <ns0:references>Jones, J. A., Vernacchio, V. R., Sinkoe, A. L., Collins, S. M., Ibrahim, M. H. A., Lachance, D. M., Hahn, J., Koffas, M. A. G. Experimental and computational optimization of an Escherichia coli co-culture for the efficient production of flavonoids Metab. Eng. 2016. 35:55-63.</ns0:references>
+    <ns0:references>Zhang, M., Lin, S., Song, X., Liu, J., Fu, Y., Ge, X., Fu, X., Chang, Z., Chen, P. R. A genetically incorporated crosslinker reveals chaperone cooperation in acid resistance Nat. Chem. Biol. 2011. 7:671-7.</ns0:references>
+    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb6b00292_5_comp/1"/>
+    <sbol:member rdf:resource="http://examples.org/Sequence/sb6b00292_7_sequence/1"/>
+    <ns2:subject>B. subtilis</ns2:subject>
+    <ns0:dateCopyrighted>2017</ns0:dateCopyrighted>
+    <ns0:references>Fierer, J. O., Veggiani, G., Howarth, M. SpyLigase peptide-peptide ligation polymerizes affibodies to enhance magnetic cancer cell capture Proc. Natl. Acad. Sci. U. S. A. 2014. 111:E1176-81.</ns0:references>
+    <ns2:subject>AatII</ns2:subject>
+    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb6b00292_2_comp/1"/>
+    <ns0:rightsHolder>American Chemical
+Society</ns0:rightsHolder>
+    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb6b00292_9_comp/1"/>
+    <ns0:references>Botyanszki, Z., Tay, P. K. R., Nguyen, P. Q., Nussbaumer, M. G., Joshi, N. S. Engineered catalytic biofilms: Site-specific enzyme immobilization onto E. coli curli nanofibers Biotechnol. Bioeng. 2015. 110:2016-2024.</ns0:references>
+    <ns2:subject>P grac</ns2:subject>
+    <ns2:subject>SpyParts&#58872;incorporating</ns2:subject>
+    <ns2:subject>-NTA</ns2:subject>
+    <ns0:title>Extracellular Self-Assembly of Functional and Tunable Protein Conjugates from Bacillus subtilis</ns0:title>
+    <ns2:subject>-Cel</ns2:subject>
+    <ns2:subject>Xylanase</ns2:subject>
+    <ns0:abstract>The ability to stably and specifically conjugate recombinant proteins to one another is a powerful approach for engineering multifunctional enzymes, protein therapeutics, and novel biological materials. While many of these applications have been illustrated through in vitro and in vivo intracellular protein conjugation methods, extracellular self-assembly of protein conjugates offers unique advantages: simplifying purification, reducing toxicity and burden, and enabling tunability. Exploiting the recently described SpyTag-SpyCatcher system, we describe here how enzymes and structural proteins can be genetically encoded to covalently conjugate in culture media following programmable secretion from Bacillus subtilis. Using this approach, we demonstrate how self-conjugation of a secreted industrial enzyme, XynA, dramatically increases its resilience to boiling, and we show that cellular consortia can be engineered to self-assemble functional protein&#8211;protein conjugates with tunable composition. This novel genetically encoded modular system provides a flexible strategy for protein conjugation harnessing the substantial advantages of extracellular self-assembly.</ns0:abstract>
+    <ns2:subject>ELP 20&#8211;24-containing</ns2:subject>
+    <sbol:member rdf:resource="http://examples.org/Sequence/sb6b00292_3_sequence/1"/>
+    <ns2:subject>ion</ns2:subject>
+    <ns2:subject>Bam HI</ns2:subject>
+    <ns2:subject>cellulase (d)</ns2:subject>
+    <ns2:type>research-article</ns2:type>
+    <ns2:subject>TCA</ns2:subject>
+    <ns2:subject>SpyTag-SpyCatcher</ns2:subject>
+    <ns2:subject>EDTA</ns2:subject>
+    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb6b00292_1_comp/1"/>
+    <ns2:subject>SpyCatcher&#916;N1&#916;C2</ns2:subject>
+    <ns2:subject>Tris-HCl</ns2:subject>
+    <ns2:subject>Ni-NTA</ns2:subject>
+    <ns0:references>Dorval
+Courchesne, N.-M., Duraj-Thatte, A., Tay, P. K. R., Nguyen, P. Q., Joshi, N. S. Scalable Production of Genetically Engineered Nanofibrous Macroscopic Materials via Filtration ACS Biomater. Sci. Eng. 2016.</ns0:references>
+    <ns2:subject>BsaI</ns2:subject>
+    <ns2:subject>trichloroacetic acid</ns2:subject>
+    <sbol:member rdf:resource="http://examples.org/Sequence/sb6b00292_6_sequence/1"/>
+    <ns2:subject>SpyTag DA</ns2:subject>
+    <ns2:subject>oligonucleotides</ns2:subject>
+    <ns2:subject>J099B12</ns2:subject>
+    <ns2:subject>glycerol</ns2:subject>
+    <ns2:publisher>American Chemical
+Society</ns2:publisher>
+    <ns3:OBI_0002110 rdf:resource="https://doi.org/10.1021/acssynbio.6b00292"/>
+    <ns2:subject>C-Cel-C</ns2:subject>
+    <ns0:references>Mergulha&#771;o, F. J.
+M., Summers, D. K., Monteiro, G. a. Recombinant protein secretion in Escherichia coli Biotechnol. Adv. 2005. 23:177-202.</ns0:references>
+    <ns0:references>Juturu, V., Wu, J. C. Microbial xylanases: Engineering, production and industrial applications Biotechnol. Adv. 2012. 30:1219-1227.</ns0:references>
+    <ns0:references>Zakeri, B., Fierer, J. O., Celik, E., Chittock, E. C., Schwarz-Linek, U., Moy, V. T., Howarth, M. Peptide tag forming a rapid covalent bond to a protein, through engineering a bacterial adhesin Proc. Natl. Acad. Sci. U. S. A. 2012. 109.</ns0:references>
+    <ns2:subject>Cel</ns2:subject>
+    <ns2:subject>AmpR</ns2:subject>
+    <ns2:subject>pHT01</ns2:subject>
+    <ns2:subject>IPTG</ns2:subject>
+    <ns2:subject>polypeptide</ns2:subject>
+    <ns2:subject>WB800N</ns2:subject>
+    <ns2:subject>xylanase (e)</ns2:subject>
+    <sbol:member rdf:resource="http://examples.org/Sequence/sb6b00292_5_sequence/1"/>
+    <ns2:subject>XynA</ns2:subject>
+    <ns0:references>Waldhauer, M. C., Schmitz, S. N., Ahlmann-Eltze, C., Gleixner, J. G., Schmelas, C. C., Huhn, A. G., Bunne, C., Bu&#776;scher, M., Horn, M., Klughammer, N., Kreft, J., Scha&#776;fer, E., Bayer, P. A., Kra&#776;mer, S. G., Neugebauer, J., Wehler, P., Mayer, M. P., Eils, R., Di Ventura, B. Backbone circularization of Bacillus subtilis family 11 xylanase increases its thermostability and its resistance against aggregation Mol. BioSyst. 2015. 11:3231-43.</ns0:references>
+    <ns2:subject>BCA</ns2:subject>
+    <ns2:subject>proteins&#58872;those</ns2:subject>
+    <ns2:subject>T-Xyn</ns2:subject>
+    <sbol:member rdf:resource="http://examples.org/Sequence/sb6b00292_2_sequence/1"/>
+    <ns2:subject>T. lanuginosus</ns2:subject>
+    <ns2:subject>imidazole</ns2:subject>
+    <ns0:dateAccepted>2017-02-23</ns0:dateAccepted>
+    <ns2:subject>mSpyCatcher</ns2:subject>
+    <ns2:subject>endocellulase</ns2:subject>
+    <ns2:subject>amino acids</ns2:subject>
+    <ns0:references>Azam, A., Li, C., Metcalf, K. J., Tullman-Ercek, D. Type III Secretion as a Generalizable Strategy for the Production of Full-Length Biopolymer-Forming Proteins Biotechnol. Bioeng. 2016. 113:1-8.</ns0:references>
+    <ns2:subject>Bacillus subtilis</ns2:subject>
+    <ns0:references>Li, L., Fierer, J. O., Rapoport, T. a, Howarth, M. Structural analysis and optimization of the covalent association between SpyCatcher and a peptide Tag J. Mol. Biol. 2014. 426:309-17.</ns0:references>
+    <sbol:member rdf:resource="http://examples.org/Sequence/sb6b00292_9_sequence/1"/>
+    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb6b00292_7_comp/1"/>
+    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb6b00292_4_comp/1"/>
+    <ns2:subject>Pierce</ns2:subject>
+    <ns2:creator>Charlie Gilbert</ns2:creator>
+    <ns0:references>Scott, C. P., Abel-Santos, E., Wall, M., Wahnon, D. C., Benkovic, S. J. Production of cyclic peptides and proteins in vivo Proc. Natl. Acad. Sci. U. S. A. 1999. 96:13638-13643.</ns0:references>
+    <ns0:type rdf:resource="http://purl.org/dc/dcmitype/Text"/>
+    <ns2:subject>T. reseii</ns2:subject>
+    <ns0:references>Cormack, B. P., Valdivia, R. H., Falkow, S. FACS-optimized mutants of the green fluorescent protein (GFP) Gene 1996. 173:33-38.</ns0:references>
+    <ns0:references>Peschke, T., Rabe, K. S., Niemeyer, C. M. Orthogonal Surface Tags for Whole-Cell Biocatalysis Angew. Chem., Int. Ed. 2017. 56:1-5.</ns0:references>
+    <ns2:subject>mouse</ns2:subject>
+    <ns2:subject>B. subtilis 168</ns2:subject>
+    <ns0:references>Chen, A. Y., Deng, Z., Billings, A. N., Seker, U. O. S., Lu, M. Y., Citorik, R. J., Zakeri, B., Lu, T. K. Synthesis and patterning of tunable multiscale materials with engineered cells Nat. Mater. 2014. 13:515-23.</ns0:references>
+    <ns2:subject>Spy</ns2:subject>
+    <ns0:references>Vidal, G., Blanchi, T., Mieszawska, A. J., Calabrese, R., Rossi, C., Vigneron, P., Duval, J. L., Kaplan, D. L., Egles, C. Enhanced cellular adhesion on titanium by silk functionalized with titanium binding and RGD peptides Acta Biomater. 2013. 9:4935-4943.</ns0:references>
+    <ns2:subject>ampicillin</ns2:subject>
+    <ns0:references>Stahl, S. W., Nash, M. A., Fried, D. B., Slutzki, M., Barak, Y., Bayer, E. A., Gaub, H. E. Single-molecule dissection of the high-affinity cohesin-dockerin complex Proc. Natl. Acad. Sci. U. S. A. 2012. 109:20431-20436.</ns0:references>
+    <ns2:subject>microbial consortia</ns2:subject>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/sb6b00292"/>
+    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb6b00292_6_comp/1"/>
+    <ns0:references>Fontes, C. M. G. A., Gilbert, H. J. Cellulosomes: Highly Efficient Nanomachines Designed to Deconstruct Plant Cell Wall Complex Carbohydrates Annu. Rev. Biochem. 2010. 79:655-681.</ns0:references>
+    <ns0:references>Hays, S. G., Patrick, W. G., Ziesack, M., Oxman, N., Silver, P. A. Better together: Engineering and application of microbial symbioses Curr. Opin. Biotechnol. 2015. 36:40-49.</ns0:references>
+    <ns2:subject>IPTG-induced (+) cultures</ns2:subject>
+    <ns0:references>Harwood, C. R., Cranenburgh, R. Bacillus protein secretion: an unfolding story Trends Microbiol. 2008. 16:73-79.</ns0:references>
+    <ns0:created>2017-02-23</ns0:created>
+    <sbol:version>1</sbol:version>
+    <ns0:references>Dovala, D., Sawyer, W. S., Rath, C. M., Metzger, L. E. Rapid analysis of protein expression and solubility with the SpyTag-SpyCatcher system Protein Expression Purif. 2016. 117:44-51.</ns0:references>
+    <sbol:member rdf:resource="http://examples.org/Sequence/sb6b00292_8_sequence/1"/>
+    <ns0:references>Hudak, J. E., Barfield, R. M., Dehart, G. W., Grob, P., Nogales, E., Bertozzi, C. R., Rabuka, D. Synthesis of heterobifunctional protein fusions using copper-free click chemistry and the aldehyde tag Angew. Chem., Int. Ed. 2012. 51:4161-4165.</ns0:references>
+    <ns0:references>Trabi, M., Craik, D. J. Circular proteins - no end in sight Trends Biochem. Sci. 2002. 27:132-138.</ns0:references>
+    <ns2:subject>SpyTag</ns2:subject>
+    <ns0:references>Abe, H., Wakabayashi, R., Yonemura, H., Yamada, S., Goto, M., Kamiya, N. Split Spy0128 as a potent scaffold for protein cross-linking and immobilization Bioconjugate Chem. 2013. 24:242-250.</ns0:references>
+    <sbol:displayId>sb6b00292</sbol:displayId>
+    <ns2:subject>Restriction endonucleases</ns2:subject>
+    <ns2:subject>C-Cel</ns2:subject>
+    <ns2:subject>T-ELP</ns2:subject>
+    <ns2:subject>sucrose</ns2:subject>
+    <ns0:references>Schloss, A. C., Liu, W., Williams, D. M., Kaufman, G., Hendrickson, H. P., Rudshteyn, B., Fu, L., Wang, H., Batista, V. S., Osuji, C., Yan, E. C. Y., Regan, L. Fabrication of Modularly Functionalizable Microcapsules Using Protein-Based Technologies ACS Biomater. Sci. Eng. 2016. 2.</ns0:references>
+    <ns2:subject>GFP mut3b</ns2:subject>
+    <ns0:references>Kan, S.-H., Aoyagi-Scharber, M., Le, S. Q., Vincelette, J., Ohmi, K., Bullens, S., Wendt, D. J., Christianson, T. M., Tiger, P. M. N., Brown, J. R., Lawrence, R., Yip, B. K., Holtzinger, J., Bagri, A., Crippen-Harmon, D., Vondrak, K. N., Chen, Z., Hague, C. M., Woloszynek, J. C., Cheung, D. S., Webster, K. A., Adintori, E. G., Lo, M. J., Wong, W., Fitzpatrick, P. A., LeBowitz, J. H., Crawford, B. E., Bunting, S., Dickson, P. I., Neufeld, E. F. Delivery of an enzyme-IGFII fusion protein to the mouse brain is therapeutic for mucopolysaccharidosis type IIIB Proc. Natl. Acad. Sci. U. S. A. 2014. 111:14870-5.</ns0:references>
+    <ns2:subject>sacB SP-ELP</ns2:subject>
+    <ns3:OBI_0001617>28230977</ns3:OBI_0001617>
+    <ns2:subject>xylanases</ns2:subject>
+    <ns2:subject>SpyPart&#58872;either SpyTag</ns2:subject>
+    <ns2:subject>amino acid glycine-serine</ns2:subject>
+    <ns2:subject>Costar</ns2:subject>
+    <ns0:isPartOf>ACS Synthetic Biology</ns0:isPartOf>
+    <ns2:subject>SacB</ns2:subject>
+    <ns2:subject>T7 DNA ligase</ns2:subject>
+    <ns2:subject>alanine</ns2:subject>
+    <ns2:subject>glycine-serine</ns2:subject>
+    <ns0:references>Zhou, K., Qiao, K., Edgar, S., Stephanopoulos, G. Distributing a metabolic pathway among a microbial consortium enhances production of natural products Nat. Biotechnol. 2015. 33:377-383.</ns0:references>
+    <ns2:subject>lipases</ns2:subject>
+    <ns2:subject>cellulases</ns2:subject>
+    <ns2:subject>glutamine</ns2:subject>
+    <ns2:subject>His</ns2:subject>
+    <ns2:subject>aspartate residue</ns2:subject>
+    <ns0:references>Brenner, K., You, L., Arnold, F. H. Engineering microbial consortia: a new frontier in synthetic biology Trends Biotechnol. 2008. 26:483-9.</ns0:references>
+    <ns2:subject>E. coli</ns2:subject>
+    <ns2:subject>NaCl</ns2:subject>
+    <ns0:references>Yang, H., Liu, L., Xu, F. The promises and challenges of fusion constructs in protein biochemistry and enzymology Appl. Microbiol. Biotechnol. 2016. 100:8273-8281.</ns0:references>
+    <ns2:subject>SpyPart</ns2:subject>
+    <ns2:subject>T-ELP-T</ns2:subject>
+    <ns2:subject>SpyParts</ns2:subject>
+    <ns2:subject>yeasts Saccharomyces cerevisiae</ns2:subject>
+    <ns0:references>Zhang, W.-B., Sun, F., Tirrell, D. a, Arnold, F. H. Controlling macromolecular topology with genetically encoded SpyTag-SpyCatcher chemistry J. Am. Chem. Soc. 2013. 135:13988-97.</ns0:references>
+    <ns2:subject>Pichia</ns2:subject>
+    <ns2:subject>Phusion-</ns2:subject>
+    <ns0:references>Iwai, H., Plu, A. Circular L-lactamase: stability enhancement by cyclizing the backbone FEBS Lett. 1999. 459:166-172.</ns0:references>
+    <ns2:subject>cohesin</ns2:subject>
+    <ns2:subject>human</ns2:subject>
+    <ns2:subject>chloramphenicol</ns2:subject>
+    <ns2:subject>Oligonucleotides</ns2:subject>
+    <ns2:subject>SpyTags</ns2:subject>
+    <ns2:subject>SpyTag-ELP</ns2:subject>
+    <ns0:references>Woolfson, D. N. The design of coiled-coil structures and assemblies Adv. Protein Chem. 2005. 70.</ns0:references>
+    <ns2:subject>immunoglobulin</ns2:subject>
+    <ns2:subject>elastin-like polypeptide</ns2:subject>
+    <ns2:subject>a)</ns2:subject>
+    <ns2:subject>Amino acid</ns2:subject>
+    <ns2:subject>peptide</ns2:subject>
+    <ns0:references>Morai&#776;s, S., Barak, Y., Caspi, J., Hadar, Y. Cellulase-xylanase synergy in designer cellulosomes for enhanced degradation of a complex cellulosic substrate mBio 2010. 1:3-10.</ns0:references>
+    <ns2:subject>C-Xyn</ns2:subject>
+    <ns0:references>Goers, L., Freemont, P., Polizzi, K. M. Co-culture systems and technologies: taking synthetic biology to the next level J. R. Soc., Interface 2014. 11.</ns0:references>
+    <ns2:subject>Cellulase</ns2:subject>
+    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb6b00292_8_comp/1"/>
+    <ns0:references>Parmar, P. A., Chow, L. W., St-Pierre, J.-P., Horejs, C.-M., Peng, Y. Y., Werkmeister, J. A., Ramshaw, J. A. M., Stevens, M. M. Collagen-mimetic peptide-modifiable hydrogels for articular cartilage regeneration Biomaterials 2015. 54:213-225.</ns0:references>
+    <ns0:references>Myhrvold, C., Polka, J. K., Silver, P. A. Synthetic Lipid-Containing Scaffolds Enhance Production by Colocalizing Enzymes ACS Synth. Biol. 2016. 5:1396-1403.</ns0:references>
+    <ns0:references>Schoene, C., Bennett, S. P., Howarth, M. SpyRing interrogation: analyzing how enzyme resilience can be achieved with phytase and distinct cyclization chemistries Sci. Rep. 2016. 6:1-12.</ns0:references>
+    <ns2:subject>ELP</ns2:subject>
+    <ns0:references>Minamihata, K., Yamaguchi, S., Nakajima, K., Nagamune, T. Tyrosine Coupling Creates a Hyperbranched Multivalent Protein Polymer Using Horseradish Peroxidase via Bipolar Conjugation Points Bioconjugate Chem. 2016. 27:1348-1359.</ns0:references>
+    <ns0:references>Hartwell, L. H., Hopfield, J. J., Leibler, S., Murray, A. W. From molecular to modular cell biology Nature 1999. 402:C47-C52.</ns0:references>
+    <ns2:subject>C-Xyn-C</ns2:subject>
+    <ns2:subject>peptides</ns2:subject>
+    <ns0:references>Lee, M. E., DeLoache, W. C., Cervantes, B., Dueber, J. E. A Highly-characterized Yeast Toolkit for Modular, Multi-part Assembly ACS Synth. Biol. 2015. 4:975-986.</ns0:references>
+    <ns1:wasDerivedFrom rdf:resource="https://pubs.acs.org/doi/10.1021/acssynbio.6b00292"/>
+    <ns2:subject>NaH 2 PO 4</ns2:subject>
+    <ns0:references>Nguyen, P. Q., Botyanszki, Z., Tay, P. K. R., Joshi, N. S. Programmable biofilm-based materials from engineered curli nanofibres Nat. Commun. 2014. 5.</ns0:references>
+    <ns2:subject>Sodium Chloride</ns2:subject>
+    <ns2:subject>6-</ns2:subject>
+    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb6b00292_3_comp/1"/>
+    <ns0:references>Lakshmanan, A., Farhadi, A., Nety, S. P., Lee-Gosselin, A., Bourdeau, R. W., Maresca, D., Shapiro, M. G. Molecular Engineering of Acoustic Protein Nanostructures ACS Nano 2016. 10:7314-7322.</ns0:references>
+    <ns2:subject>ELP 20&#8211;24</ns2:subject>
+    <ns0:references>Wang, J., Wang, Y., Wang, X., Zhang, D., Wu, S., Zhang, G. Enhanced thermal stability of lichenase from Bacillus subtilis 168 by SpyTag/SpyCatcher-mediated spontaneous cyclization Biotechnol. Biofuels 2016. 9.</ns0:references>
+    <ns2:subject>amylases</ns2:subject>
+    <ns2:subject>SpyTag DA-ELP</ns2:subject>
+    <ns2:subject>2-amino acid glycine-serine</ns2:subject>
+    <ns2:creator>Colin R. Harwood</ns2:creator>
+    <ns2:subject>bromophenol blue</ns2:subject>
+    <ns2:subject>spoVG</ns2:subject>
+    <ns2:subject>tunability</ns2:subject>
+    <ns2:subject>extracellular self-assembly</ns2:subject>
+    <ns2:subject>T-Cel-C</ns2:subject>
+    <sbol:member rdf:resource="http://examples.org/Sequence/sb6b00292_4_sequence/1"/>
+    <ns0:references>Giessen, T. W., Silver, P. A catalytic nanoreactor based on in vivo encapsulation of multiple enzymes in an engineered protein nanocompartment ChemBioChem 2016. 17:1931-1935.</ns0:references>
+    <ns2:subject>-Xyn</ns2:subject>
+    <ns2:subject>amino acid side chains.</ns2:subject>
+    <ns0:references>Wang, X. W., Zhang, W. B. Cellular Synthesis of Protein Catenanes Angew. Chem., Int. Ed. 2016. 55:3442-3446.</ns0:references>
+    <ns0:references>Thrane, S., Janitzek, C. M., Matondo, S., Resende, M., Gustavsson, T., de Jongh, W. A., Clemmensen, S., Roeffen, W., van de Vegte-Bolmer, M., van Gemert, G. J., Sauerwein, R., Schiller, J. T., Nielsen, M. A., Theander, T. G., Salanti, A., Sander, A. F. Bacterial superglue enables easy development of efficient virus-like particle based vaccines J. Nanobiotechnol. 2016. 14.</ns0:references>
+    <ns2:rights>Copyright &amp; 2017 American Chemical
+Society</ns2:rights>
+    <ns2:subject>TRIS-HCl</ns2:subject>
+    <ns0:references>van
+Dijl, J. M., Hecker, M. Bacillus subtilis: from soil bacterium to super-secreting cell factory Microb. Cell Fact. 2013. 12.</ns0:references>
+    <ns2:subject>sacB SP</ns2:subject>
+    <ns0:references>Kuhad, R. C., Gupta, R., Singh, A. Microbial cellulases and their industrial applications Enzyme Res. 2011. 2011.</ns0:references>
+    <ns2:subject>celA</ns2:subject>
+    <ns2:subject>SpyRing</ns2:subject>
+    <ns2:subject>AatII restriction enzyme</ns2:subject>
+    <ns2:subject>SpyCatcher</ns2:subject>
+    <ns2:subject>xylanase XynA</ns2:subject>
+    <ns2:subject>SpyCatcher XynA</ns2:subject>
+    <ns2:subject>His 6</ns2:subject>
+    <ns2:subject>protein conjugation</ns2:subject>
+    <ns0:references>Sun, F., Zhang, W.-B., Mahdavi, A., Arnold, F. H., Tirrell, D. a. Synthesis of bioactive protein hydrogels by genetically encoded SpyTag-SpyCatcher chemistry Proc. Natl. Acad. Sci. U. S. A. 2014. 111.</ns0:references>
+    <ns2:subject>GFP</ns2:subject>
+    <ns2:subject>proteases</ns2:subject>
+    <ns0:references>Albayrak, C., Swartz, J. R. Direct polymerization of proteins ACS Synth. Biol. 2014. 3:353-62.</ns0:references>
+    <ns2:subject>T&#8242;-ELP</ns2:subject>
+    <ns2:subject>Xyn</ns2:subject>
+    <ns0:references>Brune, K. D., Leneghan, D. B., Brian, I. J., Ishizuka, A. S., Bachmann, M. F., Draper, S. J., Biswas, S., Howarth, M. Plug-and-Display: decoration of Virus-Like Particles via isopeptide bonds for modular immunization Sci. Rep. 2016. 6.</ns0:references>
+    <ns2:subject>dockerin</ns2:subject>
+    <ns0:references>Veggiani, G., Nakamura, T., Brenner, M. D., Gayet, R. V., Yan, J., Robinson, C. V., Howarth, M. Programmable polyproteams built using twin peptide superglues Proc. Natl. Acad. Sci. U. S. A. 2016. 113:1202-7.</ns0:references>
+    <ns2:subject>thermotolerance</ns2:subject>
+    <ns2:subject>his 6</ns2:subject>
+    <ns2:creator>Mark Howarth</ns2:creator>
+    <ns0:references>Schoene, C. , Bennett, S. P. , and Howarth, M. (2016) SpyRings Declassified: A Blueprint for Using Isopeptide-Mediated Cyclization to Enhance Enzyme Thermal Resilience. In Pept. Protein Enzym. Des., 1st ed., Elsevier Inc.</ns0:references>
+    <ns0:references>Schoene, C., Fierer, J. O., Bennett, S. P., Howarth, M. SpyTag/SpyCatcher cyclization confers resilience to boiling on a mesophilic enzyme Angew. Chem., Int. Ed. 2014. 53:6101-4.</ns0:references>
+    <ns0:references>Bellingham, C. M., Woodhouse, K. A., Robson, P., Rothstein, S. J., Keeley, F. W. Self-aggregation characteristics of recombinantly expressed human elastin polypeptides Biochim. Biophys. Acta, Protein Struct. Mol. Enzymol. 2001. 1550:6-19.</ns0:references>
+    <ns2:subject>endoxylanase</ns2:subject>
+    <ns2:subject>acetone</ns2:subject>
+    <ns0:references>Alves, N. J., Turner, K. B., Daniele, M. A., Oh, E., Medintz, I. L., Walper, S. A. Bacterial Nanobioreactors-Directing Enzyme Packaging into Bacterial Outer Membrane Vesicles ACS Appl. Mater. Interfaces 2015. 7:24963-24972.</ns0:references>
+    <ns2:subject>cellulase</ns2:subject>
+    <ns0:references>Arai, T., Matsuoka, S., Cho, H.-Y., Yukawa, H., Inui, M., Wong, S.-L., Doi, R. H. Synthesis of Clostridium cellulovorans minicellulosomes by intercellular complementation Proc. Natl. Acad. Sci. U. S. A. 2007. 104:1456-1460.</ns0:references>
+    <sbol:member rdf:resource="http://examples.org/Sequence/sb6b00292_1_sequence/1"/>
+    <ns2:subject>tropoelastin</ns2:subject>
+    <ns0:references>Gao, X., Fang, J., Xue, B., Fu, L., Li, H. Engineering Protein Hydrogels Using SpyCatcher-SpyTag Chemistry Biomacromolecules 2016. 17:2812-2819.</ns0:references>
+    <ns2:subject>T&#8242;-ELP-T</ns2:subject>
+    <ns0:references>Zhang, X. Z., Zhang, Y. H. P. One-step production of biocommodities from lignocellulosic biomass by recombinant cellulolytic Bacillus subtilis: Opportunities and challenges Eng. Life Sci. 2010. 10:398-406.</ns0:references>
+    <ns0:references>Liu, Z., Zhou, H., Wang, W., Tan, W., Fu, Y.-X., Zhu, M. A novel method for synthetic vaccine construction based on protein assembly Sci. Rep. 2014. 4.</ns0:references>
+    <ns2:creator>Tom Ellis</ns2:creator>
+    <ns0:isPartOf rdf:resource="http://pubs.acs.org/journal/asbcd6"/>
+    <ns2:subject>xynA</ns2:subject>
+    <ns2:subject>DTT</ns2:subject>
+    <ns2:subject>DNA polymerase</ns2:subject>
+    <ns2:subject>xylanase</ns2:subject>
+    <ns0:references>Bedbrook, C. N., Kato, M., Ravindra
+kumar, S., Lakshmanan, A., Nath, R. D., Sun, F., Sternberg, P. W., Arnold, F. H., Gradinaru, V. Genetically Encoded Spy Peptide Fusion System to Detect Plasma Membrane-Localized Proteins In Vivo Chem. Biol. 2015. 22:1108-1121.</ns0:references>
+    <ns0:references>Scott, S. R., Hasty, J. Quorum Sensing Communication Modules for Microbial Consortia ACS Synth. Biol. 2016. 5:969-977.</ns0:references>
+    <ns2:subject>sacB</ns2:subject>
+    <ns2:subject>CelA</ns2:subject>
+    <ns2:subject>BioLegend clone</ns2:subject>
+    <ns0:references>Kumar, V., Mari&#769;n-Navarro, J., Shukla, P. Thermostable microbial xylanases for pulp and paper industries: trends, applications and further perspectives World J. Microbiol. Biotechnol. 2016. 32:1-10.</ns0:references>
+    <ns0:references>Moon, H., Bae, Y., Kim, H., Kang, S. Plug-and-playable fluorescent cell imaging modular toolkits using the bacterial superglue, SpyTag/SpyCatcher Chem. Commun. 2016. 52:14051-14054.</ns0:references>
+    <ns2:subject>glutamate</ns2:subject>
+    <ns0:references>Chen, X., Zaro, J. L., Shen, W.-C. Fusion protein linkers: property, design and functionality Adv. Drug Delivery Rev. 2013. 65:1357-69.</ns0:references>
+    <ns2:subject>T-Xyn-C</ns2:subject>
+    <ns2:subject>cultures</ns2:subject>
+    <ns2:subject>lysozyme</ns2:subject>
+    <ns2:subject>alkaline phosphatase</ns2:subject>
+    <ns0:dateSubmitted>2016-10-12</ns0:dateSubmitted>
+    <ns2:subject>T-Xyn-T</ns2:subject>
+  </sbol:Collection>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb6b00292_1_comp/1">
+    <sbh:supplementalFile rdf:resource="file:///C:/Users/JVM/Downloads/sequence_supplementals/synbict_output/pdf"/>
+    <ns1:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.6b00292"/>
+    <ns1:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:displayId>sb6b00292_1_comp</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb6b00292_1_comp"/>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb6b00292_1_sequence/1"/>
+  </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb6b00292_1_sequence/1">
+    <sbol:elements>ggtctcaggatatgaacatcaaaaagtttgcaaaacaagcaacagtattaacctttactaccgcactgctggcaggaggcgcaactcaagcgtttgcgggaagccgagacc</sbol:elements>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:version>1</sbol:version>
+    <sbol:displayId>sb6b00292_1_sequence</sbol:displayId>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb6b00292_1_sequence"/>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb6b00292_9_sequence/1">
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:version>1</sbol:version>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb6b00292_9_sequence"/>
+    <sbol:displayId>sb6b00292_9_sequence</sbol:displayId>
+    <sbol:elements>ggtctcaggcagcgcccacatcgttatggtagacgcgtacaaacctacaaagggaagccatcatcatcatcatcacggcagctaagttctgagacc</sbol:elements>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb6b00292_5_sequence/1">
+    <sbol:elements>tatctaaaacaaacactttaacatctgagtcaatgtaagcataagatgtttttccagtcataatttcaatcccaaatcttttagacagaaattctggacgtaaatcttttggtgaaagaatttttttatgtagcaatatatccgatacagcaccttctaaaagcgttggtgaatagggcattttacctatctcctctcattttgtggaataaaaatagtcatattcgtccatctacctatcctattatcgaacagttgaactttttaatcaaggatcagtcctttttttcattattcttaaactgtgctcttaactttaacaactcgatttgtttttccagatctcgagggtaactagcctcgccgatcccgcaagaggcccggcagtcaggtggcacttttcggggaaatgtgcgcggaacccctatttgtttatttttctaaatacattcaaatatgtatccgctcatgagacaataaccctgataaatgcttcaataatattgaaaaaggaagagtatgagtattcaacatttccgtgtcgcccttattcccttttttgcggcattttgccttcctgtttttgctcacccagaaacgctggtgaaagtaaaagatgctgaagatcagttgggtgcacgagtgggttacatcgaactggatctcaacagcggtaagatccttgagagttttcgccccgaagaacgttttccaatgatgagcacttttaaagttctgctatgtggcgcggtattatcccgtattgacgccgggcaagagcaactcggtcgccgcatacactattctcagaatgacttggttgagtactcaccagtcacagaaaagcatcttacggatggcatgacagtaagagaattatgcagtgctgccataaccatgagtgataacactgcggccaacttacttctgacaacgatcggaggaccgaaggagctaaccgcttttttgcacaacatgggggatcatgtaactcgccttgatcgttgggaaccggagctgaatgaagccataccaaacgacgagcgtgacaccacgatgcctgtagcaatggcaacaacgttgcgcaaactattaactggcgaactacttactctagcttcccggcaacaattaatagactggatggaggcggataaagttgcaggaccacttctgcgctcggcccttccggctggctggtttattgctgataaatctggagccggtgagcgtggttctcgcggtatcattgcagcactggggccagatggtaagccctcccgtatcgtagttatctacacgacggggagtcaggcaactatggatgaacgaaatagacagatcgctgagataggtgcctcactgattaagcattggtaactgtcagaccaagtttactcatatatactttagattgatttaaaacttcatttttaatttaaaaggatctaggtgaagatcctttttgataatctcatgaccaaaatcccttaacgtgagttttcgttccactgagcgtcagaccccgtagaaaagatcaaaggatcttcttgagatcctttttttctgcgcgtaatctgctgcttgcaaacaaaaaaaccaccgctaccagcggtggtttgtttgccggatcaagagctaccaactctttttccgaaggtaactggcttcagcagagcgcagataccaaatactgtccttctagtgtagccgtagttaggccaccacttcaagaactctgtagcaccgcctacatacctcgctctgctaatcctgttaccagtggctgctgccagtggcgataagtcgtgtcttaccgggttggactcaagacgatagttaccggataaggcgcagcggtcgggctgaacggggggttcgtgcacacagcccagcttggagcgaacgacctacaccgaactgagatacctacagcgtgagctatgagaaagcgccacgcttcccgaagggagaaaggcggacaggtatccggtaagcggcagggtcggaacaggagagcgcacgagggagcttccagggggaaacgcctggtatctttatagtcctgtcgggtttcgccacctctgacttgagcgtcgatttttgtgatgctcgtcaggggggcggagcctatggaaaaacgccagcaacgcggcctttttacggttcctggccttttgctggccttttgctcacatgttctttcctgcgttatcccctgattctgtggataaccgtattaccgcctttgagtgagctgataccgctcgccgcagccgaacgaccgagcgcagcgagtcagtgagcgaggaagcggaagagcgcccaatacgcatgcttaagttattggtatgactggttttaagcgcaaaaaaagttgctttttcgtacctattaatgtatcgttttagaaaaccgactgtaaaaagtacagtcggcattatctcatattataaaagcc</sbol:elements>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb6b00292_5_sequence"/>
+    <sbol:displayId>sb6b00292_5_sequence</sbol:displayId>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:version>1</sbol:version>
+  </sbol:Sequence>
+</rdf:RDF>

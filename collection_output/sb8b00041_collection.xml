@@ -1,0 +1,225 @@
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:sbh="https://wiki.synbiohub.org/wiki/Terms/synbiohub#" xmlns:sbol="http://sbols.org/v2#" xmlns:ns0="http://www.w3.org/ns/prov#" xmlns:ns1="http://purl.org/dc/terms/" xmlns:ns2="http://purl.org/dc/elements/1.1/" xmlns:ns3="http://purl.obolibrary.org/obo/">
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb8b00041_6_sequence/1">
+    <sbol:displayId>sb8b00041_6_sequence</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:elements>gttgatctagaagctgtttcct</sbol:elements>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb8b00041_6_sequence"/>
+  </sbol:Sequence>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb8b00041_3_comp/1">
+    <sbh:supplementalFile rdf:resource="file:///C:/Users/JVM/Downloads/sequence_supplementals/synbict_output/sb8b00041/suppl/sb-2018-000412_si_001.pdf"/>
+    <sbol:displayId>sb8b00041_3_comp</sbol:displayId>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb8b00041_3_sequence/1"/>
+    <sbol:version>1</sbol:version>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00041_3_comp"/>
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.8b00041"/>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb8b00041_7_comp/1">
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb8b00041_7_sequence/1"/>
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.8b00041"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00041_7_comp"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbol:version>1</sbol:version>
+    <sbol:displayId>sb8b00041_7_comp</sbol:displayId>
+    <sbh:supplementalFile rdf:resource="file:///C:/Users/JVM/Downloads/sequence_supplementals/synbict_output/sb8b00041/suppl/sb-2018-000412_si_001.pdf"/>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb8b00041_1_comp/1">
+    <sbol:version>1</sbol:version>
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.8b00041"/>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00041_1_comp"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb8b00041_1_sequence/1"/>
+    <sbol:displayId>sb8b00041_1_comp</sbol:displayId>
+    <sbh:supplementalFile rdf:resource="file:///C:/Users/JVM/Downloads/sequence_supplementals/synbict_output/sb8b00041/suppl/sb-2018-000412_si_001.pdf"/>
+  </sbol:ComponentDefinition>
+  <sbol:Collection rdf:about="http://examples.org/sb8b00041/1">
+    <ns1:references>Barrick, J. E., Breaker, R. R. The distributions, mechanisms, and structures of metabolite-binding riboswitches Genome biology 2007. 8.</ns1:references>
+    <ns1:references>Stenstrom, C. M., Jin, H., Major, L. L., Tate, W. P., Isaksson, L. A. Codon bias at the 3&#8242;-side of the initiation codon is correlated with translation initiation efficiency in Escherichia coli Gene 2001. 263:273-84.</ns1:references>
+    <ns1:references>Serganov, A., Nudler, E. A decade of riboswitches Cell 2013. 152:17-24.</ns1:references>
+    <ns1:references>Ceres, P., Trausch, J. J., Batey, R. T. Engineering modular &#8217;ON&#8217; RNA switches using biological components Nucleic Acids Res. 2013. 41:10449-61.</ns1:references>
+    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb8b00041_1_comp/1"/>
+    <ns1:references>Tuller, T., Carmi, A., Vestsigian, K., Navon, S., Dorfan, Y., Zaborske, J., Pan, T., Dahan, O., Furman, I., Pilpel, Y. An evolutionarily conserved mechanism for controlling the efficiency of protein translation Cell 2010. 141:344-54.</ns1:references>
+    <ns1:dateAccepted>2018-06-21</ns1:dateAccepted>
+    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb8b00041_6_comp/1"/>
+    <ns1:references>Mutalik, V. K., Guimaraes, J. C., Cambray, G., Lam, C., Christoffersen, M. J., Mai, Q. A., Tran, A. B., Paull, M., Keasling, J. D., Arkin, A. P., Endy, D. Precise and reliable gene expression via standard transcription and translation initiation elements Nat. Methods 2013. 10:354-60.</ns1:references>
+    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb8b00041_7_comp/1"/>
+    <ns1:references>Reining, A., Nozinovic, S., Schlepckow, K., Buhr, F., Furtig, B., Schwalbe, H. Three-state mechanism couples ligand and temperature sensing in riboswitches Nature 2013. 499:355-9.</ns1:references>
+    <sbol:member rdf:resource="http://examples.org/Sequence/sb8b00041_3_sequence/1"/>
+    <ns2:creator>Samantha Halliwell</ns2:creator>
+    <ns1:references>Jong, S. d., Wise, B. M., Ricker, N. L. Canonical partial least squares and continuum power regression J. Chemom. 2001. 15:85-100.</ns1:references>
+    <ns1:references>Pfleger, B. F., Pitera, D. J., Smolke, C. D., Keasling, J. D. Combinatorial engineering of intergenic regions in operons tunes expression of multiple genes Nat. Biotechnol. 2006. 24:1027-32.</ns1:references>
+    <ns1:references>Kudla, G., Murray, A. W., Tollervey, D., Plotkin, J. B. Coding-Sequence Determinants of Gene Expression in Escherichia coli Science 2009. 324:255-258.</ns1:references>
+    <ns1:references>Cardinale, S., Arkin, A. P. Contextualizing context for synthetic biology--identifying causes of failure of synthetic biological systems Biotechnol. J. 2012. 7:856-66.</ns1:references>
+    <ns1:dateSubmitted>2018-01-28</ns1:dateSubmitted>
+    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb8b00041_8_comp/1"/>
+    <ns1:references>Lucks, J. B., Qi, L., Mutalik, V. K., Wang, D., Arkin, A. P. Versatile RNA-sensing transcriptional regulators for engineering genetic networks Proc. Natl. Acad. Sci. U. S. A. 2011. 108:8617-22.</ns1:references>
+    <sbol:member rdf:resource="http://examples.org/Sequence/sb8b00041_2_sequence/1"/>
+    <ns2:subject>RNA device integration</ns2:subject>
+    <ns1:references>Mandal, M., Breaker, R. R. Adenine riboswitches and gene activation by disruption of a transcription terminator Nat. Struct. Mol. Biol. 2004. 11:29-35.</ns1:references>
+    <ns2:type>rapid-communication</ns2:type>
+    <ns1:references>de
+Smit, M. H., van Duin, J. Secondary structure of the ribosome binding site determines translational efficiency: a quantitative analysis Proc. Natl. Acad. Sci. U. S. A. 1990. 87:7668-72.</ns1:references>
+    <ns2:creator>Kate Young</ns2:creator>
+    <ns2:publisher>American Chemical
+Society</ns2:publisher>
+    <ns1:references>Quax, T. E., Claassens, N. J., Soll, D., van der Oost, J. Codon Bias as a Means to Fine-Tune Gene Expression Mol. Cell 2015. 59:149-61.</ns1:references>
+    <ns0:wasDerivedFrom rdf:resource="https://pubs.acs.org/doi/10.1021/acssynbio.8b00041"/>
+    <ns1:dateCopyrighted>2018</ns1:dateCopyrighted>
+    <ns1:references>Looman, A. C., Bodlaender, J., Comstock, L. J., Eaton, D., Jhurani, P., de Boer, H. A., van Knippenberg, P. H. Influence of the codon following the AUG initiation codon on the expression of a modified lacZ gene in Escherichia coli EMBO J. 1987. 6:2489-92.</ns1:references>
+    <ns2:subject>codon usage</ns2:subject>
+    <ns1:references>Sabi, R., Volvovitch Daniel, R., Tuller, T. stAIcalc: tRNA adaptation index calculator based on species-specific weights Bioinformatics 2017. 33:589-591.</ns1:references>
+    <ns2:creator>Ross Kent</ns2:creator>
+    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb8b00041_3_comp/1"/>
+    <sbol:displayId>sb8b00041</sbol:displayId>
+    <sbol:member rdf:resource="http://examples.org/Sequence/sb8b00041_4_sequence/1"/>
+    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb8b00041_2_comp/1"/>
+    <ns1:references>Liu, D., Evans, T., Zhang, F. Applications and advances of metabolite biosensors for metabolic engineering Metab. Eng. 2015. 31:35-43.</ns1:references>
+    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb8b00041_5_comp/1"/>
+    <ns1:references>Lemay, J. F., Desnoyers, G., Blouin, S., Heppell, B., Bastet, L., St-Pierre, P., Masse, E., Lafontaine, D. A. Comparative study between transcriptionally- and translationally-acting adenine riboswitches reveals key differences in riboswitch regulatory mechanisms PLoS Genet. 2011. 7.</ns1:references>
+    <ns2:creator>Neil Dixon</ns2:creator>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/sb8b00041"/>
+    <ns1:rightsHolder>American Chemical Society</ns1:rightsHolder>
+    <ns1:description>The ability of RNA to sense, regulate, and store information is an attractive attribute for a variety of functional applications including the development of regulatory control devices for synthetic biology. RNA folding and function is known to be highly context sensitive, which limits the modularity and reuse of RNA regulatory devices to control different heterologous sequences and genes. We explored the cause and effect of sequence context sensitivity for translational ON riboswitches located in the 5&#8242; UTR, by constructing and screening a library of N-terminal synonymous codon variants. By altering the N-terminal codon usage we were able to obtain RNA devices with a broad range of functional performance properties (ON, OFF, fold-change). Linear regression and calculated metrics were used to rationalize the major determining features leading to optimal riboswitch performance, and to identify multiple interactions between the explanatory metrics. Finally, partial least squared (PLS) analysis was employed in order to understand the metrics and their respective effect on performance. This PLS model was shown to provide good explanation of our library. This study provides a novel multivariant analysis framework to rationalize the codon context performance of allosteric RNA-devices. The framework will also serve as a platform for future riboswitch context engineering endeavors.</ns1:description>
+    <ns2:subject>gene expression control</ns2:subject>
+    <ns1:references>Salis, H. M., Mirsky, E. A., Voigt, C. A. Automated design of synthetic ribosome binding sites to control protein expression Nat. Biotechnol. 2009. 27:946-50.</ns1:references>
+    <ns1:references>Morra, R., Shankar, J., Robinson, C. J., Halliwell, S., Butler, L., Upton, M., Hay, S., Micklefield, J., Dixon, N. Dual transcriptional-translational cascade permits cellular level tuneable expression control Nucleic Acids Res. 2016. 44.</ns1:references>
+    <ns1:abstract>The ability of RNA to sense, regulate, and store information is an attractive attribute for a variety of functional applications including the development of regulatory control devices for synthetic biology. RNA folding and function is known to be highly context sensitive, which limits the modularity and reuse of RNA regulatory devices to control different heterologous sequences and genes. We explored the cause and effect of sequence context sensitivity for translational ON riboswitches located in the 5&#8242; UTR, by constructing and screening a library of N-terminal synonymous codon variants. By altering the N-terminal codon usage we were able to obtain RNA devices with a broad range of functional performance properties (ON, OFF, fold-change). Linear regression and calculated metrics were used to rationalize the major determining features leading to optimal riboswitch performance, and to identify multiple interactions between the explanatory metrics. Finally, partial least squared (PLS) analysis was employed in order to understand the metrics and their respective effect on performance. This PLS model was shown to provide good explanation of our library. This study provides a novel multivariant analysis framework to rationalize the codon context performance of allosteric RNA-devices. The framework will also serve as a platform for future riboswitch context engineering endeavors.</ns1:abstract>
+    <ns1:references>Paige, J. S., Nguyen-Duc, T., Song, W. J., Jaffrey, S. R. Fluorescence Imaging of Cellular Metabolites with RNA Science 2012. 335:1194-1194.</ns1:references>
+    <ns1:references>Green, A. A., Silver, P. A., Collins, J. J., Yin, P. Toehold Switches: De-Novo-Designed Regulators of Gene Expression Cell 2014. 159:925-939.</ns1:references>
+    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb8b00041_4_comp/1"/>
+    <ns1:references>Lorenz, R., Bernhart, S. H., Honer Zu Siederdissen, C., Tafer, H., Flamm, C., Stadler, P. F., Hofacker, I. L. ViennaRNA Package 2.0 Algorithms Mol. Biol. 2011. 6.</ns1:references>
+    <ns1:references>Hallberg, Z. F., Su, Y., Kitto, R. Z., Hammond, M. C. Engineering and In Vivo Applications of Riboswitches Annu. Rev. Biochem. 2017. 86:515-539.</ns1:references>
+    <ns1:references>Beilstein, K., Wittmann, A., Grez, M., Suess, B. Conditional Control of Mammalian Gene Expression by Tetracycline-Dependent Hammerhead Ribozymes ACS Synth. Biol. 2015. 4:526-534.</ns1:references>
+    <ns1:references>Lynch, S. A., Gallivan, J. P. A flow cytometry-based screen for synthetic riboswitches Nucleic Acids Res. 2009. 37:184-92.</ns1:references>
+    <sbol:version>1</sbol:version>
+    <ns2:creator>Neil Swainston</ns2:creator>
+    <ns1:references>Bonde, M. T., Pedersen, M., Klausen, M. S., Jensen, S. I., Wulff, T., Harrison, S., Nielsen, A. T., Herrgard, M. J., Sommer, M. O. Predictable tuning of protein expression in bacteria Nat. Methods 2016. 13:233-6.</ns1:references>
+    <sbol:member rdf:resource="http://examples.org/Sequence/sb8b00041_7_sequence/1"/>
+    <ns1:references>Duval, M., Korepanov, A., Fuchsbauer, O., Fechter, P., Haller, A., Fabbretti, A., Choulier, L., Micura, R., Klaholz, B. P., Romby, P., Springer, M., Marzi, S. Escherichia coli ribosomal protein S1 unfolds structured mRNAs onto the ribosome for active translation initiation PLoS Biol. 2013. 11.</ns1:references>
+    <ns3:OBI_0001617>29928800</ns3:OBI_0001617>
+    <sbol:member rdf:resource="http://examples.org/Sequence/sb8b00041_8_sequence/1"/>
+    <ns1:references>Espah
+Borujeni, A., Mishler, D. M., Wang, J., Huso, W., Salis, H. M. Automated physics-based design of synthetic riboswitches from diverse RNA aptamers Nucleic Acids Res. 2016. 44:1-13.</ns1:references>
+    <ns1:references>Dixon, N., Duncan, J. N., Geerlings, T., Dunstan, M. S., McCarthy, J. E. G., Leys, D., Micklefield, J. Reengineering orthogonally selective riboswitches Proc. Natl. Acad. Sci. U. S. A. 2010. 107:2830-2835.</ns1:references>
+    <ns1:references>Keller, T. E., Mis, S. D., Jia, K. E., Wilke, C. O. Reduced mRNA secondary-structure stability near the start codon indicates functional genes in prokaryotes Genome Biol. Evol. 2012. 4:80-8.</ns1:references>
+    <ns1:title>Rationalizing Context-Dependent Performance of Dynamic RNA Regulatory Devices</ns1:title>
+    <ns1:created>2018-06-21</ns1:created>
+    <ns2:subject>RNA folding</ns2:subject>
+    <ns1:references>Goodman, D. B., Church, G. M., Kosuri, S. Causes and effects of N-terminal codon bias in bacterial genes Science 2013. 342:475-9.</ns1:references>
+    <ns1:references>Zhang, G., Hubalewska, M., Ignatova, Z. Transient ribosomal attenuation coordinates protein synthesis and co-translational folding Nat. Struct. Mol. Biol. 2009. 16:274-80.</ns1:references>
+    <sbol:member rdf:resource="http://examples.org/Sequence/sb8b00041_6_sequence/1"/>
+    <sbol:member rdf:resource="http://examples.org/Sequence/sb8b00041_1_sequence/1"/>
+    <ns1:type rdf:resource="http://purl.org/dc/dcmitype/Text"/>
+    <ns3:OBI_0002110 rdf:resource="https://doi.org/10.1021/acssynbio.8b00041"/>
+    <ns1:isPartOf rdf:resource="http://pubs.acs.org/journal/asbcd6"/>
+    <ns1:references>Grote, A., Hiller, K., Scheer, M., Munch, R., Nortemann, B., Hempel, D. C., Jahn, D. JCat: a novel tool to adapt codon usage of a target gene to its potential expression host Nucleic Acids Res. 2005. 33:W526-31.</ns1:references>
+    <ns1:references>Bastet, L., Chauvier, A., Singh, N., Lussier, A., Lamontagne, A. M., Prevost, K., Masse, E., Wade, J. T., Lafontaine, D. A. Translational control and Rho-dependent transcription termination are intimately linked in riboswitch regulation Nucleic Acids Res. 2017. 45:7474-7486.</ns1:references>
+    <ns1:references>Muranaka, N., Sharma, V., Nomura, Y., Yokobayashi, Y. An efficient platform for genetic selection and screening of gene switches in Escherichia coli Nucleic Acids Res. 2009. 37.</ns1:references>
+    <ns2:subject>riboswitch</ns2:subject>
+    <ns1:isPartOf>ACS Synthetic Biology</ns1:isPartOf>
+    <sbol:member rdf:resource="http://examples.org/Sequence/sb8b00041_5_sequence/1"/>
+  </sbol:Collection>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb8b00041_4_sequence/1">
+    <sbol:version>1</sbol:version>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb8b00041_4_sequence"/>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:elements>aaaacatatggctgccgcgcg</sbol:elements>
+    <sbol:displayId>sb8b00041_4_sequence</sbol:displayId>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb8b00041_1_sequence/1">
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb8b00041_1_sequence"/>
+    <sbol:displayId>sb8b00041_1_sequence</sbol:displayId>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:elements>aaaagcatgcgagctgttgacaattaatca</sbol:elements>
+    <sbol:version>1</sbol:version>
+  </sbol:Sequence>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb8b00041_6_comp/1">
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb8b00041_6_sequence/1"/>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:version>1</sbol:version>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00041_6_comp"/>
+    <sbh:supplementalFile rdf:resource="file:///C:/Users/JVM/Downloads/sequence_supplementals/synbict_output/sb8b00041/suppl/sb-2018-000412_si_001.pdf"/>
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.8b00041"/>
+    <sbol:displayId>sb8b00041_6_comp</sbol:displayId>
+  </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb8b00041_2_sequence/1">
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:displayId>sb8b00041_2_sequence</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <sbol:elements>aaaatctagaagctgtttcctgtgtgaaat</sbol:elements>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb8b00041_2_sequence"/>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb8b00041_3_sequence/1">
+    <sbol:elements>aaaagcatgcgagctgttgacaat</sbol:elements>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb8b00041_3_sequence"/>
+    <sbol:displayId>sb8b00041_3_sequence</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+  </sbol:Sequence>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb8b00041_8_comp/1">
+    <sbh:supplementalFile rdf:resource="file:///C:/Users/JVM/Downloads/sequence_supplementals/synbict_output/sb8b00041/suppl/sb-2018-000412_si_001.pdf"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:displayId>sb8b00041_8_comp</sbol:displayId>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb8b00041_8_sequence/1"/>
+    <sbol:version>1</sbol:version>
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.8b00041"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00041_8_comp"/>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+  </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb8b00041_7_sequence/1">
+    <sbol:elements>tttataaagagaagactatggg</sbol:elements>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:displayId>sb8b00041_7_sequence</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb8b00041_7_sequence"/>
+  </sbol:Sequence>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb8b00041_4_comp/1">
+    <sbh:supplementalFile rdf:resource="file:///C:/Users/JVM/Downloads/sequence_supplementals/synbict_output/sb8b00041/suppl/sb-2018-000412_si_001.pdf"/>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb8b00041_4_sequence/1"/>
+    <sbol:displayId>sb8b00041_4_comp</sbol:displayId>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00041_4_comp"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbol:version>1</sbol:version>
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.8b00041"/>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb8b00041_2_comp/1">
+    <sbh:supplementalFile rdf:resource="file:///C:/Users/JVM/Downloads/sequence_supplementals/synbict_output/sb8b00041/suppl/sb-2018-000412_si_001.pdf"/>
+    <sbol:version>1</sbol:version>
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.8b00041"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00041_2_comp"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:displayId>sb8b00041_2_comp</sbol:displayId>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb8b00041_2_sequence/1"/>
+  </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb8b00041_5_sequence/1">
+    <sbol:version>1</sbol:version>
+    <sbol:displayId>sb8b00041_5_sequence</sbol:displayId>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb8b00041_5_sequence"/>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:elements>tatgaagtctgtcgctttatcc</sbol:elements>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb8b00041_8_sequence/1">
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb8b00041_8_sequence"/>
+    <sbol:elements>catcatcatcacagcagc</sbol:elements>
+    <sbol:version>1</sbol:version>
+    <sbol:displayId>sb8b00041_8_sequence</sbol:displayId>
+  </sbol:Sequence>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb8b00041_5_comp/1">
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:displayId>sb8b00041_5_comp</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.8b00041"/>
+    <sbh:supplementalFile rdf:resource="file:///C:/Users/JVM/Downloads/sequence_supplementals/synbict_output/sb8b00041/suppl/sb-2018-000412_si_001.pdf"/>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb8b00041_5_sequence/1"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00041_5_comp"/>
+  </sbol:ComponentDefinition>
+</rdf:RDF>

@@ -1,0 +1,173 @@
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:sbh="https://wiki.synbiohub.org/wiki/Terms/synbiohub#" xmlns:sbol="http://sbols.org/v2#" xmlns:ns0="http://www.w3.org/ns/prov#" xmlns:ns1="http://purl.org/dc/terms/" xmlns:ns2="http://purl.org/dc/elements/1.1/" xmlns:ns3="http://purl.obolibrary.org/obo/">
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb200029a_2_comp/1">
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/sb200029a"/>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb200029a_2_sequence/1"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb200029a_2_comp"/>
+    <sbol:version>1</sbol:version>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbh:supplementalFile rdf:resource="file:///C:/Users/JVM/Downloads/sequence_supplementals/synbict_output/pdf"/>
+    <sbol:displayId>sb200029a_2_comp</sbol:displayId>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb200029a_3_comp/1">
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb200029a_3_sequence/1"/>
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/sb200029a"/>
+    <sbol:version>1</sbol:version>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbh:supplementalFile rdf:resource="file:///C:/Users/JVM/Downloads/sequence_supplementals/synbict_output/pdf"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb200029a_3_comp"/>
+    <sbol:displayId>sb200029a_3_comp</sbol:displayId>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb200029a_4_comp/1">
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/sb200029a"/>
+    <sbol:displayId>sb200029a_4_comp</sbol:displayId>
+    <sbh:supplementalFile rdf:resource="file:///C:/Users/JVM/Downloads/sequence_supplementals/synbict_output/pdf"/>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb200029a_4_sequence/1"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb200029a_4_comp"/>
+    <sbol:version>1</sbol:version>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+  </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb200029a_6_sequence/1">
+    <sbol:displayId>sb200029a_6_sequence</sbol:displayId>
+    <sbol:elements>gtgaagtccacaaatacatccttga</sbol:elements>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb200029a_6_sequence"/>
+    <sbol:version>1</sbol:version>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+  </sbol:Sequence>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb200029a_6_comp/1">
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbh:supplementalFile rdf:resource="file:///C:/Users/JVM/Downloads/sequence_supplementals/synbict_output/pdf"/>
+    <sbol:version>1</sbol:version>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb200029a_6_sequence/1"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb200029a_6_comp"/>
+    <sbol:displayId>sb200029a_6_comp</sbol:displayId>
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/sb200029a"/>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+  </sbol:ComponentDefinition>
+  <sbol:Collection rdf:about="http://examples.org/sb200029a/1">
+    <sbol:member rdf:resource="http://examples.org/Sequence/sb200029a_2_sequence/1"/>
+    <sbol:member rdf:resource="http://examples.org/Sequence/sb200029a_6_sequence/1"/>
+    <ns1:references>Urlinger, S., Helbl, V., Guthmann, J., Pook, E., Grimm, S., Hillen, W. The p65 domain from NF-kappaB is an efficient human activator in the tetracycline-regulatable gene expression system Gene 2000. 247:103-110.</ns1:references>
+    <ns2:subject>inducible gene expression</ns2:subject>
+    <ns1:references>Takahashi, M., Altschmied, L., Hillen, W. Kinetic and equilibrium characterization of the Tet repressor-tetracycline complex by fluorescence measurements. Evidence for divalent metal ion requirement and energy transfer J. Mol. Biol. 1986. 187:341-348.</ns1:references>
+    <ns1:references>Hillen, W., Berens, C. Mechanisms underlying expression of Tn10 encoded tetracycline resistance Annu. Rev. Microbiol. 1994. 48:345-369.</ns1:references>
+    <ns2:subject>tetracycline repressor</ns2:subject>
+    <ns2:creator>Ryan W. S. Peacock</ns2:creator>
+    <ns1:references>Honnorat-Benabbou, V. C., Lebugle, A. A., Sallek, B., Duffaut-Lagarrigue, D. Stability study of tetracyclines with respect to their use in slow release systems J. Mater. Sci. Mater. Med. 2001. 12:107-110.</ns1:references>
+    <ns2:subject>KRAB repressor</ns2:subject>
+    <sbol:member rdf:resource="http://examples.org/Sequence/sb200029a_4_sequence/1"/>
+    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb200029a_5_comp/1"/>
+    <ns1:references>Howe, J. R., Skryabin, B. V., Belcher, S. M., Zerillo, C. A., Schmauss, C. The responsiveness of a tetracycline-sensitive expression system differs in different cell lines J. Biol. Chem. 1995. 270:14168-14174.</ns1:references>
+    <ns1:description>Tetracycline-regulated expression systems are widely used to control ectopic gene expression in mammalian cells. However, background or &#8220;leaky&#8221; expression in the &#8220;off&#8221; state can limit applications that require control of expression at low levels. In this work we have engineered a tetracycline-regulated expression system with an improved range of control and lower background expression. To lower background expression without diminishing the controllable expression range, we designed a feed-forward scheme that repressed both expression of the gene of interest and the transcriptional activator. By using a tetracycline-responsive repressor that can modify chromatin and repress transcription over short and long distances, we were able to repress these two expression targets using a single tetracycline-responsive genetic element. This dual-targeting repressor/activation system demonstrated decreased background expression in its &#8220;off&#8221; state and a 25-fold range of expression in response to doxycycline. This study demonstrates that genetic circuits can be improved by leveraging trans-acting factors with long-range capabilities.</ns1:description>
+    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb200029a_1_comp/1"/>
+    <ns1:references>Lederer, T., Kintrup, M., Takahashi, M., Sum, P. E., Ellestad, G. A., Hillen, W. Tetracycline analogs affecting binding to Tn10-Encoded Tet repressor trigger the same mechanism of induction Biochemistry 1996. 35:7439-7446.</ns1:references>
+    <sbol:version>1</sbol:version>
+    <ns1:references>Akagi, K., Kanai, M., Saya, H., Kozu, T., Berns, A. A novel tetracycline-dependent transactivator with E2F4 transcriptional activation domain Nucleic Acids Res. 2001. 29.</ns1:references>
+    <ns2:rights>Copyright &amp; 2012 American Chemical Society</ns2:rights>
+    <ns1:references>Margolin, J. F., Friedman, J. R., Meyer, W. K., Vissing, H., Thiesen, H. J., Rauscher, F. J. Kru&#776;ppel-associated boxes are potent transcriptional repression domains Proc. Natl. Acad. Sci. U.S.A. 1994. 91:4509-4513.</ns1:references>
+    <ns3:OBI_0002110 rdf:resource="https://doi.org/10.1021/sb200029a"/>
+    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb200029a_2_comp/1"/>
+    <ns2:creator>Clifford L. Wang</ns2:creator>
+    <sbol:member rdf:resource="http://examples.org/Sequence/sb200029a_1_sequence/1"/>
+    <ns1:dateCopyrighted>2012</ns1:dateCopyrighted>
+    <ns1:rightsHolder>American Chemical Society</ns1:rightsHolder>
+    <sbol:displayId>sb200029a</sbol:displayId>
+    <ns1:references>Kistner, A., Gossen, M., Zimmermann, F., Jerecic, J., Ullmer, C., Lu&#776;bbert, H., Bujard, H. Doxycycline-mediated quantitative and tissue-specific control of gene expression in transgenic mice Proc.Natl. Acad. Sci. U.S.A. 1996. 93:10933-10938.</ns1:references>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/sb200029a"/>
+    <ns1:references>Forster, K., Helbl, V., Lederer, T., Urlinger, S., Wittenburg, N., Hillen, W. Tetracycline-inducible expression systems with reduced basal activity in mammalian cells Nucleic Acids Res. 1999. 27:708-710.</ns1:references>
+    <ns1:references>Naviaux, R. K., Costanzi, E., Haas, M., Verma, I. M. The pCL vector system: rapid production of helper-free, high-titer, recombinant retroviruses J. Virol. 1996. 70:5701-5705.</ns1:references>
+    <ns1:references>Alon, U. Network motifs: theory and experimental approaches Nat. Rev. Genet. 2007. 8:450-461.</ns1:references>
+    <ns1:references>Berens, C., Hillen, W. Gene regulation by tetracyclines. Constraints of resistance regulation in bacteria shape TetR for application in eukaryotes Eur. J. Biochem. 2003. 270:3109-3121.</ns1:references>
+    <ns1:references>Szulc, J., Wiznerowicz, M., Sauvain, M. O., Trono, D., Aebischer, P. A versatile tool for conditional gene expression and knockdown Nat. Methods 2006. 3:109-116.</ns1:references>
+    <ns1:isPartOf rdf:resource="http://pubs.acs.org/journal/asbcd6"/>
+    <sbol:member rdf:resource="http://examples.org/Sequence/sb200029a_5_sequence/1"/>
+    <ns3:OBI_0001617>23651153</ns3:OBI_0001617>
+    <ns1:references>Pluta, K., Luce, M. J., Bao, L., Agha-Mohammadi, S., Reiser, J. Tight control of transgene expression by lentivirus vectors containing second-generation tetracycline-responsive promoters J. Gene Med. 2005. 7:803-817.</ns1:references>
+    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb200029a_3_comp/1"/>
+    <ns1:type rdf:resource="http://purl.org/dc/dcmitype/Text"/>
+    <ns1:dateSubmitted>2011-12-27</ns1:dateSubmitted>
+    <ns1:references>Witzgall, R., O&#8217;Leary, E., Leaf, A., Onaldi, D., Bonventre, J. V. The Kru&#776;ppel-associated box-A (KRAB-A) domain of zinc finger proteins mediates transcriptional repression Proc. Natl. Acad. Sci. U.S.A. 1994. 91:4514-4518.</ns1:references>
+    <ns1:abstract>Tetracycline-regulated expression systems are widely used to control ectopic gene expression in mammalian cells. However, background or &#8220;leaky&#8221; expression in the &#8220;off&#8221; state can limit applications that require control of expression at low levels. In this work we have engineered a tetracycline-regulated expression system with an improved range of control and lower background expression. To lower background expression without diminishing the controllable expression range, we designed a feed-forward scheme that repressed both expression of the gene of interest and the transcriptional activator. By using a tetracycline-responsive repressor that can modify chromatin and repress transcription over short and long distances, we were able to repress these two expression targets using a single tetracycline-responsive genetic element. This dual-targeting repressor/activation system demonstrated decreased background expression in its &#8220;off&#8221; state and a 25-fold range of expression in response to doxycycline. This study demonstrates that genetic circuits can be improved by leveraging trans-acting factors with long-range capabilities.</ns1:abstract>
+    <ns2:creator>Kathryn A. Sullivan</ns2:creator>
+    <ns1:isPartOf>ACS Synthetic Biology</ns1:isPartOf>
+    <ns2:publisher>American Chemical
+Society</ns2:publisher>
+    <ns1:references>Schnappinger, D., Schubert, P., Pfleiderer, K., Hillen, W. Determinants of protein-protein recognition by four helix bundles: changing the dimerization specificity of Tet repressor EMBO J. 1998. 17:535-543.</ns1:references>
+    <ns2:subject>tetracycline-responsive
+transcriptional transactivator</ns2:subject>
+    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb200029a_4_comp/1"/>
+    <ns1:references>Gossen, M., Freundlieb, S., Bender, G., Mu&#776;ller, G., Hillen, W., Bujard, H. Transcriptional activation by tetracyclines in mammalian cells Science 1995. 268:1766-1769.</ns1:references>
+    <ns1:title>Tetracycline-Regulated Expression Implemented through Transcriptional Activation Combined with Proximal and Distal Repression</ns1:title>
+    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb200029a_6_comp/1"/>
+    <ns2:type>rapid-communication</ns2:type>
+    <ns1:references>Nistala, G. J., Wu, K., Rao, C. V., Bhalerao, K. D. A modular positive feedback-based gene amplifier J. Biol. Eng. 2010. 4.</ns1:references>
+    <ns1:references>Levy, S. B., McMurry, L. M., Barbosa, T. M., Burdett, V., Courvalin, P., Hillen, W., Roberts, M. C., Rood, J. I., Taylor, D. E. Nomenclature for new tetracycline resistance determinants Antimicrob. Agents Chemother. 1999. 43:1523-1524.</ns1:references>
+    <ns1:references>Gossen, M., Bujard, H. Tight control of gene expression in mammalian cells by tetracycline-responsive promoters Proc. Natl. Acad. Sci. U.S.A. 1992. 89:5547-5551.</ns1:references>
+    <ns1:created>2012-04-20</ns1:created>
+    <sbol:member rdf:resource="http://examples.org/Sequence/sb200029a_3_sequence/1"/>
+    <ns1:references>Freundlieb, S., Schirra-Mu&#776;ller, C., Bujard, H. A tetracycline controlled activation/repression system with increased potential for gene transfer into mammalian cells J. Gene Med. 1999. 1:4-12.</ns1:references>
+    <ns1:references>Rossi, F. M., Guicherit, O. M., Spicher, A., Kringstein, A. M., Fatyol, K., Blakely, B. T., Blau, H. M. Tetracycline-regulatable factors with distinct dimerization domains allow reversible growth inhibition by p16 Nat. Genet. 1998. 20:389-393.</ns1:references>
+    <ns1:references>Urlinger, S., Baron, U., Thellmann, M., Hasan, M. T., Bujard, H., Hillen, W. Exploring the sequence space for tetracycline-dependent transcriptional activators: novel mutations yield expanded range and sensitivity Proc. Natl. Acad. Sci. U.S.A. 2000. 97:7963-7968.</ns1:references>
+    <ns1:references>Allard, J. D., Bertrand, K. P. Sequence of a class E tetracycline resistance gene from Escherichia coli and comparison of related tetracycline efflux proteins J. Bacteriol. 1993. 175:4554-4560.</ns1:references>
+    <ns1:dateAccepted>2012-04-20</ns1:dateAccepted>
+    <ns0:wasDerivedFrom rdf:resource="https://pubs.acs.org/doi/10.1021/sb200029a"/>
+    <ns1:references>Baron, U., Schnappinger, D., Helbl, V., Gossen, M., Hillen, W., Bujard, H. Generation of conditional mutants in higher eukaryotes by switching between the expression of two genes Proc. Natl. Acad. Sci. U.S.A. 1999. 96:1013-1018.</ns1:references>
+  </sbol:Collection>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb200029a_5_sequence/1">
+    <sbol:displayId>sb200029a_5_sequence</sbol:displayId>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb200029a_5_sequence"/>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:version>1</sbol:version>
+    <sbol:elements>ccgggtccgggatttaccccc</sbol:elements>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb200029a_4_sequence/1">
+    <sbol:displayId>sb200029a_4_sequence</sbol:displayId>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb200029a_4_sequence"/>
+    <sbol:version>1</sbol:version>
+    <sbol:elements>tcactaactgcctggtcccggacac</sbol:elements>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb200029a_2_sequence/1">
+    <sbol:elements>aaggagggcatggatgctaa</sbol:elements>
+    <sbol:version>1</sbol:version>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb200029a_2_sequence"/>
+    <sbol:displayId>sb200029a_2_sequence</sbol:displayId>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb200029a_3_sequence/1">
+    <sbol:version>1</sbol:version>
+    <sbol:displayId>sb200029a_3_sequence</sbol:displayId>
+    <sbol:elements>tcaaactcgaagtcggccata</sbol:elements>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb200029a_3_sequence"/>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb200029a_1_sequence/1">
+    <sbol:version>1</sbol:version>
+    <sbol:elements>acgcgctagacgatttcgat</sbol:elements>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb200029a_1_sequence"/>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:displayId>sb200029a_1_sequence</sbol:displayId>
+  </sbol:Sequence>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb200029a_1_comp/1">
+    <sbol:version>1</sbol:version>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb200029a_1_sequence/1"/>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbol:displayId>sb200029a_1_comp</sbol:displayId>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb200029a_1_comp"/>
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/sb200029a"/>
+    <sbh:supplementalFile rdf:resource="file:///C:/Users/JVM/Downloads/sequence_supplementals/synbict_output/pdf"/>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb200029a_5_comp/1">
+    <sbol:displayId>sb200029a_5_comp</sbol:displayId>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb200029a_5_comp"/>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb200029a_5_sequence/1"/>
+    <sbol:version>1</sbol:version>
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/sb200029a"/>
+    <sbh:supplementalFile rdf:resource="file:///C:/Users/JVM/Downloads/sequence_supplementals/synbict_output/pdf"/>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+  </sbol:ComponentDefinition>
+</rdf:RDF>

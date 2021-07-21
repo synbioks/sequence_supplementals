@@ -1,0 +1,223 @@
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:sbh="https://wiki.synbiohub.org/wiki/Terms/synbiohub#" xmlns:sbol="http://sbols.org/v2#" xmlns:ns0="http://www.w3.org/ns/prov#" xmlns:ns1="http://purl.org/dc/terms/" xmlns:ns2="http://purl.org/dc/elements/1.1/" xmlns:ns3="http://purl.obolibrary.org/obo/">
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb8b00416_3_sequence/1">
+    <sbol:displayId>sb8b00416_3_sequence</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:elements>ttttttcatatggtgagcaagggcgaggagctgt</sbol:elements>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb8b00416_3_sequence"/>
+  </sbol:Sequence>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb8b00416_4_comp/1">
+    <sbol:version>1</sbol:version>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00416_4_comp"/>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb8b00416_4_sequence/1"/>
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.8b00416"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbh:supplementalFile rdf:resource="file:///C:/Users/JVM/Downloads/sequence_supplementals/synbict_output/sb8b00416/suppl/sb-2018-004168_si_001.pdf"/>
+    <sbol:displayId>sb8b00416_4_comp</sbol:displayId>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb8b00416_8_comp/1">
+    <sbol:displayId>sb8b00416_8_comp</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00416_8_comp"/>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb8b00416_8_sequence/1"/>
+    <sbh:supplementalFile rdf:resource="file:///C:/Users/JVM/Downloads/sequence_supplementals/synbict_output/sb8b00416/suppl/sb-2018-004168_si_001.pdf"/>
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.8b00416"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb8b00416_3_comp/1">
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbol:version>1</sbol:version>
+    <sbol:displayId>sb8b00416_3_comp</sbol:displayId>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb8b00416_3_sequence/1"/>
+    <sbh:supplementalFile rdf:resource="file:///C:/Users/JVM/Downloads/sequence_supplementals/synbict_output/sb8b00416/suppl/sb-2018-004168_si_001.pdf"/>
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.8b00416"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00416_3_comp"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+  </sbol:ComponentDefinition>
+  <sbol:Collection rdf:about="http://examples.org/sb8b00416/1">
+    <ns1:isPartOf>ACS Synthetic Biology</ns1:isPartOf>
+    <ns1:references>Carturan, G., Dal Toso, R., Boninsegna, S., Dal Monte, R. Encapsulation of functional cells by sol&#8211;gel silica: actual progress and perspectives for cell therapy J. Mater. Chem. 2004. 14:2087-2098.</ns1:references>
+    <ns1:dateAccepted>2018-11-12</ns1:dateAccepted>
+    <sbol:member rdf:resource="http://examples.org/Sequence/sb8b00416_6_sequence/1"/>
+    <ns1:dateCopyrighted>2018</ns1:dateCopyrighted>
+    <ns1:references>Petrasek, J., Friml, J. Auxin Transport Routes in Plant Development Development 2009. 136:2675-2688.</ns1:references>
+    <ns1:references>Harbaugh, S. V., Goodson, M. S., Dillon, K., Zabarnick, S., Kelley-Loughnane, N. Riboswitch-Based Reversible Dual Color Sensor ACS Synth. Biol. 2017. 6:766-781.</ns1:references>
+    <ns1:references>Kulma, A., Szopa, J. Catecholamines are active compounds in plants Plant Sci. 2007. 172:433-440.</ns1:references>
+    <ns2:subject>FeaR
+regulon</ns2:subject>
+    <ns1:references>Perrot-Rechenmann, C. Cellular Responses to Auxin: Division versus Expansion Cold Spring Harbor Perspect. Biol. 2010. 2.</ns1:references>
+    <ns3:OBI_0001617>30418753</ns3:OBI_0001617>
+    <ns1:abstract>Despite the importance of 2-phenylacetic acid, a plant hormone in the endogenous auxin family, its biosynthesis pathway has yet to be elucidated. In this study, we developed a novel whole-cell biosensor for the simultaneous quantification of 2-phenylacetic acid (PA) and 2-phenylethylamine (PEA) through the regulation of bacterial catabolism of aromatic compounds. We used the PA regulon to enable the recognition of PA and PEA. Differentiation of PEA from PA involves the incorporation of the FeaR regulon within the same whole-cell biosensor to report the presence of aromatic amines. The proposed system is highly sensitive to PA as well as PEA.</ns1:abstract>
+    <ns1:references>Spaepen, S., Vanderleyden, J., Remans, R. Indole-3-Acetic Acid in Microbial and Microorganism-Plant Signaling FEMS Microbiol. Rev. 2007. 31:425-448.</ns1:references>
+    <ns1:references>Schneider, E. A., Kazakoff, C. W., Wightman, F. Gas Chromatography-Mass Spectrometry Evidence for Several Endogenous Auxins in Pea Seedling Organs Planta 1985. 165:232-241.</ns1:references>
+    <ns1:dateSubmitted>2018-10-02</ns1:dateSubmitted>
+    <sbol:member rdf:resource="http://examples.org/Sequence/sb8b00416_3_sequence/1"/>
+    <ns1:references>Sugawara, S., Mashiguchi, K., Tanaka, K., Hishiyama, S., Sakai, T., Hanada, K., Kinoshita-Tsujimura, K., Yu, H., Dai, X., Takebayashi, Y., Takeda-Kamiya, N., Kakimoto, T., Kawaide, H., Natsume, M., Estelle, M., Zhao, Y., Hayashi, K.-i., Kamiya, Y., Kasahara, H. Distinct Characteristics of Indole-3-Acetic Acid and Phenylacetic Acid, Two Common Auxins in Plants Plant Cell Physiol. 2015. 56:1641-1654.</ns1:references>
+    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb8b00416_3_comp/1"/>
+    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb8b00416_4_comp/1"/>
+    <ns3:OBI_0002110 rdf:resource="https://doi.org/10.1021/acssynbio.8b00416"/>
+    <ns1:isPartOf rdf:resource="http://pubs.acs.org/journal/asbcd6"/>
+    <ns2:subject>E. coli</ns2:subject>
+    <ns1:description>Despite the importance of 2-phenylacetic acid, a plant hormone in the endogenous auxin family, its biosynthesis pathway has yet to be elucidated. In this study, we developed a novel whole-cell biosensor for the simultaneous quantification of 2-phenylacetic acid (PA) and 2-phenylethylamine (PEA) through the regulation of bacterial catabolism of aromatic compounds. We used the PA regulon to enable the recognition of PA and PEA. Differentiation of PEA from PA involves the incorporation of the FeaR regulon within the same whole-cell biosensor to report the presence of aromatic amines. The proposed system is highly sensitive to PA as well as PEA.</ns1:description>
+    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb8b00416_2_comp/1"/>
+    <ns1:references>Tromas, A., Braun, N., Muller, P., Khodus, T., Paponov, I. A., Palme, K., Ljung, K., Lee, J.-Y., Benfey, P., Murray, J. A. H., Scheres, B., Perrot-Rechenmann, C. The Axin Binding Protein 1 Is Required for Differential Auxin Responses Mediating Root Growth PLoS One 2009. 4.</ns1:references>
+    <sbol:displayId>sb8b00416</sbol:displayId>
+    <ns1:references>Dierckx, S., Van Puyvelde, S., Venken, L., Eberle, W., Vanderleyden, J. Design and Construction of a Whole Cell Bacterial 4-Hydroxyphenylacetic Acid and 2-Phenylacetic Acid Bioassay Front. Bioeng. Biotechnol. 2015. 3.</ns1:references>
+    <ns1:references>Teufel, R., Mascaraque, V., Ismail, W., Voss, M., Perera, J., Eisenreich, W., Haehnel, W., Fuchs, G. Bacterial Phenylalanine and Phenylacetate Catabolic Pathway Revealed Proc. Natl. Acad. Sci. U. S. A. 2010. 107:14390-14395.</ns1:references>
+    <ns2:publisher>American Chemical
+Society</ns2:publisher>
+    <ns1:references>Tseng, H.-W., Tsai, Y.-J., Yen, J.-H., Chen, P.-H., Yeh, Y.-C. A Fluorescence-Based Microbial Sensor for the Selective Detection of Gold Chem. Commun. 2014. 50:1735-1737.</ns1:references>
+    <ns1:references>Pernisova, M., Klima, P., Horak, J., Valkova, M., Malbeck, J., Soucek, P., Reichman, P., Hoyerova, K., Dubova, J., Friml, J., Zazimalova, E., Hejatko, J. Cytokinins Modulate Auxin-Induced Organogenesis in Plants via Regulation of the Auxin Efflux Proc. Natl. Acad. Sci. U. S. A. 2009. 106:3609-3614.</ns1:references>
+    <ns1:references>Lin, Y.-K., Yeh, Y.-C. Dual-Signal Microbial Biosensor for the Detection of Dopamine without Inference from Other Catecholamine Neurotransmitters Anal. Chem. 2017. 89:11178-11182.</ns1:references>
+    <ns1:references>Frank, W., L, L. D. Identification of Phenylacetic Acid as a Natural Auxin in the Shoots of Higher Plants Physiol. Plant. 1982. 55:17-24.</ns1:references>
+    <ns1:title>Cell-Based Biosensor with Dual Signal Outputs for Simultaneous Quantification of Phenylacetic Acid and Phenylethylamine</ns1:title>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/sb8b00416"/>
+    <sbol:member rdf:resource="http://examples.org/Sequence/sb8b00416_2_sequence/1"/>
+    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb8b00416_1_comp/1"/>
+    <ns2:creator>Kun-Hua Lu</ns2:creator>
+    <ns1:references>Vanneste, S., Friml, J. Auxin: A Trigger for Change in Plant Development Cell 2009. 136:1005-1016.</ns1:references>
+    <ns1:type rdf:resource="http://purl.org/dc/dcmitype/Text"/>
+    <ns1:references>Dobrev, P. I., Havli&#769;c&#780;ek, L., Va&#769;gner, M., Malbeck, J., Kami&#769;nek, M. Purification and Determination of Plant Hormones Auxin and Abscisic Acid Using Solid Phase Extraction and Two-Dimensional High Performance Liquid Chromatography J. Chromatogr. A 2005. 1075:159-166.</ns1:references>
+    <sbol:member rdf:resource="http://examples.org/Sequence/sb8b00416_7_sequence/1"/>
+    <ns1:references>Ferra&#769;ndez, A., Garci&#769;a, J. L., Di&#769;az, E. Transcriptional Regulation of the Divergent paa Catabolic Operons for Phenylacetic Acid Degradation in Escherichia coli J. Biol. Chem. 2000. 275:12214-12222.</ns1:references>
+    <ns1:references>Spaepen, S., Vanderleyden, J. Auxin and Plant-Microbe Interactions Cold Spring Harbor Perspect. Biol. 2011. 3.</ns1:references>
+    <ns1:references>Bereza-Malcolm, L. T., Mann, G., Franks, A. E. Environmental Sensing of Heavy Metals Through Whole Cell Microbial Biosensors: A Synthetic Biology Approach ACS Synth. Biol. 2015. 4:535-546.</ns1:references>
+    <ns2:creator>Kai-Hong Guo</ns2:creator>
+    <ns1:references>Walker, L., Estelle, M. Molecular Mechanisms of Auxin Action Curr. Opin. Plant Biol. 1998. 1:434-439.</ns1:references>
+    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb8b00416_6_comp/1"/>
+    <ns1:references>Han, J., Wang, B., Bender, M., Seehafer, K., Bunz, U. H. F. Water-Soluble Poly&#173;(p-aryleneethynylene)&#173;s: A Sensor Array Discriminates Aromatic Carboxylic Acids ACS Appl. Mater. Interfaces 2016. 8:20415-20421.</ns1:references>
+    <ns2:type>rapid-communication</ns2:type>
+    <ns2:subject>phenylacetic acid</ns2:subject>
+    <ns1:references>Chong, H., Ching, C. B. Development of Colorimetric-Based Whole-Cell Biosensor for Organophosphorus Compounds by Engineering Transcription Regulator DmpR ACS Synth. Biol. 2016. 5:1290-1298.</ns1:references>
+    <ns2:subject>aromatic acids</ns2:subject>
+    <ns1:references>Paulos, M. , Mosnaim, A. , Wolf, M. , and Tessel, R. (1984) Phenylethylamine, Phenylacetic Acid and Methionine Enkephalin Levels in Humans Following Profound Acute Stress. Neurobiology of the Trace Amines; Springer, pp 563&#8211;569 10.1007/978-1-4612-5312-9_49.</ns1:references>
+    <sbol:version>1</sbol:version>
+    <ns1:references>Guo, K. H., Chen, P. H., Lin, C., Chen, C. F., Lee, I. R., Yeh, Y. C. Determination of Gold Ions in Human Urine Using Genetically Engineered Microorganisms on a Paper Device ACS sensors 2018. 3:744-748.</ns1:references>
+    <ns1:references>Watstein, D. M., Styczynski, M. P. Development of a Pigment-Based Whole-Cell Zinc Biosensor for Human Serum ACS Synth. Biol. 2018. 7:267-275.</ns1:references>
+    <ns1:references>Struss, A., Pasini, P., Ensor, C. M., Raut, N., Daunert, S. Paper strip whole cell biosensors: a portable test for the semiquantitative detection of bacterial quorum signaling molecules Anal. Chem. 2010. 82:4457-4463.</ns1:references>
+    <ns1:references>Premkumar, J. R., Sagi, E., Rozen, R., Belkin, S., Modestov, A. D., Lev, O. Fluorescent Bacteria Encapsulated in Sol&#8211; Gel Derived Silicate Films Chem. Mater. 2002. 14:2676-2686.</ns1:references>
+    <ns1:references>Ferrandez, A., Minambres, B., Garcia, B., Olivera, E. R., Luengo, J. M., Garcia, J. L., Diaz, E. Catabolism of Phenylacetic Acid in Escherichia coli. Characterization of a New Aerobic Hybrid Pathway J. Biol. Chem. 1998. 273:25974-25986.</ns1:references>
+    <ns2:creator>Yi-Chun Yeh</ns2:creator>
+    <ns2:subject>auxin</ns2:subject>
+    <ns1:references>Prieto, M. A., Galan, B., Torres, B., Ferrandez, A., Fernandez, C., Minambres, B., Garcia, J. L., Diaz, E. Aromatic Metabolism versus Carbon Availability: the Regulatory Network That Controls Catabolism of Less-Preferred Carbon Sources in Escherichia coli FEMS Microbiol. Rev. 2004. 28:503-518.</ns1:references>
+    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb8b00416_5_comp/1"/>
+    <ns0:wasDerivedFrom rdf:resource="https://pubs.acs.org/doi/10.1021/acssynbio.8b00416"/>
+    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb8b00416_8_comp/1"/>
+    <ns1:references>Cao, J., Murch, S. J., O&#8217;Brien, R., Saxena, P. K. Rapid Method for Accurate Analysis of Melatonin, Serotonin and Auxin in Plant Samples Using Liquid Chromatography&#8211;Tandem Mass Spectrometry J. Chromatogr. A 2006. 1134:333-337.</ns1:references>
+    <ns1:references>Cohen, J. D., Baldi, B. G., Slovin, J. P. (13)&#173;C&#173;(6)-[Benzene Ring]-Indole-3-Acetic Acid: A New Internal Standard for Quantitative Mass Spectral Analysis of Indole-3-Acetic Acid in Plants Plant Physiol. 1986. 80:14-19.</ns1:references>
+    <ns1:rightsHolder>American Chemical
+Society</ns1:rightsHolder>
+    <ns1:references>Zeng, J., Spiro, S. Finely Tuned Regulation of the Aromatic Amine Degradation Pathway in Escherichia coli J. Bacteriol. 2013. 195:5141-5150.</ns1:references>
+    <ns1:references>Diaz, E., Ferrandez, A., Prieto, M. A., Garcia, J. L. Biodegradation of Aromatic Compounds by Escherichia coli Microbiol. Mol. Biol. Rev. 2001. 65:523-569.</ns1:references>
+    <ns2:subject>phenylethylamine</ns2:subject>
+    <sbol:member rdf:resource="http://examples.org/Sequence/sb8b00416_1_sequence/1"/>
+    <sbol:member rdf:resource="http://examples.org/Sequence/sb8b00416_5_sequence/1"/>
+    <ns1:references>Cook, S. D., Nichols, D. S., Smith, J., Chourey, P. S., McAdam, E. L., Quittenden, L., Ross, J. J. Auxin Biosynthesis: Are the Indole-3-Acetic Acid and Phenylacetic Acid Biosynthesis Pathways Mirror Images? Plant Physiol. 2016. 171:1230-1241.</ns1:references>
+    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb8b00416_7_comp/1"/>
+    <ns1:references>Kaminaga, Y., Schnepp, J., Peel, G., Kish, C. M., Ben-Nissan, G., Weiss, D., Orlova, I., Lavie, O., Rhodes, D., Wood, K., Porterfield, D. M., Cooper, A. J. L., Schloss, J. V., Pichersky, E., Vainstein, A., Dudareva, N. Plant Phenylacetaldehyde Synthase Is a Bifunctional Homotetrameric Enzyme That Catalyzes Phenylalanine Decarboxylation and Oxidation J. Biol. Chem. 2006. 281:23357-23366.</ns1:references>
+    <sbol:member rdf:resource="http://examples.org/Sequence/sb8b00416_4_sequence/1"/>
+    <sbol:member rdf:resource="http://examples.org/Sequence/sb8b00416_8_sequence/1"/>
+    <ns1:created>2018-11-12</ns1:created>
+  </sbol:Collection>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb8b00416_1_comp/1">
+    <sbol:version>1</sbol:version>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb8b00416_1_sequence/1"/>
+    <sbol:displayId>sb8b00416_1_comp</sbol:displayId>
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.8b00416"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00416_1_comp"/>
+    <sbh:supplementalFile rdf:resource="file:///C:/Users/JVM/Downloads/sequence_supplementals/synbict_output/sb8b00416/suppl/sb-2018-004168_si_001.pdf"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+  </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb8b00416_1_sequence/1">
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:displayId>sb8b00416_1_sequence</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb8b00416_1_sequence"/>
+    <sbol:elements>ttttagatctaaaaaaaaaccccgcccctgacagggcggggtttttttttagcaactgcggaaaacattaatgc</sbol:elements>
+  </sbol:Sequence>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb8b00416_5_comp/1">
+    <sbol:displayId>sb8b00416_5_comp</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb8b00416_5_sequence/1"/>
+    <sbh:supplementalFile rdf:resource="file:///C:/Users/JVM/Downloads/sequence_supplementals/synbict_output/sb8b00416/suppl/sb-2018-004168_si_001.pdf"/>
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.8b00416"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00416_5_comp"/>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb8b00416_7_comp/1">
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:displayId>sb8b00416_7_comp</sbol:displayId>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb8b00416_7_sequence/1"/>
+    <sbh:supplementalFile rdf:resource="file:///C:/Users/JVM/Downloads/sequence_supplementals/synbict_output/sb8b00416/suppl/sb-2018-004168_si_001.pdf"/>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbol:version>1</sbol:version>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00416_7_comp"/>
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.8b00416"/>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb8b00416_6_comp/1">
+    <sbol:version>1</sbol:version>
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.8b00416"/>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb8b00416_6_sequence/1"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbh:supplementalFile rdf:resource="file:///C:/Users/JVM/Downloads/sequence_supplementals/synbict_output/sb8b00416/suppl/sb-2018-004168_si_001.pdf"/>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00416_6_comp"/>
+    <sbol:displayId>sb8b00416_6_comp</sbol:displayId>
+  </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb8b00416_5_sequence/1">
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:version>1</sbol:version>
+    <sbol:elements>ttttagatcttttaagaaggagatataatgataaccaatacaaagcttgacccg</sbol:elements>
+    <sbol:displayId>sb8b00416_5_sequence</sbol:displayId>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb8b00416_5_sequence"/>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb8b00416_6_sequence/1">
+    <sbol:version>1</sbol:version>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb8b00416_6_sequence"/>
+    <sbol:displayId>sb8b00416_6_sequence</sbol:displayId>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:elements>ttttctcgagaaaaggatcccaatctcggagtgcgcatgct</sbol:elements>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb8b00416_8_sequence/1">
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb8b00416_8_sequence"/>
+    <sbol:displayId>sb8b00416_8_sequence</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:elements>ttttctcgagaaaaggatccctatctgataaattggcataacgcctcc</sbol:elements>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb8b00416_4_sequence/1">
+    <sbol:elements>ttttggatccttacttgtacagctcgtccatgccgagagt</sbol:elements>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb8b00416_4_sequence"/>
+    <sbol:version>1</sbol:version>
+    <sbol:displayId>sb8b00416_4_sequence</sbol:displayId>
+  </sbol:Sequence>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb8b00416_2_comp/1">
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb8b00416_2_sequence/1"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb8b00416_2_comp"/>
+    <sbh:supplementalFile rdf:resource="file:///C:/Users/JVM/Downloads/sequence_supplementals/synbict_output/sb8b00416/suppl/sb-2018-004168_si_001.pdf"/>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbol:version>1</sbol:version>
+    <sbol:displayId>sb8b00416_2_comp</sbol:displayId>
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.8b00416"/>
+  </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb8b00416_2_sequence/1">
+    <sbol:version>1</sbol:version>
+    <sbol:displayId>sb8b00416_2_sequence</sbol:displayId>
+    <sbol:elements>ttttagatctaaaaaaaaaccccgcccctgacagggcggggttttttttaactgtgacggatttcgcac</sbol:elements>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb8b00416_2_sequence"/>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb8b00416_7_sequence/1">
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb8b00416_7_sequence"/>
+    <sbol:displayId>sb8b00416_7_sequence</sbol:displayId>
+    <sbol:elements>ttttctcgagaaaaggatccgtggtgaatcaaacggctacgg</sbol:elements>
+    <sbol:version>1</sbol:version>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+  </sbol:Sequence>
+</rdf:RDF>

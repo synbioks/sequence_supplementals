@@ -1,0 +1,176 @@
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:sbh="https://wiki.synbiohub.org/wiki/Terms/synbiohub#" xmlns:sbol="http://sbols.org/v2#" xmlns:ns0="http://www.w3.org/ns/prov#" xmlns:ns1="http://purl.obolibrary.org/obo/" xmlns:ns2="http://purl.org/dc/terms/" xmlns:ns3="http://purl.org/dc/elements/1.1/">
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb5b00261_3_sequence/1">
+    <sbol:elements>ctagca</sbol:elements>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb5b00261_3_sequence"/>
+    <sbol:displayId>sb5b00261_3_sequence</sbol:displayId>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:version>1</sbol:version>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb5b00261_1_sequence/1">
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:version>1</sbol:version>
+    <sbol:displayId>sb5b00261_1_sequence</sbol:displayId>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb5b00261_1_sequence"/>
+    <sbol:elements>ctagca</sbol:elements>
+  </sbol:Sequence>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb5b00261_5_comp/1">
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbh:supplementalFile rdf:resource="file:///C:/Users/JVM/Downloads/sequence_supplementals/synbict_output/pdf"/>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb5b00261_5_comp"/>
+    <sbol:displayId>sb5b00261_5_comp</sbol:displayId>
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.5b00261"/>
+    <sbol:version>1</sbol:version>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb5b00261_5_sequence/1"/>
+  </sbol:ComponentDefinition>
+  <sbol:Collection rdf:about="http://examples.org/sb5b00261/1">
+    <ns1:OBI_0002110 rdf:resource="https://doi.org/10.1021/acssynbio.5b00261"/>
+    <ns2:references>Bentley, W. E., Mirjalili, N., Andersen, D. C., Davis, R. H., Kompala, D. S. Plasmid-encoded protein: the principal factor in the &#8220;metabolic burden&#8221; associated with recombinant bacteria Biotechnol. Bioeng. 1990. 35:668-681.</ns2:references>
+    <ns2:references>Raser, J. M., O&#8217;Shea, E. K. Noise in gene expression: origins, consequences, and control Science 2005. 309:2010-2013.</ns2:references>
+    <ns2:description>While inducing agents are often used to redirect resources from growth and proliferation toward product outputs, they can be prohibitively expensive on the industrial scale. Previously, we developed an autonomously guided protein production system based on the rewiring of E. coli&#8217;s native quorum sensing (QS) signal transduction cascade. Self-secreted autoinducer, AI-2, accumulated over time and actuated recombinant gene expression&#58872;its design, co-opting the collective nature of QS-mediated behavior. We recently demonstrated that desynchronization of autoinduced intercellular feedback leads to bimodality in QS activation. In this work, we developed a new QS-enabled system with enhanced feedback to reduce cell heterogeneity. This narrows the population distribution of protein expression, leading to significant per cell and overall increases in productivity. We believe directed engineering of cell populations and/or cell consortia will offer many such opportunities in future bioprocessing applications.</ns2:description>
+    <ns2:rightsHolder>American Chemical Society</ns2:rightsHolder>
+    <sbol:member rdf:resource="http://examples.org/Sequence/sb5b00261_1_sequence/1"/>
+    <ns2:title>Enhancing Intercellular Coordination: Rewiring Quorum Sensing Networks for Increased Protein Expression through Autonomous Induction</ns2:title>
+    <ns3:subject>autonomous</ns3:subject>
+    <ns3:type>rapid-communication</ns3:type>
+    <ns2:references>Servinsky, M. D., Terrell, J. L., Tsao, C.-Y., Wu, H.-C., Quan, D. N., Zargar, A., Allen, P. C., Byrd, C. M., Sund, C. J., Bentley, W. E. Directed assembly of a bacterial quorum ISME J. 2016. 10.</ns2:references>
+    <ns3:creator>William E. Bentley</ns3:creator>
+    <ns3:creator>David N. Quan</ns3:creator>
+    <ns2:dateSubmitted>2015-12-01</ns2:dateSubmitted>
+    <ns2:references>Tsao, C.-Y., Hooshangi, S., Wu, H.-C., Valdes, J. J., Bentley, W. E. Autonomous induction of recombinant proteins by minimally rewiring native quorum sensing regulon of E. coli Metab. Eng. 2010. 12:291-297.</ns2:references>
+    <ns2:isPartOf rdf:resource="http://pubs.acs.org/journal/asbcd6"/>
+    <ns2:references>Zargar, A., Payne, G. F., Bentley, W. E. A &#8216;bioproduction breadboard&#8217;: programming, assembling, and actuating cellular networks Curr. Opin. Biotechnol. 2015. 36:154-160.</ns2:references>
+    <sbol:version>1</sbol:version>
+    <ns2:references>Siegele, D. A., Hu, J. C. Gene expression from plasmids containing the araBAD promoter at subsaturating inducer concentrations represents mixed populations Proc. Natl. Acad. Sci. U. S. A. 1997. 94:8168-8172.</ns2:references>
+    <sbol:member rdf:resource="http://examples.org/Sequence/sb5b00261_4_sequence/1"/>
+    <ns2:references>Wittrup, K. D., Bailey, J. E. A segregated model of recombinant multicopy plasmid propagation Biotechnol. Bioeng. 1988. 31:304-310.</ns2:references>
+    <ns2:references>Quan, D. N., Tsao, C.-Y., Wu, H. C., Bentley, W. E. Quorum sensing desynchronization leads to bimodality and patterned behaviors PLoS Comp. Biol. 2016.</ns2:references>
+    <ns3:publisher>American Chemical
+Society</ns3:publisher>
+    <ns2:references>Solomon, K. V., Prather, K. L. The zero-sum game of pathway optimization: Emerging paradigms for tuning gene expression Biotechnol. J. 2011. 6:1064-1070.</ns2:references>
+    <ns3:creator>Amin Zargar</ns3:creator>
+    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb5b00261_2_comp/1"/>
+    <sbol:member rdf:resource="http://examples.org/Sequence/sb5b00261_5_sequence/1"/>
+    <ns2:references>Bentley, W. E., Zargar, A., Payne, G. F. Plug and Play? Interconnected multifunctional chips for enhancing efficiency of biopharmaceutical R Pharmaceutical Bioprocessing 2013. 1:225-228.</ns2:references>
+    <ns2:isPartOf>ACS Synthetic Biology</ns2:isPartOf>
+    <ns2:references>Fuqua, W. C., Winans, S. C., Greenberg, E. P. Quorum sensing in bacteria: the LuxR-LuxI family of cell density-responsive transcriptional regulators J. Bacteriol. 1994. 176.</ns2:references>
+    <ns2:dateCopyrighted>2016</ns2:dateCopyrighted>
+    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb5b00261_5_comp/1"/>
+    <ns2:references>Xu, P., Li, L., Zhang, F., Stephanopoulos, G., Koffas, M. Improving fatty acids production by engineering dynamic pathway regulation and metabolic control Proc. Natl. Acad. Sci. U. S. A. 2014. 111:11299-11304.</ns2:references>
+    <ns2:references>Dahl, R. H., Zhang, F., Alonso-Gutierrez, J., Baidoo, E., Batth, T. S., Redding-Johanson, A. M., Petzold, C. J., Mukhopadhyay, A., Lee, T. S., Adams, P. D. Engineering dynamic pathway regulation using stress-response promoters Nat. Biotechnol. 2013. 31:1039-1046.</ns2:references>
+    <sbol:member rdf:resource="http://examples.org/Sequence/sb5b00261_6_sequence/1"/>
+    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb5b00261_4_comp/1"/>
+    <ns3:subject>quorum sensing</ns3:subject>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/sb5b00261"/>
+    <ns3:rights>Copyright &amp; 2016 American Chemical Society</ns3:rights>
+    <ns2:references>Bassler, B. L., Greenberg, E. P., Stevens, A. M. Cross-species induction of luminescence in the quorum-sensing bacterium Vibrio harveyi J. Bacteriol. 1997. 179:4043-4045.</ns2:references>
+    <ns0:wasDerivedFrom rdf:resource="https://pubs.acs.org/doi/10.1021/acssynbio.5b00261"/>
+    <ns2:references>Blake, W. J., Bala&#769;zsi, G., Kohanski, M. A., Isaacs, F. J., Murphy, K. F., Kuang, Y., Cantor, C. R., Walt, D. R., Collins, J. J. Phenotypic Consequences of Promoter-Mediated Transcriptional Noise Mol. Cell 2006. 24:853-865.</ns2:references>
+    <ns3:subject>protein production</ns3:subject>
+    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb5b00261_3_comp/1"/>
+    <sbol:member rdf:resource="http://examples.org/Sequence/sb5b00261_3_sequence/1"/>
+    <ns2:references>Wang, L., Hashimoto, Y., Tsao, C.-Y., Valdes, J. J., Bentley, W. E. Cyclic AMP (cAMP) and cAMP receptor protein influence both synthesis and uptake of extracellular autoinducer 2 in Escherichia coli Journal of bacteriology 2005. 187:2066-2076.</ns2:references>
+    <ns2:references>Xavier, K. B., Bassler, B. L. Regulation of Uptake and Processing of the Quorum-Sensing Autoinducer AI-2 in Escherichia coli J. Bacteriol. 2005. 187:238-248.</ns2:references>
+    <ns2:references>Soma, Y., Hanai, T. Self-induced metabolic state switching by a tunable cell density sensor for microbial isopropanol production Metab. Eng. 2015. 30:7-15.</ns2:references>
+    <ns2:references>Tai, M., Stephanopoulos, G. Engineering the push and pull of lipid biosynthesis in oleaginous yeast Yarrowia lipolytica for biofuel production Metab. Eng. 2013. 15:1-9.</ns2:references>
+    <ns3:subject>pathway engineering</ns3:subject>
+    <ns2:references>Liu, H., Lu, T. Autonomous production of 1,4-butanediol via a de novo biosynthesis pathway in engineered Escherichia coli Metab. Eng. 2015. 29:135-141.</ns2:references>
+    <ns1:OBI_0001617>27267750</ns1:OBI_0001617>
+    <ns2:references>Keasling, J. D. Manufacturing molecules through metabolic engineering Science 2010. 330:1355-1358.</ns2:references>
+    <ns2:references>Lentini, R., Santero, S. P., Chizzolini, F., Cecchi, D., Fontana, J., Marchioretto, M., Del Bianco, C., Terrell, J. L., Spencer, A. C., Martini, L. Integrating artificial with natural cells to translate chemical messages that direct E. coli behaviour Nat. Commun. 2014.</ns2:references>
+    <ns2:abstract>While inducing agents are often used to redirect resources from growth and proliferation toward product outputs, they can be prohibitively expensive on the industrial scale. Previously, we developed an autonomously guided protein production system based on the rewiring of E. coli&#8217;s native quorum sensing (QS) signal transduction cascade. Self-secreted autoinducer, AI-2, accumulated over time and actuated recombinant gene expression&#58872;its design, co-opting the collective nature of QS-mediated behavior. We recently demonstrated that desynchronization of autoinduced intercellular feedback leads to bimodality in QS activation. In this work, we developed a new QS-enabled system with enhanced feedback to reduce cell heterogeneity. This narrows the population distribution of protein expression, leading to significant per cell and overall increases in productivity. We believe directed engineering of cell populations and/or cell consortia will offer many such opportunities in future bioprocessing applications.</ns2:abstract>
+    <ns2:references>Farmer, W. R., Liao, J. C. Improving lycopene production in Escherichia coli by engineering metabolic control Nat. Biotechnol. 2000. 18:533-537.</ns2:references>
+    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb5b00261_6_comp/1"/>
+    <ns2:references>Harcum, S. W., Bentley, W. E. Response dynamics of 26-, 34-, 39-, 54-, and 80-kDa proteases in induced cultures of recombinant Escherichia coli Biotechnol. Bioeng. 1993. 42:675-685.</ns2:references>
+    <ns2:type rdf:resource="http://purl.org/dc/dcmitype/Text"/>
+    <ns3:subject>feedback</ns3:subject>
+    <ns2:references>Stephanopoulos, G. Synthetic biology and metabolic engineering ACS Synth. Biol. 2012. 1:514-525.</ns2:references>
+    <ns2:references>Sambrook J. , Fritsch E. F. , and Maniatis T. (1989) Molecular Cloning, Vol. 2, Cold Spring Harbor Laboratory Press, New York.</ns2:references>
+    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb5b00261_1_comp/1"/>
+    <ns2:references>DeLisa, M. P., Valdes, J. J., Bentley, W. E. Quorum Signaling via AI-2 Communicates the &#8217;Metabolic Burden&#8217; Associated with Heterologous Protein Production Biotechnol. Bioeng. 2001. 75.</ns2:references>
+    <sbol:member rdf:resource="http://examples.org/Sequence/sb5b00261_2_sequence/1"/>
+    <sbol:displayId>sb5b00261</sbol:displayId>
+    <ns2:references>Brockman, I. M., Prather, K. L. Dynamic metabolic engineering: New strategies for developing responsive cell factories Biotechnol. J. 2015. 10.</ns2:references>
+    <ns2:references>Zargar, A., Quan, D. N., Emamian, M., Tsao, C. Y., Wu, H.-C., Virgile, C. R., Bentley, W. E. Rational design of &#8216;controller cells&#8217; to manipulate protein and phenotype expression Metab. Eng. 2015. 30:61-68.</ns2:references>
+    <ns3:subject>autoinducer 2</ns3:subject>
+    <ns2:references>Gibson, D. G., Young, L., Chuang, R.-Y., Venter, J. C., Hutchison, C. A., Smith, H. O. Enzymatic assembly of DNA molecules up to several hundred kilobases Nat. Methods 2009. 6:343-345.</ns2:references>
+  </sbol:Collection>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb5b00261_6_sequence/1">
+    <sbol:version>1</sbol:version>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:elements>catcca</sbol:elements>
+    <sbol:displayId>sb5b00261_6_sequence</sbol:displayId>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb5b00261_6_sequence"/>
+  </sbol:Sequence>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb5b00261_4_comp/1">
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.5b00261"/>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb5b00261_4_sequence/1"/>
+    <sbol:version>1</sbol:version>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:displayId>sb5b00261_4_comp</sbol:displayId>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb5b00261_4_comp"/>
+    <sbh:supplementalFile rdf:resource="file:///C:/Users/JVM/Downloads/sequence_supplementals/synbict_output/pdf"/>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb5b00261_6_comp/1">
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.5b00261"/>
+    <sbol:version>1</sbol:version>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb5b00261_6_sequence/1"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb5b00261_6_comp"/>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbol:displayId>sb5b00261_6_comp</sbol:displayId>
+    <sbh:supplementalFile rdf:resource="file:///C:/Users/JVM/Downloads/sequence_supplementals/synbict_output/pdf"/>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb5b00261_1_comp/1">
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.5b00261"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb5b00261_1_comp"/>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb5b00261_1_sequence/1"/>
+    <sbh:supplementalFile rdf:resource="file:///C:/Users/JVM/Downloads/sequence_supplementals/synbict_output/pdf"/>
+    <sbol:version>1</sbol:version>
+    <sbol:displayId>sb5b00261_1_comp</sbol:displayId>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb5b00261_3_comp/1">
+    <sbol:displayId>sb5b00261_3_comp</sbol:displayId>
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.5b00261"/>
+    <sbol:version>1</sbol:version>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb5b00261_3_sequence/1"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb5b00261_3_comp"/>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbh:supplementalFile rdf:resource="file:///C:/Users/JVM/Downloads/sequence_supplementals/synbict_output/pdf"/>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb5b00261_2_comp/1">
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbol:displayId>sb5b00261_2_comp</sbol:displayId>
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.5b00261"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:version>1</sbol:version>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb5b00261_2_comp"/>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb5b00261_2_sequence/1"/>
+    <sbh:supplementalFile rdf:resource="file:///C:/Users/JVM/Downloads/sequence_supplementals/synbict_output/pdf"/>
+  </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb5b00261_4_sequence/1">
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:elements>catcca</sbol:elements>
+    <sbol:version>1</sbol:version>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb5b00261_4_sequence"/>
+    <sbol:displayId>sb5b00261_4_sequence</sbol:displayId>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb5b00261_2_sequence/1">
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:displayId>sb5b00261_2_sequence</sbol:displayId>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb5b00261_2_sequence"/>
+    <sbol:version>1</sbol:version>
+    <sbol:elements>catcca</sbol:elements>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb5b00261_5_sequence/1">
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:version>1</sbol:version>
+    <sbol:displayId>sb5b00261_5_sequence</sbol:displayId>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb5b00261_5_sequence"/>
+    <sbol:elements>ctagca</sbol:elements>
+  </sbol:Sequence>
+</rdf:RDF>

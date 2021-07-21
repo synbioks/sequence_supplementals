@@ -1,0 +1,185 @@
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:sbh="https://wiki.synbiohub.org/wiki/Terms/synbiohub#" xmlns:sbol="http://sbols.org/v2#" xmlns:ns0="http://www.w3.org/ns/prov#" xmlns:ns1="http://purl.org/dc/terms/" xmlns:ns2="http://purl.org/dc/elements/1.1/" xmlns:ns3="http://purl.obolibrary.org/obo/">
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb6b00255_2_sequence/1">
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:displayId>sb6b00255_2_sequence</sbol:displayId>
+    <sbol:elements>ccgacagtcgacgccaccatgaagagagatcatcatcatcat</sbol:elements>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb6b00255_2_sequence"/>
+    <sbol:version>1</sbol:version>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb6b00255_4_sequence/1">
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb6b00255_4_sequence"/>
+    <sbol:elements>ccgacaacgcgtgtgcctttgtatggttttact</sbol:elements>
+    <sbol:displayId>sb6b00255_4_sequence</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+  </sbol:Sequence>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb6b00255_3_comp/1">
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbh:supplementalFile rdf:resource="file:///C:/Users/JVM/Downloads/sequence_supplementals/synbict_output/pdf"/>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb6b00255_3_sequence/1"/>
+    <sbol:displayId>sb6b00255_3_comp</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb6b00255_3_comp"/>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.6b00255"/>
+  </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb6b00255_6_sequence/1">
+    <sbol:version>1</sbol:version>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:elements>ccgacaggcgcgccaggatctggtggaggtggatcaggtaagagagatcatcatcatcat</sbol:elements>
+    <sbol:displayId>sb6b00255_6_sequence</sbol:displayId>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb6b00255_6_sequence"/>
+  </sbol:Sequence>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb6b00255_4_comp/1">
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb6b00255_4_comp"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:displayId>sb6b00255_4_comp</sbol:displayId>
+    <sbh:supplementalFile rdf:resource="file:///C:/Users/JVM/Downloads/sequence_supplementals/synbict_output/pdf"/>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb6b00255_4_sequence/1"/>
+    <sbol:version>1</sbol:version>
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.6b00255"/>
+  </sbol:ComponentDefinition>
+  <sbol:Collection rdf:about="http://examples.org/sb6b00255/1">
+    <ns1:references>Rogers, J. K., Taylor, N. D., Church, G. M. Biosensor-based engineering of biosynthetic pathways Curr. Opin. Biotechnol. 2016. 42:84-91.</ns1:references>
+    <ns1:references>Mercer, A. E., Maggs, J. L., Sun, X. M., Cohen, G. M., Chadwick, J., O&#8217;Neill, P. M., Park, B. K. Evidence for the involvement of carbon-centered radicals in the induction of apoptotic cell death by artemisinin compounds J. Biol. Chem. 2007. 282:9372-9382.</ns1:references>
+    <ns2:creator>Larisa E. Breden</ns2:creator>
+    <ns2:creator>Guihua Zeng</ns2:creator>
+    <sbol:member rdf:resource="http://examples.org/Sequence/sb6b00255_6_sequence/1"/>
+    <ns3:OBI_0001617>28221778</ns3:OBI_0001617>
+    <ns1:references>Fegan, A., White, B., Carlson, J. C., Wagner, C. R. Chemically controlled protein assembly: techniques and applications Chem. Rev. 2010. 110:3315-3336.</ns1:references>
+    <ns1:dateAccepted>2017-02-21</ns1:dateAccepted>
+    <ns1:created>2017-02-21</ns1:created>
+    <ns2:subject>cell signaling</ns2:subject>
+    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb6b00255_2_comp/1"/>
+    <ns2:creator>Weimin Xuan</ns2:creator>
+    <ns1:references>Lienert, F., Lohmueller, J. J., Garg, A., Silver, P. A. Synthetic biology in mammalian cells: next generation research tools and therapeutics Nat. Rev. Mol. Cell Biol. 2014. 15:95-107.</ns1:references>
+    <ns1:references>Miyamoto, T., Razavi, S., DeRose, R., Inoue, T. Synthesizing biomolecule-based Boolean logic gates ACS Synth. Biol. 2013. 2:72-82.</ns1:references>
+    <ns1:references>Hirayama, T., Okuda, K., Nagasawa, H. A highly selective turn-on fluorescent probe for iron (II) to visualize labile iron in living cells Chem. Sci. 2013. 4:1250-1256.</ns1:references>
+    <ns1:references>Jenner, P. Oxidative stress in Parkinson&#8217;s disease Ann. Neurol. 2003. 53.</ns1:references>
+    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb6b00255_6_comp/1"/>
+    <ns1:references>Michiels, F., Habets, G. G., Stam, J. C., van der Kammen, R. A., Collard, J. G. A role for Rac in Tiaml-induced membrane ruffling and invasion Nature 1995. 375:338-340.</ns1:references>
+    <ns1:references>Li, P. L., Fang, L., Zhou, H., Zhang, W., Wang, X., Li, N., Zhong, H., Tang, B. A new ratiometric fluorescent probe for detection of Fe2+ with high sensitivity and its intracellular imaging applications Chem. - Eur. J. 2011. 17:10520-10523.</ns1:references>
+    <sbol:member rdf:resource="http://examples.org/Sequence/sb6b00255_2_sequence/1"/>
+    <ns2:type>rapid-communication</ns2:type>
+    <ns1:references>Xuan, W., Pan, R., Wei, Y., Cao, Y., Li, H., Liang, F. S., Liu, K. J., Wang, W.  Bioconjugate Chem. 2016. 27:302-308.</ns1:references>
+    <ns1:references>Gao, Y., Dickerson, J. B., Guo, F., Zheng, J., Zheng, Y. Rational design and characterization of a Rac GTPase-specific small molecule inhibitor Proc. Natl. Acad. Sci. U. S. A. 2004. 101:7618-7623.</ns1:references>
+    <ns1:references>Gestwicki, J. E., Marinec, P. S. Chemical control over protein-protein interactions: beyond inhibitors Comb. Chem. High Throughput Screening 2007. 10:667-675.</ns1:references>
+    <ns1:description>A new synthetic biology engineering strategy integrating chemical reactivity sensing and small molecule induced protein dimerization has been developed to generate artificial Fe2+ signaling circuitry to control tailored cellular events in mammalian cells. The dual function probe ABA-FE18 (Fe2+-sensing and protein dimerization) derived from ABA was developed and used to control gene activation, signal transduction, and cytoskeletal remodeling in response to Fe2+. This technology was utilized to design signal circuitry incorporating &#8220;AND&#8221; and &#8220;OR&#8221; biologic gates that enables mammalian cells to translate different combinations of Fe2+ and H2O2 signals into predefined biological outputs.</ns1:description>
+    <ns2:subject>biologic gate</ns2:subject>
+    <sbol:member rdf:resource="http://examples.org/Sequence/sb6b00255_1_sequence/1"/>
+    <ns2:subject>labile iron</ns2:subject>
+    <ns1:dateSubmitted>2016-09-14</ns1:dateSubmitted>
+    <ns1:references>Wang, Y. H., Wei, K. Y., Smolke, C. D. Synthetic biology: advancing the design of diverse genetic systems Annu. Rev. Chem. Biomol. Eng. 2013. 4.</ns1:references>
+    <ns1:references>Nandagopal, N., Elowitz, M. B. Synthetic biology: integrated gene circuits Science (Washington, DC, U. S.) 2011. 333:1244-1248.</ns1:references>
+    <ns1:references>Wright, C. W., Guo, Z. F., Liang, F. S. Light control of cellular processes by using photocaged abscisic acid ChemBioChem 2015. 16:254-261.</ns1:references>
+    <ns1:references>Breuer, W., Shvartsman, M., Cabantchik, Z. I. Intracellular labile iron Int. J. Biochem. Cell Biol. 2008. 40:350-354.</ns1:references>
+    <sbol:displayId>sb6b00255</sbol:displayId>
+    <sbol:member rdf:resource="http://examples.org/Sequence/sb6b00255_4_sequence/1"/>
+    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb6b00255_1_comp/1"/>
+    <ns2:creator>Fu-Sen Liang</ns2:creator>
+    <ns1:title>Engineering Iron Responses in Mammalian Cells by Signal-Induced Protein Proximity</ns1:title>
+    <ns1:isPartOf>ACS Synthetic Biology</ns1:isPartOf>
+    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb6b00255_4_comp/1"/>
+    <ns2:publisher>American Chemical
+Society</ns2:publisher>
+    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb6b00255_5_comp/1"/>
+    <sbol:member rdf:resource="http://examples.org/ComponentDefinition/sb6b00255_3_comp/1"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/sb6b00255"/>
+    <ns1:references>Dixon, S. J., Stockwell, B. R. The role of iron and reactive oxygen species in cell death Nat. Chem. Biol. 2014. 10:9-17.</ns1:references>
+    <ns1:references>DeRose, R., Miyamoto, T., Inoue, T. Manipulating signaling at will: chemically-inducible dimerization (CID) techniques resolve problems in cell biology Pfluegers Arch. 2013. 465:409-417.</ns1:references>
+    <ns2:creator>Wei Wang</ns2:creator>
+    <ns1:references>Zeng, G., Zhang, R., Xuan, W., Wang, W., Liang, F. S. Constructing de Novo H2O2 Signaling via Induced Protein Proximity ACS Chem. Biol. 2015. 10:1404-1410.</ns1:references>
+    <ns1:references>Slusarczyk, A. L., Lin, A., Weiss, R. Foundations for the design and implementation of synthetic genetic circuits Nat. Rev. Genet. 2012. 13:406-420.</ns1:references>
+    <ns2:rights>Copyright &amp; 2017 American Chemical Society</ns2:rights>
+    <ns3:OBI_0002110 rdf:resource="https://doi.org/10.1021/acssynbio.6b00255"/>
+    <ns0:wasDerivedFrom rdf:resource="https://pubs.acs.org/doi/10.1021/acssynbio.6b00255"/>
+    <ns1:references>Chan, J., Dodani, S. C., Chang, C. J. Reaction-based small-molecule fluorescent probes for chemoselective bioimaging Nat. Chem. 2012. 4:973-984.</ns1:references>
+    <ns1:references>Bashor, C. J., Horwitz, A. A., Peisajovich, S. G., Lim, W. A. Rewiring cells: synthetic biology as a tool to interrogate the organizational principles of living systems Annu. Rev. Biophys. 2010. 39.</ns1:references>
+    <ns1:rightsHolder>American Chemical Society</ns1:rightsHolder>
+    <ns1:references>Liang, F. S., Ho, W. Q., Crabtree, G. R. Engineering the ABA plant stress pathway for regulation of induced proximity Sci. Signaling 2011. 4.</ns1:references>
+    <ns2:subject>abscisic acid</ns2:subject>
+    <ns1:references>Oshiro, S., Morioka, M. S., Kikuchi, M. Dysregulation of iron metabolism in Alzheimer&#8217;s disease, Parkinson&#8217;s disease, and amyotrophic lateral sclerosis Adv. Pharmacol. Sci. 2011. 2011.</ns1:references>
+    <ns2:creator>Huanqiu Li</ns2:creator>
+    <ns2:subject>chemically induced proximity</ns2:subject>
+    <ns1:dateCopyrighted>2017</ns1:dateCopyrighted>
+    <sbol:member rdf:resource="http://examples.org/Sequence/sb6b00255_5_sequence/1"/>
+    <ns1:references>Theil, E. C., Goss, D. J. Living with iron (and oxygen): questions and answers about iron homeostasis Chem. Rev. 2009. 109:4568-4579.</ns1:references>
+    <ns1:isPartOf rdf:resource="http://pubs.acs.org/journal/asbcd6"/>
+    <ns2:creator>Yongyi Wei</ns2:creator>
+    <ns1:references>Niwa, M., Hirayama, T., Okuda, K., Nagasawa, H. A new class of high-contrast Fe (II) selective fluorescent probes based on spirocyclized scaffolds for visualization of intracellular labile iron delivered by transferrin Org. Biomol. Chem. 2014. 12:6590-6597.</ns1:references>
+    <ns1:references>Au-Yeung, H. Y., Chan, J., Chantarojsiri, T., Chang, C. J. Molecular imaging of labile iron (II) pools in living cells with a turn-on fluorescent probe J. Am. Chem. Soc. 2013. 135:15165-15173.</ns1:references>
+    <ns1:abstract>A new synthetic biology engineering strategy integrating chemical reactivity sensing and small molecule induced protein dimerization has been developed to generate artificial Fe2+ signaling circuitry to control tailored cellular events in mammalian cells. The dual function probe ABA-FE18 (Fe2+-sensing and protein dimerization) derived from ABA was developed and used to control gene activation, signal transduction, and cytoskeletal remodeling in response to Fe2+. This technology was utilized to design signal circuitry incorporating &#8220;AND&#8221; and &#8220;OR&#8221; biologic gates that enables mammalian cells to translate different combinations of Fe2+ and H2O2 signals into predefined biological outputs.</ns1:abstract>
+    <ns1:references>Aubel, D., Fussenegger, M. Mammalian synthetic biology&#8211;from tools to therapies BioEssays 2010. 32:332-345.</ns1:references>
+    <ns1:references>Miyamoto, T., DeRose, R., Suarez, A., Ueno, T., Chen, M., Sun, T. P., Wolfgang, M. J., Mukherjee, C., Meyers, D. J., Inoue, T. Rapid and orthogonal logic gating with a gibberellin-induced dimerization system Nat. Chem. Biol. 2012. 8:465-470.</ns1:references>
+    <sbol:version>1</sbol:version>
+    <ns1:type rdf:resource="http://purl.org/dc/dcmitype/Text"/>
+    <ns1:references>Ruder, W. C., Lu, T., Collins, J. J. Synthetic biology moving into the clinic Science (Washington, DC, U. S.) 2011. 333:1248-1252.</ns1:references>
+    <ns2:subject>biosensor</ns2:subject>
+    <ns1:references>Spangler, B., Morgan, C. W., Fontaine, S. D., Vander Wal, M. N., Chang, C. J., Wells, J. A., Renslo, A. R. A reactivity-based probe of the intracellular labile ferrous iron pool Nat. Chem. Biol. 2016. 12:680-685.</ns1:references>
+    <ns2:creator>Roushu Zhang</ns2:creator>
+    <sbol:member rdf:resource="http://examples.org/Sequence/sb6b00255_3_sequence/1"/>
+    <ns1:references>Brophy, J. A., Voigt, C. A. Principles of genetic circuit design Nat. Methods 2011. 11:508-520.</ns1:references>
+  </sbol:Collection>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb6b00255_6_comp/1">
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb6b00255_6_comp"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:version>1</sbol:version>
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.6b00255"/>
+    <sbh:supplementalFile rdf:resource="file:///C:/Users/JVM/Downloads/sequence_supplementals/synbict_output/pdf"/>
+    <sbol:displayId>sb6b00255_6_comp</sbol:displayId>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb6b00255_6_sequence/1"/>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb6b00255_1_comp/1">
+    <sbol:version>1</sbol:version>
+    <sbol:displayId>sb6b00255_1_comp</sbol:displayId>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb6b00255_1_sequence/1"/>
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.6b00255"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbh:supplementalFile rdf:resource="file:///C:/Users/JVM/Downloads/sequence_supplementals/synbict_output/pdf"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb6b00255_1_comp"/>
+  </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb6b00255_5_sequence/1">
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb6b00255_5_sequence"/>
+    <sbol:version>1</sbol:version>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:displayId>sb6b00255_5_sequence</sbol:displayId>
+    <sbol:elements>ccgacaacgcgtcttatcgtcatcgtccttgta</sbol:elements>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb6b00255_3_sequence/1">
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb6b00255_3_sequence"/>
+    <sbol:elements>ccgacaacgcgtacctgatccacctccaccagatccaggattaaggtcggtgagca</sbol:elements>
+    <sbol:displayId>sb6b00255_3_sequence</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://examples.org/Sequence/sb6b00255_1_sequence/1">
+    <sbol:persistentIdentity rdf:resource="http://examples.org/Sequence/sb6b00255_1_sequence"/>
+    <sbol:version>1</sbol:version>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:displayId>sb6b00255_1_sequence</sbol:displayId>
+    <sbol:elements>ccgacaggcgcgccaccgccagcgcctcctccgctaccaccccctcctgcccccccgccggatcctccaggattaaggtcggtgagcat</sbol:elements>
+  </sbol:Sequence>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb6b00255_5_comp/1">
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb6b00255_5_sequence/1"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbh:supplementalFile rdf:resource="file:///C:/Users/JVM/Downloads/sequence_supplementals/synbict_output/pdf"/>
+    <sbol:displayId>sb6b00255_5_comp</sbol:displayId>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb6b00255_5_comp"/>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbol:version>1</sbol:version>
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.6b00255"/>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ComponentDefinition/sb6b00255_2_comp/1">
+    <ns0:wasDerivedFrom rdf:resource="https://doi.org/10.1021/acssynbio.6b00255"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:displayId>sb6b00255_2_comp</sbol:displayId>
+    <sbh:supplementalFile rdf:resource="file:///C:/Users/JVM/Downloads/sequence_supplementals/synbict_output/pdf"/>
+    <sbol:sequence rdf:resource="http://examples.org/Sequence/sb6b00255_2_sequence/1"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ComponentDefinition/sb6b00255_2_comp"/>
+    <ns0:wasGeneratedBy rdf:resource="https://synbiohub.org/public/sbksactivities/ACS_Synbio_Generation/1"/>
+    <sbol:version>1</sbol:version>
+  </sbol:ComponentDefinition>
+</rdf:RDF>
